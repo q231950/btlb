@@ -1,0 +1,56 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld items" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Medien"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld items"
+          }
+        }
+      }
+    },
+    "${int} items" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${int} Entleihungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${int} Borrowed Items"
+          }
+        }
+      }
+    },
+    "BTLB" : {
+      "comment" : "AppIntents.strings\n  BTLB\n\n  Created by Martin Kim Dung-Pham on 20.02.24.\n  Copyright © 2024 neoneon. All rights reserved.\n\n  Keep this file so that App Intents will stay localized",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

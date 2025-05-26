@@ -1,0 +1,16 @@
+# For more information about all available options run
+# fastlane action snapshot
+#
+
+devices ["iPhone 8 Plus", "iPhone 13 Pro Max", "iPad Pro (12.9-inch) (5th generation)"]
+
+languages([
+  "en-US",
+  "de-DE"
+])
+
+scheme "BTLBSnapshots"
+
+output_directory "./Screenshots"
+reinstall_app true
+clear_previous_screenshots true

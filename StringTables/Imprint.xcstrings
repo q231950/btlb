@@ -1,0 +1,946 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ABOUT_TEXT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für Dich gemacht.\n\nBTLB | bɪtlɪb | ist eine kleine App, die dein Bibliothekskonto mit deinem Gerät synchronisiert.\nDu kannst deine Gebühren/Entleihungen einsehen und Entleihungen verlängern.\nBTLB steht seit Juli 2010 im Apple App Store zum Download bereit. Das Projekt wurde etwa ein Jahr vor seiner Veröffentlichung ins Leben gerufen und ist eine iOS Fortentwicklung von BTLB für Mac.\nDu darfst BTLB nutzen wie du möchtest, jedoch kann ich keinerlei Garantie für seine Funktionstüchtigkeit geben. Ich freue mich über jeden einzelnen Nutzer und du kannst mich bei einem Defekt gerne kontaktieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Made for you.\n\nBTLB | bɪtlɪb | is a small App that enables you to synchronize your library account with your device. With BTLB you can see which books you have borrowed and how much you owe the libraries for tardily returning items. You can interact with your library as the App can prolong items with a tap of your finger.\nBTLB was first released in July 2010. The project has come into being about a year before the actual release date. It originates from a Mac application I had been working on since 2007.\n\nYou are free to use this App as much as you wish. However, I can not give any garantee for neither functionality of the App itself nor the interaction between this App and the libraries' servers."
+          }
+        }
+      }
+    },
+    "ABOUT_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit 💖 gemacht"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Made with 💖"
+          }
+        }
+      }
+    },
+    "Action_sheet_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gib Feedback"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Give feedback"
+          }
+        }
+      }
+    },
+    "APPICON_TEXT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Möchtest du das alternative App Icon aktivieren?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Would you like to use the alternate App icon?"
+          }
+        }
+      }
+    },
+    "APPICON_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Icon"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Icon"
+          }
+        }
+      }
+    },
+    "Cancel_action_sheet" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "DEBUG_ENABLED_SUBTITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellung für Entwickler und Tester"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setting for developers and Beta testers"
+          }
+        }
+      }
+    },
+    "DEBUG_ENABLED_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debugging"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debugging"
+          }
+        }
+      }
+    },
+    "DEFAULT_TEXT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hier wurde etwas vergessen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I forgot to write something here."
+          }
+        }
+      }
+    },
+    "IMPRINT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinweise"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARIES_TITLE" : {
+      "comment" : "Information about libraries",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inhalte"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contents"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_ANHALT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamtkatalog der Bibliothek der Hochschule Anhalt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamtkatalog der Bibliothek der Hochschule Anhalt"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_COMMERZ_HH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onlinekatalog der Commerzbibliothek"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onlinekatalog der Commerzbibliothek"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_ERFURT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_GOETTINGEN" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_GREIFSWALD" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitätsbibliothek Greifswald"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitätsbibliothek Greifswald"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HAMBURG" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campus-Katalog Hamburg"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campus-Katalog Hamburg"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HAMBURGPUBLIC" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stiftung Hamburger Öffentliche Bücherhallen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stiftung Hamburger Öffentliche Bücherhallen"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HANNOVER" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Technische Informationsbibliothek (TIB)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Technische Informationsbibliothek (TIB)"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HANNOVER_FH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamt-Katalog der Bibliothek"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamt-Katalog der Bibliothek"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HAW" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katalog des Hochschulinformations- und Bibliotheksservice (HIBS)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katalog des Hochschulinformations- und Bibliotheksservice (HIBS)"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HILDESHEIM" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitätsbibliothek Hildesheim"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitätsbibliothek Hildesheim"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HKSF" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemeinsame Bibliothek der Hochschule Hannover und der Hochschule für Musik, Theater und Medien Hannover"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemeinsame Bibliothek der Hochschule Hannover und der Hochschule für Musik, Theater und Medien Hannover"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HSU" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_ROSTOCK" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regional Katalog"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regional Katalog"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_TUHH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücher und Zeitschriften der Universitätsbibliothek der TUHH"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücher und Zeitschriften der Universitätsbibliothek der TUHH"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_WISMAR" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Hochschulbibliothek"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Hochschulbibliothek"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_ANHALT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_COMMERZ_HH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek Hamburg"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek Hamburg"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_ERFURT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_GOETTINGEN" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göttinger Universitätskatalog (GUK)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göttinger Universitätskatalog (GUK)"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_GREIFSWALD" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Greifswald"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Greifswald"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HAMBURG" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HAMBURGPUBLIC" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücherhallen Hamburg"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücherhallen Hamburg"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HANNOVER" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leibniz Universität Hannover"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leibniz Universität Hannover"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HAW" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HFHH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HILDESHEIM" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Hildesheim"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Hildesheim"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HKSF" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothek im Kurt-Schwitters-Forum"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothek im Kurt-Schwitters-Forum"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HSU" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_ROSTOCK" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Rostock"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Rostock"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_TUHH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_WISMAR" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
+          }
+        }
+      }
+    },
+    "LATEST_ACCOUNT_UPDATE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die letze erfolgreiche Kontoaktualisierung im Hintergrund erfolgte am %@."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The last successful account background update happeened on %@."
+          }
+        }
+      }
+    },
+    "LIBRARIES_TEXT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einige Bibliotheken sind leider in der Funktionalität eingeschränkt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Some libraries only support a limited feature set."
+          }
+        }
+      }
+    },
+    "LIBRARIES_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliotheken"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Libraries"
+          }
+        }
+      }
+    },
+    "NOTIFICATIONS_TEXT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erhalte stumme Mitteilungen bei erfolgreicher Aktualisierung der Bibliothekskonten im Hintergrund."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Receive a silently delivered notification in Notification Center upon successful account updates in the background"
+          }
+        }
+      }
+    },
+    "NOTIFICATIONS_TITLE" : {
+      "comment" : "*\n Push Settings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
+          }
+        }
+      }
+    },
+    "PRIVACY_POLICY_TEXT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese App loggt keine Daten und keine deiner persönlichen Informationen werden an Dritte weitergegeben. Dein Nutzungsverhalten der App wird nicht getrackt.\n\nDrittanbieter Services: Google Image API für die Anzeige von Buch Covern in der Detailanzeige von Suchergebnissen der GBV Bibliotheken."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This app does not log or share any of your personal information. Your usage is not being tracked.\n\nThirdparty services: Google Image API for displaying covers in search result details of GBV libraries."
+          }
+        }
+      }
+    },
+    "PRIVACY_POLICY_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinweis zum Datenschutz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
+          }
+        }
+      }
+    },
+    "Rate_app_request" : {
+      "comment" : "*\n Actionsheet in imprint view",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App bewerten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rate this app"
+          }
+        }
+      }
+    },
+    "Recommend_app_request" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empfehlen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommend to friend"
+          }
+        }
+      }
+    },
+    "SECURITY_TEXT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte beachte, dass Daten zu den Bibliotheksservern mit dem HTTPS Verfahren verschlüsselt kommuniziert werden, falls die betreffenden Server dies unterstützen. Solltest du feststellen, dass eine Übertragung nicht per HTTPS erfolgt, obwohl dies serverseitig unterstützt wird, dann benachrichtige mich bitte."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please note that data transfers will be sent via HyperText Transfer Protocol Secure (HTTPS) as long as your account's library does support this type of encrypted communication. If you happen to see a missing HTTPS encryption where HTTPS encrypted communication should be possible on the serverside please contact me."
+          }
+        }
+      }
+    },
+    "SECURITY_TITLE" : {
+      "comment" : "*\n Security notes",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sicherheitshinweis"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note on security"
+          }
+        }
+      }
+    },
+    "Title" : {
+      "comment" : "Imprint.strings\n EDsync\n \n Created by Martin Kim Dung-Pham on 1/16/11.\n Copyright 2011 neoneon. All rights reserved.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informationen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Information"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

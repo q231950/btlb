@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "E67454DA-A263-42A1-9784-359D2F919198",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Accounts",
+        "identifier" : "AccountsTests",
+        "name" : "AccountsTests"
+      }
+    }
+  ],
+  "version" : 1
+}

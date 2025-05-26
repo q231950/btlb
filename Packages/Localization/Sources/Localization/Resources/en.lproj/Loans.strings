@@ -1,0 +1,16 @@
+/* 
+  Loans.strings
+  
+
+  Created by Martin Kim Dung-Pham on 15.04.23.
+  
+*/
+"notification item expires today description text" = "The item expires today – time to act.";
+"notification item expires tomorrow description text" = "The item will expire tomorrow. You'll be notified.";
+"notification trigger date description text" = "You'll receive a reminder about this item's expiration on %@.";
+"notification trigger expired item" = "This item has expired. You'll be reminded on %@.";
+"accessibility bookmark" = "bookmark";
+"accessibility unbookmark" = "remove bookmark";
+"accessibility renew" = "renew";
+"accessibility not renewable" = "not renewable";
+"accessibility renewed" = "renewed";

@@ -1,0 +1,26 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Currently Search supports libraries of _Stiftung Hamburger Öffentliche Bücherhallen_ and _Gemeinsamer Bibliotheksverbund_. Please select the library to search in." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Derzeit unterstützt die Suche die Bibliotheken der _Stiftung Öffentliche Bücherhallen Hamburg_ und viele Bibliotheken des _Gemeinsamer Bibliotheksverbund_. Wähle die Bibliothek in welcher gesucht werden soll aus."
+          }
+        }
+      }
+    },
+    "Currently you can login to libraries of _Stiftung Hamburger Öffentliche Bücherhallen_ and _Gemeinsamer Bibliotheksverbund_. Please select the library to login to." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Derzeit unterstützt die Suche die Bibliotheken der _Stiftung Öffentliche Bücherhallen Hamburg_ und viele Bibliotheken des _Gemeinsamer Bibliotheksverbund_. Wähle deine Bibliothek aus."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

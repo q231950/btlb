@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24D81" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="1">
+    <entity name="Account" representedClassName="EDAccount" syncable="YES" codeGenerationType="class">
+        <attribute name="accountAvatar" optional="YES" attributeType="String"/>
+        <attribute name="accountCreationDate" optional="YES" attributeType="Date" usesScalarValueType="NO">
+            <userInfo>
+                <entry key="accountCreationDate" value="erstellt am"/>
+            </userInfo>
+        </attribute>
+        <attribute name="accountLastUpdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="accountName" optional="YES" attributeType="String" defaultValueString="new Account">
+            <userInfo>
+                <entry key="accountName" value="Name"/>
+            </userInfo>
+        </attribute>
+        <attribute name="accountType" optional="YES" attributeType="String" defaultValueString="Hamburg">
+            <userInfo>
+                <entry key="accountType" value="SUB"/>
+            </userInfo>
+        </attribute>
+        <attribute name="accountTypeName" optional="YES" attributeType="String" defaultValueString="undefined library type"/>
+        <attribute name="accountUserID" optional="YES" attributeType="String">
+            <userInfo>
+                <entry key="accountUserID" value="AusweisNr"/>
+            </userInfo>
+        </attribute>
+        <attribute name="activated" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO"/>
+        <attribute name="calendarTitle" optional="YES" attributeType="String"/>
+        <attribute name="calendarUID" optional="YES" attributeType="String"/>
+        <attribute name="displayName" optional="YES" attributeType="String"/>
+        <attribute name="loansEverLoanedCount" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="loginSuccess" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO"/>
+        <relationship name="accountLibrary" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Library" inverseName="libraryAccounts" inverseEntity="Library"/>
+        <relationship name="charges" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Charge" inverseName="chargeAccount" inverseEntity="Charge"/>
+        <relationship name="loans" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Loan" inverseName="loanAccount" inverseEntity="Loan"/>
+        <fetchIndex name="byAccountLibraryIndex">
+            <fetchIndexElement property="accountLibrary" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byChargesIndex">
+            <fetchIndexElement property="charges" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLoansIndex">
+            <fetchIndexElement property="loans" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Address" representedClassName="Address" syncable="YES" codeGenerationType="class">
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="number" optional="YES" attributeType="String"/>
+        <attribute name="street" optional="YES" attributeType="String"/>
+        <attribute name="zip" optional="YES" attributeType="String"/>
+        <relationship name="sublibrary" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SubLibrary" inverseName="address" inverseEntity="SubLibrary"/>
+        <fetchIndex name="bySublibraryIndex">
+            <fetchIndexElement property="sublibrary" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Charge" representedClassName="Charge" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="chargeDescription" optional="YES" attributeType="String" defaultValueString="no description"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="chargeAccount" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="charges" inverseEntity="Account"/>
+        <fetchIndex name="byChargeAccountIndex">
+            <fetchIndexElement property="chargeAccount" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="EDHistoryObject" representedClassName="HistoryObject" syncable="YES">
+        <attribute name="barcode" optional="YES" attributeType="String" defaultValueString="000000"/>
+        <attribute name="completeCycle" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EDItem" representedClassName="EDItem" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="barcode" optional="YES" attributeType="String"/>
+        <attribute name="createdOn" optional="YES" attributeType="Date" defaultDateTimeInterval="0" usesScalarValueType="NO"/>
+        <attribute name="identifier" optional="YES" attributeType="String"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary"/>
+        <attribute name="imageURL" optional="YES" attributeType="String"/>
+        <attribute name="isbn" optional="YES" attributeType="String"/>
+        <attribute name="libraryIdentifier" optional="YES" attributeType="String"/>
+        <attribute name="noteData" optional="YES" attributeType="Binary"/>
+        <attribute name="shelfmark" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="infoPair" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="InfoPair" inverseName="item" inverseEntity="InfoPair"/>
+        <relationship name="loan" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Loan" inverseName="favourite" inverseEntity="Loan"/>
+        <fetchIndex name="byInfoPairIndex">
+            <fetchIndexElement property="infoPair" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLoanIndex">
+            <fetchIndexElement property="loan" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="EDProxyObject" representedClassName="EDProxyObject" syncable="YES" codeGenerationType="class">
+        <attribute name="active" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO"/>
+        <attribute name="port" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="ssid" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="InfoPair" representedClassName="InfoPair" syncable="YES" codeGenerationType="class">
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="String"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EDItem" inverseName="infoPair" inverseEntity="EDItem"/>
+        <relationship name="loan" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Loan" inverseName="infoPair" inverseEntity="Loan"/>
+        <fetchIndex name="byItemIndex">
+            <fetchIndexElement property="item" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLoanIndex">
+            <fetchIndexElement property="loan" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Library" representedClassName="Library" syncable="YES" codeGenerationType="class">
+        <attribute name="baseURL" optional="YES" attributeType="String"/>
+        <attribute name="catalogueBaseString" optional="YES" attributeType="String"/>
+        <attribute name="catalogueBaseStringXML" optional="YES" attributeType="String"/>
+        <attribute name="catalogueLogo" optional="YES" attributeType="Binary"/>
+        <attribute name="catalogueStringEncoding" optional="YES" attributeType="Integer 16" defaultValueString="4" usesScalarValueType="NO"/>
+        <attribute name="chargesConnectionString" optional="YES" attributeType="String"/>
+        <attribute name="identifier" optional="YES" attributeType="String" defaultValueString="UNKNOWN"/>
+        <attribute name="loansConnectionString" optional="YES" attributeType="String"/>
+        <attribute name="loginConnectionString" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="ppnSearchString" optional="YES" attributeType="String"/>
+        <attribute name="prolongConnectionString" optional="YES" attributeType="String"/>
+        <attribute name="renewalsConnectionString" optional="YES" attributeType="String"/>
+        <attribute name="searchAllString" optional="YES" attributeType="String"/>
+        <attribute name="searchBaseString" optional="YES" attributeType="String"/>
+        <attribute name="searchDetailStringFull" optional="YES" attributeType="String"/>
+        <attribute name="searchPageString" optional="YES" attributeType="String"/>
+        <attribute name="searchSortString" optional="YES" attributeType="String"/>
+        <attribute name="serviceAvailability" optional="YES" attributeType="String"/>
+        <attribute name="subtitle" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="userinfoConnectionString" optional="YES" attributeType="String"/>
+        <attribute name="version" optional="YES" attributeType="Float" defaultValueString="1" usesScalarValueType="NO"/>
+        <relationship name="libraryAccounts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Account" inverseName="accountLibrary" inverseEntity="Account"/>
+        <relationship name="libraryLoans" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Loan" inverseName="loanLibrary" inverseEntity="Loan"/>
+        <relationship name="sublibraries" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SubLibrary" inverseName="library" inverseEntity="SubLibrary"/>
+        <fetchIndex name="byLibraryAccountsIndex">
+            <fetchIndexElement property="libraryAccounts" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLibraryLoansIndex">
+            <fetchIndexElement property="libraryLoans" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySublibrariesIndex">
+            <fetchIndexElement property="sublibraries" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Loan" representedClassName="Loan" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="calendarUID" optional="YES" attributeType="String"/>
+        <attribute name="createdOn" optional="YES" attributeType="Date" defaultDateTimeInterval="0" usesScalarValueType="NO"/>
+        <attribute name="isLoaned" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO"/>
+        <attribute name="isManual" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO"/>
+        <attribute name="loanBarcode" optional="YES" attributeType="String" defaultValueString="000000"/>
+        <attribute name="loanCanRenew" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="loanExpectedReturnDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="loanExpiryDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="loanIconUrl" optional="YES" attributeType="String"/>
+        <attribute name="loanIsFavourite" optional="YES" attributeType="Boolean" usesScalarValueType="NO"/>
+        <attribute name="loanLockedByPreorder" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="loanNotificationScheduledDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="loanNotificationSnoozed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="loanNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="loanRating" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="loanRenewalToken" optional="YES" attributeType="String"/>
+        <attribute name="loanSignature" optional="YES" attributeType="String"/>
+        <attribute name="loanStatus" optional="YES" attributeType="String"/>
+        <attribute name="loanTimesProlonged" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="loanTitle" optional="YES" attributeType="String"/>
+        <attribute name="loanVolume" optional="YES" attributeType="String" defaultValueString="kein Band"/>
+        <relationship name="favourite" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="EDItem" inverseName="loan" inverseEntity="EDItem"/>
+        <relationship name="infoPair" toMany="YES" deletionRule="Nullify" destinationEntity="InfoPair" inverseName="loan" inverseEntity="InfoPair"/>
+        <relationship name="loanAccount" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="loans" inverseEntity="Account"/>
+        <relationship name="loanLibrary" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Library" inverseName="libraryLoans" inverseEntity="Library"/>
+        <relationship name="sublibrary" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SubLibrary" inverseName="xmedia" inverseEntity="SubLibrary"/>
+        <fetchIndex name="byFavouriteIndex">
+            <fetchIndexElement property="favourite" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byInfoPairIndex">
+            <fetchIndexElement property="infoPair" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLoanAccountIndex">
+            <fetchIndexElement property="loanAccount" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLoanLibraryIndex">
+            <fetchIndexElement property="loanLibrary" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySublibraryIndex">
+            <fetchIndexElement property="sublibrary" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES" codeGenerationType="class">
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO"/>
+        <relationship name="sublibrary" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SubLibrary" inverseName="location" inverseEntity="SubLibrary"/>
+        <fetchIndex name="bySublibraryIndex">
+            <fetchIndexElement property="sublibrary" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="OpeningTimes" representedClassName="OpeningTimes" syncable="YES" codeGenerationType="class">
+        <attribute name="friday" optional="YES" attributeType="String"/>
+        <attribute name="monday" optional="YES" attributeType="String"/>
+        <attribute name="saturday" optional="YES" attributeType="String"/>
+        <attribute name="sunday" optional="YES" attributeType="String"/>
+        <attribute name="thursday" optional="YES" attributeType="String"/>
+        <attribute name="tuesday" optional="YES" attributeType="String"/>
+        <attribute name="wednesday" optional="YES" attributeType="String"/>
+        <relationship name="sublibrary" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SubLibrary" inverseName="openingtimes" inverseEntity="SubLibrary"/>
+        <fetchIndex name="bySublibraryIndex">
+            <fetchIndexElement property="sublibrary" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="PhoneNumber" representedClassName=".PhoneNumber" syncable="YES" codeGenerationType="class">
+        <attribute name="identifier" optional="YES" attributeType="String"/>
+        <attribute name="number" optional="YES" attributeType="String"/>
+        <relationship name="sublibrary" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SubLibrary" inverseName="phonenumbers" inverseEntity="SubLibrary"/>
+        <fetchIndex name="bySublibraryIndex">
+            <fetchIndexElement property="sublibrary" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="SubLibrary" representedClassName="SubLibrary" syncable="YES" codeGenerationType="class">
+        <attribute name="abbreviation" optional="YES" attributeType="String"/>
+        <attribute name="addressString" optional="YES" attributeType="String"/>
+        <attribute name="catalogues" optional="YES" attributeType="String"/>
+        <attribute name="catalogueUrl" optional="YES" attributeType="String"/>
+        <attribute name="copierAvailability" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="googleMapsUrl" optional="YES" attributeType="String"/>
+        <attribute name="identifier" optional="YES" attributeType="String"/>
+        <attribute name="inventory" optional="YES" attributeType="String"/>
+        <attribute name="libraryDomain" optional="YES" attributeType="String"/>
+        <attribute name="libraryKind" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="openingTimesString" optional="YES" attributeType="String"/>
+        <attribute name="readers" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="userDomain" optional="YES" attributeType="String"/>
+        <attribute name="version" optional="YES" attributeType="Float" defaultValueString="1" usesScalarValueType="NO"/>
+        <relationship name="address" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Address" inverseName="sublibrary" inverseEntity="Address"/>
+        <relationship name="library" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Library" inverseName="sublibraries" inverseEntity="Library"/>
+        <relationship name="location" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="sublibrary" inverseEntity="Location"/>
+        <relationship name="openingtimes" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="OpeningTimes" inverseName="sublibrary" inverseEntity="OpeningTimes"/>
+        <relationship name="phonenumbers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PhoneNumber" inverseName="sublibrary" inverseEntity="PhoneNumber"/>
+        <relationship name="xmedia" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Loan" inverseName="sublibrary" inverseEntity="Loan"/>
+        <fetchIndex name="byAddressIndex">
+            <fetchIndexElement property="address" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLibraryIndex">
+            <fetchIndexElement property="library" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLocationIndex">
+            <fetchIndexElement property="location" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMediaIndex">
+            <fetchIndexElement property="xmedia" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byOpeningtimesIndex">
+            <fetchIndexElement property="openingtimes" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPhonenumbersIndex">
+            <fetchIndexElement property="phonenumbers" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+</model>

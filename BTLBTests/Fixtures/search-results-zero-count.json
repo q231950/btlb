@@ -1,0 +1,17 @@
+{
+    "responseHeader": {
+        "status": 0,
+        "QTime": 0,
+        "params": {
+            "q": "asdhaskjdhlaksdhkasdh",
+            "start": "1",
+            "sort": "DateOfPublication desc,DateOfAcquisition desc,id desc",
+            "wt": "json"
+        }
+    },
+    "response": {
+        "numFound": 0,
+        "start": 1,
+        "docs": []
+    }
+}

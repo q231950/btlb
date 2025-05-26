@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <CheckBorrowerResponse xmlns="http://bibliomondo.com/websevices/webuser">
+            <CheckBorrowerResult>
+                <userId>123456789</userId>
+                <record>
+                    <CheckBorrowerResult xmlns="http://bibliomondo.com/webservices/webuser">
+                        <IgnorePin>0</IgnorePin>
+                        <WantUserDetails>0</WantUserDetails>
+                        <Brwr>A11 111 111 1</Brwr>
+                        <Pin>1111</Pin>
+                        <IsEncrypted>0</IsEncrypted>
+                        <TapNo>0</TapNo>
+                        <LRB>Ok</LRB>
+                        <Validated>1</Validated>
+                        <IsInvalidBrwrNum>0</IsInvalidBrwrNum>
+                        <Category>24</Category>
+                        <CategoryCode>LE</CategoryCode>
+                        <UserId>870062</UserId>
+                        <FSK>18</FSK>
+                        <Status>Active</Status>
+                        <TrapType></TrapType>
+                        <sessionId xmlns="">3851B8E297C92015FBE3EB3A72D7687B</sessionId>
+                    </CheckBorrowerResult>
+                </record>
+            </CheckBorrowerResult>
+        </CheckBorrowerResponse>
+    </soap:Body>
+</soap:Envelope>

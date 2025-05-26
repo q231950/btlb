@@ -1,0 +1,177 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Give_Feedback_Later_Action_Title" : {
+      "comment" : "Recommend.strings\n   BTLB\n\n   Created by Martin Kim Dung-Pham on 1/30/11.\n   Copyright 2011 neoneon. All rights reserved.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Später"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Later"
+          }
+        }
+      }
+    },
+    "Recommend_App_Action_Unavailable_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für eine Empfehlung ist ein funktionstüchtiges Emailkonto erforderlich."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A working email is required for recommendation."
+          }
+        }
+      }
+    },
+    "Recommend_App_Action_Unavailable_Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empfehlung nicht verfügbar"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommendation not available"
+          }
+        }
+      }
+    },
+    "Recommend_App_Email_Body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<p>BTLB ist deine App für deine Bibliothek. BTLB synchronisiert dein Bibliothekskonto mit deinem Apple device. Bücher verlängern mit nur einem Tap. Tap, tap - bam! Außerdem kannst du in der Bibliothek nach Medien suchen und Lesezeichen setzen.<br>Schau mal <a href=\"http://itunes.apple.com/de/app/BTLB/id383008918?mt=8\">BTLB bei iTunes</a> an.</p>"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<p>BTLB is a truly useful app. It syncs your library account with your Apple device. <br>Have a look at <a href=\"http://itunes.apple.com/en/app/BTLB/id383008918?mt=8\">BTLB on iTunes</a>.</p>"
+          }
+        }
+      }
+    },
+    "Recommend_App_Email_Subject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mit 💖 gemacht"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "made with 💖"
+          }
+        }
+      }
+    },
+    "Recommend_App_Thanks_Alert_Cancel_Button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        }
+      }
+    },
+    "Recommend_App_Thanks_Alert_Later_Message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natürlich, du bist gerade sehr beschäftigt. Studium, Arbeit und so. Empfehle BTLB, wann immer es dir beliebt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Of course, you're busy right now. Reading books? You may recommend BTLB at any time."
+          }
+        }
+      }
+    },
+    "Recommend_App_Thanks_Alert_Later_Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Später vielleicht"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Later maybe"
+          }
+        }
+      }
+    },
+    "Recommend_App_Thanks_Alert_Message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich hoffe, du hast weiterhin Spaß an BTLB"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I hope you & your friends will enjoy BTLB"
+          }
+        }
+      }
+    },
+    "Recommend_App_Thanks_Alert_Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Danke!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thank you!"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,16 @@
+/* 
+  Loans.strings
+  
+
+  Created by Martin Kim Dung-Pham on 15.04.23.
+  
+*/
+"notification item expires today description text" = "Die Leihfrist endet heute – Zeit zu handeln.";
+"notification item expires tomorrow description text" = "Morgen ist das Leihfristende erreicht. Du wirst dann eine Erinnerung erhalten.";
+"notification trigger date description text" = "Du erhältst am %@ eine Erinnerung über das Leihfristende.";
+"notification trigger expired item" = "Die Leihfrist dieses Mediums ist abgelaufen. Du wirst am %@ erneut darauf hingewiesen.";
+"accessibility bookmark" = "Lesezeichen hinzufügen";
+"accessibility unbookmark" = "Lesezeichen entfernen";
+"accessibility renew" = "verlängern";
+"accessibility not renewable" = "nicht verlängerbar";
+"accessibility renewed" = "verlängert";

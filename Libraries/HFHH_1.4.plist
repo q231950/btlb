@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HFHH</key>
+	<dict>
+		<key>libraryType</key>
+		<integer>1</integer>
+		<key>sublibraries</key>
+		<array>
+			<dict>
+				<key>abbreviation</key>
+				<string>DEFAULT</string>
+				<key>identifier</key>
+				<string>DEFAULT</string>
+				<key>version</key>
+				<real>1.1</real>
+			</dict>
+		</array>
+		<key>serviceAvailability</key>
+		<string>https://opac.tib.uni-hannover.de/loan/DB=4/LNG=DU/USERINFO_LOGIN?</string>
+		<key>chargesConnectionString</key>
+		<string>https://opac.tib.uni-hannover.de/loan/DB=4/LNG=DU/USERINFO?ACT=UI_LOC</string>
+		<key>catalogueBaseString</key>
+		<string>https://opac.tib.uni-hannover.de/DB=4/CMD?</string>
+		<key>version</key>
+		<real>1.4</real>
+		<key>userinfoConnectionString</key>
+		<string>https://opac.tib.uni-hannover.de/loan/DB=4/LNG=DU/USERINFO?ACT=UI_DATA</string>
+		<key>name</key>
+		<string>Hannover - Fachhochschule</string>
+		<key>loginConnectionString</key>
+		<string>https://opac.tib.uni-hannover.de/loan/DB=4/USERINFO?ACT=UI_DATA</string>
+		<key>renewalsConnectionString</key>
+		<string>https://opac.tib.uni-hannover.de/php/nr_renewals.php?</string>
+		<key>identifier</key>
+		<string>HFHH</string>
+		<key>loansConnectionString</key>
+		<string>https://opac.tib.uni-hannover.de/loan/DB=4/LNG=DU/USERINFO?ACT=UI_LOL</string>
+		<key>searchPageString</key>
+		<string>&amp;NXT?FRST=</string>
+		<key>subtitle</key>
+		<string>Bibliothek der Fachhochschule Hannover</string>
+		<key>prolongConnectionString</key>
+		<string>https://opac.tib.uni-hannover.de:443/loan/DB=4/USERINFO?ACT=UI_RENEWLOAN</string>
+		<key>catalogueBaseStringXML</key>
+		<string>https://opac.tib.uni-hannover.de/DB=4/XML=1.0/CMD?</string>
+		<key>ppnSearchString</key>
+		<string>&amp;IKT=12</string>
+		<key>searchDetailStringFull</key>
+		<string>https://opac.tib.uni-hannover.de/XML=1.0/SHW?FRST=</string>
+		<key>searchALLstring</key>
+		<string>A</string>
+		<key>searchBaseString</key>
+		<string>&amp;ACT=SRCH</string>
+		<key>catalogueStringEncoding</key>
+		<integer>4</integer>
+		<key>searchSortString</key>
+		<string>&amp;SRT=YOP</string>
+	</dict>
+</dict>
+</plist>

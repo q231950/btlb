@@ -1,0 +1,36 @@
+/* 
+   Accessibles.strings
+   EDsync
+
+   Created by Martin Kim Dung-Pham on 1/20/11.
+   Copyright 2011 Elbedev. All rights reserved.
+   
+   Localized strings for VoiceOver accessibility feature.
+   
+ */
+// Accessibliity of summary view
+"Imprint" = "Impressum";
+"Imprint_Hint" = "Displays imprint";
+"Update" = "Update";
+"Update_Hint" = "Updates loans";
+
+// Accessibliity of loans view
+"List_of_loans" = "List of loans";
+"List_of_loans_hint" = "Displaying %1$i loans of %2$i accounts";
+
+// Accessibliity of loan detail view
+"Action_Loan" = "Action";
+"Action_Loan_Hint" = "Interact with this loan";
+
+// Accessibility of account detail view
+"Edit_account_button_s1" = "Edit";
+"Edit_account_button_hint_s1" = "Edits account settings";
+"Edit_account_button_s2" = "Done";
+"Edit_account_button_hint_s2" = "Done editing this account";
+
+// Accessibility of imprint view
+"Rate_or_recommend_action_button_Hint" = "Rate or recommend by email";
+
+// Accessibility of search
+"Set_Search_Catalogue" = "Set search catalogue";
+"Set_Search_Catalogue_Hint" = "Set the catalogue to search in";

@@ -1,0 +1,96 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    " %@" : {
+      "shouldTranslate" : false
+    },
+    "**%llu**" : {
+      "shouldTranslate" : false
+    },
+    "%@" : {
+      "shouldTranslate" : false
+    },
+    "%llu" : {
+      "shouldTranslate" : false
+    },
+    "• %@" : {
+      "shouldTranslate" : false
+    },
+    "An error occurred!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es ist ein Fehler aufgetreten!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An error occurred!"
+          }
+        }
+      }
+    },
+    "Dismiss error" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verstanden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alright"
+          }
+        }
+      }
+    },
+    "Muliple errors occurred!" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es sind Fehler aufgetreten!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Errors have occurred!"
+          }
+        }
+      }
+    },
+    "The network request has failed." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Netzwerkverbindung ist fehlgeschlagen."
+          }
+        }
+      }
+    },
+    "The requested functionality is not yet implemented for the library type of the account with the username: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die angeforderte Funktionalität ist noch nicht für das Bibliotheksystem des Kontos mit dem Benutzernamen “%@” implementiert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The requested functionality is not yet implemented for the library system of the account with the username “%@”."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

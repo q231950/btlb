@@ -1,0 +1,1036 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "**%@**" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**%@**"
+          }
+        }
+      }
+    },
+    "ABOUT_TEXT" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB | bɪtlɪb | ist eine kleine App, die dein Bibliothekskonto mit deinem Gerät synchronisiert.\nDu kannst deine Gebühren/Entleihungen einsehen und Entleihungen verlängern.\nBTLB steht seit Juli 2010 im Apple App Store zum Download bereit. Das Projekt wurde etwa ein Jahr vor seiner Veröffentlichung ins Leben gerufen und ist eine iOS Fortentwicklung von BTLB für Mac.\nDu darfst BTLB nutzen wie du möchtest, jedoch kann ich keinerlei Garantie für seine Funktionstüchtigkeit geben. Ich freue mich über jeden einzelnen Nutzer und du kannst mich bei einem Defekt gerne kontaktieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB | bɪtlɪb | is a small App that enables you to synchronize your library account with your device. With BTLB you can see which books you have borrowed and how much you owe the libraries for tardily returning items. You can interact with your library as the App can prolong items with a tap of your finger.\nBTLB was first released in July 2010. The project has come into being about a year before the actual release date. It originates from a Mac application I had been working on since 2007.\n\nYou are free to use this App as much as you wish. However, I can not give any garantee for neither functionality of the App itself nor the interaction between this App and the libraries' servers."
+          }
+        }
+      }
+    },
+    "ABOUT_TITLE" : {
+      "comment" : "Localizable.strings\n  \n\n  Created by Martin Kim Dung-Pham on 06.05.23.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Mit 💖 gemacht – für dich gemacht.**"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Made with 💖 – made for you.**"
+          }
+        }
+      }
+    },
+    "APPICON_TEXT" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Möchtest du das alternative App Icon aktivieren?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Would you like to use the alternate App icon?"
+          }
+        }
+      }
+    },
+    "APPICON_TITLE" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Icon"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Icon"
+          }
+        }
+      }
+    },
+    "DEBUG_ENABLED_SUBTITLE" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellung für Entwickler und Tester"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setting for developers and Beta testers"
+          }
+        }
+      }
+    },
+    "DEBUG_ENABLED_TITLE" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debugging"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debugging"
+          }
+        }
+      }
+    },
+    "GIT_INFO_TITLE" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Git Info"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Git Info"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARIES_TEXT" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB ist bloß eine dünne Hülle, um den mobilen Zugang zu Stiftung Hamburger Öffentliche Bücherhallen und den Gemeinsamen Bibliotheksverbund (GBV) der Länder Bremen, Hamburg, Mecklenburg-Vorpommern, Niedersachsen, Sachsen-Anhalt, Schleswig-Holstein, Thüringen und der Stiftung Preußischer Kulturbesitz auf annehmlicher zu gestalten. Falls dir BTLB gefällt, dann gebührt die wahre Ruhm und Ehre den Bibliotheken, welche die Inhalte, die du mit BTLB einsehen kannst, mit viel Aufwand und Liebe pflegen. _Ohne die Bibliotheken wäre BTLB eine leere Hülle, es ist das Herz der Bibliotheken, welches BTLB mit Leben füllt._"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB is a mere hull around the Stiftung Hamburger Öffentliche Bücherhallen and the Common Library Network (GBV) of the German States Bremen, Hamburg, Mecklenburg-Vorpommern, Lower Saxony, Saxony-Anhalt, Schleswig-Holstein, Thuringia and the Foundation of Prussian Cultural Heritage to make their contents more accessible on mobile. If you like BTLB it is the libraries that you truly owe since they are the caretakers of the contents that you see in BTLB. _Without their efforts and passion, BTLB would be an empty hull - it is the libraries which fill it with life_"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARIES_TITLE" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inhalte"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contents"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_ANHALT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamtkatalog der Bibliothek der Hochschule Anhalt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamtkatalog der Bibliothek der Hochschule Anhalt"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_COMMERZ_HH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onlinekatalog der Commerzbibliothek"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onlinekatalog der Commerzbibliothek"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_ERFURT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_GOETTINGEN" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_GREIFSWALD" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitätsbibliothek Greifswald"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitätsbibliothek Greifswald"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HAMBURG" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campus-Katalog Hamburg"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campus-Katalog Hamburg"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HAMBURGPUBLIC" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stiftung Hamburger Öffentliche Bücherhallen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stiftung Hamburger Öffentliche Bücherhallen"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HANNOVER" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Technische Informationsbibliothek (TIB)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Technische Informationsbibliothek (TIB)"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HANNOVER_FH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamt-Katalog der Bibliothek"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamt-Katalog der Bibliothek"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HAW" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katalog des Hochschulinformations- und Bibliotheksservice (HIBS)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katalog des Hochschulinformations- und Bibliotheksservice (HIBS)"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HILDESHEIM" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitätsbibliothek Hildesheim"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Universitätsbibliothek Hildesheim"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HKSF" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemeinsame Bibliothek der Hochschule Hannover und der Hochschule für Musik, Theater und Medien Hannover"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemeinsame Bibliothek der Hochschule Hannover und der Hochschule für Musik, Theater und Medien Hannover"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_HSU" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_ROSTOCK" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regional Katalog"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regional Katalog"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_TUHH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücher und Zeitschriften der Universitätsbibliothek der TUHH"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücher und Zeitschriften der Universitätsbibliothek der TUHH"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TEXT_WISMAR" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Hochschulbibliothek"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online-Katalog der Hochschulbibliothek"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_ANHALT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_COMMERZ_HH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek Hamburg"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek Hamburg"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_ERFURT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_GOETTINGEN" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göttinger Universitätskatalog (GUK)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göttinger Universitätskatalog (GUK)"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_GREIFSWALD" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Greifswald"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Greifswald"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HAMBURG" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HAMBURGPUBLIC" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücherhallen Hamburg"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücherhallen Hamburg"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HANNOVER" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leibniz Universität Hannover"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leibniz Universität Hannover"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HAW" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HFHH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HILDESHEIM" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Hildesheim"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Hildesheim"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HKSF" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothek im Kurt-Schwitters-Forum"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothek im Kurt-Schwitters-Forum"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_HSU" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_ROSTOCK" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Rostock"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Rostock"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_TUHH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
+          }
+        }
+      }
+    },
+    "INFO_VIEW_LIBRARY_TITLE_WISMAR" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
+          }
+        }
+      }
+    },
+    "latest account update date never" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast deine Konten noch nie manuell aktualisiert. Ziehe die Entleihungen oder die Gebühren Ansicht nach unten um eine Aktualisierung anzustoßen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You have never updated your accounts manually. Pull to refresh in the loans or the charges section of the app to trigger an update."
+          }
+        }
+      }
+    },
+    "LATEST_ACCOUNT_UPDATE_AUTOMATIC_NEVER" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Konten wurden noch nie im Hintergrund aktualisiert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your accounts have never been updated in the background."
+          }
+        }
+      }
+    },
+    "LIBRARIES_TEXT" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Derzeit werden die Bibliotheken der Stiftung Hamburger Öffentliche Bücherhallen und weitere im Gemeinsamen Bibliotheksverbundes (GBV) unterstützt. Bitte komme in Kontakt falls du deine Bibliothek ebenfalls mit BTLB nutzen möchtest und diese nicht gelistet ist."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The libraries of Stiftung Hamburger Öffentliche Bücherhallen and many of the Common Library Network (GBV) are supported at this moment. Please get in touch if you’d like your library to be added."
+          }
+        }
+      }
+    },
+    "LIBRARIES_TITLE" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unterstützte Bibliotheken"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supported Libraries"
+          }
+        }
+      }
+    },
+    "NOTIFICATION_ACCOUNT_LAST_AUTOMATIC_UPDATE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die letzte automatische Aktualisierung erfolgte am %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The last automatic background update happened on %@"
+          }
+        }
+      }
+    },
+    "NOTIFICATION_DESCRIPTION_ACCOUNT_UPDATE" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erhalte eine Benachrichtigung bei automatischen Aktualisierungen der Konten während sich die App im Hintergrund befindet."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Receive notifications about automatic account updates that happened while the app was in background."
+          }
+        }
+      }
+    },
+    "NOTIFICATION_TIME_TEXT" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie viele Tage vor Ablauf einer Leihfrist soll an die Rückgabe/Verlängerung erinnert werden?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How many days prior to an item's expiration would you like to get notified?"
+          }
+        }
+      }
+    },
+    "NOTIFICATION_TIME_TITLE" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungszeitpunkt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notification Time"
+          }
+        }
+      }
+    },
+    "NOTIFICATION_TITLE_ACCOUNT_UPDATE" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benachrichtigung bei Kontoaktualisierung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Account Update Notifications"
+          }
+        }
+      }
+    },
+    "NOTIFICATIONS_NOT_ALLOWED" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**BTLB darf keine Mitteilungen anzeigen**"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**BTLB is not allowed to deliver notifications**"
+          }
+        }
+      }
+    },
+    "NOTIFICATIONS_NOT_ALLOWED_DESCRIPTION" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kannst dies in den Systemeinstellungen ändern."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can allow this in the system settings."
+          }
+        }
+      }
+    },
+    "NOTIFICATIONS_TEXT" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erhalte stumme Mitteilungen bei nahendem Ablauf von Leihfristen und anderen ausgewählten Ereignissen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Receive a silently delivered notification in Notification Center upon loan expiration and other selected events."
+          }
+        }
+      }
+    },
+    "NOTIFICATIONS_TITLE" : {
+      "comment" : "*\n Push Settings",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
+          }
+        }
+      }
+    },
+    "PRIVACY_POLICY_TEXT" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese App loggt keine Daten und keine deiner persönlichen Informationen werden an Dritte weitergegeben. Dein Nutzungsverhalten der App wird nicht getrackt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This app does not log or share any of your personal information. Your usage is not being tracked."
+          }
+        }
+      }
+    },
+    "PRIVACY_POLICY_TITLE" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinweis zum Datenschutz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
+          }
+        }
+      }
+    },
+    "SECURITY_TEXT" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte beachte, dass Daten zu den Bibliotheksservern mit dem HTTPS Verfahren verschlüsselt kommuniziert werden, falls die betreffenden Server dies unterstützen. Solltest du feststellen, dass eine Übertragung nicht per HTTPS erfolgt, obwohl dies serverseitig unterstützt wird, dann benachrichtige mich bitte."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please note that data transfers will be sent via HyperText Transfer Protocol Secure (HTTPS) as long as your account's library does support this type of encrypted communication. If you happen to see a missing HTTPS encryption where HTTPS encrypted communication should be possible on the serverside please contact me."
+          }
+        }
+      }
+    },
+    "SECURITY_TITLE" : {
+      "comment" : "*\n Security notes",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sicherheitshinweis"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note on Security"
+          }
+        }
+      }
+    },
+    "The last manual update happened on %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die letzte manuelle Aktualisierung passierte am %@."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The last manual update happened on %@."
+          }
+        }
+      }
+    },
+    "The last successful account background update happened on %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die letze erfolgreiche Kontoaktualisierung im Hintergrund erfolgte am %@."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The last successful account background update happened on %@."
+          }
+        }
+      }
+    },
+    "VERSION_TITLE" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

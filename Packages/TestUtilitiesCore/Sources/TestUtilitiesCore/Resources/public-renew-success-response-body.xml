@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <RenewItemResponse xmlns="http://bibliomondo.com/websevices/webuser">
+            <RenewItemResult>
+                <userId>A123456789</userId>
+                <record>
+                    <RenewItemResult xmlns="http://bibliomondo.com/webservices/webuser">
+                        <BrwrNo>A57 754 481 6</BrwrNo>
+                        <ItemNo>M59 581 999 1</ItemNo>
+                        <FunctionType>1</FunctionType>
+                        <BrwrAmountOwing>0</BrwrAmountOwing>
+                        <BrwrAmountLoanVouchers>0</BrwrAmountLoanVouchers>
+                        <BrwrAmountGeneralCredit>0</BrwrAmountGeneralCredit>
+                        <BrwrOnLoan>2</BrwrOnLoan>
+                        <BrwrOnLoanOverdue>0</BrwrOnLoanOverdue>
+                        <BrwrOnLoanWithFines>0</BrwrOnLoanWithFines>
+                        <BrwrOnLoanRecalled>0</BrwrOnLoanRecalled>
+                        <ItemNewDueDate>09/10/2018</ItemNewDueDate>
+                        <ItemAction>0</ItemAction>
+                        <ItemSortIndicator>0</ItemSortIndicator>
+                        <ItemSensitiseDesensitise>1</ItemSensitiseDesensitise>
+                        <ItemError>0</ItemError>
+                    </RenewItemResult>
+                </record>
+            </RenewItemResult>
+        </RenewItemResponse>
+    </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetBorrowerLoansResponse xmlns="http://bibliomondo.com/websevices/webuser">
+            <GetBorrowerLoansResult>
+                <userId>123456789</userId>
+                <record>
+                    <GetBorrowerLoansResult xmlns="http://bibliomondo.com/webservices/webuser">
+                        <LoanDetails>
+                            <LoanDetail>
+                                <SynNo>1</SynNo>
+                                <Odd>1</Odd>
+                                <HLEN>36</HLEN>
+                                <RecNo>3937893</RecNo>
+                                <Auth>0</Auth>
+                                <BrwrRecNo>870062</BrwrRecNo>
+                                <BacNo>T01540384X</BacNo>
+                                <ISBN>978 1 44930535 2</ISBN>
+                                <EAN></EAN>
+                                <Author>Ferguson Smart, John</Author>
+                                <Title>Jenkins: the definitive guide</Title>
+                                <DateIssued>08/09/2018</DateIssued>
+                                <DateDue>06/10/2018</DateDue>
+                                <IssuedDate>20180908</IssuedDate>
+                                <DueDate>20181006</DueDate>
+                                <IssuedToday>1</IssuedToday>
+                                <DueToday>0</DueToday>
+                                <Overdue>0</Overdue>
+                                <Recalled>0</Recalled>
+                                <RenewalCount>1</RenewalCount>
+                                <LocationIssued>1</LocationIssued>
+                                <LocationIssuedText>  Zentralbibliothek</LocationIssuedText>
+                                <ItemNumber>M59 581 999 1</ItemNumber>
+                                <HaveC201Fields>1</HaveC201Fields>
+                                <Material>1</Material>
+                                <MaterialName>Buch Erwachsene</MaterialName>
+                                <IsReserved>0</IsReserved>
+                                <PrimaryTrapId>0</PrimaryTrapId>
+                                <PrimaryTrapIdText>
+                                    <ENG>Not trapped</ENG>
+                                    <GER>Nicht gesperrt</GER>
+                                    <DUT>Niet gestopt</DUT>
+                                    <FRE>Non pi&amp;eacute;g&amp;eacute;</FRE>
+                                </PrimaryTrapIdText>
+                                <PrimaryTrapLevel>0</PrimaryTrapLevel>
+                                <PrimaryTrapLevelText>
+                                    <ENG>Information</ENG>
+                                    <GER>Information</GER>
+                                    <DUT>Informatie</DUT>
+                                    <FRE>Information</FRE>
+                                </PrimaryTrapLevelText>
+                                <RenewalFee>€ 0,00</RenewalFee>
+                                <Fine>€ 0,00</Fine>
+                                <SIP2>
+                                    <RenewalFee>0</RenewalFee>
+                                    <Fine>0</Fine>
+                                    <CanRenew>1</CanRenew>
+                                    <Author>Ferguson Smart, John</Author>
+                                    <Title>Jenkins: the definitive guide</Title>
+                                </SIP2>
+                                <HaveFee>0</HaveFee>
+                                <HaveFine>0</HaveFine>
+                                <DateRenewed>08/09/2018</DateRenewed>
+                                <RenewedToday>1</RenewedToday>
+                            </LoanDetail>
+                            <LoanDetail>
+                                <SynNo>2</SynNo>
+                                <Odd>0</Odd>
+                                <HLEN>36</HLEN>
+                                <RecNo>4501500</RecNo>
+                                <Auth>0</Auth>
+                                <BrwrRecNo>870062</BrwrRecNo>
+                                <BacNo>T01684642X</BacNo>
+                                <ISBN>978 3 86802101 1</ISBN>
+                                <EAN></EAN>
+                                <Author>Eilers, Carsten</Author>
+                                <Title>iOS Security</Title>
+                                <DateIssued>13/02/2018</DateIssued>
+                                <DateDue>13/01/2019</DateDue>
+                                <IssuedDate>20180908</IssuedDate>
+                                <DueDate>20181006</DueDate>
+                                <IssuedToday>1</IssuedToday>
+                                <DueToday>0</DueToday>
+                                <Overdue>0</Overdue>
+                                <Recalled>0</Recalled>
+                                <RenewalCount>0</RenewalCount>
+                                <LocationIssued>1</LocationIssued>
+                                <LocationIssuedText>  Zentralbibliothek</LocationIssuedText>
+                                <ItemNumber>M61 106 725 3</ItemNumber>
+                                <HaveC201Fields>1</HaveC201Fields>
+                                <Material>1</Material>
+                                <MaterialName>Buch Erwachsene</MaterialName>
+                                <IsReserved>0</IsReserved>
+                                <PrimaryTrapId>0</PrimaryTrapId>
+                                <PrimaryTrapIdText>
+                                    <ENG>Not trapped</ENG>
+                                    <GER>Nicht gesperrt</GER>
+                                    <DUT>Niet gestopt</DUT>
+                                    <FRE>Non pi&amp;eacute;g&amp;eacute;</FRE>
+                                </PrimaryTrapIdText>
+                                <PrimaryTrapLevel>0</PrimaryTrapLevel>
+                                <PrimaryTrapLevelText>
+                                    <ENG>Information</ENG>
+                                    <GER>Information</GER>
+                                    <DUT>Informatie</DUT>
+                                    <FRE>Information</FRE>
+                                </PrimaryTrapLevelText>
+                                <RenewalFee>€ 0,00</RenewalFee>
+                                <Fine>€ 0,00</Fine>
+                                <SIP2>
+                                    <RenewalFee>0</RenewalFee>
+                                    <Fine>0</Fine>
+                                    <CanRenew>1</CanRenew>
+                                    <Author>Eilers, Carsten</Author>
+                                    <Title>iOS Security</Title>
+                                </SIP2>
+                                <HaveFee>0</HaveFee>
+                                <HaveFine>0</HaveFine>
+                                <DateRenewed>08/09/2018</DateRenewed>
+                                <RenewedToday>1</RenewedToday>
+                            </LoanDetail>
+                        </LoanDetails>
+                    </GetBorrowerLoansResult>
+                </record>
+            </GetBorrowerLoansResult>
+        </GetBorrowerLoansResponse>
+    </soap:Body>
+</soap:Envelope>
