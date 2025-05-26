@@ -1,0 +1,3 @@
+[submodule "Packages/shared/paper"]
+	path = Packages/shared/paper
+	url = git@github.com:q231950/paper.git
