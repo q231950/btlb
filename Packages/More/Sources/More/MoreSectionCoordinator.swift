@@ -51,6 +51,8 @@ struct MoreList: View {
                     AccountList(viewModel: listViewModel)
                 case .settings(let settingsService):
                     SettingsSectionCoordinator(settingsService: settingsService).contentView
+                case .openSource:
+                    OpenSourceSectionCoordinator().contentView
                 }
             }
         }
@@ -80,6 +82,7 @@ public enum Entry: Hashable, Identifiable {
     case about
     case accounts
     case settings(any LibraryCore.SettingsService)
+    case openSource
 
     var title: String {
         switch self {
@@ -89,6 +92,8 @@ public enum Entry: Hashable, Identifiable {
             return Localization.Titles.accounts
         case .settings:
             return Localization.Titles.settings
+        case .openSource:
+            return "Open Source"
         }
     }
 }
