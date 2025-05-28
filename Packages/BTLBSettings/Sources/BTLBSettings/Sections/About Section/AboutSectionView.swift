@@ -38,8 +38,6 @@ struct AboutSectionView: View {
             versionSection
 
             gitSection
-            
-            openSourceSection
         }
         .listStyle(.plain)
         .navigationTitle(Localization.Titles.about)
@@ -150,16 +148,6 @@ struct AboutSectionView: View {
         }, header: {
             ItemView(title: "GIT_INFO_TITLE".localized(bundle: .module))
         })
-    }()
-    
-    // MARK: Open Source
-    
-    private var openSourceSection: some View = {
-        Section {
-            NavigationLink(destination: OpenSourceSectionCoordinator().contentView) {
-                Text("Open Source")
-            }
-        }
     }()
 }
 

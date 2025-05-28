@@ -52,7 +52,7 @@ struct MoreList: View {
                 case .settings(let settingsService):
                     SettingsSectionCoordinator(settingsService: settingsService).contentView
                 case .openSource:
-                    OpenSourceSectionCoordinator().contentView
+                    OpenSourceSectionView()
                 }
             }
         }
