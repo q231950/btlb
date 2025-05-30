@@ -16,6 +16,7 @@ struct SettingsSectionView: View {
 
     @ObservedObject private var viewModel: SettingsViewModel
     @Environment(\.locale) private var locale
+    @Environment(\.openURL) private var openURL
 
     init(viewModel: SettingsViewModel) {
         self.viewModel = viewModel
@@ -203,8 +204,13 @@ struct SettingsSectionView: View {
 
             HStack {
                 Spacer()
-                Text("**\(VersionNumberProvider.versionString)**")
-                    .font(.caption2)
+                Button {
+                    openURL(URL(string: "https://github.com/q231950/btlb/commit/\(VersionNumberProvider.gitCommit)")!)
+                } label: {
+                    Text("**\(VersionNumberProvider.versionString)**")
+                        .font(.caption2)
+                }
+                .buttonStyle(.plain)
                 Spacer()
             }
         }

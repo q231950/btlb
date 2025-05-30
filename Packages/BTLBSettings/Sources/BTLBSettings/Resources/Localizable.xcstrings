@@ -108,22 +108,6 @@
         }
       }
     },
-    "GIT_INFO_TITLE" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Git Info"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Git Info"
-          }
-        }
-      }
-    },
     "GitHub Repository" : {
       "localizations" : {
         "de" : {

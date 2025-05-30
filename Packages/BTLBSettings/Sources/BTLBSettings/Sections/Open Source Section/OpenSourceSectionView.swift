@@ -18,8 +18,6 @@ public struct OpenSourceSectionView: View {
             }
             
             repositorySection
-
-            gitSection
         }
         .listStyle(.plain)
         .navigationTitle(String(localized: "Open Source", bundle: .module, locale: locale))
@@ -41,15 +39,7 @@ public struct OpenSourceSectionView: View {
                 )
                 Image(systemName: "arrow.up.forward")
             }
-        } header: {
-            ItemView(title: String(localized: "Links", bundle: .module, locale: locale))
-        }
-    }
 
-    // MARK: Git Info
-
-    private var gitSection: some View {
-        Section(content: {
             HStack {
                 Link(
                     VersionNumberProvider.gitString,
@@ -57,10 +47,9 @@ public struct OpenSourceSectionView: View {
                 )
                 Image(systemName: "arrow.up.forward")
             }
-            .listRowSeparator(.hidden)
-        }, header: {
-            ItemView(title: String(localized: "GIT_INFO_TITLE", bundle: .module, locale: locale))
-        })
+        } header: {
+            ItemView(title: String(localized: "Links", bundle: .module, locale: locale))
+        }
     }
 }
 
