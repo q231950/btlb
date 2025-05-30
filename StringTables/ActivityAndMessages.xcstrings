@@ -1,0 +1,126 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ACCOUNT_LOGIN_FAILURE_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "falsche Nutzerdaten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "incorrect credentials"
+          }
+        }
+      }
+    },
+    "ACCOUNT_LOGIN_SUCCESS_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiviert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Success"
+          }
+        }
+      }
+    },
+    "ACTIVATING_ACCOUNT_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiviere Konto"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activating account"
+          }
+        }
+      }
+    },
+    "INITIATING_UPDATE_SUBTITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "initiiere..."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "initiating..."
+          }
+        }
+      }
+    },
+    "ONE_MOMENT_PLEASE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einen kleinen Moment, bitte."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This may take a moment"
+          }
+        }
+      }
+    },
+    "UPDATING_ACCOUNTS_TITLE" : {
+      "comment" : "ActivityAndMessages.strings\n  BTLB\n\n  Created by Martin Kim Dung-Pham on 7/23/11.\n  Copyright 2011 neoneon. All rights reserved.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisierung der Daten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updating accounts"
+          }
+        }
+      }
+    },
+    "UPDATING_LIBRARIES_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisierung Bibliotheken"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updating libraries"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

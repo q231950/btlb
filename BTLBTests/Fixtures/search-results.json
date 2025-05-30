@@ -1,0 +1,2031 @@
+{
+    "responseHeader": {
+        "status": 0,
+        "QTime": 65,
+        "params": {
+            "q": "Taniguchi~1000 AND HasStock:1",
+            "start": "1",
+            "wt": "json"
+        }
+    },
+    "response": {
+        "numFound": 39,
+        "start": 1,
+        "docs": [
+            {
+                "id": "T017369384",
+                "CodeLanguage": [
+                    "eng",
+                    "eng",
+                    "englisch"
+                ],
+                "StockBranchDateAdded": [
+                    "C20150120"
+                ],
+                "CodeInstitution": [
+                    "C Zentralbibliothek"
+                ],
+                "FirstStockDateAddedY": [
+                    "2015"
+                ],
+                "PhysicalDateOfPublication_s": [
+                    "2014"
+                ],
+                "DateOfPublication": "2014",
+                "SortkeyYOPD": "2014",
+                "MaterialType": [
+                    "BUE"
+                ],
+                "DateOfAcquisitionSearch_date": "2015-01-01T00:00:00Z",
+                "StockSublocationCode": [
+                    "C"
+                ],
+                "FirstStockBranchDateAddedYMW": [
+                    "C2015013"
+                ],
+                "StockCategory": [
+                    "18"
+                ],
+                "StockDateAddedY": [
+                    "2015"
+                ],
+                "TitleDisplay": [
+                    "•<The>• Walking Man"
+                ],
+                "StockHomeLocationCode": [
+                    "C"
+                ],
+                "FirstStockDateAdded_date": "2015-01-20T00:00:00Z",
+                "StockBranchDateAddedY": [
+                    "C2015"
+                ],
+                "StockCategoryCode": [
+                    "SCHL"
+                ],
+                "DateOfPublicationSearch_date": "2014-01-01T00:00:00Z",
+                "HasStock": "1",
+                "StockMaterialTypeCode": [
+                    "BUE"
+                ],
+                "StockShelfmark": [
+                    "21 Comic.9"
+                ],
+                "StockDateAddedYM": [
+                    "201501"
+                ],
+                "Author": [
+                    "Taniguchi, Jirō",
+                    "Carlsen Verlag"
+                ],
+                "AuthorFacet": [
+                    "Taniguchi, Jirō"
+                ],
+                "SortkeyAuthor": "Taniguchi, Jirō",
+                "SortkeyTitle": "•<The>• Walking Man",
+                "StockDateIssueReturn": [
+                    "20180821"
+                ],
+                "FirstStockBranchDateAdded": [
+                    "C20150120"
+                ],
+                "StockDateAdded_sort": "20150120",
+                "FirstStockDateAdded": [
+                    "20150120"
+                ],
+                "MarcXML": "<record xmlns=\"http://www.loc.gov/MARC21/slim\"> <leader>01087nhm a2200217|| 450 </leader> <controlfield tag=\"001\">1736938</controlfield> <controlfield tag=\"007\">tu |||||||||||||||||||||||| | || ||||||| ||||||||||| |||| ||||||||||||||||||||||| ||||||||| ||||||||||||| |||||||</controlfield> <controlfield tag=\"008\">141230|2014||||gw||||||</controlfield> <controlfield tag=\"009\">T017369384</controlfield> <datafield tag=\"020\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">9781908007421</subfield> <subfield code=\"c\">geb. : EUR 21,40</subfield> <subfield code=\"9\">978-1-908007-42-1</subfield> </datafield> <datafield tag=\"041\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">eng</subfield> <subfield code=\"h\">jpn</subfield> </datafield> <datafield tag=\"044\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">gw</subfield> </datafield> <datafield tag=\"100\" ind1=\"1\" ind2=\" \"> <subfield code=\"a\">Taniguchi, Jirō</subfield> <subfield code=\"d\">1947-</subfield> </datafield> <datafield tag=\"245\" ind1=\"1\" ind2=\"0\"> <subfield code=\"a\">•&lt;The&gt;• Walking Man</subfield> <subfield code=\"c\">Jiro Taniguchi</subfield> </datafield> <datafield tag=\"260\" ind1=\"3\" ind2=\" \"> <subfield code=\"a\">s. l.</subfield> <subfield code=\"b\">Fanfare Ponent Mon</subfield> <subfield code=\"c\">2014</subfield> </datafield> <datafield tag=\"300\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">155 S.</subfield> <subfield code=\"b\">überw. Ill.</subfield> </datafield> <datafield tag=\"730\" ind1=\"0\" ind2=\" \"> <subfield code=\"a\">Aruku hito</subfield> <subfield code=\"g\">engl.</subfield> </datafield> <datafield tag=\"852\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">21 Comic.9</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0004664302</subfield> <subfield code=\"c\">C</subfield> <subfield code=\"e\">20150120</subfield> <subfield code=\"f\">20150120</subfield> <subfield code=\"5\">C20150120</subfield> <subfield code=\"6\">C2015013</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">C</subfield> <subfield code=\"p\">20180821</subfield> <subfield code=\"q\">20180918</subfield> <subfield code=\"r\">18</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">21 Comic.9</subfield> <subfield code=\"9\">4</subfield> <subfield code=\"B\">C</subfield> <subfield code=\"D\">M606680667</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2015013</subfield> <subfield code=\"w\">201501</subfield> <subfield code=\"x\">2015</subfield> <subfield code=\"y\">C20150120</subfield> <subfield code=\"z\">C2015013</subfield> <subfield code=\"0\">C201501</subfield> <subfield code=\"1\">C2015</subfield> <subfield code=\"2\">2015013</subfield> <subfield code=\"3\">201501</subfield> <subfield code=\"4\">2015</subfield> <subfield code=\"7\">C201501</subfield> <subfield code=\"8\">C2015</subfield> <subfield code=\"9\">4</subfield> </datafield> <datafield tag=\"997\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">9781908007421</subfield> </datafield> <datafield tag=\"959\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">1</subfield> <subfield code=\"b\">1</subfield> <subfield code=\"c\">20150120</subfield> <subfield code=\"d\">1</subfield> <subfield code=\"e\">6</subfield> <subfield code=\"f\">7</subfield> <subfield code=\"g\">BUE</subfield> <subfield code=\"h\">Buch Erwachsene</subfield> <subfield code=\"i\">EBE</subfield> <subfield code=\"j\">ERw.Bell.</subfield> <subfield code=\"k\">ger</subfield> <subfield code=\"l\">deutsch</subfield> <subfield code=\"m\">eng</subfield> <subfield code=\"n\">englisch</subfield> <subfield code=\"o\">C </subfield> <subfield code=\"p\"> Zentralbibliothek</subfield> <subfield code=\"3\">2014</subfield> <subfield code=\"4\">Taniguchi, Jirō</subfield> <subfield code=\"5\">•&lt;The&gt;• Walking Man</subfield> <subfield code=\"6\">21 Comic.9</subfield> </datafield> </record>",
+                "FirstStockBranchDateAdded_C_date": "2015-01-20T00:00:00Z",
+                "text": [
+                    "9781908007421 978-1-908007-42-1",
+                    "Taniguchi, Jirō 1947-",
+                    "•<The>• Walking Man",
+                    "Jiro Taniguchi",
+                    "s. l.",
+                    "Fanfare Ponent Mon",
+                    "2014",
+                    "155 S.",
+                    "Aruku hito engl.",
+                    "21 Comic.9",
+                    "1 7 BUE Buch Erwachsene eng englisch"
+                ],
+                "synonym": [
+                    "9781908007421 978-1-908007-42-1",
+                    "Taniguchi, Jirō 1947-",
+                    "•<The>• Walking Man",
+                    "Jiro Taniguchi",
+                    "s. l.",
+                    "Fanfare Ponent Mon",
+                    "2014",
+                    "155 S.",
+                    "Aruku hito engl.",
+                    "21 Comic.9",
+                    "1 7 BUE Buch Erwachsene eng englisch"
+                ],
+                "DateOfAcquisition": "20150120",
+                "StockDateAdded_date": "2015-01-20T00:00:00Z",
+                "StockInterestLevelCode": [
+                    "EBE"
+                ],
+                "PlacePublication": [
+                    "s. l."
+                ],
+                "FirstStockBranchDateAddedYM": [
+                    "C201501"
+                ],
+                "StockDateAddedYMW": [
+                    "2015013"
+                ],
+                "ISBN": [
+                    "9781908007421 978-1-908007-42-1"
+                ],
+                "NUMERO": [
+                    "9781908007421 978-1-908007-42-1"
+                ],
+                "DCRange_end_date": "2014-12-31T23:59:00Z",
+                "FirstStockDateAdded_sort": "20150120",
+                "PersonalName": [
+                    "Taniguchi, Jirō 1947-",
+                    "Jiro Taniguchi"
+                ],
+                "FirstStockDateAddedYM": [
+                    "201501"
+                ],
+                "merge_key_sort": "9781908007421",
+                "StockBranchDateAddedYM": [
+                    "C201501"
+                ],
+                "FirstStockBranchDateAddedY": [
+                    "C2015"
+                ],
+                "StockBranchDateAddedYMW": [
+                    "C2015013"
+                ],
+                "FirstStockDateAddedYMW": [
+                    "2015013"
+                ],
+                "Keyword": [
+                    "Taniguchi, Jirō 1947-",
+                    "•<The>• Walking Man",
+                    "Aruku hito engl."
+                ],
+                "KeywordFacet": [
+                    "Taniguchi, Jirō 1947-",
+                    "•<The>• Walking Man",
+                    "Aruku hito engl."
+                ],
+                "SubjectHeadingFacet": [
+                    "Taniguchi, Jirō 1947-",
+                    "•<The>• Walking Man",
+                    "Aruku hito engl."
+                ],
+                "StockOwnerLocationCode": [
+                    "C"
+                ],
+                "SortkeyTitleNumeric": "21 Comic.9",
+                "Title": [
+                    "•<The>• Walking Man",
+                    "Aruku hito engl.",
+                    "•<The>• Walking Man"
+                ],
+                "Publisher": [
+                    "Fanfare Ponent Mon"
+                ],
+                "PublisherFacet": [
+                    "Fanfare Ponent Mon"
+                ],
+                "StockRecordNumber": [
+                    "0004664302"
+                ],
+                "DCRange_start_date": "2014-01-01T00:00:00Z",
+                "LocalClassification": [
+                    "21 Comic.9"
+                ],
+                "StockDateAdded": [
+                    "20150120"
+                ],
+                "BibLevel": [
+                    "EBE"
+                ],
+                "_version_": 1609918684445278208
+            },
+            {
+                "id": "T012154648",
+                "CodeLanguage": [
+                    "ger",
+                    "ger",
+                    "deutsch"
+                ],
+                "StockBranchDateAdded": [
+                    "N20080306"
+                ],
+                "CodeInstitution": [
+                    "N Altona"
+                ],
+                "FirstStockDateAddedY": [
+                    "2008"
+                ],
+                "PhysicalDateOfPublication_s": [
+                    "2007"
+                ],
+                "DateOfPublication": "2007",
+                "SortkeyYOPD": "2007",
+                "MaterialType": [
+                    "BUE"
+                ],
+                "DateOfAcquisitionSearch_date": "2008-01-01T00:00:00Z",
+                "StockSublocationCode": [
+                    "ALB"
+                ],
+                "FirstStockBranchDateAddedYMW": [
+                    "N2008031"
+                ],
+                "StockCategory": [
+                    "1"
+                ],
+                "StockDateAddedY": [
+                    "2008"
+                ],
+                "TitleDisplay": [
+                    "•<Die>• Stadt und das Mädchen"
+                ],
+                "StockHomeLocationCode": [
+                    "N"
+                ],
+                "FirstStockDateAdded_date": "2008-03-06T00:00:00Z",
+                "StockBranchDateAddedY": [
+                    "N2008"
+                ],
+                "StockCategoryCode": [
+                    "SCHL"
+                ],
+                "DateOfPublicationSearch_date": "2007-01-01T00:00:00Z",
+                "HasStock": "1",
+                "StockMaterialTypeCode": [
+                    "BUE"
+                ],
+                "StockShelfmark": [
+                    "Comic.6"
+                ],
+                "StockDateAddedYM": [
+                    "200803"
+                ],
+                "Author": [
+                    "Taniguchi, Jiro"
+                ],
+                "AuthorFacet": [
+                    "Taniguchi, Jiro"
+                ],
+                "SortkeyAuthor": "Taniguchi, Jiro",
+                "SubjectHeading": [
+                    "Comic [Alben]"
+                ],
+                "SubjectHeadingFacet": [
+                    "Comic [Alben]",
+                    "Taniguchi, Jiro",
+                    "•<Die>• Stadt und das Mädchen",
+                    "Shodoku",
+                    "Comic [Alben]"
+                ],
+                "SortkeyTitle": "•<Die>• Stadt und das Mädchen",
+                "StockDateIssueReturn": [
+                    "20180824"
+                ],
+                "FirstStockBranchDateAdded": [
+                    "N20080306"
+                ],
+                "StockDateAdded_sort": "20080306",
+                "FirstStockDateAdded": [
+                    "20080306"
+                ],
+                "MarcXML": "<record xmlns=\"http://www.loc.gov/MARC21/slim\"> <leader>01211nhm a2200265|| 450 </leader> <controlfield tag=\"001\">1215464</controlfield> <controlfield tag=\"005\">20111003174904.0</controlfield> <controlfield tag=\"007\">tu |||||| |||||||||||| |||| | || ||||||| ||||||||||| |||| ||||||||||||||||||||||| ||||||||| ||||||||||||| |||||||</controlfield> <controlfield tag=\"008\">111003|2007||||||||||||</controlfield> <controlfield tag=\"009\">T012154648</controlfield> <datafield tag=\"020\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">9783937102658</subfield> <subfield code=\"c\">kart. : EUR 16.95</subfield> <subfield code=\"9\">978-3-937102-65-8</subfield> </datafield> <datafield tag=\"040\" ind1=\" \" ind2=\" \"> <subfield code=\"e\">rak</subfield> </datafield> <datafield tag=\"041\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">ger</subfield> </datafield> <datafield tag=\"090\" ind1=\" \" ind2=\" \"> <subfield code=\"g\">_</subfield> </datafield> <datafield tag=\"100\" ind1=\"1\" ind2=\" \"> <subfield code=\"a\">Taniguchi, Jiro</subfield> </datafield> <datafield tag=\"245\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">•&lt;Die&gt;• Stadt und das Mädchen</subfield> <subfield code=\"c\">Jiro Taniguchi. [Aus dem Japan. von Tsuwame und Resel Rebiersch]</subfield> </datafield> <datafield tag=\"250\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1. Aufl.</subfield> </datafield> <datafield tag=\"260\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">München</subfield> <subfield code=\"b\">Schreiber und Leser</subfield> <subfield code=\"c\">2007</subfield> </datafield> <datafield tag=\"300\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">335 S.</subfield> <subfield code=\"b\">überw. Ill.</subfield> </datafield> <datafield tag=\"490\" ind1=\"0\" ind2=\" \"> <subfield code=\"a\">Shodoku</subfield> </datafield> <datafield tag=\"852\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">Comic.6</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0002970838</subfield> <subfield code=\"c\">N</subfield> <subfield code=\"e\">20080306</subfield> <subfield code=\"f\">20080306</subfield> <subfield code=\"5\">N20080306</subfield> <subfield code=\"6\">N2008031</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">ALB</subfield> <subfield code=\"p\">20180824</subfield> <subfield code=\"q\">20180921</subfield> <subfield code=\"r\">1</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">Comic.6</subfield> <subfield code=\"9\">4</subfield> <subfield code=\"B\">N</subfield> <subfield code=\"D\">M591503168</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2008031</subfield> <subfield code=\"w\">200803</subfield> <subfield code=\"x\">2008</subfield> <subfield code=\"y\">N20080306</subfield> <subfield code=\"z\">N2008031</subfield> <subfield code=\"0\">N200803</subfield> <subfield code=\"1\">N2008</subfield> <subfield code=\"2\">2008031</subfield> <subfield code=\"3\">200803</subfield> <subfield code=\"4\">2008</subfield> <subfield code=\"7\">N200803</subfield> <subfield code=\"8\">N2008</subfield> <subfield code=\"9\">4</subfield> </datafield> <datafield tag=\"980\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Comic [Alben]</subfield> </datafield> <datafield tag=\"997\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">978-3-937102-65-8</subfield> </datafield> <datafield tag=\"959\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">1</subfield> <subfield code=\"b\">1</subfield> <subfield code=\"c\">20080306</subfield> <subfield code=\"d\">1</subfield> <subfield code=\"e\">0</subfield> <subfield code=\"f\">6</subfield> <subfield code=\"g\">BUE</subfield> <subfield code=\"h\">Buch Erwachsene</subfield> <subfield code=\"i\">EBE</subfield> <subfield code=\"j\">ERw.Bell.</subfield> <subfield code=\"m\">ger</subfield> <subfield code=\"n\">deutsch</subfield> <subfield code=\"o\">N </subfield> <subfield code=\"p\">Altona</subfield> <subfield code=\"3\">2007</subfield> <subfield code=\"4\">Taniguchi, Jiro</subfield> <subfield code=\"5\">•&lt;Die&gt;• Stadt und das Mädchen</subfield> <subfield code=\"6\">Comic.6</subfield> </datafield> </record>",
+                "text": [
+                    "9783937102658 978-3-937102-65-8",
+                    "Taniguchi, Jiro",
+                    "•<Die>• Stadt und das Mädchen",
+                    "Jiro Taniguchi. [Aus dem Japan. von Tsuwame und Resel Rebiersch]",
+                    "1. Aufl.",
+                    "München",
+                    "Schreiber und Leser",
+                    "2007",
+                    "335 S.",
+                    "Shodoku",
+                    "Comic.6",
+                    "Comic [Alben]",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "synonym": [
+                    "9783937102658 978-3-937102-65-8",
+                    "Taniguchi, Jiro",
+                    "•<Die>• Stadt und das Mädchen",
+                    "Jiro Taniguchi. [Aus dem Japan. von Tsuwame und Resel Rebiersch]",
+                    "1. Aufl.",
+                    "München",
+                    "Schreiber und Leser",
+                    "2007",
+                    "335 S.",
+                    "Shodoku",
+                    "Comic.6",
+                    "Comic [Alben]",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "DateOfAcquisition": "20080306",
+                "StockDateAdded_date": "2008-03-06T00:00:00Z",
+                "StockInterestLevelCode": [
+                    "EBE"
+                ],
+                "PlacePublication": [
+                    "München"
+                ],
+                "FirstStockBranchDateAddedYM": [
+                    "N200803"
+                ],
+                "StockDateAddedYMW": [
+                    "2008031"
+                ],
+                "ISBN": [
+                    "9783937102658 978-3-937102-65-8"
+                ],
+                "NUMERO": [
+                    "9783937102658 978-3-937102-65-8"
+                ],
+                "DCRange_end_date": "2007-12-31T23:59:00Z",
+                "FirstStockDateAdded_sort": "20080306",
+                "PersonalName": [
+                    "Taniguchi, Jiro",
+                    "Jiro Taniguchi. [Aus dem Japan. von Tsuwame und Resel Rebiersch]"
+                ],
+                "FirstStockDateAddedYM": [
+                    "200803"
+                ],
+                "merge_key_sort": "9783937102658",
+                "StockBranchDateAddedYM": [
+                    "N200803"
+                ],
+                "FirstStockBranchDateAddedY": [
+                    "N2008"
+                ],
+                "StockBranchDateAddedYMW": [
+                    "N2008031"
+                ],
+                "FirstStockDateAddedYMW": [
+                    "2008031"
+                ],
+                "Keyword": [
+                    "Taniguchi, Jiro",
+                    "•<Die>• Stadt und das Mädchen",
+                    "Shodoku",
+                    "Comic [Alben]"
+                ],
+                "KeywordFacet": [
+                    "Taniguchi, Jiro",
+                    "•<Die>• Stadt und das Mädchen",
+                    "Shodoku",
+                    "Comic [Alben]"
+                ],
+                "StockOwnerLocationCode": [
+                    "N"
+                ],
+                "SortkeyTitleNumeric": "Comic.6",
+                "Title": [
+                    "•<Die>• Stadt und das Mädchen",
+                    "Shodoku",
+                    "•<Die>• Stadt und das Mädchen"
+                ],
+                "FirstStockBranchDateAdded_N_date": "2008-03-06T00:00:00Z",
+                "Publisher": [
+                    "Schreiber und Leser"
+                ],
+                "PublisherFacet": [
+                    "Schreiber und Leser"
+                ],
+                "StockRecordNumber": [
+                    "0002970838"
+                ],
+                "DCRange_start_date": "2007-01-01T00:00:00Z",
+                "LocalClassification": [
+                    "Comic.6"
+                ],
+                "StockDateAdded": [
+                    "20080306"
+                ],
+                "BibLevel": [
+                    "EBE"
+                ],
+                "_version_": 1609916814217707520
+            },
+            {
+                "id": "T017951097",
+                "SortkeyTitle": "Trouble is my business",
+                "CodeLanguage": [
+                    "ger",
+                    "deutsch"
+                ],
+                "Keyword": [
+                    "Trouble is my business",
+                    "Taniguchi, Jirō 1947-",
+                    "Sekikawa, Natsuo 1949-",
+                    "Jikenya kagyo dt."
+                ],
+                "KeywordFacet": [
+                    "Trouble is my business",
+                    "Taniguchi, Jirō 1947-",
+                    "Sekikawa, Natsuo 1949-",
+                    "Jikenya kagyo dt."
+                ],
+                "SubjectHeadingFacet": [
+                    "Trouble is my business",
+                    "Taniguchi, Jirō 1947-",
+                    "Sekikawa, Natsuo 1949-",
+                    "Jikenya kagyo dt."
+                ],
+                "CodeInstitution": [
+                    "C Zentralbibliothek"
+                ],
+                "MarcXML": "<record xmlns=\"http://www.loc.gov/MARC21/slim\"> <leader>00931nhm a2200253|| 450 </leader> <controlfield tag=\"001\">1795109</controlfield> <controlfield tag=\"003\">DE-101</controlfield> <controlfield tag=\"005\">20150511160721.0</controlfield> <controlfield tag=\"008\">150225s gw ||||| |||| 00||||||| </controlfield> <controlfield tag=\"009\">T017951097</controlfield> <datafield tag=\"016\" ind1=\"7\" ind2=\" \"> <subfield code=\"2\">DE-101</subfield> <subfield code=\"a\">1067527133</subfield> </datafield> <datafield tag=\"035\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">(DE-599)DNB1067527133</subfield> </datafield> <datafield tag=\"040\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1240</subfield> <subfield code=\"b\">ger</subfield> <subfield code=\"c\">DE-101</subfield> <subfield code=\"d\">1240</subfield> </datafield> <datafield tag=\"044\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">XA-DE-HH</subfield> </datafield> <datafield tag=\"245\" ind1=\"1\" ind2=\"0\"> <subfield code=\"a\">Trouble is my business</subfield> <subfield code=\"c\">Jiro Taniguchi ; Natsuo Sekikawa</subfield> </datafield> <datafield tag=\"250\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">German language ed.</subfield> </datafield> <datafield tag=\"259\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">gele</subfield> </datafield> <datafield tag=\"264\" ind1=\" \" ind2=\"1\"> <subfield code=\"a\">[Hamburg]</subfield> <subfield code=\"b\">Schreiber &amp; Leser</subfield> </datafield> <datafield tag=\"300\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">21 cm</subfield> </datafield> <datafield tag=\"700\" ind1=\"1\" ind2=\" \"> <subfield code=\"0\">(DE-588)1034070592</subfield> <subfield code=\"0\">(DE-101)1034070592</subfield> <subfield code=\"a\">Taniguchi, Jirō</subfield> <subfield code=\"d\">1947-</subfield> <subfield code=\"4\">ctb</subfield> </datafield> <datafield tag=\"700\" ind1=\"1\" ind2=\" \"> <subfield code=\"0\">(DE-588)173639739</subfield> <subfield code=\"0\">(DE-101)173639739</subfield> <subfield code=\"a\">Sekikawa, Natsuo</subfield> <subfield code=\"d\">1949-</subfield> <subfield code=\"4\">ctb</subfield> </datafield> <datafield tag=\"730\" ind1=\"0\" ind2=\" \"> <subfield code=\"a\">Jikenya kagyo</subfield> <subfield code=\"g\">dt.</subfield> </datafield> <datafield tag=\"997\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1067527133</subfield> </datafield> <datafield tag=\"959\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">1</subfield> <subfield code=\"b\">2</subfield> <subfield code=\"c\">19000000</subfield> <subfield code=\"d\">1</subfield> <subfield code=\"e\">6</subfield> <subfield code=\"f\">6</subfield> <subfield code=\"g\">BUE</subfield> <subfield code=\"h\">Buch Erwachsene</subfield> <subfield code=\"i\">ESA</subfield> <subfield code=\"j\">Erw.Sachb.</subfield> <subfield code=\"k\">ger</subfield> <subfield code=\"l\">deutsch</subfield> <subfield code=\"m\">ger</subfield> <subfield code=\"n\">deutsch</subfield> <subfield code=\"o\">C </subfield> <subfield code=\"p\"> Zentralbibliothek</subfield> <subfield code=\"3\">0000</subfield> <subfield code=\"4\"/> <subfield code=\"5\">Trouble is my business</subfield> <subfield code=\"6\"/> </datafield> </record>",
+                "Title": [
+                    "Trouble is my business",
+                    "Jikenya kagyo dt.",
+                    "Trouble is my business"
+                ],
+                "HasStock": "1",
+                "Publisher": [
+                    "Schreiber & Leser"
+                ],
+                "PublisherFacet": [
+                    "Schreiber & Leser"
+                ],
+                "text": [
+                    "Trouble is my business",
+                    "Jiro Taniguchi ; Natsuo Sekikawa",
+                    "German language ed.",
+                    "[Hamburg]",
+                    "Schreiber & Leser",
+                    "Taniguchi, Jirō 1947-",
+                    "Sekikawa, Natsuo 1949-",
+                    "Jikenya kagyo dt.",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "synonym": [
+                    "Trouble is my business",
+                    "Jiro Taniguchi ; Natsuo Sekikawa",
+                    "German language ed.",
+                    "[Hamburg]",
+                    "Schreiber & Leser",
+                    "Taniguchi, Jirō 1947-",
+                    "Sekikawa, Natsuo 1949-",
+                    "Jikenya kagyo dt.",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "SortkeyYOPD": "0000",
+                "DateOfAcquisition": "19000000",
+                "MaterialType": [
+                    "BUE"
+                ],
+                "DateOfAcquisitionSearch_date": "1900-01-01T00:00:00Z",
+                "PlacePublication": [
+                    "[Hamburg]"
+                ],
+                "PersonalName": [
+                    "Jiro Taniguchi ; Natsuo Sekikawa",
+                    "Taniguchi, Jirō 1947-",
+                    "Sekikawa, Natsuo 1949-"
+                ],
+                "TitleDisplay": [
+                    "Trouble is my business"
+                ],
+                "Author": [
+                    "Taniguchi, Jirō",
+                    "Sekikawa, Natsuo"
+                ],
+                "AuthorFacet": [
+                    "Taniguchi, Jirō",
+                    "Sekikawa, Natsuo"
+                ],
+                "merge_key_sort": "T017951097",
+                "BibLevel": [
+                    "ESA"
+                ],
+                "_version_": 1609919060872527873
+            },
+            {
+                "id": "T017536314",
+                "CodeLanguage": [
+                    "ger",
+                    "ger",
+                    "deutsch"
+                ],
+                "StockBranchDateAdded": [
+                    "C20150413"
+                ],
+                "CodeInstitution": [
+                    "C Zentralbibliothek"
+                ],
+                "FirstStockDateAddedY": [
+                    "2015"
+                ],
+                "PhysicalDateOfPublication_s": [
+                    "2013"
+                ],
+                "DateOfPublication": "2013",
+                "SortkeyYOPD": "2013",
+                "MaterialType": [
+                    "BUE"
+                ],
+                "DateOfAcquisitionSearch_date": "2015-01-01T00:00:00Z",
+                "StockSublocationCode": [
+                    "C"
+                ],
+                "FirstStockBranchDateAddedYMW": [
+                    "C2015042"
+                ],
+                "StockCategory": [
+                    "18"
+                ],
+                "StockDateAddedY": [
+                    "2015"
+                ],
+                "TitleDisplay": [
+                    "Enemigo"
+                ],
+                "StockHomeLocationCode": [
+                    "C"
+                ],
+                "FirstStockDateAdded_date": "2015-04-13T00:00:00Z",
+                "StockBranchDateAddedY": [
+                    "C2015"
+                ],
+                "StockCategoryCode": [
+                    "SCHL"
+                ],
+                "DateOfPublicationSearch_date": "2013-01-01T00:00:00Z",
+                "HasStock": "1",
+                "StockMaterialTypeCode": [
+                    "BUE"
+                ],
+                "StockShelfmark": [
+                    "Comic.6"
+                ],
+                "StockDateAddedYM": [
+                    "201504"
+                ],
+                "Author": [
+                    "Taniguchi, Jirō",
+                    "M.A.T."
+                ],
+                "AuthorFacet": [
+                    "Taniguchi, Jirō",
+                    "M.A.T."
+                ],
+                "SortkeyTitle": "Enemigo",
+                "StockDateIssueReturn": [
+                    "20180821"
+                ],
+                "FirstStockBranchDateAdded": [
+                    "C20150413"
+                ],
+                "StockDateAdded_sort": "20150413",
+                "FirstStockDateAdded": [
+                    "20150413"
+                ],
+                "MarcXML": "<record xmlns=\"http://www.loc.gov/MARC21/slim\"> <leader>01537nhm a2200349|| 450 </leader> <controlfield tag=\"001\">1753631</controlfield> <controlfield tag=\"003\">DE-101</controlfield> <controlfield tag=\"005\">20130807011017.0</controlfield> <controlfield tag=\"007\">tu |||||||||||||||||||||||| | || ||||||| ||||||||||| |||| ||||||||||||||||||||||| ||||||||| ||||||||||||| |||||||</controlfield> <controlfield tag=\"008\">121219s2013||||gw |||||</controlfield> <controlfield tag=\"009\">T017536314</controlfield> <datafield tag=\"015\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">13,A19</subfield> <subfield code=\"z\">13,N02</subfield> <subfield code=\"2\">dnb</subfield> </datafield> <datafield tag=\"016\" ind1=\"7\" ind2=\" \"> <subfield code=\"2\">DE-101</subfield> <subfield code=\"a\">1029158991</subfield> </datafield> <datafield tag=\"020\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">9783943808100</subfield> <subfield code=\"c\">kart. : EUR 16.95 (DE), EUR 17.50 (AT), sfr 24.50 (freier Pr.)</subfield> <subfield code=\"9\">978-3-943808-10-0</subfield> </datafield> <datafield tag=\"024\" ind1=\"3\" ind2=\" \"> <subfield code=\"a\">9783943808100</subfield> </datafield> <datafield tag=\"035\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">(DE-599)DNB1029158991</subfield> </datafield> <datafield tag=\"035\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">(OCoLC)842387165</subfield> </datafield> <datafield tag=\"040\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1245</subfield> <subfield code=\"b\">ger</subfield> <subfield code=\"c\">DE-101</subfield> <subfield code=\"d\">9999</subfield> <subfield code=\"e\">rakwb</subfield> </datafield> <datafield tag=\"041\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">ger</subfield> <subfield code=\"h\">jpn</subfield> </datafield> <datafield tag=\"044\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">XA-DE-HH</subfield> </datafield> <datafield tag=\"090\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">b</subfield> </datafield> <datafield tag=\"245\" ind1=\"1\" ind2=\"0\"> <subfield code=\"a\">Enemigo</subfield> <subfield code=\"c\">Zeichn.: Jiro Taniguchi. Szenario: M.A.T.</subfield> </datafield> <datafield tag=\"250\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1. Aufl.</subfield> </datafield> <datafield tag=\"259\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">11</subfield> </datafield> <datafield tag=\"260\" ind1=\"3\" ind2=\" \"> <subfield code=\"a\">Hamburg</subfield> <subfield code=\"b\">Schreiber &amp; Leser</subfield> <subfield code=\"c\">2013</subfield> </datafield> <datafield tag=\"300\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">270 S.</subfield> <subfield code=\"b\">überw. Ill.</subfield> <subfield code=\"c\">21 cm</subfield> </datafield> <datafield tag=\"700\" ind1=\"1\" ind2=\" \"> <subfield code=\"0\">(DE-588)1034070592</subfield> <subfield code=\"0\">(DE-101)1034070592</subfield> <subfield code=\"a\">Taniguchi, Jirō</subfield> <subfield code=\"d\">1947-</subfield> <subfield code=\"4\">ctb</subfield> </datafield> <datafield tag=\"710\" ind1=\"2\" ind2=\" \"> <subfield code=\"0\">(DE-588)1033939986</subfield> <subfield code=\"0\">(DE-101)1033939986</subfield> <subfield code=\"a\">M.A.T.</subfield> </datafield> <datafield tag=\"852\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">Comic.6</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0004721150</subfield> <subfield code=\"c\">C</subfield> <subfield code=\"e\">20150413</subfield> <subfield code=\"f\">20150413</subfield> <subfield code=\"5\">C20150413</subfield> <subfield code=\"6\">C2015042</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">C</subfield> <subfield code=\"p\">20180821</subfield> <subfield code=\"q\">20180824</subfield> <subfield code=\"r\">18</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">Comic.6</subfield> <subfield code=\"9\">0</subfield> <subfield code=\"B\">C</subfield> <subfield code=\"D\">M610925823</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2015042</subfield> <subfield code=\"w\">201504</subfield> <subfield code=\"x\">2015</subfield> <subfield code=\"y\">C20150413</subfield> <subfield code=\"z\">C2015042</subfield> <subfield code=\"0\">C201504</subfield> <subfield code=\"1\">C2015</subfield> <subfield code=\"2\">2015042</subfield> <subfield code=\"3\">201504</subfield> <subfield code=\"4\">2015</subfield> <subfield code=\"7\">C201504</subfield> <subfield code=\"8\">C2015</subfield> <subfield code=\"9\">0</subfield> </datafield> <datafield tag=\"997\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1029158991</subfield> </datafield> <datafield tag=\"959\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">1</subfield> <subfield code=\"b\">1</subfield> <subfield code=\"c\">20150413</subfield> <subfield code=\"d\">1</subfield> <subfield code=\"e\">6</subfield> <subfield code=\"f\">6</subfield> <subfield code=\"g\">BUE</subfield> <subfield code=\"h\">Buch Erwachsene</subfield> <subfield code=\"i\">EBE</subfield> <subfield code=\"j\">ERw.Bell.</subfield> <subfield code=\"k\">ger</subfield> <subfield code=\"l\">deutsch</subfield> <subfield code=\"m\">ger</subfield> <subfield code=\"n\">deutsch</subfield> <subfield code=\"o\">C </subfield> <subfield code=\"p\"> Zentralbibliothek</subfield> <subfield code=\"3\">2013</subfield> <subfield code=\"4\"/> <subfield code=\"5\">Enemigo</subfield> <subfield code=\"6\">Comic.6</subfield> </datafield> </record>",
+                "FirstStockBranchDateAdded_C_date": "2015-04-13T00:00:00Z",
+                "text": [
+                    "9783943808100 978-3-943808-10-0",
+                    "9783943808100",
+                    "Enemigo",
+                    "Zeichn.: Jiro Taniguchi. Szenario: M.A.T.",
+                    "1. Aufl.",
+                    "Hamburg",
+                    "Schreiber & Leser",
+                    "2013",
+                    "270 S.",
+                    "Taniguchi, Jirō 1947-",
+                    "M.A.T.",
+                    "Comic.6",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "synonym": [
+                    "9783943808100 978-3-943808-10-0",
+                    "9783943808100",
+                    "Enemigo",
+                    "Zeichn.: Jiro Taniguchi. Szenario: M.A.T.",
+                    "1. Aufl.",
+                    "Hamburg",
+                    "Schreiber & Leser",
+                    "2013",
+                    "270 S.",
+                    "Taniguchi, Jirō 1947-",
+                    "M.A.T.",
+                    "Comic.6",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "DateOfAcquisition": "20150413",
+                "StockDateAdded_date": "2015-04-13T00:00:00Z",
+                "StockInterestLevelCode": [
+                    "EBE"
+                ],
+                "PlacePublication": [
+                    "Hamburg"
+                ],
+                "FirstStockBranchDateAddedYM": [
+                    "C201504"
+                ],
+                "StockDateAddedYMW": [
+                    "2015042"
+                ],
+                "ISBN": [
+                    "9783943808100 978-3-943808-10-0"
+                ],
+                "NUMERO": [
+                    "9783943808100 978-3-943808-10-0",
+                    "9783943808100"
+                ],
+                "DCRange_end_date": "2013-12-31T23:59:00Z",
+                "FirstStockDateAdded_sort": "20150413",
+                "PersonalName": [
+                    "Zeichn.: Jiro Taniguchi. Szenario: M.A.T.",
+                    "Taniguchi, Jirō 1947-",
+                    "M.A.T."
+                ],
+                "FirstStockDateAddedYM": [
+                    "201504"
+                ],
+                "merge_key_sort": "9783943808100",
+                "StockBranchDateAddedYM": [
+                    "C201504"
+                ],
+                "FirstStockBranchDateAddedY": [
+                    "C2015"
+                ],
+                "StockBranchDateAddedYMW": [
+                    "C2015042"
+                ],
+                "FirstStockDateAddedYMW": [
+                    "2015042"
+                ],
+                "Keyword": [
+                    "Enemigo",
+                    "Taniguchi, Jirō 1947-"
+                ],
+                "KeywordFacet": [
+                    "Enemigo",
+                    "Taniguchi, Jirō 1947-"
+                ],
+                "SubjectHeadingFacet": [
+                    "Enemigo",
+                    "Taniguchi, Jirō 1947-"
+                ],
+                "StockOwnerLocationCode": [
+                    "C"
+                ],
+                "SortkeyTitleNumeric": "Comic.6",
+                "ISMN": [
+                    "9783943808100"
+                ],
+                "Title": [
+                    "Enemigo",
+                    "Enemigo"
+                ],
+                "Publisher": [
+                    "Schreiber & Leser"
+                ],
+                "PublisherFacet": [
+                    "Schreiber & Leser"
+                ],
+                "StockRecordNumber": [
+                    "0004721150"
+                ],
+                "CorporateName": [
+                    "M.A.T."
+                ],
+                "DCRange_start_date": "2013-01-01T00:00:00Z",
+                "LocalClassification": [
+                    "Comic.6"
+                ],
+                "StockDateAdded": [
+                    "20150413"
+                ],
+                "BibLevel": [
+                    "EBE"
+                ],
+                "_version_": 1609918790747815936
+            },
+            {
+                "id": "T012953843",
+                "CodeLanguage": [
+                    "ger",
+                    "ger",
+                    "deutsch"
+                ],
+                "StockBranchDateAdded": [
+                    "N20090819"
+                ],
+                "CodeInstitution": [
+                    "N Altona"
+                ],
+                "FirstStockDateAddedY": [
+                    "2009"
+                ],
+                "PhysicalDateOfPublication_s": [
+                    "2009"
+                ],
+                "DateOfPublication": "2009",
+                "SortkeyYOPD": "2009",
+                "MaterialType": [
+                    "BUE"
+                ],
+                "DateOfAcquisitionSearch_date": "2009-01-01T00:00:00Z",
+                "StockSublocationCode": [
+                    "C"
+                ],
+                "FirstStockBranchDateAddedYMW": [
+                    "N2009083"
+                ],
+                "StockCategory": [
+                    "18"
+                ],
+                "StockDateAddedY": [
+                    "2009"
+                ],
+                "TitleDisplay": [
+                    "•<Der>• spazierende Mann"
+                ],
+                "StockHomeLocationCode": [
+                    "N"
+                ],
+                "FirstStockDateAdded_date": "2009-08-19T00:00:00Z",
+                "StockBranchDateAddedY": [
+                    "N2009"
+                ],
+                "StockCategoryCode": [
+                    "SCHL"
+                ],
+                "DateOfPublicationSearch_date": "2009-01-01T00:00:00Z",
+                "HasStock": "1",
+                "StockMaterialTypeCode": [
+                    "BUE"
+                ],
+                "StockShelfmark": [
+                    "Comic.9"
+                ],
+                "StockDateAddedYM": [
+                    "200908"
+                ],
+                "Author": [
+                    "Taniguchi, Jiro"
+                ],
+                "AuthorFacet": [
+                    "Taniguchi, Jiro"
+                ],
+                "SortkeyAuthor": "Taniguchi, Jiro",
+                "SubjectHeading": [
+                    "Antolin",
+                    "Klasse 6"
+                ],
+                "SubjectHeadingFacet": [
+                    "Antolin",
+                    "Klasse 6",
+                    "Taniguchi, Jiro",
+                    "•<Der>• spazierende Mann",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "Aruku-hito dt.",
+                    "Antolin",
+                    "Klasse 6"
+                ],
+                "SortkeyTitle": "•<Der>• spazierende Mann",
+                "StockDateIssueReturn": [
+                    "20180824"
+                ],
+                "FirstStockBranchDateAdded": [
+                    "N20090819"
+                ],
+                "StockDateAdded_sort": "20090819",
+                "FirstStockDateAdded": [
+                    "20090819"
+                ],
+                "MarcXML": "<record xmlns=\"http://www.loc.gov/MARC21/slim\"> <leader>01632nhm a2200373|| 450 </leader> <controlfield tag=\"001\">1295384</controlfield> <controlfield tag=\"005\">20111003174912.0</controlfield> <controlfield tag=\"007\">tu |||||||||||||||||||||||| | || ||||||| ||||||||||| |||| ||||||||||||||||||||||| ||||||||| ||||||||||||| |||||||</controlfield> <controlfield tag=\"008\">111003|2009||||gw |||||</controlfield> <controlfield tag=\"009\">T012953843</controlfield> <datafield tag=\"015\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">09,A16,1597</subfield> <subfield code=\"z\">09,N03,1646</subfield> <subfield code=\"2\">dnb</subfield> </datafield> <datafield tag=\"016\" ind1=\"7\" ind2=\" \"> <subfield code=\"a\">991814371</subfield> <subfield code=\"2\">DE-101</subfield> </datafield> <datafield tag=\"020\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">9783551777911</subfield> <subfield code=\"c\">kart. : EUR 14.00 (DE), EUR 14.40 (AT), sfr 25.90 (freier Pr.)</subfield> <subfield code=\"9\">978-3-551-77791-1</subfield> </datafield> <datafield tag=\"040\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1245</subfield> <subfield code=\"c\">DNB</subfield> <subfield code=\"d\">9999</subfield> <subfield code=\"e\">rak</subfield> </datafield> <datafield tag=\"041\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">ger</subfield> </datafield> <datafield tag=\"044\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">XA-DE-HH</subfield> </datafield> <datafield tag=\"090\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">b</subfield> <subfield code=\"g\">_</subfield> <subfield code=\"h\">h</subfield> </datafield> <datafield tag=\"100\" ind1=\"1\" ind2=\" \"> <subfield code=\"a\">Taniguchi, Jiro</subfield> </datafield> <datafield tag=\"245\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">•&lt;Der&gt;• spazierende Mann</subfield> <subfield code=\"c\">Jiro Taniguchi. [Aus dem Japan. von John Schmitt-Weigand]</subfield> </datafield> <datafield tag=\"250\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Dt. Ausg.</subfield> </datafield> <datafield tag=\"259\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">dta</subfield> </datafield> <datafield tag=\"260\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Hamburg</subfield> <subfield code=\"b\">Carlsen</subfield> <subfield code=\"c\">2009</subfield> </datafield> <datafield tag=\"300\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">165 S.</subfield> <subfield code=\"b\">überw. Ill.</subfield> <subfield code=\"c\">21 cm</subfield> </datafield> <datafield tag=\"490\" ind1=\"0\" ind2=\" \"> <subfield code=\"a\">Carlsen-Comics</subfield> </datafield> <datafield tag=\"490\" ind1=\"0\" ind2=\" \"> <subfield code=\"a\">Graphic novel</subfield> </datafield> <datafield tag=\"730\" ind1=\"0\" ind2=\" \"> <subfield code=\"a\">Aruku-hito</subfield> <subfield code=\"g\">dt.</subfield> </datafield> <datafield tag=\"852\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">Comic.9</subfield> </datafield> <datafield tag=\"856\" ind1=\"4\" ind2=\" \"> <subfield code=\"a\"/> <subfield code=\"q\">text/html</subfield> <subfield code=\"u\">http://deposit.d-nb.de/cgi-bin/dokserv?id=3200023&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield> <subfield code=\"3\">Inhaltstext</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0003318596</subfield> <subfield code=\"c\">N</subfield> <subfield code=\"e\">20090819</subfield> <subfield code=\"f\">20090819</subfield> <subfield code=\"5\">N20090819</subfield> <subfield code=\"6\">N2009083</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">C</subfield> <subfield code=\"p\">20180824</subfield> <subfield code=\"q\">20180921</subfield> <subfield code=\"r\">18</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">Comic.9</subfield> <subfield code=\"9\">4</subfield> <subfield code=\"B\">N</subfield> <subfield code=\"D\">M592126812</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2009083</subfield> <subfield code=\"w\">200908</subfield> <subfield code=\"x\">2009</subfield> <subfield code=\"y\">N20090819</subfield> <subfield code=\"z\">N2009083</subfield> <subfield code=\"0\">N200908</subfield> <subfield code=\"1\">N2009</subfield> <subfield code=\"2\">2009083</subfield> <subfield code=\"3\">200908</subfield> <subfield code=\"4\">2009</subfield> <subfield code=\"7\">N200908</subfield> <subfield code=\"8\">N2009</subfield> <subfield code=\"9\">4</subfield> </datafield> <datafield tag=\"980\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Antolin</subfield> </datafield> <datafield tag=\"980\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Klasse 6</subfield> </datafield> <datafield tag=\"996\" ind1=\" \" ind2=\" \"> <subfield code=\"b\">m z XAz 17 </subfield> </datafield> <datafield tag=\"997\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">991814371</subfield> </datafield> <datafield tag=\"959\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">1</subfield> <subfield code=\"b\">1</subfield> <subfield code=\"c\">20090626</subfield> <subfield code=\"d\">1</subfield> <subfield code=\"e\">0</subfield> <subfield code=\"f\">6</subfield> <subfield code=\"g\">BUE</subfield> <subfield code=\"h\">Buch Erwachsene</subfield> <subfield code=\"i\">EBE</subfield> <subfield code=\"j\">ERw.Bell.</subfield> <subfield code=\"m\">ger</subfield> <subfield code=\"n\">deutsch</subfield> <subfield code=\"o\">N </subfield> <subfield code=\"p\">Altona</subfield> <subfield code=\"3\">2009</subfield> <subfield code=\"4\">Taniguchi, Jiro</subfield> <subfield code=\"5\">•&lt;Der&gt;• spazierende Mann</subfield> <subfield code=\"6\">Comic.9</subfield> </datafield> </record>",
+                "text": [
+                    "9783551777911 978-3-551-77791-1",
+                    "Taniguchi, Jiro",
+                    "•<Der>• spazierende Mann",
+                    "Jiro Taniguchi. [Aus dem Japan. von John Schmitt-Weigand]",
+                    "Dt. Ausg.",
+                    "Hamburg",
+                    "Carlsen",
+                    "2009",
+                    "165 S.",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "Aruku-hito dt.",
+                    "Comic.9",
+                    "http://deposit.d-nb.de/cgi-bin/dokserv?id=3200023&prov=M&dok_var=1&dok_ext=htm",
+                    "Antolin",
+                    "Klasse 6",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "synonym": [
+                    "9783551777911 978-3-551-77791-1",
+                    "Taniguchi, Jiro",
+                    "•<Der>• spazierende Mann",
+                    "Jiro Taniguchi. [Aus dem Japan. von John Schmitt-Weigand]",
+                    "Dt. Ausg.",
+                    "Hamburg",
+                    "Carlsen",
+                    "2009",
+                    "165 S.",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "Aruku-hito dt.",
+                    "Comic.9",
+                    "http://deposit.d-nb.de/cgi-bin/dokserv?id=3200023&prov=M&dok_var=1&dok_ext=htm",
+                    "Antolin",
+                    "Klasse 6",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "DateOfAcquisition": "20090626",
+                "StockDateAdded_date": "2009-08-19T00:00:00Z",
+                "StockInterestLevelCode": [
+                    "EBE"
+                ],
+                "PlacePublication": [
+                    "Hamburg"
+                ],
+                "FirstStockBranchDateAddedYM": [
+                    "N200908"
+                ],
+                "StockDateAddedYMW": [
+                    "2009083"
+                ],
+                "ISBN": [
+                    "9783551777911 978-3-551-77791-1"
+                ],
+                "NUMERO": [
+                    "9783551777911 978-3-551-77791-1"
+                ],
+                "DCRange_end_date": "2009-12-31T23:59:00Z",
+                "FirstStockDateAdded_sort": "20090819",
+                "PersonalName": [
+                    "Taniguchi, Jiro",
+                    "Jiro Taniguchi. [Aus dem Japan. von John Schmitt-Weigand]"
+                ],
+                "FirstStockDateAddedYM": [
+                    "200908"
+                ],
+                "merge_key_sort": "9783551777911",
+                "StockBranchDateAddedYM": [
+                    "N200908"
+                ],
+                "FirstStockBranchDateAddedY": [
+                    "N2009"
+                ],
+                "StockBranchDateAddedYMW": [
+                    "N2009083"
+                ],
+                "FirstStockDateAddedYMW": [
+                    "2009083"
+                ],
+                "Keyword": [
+                    "Taniguchi, Jiro",
+                    "•<Der>• spazierende Mann",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "Aruku-hito dt.",
+                    "Antolin",
+                    "Klasse 6"
+                ],
+                "KeywordFacet": [
+                    "Taniguchi, Jiro",
+                    "•<Der>• spazierende Mann",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "Aruku-hito dt.",
+                    "Antolin",
+                    "Klasse 6"
+                ],
+                "StockOwnerLocationCode": [
+                    "N"
+                ],
+                "SortkeyTitleNumeric": "Comic.9",
+                "Title": [
+                    "•<Der>• spazierende Mann",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "Aruku-hito dt.",
+                    "•<Der>• spazierende Mann"
+                ],
+                "FirstStockBranchDateAdded_N_date": "2009-08-19T00:00:00Z",
+                "Publisher": [
+                    "Carlsen"
+                ],
+                "PublisherFacet": [
+                    "Carlsen"
+                ],
+                "StockRecordNumber": [
+                    "0003318596"
+                ],
+                "DCRange_start_date": "2009-01-01T00:00:00Z",
+                "LocalClassification": [
+                    "Comic.9"
+                ],
+                "StockDateAdded": [
+                    "20090819"
+                ],
+                "BibLevel": [
+                    "EBE"
+                ],
+                "_version_": 1609917031664058368
+            },
+            {
+                "id": "T012432958",
+                "SubjectHeading": [
+                    "Besteigung",
+                    "Mount Everest",
+                    "Comic",
+                    "Mount Everest",
+                    "Besteigung",
+                    "Comic",
+                    "Antolin",
+                    "Klasse 7",
+                    "Klasse 8",
+                    "Klasse 9",
+                    "Klasse 10",
+                    "Bergbesteigung",
+                    "Aufstieg",
+                    "Anstieg",
+                    "Aufstieg",
+                    "Everest, Mount",
+                    "Tschomo Lungma",
+                    "Jolmo Lungma",
+                    "Sagarmatha",
+                    "Chomolungma",
+                    "Tschomolungma",
+                    "Chu-mu-lang-ma-feng"
+                ],
+                "SubjectHeadingFacet": [
+                    "Besteigung",
+                    "Mount Everest",
+                    "Comic",
+                    "Mount Everest",
+                    "Besteigung",
+                    "Comic",
+                    "Antolin",
+                    "Klasse 7",
+                    "Klasse 8",
+                    "Klasse 9",
+                    "Klasse 10",
+                    "Bergbesteigung",
+                    "Aufstieg",
+                    "Anstieg",
+                    "Aufstieg",
+                    "Everest, Mount",
+                    "Tschomo Lungma",
+                    "Jolmo Lungma",
+                    "Sagarmatha",
+                    "Chomolungma",
+                    "Tschomolungma",
+                    "Chu-mu-lang-ma-feng",
+                    "Taniguchi, Jiro",
+                    "Gipfel der Götter = Kamigami no itadaki",
+                    "Shodoku",
+                    "Mount Everest",
+                    "Besteigung",
+                    "Comic",
+                    "Yumemakura, Baku",
+                    "Antolin",
+                    "Klasse 7",
+                    "Klasse 8",
+                    "Klasse 9",
+                    "Klasse 10"
+                ],
+                "SortkeyTitle": "Gipfel der Götter",
+                "CodeLanguage": [
+                    "ger",
+                    "ger",
+                    "deutsch"
+                ],
+                "CodeInstitution": [
+                    "N Altona"
+                ],
+                "MarcXML": "<record xmlns=\"http://www.loc.gov/MARC21/slim\"> <leader>01402nhm a2200457|| 450 </leader> <controlfield tag=\"001\">1243295</controlfield> <controlfield tag=\"005\">20111003174907.0</controlfield> <controlfield tag=\"008\">111003|||||||||||||||||||||||||||||ger||</controlfield> <controlfield tag=\"009\">T012432958</controlfield> <datafield tag=\"040\" ind1=\" \" ind2=\" \"> <subfield code=\"e\">rak</subfield> </datafield> <datafield tag=\"041\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">ger</subfield> </datafield> <datafield tag=\"090\" ind1=\" \" ind2=\" \"> <subfield code=\"g\">_</subfield> </datafield> <datafield tag=\"100\" ind1=\"1\" ind2=\" \"> <subfield code=\"a\">Taniguchi, Jiro</subfield> </datafield> <datafield tag=\"245\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">Gipfel der Götter</subfield> <subfield code=\"b\">= Kamigami no itadaki</subfield> <subfield code=\"c\">Zeichnung: Jiro Taniguchi. Szenario: Baku Yumemakura. [Aus dem Japan. von Tsuwame und Resel Rebiersch]</subfield> </datafield> <datafield tag=\"260\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">München</subfield> <subfield code=\"b\">Schreiber und Leser</subfield> </datafield> <datafield tag=\"490\" ind1=\"0\" ind2=\" \"> <subfield code=\"a\">Shodoku</subfield> </datafield> <datafield tag=\"650\" ind1=\" \" ind2=\"4\"> <subfield code=\"a\">Besteigung</subfield> </datafield> <datafield tag=\"651\" ind1=\" \" ind2=\"4\"> <subfield code=\"a\">Mount Everest</subfield> </datafield> <datafield tag=\"655\" ind1=\" \" ind2=\"4\"> <subfield code=\"a\">Comic</subfield> </datafield> <datafield tag=\"689\" ind1=\"0\" ind2=\"0\"> <subfield code=\"A\">g</subfield> <subfield code=\"a\">Mount Everest</subfield> </datafield> <datafield tag=\"689\" ind1=\"0\" ind2=\"1\"> <subfield code=\"A\">s</subfield> <subfield code=\"a\">Besteigung</subfield> </datafield> <datafield tag=\"689\" ind1=\"0\" ind2=\"2\"> <subfield code=\"A\">f</subfield> <subfield code=\"a\">Comic</subfield> </datafield> <datafield tag=\"700\" ind1=\"1\" ind2=\" \"> <subfield code=\"a\">Yumemakura, Baku</subfield> </datafield> <datafield tag=\"980\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Antolin</subfield> </datafield> <datafield tag=\"980\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Klasse 7</subfield> </datafield> <datafield tag=\"980\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Klasse 8</subfield> </datafield> <datafield tag=\"980\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Klasse 9</subfield> </datafield> <datafield tag=\"980\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Klasse 10</subfield> </datafield> <datafield tag=\"997\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">978-3-937102-71-9</subfield> </datafield> <datafield tag=\"959\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">1</subfield> <subfield code=\"b\">1</subfield> <subfield code=\"c\">19000000</subfield> <subfield code=\"d\">1</subfield> <subfield code=\"e\">0</subfield> <subfield code=\"f\">6</subfield> <subfield code=\"g\">BUE</subfield> <subfield code=\"h\">Buch Erwachsene</subfield> <subfield code=\"i\">EBE</subfield> <subfield code=\"j\">ERw.Bell.</subfield> <subfield code=\"m\">ger</subfield> <subfield code=\"n\">deutsch</subfield> <subfield code=\"o\">N </subfield> <subfield code=\"p\">Altona</subfield> <subfield code=\"3\">2007</subfield> <subfield code=\"4\"/> <subfield code=\"5\">Gipfel der Götter</subfield> <subfield code=\"6\"/> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Bergbesteigung</subfield> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Aufstieg</subfield> <subfield code=\"g\">Bergsteigen</subfield> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Anstieg</subfield> <subfield code=\"g\">Bergsteigen</subfield> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Aufstieg</subfield> <subfield code=\"g\">Besteigung</subfield> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Everest, Mount</subfield> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Tschomo Lungma</subfield> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Jolmo Lungma</subfield> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Sagarmatha</subfield> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Chomolungma</subfield> <subfield code=\"9\">vM; B 1986</subfield> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Tschomolungma</subfield> <subfield code=\"9\">vM; B 1986</subfield> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Chu-mu-lang-ma-feng</subfield> <subfield code=\"9\">vM; B 1986</subfield> </datafield> </record>",
+                "PhysicalDateOfPublication_s": [
+                    "2007"
+                ],
+                "DateOfPublication": "2007",
+                "text": [
+                    "Taniguchi, Jiro",
+                    "Gipfel der Götter = Kamigami no itadaki",
+                    "Zeichnung: Jiro Taniguchi. Szenario: Baku Yumemakura. [Aus dem Japan. von Tsuwame und Resel Rebiersch]",
+                    "München",
+                    "Schreiber und Leser",
+                    "Shodoku",
+                    "Besteigung",
+                    "Mount Everest",
+                    "Comic",
+                    "Mount Everest",
+                    "Besteigung",
+                    "Comic",
+                    "Yumemakura, Baku",
+                    "Antolin",
+                    "Klasse 7",
+                    "Klasse 8",
+                    "Klasse 9",
+                    "Klasse 10",
+                    "1 6 BUE Buch Erwachsene ger deutsch",
+                    "Bergbesteigung",
+                    "Aufstieg",
+                    "Anstieg",
+                    "Aufstieg",
+                    "Everest, Mount",
+                    "Tschomo Lungma",
+                    "Jolmo Lungma",
+                    "Sagarmatha",
+                    "Chomolungma",
+                    "Tschomolungma",
+                    "Chu-mu-lang-ma-feng"
+                ],
+                "synonym": [
+                    "Taniguchi, Jiro",
+                    "Gipfel der Götter = Kamigami no itadaki",
+                    "Zeichnung: Jiro Taniguchi. Szenario: Baku Yumemakura. [Aus dem Japan. von Tsuwame und Resel Rebiersch]",
+                    "München",
+                    "Schreiber und Leser",
+                    "Shodoku",
+                    "Besteigung",
+                    "Mount Everest",
+                    "Comic",
+                    "Mount Everest",
+                    "Besteigung",
+                    "Comic",
+                    "Yumemakura, Baku",
+                    "Antolin",
+                    "Klasse 7",
+                    "Klasse 8",
+                    "Klasse 9",
+                    "Klasse 10",
+                    "1 6 BUE Buch Erwachsene ger deutsch",
+                    "Bergbesteigung",
+                    "Aufstieg",
+                    "Anstieg",
+                    "Aufstieg",
+                    "Everest, Mount",
+                    "Tschomo Lungma",
+                    "Jolmo Lungma",
+                    "Sagarmatha",
+                    "Chomolungma",
+                    "Tschomolungma",
+                    "Chu-mu-lang-ma-feng"
+                ],
+                "SortkeyYOPD": "2007",
+                "DateOfAcquisition": "19000000",
+                "MaterialType": [
+                    "BUE"
+                ],
+                "DateOfAcquisitionSearch_date": "1900-01-01T00:00:00Z",
+                "PlacePublication": [
+                    "München"
+                ],
+                "DCRange_end_date": "2007-12-31T23:59:00Z",
+                "PersonalName": [
+                    "Taniguchi, Jiro",
+                    "Zeichnung: Jiro Taniguchi. Szenario: Baku Yumemakura. [Aus dem Japan. von Tsuwame und Resel Rebiersch]",
+                    "Yumemakura, Baku"
+                ],
+                "TitleDisplay": [
+                    "Gipfel der Götter"
+                ],
+                "merge_key_sort": "T012432958",
+                "DateOfPublicationSearch_date": "2007-01-01T00:00:00Z",
+                "Keyword": [
+                    "Taniguchi, Jiro",
+                    "Gipfel der Götter = Kamigami no itadaki",
+                    "Shodoku",
+                    "Mount Everest",
+                    "Besteigung",
+                    "Comic",
+                    "Yumemakura, Baku",
+                    "Antolin",
+                    "Klasse 7",
+                    "Klasse 8",
+                    "Klasse 9",
+                    "Klasse 10"
+                ],
+                "KeywordFacet": [
+                    "Taniguchi, Jiro",
+                    "Gipfel der Götter = Kamigami no itadaki",
+                    "Shodoku",
+                    "Mount Everest",
+                    "Besteigung",
+                    "Comic",
+                    "Yumemakura, Baku",
+                    "Antolin",
+                    "Klasse 7",
+                    "Klasse 8",
+                    "Klasse 9",
+                    "Klasse 10"
+                ],
+                "Title": [
+                    "Gipfel der Götter = Kamigami no itadaki",
+                    "Shodoku",
+                    "Gipfel der Götter"
+                ],
+                "HasStock": "1",
+                "Publisher": [
+                    "Schreiber und Leser"
+                ],
+                "PublisherFacet": [
+                    "Schreiber und Leser"
+                ],
+                "DCRange_start_date": "2007-01-01T00:00:00Z",
+                "Author": [
+                    "Taniguchi, Jiro",
+                    "Yumemakura, Baku"
+                ],
+                "AuthorFacet": [
+                    "Taniguchi, Jiro",
+                    "Yumemakura, Baku"
+                ],
+                "BibLevel": [
+                    "EBE"
+                ],
+                "_version_": 1609916886870392832
+            },
+            {
+                "id": "T017558570",
+                "CodeLanguage": [
+                    "ger",
+                    "ger",
+                    "deutsch"
+                ],
+                "StockBranchDateAdded": [
+                    "E20150603",
+                    "ELB20150915"
+                ],
+                "CodeInstitution": [
+                    "E Winterhude ELB Elbvororte"
+                ],
+                "FirstStockDateAddedY": [
+                    "2015",
+                    "2015"
+                ],
+                "PhysicalDateOfPublication_s": [
+                    "2014"
+                ],
+                "DateOfPublication": "2014",
+                "SortkeyYOPD": "2014",
+                "MaterialType": [
+                    "BUE"
+                ],
+                "DateOfAcquisitionSearch_date": "2015-01-01T00:00:00Z",
+                "StockSublocationCode": [
+                    "C",
+                    "C"
+                ],
+                "FirstStockBranchDateAddedYMW": [
+                    "E2015061",
+                    "ELB2015093"
+                ],
+                "StockCategory": [
+                    "18",
+                    "18"
+                ],
+                "StockDateAddedY": [
+                    "2015",
+                    "2015"
+                ],
+                "TitleDisplay": [
+                    "•<Der>• Gourmet"
+                ],
+                "StockHomeLocationCode": [
+                    "E",
+                    "ELB"
+                ],
+                "FirstStockBranchDateAdded_E_date": "2015-06-03T00:00:00Z",
+                "FirstStockDateAdded_date": "2015-06-03T00:00:00Z",
+                "StockBranchDateAddedY": [
+                    "E2015",
+                    "ELB2015"
+                ],
+                "StockCategoryCode": [
+                    "SCHL",
+                    "SCHL"
+                ],
+                "DateOfPublicationSearch_date": "2014-01-01T00:00:00Z",
+                "HasStock": "1",
+                "StockMaterialTypeCode": [
+                    "BUE",
+                    "BUE"
+                ],
+                "StockShelfmark": [
+                    "Comic.9",
+                    "Comic.9"
+                ],
+                "StockDateAddedYM": [
+                    "201506",
+                    "201509"
+                ],
+                "Author": [
+                    "Kusumi, Masayuki",
+                    "Taniguchi, Jirō"
+                ],
+                "AuthorFacet": [
+                    "Kusumi, Masayuki",
+                    "Taniguchi, Jirō"
+                ],
+                "SortkeyTitle": "•<Der>• Gourmet",
+                "StockDateIssueReturn": [
+                    "20180824",
+                    "20180821"
+                ],
+                "FirstStockBranchDateAdded": [
+                    "E20150603",
+                    "ELB20150915"
+                ],
+                "StockDateAdded_sort": "20150915",
+                "FirstStockDateAdded": [
+                    "20150603",
+                    "20150915"
+                ],
+                "MarcXML": "<record xmlns=\"http://www.loc.gov/MARC21/slim\"> <leader>02165nhm a2200409|| 450 </leader> <controlfield tag=\"001\">1755857</controlfield> <controlfield tag=\"003\">DE-101</controlfield> <controlfield tag=\"005\">20141215233101.0</controlfield> <controlfield tag=\"007\">tu |||||||||||||||||||||||| | || ||||||| ||||||||||| |||| ||||||||||||||||||||||| ||||||||| ||||||||||||| |||||||</controlfield> <controlfield tag=\"008\">140425s2014||||gw |||||</controlfield> <controlfield tag=\"009\">T017558570</controlfield> <datafield tag=\"015\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">15,A01</subfield> <subfield code=\"z\">14,N18</subfield> <subfield code=\"2\">dnb</subfield> </datafield> <datafield tag=\"016\" ind1=\"7\" ind2=\" \"> <subfield code=\"2\">DE-101</subfield> <subfield code=\"a\">1050311507</subfield> </datafield> <datafield tag=\"020\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">9783551768674</subfield> <subfield code=\"c\">kart. : EUR 14.90 (DE), EUR 15.40 (AT), sfr 21.90 (freier Pr.)</subfield> <subfield code=\"9\">978-3-551-76867-4</subfield> </datafield> <datafield tag=\"020\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">3551768676</subfield> <subfield code=\"9\">3-551-76867-6</subfield> </datafield> <datafield tag=\"024\" ind1=\"3\" ind2=\" \"> <subfield code=\"a\">9783551768674</subfield> </datafield> <datafield tag=\"035\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">(DE-599)DNB1050311507</subfield> </datafield> <datafield tag=\"035\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">(OCoLC)878982716</subfield> </datafield> <datafield tag=\"040\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1245</subfield> <subfield code=\"b\">ger</subfield> <subfield code=\"c\">DE-101</subfield> <subfield code=\"d\">9999</subfield> <subfield code=\"e\">rakwb</subfield> </datafield> <datafield tag=\"041\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">ger</subfield> <subfield code=\"h\">jpn</subfield> </datafield> <datafield tag=\"044\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">XA-DE-HH</subfield> </datafield> <datafield tag=\"090\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">b</subfield> </datafield> <datafield tag=\"245\" ind1=\"1\" ind2=\"0\"> <subfield code=\"a\">•&lt;Der&gt;• Gourmet</subfield> <subfield code=\"b\">von der Kunst allein zu genießen</subfield> <subfield code=\"c\">Masayuki Kusumi ; Jiro Taniguchi. [Aus dem Japan. von John Schmitt-Weigand]</subfield> </datafield> <datafield tag=\"250\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Dt. Ausg.</subfield> </datafield> <datafield tag=\"259\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">dta</subfield> </datafield> <datafield tag=\"260\" ind1=\"3\" ind2=\" \"> <subfield code=\"a\">Hamburg</subfield> <subfield code=\"b\">Carlsen</subfield> <subfield code=\"c\">2014</subfield> </datafield> <datafield tag=\"300\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">210 S.</subfield> <subfield code=\"b\">überw. Ill.</subfield> <subfield code=\"c\">21 cm</subfield> </datafield> <datafield tag=\"490\" ind1=\"0\" ind2=\" \"> <subfield code=\"a\">Carlsen-Comics</subfield> </datafield> <datafield tag=\"490\" ind1=\"0\" ind2=\" \"> <subfield code=\"a\">Graphic novel</subfield> </datafield> <datafield tag=\"700\" ind1=\"1\" ind2=\" \"> <subfield code=\"0\">(DE-588)1063112982</subfield> <subfield code=\"0\">(DE-101)1063112982</subfield> <subfield code=\"a\">Kusumi, Masayuki</subfield> <subfield code=\"d\">1958-</subfield> <subfield code=\"4\">ctb</subfield> </datafield> <datafield tag=\"700\" ind1=\"1\" ind2=\" \"> <subfield code=\"0\">(DE-588)1034070592</subfield> <subfield code=\"0\">(DE-101)1034070592</subfield> <subfield code=\"a\">Taniguchi, Jirō</subfield> <subfield code=\"d\">1947-</subfield> <subfield code=\"4\">ctb</subfield> </datafield> <datafield tag=\"852\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">Comic.9</subfield> </datafield> <datafield tag=\"856\" ind1=\"4\" ind2=\"2\"> <subfield code=\"m\">X:MVB</subfield> <subfield code=\"q\">text/html</subfield> <subfield code=\"u\">http://deposit.d-nb.de/cgi-bin/dokserv?id=4647764&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield> <subfield code=\"3\">Inhaltstext</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0004760093</subfield> <subfield code=\"c\">E</subfield> <subfield code=\"e\">20150603</subfield> <subfield code=\"f\">20150603</subfield> <subfield code=\"5\">E20150603</subfield> <subfield code=\"6\">E2015061</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">C</subfield> <subfield code=\"p\">20180824</subfield> <subfield code=\"q\">20180921</subfield> <subfield code=\"r\">18</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">Comic.9</subfield> <subfield code=\"9\">4</subfield> <subfield code=\"B\">E</subfield> <subfield code=\"D\">M610789047</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2015061</subfield> <subfield code=\"w\">201506</subfield> <subfield code=\"x\">2015</subfield> <subfield code=\"y\">E20150603</subfield> <subfield code=\"z\">E2015061</subfield> <subfield code=\"0\">E201506</subfield> <subfield code=\"1\">E2015</subfield> <subfield code=\"2\">2015061</subfield> <subfield code=\"3\">201506</subfield> <subfield code=\"4\">2015</subfield> <subfield code=\"7\">E201506</subfield> <subfield code=\"8\">E2015</subfield> <subfield code=\"9\">4</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0004827839</subfield> <subfield code=\"c\">ELB</subfield> <subfield code=\"e\">20150915</subfield> <subfield code=\"f\">20150915</subfield> <subfield code=\"5\">ELB20150915</subfield> <subfield code=\"6\">ELB2015093</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">C</subfield> <subfield code=\"p\">20180821</subfield> <subfield code=\"q\">20180918</subfield> <subfield code=\"r\">18</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">Comic.9</subfield> <subfield code=\"9\">4</subfield> <subfield code=\"B\">ELB</subfield> <subfield code=\"D\">M613699904</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2015093</subfield> <subfield code=\"w\">201509</subfield> <subfield code=\"x\">2015</subfield> <subfield code=\"y\">ELB20150915</subfield> <subfield code=\"z\">ELB2015093</subfield> <subfield code=\"0\">ELB201509</subfield> <subfield code=\"1\">ELB2015</subfield> <subfield code=\"2\">2015093</subfield> <subfield code=\"3\">201509</subfield> <subfield code=\"4\">2015</subfield> <subfield code=\"7\">ELB201509</subfield> <subfield code=\"8\">ELB2015</subfield> <subfield code=\"9\">4</subfield> </datafield> <datafield tag=\"997\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1050311507</subfield> </datafield> <datafield tag=\"959\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">1</subfield> <subfield code=\"b\">1</subfield> <subfield code=\"c\">20150603</subfield> <subfield code=\"d\">1</subfield> <subfield code=\"e\">6</subfield> <subfield code=\"f\">6</subfield> <subfield code=\"g\">BUE</subfield> <subfield code=\"h\">Buch Erwachsene</subfield> <subfield code=\"i\">EBE</subfield> <subfield code=\"j\">ERw.Bell.</subfield> <subfield code=\"k\">ger</subfield> <subfield code=\"l\">deutsch</subfield> <subfield code=\"m\">ger</subfield> <subfield code=\"n\">deutsch</subfield> <subfield code=\"o\">E </subfield> <subfield code=\"p\">Winterhude</subfield> <subfield code=\"o\">ELB </subfield> <subfield code=\"p\">Elbvororte</subfield> <subfield code=\"3\">2014</subfield> <subfield code=\"4\"/> <subfield code=\"5\">•&lt;Der&gt;• Gourmet</subfield> <subfield code=\"6\">Comic.9</subfield> </datafield> </record>",
+                "text": [
+                    "9783551768674 978-3-551-76867-4",
+                    "3551768676 3-551-76867-6",
+                    "9783551768674",
+                    "•<Der>• Gourmet von der Kunst allein zu genießen",
+                    "Masayuki Kusumi ; Jiro Taniguchi. [Aus dem Japan. von John Schmitt-Weigand]",
+                    "Dt. Ausg.",
+                    "Hamburg",
+                    "Carlsen",
+                    "2014",
+                    "210 S.",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "Kusumi, Masayuki 1958-",
+                    "Taniguchi, Jirō 1947-",
+                    "Comic.9",
+                    "http://deposit.d-nb.de/cgi-bin/dokserv?id=4647764&prov=M&dok_var=1&dok_ext=htm",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "synonym": [
+                    "9783551768674 978-3-551-76867-4",
+                    "3551768676 3-551-76867-6",
+                    "9783551768674",
+                    "•<Der>• Gourmet von der Kunst allein zu genießen",
+                    "Masayuki Kusumi ; Jiro Taniguchi. [Aus dem Japan. von John Schmitt-Weigand]",
+                    "Dt. Ausg.",
+                    "Hamburg",
+                    "Carlsen",
+                    "2014",
+                    "210 S.",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "Kusumi, Masayuki 1958-",
+                    "Taniguchi, Jirō 1947-",
+                    "Comic.9",
+                    "http://deposit.d-nb.de/cgi-bin/dokserv?id=4647764&prov=M&dok_var=1&dok_ext=htm",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "DateOfAcquisition": "20150603",
+                "StockDateAdded_date": "2015-09-15T00:00:00Z",
+                "StockInterestLevelCode": [
+                    "EBE",
+                    "EBE"
+                ],
+                "FirstStockBranchDateAdded_ELB_date": "2015-09-15T00:00:00Z",
+                "PlacePublication": [
+                    "Hamburg"
+                ],
+                "FirstStockBranchDateAddedYM": [
+                    "E201506",
+                    "ELB201509"
+                ],
+                "StockDateAddedYMW": [
+                    "2015061",
+                    "2015093"
+                ],
+                "ISBN": [
+                    "9783551768674 978-3-551-76867-4",
+                    "3551768676 3-551-76867-6"
+                ],
+                "NUMERO": [
+                    "9783551768674 978-3-551-76867-4",
+                    "3551768676 3-551-76867-6",
+                    "9783551768674"
+                ],
+                "DCRange_end_date": "2014-12-31T23:59:00Z",
+                "FirstStockDateAdded_sort": "20150603",
+                "PersonalName": [
+                    "Masayuki Kusumi ; Jiro Taniguchi. [Aus dem Japan. von John Schmitt-Weigand]",
+                    "Kusumi, Masayuki 1958-",
+                    "Taniguchi, Jirō 1947-"
+                ],
+                "FirstStockDateAddedYM": [
+                    "201506",
+                    "201509"
+                ],
+                "merge_key_sort": "T017558570",
+                "StockBranchDateAddedYM": [
+                    "E201506",
+                    "ELB201509"
+                ],
+                "FirstStockBranchDateAddedY": [
+                    "E2015",
+                    "ELB2015"
+                ],
+                "StockBranchDateAddedYMW": [
+                    "E2015061",
+                    "ELB2015093"
+                ],
+                "FirstStockDateAddedYMW": [
+                    "2015061",
+                    "2015093"
+                ],
+                "Keyword": [
+                    "•<Der>• Gourmet von der Kunst allein zu genießen",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "Kusumi, Masayuki 1958-",
+                    "Taniguchi, Jirō 1947-"
+                ],
+                "KeywordFacet": [
+                    "•<Der>• Gourmet von der Kunst allein zu genießen",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "Kusumi, Masayuki 1958-",
+                    "Taniguchi, Jirō 1947-"
+                ],
+                "SubjectHeadingFacet": [
+                    "•<Der>• Gourmet von der Kunst allein zu genießen",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "Kusumi, Masayuki 1958-",
+                    "Taniguchi, Jirō 1947-"
+                ],
+                "StockOwnerLocationCode": [
+                    "E",
+                    "ELB"
+                ],
+                "SortkeyTitleNumeric": "Comic.9",
+                "ISMN": [
+                    "9783551768674"
+                ],
+                "Title": [
+                    "•<Der>• Gourmet von der Kunst allein zu genießen",
+                    "Carlsen-Comics",
+                    "Graphic novel",
+                    "•<Der>• Gourmet"
+                ],
+                "Publisher": [
+                    "Carlsen"
+                ],
+                "PublisherFacet": [
+                    "Carlsen"
+                ],
+                "StockRecordNumber": [
+                    "0004760093",
+                    "0004827839"
+                ],
+                "DCRange_start_date": "2014-01-01T00:00:00Z",
+                "LocalClassification": [
+                    "Comic.9"
+                ],
+                "StockDateAdded": [
+                    "20150603",
+                    "20150915"
+                ],
+                "BibLevel": [
+                    "EBE"
+                ],
+                "_version_": 1609918803743866880
+            },
+            {
+                "id": "T018400786",
+                "CodeLanguage": [
+                    "ger",
+                    "ger",
+                    "deutsch"
+                ],
+                "StockBranchDateAdded": [
+                    "C20160912",
+                    "T20180308",
+                    "E20180228",
+                    "ELB20180308",
+                    "R220161223"
+                ],
+                "CodeInstitution": [
+                    "C Zentralbibliothek T Eimsbüttel E Winterhude ELB Elbvororte R2 Wilhelmsburg"
+                ],
+                "FirstStockDateAddedY": [
+                    "2016",
+                    "2018",
+                    "2018",
+                    "2018",
+                    "2016"
+                ],
+                "PhysicalDateOfPublication_s": [
+                    "2016"
+                ],
+                "FirstStockBranchDateAdded_R2_date": "2016-12-23T00:00:00Z",
+                "DateOfPublication": "2016",
+                "SortkeyYOPD": "2016",
+                "MaterialType": [
+                    "BUE"
+                ],
+                "DateOfAcquisitionSearch_date": "2016-01-01T00:00:00Z",
+                "StockSublocationCode": [
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C"
+                ],
+                "FirstStockBranchDateAddedYMW": [
+                    "C2016092",
+                    "T2018032",
+                    "E2018024",
+                    "ELB2018032",
+                    "R22016124"
+                ],
+                "StockCategory": [
+                    "18",
+                    "18",
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "StockDateAddedY": [
+                    "2016",
+                    "2018",
+                    "2018",
+                    "2018",
+                    "2016"
+                ],
+                "TitleDisplay": [
+                    "Ikarus"
+                ],
+                "StockHomeLocationCode": [
+                    "C",
+                    "T",
+                    "E",
+                    "ELB",
+                    "R2"
+                ],
+                "FirstStockBranchDateAdded_E_date": "2018-02-28T00:00:00Z",
+                "FirstStockDateAdded_date": "2016-09-12T00:00:00Z",
+                "StockBranchDateAddedY": [
+                    "C2016",
+                    "T2018",
+                    "E2018",
+                    "ELB2018",
+                    "R22016"
+                ],
+                "StockCategoryCode": [
+                    "SCHL",
+                    "SCHL",
+                    "SCHL",
+                    "SCHL",
+                    "SCHL"
+                ],
+                "DateOfPublicationSearch_date": "2016-01-01T00:00:00Z",
+                "HasStock": "1",
+                "StockMaterialTypeCode": [
+                    "BUE",
+                    "BUE",
+                    "BUE",
+                    "BUE",
+                    "BUE"
+                ],
+                "StockShelfmark": [
+                    "Comic.3",
+                    "Comic.3",
+                    "Comic.3",
+                    "Comic.3",
+                    "Comic.3"
+                ],
+                "StockDateAddedYM": [
+                    "201609",
+                    "201803",
+                    "201802",
+                    "201803",
+                    "201612"
+                ],
+                "Author": [
+                    "Taniguchi, Jirō",
+                    "Moebius"
+                ],
+                "AuthorFacet": [
+                    "Taniguchi, Jirō",
+                    "Moebius"
+                ],
+                "SortkeyAuthor": "Taniguchi, Jirō",
+                "SubjectHeading": [
+                    "Comic",
+                    "Giraud, Jean"
+                ],
+                "SubjectHeadingFacet": [
+                    "Comic",
+                    "Giraud, Jean",
+                    "Taniguchi, Jirō 1947-",
+                    "Ikarus",
+                    "Moebius 1938-2012"
+                ],
+                "SortkeyTitle": "Ikarus",
+                "StockDateIssueReturn": [
+                    "20180815",
+                    "20180816",
+                    "20180731",
+                    "20180824",
+                    "20180725"
+                ],
+                "FirstStockBranchDateAdded": [
+                    "C20160912",
+                    "T20180308",
+                    "E20180228",
+                    "ELB20180308",
+                    "R220161223"
+                ],
+                "StockDateAdded_sort": "20180308",
+                "FirstStockDateAdded": [
+                    "20160912",
+                    "20180308",
+                    "20180228",
+                    "20180308",
+                    "20161223"
+                ],
+                "MarcXML": "<record xmlns=\"http://www.loc.gov/MARC21/slim\"> <leader>02523nhm a2200349|| 450 </leader> <controlfield tag=\"001\">1840078</controlfield> <controlfield tag=\"007\">tu ||||||||||||||||||||</controlfield> <controlfield tag=\"007\">tu |||||||||||||||||||||||| | || ||||||| ||||||||||| |||| ||||||||||||||||||||||| ||||||||| ||||||||||||| |||||||</controlfield> <controlfield tag=\"008\">160825|||||||||||||||||||||||||||||ger||</controlfield> <controlfield tag=\"008\">160825|||||||||||||||||</controlfield> <controlfield tag=\"009\">T018400786</controlfield> <datafield tag=\"020\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">9783946337065</subfield> <subfield code=\"c\">gebunden : EUR 24,95</subfield> <subfield code=\"9\">978-3-946337-06-5</subfield> </datafield> <datafield tag=\"041\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">ger</subfield> <subfield code=\"h\">jpn</subfield> </datafield> <datafield tag=\"100\" ind1=\"1\" ind2=\" \"> <subfield code=\"a\">Taniguchi, Jirō</subfield> <subfield code=\"d\">1947-</subfield> <subfield code=\"e\">K�nstler</subfield> </datafield> <datafield tag=\"245\" ind1=\"1\" ind2=\"0\"> <subfield code=\"a\">Ikarus</subfield> <subfield code=\"c\">Zeichnung: Jiro Taniguchi ; nach einem Szenario von Mœbius</subfield> </datafield> <datafield tag=\"250\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1. Auflage</subfield> </datafield> <datafield tag=\"264\" ind1=\" \" ind2=\"1\"> <subfield code=\"a\">[Hamburg]</subfield> <subfield code=\"b\">Schreiber &amp; Leser</subfield> <subfield code=\"c\">2016</subfield> </datafield> <datafield tag=\"300\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">308 Seiten</subfield> </datafield> <datafield tag=\"336\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">unbewegtes Bild</subfield> <subfield code=\"2\">rdacontent</subfield> </datafield> <datafield tag=\"337\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">ohne Hilfsmittel zu benutzen</subfield> <subfield code=\"2\">rdamedia</subfield> </datafield> <datafield tag=\"338\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Band</subfield> <subfield code=\"2\">rdacarrier</subfield> </datafield> <datafield tag=\"655\" ind1=\"0\" ind2=\"0\"> <subfield code=\"A\">f</subfield> <subfield code=\"a\">Comic</subfield> </datafield> <datafield tag=\"700\" ind1=\"0\" ind2=\" \"> <subfield code=\"a\">Moebius</subfield> <subfield code=\"d\">1938-2012</subfield> <subfield code=\"e\"> </subfield> </datafield> <datafield tag=\"852\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">Comic.3</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0005066451</subfield> <subfield code=\"c\">C</subfield> <subfield code=\"e\">20160912</subfield> <subfield code=\"f\">20160912</subfield> <subfield code=\"5\">C20160912</subfield> <subfield code=\"6\">C2016092</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">C</subfield> <subfield code=\"p\">20180815</subfield> <subfield code=\"q\">20180912</subfield> <subfield code=\"r\">18</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">Comic.3</subfield> <subfield code=\"9\">4</subfield> <subfield code=\"B\">C</subfield> <subfield code=\"D\">M613008339</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2016092</subfield> <subfield code=\"w\">201609</subfield> <subfield code=\"x\">2016</subfield> <subfield code=\"y\">C20160912</subfield> <subfield code=\"z\">C2016092</subfield> <subfield code=\"0\">C201609</subfield> <subfield code=\"1\">C2016</subfield> <subfield code=\"2\">2016092</subfield> <subfield code=\"3\">201609</subfield> <subfield code=\"4\">2016</subfield> <subfield code=\"7\">C201609</subfield> <subfield code=\"8\">C2016</subfield> <subfield code=\"9\">4</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0005410572</subfield> <subfield code=\"c\">T</subfield> <subfield code=\"e\">20180308</subfield> <subfield code=\"f\">20180308</subfield> <subfield code=\"5\">T20180308</subfield> <subfield code=\"6\">T2018032</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">C</subfield> <subfield code=\"p\">20180816</subfield> <subfield code=\"q\">20180913</subfield> <subfield code=\"r\">18</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">Comic.3</subfield> <subfield code=\"9\">4</subfield> <subfield code=\"B\">T</subfield> <subfield code=\"D\">M619274629</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2018032</subfield> <subfield code=\"w\">201803</subfield> <subfield code=\"x\">2018</subfield> <subfield code=\"y\">T20180308</subfield> <subfield code=\"z\">T2018032</subfield> <subfield code=\"0\">T201803</subfield> <subfield code=\"1\">T2018</subfield> <subfield code=\"2\">2018032</subfield> <subfield code=\"3\">201803</subfield> <subfield code=\"4\">2018</subfield> <subfield code=\"7\">T201803</subfield> <subfield code=\"8\">T2018</subfield> <subfield code=\"9\">4</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0005405454</subfield> <subfield code=\"c\">E</subfield> <subfield code=\"e\">20180228</subfield> <subfield code=\"f\">20180228</subfield> <subfield code=\"5\">E20180228</subfield> <subfield code=\"6\">E2018024</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">C</subfield> <subfield code=\"p\">20180731</subfield> <subfield code=\"q\">20180828</subfield> <subfield code=\"r\">18</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">Comic.3</subfield> <subfield code=\"9\">4</subfield> <subfield code=\"B\">E</subfield> <subfield code=\"D\">M619274605</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2018024</subfield> <subfield code=\"w\">201802</subfield> <subfield code=\"x\">2018</subfield> <subfield code=\"y\">E20180228</subfield> <subfield code=\"z\">E2018024</subfield> <subfield code=\"0\">E201802</subfield> <subfield code=\"1\">E2018</subfield> <subfield code=\"2\">2018024</subfield> <subfield code=\"3\">201802</subfield> <subfield code=\"4\">2018</subfield> <subfield code=\"7\">E201802</subfield> <subfield code=\"8\">E2018</subfield> <subfield code=\"9\">4</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0005410555</subfield> <subfield code=\"c\">ELB</subfield> <subfield code=\"e\">20180308</subfield> <subfield code=\"f\">20180308</subfield> <subfield code=\"5\">ELB20180308</subfield> <subfield code=\"6\">ELB2018032</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">C</subfield> <subfield code=\"p\">20180824</subfield> <subfield code=\"q\">20180921</subfield> <subfield code=\"r\">18</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">Comic.3</subfield> <subfield code=\"9\">4</subfield> <subfield code=\"B\">ELB</subfield> <subfield code=\"D\">M619274617</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2018032</subfield> <subfield code=\"w\">201803</subfield> <subfield code=\"x\">2018</subfield> <subfield code=\"y\">ELB20180308</subfield> <subfield code=\"z\">ELB2018032</subfield> <subfield code=\"0\">ELB201803</subfield> <subfield code=\"1\">ELB2018</subfield> <subfield code=\"2\">2018032</subfield> <subfield code=\"3\">201803</subfield> <subfield code=\"4\">2018</subfield> <subfield code=\"7\">ELB201803</subfield> <subfield code=\"8\">ELB2018</subfield> <subfield code=\"9\">4</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0005135328</subfield> <subfield code=\"c\">R2</subfield> <subfield code=\"e\">20161223</subfield> <subfield code=\"f\">20161223</subfield> <subfield code=\"5\">R220161223</subfield> <subfield code=\"6\">R22016124</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">C</subfield> <subfield code=\"p\">20180725</subfield> <subfield code=\"q\">20180809</subfield> <subfield code=\"r\">18</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">Comic.3</subfield> <subfield code=\"9\">0</subfield> <subfield code=\"B\">R2</subfield> <subfield code=\"D\">M616016752</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2016124</subfield> <subfield code=\"w\">201612</subfield> <subfield code=\"x\">2016</subfield> <subfield code=\"y\">R220161223</subfield> <subfield code=\"z\">R22016124</subfield> <subfield code=\"0\">R2201612</subfield> <subfield code=\"1\">R22016</subfield> <subfield code=\"2\">2016124</subfield> <subfield code=\"3\">201612</subfield> <subfield code=\"4\">2016</subfield> <subfield code=\"7\">R2201612</subfield> <subfield code=\"8\">R22016</subfield> <subfield code=\"9\">0</subfield> </datafield> <datafield tag=\"997\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">9783946337065</subfield> </datafield> <datafield tag=\"959\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">1</subfield> <subfield code=\"b\">1</subfield> <subfield code=\"c\">20160912</subfield> <subfield code=\"d\">1</subfield> <subfield code=\"e\">6</subfield> <subfield code=\"f\">6</subfield> <subfield code=\"g\">BUE</subfield> <subfield code=\"h\">Buch Erwachsene</subfield> <subfield code=\"i\">EBE</subfield> <subfield code=\"j\">ERw.Bell.</subfield> <subfield code=\"k\">ger</subfield> <subfield code=\"l\">deutsch</subfield> <subfield code=\"m\">ger</subfield> <subfield code=\"n\">deutsch</subfield> <subfield code=\"o\">C </subfield> <subfield code=\"p\"> Zentralbibliothek</subfield> <subfield code=\"o\">T </subfield> <subfield code=\"p\">Eimsbüttel</subfield> <subfield code=\"o\">E </subfield> <subfield code=\"p\">Winterhude</subfield> <subfield code=\"o\">ELB </subfield> <subfield code=\"p\">Elbvororte</subfield> <subfield code=\"o\">R2 </subfield> <subfield code=\"p\">Wilhelmsburg</subfield> <subfield code=\"3\">2016</subfield> <subfield code=\"4\">Taniguchi, Jirō</subfield> <subfield code=\"5\">Ikarus</subfield> <subfield code=\"6\">Comic.3</subfield> </datafield> <datafield tag=\"969\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Giraud, Jean</subfield> <subfield code=\"c\">Comiczeichner</subfield> </datafield> </record>",
+                "FirstStockBranchDateAdded_C_date": "2016-09-12T00:00:00Z",
+                "text": [
+                    "9783946337065 978-3-946337-06-5",
+                    "Taniguchi, Jirō 1947-",
+                    "Ikarus",
+                    "Zeichnung: Jiro Taniguchi ; nach einem Szenario von Mœbius",
+                    "1. Auflage",
+                    "[Hamburg]",
+                    "Schreiber & Leser",
+                    "2016",
+                    "308 Seiten",
+                    "Comic",
+                    "Moebius 1938-2012",
+                    "Comic.3",
+                    "1 6 BUE Buch Erwachsene ger deutsch",
+                    "Giraud, Jean"
+                ],
+                "synonym": [
+                    "9783946337065 978-3-946337-06-5",
+                    "Taniguchi, Jirō 1947-",
+                    "Ikarus",
+                    "Zeichnung: Jiro Taniguchi ; nach einem Szenario von Mœbius",
+                    "1. Auflage",
+                    "[Hamburg]",
+                    "Schreiber & Leser",
+                    "2016",
+                    "308 Seiten",
+                    "Comic",
+                    "Moebius 1938-2012",
+                    "Comic.3",
+                    "1 6 BUE Buch Erwachsene ger deutsch",
+                    "Giraud, Jean"
+                ],
+                "DateOfAcquisition": "20160912",
+                "StockDateAdded_date": "2018-03-08T00:00:00Z",
+                "StockInterestLevelCode": [
+                    "EBE",
+                    "EBE",
+                    "EBE",
+                    "EBE",
+                    "EBE"
+                ],
+                "FirstStockBranchDateAdded_ELB_date": "2018-03-08T00:00:00Z",
+                "PlacePublication": [
+                    "[Hamburg]"
+                ],
+                "FirstStockBranchDateAddedYM": [
+                    "C201609",
+                    "T201803",
+                    "E201802",
+                    "ELB201803",
+                    "R2201612"
+                ],
+                "StockDateAddedYMW": [
+                    "2016092",
+                    "2018032",
+                    "2018024",
+                    "2018032",
+                    "2016124"
+                ],
+                "ISBN": [
+                    "9783946337065 978-3-946337-06-5"
+                ],
+                "NUMERO": [
+                    "9783946337065 978-3-946337-06-5"
+                ],
+                "DCRange_end_date": "2016-12-31T23:59:00Z",
+                "FirstStockDateAdded_sort": "20160912",
+                "PersonalName": [
+                    "Taniguchi, Jirō 1947-",
+                    "Zeichnung: Jiro Taniguchi ; nach einem Szenario von Mœbius",
+                    "Moebius 1938-2012"
+                ],
+                "FirstStockDateAddedYM": [
+                    "201609",
+                    "201803",
+                    "201802",
+                    "201803",
+                    "201612"
+                ],
+                "merge_key_sort": "9783946337065",
+                "StockBranchDateAddedYM": [
+                    "C201609",
+                    "T201803",
+                    "E201802",
+                    "ELB201803",
+                    "R2201612"
+                ],
+                "FirstStockBranchDateAddedY": [
+                    "C2016",
+                    "T2018",
+                    "E2018",
+                    "ELB2018",
+                    "R22016"
+                ],
+                "StockBranchDateAddedYMW": [
+                    "C2016092",
+                    "T2018032",
+                    "E2018024",
+                    "ELB2018032",
+                    "R22016124"
+                ],
+                "FirstStockDateAddedYMW": [
+                    "2016092",
+                    "2018032",
+                    "2018024",
+                    "2018032",
+                    "2016124"
+                ],
+                "Keyword": [
+                    "Taniguchi, Jirō 1947-",
+                    "Ikarus",
+                    "Moebius 1938-2012"
+                ],
+                "KeywordFacet": [
+                    "Taniguchi, Jirō 1947-",
+                    "Ikarus",
+                    "Moebius 1938-2012"
+                ],
+                "StockOwnerLocationCode": [
+                    "C",
+                    "T",
+                    "E",
+                    "ELB",
+                    "R2"
+                ],
+                "SortkeyTitleNumeric": "Comic.3",
+                "Title": [
+                    "Ikarus",
+                    "Ikarus"
+                ],
+                "Publisher": [
+                    "Schreiber & Leser"
+                ],
+                "PublisherFacet": [
+                    "Schreiber & Leser"
+                ],
+                "StockRecordNumber": [
+                    "0005066451",
+                    "0005410572",
+                    "0005405454",
+                    "0005410555",
+                    "0005135328"
+                ],
+                "DCRange_start_date": "2016-01-01T00:00:00Z",
+                "FirstStockBranchDateAdded_T_date": "2018-03-08T00:00:00Z",
+                "LocalClassification": [
+                    "Comic.3"
+                ],
+                "StockDateAdded": [
+                    "20160912",
+                    "20180308",
+                    "20180228",
+                    "20180308",
+                    "20161223"
+                ],
+                "BibLevel": [
+                    "EBE"
+                ],
+                "_version_": 1609919374084276224
+            },
+            {
+                "id": "T019008755",
+                "CodeLanguage": [
+                    "ger",
+                    "ger",
+                    "deutsch"
+                ],
+                "StockBranchDateAdded": [
+                    "C20170828"
+                ],
+                "CodeInstitution": [
+                    "C Zentralbibliothek"
+                ],
+                "FirstStockDateAddedY": [
+                    "2017"
+                ],
+                "PhysicalDateOfPublication_s": [
+                    "2017"
+                ],
+                "DateOfPublication": "2017",
+                "SortkeyYOPD": "2017",
+                "MaterialType": [
+                    "BUE"
+                ],
+                "DateOfAcquisitionSearch_date": "2017-01-01T00:00:00Z",
+                "StockSublocationCode": [
+                    "C"
+                ],
+                "FirstStockBranchDateAddedYMW": [
+                    "C2017084"
+                ],
+                "StockCategory": [
+                    "18"
+                ],
+                "StockDateAddedY": [
+                    "2017"
+                ],
+                "TitleDisplay": [
+                    "Ice age chronicle of the Earth / 2"
+                ],
+                "StockHomeLocationCode": [
+                    "C"
+                ],
+                "FirstStockDateAdded_date": "2017-08-28T00:00:00Z",
+                "StockBranchDateAddedY": [
+                    "C2017"
+                ],
+                "StockCategoryCode": [
+                    "SCHL"
+                ],
+                "DateOfPublicationSearch_date": "2017-01-01T00:00:00Z",
+                "HasStock": "1",
+                "StockMaterialTypeCode": [
+                    "BUE"
+                ],
+                "StockShelfmark": [
+                    "Comic.3"
+                ],
+                "StockDateAddedYM": [
+                    "201708"
+                ],
+                "Author": [
+                    "Taniguchi, Jirō"
+                ],
+                "AuthorFacet": [
+                    "Taniguchi, Jirō"
+                ],
+                "SortkeyAuthor": "Taniguchi, Jirō",
+                "SubjectHeading": [
+                    "Comic"
+                ],
+                "SubjectHeadingFacet": [
+                    "Comic",
+                    "Taniguchi, Jirō 1947-2017",
+                    "Ice age chronicle of the Earth 2"
+                ],
+                "SortkeyTitle": "Ice age chronicle of the Earth / 2",
+                "StockDateIssueReturn": [
+                    "20180728"
+                ],
+                "Parent": "1900876",
+                "FirstStockBranchDateAdded": [
+                    "C20170828"
+                ],
+                "StockDateAdded_sort": "20170828",
+                "FirstStockDateAdded": [
+                    "20170828"
+                ],
+                "MarcXML": "<record xmlns=\"http://www.loc.gov/MARC21/slim\"> <leader>01939num a2200409|| 450 </leader> <controlfield tag=\"001\">1900875</controlfield> <controlfield tag=\"003\">DE-101</controlfield> <controlfield tag=\"005\">20170816014226.0</controlfield> <controlfield tag=\"007\">tu |||||| |||||||||||| |||| | || ||||||| ||||||||||| |||| ||||||||||||||||||||||| ||||||||| ||||||||||||| |||||||</controlfield> <controlfield tag=\"008\">170804s2017||||gw |||||</controlfield> <controlfield tag=\"009\">T019008755</controlfield> <datafield tag=\"016\" ind1=\"7\" ind2=\" \"> <subfield code=\"2\">DE-101</subfield> <subfield code=\"a\">1137727721</subfield> </datafield> <datafield tag=\"020\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">9783946337201</subfield> <subfield code=\"c\">Broschur : EUR 16.95</subfield> <subfield code=\"9\">978-3-946337-20-1</subfield> </datafield> <datafield tag=\"035\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">(DE-599)DNB1137727721</subfield> </datafield> <datafield tag=\"040\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1249</subfield> <subfield code=\"b\">ger</subfield> <subfield code=\"c\">DE-101</subfield> <subfield code=\"d\">0292</subfield> <subfield code=\"e\">rda</subfield> </datafield> <datafield tag=\"041\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">ger</subfield> <subfield code=\"h\">jpn</subfield> </datafield> <datafield tag=\"044\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">XA-DE</subfield> </datafield> <datafield tag=\"100\" ind1=\"1\" ind2=\" \"> <subfield code=\"0\">(DE-588)1034070592</subfield> <subfield code=\"0\">http://d-nb.info/gnd/1034070592</subfield> <subfield code=\"0\">(DE-101)1034070592</subfield> <subfield code=\"a\">Taniguchi, Jirō</subfield> <subfield code=\"d\">1947-2017</subfield> <subfield code=\"e\">Verfasser</subfield> <subfield code=\"4\">aut</subfield> </datafield> <datafield tag=\"245\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">Ice age chronicle of the Earth</subfield> <subfield code=\"n\">2</subfield> <subfield code=\"c\">Jiro Taniguchi ; Übersetzung: Marcel le Comte</subfield> </datafield> <datafield tag=\"250\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1. Auflage</subfield> </datafield> <datafield tag=\"259\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">11</subfield> </datafield> <datafield tag=\"264\" ind1=\"3\" ind2=\"1\"> <subfield code=\"a\">Hamburg</subfield> <subfield code=\"b\">Schreiber &amp; Leser</subfield> <subfield code=\"c\">2017</subfield> </datafield> <datafield tag=\"300\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">305 Seiten</subfield> </datafield> <datafield tag=\"336\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Text</subfield> <subfield code=\"b\">txt</subfield> <subfield code=\"2\">rdacontent</subfield> </datafield> <datafield tag=\"336\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">unbewegtes Bild</subfield> <subfield code=\"b\">sti</subfield> <subfield code=\"2\">rdacontent</subfield> </datafield> <datafield tag=\"337\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">ohne Hilfsmittel zu benutzen</subfield> <subfield code=\"b\">n</subfield> <subfield code=\"2\">rdamedia</subfield> </datafield> <datafield tag=\"338\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Band</subfield> <subfield code=\"b\">nc</subfield> <subfield code=\"2\">rdacarrier</subfield> </datafield> <datafield tag=\"655\" ind1=\" \" ind2=\"7\"> <subfield code=\"0\">(DE-588)4010427-8</subfield> <subfield code=\"0\">http://d-nb.info/gnd/4010427-8</subfield> <subfield code=\"0\">(DE-101)040104273</subfield> <subfield code=\"a\">Comic</subfield> <subfield code=\"2\">gnd-content</subfield> </datafield> <datafield tag=\"773\" ind1=\"0\" ind2=\"8\"> <subfield code=\"q\">12</subfield> </datafield> <datafield tag=\"773\" ind1=\"0\" ind2=\"8\"> <subfield code=\"w\">1900876</subfield> </datafield> <datafield tag=\"850\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">DE-101a</subfield> <subfield code=\"a\">DE-101b</subfield> </datafield> <datafield tag=\"852\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">Comic.3</subfield> </datafield> <datafield tag=\"856\" ind1=\"4\" ind2=\"2\"> <subfield code=\"m\">B:DE-101</subfield> <subfield code=\"q\">application/pdf</subfield> <subfield code=\"u\">http://d-nb.info/1137727721/04</subfield> <subfield code=\"3\">Inhaltsverzeichnis</subfield> </datafield> <datafield tag=\"979\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">0005296758</subfield> <subfield code=\"c\">C</subfield> <subfield code=\"e\">20170828</subfield> <subfield code=\"f\">20170828</subfield> <subfield code=\"5\">C20170828</subfield> <subfield code=\"6\">C2017084</subfield> <subfield code=\"h\">BUE</subfield> <subfield code=\"k\">EBE</subfield> <subfield code=\"n\">C</subfield> <subfield code=\"p\">20180728</subfield> <subfield code=\"q\">20180825</subfield> <subfield code=\"r\">18</subfield> <subfield code=\"s\">SCHL</subfield> <subfield code=\"u\">Comic.3</subfield> <subfield code=\"9\">4</subfield> <subfield code=\"B\">C</subfield> <subfield code=\"D\">M616432217</subfield> <subfield code=\"E\">1</subfield> <subfield code=\"F\">1</subfield> <subfield code=\"G\">1</subfield> <subfield code=\"v\">2017084</subfield> <subfield code=\"w\">201708</subfield> <subfield code=\"x\">2017</subfield> <subfield code=\"y\">C20170828</subfield> <subfield code=\"z\">C2017084</subfield> <subfield code=\"0\">C201708</subfield> <subfield code=\"1\">C2017</subfield> <subfield code=\"2\">2017084</subfield> <subfield code=\"3\">201708</subfield> <subfield code=\"4\">2017</subfield> <subfield code=\"7\">C201708</subfield> <subfield code=\"8\">C2017</subfield> <subfield code=\"9\">4</subfield> </datafield> <datafield tag=\"997\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1137727721</subfield> </datafield> <datafield tag=\"998\" ind1=\"0\" ind2=\"8\"> <subfield code=\"w\">(DE-101)1132343992</subfield> </datafield> <datafield tag=\"959\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">1</subfield> <subfield code=\"b\">1</subfield> <subfield code=\"c\">20170828</subfield> <subfield code=\"d\">1</subfield> <subfield code=\"e\">6</subfield> <subfield code=\"f\">6</subfield> <subfield code=\"g\">BUE</subfield> <subfield code=\"h\">Buch Erwachsene</subfield> <subfield code=\"i\">EBE</subfield> <subfield code=\"j\">ERw.Bell.</subfield> <subfield code=\"k\">ger</subfield> <subfield code=\"l\">deutsch</subfield> <subfield code=\"m\">ger</subfield> <subfield code=\"n\">deutsch</subfield> <subfield code=\"o\">C </subfield> <subfield code=\"p\"> Zentralbibliothek</subfield> <subfield code=\"q\">T019008767</subfield> <subfield code=\"3\">2017</subfield> <subfield code=\"4\">Taniguchi, Jirō</subfield> <subfield code=\"5\">Ice age chronicle of the Earth / 2</subfield> <subfield code=\"6\">Comic.3</subfield> </datafield> </record>",
+                "FirstStockBranchDateAdded_C_date": "2017-08-28T00:00:00Z",
+                "text": [
+                    "9783946337201 978-3-946337-20-1",
+                    "Taniguchi, Jirō 1947-2017",
+                    "Ice age chronicle of the Earth 2",
+                    "Jiro Taniguchi ; Übersetzung: Marcel le Comte",
+                    "1. Auflage",
+                    "Hamburg",
+                    "Schreiber & Leser",
+                    "2017",
+                    "305 Seiten",
+                    "Comic",
+                    "Comic.3",
+                    "http://d-nb.info/1137727721/04",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "synonym": [
+                    "9783946337201 978-3-946337-20-1",
+                    "Taniguchi, Jirō 1947-2017",
+                    "Ice age chronicle of the Earth 2",
+                    "Jiro Taniguchi ; Übersetzung: Marcel le Comte",
+                    "1. Auflage",
+                    "Hamburg",
+                    "Schreiber & Leser",
+                    "2017",
+                    "305 Seiten",
+                    "Comic",
+                    "Comic.3",
+                    "http://d-nb.info/1137727721/04",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "DateOfAcquisition": "20170828",
+                "StockDateAdded_date": "2017-08-28T00:00:00Z",
+                "StockInterestLevelCode": [
+                    "EBE"
+                ],
+                "PlacePublication": [
+                    "Hamburg"
+                ],
+                "FirstStockBranchDateAddedYM": [
+                    "C201708"
+                ],
+                "StockDateAddedYMW": [
+                    "2017084"
+                ],
+                "ISBN": [
+                    "9783946337201 978-3-946337-20-1"
+                ],
+                "NUMERO": [
+                    "9783946337201 978-3-946337-20-1"
+                ],
+                "DCRange_end_date": "2017-12-31T23:59:00Z",
+                "FirstStockDateAdded_sort": "20170828",
+                "PersonalName": [
+                    "Taniguchi, Jirō 1947-2017",
+                    "Jiro Taniguchi ; Übersetzung: Marcel le Comte"
+                ],
+                "FirstStockDateAddedYM": [
+                    "201708"
+                ],
+                "merge_key_sort": "9783946337201",
+                "StockBranchDateAddedYM": [
+                    "C201708"
+                ],
+                "FirstStockBranchDateAddedY": [
+                    "C2017"
+                ],
+                "StockBranchDateAddedYMW": [
+                    "C2017084"
+                ],
+                "FirstStockDateAddedYMW": [
+                    "2017084"
+                ],
+                "Keyword": [
+                    "Taniguchi, Jirō 1947-2017",
+                    "Ice age chronicle of the Earth 2"
+                ],
+                "KeywordFacet": [
+                    "Taniguchi, Jirō 1947-2017",
+                    "Ice age chronicle of the Earth 2"
+                ],
+                "StockOwnerLocationCode": [
+                    "C"
+                ],
+                "SortkeyTitleNumeric": "Comic.3",
+                "Title": [
+                    "Ice age chronicle of the Earth 2",
+                    "Ice age chronicle of the Earth / 2"
+                ],
+                "Publisher": [
+                    "Schreiber & Leser"
+                ],
+                "PublisherFacet": [
+                    "Schreiber & Leser"
+                ],
+                "StockRecordNumber": [
+                    "0005296758"
+                ],
+                "DCRange_start_date": "2017-01-01T00:00:00Z",
+                "LocalClassification": [
+                    "Comic.3"
+                ],
+                "StockDateAdded": [
+                    "20170828"
+                ],
+                "BibLevel": [
+                    "EBE"
+                ],
+                "_version_": 1609919835061354496
+            },
+            {
+                "id": "T019008767",
+                "SubjectHeading": [
+                    "Comic"
+                ],
+                "SubjectHeadingFacet": [
+                    "Comic",
+                    "Taniguchi, Jirō 1947-2017",
+                    "Chikyū hyōkai jiki",
+                    "Ice age chronicle of the Earth"
+                ],
+                "SortkeyTitle": "Ice age chronicle of the Earth",
+                "CodeLanguage": [
+                    "ger",
+                    "ger",
+                    "deutsch"
+                ],
+                "CodeInstitution": [
+                    "C Zentralbibliothek"
+                ],
+                "MarcXML": "<record xmlns=\"http://www.loc.gov/MARC21/slim\"> <leader>01567nhm a2200325|| 450 </leader> <controlfield tag=\"001\">1900876</controlfield> <controlfield tag=\"003\">DE-101</controlfield> <controlfield tag=\"005\">20170810145649.0</controlfield> <controlfield tag=\"007\">tu |||||| |||||||||||| |||| | || ||||||| ||||||||||| |||| ||||||||||||||||||||||| ||||||||| ||||||||||||| |||||||</controlfield> <controlfield tag=\"008\">170519s2017||||gw |||||</controlfield> <controlfield tag=\"009\">T019008767</controlfield> <datafield tag=\"016\" ind1=\"7\" ind2=\" \"> <subfield code=\"2\">DE-101</subfield> <subfield code=\"a\">1132343992</subfield> </datafield> <datafield tag=\"035\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">(DE-599)DNB1132343992</subfield> </datafield> <datafield tag=\"040\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1240</subfield> <subfield code=\"b\">ger</subfield> <subfield code=\"c\">DE-101</subfield> <subfield code=\"d\">1240</subfield> <subfield code=\"e\">rda</subfield> </datafield> <datafield tag=\"041\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">ger</subfield> <subfield code=\"h\">jpn</subfield> </datafield> <datafield tag=\"044\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">XA-DE</subfield> </datafield> <datafield tag=\"100\" ind1=\"1\" ind2=\" \"> <subfield code=\"0\">(DE-588)1034070592</subfield> <subfield code=\"0\">http://d-nb.info/gnd/1034070592</subfield> <subfield code=\"0\">(DE-101)1034070592</subfield> <subfield code=\"a\">Taniguchi, Jirō</subfield> <subfield code=\"d\">1947-2017</subfield> <subfield code=\"e\">Verfasser</subfield> <subfield code=\"4\">aut</subfield> <subfield code=\"e\">Künstler</subfield> <subfield code=\"4\">art</subfield> </datafield> <datafield tag=\"240\" ind1=\"1\" ind2=\"0\"> <subfield code=\"a\">Chikyū hyōkai jiki</subfield> </datafield> <datafield tag=\"245\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">Ice age chronicle of the Earth</subfield> <subfield code=\"c\">Jiro Taniguchi ; Übersetzung: Marcel le Comte</subfield> </datafield> <datafield tag=\"264\" ind1=\" \" ind2=\"1\"> <subfield code=\"a\">Hamburg</subfield> <subfield code=\"b\">Schreiber &amp; Leser</subfield> <subfield code=\"c\">2017-</subfield> </datafield> <datafield tag=\"300\" ind1=\" \" ind2=\" \"> <subfield code=\"c\">21 cm</subfield> </datafield> <datafield tag=\"336\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Text</subfield> <subfield code=\"b\">txt</subfield> <subfield code=\"2\">rdacontent</subfield> </datafield> <datafield tag=\"336\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">unbewegtes Bild</subfield> <subfield code=\"b\">sti</subfield> <subfield code=\"2\">rdacontent</subfield> </datafield> <datafield tag=\"337\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">ohne Hilfsmittel zu benutzen</subfield> <subfield code=\"b\">n</subfield> <subfield code=\"2\">rdamedia</subfield> </datafield> <datafield tag=\"338\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Band</subfield> <subfield code=\"b\">nc</subfield> <subfield code=\"2\">rdacarrier</subfield> </datafield> <datafield tag=\"500\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">Band 2: \"Übersetzung: Claudia Sandberg\"</subfield> </datafield> <datafield tag=\"655\" ind1=\" \" ind2=\"7\"> <subfield code=\"0\">(DE-588)4010427-8</subfield> <subfield code=\"0\">http://d-nb.info/gnd/4010427-8</subfield> <subfield code=\"0\">(DE-101)040104273</subfield> <subfield code=\"a\">Comic</subfield> <subfield code=\"2\">gnd-content</subfield> </datafield> <datafield tag=\"710\" ind1=\"2\" ind2=\" \"> <subfield code=\"0\">(DE-588)106517411X</subfield> <subfield code=\"0\">http://d-nb.info/gnd/106517411X</subfield> <subfield code=\"0\">(DE-101)106517411X</subfield> <subfield code=\"a\">Verlag Schreiber &amp; Leser Nachfolger Philipp Schreiber e.K.</subfield> <subfield code=\"4\">pbl</subfield> </datafield> <datafield tag=\"997\" ind1=\" \" ind2=\" \"> <subfield code=\"a\">1132343992</subfield> </datafield> <datafield tag=\"959\" ind1=\"0\" ind2=\"0\"> <subfield code=\"a\">1</subfield> <subfield code=\"b\">1</subfield> <subfield code=\"c\">19000000</subfield> <subfield code=\"d\">1</subfield> <subfield code=\"e\">6</subfield> <subfield code=\"f\">6</subfield> <subfield code=\"g\">BUE</subfield> <subfield code=\"h\">Buch Erwachsene</subfield> <subfield code=\"i\">EBE</subfield> <subfield code=\"j\">ERw.Bell.</subfield> <subfield code=\"k\">ger</subfield> <subfield code=\"l\">deutsch</subfield> <subfield code=\"m\">ger</subfield> <subfield code=\"n\">deutsch</subfield> <subfield code=\"o\">C </subfield> <subfield code=\"p\"> Zentralbibliothek</subfield> <subfield code=\"3\">2017</subfield> <subfield code=\"4\">Taniguchi, Jirō</subfield> <subfield code=\"5\">Ice age chronicle of the Earth</subfield> <subfield code=\"6\"/> </datafield> </record>",
+                "PhysicalDateOfPublication_s": [
+                    "2017"
+                ],
+                "DateOfPublication": "2017",
+                "text": [
+                    "Taniguchi, Jirō 1947-2017",
+                    "Chikyū hyōkai jiki",
+                    "Ice age chronicle of the Earth",
+                    "Jiro Taniguchi ; Übersetzung: Marcel le Comte",
+                    "Hamburg",
+                    "Schreiber & Leser",
+                    "2017-",
+                    "Band 2: \"Übersetzung: Claudia Sandberg\"",
+                    "Comic",
+                    "Verlag Schreiber & Leser Nachfolger Philipp Schreiber e.K.",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "synonym": [
+                    "Taniguchi, Jirō 1947-2017",
+                    "Chikyū hyōkai jiki",
+                    "Ice age chronicle of the Earth",
+                    "Jiro Taniguchi ; Übersetzung: Marcel le Comte",
+                    "Hamburg",
+                    "Schreiber & Leser",
+                    "2017-",
+                    "Band 2: \"Übersetzung: Claudia Sandberg\"",
+                    "Comic",
+                    "Verlag Schreiber & Leser Nachfolger Philipp Schreiber e.K.",
+                    "1 6 BUE Buch Erwachsene ger deutsch"
+                ],
+                "SortkeyYOPD": "2017",
+                "DateOfAcquisition": "19000000",
+                "MaterialType": [
+                    "BUE"
+                ],
+                "DateOfAcquisitionSearch_date": "1900-01-01T00:00:00Z",
+                "PlacePublication": [
+                    "Hamburg"
+                ],
+                "DCRange_end_date": "2017-12-31T23:59:00Z",
+                "PersonalName": [
+                    "Taniguchi, Jirō 1947-2017",
+                    "Jiro Taniguchi ; Übersetzung: Marcel le Comte",
+                    "Verlag Schreiber & Leser Nachfolger Philipp Schreiber e.K."
+                ],
+                "TitleDisplay": [
+                    "Ice age chronicle of the Earth"
+                ],
+                "merge_key_sort": "T019008767",
+                "DateOfPublicationSearch_date": "2017-01-01T00:00:00Z",
+                "Keyword": [
+                    "Taniguchi, Jirō 1947-2017",
+                    "Chikyū hyōkai jiki",
+                    "Ice age chronicle of the Earth"
+                ],
+                "KeywordFacet": [
+                    "Taniguchi, Jirō 1947-2017",
+                    "Chikyū hyōkai jiki",
+                    "Ice age chronicle of the Earth"
+                ],
+                "Abstract": [
+                    "Band 2: \"Übersetzung: Claudia Sandberg\""
+                ],
+                "Title": [
+                    "Chikyū hyōkai jiki",
+                    "Ice age chronicle of the Earth",
+                    "Ice age chronicle of the Earth"
+                ],
+                "HasStock": "1",
+                "Publisher": [
+                    "Schreiber & Leser"
+                ],
+                "PublisherFacet": [
+                    "Schreiber & Leser"
+                ],
+                "CorporateName": [
+                    "Verlag Schreiber & Leser Nachfolger Philipp Schreiber e.K."
+                ],
+                "DCRange_start_date": "2017-01-01T00:00:00Z",
+                "Author": [
+                    "Taniguchi, Jirō",
+                    "Verlag Schreiber & Leser Nachfolger Philipp Schreiber e.K."
+                ],
+                "AuthorFacet": [
+                    "Taniguchi, Jirō",
+                    "Verlag Schreiber & Leser Nachfolger Philipp Schreiber e.K."
+                ],
+                "SortkeyAuthor": "Taniguchi, Jirō",
+                "BibLevel": [
+                    "EBE"
+                ],
+                "_version_": 1609919835062403072
+            }
+        ]
+    }
+}

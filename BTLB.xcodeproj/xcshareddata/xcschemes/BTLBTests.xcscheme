@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1520"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3BB68AB91FFFA3DF00A1F616"
+               BuildableName = "BTLBTests.xctest"
+               BlueprintName = "BTLBTests"
+               ReferencedContainer = "container:BTLB.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3BB68AB91FFFA3DF00A1F616"
+               BuildableName = "BTLBTests.xctest"
+               BlueprintName = "BTLBTests"
+               ReferencedContainer = "container:BTLB.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "APITests">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AccountsTests"
+               BuildableName = "AccountsTests"
+               BlueprintName = "AccountsTests"
+               ReferencedContainer = "container:Packages/Accounts">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BookmarksTests"
+               BuildableName = "BookmarksTests"
+               BlueprintName = "BookmarksTests"
+               ReferencedContainer = "container:Packages/Bookmarks">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3B263C5A1F84D3B60032159A"
+               BuildableName = "BTLBUITests.xctest"
+               BlueprintName = "BTLBUITests"
+               ReferencedContainer = "container:BTLB.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BTLBIntentsTests"
+               BuildableName = "BTLBIntentsTests"
+               BlueprintName = "BTLBIntentsTests"
+               ReferencedContainer = "container:Packages/BTLBIntents">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BTLBSettingsTests"
+               BuildableName = "BTLBSettingsTests"
+               BlueprintName = "BTLBSettingsTests"
+               ReferencedContainer = "container:Packages/BTLBSettings">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ChargesTests"
+               BuildableName = "ChargesTests"
+               BlueprintName = "ChargesTests"
+               ReferencedContainer = "container:Packages/Charges">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "LibrariesTests"
+               BuildableName = "LibrariesTests"
+               BlueprintName = "LibrariesTests"
+               ReferencedContainer = "container:Packages/Libraries">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "LibraryCoreTests"
+               BuildableName = "LibraryCoreTests"
+               BlueprintName = "LibraryCoreTests"
+               ReferencedContainer = "container:Packages/LibraryCore">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "LibraryUITests"
+               BuildableName = "LibraryUITests"
+               BlueprintName = "LibraryUITests"
+               ReferencedContainer = "container:Packages/LibraryUI">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "LoansTests"
+               BuildableName = "LoansTests"
+               BlueprintName = "LoansTests"
+               ReferencedContainer = "container:Packages/Loans">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "LocalizationTests"
+               BuildableName = "LocalizationTests"
+               BlueprintName = "LocalizationTests"
+               ReferencedContainer = "container:Packages/Localization">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "MoreTests"
+               BuildableName = "MoreTests"
+               BlueprintName = "MoreTests"
+               ReferencedContainer = "container:Packages/More">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "NetworkingTests"
+               BuildableName = "NetworkingTests"
+               BlueprintName = "NetworkingTests"
+               ReferencedContainer = "container:Packages/Networking">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "PersistenceTests"
+               BuildableName = "PersistenceTests"
+               BlueprintName = "PersistenceTests"
+               ReferencedContainer = "container:Packages/Persistence">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SearchTests"
+               BuildableName = "SearchTests"
+               BlueprintName = "SearchTests"
+               ReferencedContainer = "container:Packages/Search">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "UtilitiesTests"
+               BuildableName = "UtilitiesTests"
+               BlueprintName = "UtilitiesTests"
+               ReferencedContainer = "container:Packages/Utilities">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3BB68AB91FFFA3DF00A1F616"
+            BuildableName = "BTLBTests.xctest"
+            BlueprintName = "BTLBTests"
+            ReferencedContainer = "container:BTLB.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

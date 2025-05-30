@@ -1,0 +1,43 @@
+/* 
+  AppShortcuts.strings
+  BTLB
+
+  Created by Martin Kim Dung-Pham on 20.02.24.
+  Copyright © 2024 neoneon. All rights reserved.
+
+  Keep this file so that AppShortcuts will stay localized
+*/
+
+"open search shortcut phrase 1 ${applicationName}" = "Open search in ${applicationName}";
+"open search shortcut phrase 2 ${applicationName}" = "Search with ${applicationName}";
+"open search shortcut phrase 3 ${applicationName}" = "Search in ${applicationName}";
+"open search shortcut phrase 4 ${applicationName}" = "Search ${applicationName}";
+"open search shortcut phrase 5 ${applicationName}" = "Perform search in ${applicationName}";
+"renew shortcut phrase 0 ${applicationName}" = "Renew with ${applicationName}";
+"renew shortcut phrase 1 ${applicationName}" = "Renew Items with ${applicationName}";
+"renew shortcut phrase 2 ${applicationName}" = "Renew Books with ${applicationName}";
+"renew shortcut phrase 3 ${applicationName}" = "Renew Media with ${applicationName}";
+"renew shortcut phrase 4 ${applicationName}" = "Renew with ${applicationName}";
+"renew shortcut phrase 5 ${applicationName}" = "Prolong with ${applicationName}";
+"renew shortcut phrase 6 ${applicationName}" = "Renew using ${applicationName}";
+"renew shortcut phrase 7 ${applicationName}" = "Prolong using ${applicationName}";
+"renew shortcut phrase 8 ${applicationName}" = "Extend books with ${applicationName}";
+"renew shortcut phrase 9 ${applicationName}" = "Extend items with ${applicationName}";
+"renew shortcut phrase 11 ${applicationName}" = "Please renew Items with ${applicationName}";
+"renew shortcut phrase 12 ${applicationName}" = "Please renew Books with ${applicationName}";
+"renew shortcut phrase 13 ${applicationName}" = "Please renew Media with ${applicationName}";
+"renew shortcut phrase 14 ${applicationName}" = "Please renew with ${applicationName}";
+"renew shortcut phrase 15 ${applicationName}" = "Please prolong with ${applicationName}";
+"renew shortcut phrase 16 ${applicationName}" = "Please renew using ${applicationName}";
+"renew shortcut phrase 17 ${applicationName}" = "Please prolong using ${applicationName}";
+"renew shortcut phrase 18 ${applicationName}" = "Please extend books with ${applicationName}";
+"renew shortcut phrase 19 ${applicationName}" = "Please extend items with ${applicationName}";
+"renew shortcut phrase 21 ${applicationName}" = "Renew Items with the ${applicationName} app";
+"renew shortcut phrase 22 ${applicationName}" = "Renew Books with the ${applicationName} app";
+"renew shortcut phrase 23 ${applicationName}" = "Renew Media with the ${applicationName} app";
+"renew shortcut phrase 24 ${applicationName}" = "Renew with the ${applicationName} app";
+"renew shortcut phrase 25 ${applicationName}" = "Prolong with the ${applicationName} app";
+"renew shortcut phrase 26 ${applicationName}" = "Renew using the ${applicationName} app";
+"renew shortcut phrase 27 ${applicationName}" = "Prolong using the ${applicationName} app";
+"renew shortcut phrase 28 ${applicationName}" = "Extend books with the ${applicationName} app";
+"renew shortcut phrase 29 ${applicationName}" = "Extend items with the ${applicationName} app";

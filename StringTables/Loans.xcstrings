@@ -1,0 +1,603 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "A selected loan's details will be displayed here." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hier werden die Details zur selektierten Entleihung angezeigt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A selected loan's details will be displayed here."
+          }
+        }
+      }
+    },
+    "ACTION_BUTTON_PRESSED" : {
+      "comment" : "A question what should be done with this loan\n From version 1.4 on this will be : \"Would you like to prolong this loan or post it on Facebook?\"",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktionen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actions"
+          }
+        }
+      }
+    },
+    "ADD_BOOKMARK" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lesezeichen\nhinzufügen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add\nbookmark"
+          }
+        }
+      }
+    },
+    "AMOUNT_OF_LOANS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entleihungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "loans"
+          }
+        }
+      }
+    },
+    "BOOKMARK_ACTION_REQUEST" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lesezeichen setzen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark"
+          }
+        }
+      }
+    },
+    "CANCEL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "EMAIL_ACTION_REQUEST" : {
+      "comment" : "Not yet implemented. No need to localize",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "versenden an..."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email this to..."
+          }
+        }
+      }
+    },
+    "EMAIL_LIBRARY_ACTION_REQUEST" : {
+      "comment" : "Not yet implemented. No need to localize",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email an Bibliothek"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email to %1$@"
+          }
+        }
+      }
+    },
+    "EXPIRED" : {
+      "comment" : "Only in combination with iCal. This is going to be sometime around version 1.5\n No need to localize at the moment\n %1$@ is the title of the item\n %2$@ is a date string",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gib diese Entleihung sobald du kannst zurück. Sie ist überfällig!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ is expired since %2$@. Return this item as soon as possible."
+          }
+        }
+      }
+    },
+    "EXPIRED_SINCE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "überfällig seit"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expired since"
+          }
+        }
+      }
+    },
+    "LOAN" : {
+      "comment" : "Loans.strings\n BTLB\n\n Created by Martin Kim Dung-Pham on 5/19/10.\n Copyright © 2018 neoneon. All rights reserved.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entleihung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loan"
+          }
+        }
+      }
+    },
+    "loan status borrowed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "entliehen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "borrowed"
+          }
+        }
+      }
+    },
+    "LOAN_NOT_YET_BORROWED" : {
+      "comment" : "This is a placeholder if no return date could be determined. It is assumed that the item is not loaned for whatever reasons",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "noch nicht entliehen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "not borrowed yet"
+          }
+        }
+      }
+    },
+    "LOAN_PROLONG_ACTION_LATE_SUBTITLE" : {
+      "comment" : "A message of an alert.\n \\\"%1$@\\\" is the title of an item.\n This will be displayed immediately after the user pushes the prolong button when current date is later than the loans expiry date.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Entleihung wurde nicht verlängert. %1$@ ist bereits überfällig."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prolong attempt failed. \"%1$@\" has already expired"
+          }
+        }
+      }
+    },
+    "LOAN_PROLONG_ACTION_LATE_TITLE" : {
+      "comment" : "A title of an alert.\n This will be displayed immediately after the user pushes the prolong button when current date is later than the loans expiry date.\n It should be kept short.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu spät"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Too late"
+          }
+        }
+      }
+    },
+    "LOAN_PROLONG_ACTION_NO_CONNECTION_MESSAGE" : {
+      "comment" : "Message of an alert.\n Shouldn't be too long.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es muss eine Internetverbindung bestehen, um eine Entleihung verlängern zu können."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A internet connection is required to prolong a loan"
+          }
+        }
+      }
+    },
+    "LOAN_PROLONG_ACTION_NO_CONNECTION_TITLE" : {
+      "comment" : "No internet connection\n Title of an alert.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein Netz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Connection"
+          }
+        }
+      }
+    },
+    "LOAN_READY_FOR_COLLECTION" : {
+      "comment" : "Someone has ordered an item and it is raedy for collection",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "abholbereit"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ready for collection"
+          }
+        }
+      }
+    },
+    "LOAN_SHOULD_BE_COLLECTED" : {
+      "comment" : "Someone has ordered an item, it is ready for collection and the user is requested to collect it.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bitte abholen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "please collect the item"
+          }
+        }
+      }
+    },
+    "LOANS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entleihungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loans"
+          }
+        }
+      }
+    },
+    "NO_LOANS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "keine"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No loans"
+          }
+        }
+      }
+    },
+    "NONE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "keine"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "none"
+          }
+        }
+      }
+    },
+    "Not yet borrowed message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Medium liegt noch zur Abholung bereit. Bitte hole es ab."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This item can't be prolonged as it has yet to be borrowed. Fetch it from the library."
+          }
+        }
+      }
+    },
+    "Not yet borrowed title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlängerung nicht möglich"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Can't prolong"
+          }
+        }
+      }
+    },
+    "NOTHING_TO_DISPLAY_TABLE_VIEW_FOOTER" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast noch kein Konto eingerichtet. Konten können in der Kontenansicht angelegt werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You have not setup any account. There is nothing to display. Please setup a new account in the accounts view."
+          }
+        }
+      }
+    },
+    "POST_FB_ACTION_REQUEST" : {
+      "comment" : "This is a button title. It should be kept short.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf Facebook posten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Post on Facebook"
+          }
+        }
+      }
+    },
+    "PROLONG_ACTION_FAILED" : {
+      "comment" : "A title of an alert.\n This alert will be displayed when an error occurred while prolonging.\n It should be kept short.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktion fehlgeschlagen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to prolong"
+          }
+        }
+      }
+    },
+    "PROLONG_ACTION_FAILURE_SUBTITLE" : {
+      "comment" : "A message of an alert.\n \\\"%1$@\\\" is the title of an item.\n This alert will be displayed when an error occurred while prolonging.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ konnte nicht verlängert werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prolonging \"%1$@\" did fail."
+          }
+        }
+      }
+    },
+    "PROLONG_ACTION_REQUEST" : {
+      "comment" : "This is a button title. It should be kept short.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entleihung verlängern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prolong this loan"
+          }
+        }
+      }
+    },
+    "PROLONG_SUCCESS" : {
+      "comment" : "A title of an alert. This should be kept short.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlängert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prolonged"
+          }
+        }
+      }
+    },
+    "PROLONG_SUCCESS_MESSAGE" : {
+      "comment" : "The message of an alert.\n This shouldn't be too long either.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ wurde verlängert. Bitte aktualisiere dein Konto, um die Änderungen auf die Entleihung anzuwenden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ has successfully been prolonged. Please update your account for applying the changes to the loan."
+          }
+        }
+      }
+    },
+    "RATE_ACTION_REQUEST" : {
+      "comment" : "A button title, should be kept short.\n Not yet implemented. Something like \"Post on facebook\", just for a 'Rating'.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewerten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rate this"
+          }
+        }
+      }
+    },
+    "REMOVE_BOOKMARK" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lesezeichen\nentfernen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove\nbookmark"
+          }
+        }
+      }
+    },
+    "REMOVE_BOOKMARK_ACTION_REQUEST" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lesezeichen entfernen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove bookmark"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ILFH</key>
+	<dict>
+		<key>identifier</key>
+		<string>ILFH</string>
+		<key>version</key>
+		<real>1.42</real>
+		<key>name</key>
+		<string>Ilmenau - FH</string>
+		<key>sublibraries</key>
+		<array>
+			<dict>
+				<key>abbreviation</key>
+				<string>DEFAULT</string>
+				<key>identifier</key>
+				<string>DEFAULT</string>
+				<key>version</key>
+				<real>1.1</real>
+			</dict>
+		</array>
+		<key>userinfoConnectionString</key>
+		<string>http://katalog.bibliothek.tu-ilmenau.de/loan/DB=2/LNG=DU/USERINFO?ACT=UI_DATA</string>
+		<key>subtitle</key>
+		<string>FH Schmalkalden</string>
+		<key>serviceAvailability</key>
+		<string>http://katalog.bibliothek.tu-ilmenau.de/loan/DB=2/LNG=DU/USERINFO_LOGIN?</string>
+		<key>searchSortString</key>
+		<string>&amp;SRT=YOP</string>
+		<key>searchPageString</key>
+		<string>&amp;NXT?FRST=</string>
+		<key>searchDetailStringFull</key>
+		<string>http://katalog.bibliothek.tu-ilmenau.de/XML=1.0/SHW?FRST=</string>
+		<key>searchBaseString</key>
+		<string>&amp;ACT=SRCH</string>
+		<key>searchALLstring</key>
+		<string>A</string>
+		<key>renewalsConnectionString</key>
+		<string>http://katalog.bibliothek.tu-ilmenau.de/php/nr_renewals.php?</string>
+		<key>prolongConnectionString</key>
+		<string>http://katalog.bibliothek.tu-ilmenau.de/loan/DB=2/LNG=EN/USERINFO?ACT=UI_RENEWLOAN</string>
+		<key>ppnSearchString</key>
+		<string>&amp;IKT=12</string>
+		<key>loginConnectionString</key>
+		<string>http://katalog.bibliothek.tu-ilmenau.de/loan/DB=2/USERINFO?ACT=UI_DATA</string>
+		<key>loansConnectionString</key>
+		<string>http://katalog.bibliothek.tu-ilmenau.de/loan/DB=2/LNG=DU/USERINFO?ACT=UI_LOL</string>
+		<key>chargesConnectionString</key>
+		<string>http://katalog.bibliothek.tu-ilmenau.de/loan/DB=2/LNG=DU/USERINFO?ACT=UI_LOC</string>
+		<key>catalogueBaseStringXML</key>
+		<string>http://katalog.bibliothek.tu-ilmenau.de/DB=2/XML=1.0/CMD?</string>
+		<key>catalogueBaseString</key>
+		<string>http://katalog.bibliothek.tu-ilmenau.de/DB=2/CMD?</string>
+		<key>catalogueStringEncoding</key>
+		<integer>4</integer>
+		<key>libraryType</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,42 @@
+/* 
+  AppShortcuts.strings
+  BTLB
+
+  Created by Martin Kim Dung-Pham on 20.02.24.
+  Copyright © 2024 neoneon. All rights reserved.
+*/
+
+"open search shortcut phrase 1 ${applicationName}" = "Öffne Suche in ${applicationName}";
+"open search shortcut phrase 2 ${applicationName}" = "Suche mit ${applicationName}";
+"open search shortcut phrase 3 ${applicationName}" = "Suche in ${applicationName}";
+"open search shortcut phrase 4 ${applicationName}" = "Durchsuche ${applicationName}";
+"open search shortcut phrase 5 ${applicationName}" = "Such mit ${applicationName}";
+"renew shortcut phrase 0 ${applicationName}" = "Verlängere mit ${applicationName}";
+"renew shortcut phrase 1 ${applicationName}" = "Verlängere Entleihungen mit ${applicationName}";
+"renew shortcut phrase 2 ${applicationName}" = "Verlängere Bücher mit ${applicationName}";
+"renew shortcut phrase 3 ${applicationName}" = "Verlängere Medien mit ${applicationName}";
+"renew shortcut phrase 4 ${applicationName}" = "Verlängere mit ${applicationName}";
+"renew shortcut phrase 5 ${applicationName}" = "Verlänger' mit ${applicationName}";
+"renew shortcut phrase 6 ${applicationName}" = "Verlänger' Bücher mit ${applicationName}";
+"renew shortcut phrase 7 ${applicationName}" = "Verlänger' Entleihungen mit ${applicationName}";
+"renew shortcut phrase 8 ${applicationName}" = "Verlängere mit der ${applicationName} app";
+"renew shortcut phrase 9 ${applicationName}" = "Verlängere Entleihungen mit der ${applicationName} app";
+"renew shortcut phrase 11 ${applicationName}" = "Verlängere bitte Entleihungen mit ${applicationName}";
+"renew shortcut phrase 12 ${applicationName}" = "Verlängere bitte Bücher mit ${applicationName}";
+"renew shortcut phrase 13 ${applicationName}" = "Verlängere bitte Medien mit ${applicationName}";
+"renew shortcut phrase 14 ${applicationName}" = "Verlängere bitte mit ${applicationName}";
+"renew shortcut phrase 15 ${applicationName}" = "Verlänger' bitte mit ${applicationName}";
+"renew shortcut phrase 16 ${applicationName}" = "Verlänger' bitte Bücher mit ${applicationName}";
+"renew shortcut phrase 17 ${applicationName}" = "Verlänger' bitte Entleihungen mit ${applicationName}";
+"renew shortcut phrase 18 ${applicationName}" = "Verlängere Bücher mit der ${applicationName} app";
+"renew shortcut phrase 19 ${applicationName}" = "Verlänger' Bücher mit der ${applicationName} app";
+"renew shortcut phrase 21 ${applicationName}" = "Bitte verlängere Entleihungen mit ${applicationName}";
+"renew shortcut phrase 22 ${applicationName}" = "Bitte verlängere Bücher mit ${applicationName}";
+"renew shortcut phrase 23 ${applicationName}" = "Bitte verlängere Medien mit ${applicationName}";
+"renew shortcut phrase 24 ${applicationName}" = "Bitte verlängere mit ${applicationName}";
+"renew shortcut phrase 25 ${applicationName}" = "Bitte verlänger' mit ${applicationName}";
+"renew shortcut phrase 26 ${applicationName}" = "Bitte verlänger' Bücher mit ${applicationName}";
+"renew shortcut phrase 27 ${applicationName}" = "Bitte verlänger' Entleihungen mit ${applicationName}";
+"renew shortcut phrase 28 ${applicationName}" = "Bücher verlängern mit ${applicationName}";
+"renew shortcut phrase 29 ${applicationName}" = "Verlängere mit ${applicationName}";
+

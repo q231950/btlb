@@ -1,0 +1,203 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "all %lld selected items have been renewed" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Das ausgewählte Medium wurde verlängert"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Alle %lld ausgewählten Medien wurden verlängert"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "The selected item has been renewed"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "All %lld selected items have been renewed"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "no items available for renewal" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine zu verlängernden Medien"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No renewable items"
+          }
+        }
+      }
+    },
+    "no items selected for renewal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es wurde kein Medium zur Verlängerung ausgewählt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No item was selected for renewal"
+          }
+        }
+      }
+    },
+    "no items selected for renewal hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um die Leihfrist eines Medium zu verlängern muss dieses ausgewählt werden ☝️versuche es noch einmal oder verlängere deine Medien zu einem späteren Zeitpunkt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To renew an item you need to select it ☝️try once again or renew your items at a later point in time."
+          }
+        }
+      }
+    },
+    "none of the %lld selected items have been renewed" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Die ausgewählte Entleihung wurde nicht verlängert."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Keine der %lld ausgewählten Entleihungen wurde verlängert."
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "The selected item has not been renewed."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "None of %lld selected items have been renewed."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "only %lld of the %lld selected items have been renewed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur %1$@ der %2$@ ausgewählten Entleihungen wurden verlängert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only %1$lld out of the %2$lld selected items have been renewed"
+          }
+        }
+      }
+    },
+    "renewal intent empty view hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hast du ein Konto hinzugefügt? Ist die Liste der Entleihungen aktuell?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Have you added an account? When did you last refresh the loans list?"
+          }
+        }
+      }
+    },
+    "renewal intent not renewed error view hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ist die Leihfrist eventuell bereits überschritten oder die maximale Anzahl an Verlängerungen ist erreicht? Jemand könnte auch eine Vormerkung getätigt haben."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Has the item expired already or has the maximum number of renewals been reached? Someone might as well have placed a preorder on the item."
+          }
+        }
+      }
+    },
+    "renewal intent not renewed partial error view hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ist die Leihfrist nicht verlängerter Medien eventuell bereits überschritten oder die maximale Anzahl an Verlängerungen ist erreicht? Jemand könnte auch eine Vormerkung getätigt haben."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Have the non renewed items possibly expired already or has the maximum number of renewals been reached? Someone might as well have placed a preorder on an item."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,9 @@
+{
+    "aps":{
+        "alert":"Test",
+        "sound":"default",
+        "badge":1,
+	"category":"refresh"
+    },
+    "Simulator Target Bundle": "com.elbedev.sync"
+}

@@ -1,0 +1,214 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetCatalogueRecordResponse xmlns="http://bibliomondo.com/websevices/webcatalogue">
+            <GetCatalogueRecordResult>
+                <xmlDoc>
+                    <GetCatalogueRecordResult xmlns="http://bibliomondo.com/webservices/webcatalogue">
+                        <SaopAction>GetCatalogueRecord</SaopAction>
+                        <StatusCode>0</StatusCode>
+                        <StatusMessage>OK</StatusMessage>
+                        <SoapActionResult>
+                            <Key>T019423595</Key>
+                            <KeyType>1</KeyType>
+                            <SynCount>1</SynCount>
+                            <IsEAN>0</IsEAN>
+                            <IncrVarient>Delta</IncrVarient>
+                            <LockForAmend></LockForAmend>
+                            <AddRecord></AddRecord>
+                            <CloneRecord></CloneRecord>
+                            <CreateIssue></CreateIssue>
+                            <AddShort></AddShort>
+                            <SpinePrint></SpinePrint>
+                            <HavePermissionToAmend>0</HavePermissionToAmend>
+                            <KeepLocked>True</KeepLocked>
+                            <ISPROV>0</ISPROV>
+                            <IsFull>1</IsFull>
+                            <PrintCollections>0</PrintCollections>
+                            <Author>Taniguchi, Jirō</Author>
+                            <Title>Tokio Killers</Title>
+                            <ClassMark>Comic.6</ClassMark>
+                            <BACBAC>T019423595</BACBAC>
+                            <CorpAuthor></CorpAuthor>
+                            <IsConceptual>False</IsConceptual>
+                            <IsLocked>False</IsLocked>
+                            <IsNewRecord>False</IsNewRecord>
+                            <BACCNO>978 3 94633752 2</BACCNO>
+                            <BACREL></BACREL>
+                            <BACISB>978 3 94633752 2</BACISB>
+                            <EANSTR></EANSTR>
+                            <MaterialType>1</MaterialType>
+                            <MaterialTypeName>Buch Erwachsene</MaterialTypeName>
+                            <InterestLevel>1</InterestLevel>
+                            <InterestLevelName>ERw.Bell.</InterestLevelName>
+                            <BACATK>TANJTKIL</BACATK>
+                            <BACTKY>TOKKILLE</BACTKY>
+                            <BACEDI>1</BACEDI>
+                            <BACYER>2017</BACYER>
+                            <BACDAI>04/05/2018</BACDAI>
+                            <BACDAF>04/05/2018</BACDAF>
+                            <BACSCB>1</BACSCB>
+                            <BACSCF>1</BACSCF>
+                            <Format>10</Format>
+                            <Owner>1</Owner>
+                            <BACOWN>   Zentralbibliothek</BACOWN>
+                            <BACECA></BACECA>
+                            <BACVOP>0</BACVOP>
+                            <BACVO3>0</BACVO3>
+                            <BACVO4>0</BACVO4>
+                            <BACVOL>0</BACVOL>
+                            <BACVOF>0</BACVOF>
+                            <BACPRI>€ 16,90</BACPRI>
+                            <BACPAR></BACPAR>
+                            <BACSYN>1</BACSYN>
+                            <BACMET>0</BACMET>
+                            <NewAdd>0</NewAdd>
+                            <LanguageText>6</LanguageText>
+                            <LanguageTitle>6</LanguageTitle>
+                            <OriginalLanguage>14</OriginalLanguage>
+                            <BACDLC>01/08/2018</BACDLC>
+                            <BACINI></BACINI>
+                            <BACCOL>0</BACCOL>
+                            <BACDFA>28/05/2018</BACDFA>
+                            <BACTPV>0</BACTPV>
+                            <MAXSYN>1</MAXSYN>
+                            <HLEVEL>1</HLEVEL>
+                            <HTYPE>1</HTYPE>
+                            <SERIAL>0</SERIAL>
+                            <ISSUE>0</ISSUE>
+                            <Notes></Notes>
+                            <Publisher></Publisher>
+                            <Series></Series>
+                            <Subject></Subject>
+                            <BACISBISMISS>9783946337522</BACISBISMISS>
+                            <SpineLabelLine1></SpineLabelLine1>
+                            <SpineLabelLine2></SpineLabelLine2>
+                            <SpineLabelLine3></SpineLabelLine3>
+                            <SpineLabelLine4></SpineLabelLine4>
+                            <SpineLabelLine5></SpineLabelLine5>
+                            <Tags>
+                                <Block_0>
+                                    <__Element__ name="007">
+                                        <INDS></INDS>
+                                        <TEXT>tu ||||||||||||||||||||</TEXT>
+                                    </__Element__>
+                                    <__Element__ name="008">
+                                        <INDS></INDS>
+                                        <TEXT>180504|||||||||||||||||||||||||||||ger||</TEXT>
+                                    </__Element__>
+                                    <__Element__ name="020">
+                                        <INDS></INDS>
+                                        <__Element__ name="$a">9783946337522</__Element__>
+                                        <__Element__ name="$c">Broschur : EUR 16.95</__Element__>
+                                        <__Element__ name="$9">978-3-946337-52-2</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="041">
+                                        <INDS></INDS>
+                                        <__Element__ name="$a">ger</__Element__>
+                                        <__Element__ name="$h">jpn</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="100">
+                                        <INDS>1 </INDS>
+                                        <__Element__ name="$a">Taniguchi, Jirō</__Element__>
+                                        <__Element__ name="$d">1947-2017</__Element__>
+                                        <__Element__ name="$e">Künstler</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="245">
+                                        <INDS>10</INDS>
+                                        <__Element__ name="$a">Tokio Killers</__Element__>
+                                        <__Element__ name="$c">Jiro Taniguchi, Natsuo Sekikawa ; Übersetzung: Tsuwame und Resel Rebiersch</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="250">
+                                        <INDS></INDS>
+                                        <__Element__ name="$a">1. Auflage</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="264">
+                                        <INDS> 1</INDS>
+                                        <__Element__ name="$a">Hamburg</__Element__>
+                                        <__Element__ name="$b">Schreiber &amp; Leser</__Element__>
+                                        <__Element__ name="$c">2017</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="300">
+                                        <INDS></INDS>
+                                        <__Element__ name="$a">205 Seiten</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="336">
+                                        <INDS></INDS>
+                                        <__Element__ name="$a">Text</__Element__>
+                                        <__Element__ name="$2">rdacontent</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="336">
+                                        <INDS></INDS>
+                                        <__Element__ name="$a">unbewegtes Bild</__Element__>
+                                        <__Element__ name="$2">rdacontent</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="337">
+                                        <INDS></INDS>
+                                        <__Element__ name="$a">ohne Hilfsmittel zu benutzen</__Element__>
+                                        <__Element__ name="$2">rdamedia</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="338">
+                                        <INDS></INDS>
+                                        <__Element__ name="$a">Band</__Element__>
+                                        <__Element__ name="$2">rdacarrier</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="655">
+                                        <INDS> 7</INDS>
+                                        <__Element__ name="$2">gnd-content</__Element__>
+                                        <__Element__ name="$a">Comic</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="700">
+                                        <INDS>1 </INDS>
+                                        <__Element__ name="$a">Sekikawa, Natsuo</__Element__>
+                                        <__Element__ name="$d">1949-</__Element__>
+                                        <__Element__ name="$e">Verfasser</__Element__>
+                                    </__Element__>
+                                    <__Element__ name="852">
+                                        <INDS></INDS>
+                                        <__Element__ name="$c">Comic.6</__Element__>
+                                    </__Element__>
+                                </Block_0>
+                            </Tags>
+                            <BACMAT>Buch Erwachsene</BACMAT>
+                            <BACIMC>ERw.Bell.</BACIMC>
+                            <BACLTX>deutsch</BACLTX>
+                            <BACLTI>deutsch</BACLTI>
+                            <BACORG>japanisch</BACORG>
+                            <PreviousSig></PreviousSig>
+                            <STATUS>1</STATUS>
+                            <BACSRS>5</BACSRS>
+                            <SRSSTATUS>2</SRSSTATUS>
+                            <SRSRequests>3</SRSRequests>
+                            <HASHVOL>0</HASHVOL>
+                            <HASWORKS>0</HASWORKS>
+                            <HASPARAT>0</HASPARAT>
+                            <HASPARAUTHOR>0</HASPARAUTHOR>
+                            <HASPARTITLE>0</HASPARTITLE>
+                            <HVOL>0</HVOL>
+                            <WORKS>0</WORKS>
+                            <PARAUTHOR></PARAUTHOR>
+                            <PARTITLE></PARTITLE>
+                            <StockStatus>
+                                <ForceSendOldMessage>False</ForceSendOldMessage>
+                                <Bacn>T019423595</Bacn>
+                                <Hloc>63</Hloc>
+                                <ReqCount>1</ReqCount>
+                                <ReqOptimiseSearch>1</ReqOptimiseSearch>
+                                <TotalInBranch>0</TotalInBranch>
+                                <Items>
+                                    <Count>0</Count>
+                                </Items>
+                            </StockStatus>
+                            <IsPRD>False</IsPRD>
+                            <LinkISBN>978 3 94633752 2</LinkISBN>
+                            <UserReviews></UserReviews>
+                        </SoapActionResult>
+                    </GetCatalogueRecordResult>
+                </xmlDoc>
+            </GetCatalogueRecordResult>
+        </GetCatalogueRecordResponse>
+    </soap:Body>
+</soap:Envelope>

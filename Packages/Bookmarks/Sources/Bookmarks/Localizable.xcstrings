@@ -1,0 +1,57 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "delete bookmark button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lesezeichen entfernen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Bookmark"
+          }
+        }
+      }
+    },
+    "empty search result hint text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🕵🏻 nichts gefunden. Die Felder Titel und Signatur eines Lesezeichens werden für jedes Wort der Sucheingabe durchsucht."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🕵🏻 nothing found. Every word of the search string is being looked up in the title and shelfmark fields of a bookmark."
+          }
+        }
+      }
+    },
+    "no bookmarks hint text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hier erscheinen deine Lesezeichen. Lesezeichen können für Suchergebnisse und Entleihungen gesetzt werden ☝️"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your bookmarks will appear here. Bookmarks can be set for search results as well as borrowed items ☝️"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

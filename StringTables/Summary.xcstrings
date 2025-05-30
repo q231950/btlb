@@ -1,0 +1,294 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ACCOUNTS_ACTIVE_COUNT" : {
+      "comment" : "Number of all active accounts",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl der aktiven Konten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of active Accounts"
+          }
+        }
+      }
+    },
+    "ACCOUNTS_COUNT" : {
+      "comment" : "Number of all active+inactive accounts",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl der Konten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of Accounts"
+          }
+        }
+      }
+    },
+    "ACCOUNTS_INACTIVE_COUNT" : {
+      "comment" : "Number of all inactive accounts",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl der inaktiven Konten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of inactive Accounts"
+          }
+        }
+      }
+    },
+    "ACTIVATE_ACCOUNT_ADVICE" : {
+      "comment" : "Hint that the only account available is not activated",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiviere dein Konto in der Kontenansicht"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activate your account in the accounts view"
+          }
+        }
+      }
+    },
+    "ACTIVATE_ACCOUNTS_ADVICE" : {
+      "comment" : "Hint that none of the available accounts is activated",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiviere ein Konto in der Kontenansicht"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activate an account in the accounts view"
+          }
+        }
+      }
+    },
+    "CHARGES_SUM" : {
+      "comment" : "Sum of all charges on all active accounts if charges > 0.0",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Summe aller Gebühren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sum of all Charges"
+          }
+        }
+      }
+    },
+    "LAST_UPDATE" : {
+      "comment" : "Hint to last update date.\n %@ will be replaced by the date",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zuletzt aktualisiert am %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Most recent update on %@"
+          }
+        }
+      }
+    },
+    "LOANS_COUNT" : {
+      "comment" : "Number of all loans (expired+not expired)",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl der Entleihungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of Loans"
+          }
+        }
+      }
+    },
+    "LOANS_EXPIRED_COUNT" : {
+      "comment" : "Number of all expired loans",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl überfälliger Entleihungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of expired Loans"
+          }
+        }
+      }
+    },
+    "LOANS_READY_FOR_COLLECTION" : {
+      "comment" : "Descriptive title for a cell.\n This shouldn't be too long.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abholbereite Medien"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loans ready for collection"
+          }
+        }
+      }
+    },
+    "NO_ACCOUNTS" : {
+      "comment" : "Label in case no accounts have been set up yet",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast noch kein Konto erstellt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You have not set up an account yet"
+          }
+        }
+      }
+    },
+    "NO_CHARGES" : {
+      "comment" : "Label in case the sum of all charges on all active accounts <= 0.0",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine offenen Gebühren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No charges on any active account"
+          }
+        }
+      }
+    },
+    "NO_EXPIRED_LOANS" : {
+      "comment" : "Hint in the number of expired loans cell.\n None of the borrowed items is expired.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "keine"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "none"
+          }
+        }
+      }
+    },
+    "NO_LOANS" : {
+      "comment" : "Label in case there are no loans on any account",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "keine"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "none"
+          }
+        }
+      }
+    },
+    "SET_UP_AN_ACCOUNT_ADVICE" : {
+      "comment" : "Hint that no accounts have been set up yet.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstelle ein Konto in der Kontenansicht"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set up an account in the accounts view"
+          }
+        }
+      }
+    },
+    "Summary" : {
+      "comment" : "The title of the summary view",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Summary"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

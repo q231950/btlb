@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "architecture-x",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/q231950/architecture-x",
+      "state" : {
+        "revision" : "d1a72448685df7f44711d92bd25e62f6f024cfc4",
+        "version" : "0.0.3"
+      }
+    },
+    {
+      "identity" : "rorschach",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/q231950/rorschach.git",
+      "state" : {
+        "branch" : "support-async-assertions",
+        "revision" : "182e1098e7624ffcccb4db7e5d2f483e02d30517"
+      }
+    },
+    {
+      "identity" : "the-stubborn-network",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/q231950/the-stubborn-network.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6e374188bce39abb17e121211b0297d1c51fcac9"
+      }
+    }
+  ],
+  "version" : 2
+}

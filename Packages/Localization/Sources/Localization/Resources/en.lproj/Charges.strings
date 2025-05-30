@@ -1,0 +1,11 @@
+/*
+ Charges.strings
+
+
+ Created by Martin Kim Dung-Pham on 23.02.23.
+
+ */
+
+"sum text" = "Sum";
+"zero charges text" = "Congratulations, there is no need to balance your account. You seem to be a well organised human being 👌";
+"paid text" = "(settled)";

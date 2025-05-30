@@ -1,0 +1,84 @@
+{
+    "libraries": [
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_ANHALT",
+            "description": "INFO_VIEW_LIBRARY_TEXT_ANHALT",
+            "url": "https://lhanh.gbv.de"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_HAMBURGPUBLIC",
+            "description": "INFO_VIEW_LIBRARY_TEXT_HAMBURGPUBLIC",
+            "url": "http://buecherhallen.de"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_COMMERZ_HH",
+            "description": "INFO_VIEW_LIBRARY_TEXT_COMMERZ_HH",
+            "url": "https://vzlbs2.gbv.de/DB=67/SET=1/TTL=1/START_WELCOME"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_ERFURT",
+            "description": "INFO_VIEW_LIBRARY_TEXT_ERFURT",
+            "url": "https://opac.uni-erfurt.de"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_GREIFSWALD",
+            "description": "INFO_VIEW_LIBRARY_TEXT_GREIFSWALD",
+            "url": "https://lhgrw.gbv.de"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_GOETTINGEN",
+            "description": "INFO_VIEW_LIBRARY_TEXT_GOETTINGEN",
+            "url": "https://opac.sub.uni-goettingen.de"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_HAW",
+            "description": "INFO_VIEW_LIBRARY_TEXT_HAW",
+            "url": "https://kataloge.uni-hamburg.de/LNG=DU/DB=2/"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_HSU",
+            "description": "INFO_VIEW_LIBRARY_TEXT_HSU",
+            "url": "https://ub.hsu-hh.de"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_HAMBURG",
+            "description": "INFO_VIEW_LIBRARY_TEXT_HAMBURG",
+            "url": "https://kataloge.uni-hamburg.de/DB=1/LNG=DU/"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_HANNOVER",
+            "description": "INFO_VIEW_LIBRARY_TEXT_HANNOVER",
+            "url": "https://opac.tib.eu/DB=1/LNG=DU/"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_HFHH",
+            "description": "INFO_VIEW_LIBRARY_TEXT_HANNOVER_FH",
+            "url": "https://opac.tib.eu/DB=4/LNG=DU/"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_HKSF",
+            "description": "INFO_VIEW_LIBRARY_TEXT_HKSF",
+            "url": "https://opac.tib.eu/LNG=DU/DB=11/"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_HILDESHEIM",
+            "description": "INFO_VIEW_LIBRARY_TEXT_HILDESHEIM",
+            "url": "https://katalog.uni-hildesheim.de"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_TUHH",
+            "description": "INFO_VIEW_LIBRARY_TEXT_TUHH",
+            "url": "https://katalog.b.tuhh.de"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_ROSTOCK",
+            "description": "INFO_VIEW_LIBRARY_TEXT_ROSTOCK",
+            "url": "https://opac.lbs-rostock.gbv.de"
+        },
+        {
+            "name": "INFO_VIEW_LIBRARY_TITLE_WISMAR",
+            "description": "INFO_VIEW_LIBRARY_TEXT_WISMAR"
+        }
+    ]
+
+}
