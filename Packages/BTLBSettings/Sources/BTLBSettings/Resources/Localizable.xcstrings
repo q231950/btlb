@@ -109,7 +109,6 @@
       }
     },
     "GIT_INFO_TITLE" : {
-      "extractionState" : "migrated",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -958,13 +957,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Im Jahr 2025, 15 Jahre nach seiner ersten Veröffentlichung, wurde \nBTLB | bɪtlɪb | endlich Open Source 🦄.\n\nDieser Abschnitt ist den Stunden, der Leidenschaft und der Kreativität gewidmet, die jeder in diese Anwendung investiert hat. Danke, dass ihr BTLB besser gemacht habt, als es ohne euch jemals hätte sein können 💖"
+            "value" : "Im Jahr 2025, 15 Jahre nach seiner ersten Veröffentlichung, wurde \nBTLB | bɪtlɪb | endlich Open Source 🦄.\n\nDieser Abschnitt ist der Leidenschaft und der Kreativität aller gewidmet, die zu dieser App beigetragen haben! Danke, dass ihr BTLB besser macht, als es ohne euch jemals hätte sein können 💖"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "In 2025, 15 years after its first release, \nBTLB | bɪtlɪb | finally became Open Source 🦄\n\nThis section is dedicated to everyone’s hours, passion and creativity spent on this application. Thank you for making BTLB better than it could have ever been without you 💖"
+            "value" : "In 2025, 15 years after its first release, \nBTLB | bɪtlɪb | finally became Open Source 🦄\n\nThis section is dedicated to all contributors’ passion and creativity spent on this app! Thank you for making BTLB better than it could have ever been without you 💖"
           }
         }
       }
@@ -1071,7 +1070,6 @@
       }
     },
     "VERSION_TITLE" : {
-      "extractionState" : "migrated",
       "localizations" : {
         "de" : {
           "stringUnit" : {

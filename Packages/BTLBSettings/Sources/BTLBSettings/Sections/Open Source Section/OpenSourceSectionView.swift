@@ -17,18 +17,50 @@ public struct OpenSourceSectionView: View {
                     .listRowSeparator(.hidden)
             }
             
-            Section {
-                Link("GitHub Repository", destination: URL(string: "https://github.com/q231950/BTLB")!)
+            repositorySection
+
+            gitSection
+        }
+        .listStyle(.plain)
+        .navigationTitle(String(localized: "Open Source", bundle: .module, locale: locale))
+    }
+
+    // MARK: Repository
+
+    private var repositorySection: some View {
+        Section {
+            HStack {
+                Link(String(localized: "GitHub Repository", bundle: .module, locale: locale), destination: URL(string: "https://github.com/q231950/BTLB")!)
+                Image(systemName: "arrow.up.forward")
+            }
+
+            HStack {
                 Link(
                     String(localized: "License", bundle: .module, locale: locale),
                     destination: URL(string: "https://opensource.org/license/gpl-3-0")!
                 )
-            } header: {
-                Text(String(localized: "Links", bundle: .module, locale: locale))
+                Image(systemName: "arrow.up.forward")
             }
+        } header: {
+            ItemView(title: String(localized: "Links", bundle: .module, locale: locale))
         }
-        .listStyle(.plain)
-        .navigationTitle(String(localized: "Open Source", bundle: .module, locale: locale))
+    }
+
+    // MARK: Git Info
+
+    private var gitSection: some View {
+        Section(content: {
+            HStack {
+                Link(
+                    VersionNumberProvider.gitString,
+                    destination: URL(string: "https://github.com/q231950/btlb/commit/\(VersionNumberProvider.gitCommit)")!
+                )
+                Image(systemName: "arrow.up.forward")
+            }
+            .listRowSeparator(.hidden)
+        }, header: {
+            ItemView(title: String(localized: "GIT_INFO_TITLE", bundle: .module, locale: locale))
+        })
     }
 }
 

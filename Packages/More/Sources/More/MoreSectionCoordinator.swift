@@ -5,6 +5,7 @@ import ArchitectureX
 
 import Accounts
 import LibraryCore
+import LibraryUI
 import Localization
 import Persistence
 import BTLBSettings
@@ -33,9 +34,11 @@ struct MoreList: View {
     var body: some View {
         NavigationStack(path: $path) {
             List {
-                ForEach(viewModel.entries) { entry in
-                    NavigationLink(value: entry) {
-                        Text(entry.title)
+                Section {
+                    ForEach(viewModel.entries) { entry in
+                        NavigationLink(value: entry) {
+                            Text(entry.title)
+                        }
                     }
                 }
             }

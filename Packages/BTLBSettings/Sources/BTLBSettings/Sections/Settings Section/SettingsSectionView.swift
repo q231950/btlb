@@ -15,6 +15,7 @@ import Localization
 struct SettingsSectionView: View {
 
     @ObservedObject private var viewModel: SettingsViewModel
+    @Environment(\.locale) private var locale
 
     init(viewModel: SettingsViewModel) {
         self.viewModel = viewModel
@@ -27,16 +28,25 @@ struct SettingsSectionView: View {
     var body: some View {
 
         List {
-            appIconToggle
+            Section {
+                appIconToggle
 
-            notificationSection
 
-            debugToggle
+                notificationSection
+
+                debugToggle
+            }
+            .listSectionSeparator(.hidden)
+
+            Section {
+                versionSection
+            }
+            .listSectionSeparator(.hidden)
         }
+        .listStyle(.plain)
         .onReceive(NotificationCenter.default.publisher(for: UIScene.willEnterForegroundNotification)) { _ in
             viewModel.updateAsyncProperties()
         }
-        .listStyle(.plain)
         .navigationTitle(Localization.Titles.settings)
         .navigationBarTitleDisplayMode(.large)
 
@@ -179,6 +189,27 @@ struct SettingsSectionView: View {
             isOn: $viewModel.debugEnabled
         )
     }
+
+    // MARK: Versions
+
+    private var versionSection: some View {
+        VStack {
+            HStack {
+                Spacer()
+                Text(String(localized: "VERSION_TITLE", bundle: .module, locale: locale))
+                    .font(.caption)
+                Spacer()
+            }
+
+            HStack {
+                Spacer()
+                Text("**\(VersionNumberProvider.versionString)**")
+                    .font(.caption2)
+                Spacer()
+            }
+        }
+        .padding(.bottom)
+    }
 }
 
 extension View {
@@ -201,7 +232,9 @@ struct SettingsSectionView_Previews: PreviewProvider {
         @ObservedObject private var viewModel = SettingsViewModel(service: MockSettingsService(isAlternateAppIconEnabled: true))
 
         var body: some View {
-            SettingsSectionView(viewModel: viewModel)
+            NavigationView {
+                SettingsSectionView(viewModel: viewModel)
+            }
         }
     }
 
