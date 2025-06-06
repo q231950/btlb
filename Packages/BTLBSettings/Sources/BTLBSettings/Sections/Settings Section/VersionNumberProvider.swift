@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct VersionNumberProvider {
+public struct VersionNumberProvider {
 
     /// Get the version and build number in a combined string such as `2.5.0 (87)`
     public static var versionString: String {
@@ -19,7 +19,7 @@ struct VersionNumberProvider {
         "\(gitBranch) - \(gitCommit)"
     }
 
-    static var gitCommit: String {
+    public static var gitCommit: String {
         (Bundle.main.infoDictionary?["GitCommit"] as? String) ?? "unknown"
     }
 

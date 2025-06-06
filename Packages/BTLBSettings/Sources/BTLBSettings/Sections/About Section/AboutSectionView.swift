@@ -34,10 +34,6 @@ struct AboutSectionView: View {
                 .listSectionSeparator(.hidden)
 
             securitySection
-
-            versionSection
-
-            gitSection
         }
         .listStyle(.plain)
         .navigationTitle(Localization.Titles.about)
@@ -118,37 +114,15 @@ struct AboutSectionView: View {
 
     // MARK: Security
 
-    private var securitySection: some View = {
-        Section(content: {
+    private var securitySection: some View {
+        Section {
             Text("SECURITY_TEXT", bundle: .module)
                 .listRowSeparator(.hidden)
-        }, header: {
+        } header: {
             ItemView(title: "SECURITY_TITLE".localized(bundle: .module))
-        })
-    }()
+        }
+    }
 
-    // MARK: Versions
-
-    private var versionSection: some View = {
-        Section(content: {
-            Text("**\(VersionNumberProvider.versionString)**")
-                .listRowSeparator(.hidden)
-
-        }, header: {
-            ItemView(title: "VERSION_TITLE".localized(bundle: .module))
-        })
-    }()
-
-    // MARK: Git Info
-
-    private var gitSection: some View = {
-        Section(content: {
-            Text("**\(VersionNumberProvider.gitString)**")
-                .listRowSeparator(.hidden)
-        }, header: {
-            ItemView(title: "GIT_INFO_TITLE".localized(bundle: .module))
-        })
-    }()
 }
 
 struct SettingsView_Previews: PreviewProvider {
