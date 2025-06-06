@@ -15,7 +15,7 @@ import Persistence
 struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
     @SectionedFetchRequest<String, EDItem>(
         sectionIdentifier: \.sectionIdentifier,
-        sortDescriptors: [SortDescriptor(\.author, order: .reverse),
+        sortDescriptors: [SortDescriptor(\.author, order: .forward),
                           SortDescriptor(\.title, order: .forward)]
     )
     private var bookmarks: SectionedFetchResults<String, EDItem>
@@ -87,5 +87,61 @@ struct FilterPredicateBuilder {
         ]
 
         return NSCompoundPredicate(type: .or, subpredicates: predicates)
+    }
+}
+
+import Combine
+import CoreData
+import LibraryCore
+import Utilities
+
+import ArchitectureX
+
+class ViewModel: BookmarkListViewModelProtocol {
+    var searchText: String = ""
+
+    func show(_ bookmark: any LibraryCore.Bookmark, coordinator: any ArchitectureX.Coordinator) {
+    }
+}
+
+#Preview {
+    DataStackProvider.shared.loadInMemory()
+    let moc = DataStackProvider.shared.foregroundManagedObjectContext
+    let controller = BookmarkService(managedObjectContext: moc)
+
+    try! controller.bookmarkSearchResult(.init(library: LibraryMock(), ISBN: "nil", title: "A", author: "a", image: nil, imageURL: nil, barcode: "", content: [Pair(key: "x", value: "a")]), identifier: "123")
+
+    try! controller.bookmarkSearchResult(.init(library: LibraryMock(), ISBN: "n", title: "B", author: "b", image: nil, imageURL: nil, barcode: "s", content: [Pair(key: "c", value: "a")]), identifier: "234")
+
+    try! moc.save()
+
+    let viewModel = ViewModel()
+    let coordinator = BookmarkListCoordinator(viewModel: viewModel)
+
+    return NavigationView {
+        BookmarkList(viewModel: viewModel, coordinator: coordinator)
+    }
+    .environment(\.managedObjectContext,
+                  moc)
+}
+
+public final class LibraryMock: LibraryCore.Library {
+
+    public init() {}
+
+    public var name: String? = "Library A"
+    public var subtitle: String?
+
+    public var baseURL: String?
+    public var catalogUrl: String?
+
+    public var identifier: String? = "Mock Library Identifier"
+
+    public static func == (lhs: LibraryMock, rhs: LibraryMock) -> Bool {
+        lhs.identifier == rhs.identifier
+    }
+
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(identifier)
     }
 }
