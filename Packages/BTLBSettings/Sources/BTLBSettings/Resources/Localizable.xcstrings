@@ -118,6 +118,9 @@
         }
       }
     },
+    "GPL-3.0" : {
+      "shouldTranslate" : false
+    },
     "INFO_VIEW_LIBRARIES_TEXT" : {
       "localizations" : {
         "de" : {
@@ -931,7 +934,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Open Source"
+            "value" : "🦄 Open Source"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🦄 Open Source"
           }
         }
       }
@@ -941,13 +950,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Im Jahr 2025, 15 Jahre nach seiner ersten Veröffentlichung, wurde \nBTLB | bɪtlɪb | endlich Open Source 🦄.\n\nDieser Abschnitt ist der Leidenschaft und der Kreativität aller gewidmet, die zu dieser App beigetragen haben! Danke, dass ihr BTLB besser macht, als es ohne euch jemals hätte sein können 💖"
+            "value" : "BTLB | bɪtlɪb |  wird quelloffen entwickelt! Du kannst dir jederzeit den Code anschauen und auch verbessern! Du bist herzlich eingeladen ein Issue zu öffnen oder selbst Änderungen in Form von Codeanpassungen vorzuschlagen.\nEntsprechend ist diese Sektion der App der Leidenschaft und der Kreativität aller gewidmet, die zu dieser App beigetragen haben! Danke, dass ihr BTLB besser macht, als es ohne euch jemals hätte sein können 💖"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "In 2025, 15 years after its first release, \nBTLB | bɪtlɪb | finally became Open Source 🦄\n\nThis section is dedicated to all contributors’ passion and creativity spent on this app! Thank you for making BTLB better than it could have ever been without you 💖"
+            "value" : "BTLB | bɪtlɪb |  is open source! You can look at its code at any time or even change it. You are invited to open an Issue or propose code changes in a pull request.\n\nHence this section of the app is dedicated to all contributors’ passion and creativity spent on this app! Thank you for making BTLB better than it could have ever been without you 💖"
           }
         }
       }
