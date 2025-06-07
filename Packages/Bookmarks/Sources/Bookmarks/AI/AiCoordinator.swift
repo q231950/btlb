@@ -30,18 +30,67 @@ class AiRecommenderViewModel: ObservableObject {
     let titles: [String]
     
     @Published var recommendations: [String] = []
+    @Published var isLoading = false
+    @Published var errorMessage: String?
 
     init(_ recommender: RecommenderProtocol, titles: [String]) {
         self.recommender = recommender
         self.titles = titles
     }
+    
+    @MainActor
+    func loadRecommendations() async {
+        guard !titles.isEmpty else {
+            errorMessage = "No titles to recommend from"
+            return
+        }
+        
+        isLoading = true
+        errorMessage = nil
+        
+        do {
+            recommendations = try await recommender.recommendations(for: titles)
+        } catch {
+            errorMessage = "Failed to load recommendations: \(error.localizedDescription)"
+        }
+        
+        isLoading = false
+    }
 }
 
 struct AiRecommenderView: View {
-
-    let viewModel: AiRecommenderViewModel
+    @ObservedObject var viewModel: AiRecommenderViewModel
+    
     var body: some View {
-        Text("Recommending…")
+        VStack {
+            if viewModel.isLoading {
+                ProgressView()
+                    .padding()
+                Text("Loading recommendations...")
+            } else if let errorMessage = viewModel.errorMessage {
+                VStack(spacing: 16) {
+                    Image(systemName: "exclamationmark.triangle")
+                        .font(.largeTitle)
+                        .foregroundColor(.orange)
+                    Text(errorMessage)
+                        .multilineTextAlignment(.center)
+                }
+                .padding()
+            } else if viewModel.recommendations.isEmpty {
+                Text("No recommendations found")
+                    .padding()
+            } else {
+                List {
+                    ForEach(viewModel.recommendations, id: \.self) { recommendation in
+                        Text(recommendation)
+                    }
+                }
+            }
+        }
+        .navigationTitle("Recommendations")
+        .task {
+            await viewModel.loadRecommendations()
+        }
     }
 }
 
