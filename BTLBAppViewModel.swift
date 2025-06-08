@@ -201,7 +201,7 @@ class AppViewModel: ObservableObject {
             accountService: AccountRepository.shared, userDefaults: UserDefaults.suite)
         let accountCredentialStore = AccountCredentialStore(keychainProvider: KeychainManager())
 
-        return MoreSectionCoordinator(entries: [.accounts, .about, .settings(settingsService)])
+        return MoreSectionCoordinator(entries: [.accounts, .about, .settings(settingsService), .openSource])
     }()
 
     var moreTitle: String = Localization.Titles.more

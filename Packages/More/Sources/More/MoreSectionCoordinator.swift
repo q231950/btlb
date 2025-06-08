@@ -5,6 +5,7 @@ import ArchitectureX
 
 import Accounts
 import LibraryCore
+import LibraryUI
 import Localization
 import Persistence
 import BTLBSettings
@@ -33,9 +34,11 @@ struct MoreList: View {
     var body: some View {
         NavigationStack(path: $path) {
             List {
-                ForEach(viewModel.entries) { entry in
-                    NavigationLink(value: entry) {
-                        Text(entry.title)
+                Section {
+                    ForEach(viewModel.entries) { entry in
+                        NavigationLink(value: entry) {
+                            Text(entry.title)
+                        }
                     }
                 }
             }
@@ -51,6 +54,8 @@ struct MoreList: View {
                     AccountList(viewModel: listViewModel)
                 case .settings(let settingsService):
                     SettingsSectionCoordinator(settingsService: settingsService).contentView
+                case .openSource:
+                    OpenSourceSectionView()
                 }
             }
         }
@@ -80,6 +85,7 @@ public enum Entry: Hashable, Identifiable {
     case about
     case accounts
     case settings(any LibraryCore.SettingsService)
+    case openSource
 
     var title: String {
         switch self {
@@ -89,6 +95,8 @@ public enum Entry: Hashable, Identifiable {
             return Localization.Titles.accounts
         case .settings:
             return Localization.Titles.settings
+        case .openSource:
+            return "Open Source"
         }
     }
 }

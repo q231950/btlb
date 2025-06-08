@@ -108,22 +108,18 @@
         }
       }
     },
-    "GIT_INFO_TITLE" : {
-      "extractionState" : "migrated",
+    "GitHub Repository" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Git Info"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Git Info"
+            "value" : "GitHub Repository"
           }
         }
       }
+    },
+    "GPL-3.0" : {
+      "shouldTranslate" : false
     },
     "INFO_VIEW_LIBRARIES_TEXT" : {
       "localizations" : {
@@ -767,6 +763,26 @@
         }
       }
     },
+    "License" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lizenz"
+          }
+        }
+      }
+    },
+    "Links" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Links"
+          }
+        }
+      }
+    },
     "NOTIFICATION_ACCOUNT_LAST_AUTOMATIC_UPDATE" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -913,6 +929,38 @@
         }
       }
     },
+    "Open Source" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🦄 Open Source"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🦄 Open Source"
+          }
+        }
+      }
+    },
+    "OPEN_SOURCE_DESCRIPTION" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB | bɪtlɪb |  wird quelloffen entwickelt! Du kannst dir jederzeit den Code anschauen und auch verbessern! Du bist herzlich eingeladen ein Issue zu öffnen oder selbst Änderungen in Form von Codeanpassungen vorzuschlagen.\n\nEntsprechend ist diese Sektion der App der Leidenschaft und der Kreativität aller gewidmet, die zu dieser App beigetragen haben! Danke, dass ihr BTLB besser macht, als es ohne euch jemals hätte sein können 💖"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB | bɪtlɪb |  is open source! You can look at its code at any time or even change it. You are invited to open an Issue or propose code changes in a pull request.\n\nHence this section of the app is dedicated to all contributors’ passion and creativity spent on this app! Thank you for making BTLB better than it could have ever been without you 💖"
+          }
+        }
+      }
+    },
     "PRIVACY_POLICY_TEXT" : {
       "localizations" : {
         "de" : {
@@ -1015,7 +1063,6 @@
       }
     },
     "VERSION_TITLE" : {
-      "extractionState" : "migrated",
       "localizations" : {
         "de" : {
           "stringUnit" : {
