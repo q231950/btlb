@@ -170,6 +170,10 @@ struct BTLBApp: App {
         }
     }
 
+    /// Handles User Activity when the app is launched via Spotlight Search on iOS.
+    ///
+    /// This function retrieves the identifier from the user activity and then fetches the associated loan from Core Data. If found, it updates the UI to display that particular loan's details.
+    /// - Parameter userActivity: Represents an interaction with the system such as a User Activity or Spotlight Search. It provides metadata about the interaction which can be used when updating the app state.
     func handleSpotlight(_ userActivity: NSUserActivity) {
         if let id = userActivity.userInfo?[CSSearchableItemActivityIdentifier] as? String {
             Task { @MainActor in
