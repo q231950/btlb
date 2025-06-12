@@ -80,25 +80,31 @@ struct BTLBApp: App {
             case .initial:
                 EmptyView()
             case .idle:
-                tabs
-                    .onAppear {
-                        viewModel.updateDebugAlertPresented()
-                        viewModel.updateLaunchCount()
+                Group {
+                    if #available(iOS 18.0, *) {
+                        tabs
+                    } else {
+                        legacyTabs
                     }
-                    .sheet(item: $viewModel.deeplinkLoanContainer) { container in
-                        loanView(container.loan)
+                }
+                .onAppear {
+                    viewModel.updateDebugAlertPresented()
+                    viewModel.updateLaunchCount()
+                }
+                .sheet(item: $viewModel.deeplinkLoanContainer) { container in
+                    loanView(container.loan)
+                }
+                .onChange(of: viewModel.route) { oldValue, newValue in
+                    switch newValue {
+                    case .loans: selectedTabIndex = 1
+                    case .search(let query):
+                        selectedTabIndex = 0
+                        viewModel.searchCoordinator?.prefillSearchQuery(query)
+                    case .openSearch:
+                        selectedTabIndex = 0
+                    case .none: break
                     }
-                    .onChange(of: viewModel.route) { oldValue, newValue in
-                        switch newValue {
-                        case .loans: selectedTabIndex = 1
-                        case .search(let query):
-                            selectedTabIndex = 0
-                            viewModel.searchCoordinator?.prefillSearchQuery(query)
-                        case .openSearch:
-                            selectedTabIndex = 0
-                        case .none: break
-                        }
-                    }
+                }
             case .refreshing:
                 AppRefreshingView()
             }
@@ -120,7 +126,52 @@ struct BTLBApp: App {
 
     @State private var navigationPath = NavigationPath()
 
+    @available(iOS 18.0, *)
     private var tabs: some View {
+        TabView {
+            Tab(viewModel.loansTitle, systemImage: "tray.full") {
+                NavigationStack {
+                    viewModel.loansCoordinator.view
+                        .navigationTitle(viewModel.loansTitle)
+                }
+            }
+            .customizationID("app.btlb.loans")
+
+            Tab(viewModel.chargesTitle, systemImage: "eurosign.square") {
+                NavigationStack {
+                    viewModel.chargesCoordinator.view
+                        .navigationTitle(viewModel.chargesTitle)
+                }
+            }
+            .customizationID("app.btlb.charges")
+
+            Tab(viewModel.bookmarksTitle, systemImage: "bookmark") {
+                NavigationStack {
+                    viewModel.bookmarksCoordinator.view
+                        .navigationTitle(viewModel.bookmarksTitle)
+                }
+            }
+            .customizationID("app.btlb.bookmarks")
+
+            Tab(viewModel.moreTitle, systemImage: "ellipsis") {
+                NavigationStack {
+                    viewModel.moreCoordinator
+                        .view
+                }
+            }
+            .customizationID("app.btlb.more")
+
+            Tab(viewModel.searchTitle, systemImage: "doc.text.magnifyingglass", role: .search) {
+                NavigationStack(path: $navigationPath) {
+                    viewModel.searchCoordinator?.view
+                        .navigationTitle(viewModel.searchTitle)
+                }
+            }
+            .customizationID("app.btlb.search")
+        }
+    }
+
+    private var legacyTabs: some View {
         TabView(selection: $selectedTabIndex) {
 
             NavigationStack(path: $navigationPath) {
