@@ -128,46 +128,41 @@ struct BTLBApp: App {
 
     @available(iOS 18.0, *)
     private var tabs: some View {
-        TabView {
-            Tab(viewModel.loansTitle, systemImage: "tray.full") {
+        TabView(selection: $selectedTabIndex) {
+            Tab(viewModel.loansTitle, systemImage: "tray.full", value: 1) {
                 NavigationStack {
                     viewModel.loansCoordinator.view
                         .navigationTitle(viewModel.loansTitle)
                 }
             }
-            .customizationID("app.btlb.loans")
 
-            Tab(viewModel.chargesTitle, systemImage: "eurosign.square") {
+            Tab(viewModel.chargesTitle, systemImage: "eurosign.square", value: 2) {
                 NavigationStack {
                     viewModel.chargesCoordinator.view
                         .navigationTitle(viewModel.chargesTitle)
                 }
             }
-            .customizationID("app.btlb.charges")
 
-            Tab(viewModel.bookmarksTitle, systemImage: "bookmark") {
+            Tab(viewModel.bookmarksTitle, systemImage: "bookmark", value: 3) {
                 NavigationStack {
                     viewModel.bookmarksCoordinator.view
                         .navigationTitle(viewModel.bookmarksTitle)
                 }
             }
-            .customizationID("app.btlb.bookmarks")
 
-            Tab(viewModel.moreTitle, systemImage: "ellipsis") {
+            Tab(viewModel.moreTitle, systemImage: "ellipsis", value: 4) {
                 NavigationStack {
                     viewModel.moreCoordinator
                         .view
                 }
             }
-            .customizationID("app.btlb.more")
 
-            Tab(viewModel.searchTitle, systemImage: "doc.text.magnifyingglass", role: .search) {
+            Tab(viewModel.searchTitle, systemImage: "doc.text.magnifyingglass", value: 5, role: .search) {
                 NavigationStack(path: $navigationPath) {
                     viewModel.searchCoordinator?.view
                         .navigationTitle(viewModel.searchTitle)
                 }
             }
-            .customizationID("app.btlb.search")
         }
     }
 
