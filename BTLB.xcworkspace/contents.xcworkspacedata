@@ -4,4 +4,7 @@
    <FileRef
       location = "group:BTLB.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:BTLBTests.xctestplan">
+   </FileRef>
 </Workspace>

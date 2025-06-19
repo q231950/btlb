@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1520"
-   version = "1.3">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -27,6 +27,12 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:BTLBTests.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+      </TestPlans>
       <Testables>
          <TestableReference
             skipped = "YES">
@@ -61,16 +67,6 @@
                BuildableName = "BookmarksTests"
                BlueprintName = "BookmarksTests"
                ReferencedContainer = "container:Packages/Bookmarks">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B263C5A1F84D3B60032159A"
-               BuildableName = "BTLBUITests.xctest"
-               BlueprintName = "BTLBUITests"
-               ReferencedContainer = "container:BTLB.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -117,26 +113,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "LibraryCoreTests"
-               BuildableName = "LibraryCoreTests"
-               BlueprintName = "LibraryCoreTests"
-               ReferencedContainer = "container:Packages/LibraryCore">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "LibraryUITests"
-               BuildableName = "LibraryUITests"
-               BlueprintName = "LibraryUITests"
-               ReferencedContainer = "container:Packages/LibraryUI">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "LoansTests"
                BuildableName = "LoansTests"
                BlueprintName = "LoansTests"
@@ -157,40 +133,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MoreTests"
-               BuildableName = "MoreTests"
-               BlueprintName = "MoreTests"
-               ReferencedContainer = "container:Packages/More">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NetworkingTests"
-               BuildableName = "NetworkingTests"
-               BlueprintName = "NetworkingTests"
-               ReferencedContainer = "container:Packages/Networking">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "PersistenceTests"
                BuildableName = "PersistenceTests"
                BlueprintName = "PersistenceTests"
                ReferencedContainer = "container:Packages/Persistence">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SearchTests"
-               BuildableName = "SearchTests"
-               BlueprintName = "SearchTests"
-               ReferencedContainer = "container:Packages/Search">
             </BuildableReference>
          </TestableReference>
          <TestableReference
