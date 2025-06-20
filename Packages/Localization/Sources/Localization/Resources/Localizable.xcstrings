@@ -3,6 +3,7 @@
   "strings" : {
     "%@ - %@" : {
       "extractionState" : "manual",
+      "generatesSymbol" : false,
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1263,6 +1264,7 @@
     "Person(en):" : {
       "comment" : "pub hamburg",
       "extractionState" : "manual",
+      "generatesSymbol" : false,
       "localizations" : {
         "de" : {
           "stringUnit" : {
