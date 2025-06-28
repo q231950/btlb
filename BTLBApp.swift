@@ -80,25 +80,31 @@ struct BTLBApp: App {
             case .initial:
                 EmptyView()
             case .idle:
-                tabs
-                    .onAppear {
-                        viewModel.updateDebugAlertPresented()
-                        viewModel.updateLaunchCount()
+                Group {
+                    if #available(iOS 26.0, *) {
+                        tabs
+                    } else {
+                        legacyTabs
                     }
-                    .sheet(item: $viewModel.deeplinkLoanContainer) { container in
-                        loanView(container.loan)
+                }
+                .onAppear {
+                    viewModel.updateDebugAlertPresented()
+                    viewModel.updateLaunchCount()
+                }
+                .sheet(item: $viewModel.deeplinkLoanContainer) { container in
+                    loanView(container.loan)
+                }
+                .onChange(of: viewModel.route) { oldValue, newValue in
+                    switch newValue {
+                    case .loans: selectedTabIndex = 1
+                    case .search(let query):
+                        selectedTabIndex = 0
+                        viewModel.searchCoordinator?.prefillSearchQuery(query)
+                    case .openSearch:
+                        selectedTabIndex = 0
+                    case .none: break
                     }
-                    .onChange(of: viewModel.route) { oldValue, newValue in
-                        switch newValue {
-                        case .loans: selectedTabIndex = 1
-                        case .search(let query):
-                            selectedTabIndex = 0
-                            viewModel.searchCoordinator?.prefillSearchQuery(query)
-                        case .openSearch:
-                            selectedTabIndex = 0
-                        case .none: break
-                        }
-                    }
+                }
             case .refreshing:
                 AppRefreshingView()
             }
@@ -120,7 +126,47 @@ struct BTLBApp: App {
 
     @State private var navigationPath = NavigationPath()
 
+    @available(iOS 26.0, *)
     private var tabs: some View {
+        TabView(selection: $selectedTabIndex) {
+            Tab(viewModel.loansTitle, systemImage: "tray.full", value: 1) {
+                NavigationStack {
+                    viewModel.loansCoordinator.view
+                        .navigationTitle(viewModel.loansTitle)
+                }
+            }
+
+            Tab(viewModel.chargesTitle, systemImage: "eurosign.square", value: 2) {
+                NavigationStack {
+                    viewModel.chargesCoordinator.view
+                        .navigationTitle(viewModel.chargesTitle)
+                }
+            }
+
+            Tab(viewModel.bookmarksTitle, systemImage: "bookmark", value: 3) {
+                NavigationStack {
+                    viewModel.bookmarksCoordinator.view
+                        .navigationTitle(viewModel.bookmarksTitle)
+                }
+            }
+
+            Tab(viewModel.moreTitle, systemImage: "ellipsis", value: 4) {
+                NavigationStack {
+                    viewModel.moreCoordinator
+                        .view
+                }
+            }
+
+            Tab(viewModel.searchTitle, systemImage: "doc.text.magnifyingglass", value: 5, role: .search) {
+                NavigationStack(path: $navigationPath) {
+                    viewModel.searchCoordinator?.view
+                        .navigationTitle(viewModel.searchTitle)
+                }
+            }
+        }
+    }
+
+    private var legacyTabs: some View {
         TabView(selection: $selectedTabIndex) {
 
             NavigationStack(path: $navigationPath) {
@@ -170,6 +216,10 @@ struct BTLBApp: App {
         }
     }
 
+    /// Handles User Activity when the app is launched via Spotlight Search on iOS.
+    ///
+    /// This function retrieves the identifier from the user activity and then fetches the associated loan from Core Data. If found, it updates the UI to display that particular loan's details.
+    /// - Parameter userActivity: Represents an interaction with the system such as a User Activity or Spotlight Search. It provides metadata about the interaction which can be used when updating the app state.
     func handleSpotlight(_ userActivity: NSUserActivity) {
         if let id = userActivity.userInfo?[CSSearchableItemActivityIdentifier] as? String {
             Task { @MainActor in

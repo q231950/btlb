@@ -62,43 +62,64 @@ public struct LoanDetailView<ViewModel: LibraryCore.LoanViewModel>: View {
             }
             .navigationBarTitleDisplayMode(.large)
             .navigationTitle(viewModel.loan.title)
-            .navigationBarItems(leading: HStack {
-                Button {
+            .toolbar {
+                if #available(iOS 26.0, *) {
+                    toolbarContent
+                } else {
+                    legacyToolbarContent
+                }
+            }
+            .onAppear {
+                viewModel.updateAsyncProperties()
+            }
+            .perform(requestReview, onChangeOf: $viewModel.shouldRequestAppReview)
+        }
+    }
+
+    @ToolbarContentBuilder private var legacyToolbarContent: some ToolbarContent {
+        ToolbarItem(placement: .topBarLeading) {
+            Button {
+                Task {
+                    await viewModel.toggleBookmarked()
+                }
+            } label: {
+                if viewModel.isBookmarked {
+                    Image(systemName: "bookmark.fill")
+                        .accessibilityLabel(Text(Localization.Loans.Accessibility.removeBookmark))
+                } else {
+                    Image(systemName: "bookmark")
+                        .accessibilityLabel(Text(Localization.Loans.Accessibility.bookmark))
+                }
+            }
+        }
+
+        ToolbarItem(placement: .topBarLeading) {
+            ProgressButton(state: viewModel.progressButtonState) {
+                viewModel.showsRenewalConfirmation = true
+            }
+            .accessibilityLabel(Text(renewButtonAccessibilityLabel))
+            .disabled(!viewModel.loan.canRenew)
+            .confirmationDialog(Localization.Detail.renewalConfirmationTitle, isPresented: $viewModel.showsRenewalConfirmation) {
+                Button(action: {
                     Task {
-                        await viewModel.toggleBookmarked()
+                        try await viewModel.renew()
                     }
-                } label: {
-                    if viewModel.isBookmarked {
-                        Image(systemName: "bookmark.fill")
-                            .accessibilityLabel(Text(Localization.Loans.Accessibility.removeBookmark))
-                    } else {
-                        Image(systemName: "bookmark")
-                            .accessibilityLabel(Text(Localization.Loans.Accessibility.bookmark))
-                    }
-                }
+                }, label: {
+                    Text(Localization.Detail.renewalConfirmationRenewButtonTitle)
+                })
 
-                ProgressButton(state: viewModel.progressButtonState) {
-                    viewModel.showsRenewalConfirmation = true
-                }
-                .accessibilityLabel(Text(renewButtonAccessibilityLabel))
-                .disabled(!viewModel.loan.canRenew)
-                .confirmationDialog(Localization.Detail.renewalConfirmationTitle, isPresented: $viewModel.showsRenewalConfirmation) {
-                    Button(action: {
-                        Task {
-                            try await viewModel.renew()
-                        }
-                    }, label: {
-                        Text(Localization.Detail.renewalConfirmationRenewButtonTitle)
-                    })
+                Button(role: .cancel, action: {
+                    viewModel.showsRenewalConfirmation = false
+                }, label: {
+                    Text(Localization.Detail.renewalConfirmationCancelButtonTitle)
+                })
+            }
+        }
 
-                    Button(role: .cancel, action: {
-                        viewModel.showsRenewalConfirmation = false
-                    }, label: {
-                        Text(Localization.Detail.renewalConfirmationCancelButtonTitle)
-                    })
-                }
-            })
-            .navigationBarItems(trailing: Button(action: {
+
+
+        ToolbarItem(placement: .topBarTrailing) {
+            Button(action: {
                 Task {
                     await MainActor.run {
                         dismiss()
@@ -106,12 +127,67 @@ public struct LoanDetailView<ViewModel: LibraryCore.LoanViewModel>: View {
                 }
             }) {
                 Text("Done".localized)
-            })
-            .onAppear {
-                viewModel.updateAsyncProperties()
             }
-            .perform(requestReview, onChangeOf: $viewModel.shouldRequestAppReview)
         }
+    }
+
+    @available(iOS 26.0, *)
+    @ToolbarContentBuilder private var toolbarContent: some ToolbarContent {
+
+        ToolbarItem(placement: .topBarLeading) {
+            Button {
+                Task {
+                    await viewModel.toggleBookmarked()
+                }
+            } label: {
+                if viewModel.isBookmarked {
+                    Image(systemName: "bookmark.fill")
+                        .accessibilityLabel(Text(Localization.Loans.Accessibility.removeBookmark))
+                } else {
+                    Image(systemName: "bookmark")
+                        .accessibilityLabel(Text(Localization.Loans.Accessibility.bookmark))
+                }
+            }
+        }
+
+        ToolbarSpacer(.fixed)
+
+        ToolbarItem(placement: .topBarLeading) {
+            ProgressButton(state: viewModel.progressButtonState) {
+                viewModel.showsRenewalConfirmation = true
+            }
+            .accessibilityLabel(Text(renewButtonAccessibilityLabel))
+            .disabled(!viewModel.loan.canRenew)
+            .confirmationDialog(Localization.Detail.renewalConfirmationTitle, isPresented: $viewModel.showsRenewalConfirmation) {
+                Button(action: {
+                    Task {
+                        try await viewModel.renew()
+                    }
+                }, label: {
+                    Text(Localization.Detail.renewalConfirmationRenewButtonTitle)
+                })
+
+                Button(role: .cancel, action: {
+                    viewModel.showsRenewalConfirmation = false
+                }, label: {
+                    Text(Localization.Detail.renewalConfirmationCancelButtonTitle)
+                })
+            }
+        }
+
+        ToolbarSpacer(.flexible)
+
+        ToolbarItem(placement: .topBarTrailing) {
+                Button(action: {
+                    Task {
+                        await MainActor.run {
+                            dismiss()
+                        }
+                    }
+                }) {
+                    Text("Done".localized)
+                }
+            }
     }
 
     private var renewButtonAccessibilityLabel: LocalizedStringKey {
