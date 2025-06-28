@@ -81,7 +81,7 @@ struct BTLBApp: App {
                 EmptyView()
             case .idle:
                 Group {
-                    if #available(iOS 18.0, *) {
+                    if #available(iOS 26.0, *) {
                         tabs
                     } else {
                         legacyTabs
@@ -126,7 +126,7 @@ struct BTLBApp: App {
 
     @State private var navigationPath = NavigationPath()
 
-    @available(iOS 18.0, *)
+    @available(iOS 26.0, *)
     private var tabs: some View {
         TabView(selection: $selectedTabIndex) {
             Tab(viewModel.loansTitle, systemImage: "tray.full", value: 1) {

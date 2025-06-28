@@ -60,36 +60,49 @@ struct SearchResultDetailView: View {
                 viewModel.updateBookmarkState()
             })
             .navigationBarTitleDisplayMode(.inline)
-            .navigationBarItems(leading: leadingBarItems)
-            .navigationBarItems(trailing: trailingBarItems)
+            .toolbar {
+                if #available(iOS 26.0, *) {
+                    toolbarContent
+                } else {
+                    legacyToolbarContent
+                }
+            }
         }
         .sheet(isPresented: $viewModel.showsAvailabilities) {
             ItemAvailabilityListView(availability: viewModel.details?.availability)
         }
-
     }
 
-    @ViewBuilder private var leadingBarItems: some View {
-        Group {
-            if UIDevice.current.userInterfaceIdiom == .phone {
-                HStack {
-                    bookmarkButton
+    @ToolbarContentBuilder var legacyToolbarContent: some ToolbarContent {
+        ToolbarItem(placement: .topBarLeading) {
+            bookmarkButton
+        }
 
-                    availabilitiesButton
-                }
-            } else {
-                EmptyView()
-            }
+        ToolbarItem(placement: .topBarLeading) {
+            availabilitiesButton
+        }
+
+        ToolbarItem(placement: .topBarTrailing) {
+            doneButton
         }
     }
 
-    @ViewBuilder private var trailingBarItems: some View {
-        Group {
-            if UIDevice.current.userInterfaceIdiom == .phone {
-                doneButton
-            } else {
-                bookmarkButton
-            }
+    @available(iOS 26.0, *)
+    @ToolbarContentBuilder var toolbarContent: some ToolbarContent {
+        ToolbarItem(placement: .topBarLeading) {
+            bookmarkButton
+        }
+
+        ToolbarSpacer(.fixed)
+
+        ToolbarItem(placement: .topBarLeading) {
+            availabilitiesButton
+        }
+
+        ToolbarSpacer(.flexible)
+
+        ToolbarItem(placement: .topBarTrailing) {
+            doneButton
         }
     }
 
