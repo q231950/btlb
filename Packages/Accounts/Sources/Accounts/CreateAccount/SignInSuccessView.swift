@@ -160,9 +160,6 @@ struct SignInSuccessView: View {
                 done()
             }) {
                 Text(Localization.CreateAccount.Success.doneButtonTitle)
-                    .bold()
-                    .foregroundStyle(.primary)
-                    .colorInvert()
             }
             .padding()
         }

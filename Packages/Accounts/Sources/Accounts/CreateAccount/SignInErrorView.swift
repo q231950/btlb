@@ -37,9 +37,6 @@ struct SignInErrorView: View {
                 dismiss()
             }) {
                 Text(Localization.CreateAccount.Error.dismissButtonTitle)
-                    .bold()
-                    .foregroundStyle(.primary)
-                    .colorInvert()
             }
         }
         .padding()

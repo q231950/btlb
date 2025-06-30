@@ -119,6 +119,7 @@ class AiRecommendationCoordinator: Coordinator {
 
 struct AiRecommendationCoordinatorView: View {
     @State private var selectedItems = [any Bookmark]()
+    @State private var showInfo = false
     @Environment(\.recommender) var recommender
 
     let bookmarks: [any LibraryCore.Bookmark]
@@ -129,9 +130,6 @@ struct AiRecommendationCoordinatorView: View {
             onSelected(selectedItems, recommender)
         }) {
             Text("recommend for selected")
-                .bold()
-                .foregroundStyle(.primary)
-                .colorInvert()
         }
         .padding()
     }
@@ -159,6 +157,18 @@ struct AiRecommendationCoordinatorView: View {
                 .navigationTitle("✨ Recommender")
                 .safeAreaInset(edge: .bottom, spacing: 0) {
                     Color.clear.frame(height: 100) // Reserve space for the floating button
+                }
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button {
+                            showInfo.toggle()
+                        } label: {
+                            Image(systemName: "info.circle")
+                        }
+                    }
+                }
+                .sheet(isPresented: $showInfo) {
+                    AIRecommendationInfoView()
                 }
                 
                 recommendButton

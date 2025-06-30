@@ -113,9 +113,6 @@ struct SignInView: View {
                     .foregroundStyle(.primary)
             } else {
                 Text(Localization.CreateAccount.SignIn.signInButtonTitle)
-                    .bold()
-                    .foregroundStyle(.primary)
-                    .colorInvert()
             }
         }
     }

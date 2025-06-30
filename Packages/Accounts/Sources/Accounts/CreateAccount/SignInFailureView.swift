@@ -87,9 +87,6 @@ struct SignInFailureView: View {
                 
             }) {
                 Text(Localization.CreateAccount.Failure.dismissButtonTitle)
-                    .bold()
-                    .foregroundStyle(.primary)
-                    .colorInvert()
             }
             .padding(.bottom)
 
