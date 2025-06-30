@@ -57,9 +57,9 @@
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>GitBranch</key>
-	<string>open-source-info</string>
+	<string>main</string>
 	<key>GitCommit</key>
-	<string>99b7d05</string>
+	<string>09c4d66</string>
 	<key>INAlternativeAppNames</key>
 	<array>
 		<dict>
