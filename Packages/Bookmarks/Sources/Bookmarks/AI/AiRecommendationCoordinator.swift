@@ -8,6 +8,7 @@ import SwiftUI
 import ArchitectureX
 
 import LibraryCore
+import LibraryUI
 
 class AiRecommenderCoordinator: Coordinator {
     var router: Router?
@@ -28,7 +29,7 @@ class AiRecommenderCoordinator: Coordinator {
 class AiRecommenderViewModel: ObservableObject {
     let recommender: RecommenderProtocol
     let titles: [String]
-    
+
     @Published var recommendation: Recommendation?
     @Published var isLoading = false
     @Published var errorMessage: String?
@@ -37,30 +38,30 @@ class AiRecommenderViewModel: ObservableObject {
         self.recommender = recommender
         self.titles = titles
     }
-    
+
     @MainActor
     func loadRecommendations() async {
         guard !titles.isEmpty else {
             errorMessage = "No titles to recommend from"
             return
         }
-        
+
         isLoading = true
         errorMessage = nil
-        
+
         do {
             recommendation = try await recommender.recommendations(for: titles)
         } catch {
             errorMessage = "Failed to load recommendations: \(error.localizedDescription)"
         }
-        
+
         isLoading = false
     }
 }
 
 struct AiRecommenderView: View {
     @ObservedObject var viewModel: AiRecommenderViewModel
-    
+
     var body: some View {
         VStack {
             if viewModel.isLoading {
@@ -123,34 +124,47 @@ struct AiRecommendationCoordinatorView: View {
     let bookmarks: [any LibraryCore.Bookmark]
     let onSelected: ([any LibraryCore.Bookmark], _ recommender: RecommenderProtocol) -> Void
 
-    var body: some View {
-        VStack {
-        List {
-            ForEach(bookmarks, id: \.bookmarkIdentifier) { bookmark in
-                HStack {
-                    Text(bookmark.bookmarkTitle ?? "n/a")
-                    Spacer()
+    private var recommendButton: some View {
+        RoundedButton({
+            onSelected(selectedItems, recommender)
+        }) {
+            Text("recommend for selected")
+                .bold()
+                .foregroundStyle(.primary)
+                .colorInvert()
+        }
+        .padding()
+    }
 
-                    if selectedItems.contains(where: { $0.bookmarkIdentifier == bookmark.bookmarkIdentifier}) {
-                        Image(systemName: "checkmark")
-                            .foregroundColor(.primary)
+    var body: some View {
+        NavigationView {
+            ZStack(alignment: .bottom) {
+                List {
+                    ForEach(bookmarks, id: \.bookmarkIdentifier) { bookmark in
+                        HStack {
+                            Text(bookmark.bookmarkTitle ?? "n/a")
+                            Spacer()
+
+                            if selectedItems.contains(where: { $0.bookmarkIdentifier == bookmark.bookmarkIdentifier}) {
+                                Image(systemName: "checkmark.circle")
+                                    .foregroundColor(.green)
+                            }
+                        }
+                        .contentShape(Rectangle()) // Makes entire row tappable
+                        .onTapGesture {
+                            toggleSelection(for: bookmark)
+                        }
                     }
                 }
-                .contentShape(Rectangle()) // Makes entire row tappable
-                .onTapGesture {
-                    toggleSelection(for: bookmark)
+                .navigationTitle("✨ Recommender")
+                .safeAreaInset(edge: .bottom, spacing: 0) {
+                    Color.clear.frame(height: 100) // Reserve space for the floating button
                 }
+                
+                recommendButton
+                    .shadow(color: .black.opacity(0.2), radius: 8, x: 0, y: 4)
             }
         }
-
-        Button {
-            onSelected(selectedItems, recommender)
-        } label: {
-            Text("recommend for selected")
-        }
-    }
-        .environment(\.editMode, .constant(.active))
-        .navigationTitle("✨ Recommender")
     }
 
     private func toggleSelection(for bookmark: any Bookmark) {
@@ -179,7 +193,6 @@ struct AiRecommendationCoordinatorView: View {
             BookmarkMock()
         ]
     ).view
-        .containInNavigation
 }
 
 struct BookmarkMock: Bookmark {
