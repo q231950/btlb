@@ -53,7 +53,7 @@ struct BTLBApp: App {
                 .alert("Refresh Error", isPresented: $viewModel.isRefreshAlertPresented, actions: {
                     Button {
                         viewModel.isRefreshAlertPresented = false
-                    } label: {
+                     } label: {
                         Text("Ok")
                     }
 
@@ -71,6 +71,7 @@ struct BTLBApp: App {
                 .environment(\.accountCredentialStore, viewModel.accountCredentialStore)
                 .environment(\.libraryProvider, viewModel.libraryProvider)
                 .environment(\.intent, RenewItemsIntent())
+                .environment(\.recommender, Recommender())
         }
     }
 

@@ -22,12 +22,16 @@ public class BookmarkListViewModel: Bookmarks.BookmarkListViewModelProtocol {
         self.currentDetailCoordinator = currentDetailCoordinator
     }
 
-    @MainActor public func show(_ bookmark: any LibraryCore.Bookmark, coordinator: any Coordinator) {
+    public func show(_ bookmark: any LibraryCore.Bookmark, coordinator: any Coordinator) {
         let detailCoordinator = BookmarkCoordinator(bookmark: bookmark)
         currentDetailCoordinator = detailCoordinator
 
         Task { @MainActor in
             coordinator.transition(to: detailCoordinator, style: .present(modalInPresentation: false))
         }
+    }
+
+    public func onRecommendationButtonTap(coordinator: BookmarkListCoordinator<some BookmarkListViewModelProtocol>, bookmarks: [any LibraryCore.Bookmark]) {
+        coordinator.startRecommendationFlow(with: bookmarks)
     }
 }

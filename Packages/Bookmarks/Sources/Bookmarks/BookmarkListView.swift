@@ -13,12 +13,11 @@ import Localization
 import Persistence
 
 struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
-    @SectionedFetchRequest<String, EDItem>(
-        sectionIdentifier: \.sectionIdentifier,
+    @FetchRequest<EDItem>(
         sortDescriptors: [SortDescriptor(\.author, order: .forward),
                           SortDescriptor(\.title, order: .forward)]
     )
-    private var bookmarks: SectionedFetchResults<String, EDItem>
+    private var bookmarks: FetchedResults<EDItem>
     private let coordinator: BookmarkListCoordinator<ViewModel>
 
     @ObservedObject private var viewModel: ViewModel
@@ -47,18 +46,25 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
             bookmarks.nsPredicate = newValue.isEmpty ? nil : FilterPredicateBuilder(text: newValue).predicate
         }
         .navigationTitle(Localization.Titles.bookmarks)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    viewModel.onRecommendationButtonTap(coordinator: coordinator, bookmarks: bookmarks.map { $0 } )
+                } label: {
+                    Image(systemName: "sparkles")
+                }
+
+            }
+        }
     }
 
     @ViewBuilder private func bookmarkList() -> some View {
         List {
-            ForEach(bookmarks) { section in
-                ForEach(section) { bookmark in
-                    Button {
-                        viewModel.show(bookmark, coordinator: coordinator)
-                    } label: {
-                        BookmarkItemView(bookmark.objectID)
-                    }
-
+            ForEach(bookmarks) { bookmark in
+                Button {
+                    viewModel.show(bookmark, coordinator: coordinator)
+                } label: {
+                    BookmarkItemView(bookmark.objectID)
                 }
             }
         }
@@ -101,6 +107,9 @@ class ViewModel: BookmarkListViewModelProtocol {
     var searchText: String = ""
 
     func show(_ bookmark: any LibraryCore.Bookmark, coordinator: any ArchitectureX.Coordinator) {
+    }
+
+    func onRecommendationButtonTap(coordinator: BookmarkListCoordinator<some BookmarkListViewModelProtocol>, bookmarks: [any LibraryCore.Bookmark]) {
     }
 }
 

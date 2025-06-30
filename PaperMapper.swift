@@ -9,6 +9,33 @@ import Foundation
 import Paper
 import LibraryCore
 
+// MARK: Recommender
+
+public struct Recommender: LibraryCore.RecommenderProtocol {
+
+    init() {}
+
+    /// Asks AI for recommended book titles for a given list of book titles
+    public func recommendations(for titles: [String]) async throws -> LibraryCore.Recommendation {
+        try await Paper
+            .Recommender()
+            .getRecommendations(titles: titles, apiKey: "") // add key somehow
+            .internalRecommendation
+    }
+}
+
+extension Paper.Recommendation {
+    var internalRecommendation: LibraryCore.Recommendation {
+        Recommendation(recommendations: recommendations.map { $0.internalBookRecommendation })
+    }
+}
+
+extension Paper.BookRecommendation {
+    var internalBookRecommendation: LibraryCore.BookRecommendation {
+        BookRecommendation(title: title, author: author)
+    }
+}
+
 extension PaperErrorInternal {
     init(paperError: PaperError) {
         switch paperError {

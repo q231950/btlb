@@ -29,7 +29,7 @@ class AiRecommenderViewModel: ObservableObject {
     let recommender: RecommenderProtocol
     let titles: [String]
     
-    @Published var recommendations: [String] = []
+    @Published var recommendation: Recommendation?
     @Published var isLoading = false
     @Published var errorMessage: String?
 
@@ -49,7 +49,7 @@ class AiRecommenderViewModel: ObservableObject {
         errorMessage = nil
         
         do {
-            recommendations = try await recommender.recommendations(for: titles)
+            recommendation = try await recommender.recommendations(for: titles)
         } catch {
             errorMessage = "Failed to load recommendations: \(error.localizedDescription)"
         }
@@ -76,13 +76,19 @@ struct AiRecommenderView: View {
                         .multilineTextAlignment(.center)
                 }
                 .padding()
-            } else if viewModel.recommendations.isEmpty {
+            } else if (viewModel.recommendation?.recommendations ?? []).isEmpty {
                 Text("No recommendations found")
                     .padding()
             } else {
                 List {
-                    ForEach(viewModel.recommendations, id: \.self) { recommendation in
-                        Text(recommendation)
+                    ForEach(viewModel.recommendation?.recommendations ?? [], id: \.self) { recommendation in
+                        VStack {
+                            Text(recommendation.title)
+                                .font(.headline)
+
+                            Text(recommendation.author)
+                                .font(.subheadline)
+                        }
                     }
                 }
             }
@@ -94,7 +100,7 @@ struct AiRecommenderView: View {
     }
 }
 
-class AiCoordinator: Coordinator {
+class AiRecommendationCoordinator: Coordinator {
     var router: Router?
 
     let bookmarks: [any LibraryCore.Bookmark]
@@ -104,13 +110,13 @@ class AiCoordinator: Coordinator {
     }
 
     var contentView: some View {
-        AiCoordinatorView(bookmarks: bookmarks) { selectedBookmarks, recommender in
+        AiRecommendationCoordinatorView(bookmarks: bookmarks) { selectedBookmarks, recommender in
             self.transition(to: AiRecommenderCoordinator(recommender: recommender, bookmarks: selectedBookmarks), style: .push)
         }
     }
 }
 
-struct AiCoordinatorView: View {
+struct AiRecommendationCoordinatorView: View {
     @State private var selectedItems = [any Bookmark]()
     @Environment(\.recommender) var recommender
 
@@ -159,7 +165,7 @@ struct AiCoordinatorView: View {
 }
 
 #Preview {
-    AiCoordinator(
+    AiRecommendationCoordinator(
         bookmarks: [
             BookmarkMock(),
             BookmarkMock(),
