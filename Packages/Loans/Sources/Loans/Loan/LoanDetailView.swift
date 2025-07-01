@@ -63,11 +63,15 @@ public struct LoanDetailView<ViewModel: LibraryCore.LoanViewModel>: View {
             .navigationBarTitleDisplayMode(.large)
             .navigationTitle(viewModel.loan.title)
             .toolbar {
+#if swift(>=6.2)
                 if #available(iOS 26.0, *) {
                     toolbarContent
                 } else {
+#endif
                     legacyToolbarContent
+#if swift(>=6.2)
                 }
+                #endif
             }
             .onAppear {
                 viewModel.updateAsyncProperties()
@@ -131,6 +135,7 @@ public struct LoanDetailView<ViewModel: LibraryCore.LoanViewModel>: View {
         }
     }
 
+#if swift(>=6.2)
     @available(iOS 26.0, *)
     @ToolbarContentBuilder private var toolbarContent: some ToolbarContent {
 
@@ -189,7 +194,7 @@ public struct LoanDetailView<ViewModel: LibraryCore.LoanViewModel>: View {
                 }
             }
     }
-
+    #endif
     private var renewButtonAccessibilityLabel: LocalizedStringKey {
         if case ProgressButtonState.success = viewModel.progressButtonState {
             return LocalizedStringKey(Localization.Loans.Accessibility.renewed)
