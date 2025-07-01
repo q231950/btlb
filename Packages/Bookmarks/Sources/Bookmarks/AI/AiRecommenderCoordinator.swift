@@ -66,38 +66,68 @@ struct AiRecommenderView: View {
     var body: some View {
         VStack {
             if viewModel.isLoading {
-                ProgressView()
-                    .padding()
-                Text("Loading recommendations…", bundle: .module)
+                loadingView
             } else if let errorMessage = viewModel.errorMessage {
-                VStack(spacing: 16) {
-                    Image(systemName: "exclamationmark.triangle")
-                        .font(.largeTitle)
-                        .foregroundColor(.orange)
-                    Text(errorMessage)
-                        .multilineTextAlignment(.center)
-                }
-                .padding()
+                errorView(message: errorMessage)
             } else if (viewModel.recommendation?.recommendations ?? []).isEmpty {
-                Text("No recommendations found", bundle: .module)
-                    .padding()
+                emptyRecommendationsView
             } else {
-                List {
-                    ForEach(viewModel.recommendation?.recommendations ?? [], id: \.self) { recommendation in
-                        VStack {
-                            Text(recommendation.title)
-                                .font(.headline)
-
-                            Text(recommendation.author)
-                                .font(.subheadline)
-                        }
-                    }
-                }
+                recommendationsView
             }
         }
         .navigationTitle("Recommender Title".localized(bundle: .module))
         .task {
             await viewModel.loadRecommendations()
         }
+    }
+
+    @ViewBuilder private var loadingView: some View {
+        ProgressView()
+            .padding()
+        Text("Loading recommendations…", bundle: .module)
+    }
+
+    @ViewBuilder private var recommendationsView: some View {
+        List {
+            ForEach(viewModel.recommendation?.recommendations ?? [], id: \.self) { recommendation in
+                VStack {
+                    Text(recommendation.title)
+                        .font(.headline)
+
+                    Text(recommendation.author)
+                        .font(.subheadline)
+                }
+            }
+        }
+    }
+
+    @ViewBuilder private var emptyRecommendationsView: some View {
+        Text("No recommendations found", bundle: .module)
+            .padding()
+    }
+
+    private func errorView(message: String) -> some View {
+        VStack(spacing: 16) {
+            Image(systemName: "exclamationmark.triangle")
+                .font(.largeTitle)
+                .foregroundColor(.orange)
+            Text(message)
+                .multilineTextAlignment(.center)
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    AiRecommenderView(viewModel: AiRecommenderViewModel(MockRecommender(), titles: ["a", "b"]))
+}
+
+private class MockRecommender: RecommenderProtocol {
+    func recommendations(for titles: [String]) async throws -> Recommendation {
+        Recommendation(recommendations: [
+            BookRecommendation(title: "Title 1", author: "Author 1"),
+            BookRecommendation(title: "Title 2 This is long an longer and longer", author: "Author 2"),
+            BookRecommendation(title: "Title 3", author: "Author 3 this is a veeery long author name"),
+        ])
     }
 }
