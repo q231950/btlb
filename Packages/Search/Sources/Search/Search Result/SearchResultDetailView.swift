@@ -61,11 +61,15 @@ struct SearchResultDetailView: View {
             })
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
+#if swift(>=6.2)
                 if #available(iOS 26.0, *) {
                     toolbarContent
                 } else {
+                    #endif
                     legacyToolbarContent
+#if swift(>=6.2)
                 }
+                #endif
             }
         }
         .sheet(isPresented: $viewModel.showsAvailabilities) {
@@ -87,6 +91,7 @@ struct SearchResultDetailView: View {
         }
     }
 
+#if swift(>=6.2)
     @available(iOS 26.0, *)
     @ToolbarContentBuilder var toolbarContent: some ToolbarContent {
         ToolbarItem(placement: .topBarLeading) {
@@ -105,6 +110,7 @@ struct SearchResultDetailView: View {
             doneButton
         }
     }
+#endif
 
     @ViewBuilder private var bookmarkButton: some View {
         Group {
