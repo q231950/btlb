@@ -53,7 +53,6 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
                 } label: {
                     Image(systemName: "sparkles")
                 }
-
             }
         }
     }

@@ -12,6 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/q231950/architecture-x", .upToNextMajor(from: "0.0.3")),
+        .package(path: "../BTLBSettings"),
         .package(path: "../LibraryCore"),
         .package(path: "../LibraryUI"),
         .package(path: "../Localization"),
@@ -22,6 +23,7 @@ let package = Package(
             name: "Bookmarks",
             dependencies: [
                 .product(name: "ArchitectureX", package: "architecture-x"),
+                "BTLBSettings",
                 "LibraryCore",
                 "LibraryUI",
                 "Localization",

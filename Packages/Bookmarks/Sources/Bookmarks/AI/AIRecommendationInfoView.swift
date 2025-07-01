@@ -7,6 +7,7 @@
 
 import SwiftUI
 import LibraryUI
+import Localization
 import BTLBSettings
 
 struct AIRecommendationInfoView: View {
@@ -16,12 +17,12 @@ struct AIRecommendationInfoView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .leading, spacing: 16) {
-                Text("How AI Recommender Works")
+                Text("How AI Book Recommendation Works", bundle: .module)
                     .font(.title2)
                     .fontWeight(.semibold)
                     .padding(.bottom, 8)
                 
-                Text("The recommender uses a large language model (LLM) to suggest books based on your selection of bookmarks. In order to provide suggestions the _title_ and _author_ of each selected item is sent to an LLM provider. If you feel uncomfortable with submitting data to the LLM provider you can turn off the Recommender feature in the settings section of the app. Please also note that because of the nature of LLMs the suggestions may contain unexpected content – there may even be recommendations of books which do not exist. Please be aware of this and send feedback in case of unexpected results.")
+                Text("AI Recommender Description", bundle: .module)
                     .font(.body)
                 
                 Spacer()
@@ -34,15 +35,20 @@ struct AIRecommendationInfoView: View {
 
             }
             .padding()
-            .navigationTitle("✨ Recommender")
+            .navigationTitle("Recommender Title".localized(bundle: .module))
             .navigationBarTitleDisplayMode(.inline)
             .sheet(isPresented: $showsMailComposeView) {
-                MailComposerWrapperView(subject: "Recommender Feedback", messageBody: message, recipients: ["support@btlb.app"], isHTML: true)
+                MailComposerWrapperView(
+                    subject: "Recommender Feedback Email Subject".localized(bundle: .module),
+                    messageBody: message,
+                    recipients: ["support@btlb.app"],
+                    isHTML: true
+                )
             }
         }
     }
-
-    private var message: String {
+    
+    var message: String {
         """
         <html>
         <head>
@@ -81,37 +87,18 @@ struct AIRecommendationInfoView: View {
             </style>
         </head>
         <body>
-            <div class="header">AI Recommender Feedback</div>
+            <div class="header">\("Feedback Email: AI Recommender Feedback".localized(bundle: .module))</div>
             
             <div class="section">
-                <div class="label">Issue Description:</div>
-                <p>Please describe the issue you encountered with the AI Recommender:</p>
+                <div class="label">\("Feedback Email: Issue Description".localized(bundle: .module))</div>
+                <p>\("Feedback Email: Please describe the issue you encountered with the AI Recommender".localized(bundle: .module))</p>
                 <br><br>
             </div>
             
             <div class="section">
-                <div class="label">Expected Behavior:</div>
-                <p>What did you expect to happen?</p>
-                <br><br>
-            </div>
-            
-            <div class="section">
-                <div class="label">Actual Behavior:</div>
-                <p>What actually happened? If you received unexpected book recommendations, please list them:</p>
-                <br><br>
-            </div>
-            
-            <div class="section">
-                <div class="label">Steps to Reproduce:</div>
-                <p>1. </p>
-                <p>2. </p>
-                <p>3. </p>
-            </div>
-            
-            <div class="section">
-                <div class="label">Additional Information:</div>
+                <div class="label">\("Feedback Email: Additional Information".localized(bundle: .module))</div>
                 <p>App Version: <span class="code">BTLB v\(VersionNumberProvider.versionString)</span></p>
-                <p>Any other relevant details:</p>
+                <p>\("Feedback Email: Any other relevant details".localized(bundle: .module))</p>
                 <br><br>
             </div>
         </body>
@@ -122,4 +109,12 @@ struct AIRecommendationInfoView: View {
 
 #Preview {
     AIRecommendationInfoView()
+        .environment(\.locale, Locale(identifier: "de"))
+}
+
+#Preview("Email Content") {
+    let nsAttributedString = try! NSAttributedString(data: Data(AIRecommendationInfoView().message.utf8), options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil)
+    let attributedString = try! AttributedString(nsAttributedString, including: \.uiKit)
+    Text(attributedString)
+        .environment(\.locale, Locale(identifier: "de"))
 }

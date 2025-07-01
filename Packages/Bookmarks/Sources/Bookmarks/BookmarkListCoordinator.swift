@@ -19,6 +19,6 @@ public class BookmarkListCoordinator<ViewModel: BookmarkListViewModelProtocol>: 
     }
 
     func startRecommendationFlow(with bookmarks: [any LibraryCore.Bookmark]) {
-        transition(to: AiRecommendationCoordinator(bookmarks: bookmarks), style: .present(modalInPresentation: false))
+        transition(to: AiRecommendationBookmarkSelectionCoordinator(bookmarks: bookmarks), style: .present(modalInPresentation: false))
     }
 }

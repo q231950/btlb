@@ -163,7 +163,6 @@ public protocol LocalizableByTable {
 
 extension String {
 
-    @available(*, deprecated, message: "Use `Text(\"LIBRARIES_TEXT\", bundle: .module)` instead. Add tableName if the bundle's table is not `Localizable.xcstrings`.")
     public func localized(table: String? = nil, bundle: Bundle? = .localization) -> String {
         NSLocalizedString(self, tableName: table ?? "Localizable", bundle: bundle ?? Bundle.module, comment: "")
     }
