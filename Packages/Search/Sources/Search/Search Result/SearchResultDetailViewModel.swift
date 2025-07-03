@@ -9,7 +9,6 @@
 import Foundation
 import LibraryCore
 import Persistence
-import Bookmarks
 import Utilities
 
 final class SearchResultInfoViewModel: ObservableObject {

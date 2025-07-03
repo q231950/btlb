@@ -10,6 +10,10 @@ import ArchitectureX
 
 import LibraryCore
 import LibraryUI
+import Libraries
+import Utilities
+import Search
+import Persistence
 
 class AiRecommenderCoordinator: Coordinator {
     var router: Router?
@@ -23,21 +27,26 @@ class AiRecommenderCoordinator: Coordinator {
     }
 
     var contentView: some View {
-        AiRecommenderView(viewModel: .init(recommender, titles: bookmarks.compactMap { $0.bookmarkTitle }))
+        AiRecommenderView(viewModel: AiRecommenderViewModel(recommender, titles: bookmarks.compactMap { $0.bookmarkTitle }) { recommendation, bookRecommendation, coordinatorProvider in
+
+            self.transition(to: coordinatorProvider.coordinator(for: .search(query: bookRecommendation.title)), style: .present(modalInPresentation: false))
+        })
     }
 }
 
 class AiRecommenderViewModel: ObservableObject {
     let recommender: RecommenderProtocol
     let titles: [String]
+    let onRecommendationSelection: (Recommendation?, BookRecommendation, CoordinatorProviding) -> Void
 
     @Published var recommendation: Recommendation?
     @Published var isLoading = false
     @Published var errorMessage: String?
 
-    init(_ recommender: RecommenderProtocol, titles: [String]) {
+    init(_ recommender: RecommenderProtocol, titles: [String], onRecommendationSelection: @escaping (Recommendation?, BookRecommendation, CoordinatorProviding) -> Void) {
         self.recommender = recommender
         self.titles = titles
+        self.onRecommendationSelection = onRecommendationSelection
     }
 
     @MainActor
@@ -62,6 +71,8 @@ class AiRecommenderViewModel: ObservableObject {
 
 struct AiRecommenderView: View {
     @ObservedObject var viewModel: AiRecommenderViewModel
+    @Environment(\.openURL) private var openURL
+    @Environment(\.coordinatorProvider) private var coordinatorProvider
 
     var body: some View {
         VStack {
@@ -90,12 +101,30 @@ struct AiRecommenderView: View {
     @ViewBuilder private var recommendationsView: some View {
         List {
             ForEach(viewModel.recommendation?.recommendations ?? [], id: \.self) { recommendation in
-                VStack {
-                    Text(recommendation.title)
-                        .font(.headline)
 
-                    Text(recommendation.author)
-                        .font(.subheadline)
+                HStack {
+                    VStack {
+                        HStack {
+                            Text(recommendation.title)
+                                .font(.headline)
+
+                            Spacer()
+                        }
+
+                        HStack {
+                            Text(recommendation.author)
+                                .font(.subheadline)
+
+                            Spacer()
+                        }
+                    }
+
+                    Button(action: {
+                        viewModel.onRecommendationSelection(viewModel.recommendation, recommendation, coordinatorProvider)
+                    }) {
+                        Image(systemName: "document.on.document")
+                    }
+                    .buttonStyle(.bordered)
                 }
             }
         }
@@ -119,7 +148,9 @@ struct AiRecommenderView: View {
 }
 
 #Preview {
-    AiRecommenderView(viewModel: AiRecommenderViewModel(MockRecommender(), titles: ["a", "b"]))
+    AiRecommenderView(viewModel: AiRecommenderViewModel(MockRecommender(), titles: ["a", "b"]) {
+        _, _, _ in
+    })
 }
 
 private class MockRecommender: RecommenderProtocol {

@@ -18,6 +18,22 @@ import More
 import Persistence
 import Utilities
 
+import ArchitectureX
+
+extension BTLBApp: CoordinatorProviding {
+
+    func coordinator(for route: Route) -> any Coordinator {
+        switch route {
+        case .search(query: let query):
+            let coordinator = viewModel.createSearchCoordinator()
+            coordinator.prefillSearchQuery(query)
+            return coordinator
+        default:
+            return EmptyCoordinator()
+        }
+    }
+}
+
 @main
 struct BTLBApp: App {
 
@@ -64,14 +80,14 @@ struct BTLBApp: App {
                 .onOpenURL(perform: handleIncomingURL)
                 .environment(\.accountActivating, AccountUpdater())
                 .environment(\.accountUpdating, AccountUpdater())
-                .environment(\.managedObjectContext,
-                              DataStackProvider.shared.foregroundManagedObjectContext)
+                .environment(\.managedObjectContext, DataStackProvider.shared.foregroundManagedObjectContext)
                 .environment(\.loanService, viewModel.loanService)
                 .environment(\.localAccountService, viewModel.localAccountRepository)
                 .environment(\.accountCredentialStore, viewModel.accountCredentialStore)
                 .environment(\.libraryProvider, viewModel.libraryProvider)
                 .environment(\.intent, RenewItemsIntent())
                 .environment(\.recommender, Recommender())
+                .environment(\.coordinatorProvider, self)
         }
     }
 
@@ -99,7 +115,7 @@ struct BTLBApp: App {
                     switch newValue {
                     case .loans: selectedTabIndex = 1
                     case .search(let query):
-                        selectedTabIndex = 0
+                        selectedTabIndex = searchTabIndex
                         viewModel.searchCoordinator?.prefillSearchQuery(query)
                     case .openSearch:
                         selectedTabIndex = 0
@@ -126,6 +142,10 @@ struct BTLBApp: App {
     }
 
     @State private var navigationPath = NavigationPath()
+
+    private var searchTabIndex: Int {
+        5 // this needs to be `0` for iOS < 26
+    }
 
     @available(iOS 26.0, *)
     private var tabs: some View {
@@ -236,7 +256,6 @@ struct BTLBApp: App {
     }
 
     private func handleIncomingURL(_ url: URL) {
-        assertionFailure("do not support incoming URLs")
         guard url.scheme == "btlb" else {
             return
         }
@@ -245,7 +264,7 @@ struct BTLBApp: App {
             return
         }
 
-        guard let action = components.host, action == "open-recipe" else {
+        guard let action = components.host, action == "search" else {
             print("Unknown URL, we can't handle this one!")
             return
         }
