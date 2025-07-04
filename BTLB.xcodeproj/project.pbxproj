@@ -134,6 +134,7 @@
 		3BF3D9B229368CC900CBD4DE /* WidgetTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3D9B129368CC900CBD4DE /* WidgetTimelineProvider.swift */; };
 		3BF3D9B829368CCB00CBD4DE /* BTLBWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3BF3D9AA29368CC900CBD4DE /* BTLBWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3BF799B72E181A2500F63075 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BF799B62E181A2500F63075 /* Secrets.xcconfig */; };
+		3BF799BA2E18201B00F63075 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF799B92E18201B00F63075 /* BuildConfig.swift */; };
 		3BF7F8D62937EA1400D39B6D /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF7F8D52937EA1400D39B6D /* Utilities */; };
 		3BF90B002D23450E007FB6F9 /* SearchIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF90AFF2D23450E007FB6F9 /* SearchIntent.swift */; };
 		3BF9B86B2B7CFCFB001AED4D /* BTLBShortcutsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9B86A2B7CFCFB001AED4D /* BTLBShortcutsProvider.swift */; };
@@ -349,6 +350,7 @@
 		3BF3D9B129368CC900CBD4DE /* WidgetTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTimelineProvider.swift; sourceTree = "<group>"; };
 		3BF3D9B529368CCB00CBD4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BF799B62E181A2500F63075 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		3BF799B92E18201B00F63075 /* BuildConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuildConfig.swift; path = Classes/Generated/BuildConfig.swift; sourceTree = "<group>"; };
 		3BF7F8D42937E14100D39B6D /* BTLBWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BTLBWidgetExtension.entitlements; sourceTree = "<group>"; };
 		3BF90AFF2D23450E007FB6F9 /* SearchIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchIntent.swift; sourceTree = "<group>"; };
 		3BF9B86A2B7CFCFB001AED4D /* BTLBShortcutsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLBShortcutsProvider.swift; sourceTree = "<group>"; };
@@ -456,6 +458,7 @@
 				3BF7F8D42937E14100D39B6D /* BTLBWidgetExtension.entitlements */,
 				29B97316FDCFA39411CA2CEA /* BTLBApp.swift */,
 				3B3EDF352D1F516300B79D89 /* PaperMapper.swift */,
+				3BF799B92E18201B00F63075 /* BuildConfig.swift */,
 				3BAF8FEB2B0A6C0900D5AF81 /* BTLBAppViewModel.swift */,
 				3BBA8CAF23F2E8F000795358 /* AppDelegate.swift */,
 				3BA4070B27B9982D00985343 /* Packages */,
@@ -1114,6 +1117,7 @@
 				3B257CF829A66F8B00B1CC0B /* 7to8.xcmappingmodel in Sources */,
 				3BE9A5BB21D25BE200D16D11 /* AccountPasswordMigratingPolicy.swift in Sources */,
 				3B257CF929A66F8B00B1CC0B /* 4to5.xcmappingmodel in Sources */,
+				3BF799BA2E18201B00F63075 /* BuildConfig.swift in Sources */,
 				3BF9B86B2B7CFCFB001AED4D /* BTLBShortcutsProvider.swift in Sources */,
 				3BEB14792C76652E0023E1F8 /* 25to26.xcmappingmodel in Sources */,
 				3B257D0529A66F8B00B1CC0B /* 3to4.xcmappingmodel in Sources */,

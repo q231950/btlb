@@ -19,7 +19,7 @@ public struct Recommender: LibraryCore.RecommenderProtocol {
     public func recommendations(for titles: [String]) async throws -> LibraryCore.Recommendation {
         try await Paper
             .Recommender()
-            .getRecommendations(titles: titles, apiKey: "") // add key somehow
+            .getRecommendations(titles: titles, apiKey: BuildConfig.openRouterApiKey)
             .internalRecommendation
     }
 }
