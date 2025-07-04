@@ -11,6 +11,7 @@ let package = Package(
             targets: ["Utilities"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/q231950/architecture-x", .upToNextMajor(from: "0.0.3")),
         .package(path: "../LibraryCore"),
         .package(path: "../Localization"),
         .package(path: "../Networking"),
@@ -22,10 +23,12 @@ let package = Package(
     targets: [
         .target(
             name: "Utilities",
-            dependencies: ["LibraryCore",
-                           "Localization",
-                           "Networking",
-                           "Persistence"],
+            dependencies: [
+                .product(name: "ArchitectureX", package: "architecture-x"),
+                "LibraryCore",
+                "Localization",
+                "Networking",
+                "Persistence"],
             resources: [.process("Resources/RequestBodyTemplates")]),
         .testTarget(
             name: "UtilitiesTests",

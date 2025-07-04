@@ -51,3 +51,4 @@ Carthage/Build
 stubs
 .aider*
 .build
+Secrets.xcconfig

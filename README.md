@@ -5,6 +5,18 @@
 ## Build the App
 
 Initial setup:
+
+**Setup Workspace**
+
+```
+# create the file that contains your secrets.
+# the AI recommender uses an OpenRouter API key
+# This file is ignored by Git to prevent secrets from being committed.
+mv Secrets.sample.xcconfig Secrets.xcconfig
+```
+
+**Build the `paper` library**
+
 ```shell
 # Navigate to the paper directory and install the Rust toolchain
 cd Packages/shared/paper

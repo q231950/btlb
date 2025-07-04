@@ -12,7 +12,6 @@ import LibraryCore
 import LibraryUI
 import Libraries
 import Utilities
-import Search
 import Persistence
 
 class AiRecommenderCoordinator: Coordinator {
