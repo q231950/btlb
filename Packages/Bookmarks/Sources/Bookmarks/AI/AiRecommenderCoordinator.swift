@@ -121,7 +121,7 @@ struct AiRecommenderView: View {
                     Button(action: {
                         viewModel.onRecommendationSelection(viewModel.recommendation, recommendation, coordinatorProvider)
                     }) {
-                        Image(systemName: "document.on.document")
+                        Image(systemName: "text.page.badge.magnifyingglass")
                     }
                     .buttonStyle(.bordered)
                 }
