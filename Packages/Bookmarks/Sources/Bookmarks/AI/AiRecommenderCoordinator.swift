@@ -100,31 +100,27 @@ struct AiRecommenderView: View {
     @ViewBuilder private var recommendationsView: some View {
         List {
             ForEach(viewModel.recommendation?.recommendations ?? [], id: \.self) { recommendation in
-
-                HStack {
-                    VStack {
-                        HStack {
+                Button(action: {
+                    viewModel.onRecommendationSelection(viewModel.recommendation, recommendation, coordinatorProvider)
+                }) {
+                    HStack {
+                        VStack(alignment: .leading, spacing: 4) {
                             Text(recommendation.title)
                                 .font(.headline)
-
-                            Spacer()
-                        }
-
-                        HStack {
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                            
                             Text(recommendation.author)
                                 .font(.subheadline)
-
-                            Spacer()
+                                .frame(maxWidth: .infinity, alignment: .leading)
                         }
-                    }
-
-                    Button(action: {
-                        viewModel.onRecommendationSelection(viewModel.recommendation, recommendation, coordinatorProvider)
-                    }) {
+                        
                         Image(systemName: "text.page.badge.magnifyingglass")
+                            .foregroundColor(.secondary)
                     }
-                    .buttonStyle(.bordered)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .contentShape(Rectangle())
                 }
+                .buttonStyle(.plain)
             }
         }
     }
