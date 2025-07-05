@@ -236,6 +236,6 @@ class AppViewModel: ObservableObject {
     var accountCredentialStore = AccountCredentialStore(keychainProvider: KeychainManager())
 
     // TODO: kill the force! !
-    var libraryProvider: LibraryProvider = LibraryManager(persistentContainer: DataStackProvider.shared.persistentContainer!) as! LibraryProvider
+    var libraryProvider: LibraryProvider = LibraryManager(persistentContainer: DataStackProvider.shared.persistentContainer!) as LibraryProvider
 
 }
