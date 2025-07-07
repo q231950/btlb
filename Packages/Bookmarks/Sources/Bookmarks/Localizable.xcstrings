@@ -216,6 +216,23 @@
         }
       }
     },
+    "Recommendation Result Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hier sind KI-Buchempfehlungen basierend auf der vorhergehenden Auswahl. Selektiere sie um die Verfügbarkeit in deiner Bibliothek zu prüfen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "These are recommendations based on the selected items. Tap on any to check for availability in your library."
+          }
+        }
+      }
+    },
     "Recommender Feedback Email Subject" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -228,7 +245,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "✨ Recommendations Feedback"
+            "value" : "✨ Recommender Feedback"
           }
         }
       }
@@ -239,7 +256,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wähle die Medien für welche du Buchempfehlungen generieren möchtest aus"
+            "value" : "Wähle die Medien für welche du KI Buchempfehlungen generieren möchtest aus"
           }
         },
         "en" : {
@@ -262,7 +279,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "✨ Recommendations"
+            "value" : "✨ Recommender"
           }
         }
       }

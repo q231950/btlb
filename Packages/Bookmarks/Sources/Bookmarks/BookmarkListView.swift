@@ -19,6 +19,8 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
     )
     private var bookmarks: FetchedResults<EDItem>
     private let coordinator: BookmarkListCoordinator<ViewModel>
+    @State private var aiRecommenderEnabled = false
+    @Environment(\.settingsService) private var settingsService
 
     @ObservedObject private var viewModel: ViewModel
 
@@ -47,13 +49,18 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
         }
         .navigationTitle(Localization.Titles.bookmarks)
         .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
-                Button {
-                    viewModel.onRecommendationButtonTap(coordinator: coordinator, bookmarks: bookmarks.map { $0 } )
-                } label: {
-                    Image(systemName: "sparkles")
+            if aiRecommenderEnabled {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        viewModel.onRecommendationButtonTap(coordinator: coordinator, bookmarks: bookmarks.map { $0 } )
+                    } label: {
+                        Image(systemName: "sparkles")
+                    }
                 }
             }
+        }
+        .task {
+            aiRecommenderEnabled = settingsService.aiRecommenderEnabled
         }
     }
 

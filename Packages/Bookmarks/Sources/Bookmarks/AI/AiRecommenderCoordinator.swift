@@ -39,7 +39,7 @@ class AiRecommenderViewModel: ObservableObject {
     let onRecommendationSelection: (Recommendation?, BookRecommendation, CoordinatorProviding) -> Void
 
     @Published var recommendation: Recommendation?
-    @Published var isLoading = false
+    @Published var isLoading = true
     @Published var errorMessage: String?
 
     init(_ recommender: RecommenderProtocol, titles: [String], onRecommendationSelection: @escaping (Recommendation?, BookRecommendation, CoordinatorProviding) -> Void) {
@@ -99,28 +99,33 @@ struct AiRecommenderView: View {
 
     @ViewBuilder private var recommendationsView: some View {
         List {
-            ForEach(viewModel.recommendation?.recommendations ?? [], id: \.self) { recommendation in
-                Button(action: {
-                    viewModel.onRecommendationSelection(viewModel.recommendation, recommendation, coordinatorProvider)
-                }) {
-                    HStack {
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(recommendation.title)
-                                .font(.headline)
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                            
-                            Text(recommendation.author)
-                                .font(.subheadline)
-                                .frame(maxWidth: .infinity, alignment: .leading)
+            Section {
+                ForEach(viewModel.recommendation?.recommendations ?? [], id: \.self) { recommendation in
+                    Button(action: {
+                        viewModel.onRecommendationSelection(viewModel.recommendation, recommendation, coordinatorProvider)
+                    }) {
+                        HStack {
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(recommendation.title)
+                                    .font(.headline)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                                Text(recommendation.author)
+                                    .font(.subheadline)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                            }
+
+                            Image(systemName: "text.page.badge.magnifyingglass")
+                                .foregroundColor(.secondary)
                         }
-                        
-                        Image(systemName: "text.page.badge.magnifyingglass")
-                            .foregroundColor(.secondary)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .contentShape(Rectangle())
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .contentShape(Rectangle())
+                    .buttonStyle(.plain)
                 }
-                .buttonStyle(.plain)
+            } footer: {
+                Text("Recommendation Result Description", bundle: .module)
+                    .font(.footnote)
             }
         }
     }

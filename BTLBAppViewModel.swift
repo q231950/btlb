@@ -223,6 +223,10 @@ class AppViewModel: ObservableObject {
         return MoreSectionCoordinator(entries: [.accounts, .about, .settings(settingsService), .openSource])
     }()
 
+    @MainActor var settingsService: LibraryCore.SettingsService = SettingsService(
+        notificationScheduler: NotificationScheduler(),
+        accountService: AccountRepository.shared, userDefaults: UserDefaults.suite)
+
     var moreTitle: String = Localization.Titles.more
 
     var localAccountRepository = {

@@ -29,6 +29,7 @@ public struct DescriptiveToggle: View, Identifiable {
                 Text(title, bundle: bundle)
             }
             .bold()
+            .padding(.bottom, 5)
 
             Text(description, bundle: bundle)
                 .frame(maxWidth: .infinity, alignment: .leading)

@@ -88,6 +88,7 @@ struct BTLBApp: App {
                 .environment(\.intent, RenewItemsIntent())
                 .environment(\.recommender, Recommender())
                 .environment(\.coordinatorProvider, self)
+                .environment(\.settingsService, viewModel.settingsService)
         }
     }
 

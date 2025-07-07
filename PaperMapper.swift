@@ -19,7 +19,14 @@ public struct Recommender: LibraryCore.RecommenderProtocol {
     public func recommendations(for titles: [String]) async throws -> LibraryCore.Recommendation {
         try await Paper
             .Recommender()
-            .getRecommendations(titles: titles, apiKey: BuildConfig.openRouterApiKey)
+            .getRecommendations(
+                titles: titles,
+                config: RecommenderConfig(
+                    apiKey: BuildConfig.openRouterApiKey,
+                    apiBase: "https://openrouter.ai/api/v1",
+                    model: .gpt41
+                )
+            )
             .internalRecommendation
     }
 }

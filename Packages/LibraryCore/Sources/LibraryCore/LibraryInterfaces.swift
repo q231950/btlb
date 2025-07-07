@@ -213,6 +213,66 @@ public protocol AppReviewService {
     func increaseLatestAppLaunchCount(by count: Int)
 }
 
+public extension EnvironmentValues {
+    var settingsService: any SettingsService {
+        get { self[SettingsServiceKey.self] }
+        set { self[SettingsServiceKey.self] = newValue }
+    }
+}
+
+public struct SettingsServiceKey: EnvironmentKey {
+    public static let defaultValue: any SettingsService = NoOpSettingsService()
+}
+
+private class NoOpSettingsService: SettingsService {
+
+    init() {}
+
+    var publisher: PassthroughSubject<Setting, Never> = PassthroughSubject<Setting, Never>()
+
+    var lastAutomaticAccountUpdateDate: Date?
+    
+    var lastManualAccountUpdateDate: Date?
+
+    func openSettings() async {
+    }
+    
+    var isAlternateAppIconEnabled: Bool = false
+
+    func toggleAlternateAppIcon() {
+    }
+    
+    var aiRecommenderEnabled: Bool = false
+
+    func toggleAiRecommenderEnabled() {
+    }
+    
+    func notificationsAuthorized() async -> Bool {
+        false
+    }
+    
+    func toggleNotificationsEnabled(on isOn: Bool) {
+    }
+    
+    func notificationsEnabled() -> Bool {
+        false
+    }
+    
+    func loanExpirationNotificationsEnabled() -> Bool {
+        false
+    }
+    
+    func toggleLoanExpirationNotificationsEnabled(on isOn: Bool) {
+    }
+    
+    var loanExpirationNotificationsThreshold: UInt = 0
+
+    var debugEnabled: Bool = false
+
+    func toggleDebugEnabled(on isOn: Bool) {
+    }
+}
+
 public protocol SettingsService: AnyObject {
 
     var publisher: PassthroughSubject<Setting, Never> { get }
@@ -223,6 +283,9 @@ public protocol SettingsService: AnyObject {
 
     var isAlternateAppIconEnabled: Bool { get }
     func toggleAlternateAppIcon()
+
+    var aiRecommenderEnabled: Bool { get }
+    func toggleAiRecommenderEnabled()
 
     func notificationsAuthorized() async -> Bool
 

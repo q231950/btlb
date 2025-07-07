@@ -22,9 +22,7 @@ class AiRecommendationBookmarkSelectionCoordinator: Coordinator {
     var contentView: some View {
         AiRecommendationBookmarkSelectionCoordinatorView(bookmarks: bookmarks, onSelected: { selectedBookmarks, recommender in
             self.transition(to: AiRecommenderCoordinator(recommender: recommender, bookmarks: selectedBookmarks), style: .push)
-        }) { [weak self] in
-            self?.dismiss()
-        }
+        })
     }
 }
 
@@ -35,7 +33,6 @@ struct AiRecommendationBookmarkSelectionCoordinatorView: View {
 
     let bookmarks: [any LibraryCore.Bookmark]
     let onSelected: ([any LibraryCore.Bookmark], _ recommender: RecommenderProtocol) -> Void
-    let onDismiss: () -> Void
 
     private var recommendButton: some View {
         RoundedButton({
@@ -78,19 +75,11 @@ struct AiRecommendationBookmarkSelectionCoordinatorView: View {
                     Color.clear.frame(height: 100) // Reserve space for the floating button
                 }
                 .toolbar {
-                    ToolbarItem(placement: .navigationBarLeading) {
+                    ToolbarItem(placement: .navigationBarTrailing) {
                         Button {
                             showInfo.toggle()
                         } label: {
                             Image(systemName: "info.circle")
-                        }
-                    }
-
-                    ToolbarItem(placement: .topBarTrailing) {
-                        Button(action: {
-                            onDismiss()
-                        }) {
-                            Text("Done".localized)
                         }
                     }
                 }
