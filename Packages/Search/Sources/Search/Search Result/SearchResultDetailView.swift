@@ -60,38 +60,57 @@ struct SearchResultDetailView: View {
                 viewModel.updateBookmarkState()
             })
             .navigationBarTitleDisplayMode(.inline)
-            .navigationBarItems(leading: leadingBarItems)
-            .navigationBarItems(trailing: trailingBarItems)
+            .toolbar {
+#if swift(>=6.2)
+                if #available(iOS 26.0, *) {
+                    toolbarContent
+                } else {
+                    #endif
+                    legacyToolbarContent
+#if swift(>=6.2)
+                }
+                #endif
+            }
         }
         .sheet(isPresented: $viewModel.showsAvailabilities) {
             ItemAvailabilityListView(availability: viewModel.details?.availability)
         }
-
     }
 
-    @ViewBuilder private var leadingBarItems: some View {
-        Group {
-            if UIDevice.current.userInterfaceIdiom == .phone {
-                HStack {
-                    bookmarkButton
+    @ToolbarContentBuilder var legacyToolbarContent: some ToolbarContent {
+        ToolbarItem(placement: .topBarLeading) {
+            bookmarkButton
+        }
 
-                    availabilitiesButton
-                }
-            } else {
-                EmptyView()
-            }
+        ToolbarItem(placement: .topBarLeading) {
+            availabilitiesButton
+        }
+
+        ToolbarItem(placement: .topBarTrailing) {
+            doneButton
         }
     }
 
-    @ViewBuilder private var trailingBarItems: some View {
-        Group {
-            if UIDevice.current.userInterfaceIdiom == .phone {
-                doneButton
-            } else {
-                bookmarkButton
-            }
+#if swift(>=6.2)
+    @available(iOS 26.0, *)
+    @ToolbarContentBuilder var toolbarContent: some ToolbarContent {
+        ToolbarItem(placement: .topBarLeading) {
+            bookmarkButton
+        }
+
+        ToolbarSpacer(.fixed)
+
+        ToolbarItem(placement: .topBarLeading) {
+            availabilitiesButton
+        }
+
+        ToolbarSpacer(.flexible)
+
+        ToolbarItem(placement: .topBarTrailing) {
+            doneButton
         }
     }
+#endif
 
     @ViewBuilder private var bookmarkButton: some View {
         Group {
