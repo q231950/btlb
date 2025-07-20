@@ -1,11 +1,11 @@
-import XCTest
+import Testing
+import SwiftUI
 @testable import Localization
 
-final class LocalizationTests: XCTestCase {
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(Localization.Accounts.emptyHint, "Pretty empty here ☝️ this will change once you have setup your library account.")
+class LocalizationTests {
+
+    @Test
+    func testLocalization() throws {
+        #expect(Localization.Accounts.emptyHint == LocalizedStringKey(stringLiteral: "no accounts hint text"))
     }
 }
