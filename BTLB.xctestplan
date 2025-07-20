@@ -14,9 +14,86 @@
   "testTargets" : [
     {
       "target" : {
+        "containerPath" : "container:Packages\/More",
+        "identifier" : "MoreTests",
+        "name" : "MoreTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:BTLB.xcodeproj",
+        "identifier" : "3BB68AB91FFFA3DF00A1F616",
+        "name" : "BTLBTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Networking",
+        "identifier" : "NetworkingTests",
+        "name" : "NetworkingTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Charges",
+        "identifier" : "ChargesTests",
+        "name" : "ChargesTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Libraries",
+        "identifier" : "LibrariesTests",
+        "name" : "LibrariesTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Loans",
+        "identifier" : "LoansTests",
+        "name" : "LoansTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Persistence",
+        "identifier" : "PersistenceTests",
+        "name" : "PersistenceTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/BTLBIntents",
+        "identifier" : "BTLBIntentsTests",
+        "name" : "BTLBIntentsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Localization",
+        "identifier" : "LocalizationTests",
+        "name" : "LocalizationTests"
+      }
+    },
+    {
+      "target" : {
         "containerPath" : "container:Packages\/Accounts",
         "identifier" : "AccountsTests",
         "name" : "AccountsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Bookmarks",
+        "identifier" : "BookmarksTests",
+        "name" : "BookmarksTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/BTLBSettings",
+        "identifier" : "BTLBSettingsTests",
+        "name" : "BTLBSettingsTests"
       }
     }
   ],
