@@ -119,13 +119,22 @@ struct BTLBApp: App {
                         selectedTabIndex = searchTabIndex
                         viewModel.searchCoordinator?.prefillSearchQuery(query)
                     case .openSearch:
-                        selectedTabIndex = 0
+                        selectedTabIndex = searchTabIndex
                     case .none: break
                     }
                 }
             case .refreshing:
                 AppRefreshingView()
             }
+        }
+    }
+
+    /// Returns the index of the search tab depending on which OS version the app is running
+    private var searchTabIndex: Int {
+        if #available(iOS 26.0, *) {
+            5
+        } else {
+            0
         }
     }
 
@@ -143,10 +152,6 @@ struct BTLBApp: App {
     }
 
     @State private var navigationPath = NavigationPath()
-
-    private var searchTabIndex: Int {
-        5 // this needs to be `0` for iOS < 26
-    }
 
     @available(iOS 26.0, *)
     private var tabs: some View {
