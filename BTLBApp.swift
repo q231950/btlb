@@ -18,6 +18,22 @@ import More
 import Persistence
 import Utilities
 
+import ArchitectureX
+
+extension BTLBApp: CoordinatorProviding {
+
+    func coordinator(for route: Route) -> any Coordinator {
+        switch route {
+        case .search(query: let query):
+            let coordinator = viewModel.createSearchCoordinator()
+            coordinator.prefillSearchQuery(query)
+            return coordinator
+        default:
+            return EmptyCoordinator()
+        }
+    }
+}
+
 @main
 struct BTLBApp: App {
 
@@ -53,7 +69,7 @@ struct BTLBApp: App {
                 .alert("Refresh Error", isPresented: $viewModel.isRefreshAlertPresented, actions: {
                     Button {
                         viewModel.isRefreshAlertPresented = false
-                    } label: {
+                     } label: {
                         Text("Ok")
                     }
 
@@ -64,13 +80,15 @@ struct BTLBApp: App {
                 .onOpenURL(perform: handleIncomingURL)
                 .environment(\.accountActivating, AccountUpdater())
                 .environment(\.accountUpdating, AccountUpdater())
-                .environment(\.managedObjectContext,
-                              DataStackProvider.shared.foregroundManagedObjectContext)
+                .environment(\.managedObjectContext, DataStackProvider.shared.foregroundManagedObjectContext)
                 .environment(\.loanService, viewModel.loanService)
                 .environment(\.localAccountService, viewModel.localAccountRepository)
                 .environment(\.accountCredentialStore, viewModel.accountCredentialStore)
                 .environment(\.libraryProvider, viewModel.libraryProvider)
                 .environment(\.intent, RenewItemsIntent())
+                .environment(\.recommender, Recommender())
+                .environment(\.coordinatorProvider, self)
+                .environment(\.settingsService, viewModel.settingsService)
         }
     }
 
@@ -244,7 +262,6 @@ struct BTLBApp: App {
     }
 
     private func handleIncomingURL(_ url: URL) {
-        assertionFailure("do not support incoming URLs")
         guard url.scheme == "btlb" else {
             return
         }
@@ -253,7 +270,7 @@ struct BTLBApp: App {
             return
         }
 
-        guard let action = components.host, action == "open-recipe" else {
+        guard let action = components.host, action == "search" else {
             print("Unknown URL, we can't handle this one!")
             return
         }

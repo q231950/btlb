@@ -44,6 +44,40 @@
         }
       }
     },
+    "AI Recommender Enabled Text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soll die KI-Buchempfehlung in der Lesezeichen Sektion verfügbar sein?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Should the AI Recommender be available in the Bookmarks section?"
+          }
+        }
+      }
+    },
+    "AI Recommender Enabled Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨KI-Buchempfehlung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨AI Recommender"
+          }
+        }
+      }
+    },
     "APPICON_TEXT" : {
       "localizations" : {
         "de" : {

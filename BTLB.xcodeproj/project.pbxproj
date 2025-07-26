@@ -133,6 +133,8 @@
 		3BF3D9B029368CC900CBD4DE /* BTLBWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3D9AF29368CC900CBD4DE /* BTLBWidgetBundle.swift */; };
 		3BF3D9B229368CC900CBD4DE /* WidgetTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3D9B129368CC900CBD4DE /* WidgetTimelineProvider.swift */; };
 		3BF3D9B829368CCB00CBD4DE /* BTLBWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3BF3D9AA29368CC900CBD4DE /* BTLBWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3BF799B72E181A2500F63075 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BF799B62E181A2500F63075 /* Secrets.xcconfig */; };
+		3BF799BA2E18201B00F63075 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF799B92E18201B00F63075 /* BuildConfig.swift */; };
 		3BF7F8D62937EA1400D39B6D /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF7F8D52937EA1400D39B6D /* Utilities */; };
 		3BF90B002D23450E007FB6F9 /* SearchIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF90AFF2D23450E007FB6F9 /* SearchIntent.swift */; };
 		3BF9B86B2B7CFCFB001AED4D /* BTLBShortcutsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9B86A2B7CFCFB001AED4D /* BTLBShortcutsProvider.swift */; };
@@ -347,6 +349,8 @@
 		3BF3D9AF29368CC900CBD4DE /* BTLBWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLBWidgetBundle.swift; sourceTree = "<group>"; };
 		3BF3D9B129368CC900CBD4DE /* WidgetTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTimelineProvider.swift; sourceTree = "<group>"; };
 		3BF3D9B529368CCB00CBD4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF799B62E181A2500F63075 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		3BF799B92E18201B00F63075 /* BuildConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuildConfig.swift; path = Classes/Generated/BuildConfig.swift; sourceTree = "<group>"; };
 		3BF7F8D42937E14100D39B6D /* BTLBWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BTLBWidgetExtension.entitlements; sourceTree = "<group>"; };
 		3BF90AFF2D23450E007FB6F9 /* SearchIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchIntent.swift; sourceTree = "<group>"; };
 		3BF9B86A2B7CFCFB001AED4D /* BTLBShortcutsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLBShortcutsProvider.swift; sourceTree = "<group>"; };
@@ -449,10 +453,12 @@
 				3B3ED2592BA6366C00C67380 /* PrivacyInfo.xcprivacy */,
 				3B4A909C1BF26B8A0097962E /* Changelog.md */,
 				3BBD79C4294CFE320006A165 /* Release.xcconfig */,
+				3BF799B62E181A2500F63075 /* Secrets.xcconfig */,
 				3BBD79C3294CFE130006A165 /* Debug.xcconfig */,
 				3BF7F8D42937E14100D39B6D /* BTLBWidgetExtension.entitlements */,
 				29B97316FDCFA39411CA2CEA /* BTLBApp.swift */,
 				3B3EDF352D1F516300B79D89 /* PaperMapper.swift */,
+				3BF799B92E18201B00F63075 /* BuildConfig.swift */,
 				3BAF8FEB2B0A6C0900D5AF81 /* BTLBAppViewModel.swift */,
 				3BBA8CAF23F2E8F000795358 /* AppDelegate.swift */,
 				3BA4070B27B9982D00985343 /* Packages */,
@@ -755,6 +761,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39DA496F11A2060300789D29 /* Build configuration list for PBXNativeTarget "BTLB" */;
 			buildPhases = (
+				3BF799B82E181D8900F63075 /* Create BuildConfig */,
 				3B240ED323D8E454004BB0C8 /* ShellScript */,
 				39DA496711A2060200789D29 /* Sources */,
 				39DA496811A2060200789D29 /* Frameworks */,
@@ -991,6 +998,7 @@
 				3B020A1A2D047AB200B8486C /* Imprint.xcstrings in Resources */,
 				3B020A082D047AB100B8486C /* Accessibles.xcstrings in Resources */,
 				3B3FE1C42B852208002AB4B2 /* Localizable.xcstrings in Resources */,
+				3BF799B72E181A2500F63075 /* Secrets.xcconfig in Resources */,
 				3B020A122D047AB200B8486C /* InfoPlist.xcstrings in Resources */,
 				3B3ED25A2BA63DFC00C67380 /* PrivacyInfo.xcprivacy in Resources */,
 				3B020A182D047AB200B8486C /* Catalogue.xcstrings in Resources */,
@@ -1056,6 +1064,24 @@
 			shellPath = /bin/sh;
 			shellScript = "# #!/bin/sh\n\n# write the git branch and commit sha into\ngit_version=$(git rev-parse --short HEAD)\ngit_branch=$(git symbolic-ref --short -q HEAD)\ngit_tag=$(git describe --tags --exact-match 2>/dev/null)\n\ngit_branch_or_tag=\"${git_branch:-${git_tag}}\"\n\ninfo_plist=\"${SRCROOT}/BTLB-Info.plist\"\n/usr/libexec/PlistBuddy -c \"Set :GitCommit '${git_version}'\" \"${info_plist}\"\n/usr/libexec/PlistBuddy -c \"Set :GitBranch '${git_branch_or_tag}'\" \"${info_plist}\"\n";
 		};
+		3BF799B82E181D8900F63075 /* Create BuildConfig */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Create BuildConfig";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nCONFIG_FILE=\"${SRCROOT}/Secrets.xcconfig\"\nOUTPUT_FILE=\"${SRCROOT}/Classes/Generated/BuildConfig.swift\"\n\n# Read key\nOPENROUTER_API_KEY=$(grep 'OPENROUTER_API_KEY' \"$CONFIG_FILE\" | cut -d '=' -f2 | xargs)\n\n# Generate Swift file\nmkdir -p \"$(dirname \"$OUTPUT_FILE\")\"\ncat <<EOF > \"$OUTPUT_FILE\"\n// Generated at build time by the `Create BuildConfig` Run Script build phase. Do not modify ☝️\n\nimport Foundation\n\nenum BuildConfig {\n    // The API key for OpenRouter. It's used by the AI Recommender\n    static let openRouterApiKey = \"$OPENROUTER_API_KEY\"\n}\nEOF\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1091,6 +1117,7 @@
 				3B257CF829A66F8B00B1CC0B /* 7to8.xcmappingmodel in Sources */,
 				3BE9A5BB21D25BE200D16D11 /* AccountPasswordMigratingPolicy.swift in Sources */,
 				3B257CF929A66F8B00B1CC0B /* 4to5.xcmappingmodel in Sources */,
+				3BF799BA2E18201B00F63075 /* BuildConfig.swift in Sources */,
 				3BF9B86B2B7CFCFB001AED4D /* BTLBShortcutsProvider.swift in Sources */,
 				3BEB14792C76652E0023E1F8 /* 25to26.xcmappingmodel in Sources */,
 				3B257D0529A66F8B00B1CC0B /* 3to4.xcmappingmodel in Sources */,
@@ -1199,6 +1226,7 @@
 /* Begin XCBuildConfiguration section */
 		39DA496D11A2060200789D29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF799B62E181A2500F63075 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1243,6 +1271,7 @@
 		};
 		39DA496E11A2060200789D29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF799B62E181A2500F63075 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;

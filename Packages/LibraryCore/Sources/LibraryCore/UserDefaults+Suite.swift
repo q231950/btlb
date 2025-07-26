@@ -11,6 +11,7 @@ import Foundation
 public extension UserDefaults {
 
     private var notificationsEnabledKey: String { "enablePush" }
+    private var aiRecommenderEnabledKey: String { "enableAiRecommender" }
     private var latestSuccessfulRenewalCountKey: String { "latestSuccessfulRenewalCount" }
     private var latestAppLaunchCountKey: String { "latestAppLaunchCount" }
     private var accountUpdateNotificationsEnabledKey: String { "accountUpdateNotificationsEnabled" }
@@ -32,7 +33,8 @@ public extension UserDefaults {
         let suite = UserDefaults(suiteName: "dev.neoneon.btlb.userdefaults") ?? UserDefaults()
 
         suite.register(defaults: [
-            suite.notificationsEnabledKey: true
+            suite.notificationsEnabledKey: true,
+            suite.aiRecommenderEnabledKey: true
         ])
 
         return suite
@@ -113,6 +115,15 @@ public extension UserDefaults {
         }
         set {
             setValue(newValue, forKey: notificationsEnabledKey)
+        }
+    }
+
+    var aiRecommenderEnabled: Bool {
+        get {
+            bool(forKey: aiRecommenderEnabledKey)
+        }
+        set {
+            setValue(newValue, forKey: aiRecommenderEnabledKey)
         }
     }
 

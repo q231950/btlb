@@ -21,26 +21,14 @@ import Persistence
 import Search
 import Utilities
 
+import ArchitectureX
+
 struct DeeplinkLoanContainer: Identifiable {
     var id: String {
         loan.barcode
     }
 
     let loan: any LibraryCore.Loan
-}
-
-enum Route: Identifiable, Equatable {
-    var id: String {
-        switch self {
-        case .loans(let loan): loan.barcode
-        case .search(let query): query
-        case .openSearch: "openSearch"
-        }
-    }
-
-    case loans(loan: Persistence.Loan)
-    case search(query: String)
-    case openSearch
 }
 
 enum AppState {
@@ -160,6 +148,37 @@ class AppViewModel: ObservableObject {
 
     var chargesTitle: String = Localization.Titles.charges
 
+    func createSearchCoordinator() -> SearchSectionCoordinator {
+        let container = DataStackProvider.shared.persistentContainer!
+        let libraryManagedObjectIdentifier = LibraryManager(persistentContainer: container).legacySearchLibrary
+        let libraryManagedObject = libraryManagedObjectIdentifier.map { DataStackProvider.shared.foregroundManagedObjectContext.object(with: $0) as? any  LibraryCore.Library
+        } ?? nil
+
+        let name = libraryManagedObject?.name ?? "unknown"
+        let subtitle = libraryManagedObject?.subtitle ?? ""
+        let databaseConnection = DatabaseConnectionFactory().databaseConnection(
+            for: DataStackProvider.shared.foregroundManagedObjectContext,
+            accountService: AccountScraper()
+        ) as? DatabaseConnection
+
+        let searchDependencies = SearchDependencies(
+            databaseConnection: databaseConnection,
+            searchProvider: SearchScraper(),
+            detailsProvider: SearchResultDetailScraper()
+        )
+
+        return SearchSectionCoordinator(
+            library: LibraryModel(
+                name: name,
+                subtitle: subtitle,
+                identifier: libraryManagedObject?.identifier ?? "unknown",
+                baseUrl: libraryManagedObject?.baseURL,
+                catalogUrl: libraryManagedObject?.catalogUrl
+            ),
+            dependencies: searchDependencies
+        )
+    }
+
     var searchCoordinator: SearchSectionCoordinator? = {
         guard let container = DataStackProvider.shared.persistentContainer else { return nil }
         let libraryManagedObjectIdentifier = LibraryManager(persistentContainer: container).legacySearchLibrary
@@ -204,6 +223,10 @@ class AppViewModel: ObservableObject {
         return MoreSectionCoordinator(entries: [.accounts, .about, .settings(settingsService), .openSource])
     }()
 
+    @MainActor var settingsService: LibraryCore.SettingsService = SettingsService(
+        notificationScheduler: NotificationScheduler(),
+        accountService: AccountRepository.shared, userDefaults: UserDefaults.suite)
+
     var moreTitle: String = Localization.Titles.more
 
     var localAccountRepository = {
@@ -217,6 +240,6 @@ class AppViewModel: ObservableObject {
     var accountCredentialStore = AccountCredentialStore(keychainProvider: KeychainManager())
 
     // TODO: kill the force! !
-    var libraryProvider: LibraryProvider = LibraryManager(persistentContainer: DataStackProvider.shared.persistentContainer!) as! LibraryProvider
+    var libraryProvider: LibraryProvider = LibraryManager(persistentContainer: DataStackProvider.shared.persistentContainer!) as LibraryProvider
 
 }

@@ -12,8 +12,9 @@ import ArchitectureX
 import LibraryCore
 
 public protocol BookmarkListViewModelProtocol: ObservableObject {
-
     var searchText: String { get set }
 
     func show(_ bookmark: any Bookmark, coordinator: any Coordinator)
+
+    func onRecommendationButtonTap(coordinator: BookmarkListCoordinator<some BookmarkListViewModelProtocol>, bookmarks: [any LibraryCore.Bookmark])
 }

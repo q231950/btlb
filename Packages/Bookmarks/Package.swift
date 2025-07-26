@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "Bookmarks",
-    platforms: [.iOS(.v16)],
+    platforms: [.iOS(.v17)],
     products: [
         .library(
             name: "Bookmarks",
@@ -12,7 +12,9 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/q231950/architecture-x", .upToNextMajor(from: "0.0.3")),
+        .package(path: "../BTLBSettings"),
         .package(path: "../LibraryCore"),
+        .package(path: "../Libraries"),
         .package(path: "../LibraryUI"),
         .package(path: "../Localization"),
         .package(path: "../Persistence")
@@ -22,7 +24,9 @@ let package = Package(
             name: "Bookmarks",
             dependencies: [
                 .product(name: "ArchitectureX", package: "architecture-x"),
+                "BTLBSettings",
                 "LibraryCore",
+                "Libraries",
                 "LibraryUI",
                 "Localization",
                 "Persistence"

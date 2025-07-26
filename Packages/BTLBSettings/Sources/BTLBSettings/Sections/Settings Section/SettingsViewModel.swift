@@ -19,6 +19,7 @@ final class SettingsViewModel: ObservableObject {
         self.alternetAppIconEnabled = service.isAlternateAppIconEnabled
         self.loanExpirationNotificationsEnabled = service.loanExpirationNotificationsEnabled()
         self.notificationsEnabled = service.notificationsEnabled()
+        self.aiRecommenderEnabled = service.aiRecommenderEnabled
         self.debugEnabled = service.debugEnabled
 
         service.publisher.receive(on: RunLoop.main).sink { value in
@@ -60,6 +61,12 @@ final class SettingsViewModel: ObservableObject {
     @Published var notificationsEnabled: Bool = false {
         didSet {
             service.toggleNotificationsEnabled(on: notificationsEnabled)
+        }
+    }
+
+    @Published var aiRecommenderEnabled: Bool = false {
+        didSet {
+            service.toggleAiRecommenderEnabled()
         }
     }
 

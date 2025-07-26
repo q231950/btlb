@@ -48,6 +48,14 @@ public final class SettingsService: LibraryCore.SettingsService {
         UIApplication.shared.alternateIconName != nil
     }
 
+    public var aiRecommenderEnabled: Bool {
+        userDefaults.aiRecommenderEnabled
+    }
+
+    public func toggleAiRecommenderEnabled() {
+        userDefaults.aiRecommenderEnabled.toggle()
+    }
+
     public func notificationsAuthorized() async -> Bool {
         await notificationScheduler.authorized()
     }

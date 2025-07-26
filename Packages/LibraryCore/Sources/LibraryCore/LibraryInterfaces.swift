@@ -213,6 +213,66 @@ public protocol AppReviewService {
     func increaseLatestAppLaunchCount(by count: Int)
 }
 
+public extension EnvironmentValues {
+    var settingsService: any SettingsService {
+        get { self[SettingsServiceKey.self] }
+        set { self[SettingsServiceKey.self] = newValue }
+    }
+}
+
+public struct SettingsServiceKey: EnvironmentKey {
+    public static let defaultValue: any SettingsService = NoOpSettingsService()
+}
+
+private class NoOpSettingsService: SettingsService {
+
+    init() {}
+
+    var publisher: PassthroughSubject<Setting, Never> = PassthroughSubject<Setting, Never>()
+
+    var lastAutomaticAccountUpdateDate: Date?
+    
+    var lastManualAccountUpdateDate: Date?
+
+    func openSettings() async {
+    }
+    
+    var isAlternateAppIconEnabled: Bool = false
+
+    func toggleAlternateAppIcon() {
+    }
+    
+    var aiRecommenderEnabled: Bool = false
+
+    func toggleAiRecommenderEnabled() {
+    }
+    
+    func notificationsAuthorized() async -> Bool {
+        false
+    }
+    
+    func toggleNotificationsEnabled(on isOn: Bool) {
+    }
+    
+    func notificationsEnabled() -> Bool {
+        false
+    }
+    
+    func loanExpirationNotificationsEnabled() -> Bool {
+        false
+    }
+    
+    func toggleLoanExpirationNotificationsEnabled(on isOn: Bool) {
+    }
+    
+    var loanExpirationNotificationsThreshold: UInt = 0
+
+    var debugEnabled: Bool = false
+
+    func toggleDebugEnabled(on isOn: Bool) {
+    }
+}
+
 public protocol SettingsService: AnyObject {
 
     var publisher: PassthroughSubject<Setting, Never> { get }
@@ -223,6 +283,9 @@ public protocol SettingsService: AnyObject {
 
     var isAlternateAppIconEnabled: Bool { get }
     func toggleAlternateAppIcon()
+
+    var aiRecommenderEnabled: Bool { get }
+    func toggleAiRecommenderEnabled()
 
     func notificationsAuthorized() async -> Bool
 
@@ -595,7 +658,46 @@ public extension Library {
 
 var kDefaultSearchLibraryIdentifier: String { "HAMBURGPUBLIC" }
 
-public protocol Bookmark: AnyObject, Identifiable, Hashable {
+public struct Recommendation: Hashable {
+    public let recommendations: [BookRecommendation]
+
+    public init(recommendations: [BookRecommendation]) {
+        self.recommendations = recommendations
+    }
+}
+
+public struct BookRecommendation: Hashable {
+    public let title: String
+    public let author: String
+
+    public init(title: String, author: String) {
+        self.title = title
+        self.author = author
+    }
+}
+
+public protocol RecommenderProtocol {
+    func recommendations(for titles: [String]) async throws -> Recommendation
+}
+
+public extension EnvironmentValues {
+    var recommender: any RecommenderProtocol {
+        get { self[RecommenderKey.self] }
+        set { self[RecommenderKey.self] = newValue }
+    }
+}
+
+public struct RecommenderKey: EnvironmentKey {
+    public static let defaultValue: any RecommenderProtocol = NoOpRecommender()
+}
+
+struct NoOpRecommender: RecommenderProtocol {
+    func recommendations(for titles: [String]) async throws -> Recommendation {
+        Recommendation(recommendations: [])
+    }
+}
+
+public protocol Bookmark: Identifiable, Hashable {
     var bookmarkIdentifier: String? { get }
     var bookmarkTitle: String? { get }
     var bookmarkAuthor: String? { get }

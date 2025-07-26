@@ -1,6 +1,23 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "AI Recommender Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die KI-Buchempfehlung verwendet ein Sprachmodell (Large Language Model oder auch LLM), um auf der Grundlage der ausgewählten Lesezeichen Buchempfehlungen auszugeben. Um Vorschläge machen zu können, werden der _Titel_ und _Autor_ jedes ausgewählten Lesezeichens an einen LLM-Anbieter gesendet. Wenn Du dich mit der Übermittlung von Daten an den LLM-Anbieter unwohl fühlst, kannst du die Empfehlungsfunktion in den Einstellungen der App deaktivieren oder verwende einfach sie nicht. Bitte beachte auch, dass aufgrund der Natur von LLMs die Vorschläge lustig/schräg sein und sie unerwartete Inhalte enthalten können - es können sogar Empfehlungen von Büchern erscheinen, die nicht real existieren. Bitte sei dir dessen bewusst und sende eine Rückmeldung, wenn du unerwartete Ergebnisse erhältst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The book recommender uses a large language model (LLM) to suggest books based on your selection of bookmarks. In order to provide suggestions the _title_ and _author_ of each selected item is sent to an LLM provider. If you feel uncomfortable with submitting data to the LLM provider you can turn off the Recommender feature in the settings section of the app or simply don’t use it. Please also note that because of the nature of LLMs the suggestions might be funny/weird and may contain unexpected content – there may even be recommendations of books which do not exist in the real world. Please be aware of this and send feedback in case of unexpected results."
+          }
+        }
+      }
+    },
     "delete bookmark button" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -35,6 +52,136 @@
         }
       }
     },
+    "Feedback Email: Additional Information" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zusätzliche Informationen:"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Additional Information:"
+          }
+        }
+      }
+    },
+    "Feedback Email: AI Recommender Feedback" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rückmeldung zur KI-Buchempfehlung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Recommender Feedback"
+          }
+        }
+      }
+    },
+    "Feedback Email: Any other relevant details" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonstige relevante Informationen:"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Any other relevant details:"
+          }
+        }
+      }
+    },
+    "Feedback Email: Issue Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Problembeschreibung:"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Issue Description:"
+          }
+        }
+      }
+    },
+    "Feedback Email: Please describe the issue you encountered with the AI Recommender" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte beschreibe das Problem welches du mit der KI-Buchempfehlung erfahren hast:"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please describe the issue you encountered with the AI Recommender:"
+          }
+        }
+      }
+    },
+    "Generate Recommendations" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generiere Empfehlungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generate Recommendations"
+          }
+        }
+      }
+    },
+    "How AI Book Recommendation Works" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie die KI-Buchempfehlung funktioniert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How AI Book Recommendation Works"
+          }
+        }
+      }
+    },
+    "Loading recommendations…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade Empfehlungen…"
+          }
+        }
+      }
+    },
     "no bookmarks hint text" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -48,6 +195,91 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your bookmarks will appear here. Bookmarks can be set for search results as well as borrowed items ☝️"
+          }
+        }
+      }
+    },
+    "No recommendations found" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Empfehlung gefunden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No recommendations found."
+          }
+        }
+      }
+    },
+    "Recommendation Result Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hier sind KI-Buchempfehlungen basierend auf der vorhergehenden Auswahl. Selektiere sie um die Verfügbarkeit in deiner Bibliothek zu prüfen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "These are recommendations based on the selected items. Tap on any to check for availability in your library."
+          }
+        }
+      }
+    },
+    "Recommender Feedback Email Subject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rückmeldung zu ✨ Empfehlungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Recommender Feedback"
+          }
+        }
+      }
+    },
+    "Recommender Selection Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle die Medien für welche du KI Buchempfehlungen generieren möchtest aus"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please select the bookmarks you would like to get recommendations for"
+          }
+        }
+      }
+    },
+    "Recommender Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Empfehlungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Recommender"
           }
         }
       }

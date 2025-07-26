@@ -32,8 +32,9 @@ struct SettingsSectionView: View {
             Section {
                 appIconToggle
 
-
                 notificationSection
+
+                aiRecommenderToggle
 
                 debugToggle
             }
@@ -180,6 +181,17 @@ struct SettingsSectionView: View {
         return "The last manual update happened on \(dateFormatter.string(from: date))"
     }
 
+    // MARK: ✨ AI Recommender Toggle
+
+    private var aiRecommenderToggle: some View {
+        DescriptiveToggle(
+            title: "AI Recommender Enabled Title",
+            description: "AI Recommender Enabled Text",
+            bundle: .module,
+            isOn: $viewModel.aiRecommenderEnabled
+        )
+    }
+
     // MARK: Debug Toggle
 
     private var debugToggle: some View {
@@ -235,7 +247,7 @@ import LibraryCore
 struct SettingsSectionView_Previews: PreviewProvider {
 
     struct Preview: View {
-        @ObservedObject private var viewModel = SettingsViewModel(service: MockSettingsService(isAlternateAppIconEnabled: true))
+        @ObservedObject private var viewModel = SettingsViewModel(service: MockSettingsService(isAlternateAppIconEnabled: true, aiRecommenderEnabled: true))
 
         var body: some View {
             NavigationView {
@@ -288,6 +300,12 @@ class MockSettingsService: LibraryCore.SettingsService {
         publisher.send(.notificationsAuthorized(notificationsAuthorizedFlag))
     }
 
+    var aiRecommenderEnabled: Bool
+
+    func toggleAiRecommenderEnabled() {
+        aiRecommenderEnabled.toggle()
+    }
+
     func notificationsAuthorized() async -> Bool {
         notificationsAuthorizedFlag
     }
@@ -301,8 +319,9 @@ class MockSettingsService: LibraryCore.SettingsService {
     }
 
 
-    internal init(isAlternateAppIconEnabled: Bool) {
+    internal init(isAlternateAppIconEnabled: Bool, aiRecommenderEnabled: Bool) {
         self.isAlternateAppIconEnabled = isAlternateAppIconEnabled
+        self.aiRecommenderEnabled = aiRecommenderEnabled
     }
 
     public var debugEnabled: Bool = false

@@ -116,9 +116,6 @@ struct AccountEditView: View {
                 Text(viewModel.isDirty ? 
                      Localization.EditAccount.ActivateButtonTitle.authenticate:
                         Localization.EditAccount.ActivateButtonTitle.notActivated)
-                    .bold()
-                    .foregroundStyle(.primary)
-                    .colorInvert()
             })
         case .activating:
             RoundedButton({
@@ -130,9 +127,6 @@ struct AccountEditView: View {
             RoundedButton({
             }, {
                 Text(Localization.EditAccount.ActivateButtonTitle.activated)
-                    .bold()
-                    .foregroundStyle(.primary)
-                    .colorInvert()
             })
             .disabled(true)
         }

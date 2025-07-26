@@ -1,5 +1,13 @@
 ## Changelog
 
+### 2.28.0
+
+• ✨Recommender
+
+### 2.27.0
+
+• Open Source section
+
 ### 2.25.0
 
 • error handling

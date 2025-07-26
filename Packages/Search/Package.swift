@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Search",
-    platforms: [.iOS(.v16)],
+    platforms: [.iOS(.v17)],
     products: [
         .library(
             name: "Search",
@@ -13,7 +13,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/q231950/architecture-x", .upToNextMajor(from: "0.0.3")),
-        .package(path: "../Bookmarks"),
         .package(path: "../LibraryCore"),
         .package(path: "../Persistence"),
         .package(path: "../Libraries"),
@@ -26,7 +25,6 @@ let package = Package(
             name: "Search",
             dependencies: [
                 .product(name: "ArchitectureX", package: "architecture-x"),
-                "Bookmarks",
                 "LibraryCore",
                 "Libraries",
                 "Localization",
