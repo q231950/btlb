@@ -1,4 +1,4 @@
-// Generated at build time by the  Run Script build phase. Do not modify ☝️
+// Generated at build time by the "Create BuildConfig" Run Script build phase. Do not modify ☝️
 
 import Foundation
 
