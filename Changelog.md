@@ -2,6 +2,8 @@
 
 ### 2.29.0
 
+• security enhancement
+
 ### 2.28.0
 
 • ✨Recommender
