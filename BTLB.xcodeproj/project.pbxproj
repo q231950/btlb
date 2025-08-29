@@ -1070,18 +1070,19 @@
 		};
 		3BF799B82E181D8900F63075 /* Create BuildConfig */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
 			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Secrets.xcconfig",
 			);
 			name = "Create BuildConfig";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(SRCROOT)/Classes/Generated/BuildConfig.swift",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
