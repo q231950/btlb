@@ -1,5 +1,7 @@
 #!/bin/sh
 
+mv ../Secrets.sample.xcconfig ../Secrets.xcconfig
+
 brew install rust
 
 cargo install cargo-swift@^0.9.0 --force --locked
