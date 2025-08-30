@@ -10,7 +10,7 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 PRODUCT_NAME = BTLB
-MARKETING_VERSION = 2.27.0
+MARKETING_VERSION = 2.29.0
 CURRENT_PROJECT_VERSION = 4
 
 PUSH_NOTIFICATION_SERVER_URL = https:/$()/neoneon.dev/btlb/pushtoken
