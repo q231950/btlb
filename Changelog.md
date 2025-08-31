@@ -1,5 +1,9 @@
 ## Changelog
 
+### 2.29.0
+
+• security enhancement
+
 ### 2.28.0
 
 • ✨Recommender
@@ -8,12 +12,16 @@
 
 • Open Source section
 
+### 2.26.0
+
+• Rust account syncronisation
+
 ### 2.25.0
 
 • error handling
-• login with OPAC accounts 🔐 (no synchronization yet) 
+• login with OPAC accounts 🔐 (no synchronization yet)
 • converts Constants.h to Swift enum LibraryConstants
-• removes all remaining Objective-C code from the project
+• removes all remaining 🦖 Objective-C code from the project
 
 ### 2.24.0
 • adds a search shortcut
@@ -83,15 +91,15 @@
 ### 2.12.0
 
 • account updates triggered by background push notifications twice a day
-• keep push notifications and background fetch enabled for BTLB to get the most out of it! 
+• keep push notifications and background fetch enabled for BTLB to get the most out of it!
 
 ### 2.11.0
 
 • widgets for the Always On display
- 
+
 ### 2.10.0
 
-• a brand new **Widget** that shows the number of days left until the next expiry date  
+• a brand new **Widget** that shows the number of days left until the next expiry date
 • bug in information section where text would not be fully displayed
 • setting in the information section to enable/disable the notifications for account updates
 • keep background fetch enabled for BTLB to get the most out of it!
@@ -123,14 +131,14 @@
 
 ### 2.5.0
 
-Improvements: 
+Improvements:
 • Proper storage of account passwords
 • Modernised the data layer
 • Update Project Layout
 • Removed Cocoapods
 • Haptic feedback for certain interactions
 
-Squashed bugs: 
+Squashed bugs:
 • the last selected tab will be remembered
 • duplicate loan entries when the app updates in background
 • account activation does not fail any more when there are no loans

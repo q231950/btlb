@@ -24,6 +24,7 @@
 		3B020A1C2D047AB200B8486C /* Loans.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3B020A1B2D047AB200B8486C /* Loans.xcstrings */; };
 		3B0794B627BC3D27009B7826 /* LibraryUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3B0794B527BC3D27009B7826 /* LibraryUI */; };
 		3B0A7CA92133BACA0044BEE8 /* search-results-zero-count.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B0A7CA02133BAC90044BEE8 /* search-results-zero-count.json */; };
+		3B125F4D2E5C2C6E00E310EB /* ObfuscateMacro in Frameworks */ = {isa = PBXBuildFile; productRef = 3B125F4C2E5C2C6E00E310EB /* ObfuscateMacro */; };
 		3B179FC22D6D0441007D9DD3 /* 26to27.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B179FC12D6D0441007D9DD3 /* 26to27.xcmappingmodel */; };
 		3B187454213A7A0F0019B533 /* search-result-detail.html in Resources */ = {isa = PBXBuildFile; fileRef = 3B187453213A7A0F0019B533 /* search-result-detail.html */; };
 		3B1C6D6B2062E3F100085978 /* BookmarkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C6D6A2062E3F100085978 /* BookmarkHelper.swift */; };
@@ -374,6 +375,7 @@
 				3BD1BDB429C1EC4C0041D1FE /* Persistence in Frameworks */,
 				3B3F89B629046D5700E9C9C1 /* ArchitectureX in Frameworks */,
 				3B0794B627BC3D27009B7826 /* LibraryUI in Frameworks */,
+				3B125F4D2E5C2C6E00E310EB /* ObfuscateMacro in Frameworks */,
 				3BF0DFE82BA47DFB009EB5CA /* BTLBSettings in Frameworks */,
 				3B3EDF392D1F51CE00B79D89 /* Paper in Frameworks */,
 				3B845CCC2B9BAAAF00C2BDF3 /* BTLBIntents in Frameworks */,
@@ -797,6 +799,7 @@
 				3B0D30612BE25C87008C67E7 /* Paper */,
 				3BDC0CC32CB0117E001E9828 /* Paper */,
 				3B3EDF382D1F51CE00B79D89 /* Paper */,
+				3B125F4C2E5C2C6E00E310EB /* ObfuscateMacro */,
 			);
 			productName = EDsync;
 			productReference = 39A1169A11A28B3600FDC9E5 /* BTLB α.app */;
@@ -964,6 +967,7 @@
 				3B8703862B5711B300A9D828 /* XCRemoteSwiftPackageReference "the-stubborn-network" */,
 				3B20AA632B66DC570020425A /* XCRemoteSwiftPackageReference "rorschach" */,
 				3B3EDF372D1F51CE00B79D89 /* XCLocalSwiftPackageReference "Packages/shared/paper" */,
+				3B125F4B2E5C2C6E00E310EB /* XCRemoteSwiftPackageReference "ObfuscateMacro" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
@@ -1066,21 +1070,23 @@
 		};
 		3BF799B82E181D8900F63075 /* Create BuildConfig */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Secrets.xcconfig",
 			);
 			name = "Create BuildConfig";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(SRCROOT)/Classes/Generated/BuildConfig.swift",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\nCONFIG_FILE=\"${SRCROOT}/Secrets.xcconfig\"\nOUTPUT_FILE=\"${SRCROOT}/Classes/Generated/BuildConfig.swift\"\n\n# Read key\nOPENROUTER_API_KEY=$(grep 'OPENROUTER_API_KEY' \"$CONFIG_FILE\" | cut -d '=' -f2 | xargs)\n\n# Generate Swift file\nmkdir -p \"$(dirname \"$OUTPUT_FILE\")\"\ncat <<EOF > \"$OUTPUT_FILE\"\n// Generated at build time by the `Create BuildConfig` Run Script build phase. Do not modify ☝️\n\nimport Foundation\n\nenum BuildConfig {\n    // The API key for OpenRouter. It's used by the AI Recommender\n    static let openRouterApiKey = \"$OPENROUTER_API_KEY\"\n}\nEOF\n";
+			shellScript = "#!/bin/sh\n\nCONFIG_FILE=\"${SRCROOT}/Secrets.xcconfig\"\nOUTPUT_FILE=\"${SRCROOT}/Classes/Generated/BuildConfig.swift\"\n\n# Read key\nOPENROUTER_API_KEY=$(grep 'OPENROUTER_API_KEY' \"$CONFIG_FILE\" | cut -d '=' -f2 | xargs)\n\n# Generate Swift file\nmkdir -p \"$(dirname \"$OUTPUT_FILE\")\"\ncat <<EOF > \"$OUTPUT_FILE\"\n// Generated at build time by the \"Create BuildConfig\" Run Script build phase. Do not modify ☝️\n\nimport Foundation\n\nimport ObfuscateMacro\n\nenum BuildConfig {\n    // The API key for OpenRouter. It's used by the AI Recommender and generated at build time.\n    static let openRouterApiKey = #ObfuscatedString(\"$OPENROUTER_API_KEY\")\n}\n\nEOF\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1859,6 +1865,14 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3B125F4B2E5C2C6E00E310EB /* XCRemoteSwiftPackageReference "ObfuscateMacro" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/p-x9/ObfuscateMacro.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.11.0;
+			};
+		};
 		3B20AA632B66DC570020425A /* XCRemoteSwiftPackageReference "rorschach" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/q231950/rorschach.git";
@@ -1893,6 +1907,11 @@
 		3B0D30612BE25C87008C67E7 /* Paper */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Paper;
+		};
+		3B125F4C2E5C2C6E00E310EB /* ObfuscateMacro */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B125F4B2E5C2C6E00E310EB /* XCRemoteSwiftPackageReference "ObfuscateMacro" */;
+			productName = ObfuscateMacro;
 		};
 		3B20AA5D2B645B690020425A /* Mocks */ = {
 			isa = XCSwiftPackageProductDependency;
