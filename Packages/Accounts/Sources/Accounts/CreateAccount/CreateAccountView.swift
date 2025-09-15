@@ -13,20 +13,22 @@ import SwiftUI
 import LibraryCore
 import Persistence
 
-enum SignInState: Equatable {
+enum SignInState: Equatable, Sendable {
     static func == (lhs: SignInState, rhs: SignInState) -> Bool {
         if case .signedIn = lhs, case .signedOut = rhs {
-            return false
+            false
         } else if case .signedOut = lhs, case .signedIn = rhs {
-            return false
+            false
+        } else {
+            true
         }
-        return true
     }
 
     case signedOut
     case signedIn(any LibraryCore.Account)
 }
 
+@MainActor
 class CreateAccountViewModel: ObservableObject {
     @Published var account: (any Account)?
     @Published var activationState: SignInState = .signedOut
@@ -39,7 +41,7 @@ class CreateAccountViewModel: ObservableObject {
         let publisher = CurrentValueSubject<SignInState, Never>(.signedOut)
 
         publisher.sink { activationState in
-            Task { @MainActor in
+            Task {
                 if case let .signedIn(account) = activationState {
                     self.account = account
                 }

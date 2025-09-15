@@ -301,7 +301,7 @@ public protocol SettingsService: AnyObject {
     func toggleDebugEnabled(on isOn: Bool)
 }
 
-public protocol Account: AnyObject {
+public protocol Account: AnyObject, Sendable {
     var allLoans: [any LibraryCore.Loan] { get }
     var allCharges: [any LibraryCore.Charge] { get }
     var name: String? { get set }
@@ -746,7 +746,10 @@ public struct Info: Identifiable, Hashable {
 }
 
 public protocol LocalAccountService {
+    @MainActor
     func account(for identifier: NSManagedObjectID, in context: NSManagedObjectContext) async -> Account?
+
+    @MainActor
     func deleteAccount(with identifier: NSManagedObjectID) async throws
 }
 

@@ -53,7 +53,7 @@ extension Localization {
 
     enum CreateAccount {
         enum SignIn {
-            static let title: LocalizedStringKey = "account creation sign in title"
+            @MainActor static let title: LocalizedStringKey = "account creation sign in title"
             static let librarySelectionPlaceholder: String = localized("account creation sign in library selection placeholder")
             static let usernamePlaceholder: String = localized("account creation sign in username placeholder")
             static let passwordPlaceholder: String = localized("account creation sign in password placeholder")
@@ -79,7 +79,7 @@ extension Localization {
                 "account creation success number of loans \(count)"
             }
 
-            static let noChargesMessage: LocalizedStringKey = "account creation success no charges info message"
+            @MainActor static let noChargesMessage: LocalizedStringKey = "account creation success no charges info message"
             static func amountOfCharges(formattedAmount: String) -> LocalizedStringKey {
                 "account creation success amount of charges \(formattedAmount)"
             }
