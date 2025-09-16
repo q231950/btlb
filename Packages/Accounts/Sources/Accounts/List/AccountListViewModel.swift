@@ -13,7 +13,7 @@ import LibraryCore
 import Localization
 import Persistence
 
-public class AccountListViewModel: ObservableObject {
+@MainActor public class AccountListViewModel: ObservableObject {
 
     let title = "ACCOUNTS".localizedKey(bundle: .module)
     @Published var showsAccountCreation = false

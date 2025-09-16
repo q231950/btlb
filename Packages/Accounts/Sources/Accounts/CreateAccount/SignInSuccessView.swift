@@ -13,7 +13,8 @@ import LibraryUI
 import Localization
 import Persistence
 
-final class SignInSuccessViewModel: ObservableObject {
+@MainActor
+class SignInSuccessViewModel: ObservableObject {
     @Published var displayName: String = ""
     @Published var libraryName: String = ""
     @Published var avatar: String?
@@ -31,7 +32,7 @@ final class SignInSuccessViewModel: ObservableObject {
     }
 
     func update(with account: any Account) {
-        Task { @MainActor in
+        Task {
             account.name.map { displayName = $0 }
             avatar = account.avatar
             loansCount = account.allLoans.count

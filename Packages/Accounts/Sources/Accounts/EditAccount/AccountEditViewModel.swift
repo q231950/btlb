@@ -19,19 +19,19 @@ import Networking
 import Persistence
 import Utilities
 
-extension AccountEditViewModel: Hashable {
+extension AccountEditViewModel: @MainActor Hashable {
     func hash(into hasher: inout Hasher) {
         hasher.combine(managedObjectId)
     }
 }
 
-extension AccountEditViewModel: Equatable {
+extension AccountEditViewModel: @MainActor Equatable {
     static func == (lhs: AccountEditViewModel, rhs: AccountEditViewModel) -> Bool {
         lhs.managedObjectId == rhs.managedObjectId
     }
 }
 
-protocol AccountEditViewModeling {
+protocol AccountEditViewModeling: AnyObject {
     var displayNameValueEditViewModel: ValueEditViewModel { get }
     var avatarName: String? { get }
     func updateAvatarName(_ avatarName: String?)
@@ -39,7 +39,8 @@ protocol AccountEditViewModeling {
     func save()
 }
 
-class AccountEditViewModel: ObservableObject, AccountEditViewModeling {
+@MainActor
+final class AccountEditViewModel: ObservableObject, @MainActor AccountEditViewModeling {
 
     @Published var isDirty = false
     @Published var account: (any Account)?
@@ -114,7 +115,7 @@ class AccountEditViewModel: ObservableObject, AccountEditViewModeling {
     func updateValues() {
         Logger.account.log(level: .info, "Update field values")
 
-        Task { @MainActor in
+        Task {
             let account = await accountService.account(for: managedObjectId, in: managedObjectContext)
             await managedObjectContext.perform {
                 account?.name.map { self.displayNameFieldValue.savedText.send($0)}
@@ -150,7 +151,7 @@ class AccountEditViewModel: ObservableObject, AccountEditViewModeling {
         save()
     }
 
-    @MainActor func saveAndActivateAccount(libraryProvider: LibraryProvider?, accountActivating: AccountActivating) {
+    func saveAndActivateAccount(libraryProvider: LibraryProvider?, accountActivating: AccountActivating) {
         Logger.editAccount.info("saveAndActivateAccount: activating")
         activationState = .activating
 
@@ -191,7 +192,7 @@ class AccountEditViewModel: ObservableObject, AccountEditViewModeling {
 
                     Logger.editAccount.info("saveAndActivateAccount: activating account")
                     _ = await accountActivating.activate(account)
-
+                    
                     self.isAuthenticating = false
                     self.isAuthenticated = true
                     self.activationState = .activated(account)
@@ -211,12 +212,9 @@ class AccountEditViewModel: ObservableObject, AccountEditViewModeling {
         }
     }
 
-    @MainActor func deleteAccount() async throws {
+    func deleteAccount() async throws {
         try await accountService.deleteAccount(with: managedObjectId)
-
-        await MainActor.run {
-            onDelete()
-        }
+        onDelete()
     }
 
     func save() {
