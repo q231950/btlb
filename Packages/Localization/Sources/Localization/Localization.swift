@@ -39,7 +39,6 @@ public struct Localization {
 
     public enum Bookmarks: LocalizableByTable {
 
-        public static let deleteBookmarkButton = "delete bookmark button".localized(table: table)
         public static let emptyHint = "no bookmarks hint text".localized(table: table)
         public static let emptySearchResult = "empty search result hint text".localized(table: table)
 

@@ -19,11 +19,9 @@ public struct LoanDetailView<ViewModel: LibraryCore.LoanViewModel>: View {
 
     @ObservedObject private var viewModel: ViewModel
     @Environment(\.requestReview) private var requestReview
-    private var dismiss: @MainActor () -> Void
 
-    public init(_ viewModel: ViewModel, dismiss: @MainActor @escaping () -> Void) {
+    public init(_ viewModel: ViewModel) {
         self.viewModel = viewModel
-        self.dismiss = dismiss
     }
 
     public var body: some View {
@@ -117,20 +115,6 @@ public struct LoanDetailView<ViewModel: LibraryCore.LoanViewModel>: View {
                 }, label: {
                     Text(Localization.Detail.renewalConfirmationCancelButtonTitle)
                 })
-            }
-        }
-
-
-
-        ToolbarItem(placement: .topBarTrailing) {
-            Button(action: {
-                Task {
-                    await MainActor.run {
-                        dismiss()
-                    }
-                }
-            }) {
-                Text("Done".localized)
             }
         }
     }
@@ -378,9 +362,7 @@ class LoanStub: Loan {
                                       loan: LoanStub.stub1)
         viewModel.showsRenewalConfirmation = false
         
-        return LoanDetailView(viewModel) {
-
-        }
+        return LoanDetailView(viewModel)
     }
 }
 #endif

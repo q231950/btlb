@@ -12,11 +12,11 @@ import LibraryUI
 import Utilities
 import Localization
 
-struct BookmarkDetailView: View {
+struct BookmarkDetailView<ViewModel: BookmarkViewModelProtocol>: View {
 
-    private var viewModel: BookmarkViewModelProtocol
+    @ObservedObject private var viewModel: ViewModel
 
-    init(viewModel: BookmarkViewModelProtocol) {
+    init(viewModel: ViewModel) {
         self.viewModel = viewModel
     }
 
@@ -54,35 +54,32 @@ struct BookmarkDetailView: View {
                 ForEach(viewModel.bookmark.infos, id: \.self) { info in
                     PairView(key: info.title.localized, value: info.value)
                 }
-
-                deleteButton
             }
-            .navigationBarItems(trailing: trailingBarItems)
-        }
-    }
+            .toolbar {
+                ToolbarItem(placement: .automatic) {
+                    Button {
+                        viewModel.showsDeleteConfirmation.toggle()
+                    } label: {
+                        Image(systemName: "trash")
+                    }
+                    .accessibilityLabel("delete bookmark button")
+                    .confirmationDialog("Are you sure you want to delete the bookmark?", isPresented: $viewModel.showsDeleteConfirmation) {
+                        Button(action: {
+                            Task {
+                                viewModel.delete()
+                            }
+                        }, label: {
+                            Text("delete bookmark button", bundle: .module)
+                        })
 
-    @ViewBuilder private var trailingBarItems: some View {
-        Group {
-            if UIDevice.current.userInterfaceIdiom == .phone {
-                doneButton
+                        Button(action: {
+                            viewModel.showsDeleteConfirmation = false
+                        }, label: {
+                            Text("cancel delete bookmark button", bundle: .module)
+                        })
+                    }
+                }
             }
-        }
-    }
-
-    @ViewBuilder private var doneButton: some View {
-        Button(action: {
-            viewModel.dismiss()
-        }) {
-            Text("Done", bundle: .localization)
-        }
-    }
-
-    @ViewBuilder private var deleteButton: some View {
-        Button(action: {
-            viewModel.delete()
-        }) {
-            Text("delete bookmark button", bundle: .module)
-                .foregroundColor(.red)
         }
     }
 }
