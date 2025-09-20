@@ -10,7 +10,7 @@ import ArchitectureX
 import LibraryCore
 import LibraryUI
 
-class AiRecommendationBookmarkSelectionCoordinator: Coordinator {
+@MainActor class AiRecommendationBookmarkSelectionCoordinator: @MainActor Coordinator {
     var router: Router?
 
     let bookmarks: [any LibraryCore.Bookmark]

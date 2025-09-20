@@ -15,7 +15,7 @@ public struct Localization {
 
     public enum Titles: LocalizableByTable {
         public static var accounts = "Accounts".localized(table: table)
-        public static var bookmarks = "Bookmarks".localized(table: table)
+        @MainActor public static var bookmarks = "Bookmarks".localized(table: table)
         public static var charges = "Charges".localized(table: table)
         public static var loans = "Loans".localized(table: table)
         public static var more = "More".localized(table: table)

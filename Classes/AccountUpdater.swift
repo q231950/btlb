@@ -15,11 +15,17 @@ import LibraryCore
 import Utilities
 
 @objc class AccountUpdater: NSObject, AccountUpdating {
-    
+
+    private let dataStackProvider: DataStackProviding
+
+    init(dataStackProvider: DataStackProviding) {
+        self.dataStackProvider = dataStackProvider
+    }
+
     @discardableResult
-    func manualUpdate(in moc: NSManagedObjectContext? = DataStackProvider.shared.backgroundManagedObjectContext, at date: Date) async throws -> UpdateResult {
-        let moc = moc ?? DataStackProvider.shared.backgroundManagedObjectContext
-        let accounts = try await DataStackProvider.shared.activeAccounts(in: moc)
+    func manualUpdate(in moc: NSManagedObjectContext?, at date: Date) async throws -> UpdateResult {
+        let moc = moc ?? dataStackProvider.backgroundManagedObjectContext
+        let accounts = try await dataStackProvider.activeAccounts(in: moc)
 
         do {
             return try await update(accounts, in: moc, at: date)
@@ -29,9 +35,9 @@ import Utilities
     }
 
     @discardableResult
-    func update(in moc: NSManagedObjectContext? = DataStackProvider.shared.backgroundManagedObjectContext) async throws -> UpdateResult {
-        let moc = moc ?? DataStackProvider.shared.backgroundManagedObjectContext
-        let accounts = try await DataStackProvider.shared.activeAccounts(in: moc)
+    func update(in moc: NSManagedObjectContext?) async throws -> UpdateResult {
+        let moc = moc ?? dataStackProvider.backgroundManagedObjectContext
+        let accounts = try await dataStackProvider.activeAccounts(in: moc)
 
         return try await update(accounts, in: moc)
     }
@@ -50,7 +56,7 @@ import Utilities
     func update(completion:@escaping (NSError?) -> ()) {
         Task {
             do {
-                _ = try await update()
+                _ = try await update(in: dataStackProvider.backgroundManagedObjectContext)
                 completion(nil)
             } catch(let error) {
                 completion(error as NSError)
@@ -80,7 +86,7 @@ import Utilities
             for account in accounts {
                 taskgroup.addTask {
                     do {
-                        return try await AccountRepository().updateAccount(account, in: context)
+                        return try await AccountRepository(dataStackProvider: self.dataStackProvider).updateAccount(account, in: context, dataStackProvider: self.dataStackProvider)
                     } catch let error as PaperErrorInternal {
                         Logger.accountActivation.debug("finished with update error")
                         return .error(error)

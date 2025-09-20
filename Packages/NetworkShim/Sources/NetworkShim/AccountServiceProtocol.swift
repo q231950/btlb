@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 public protocol AccountService {
     /// Removes all notifications related to loan expiration on all accounts
     func removeLoansNotifications()

@@ -39,6 +39,7 @@ import Persistence
                              accountActivating: accountActivating,
                              managedObjectContext: dataStackProvider.foregroundManagedObjectContext,
                              managedObjectId: identifier,
+                             dataStackProvider: dataStackProvider,
                              onDelete: onDelete)
     }
 }

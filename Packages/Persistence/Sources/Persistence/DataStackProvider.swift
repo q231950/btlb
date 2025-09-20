@@ -136,8 +136,6 @@ extension DataStackProvider: SwiftOnlyDataStackProviding {
         }
     }
 
-    @MainActor public static let shared: DataStackProviding = DataStackProvider()
-
     public func createAccount() throws -> EDAccount {
         guard let persistentContainer = dataModelStack.persistentContainer else {
             throw DataStackProviderError.persistentStoreNotConfigured

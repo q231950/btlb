@@ -13,14 +13,16 @@ final class SettingsViewModel: ObservableObject {
     private let service: any LibraryCore.SettingsService
     private var bag = Set<AnyCancellable>()
     private let expirationNotificationsThresholds: (lower: UInt, upper: UInt) = (2, 7)
+    private let dataStackProvider: DataStackProviding
 
-    init(service: any LibraryCore.SettingsService) {
+    init(service: any LibraryCore.SettingsService, dataStackProvider: DataStackProviding) {
         self.service = service
         self.alternetAppIconEnabled = service.isAlternateAppIconEnabled
         self.loanExpirationNotificationsEnabled = service.loanExpirationNotificationsEnabled()
         self.notificationsEnabled = service.notificationsEnabled()
         self.aiRecommenderEnabled = service.aiRecommenderEnabled
         self.debugEnabled = service.debugEnabled
+        self.dataStackProvider = dataStackProvider
 
         service.publisher.receive(on: RunLoop.main).sink { value in
             switch value {
@@ -83,8 +85,8 @@ final class SettingsViewModel: ObservableObject {
             self.service.loanExpirationNotificationsThreshold = $0
 
             Task {
-                if let dataStackProvider = DataStackProvider.shared as? SwiftOnlyDataStackProviding {
-                    let renewableItems = try await dataStackProvider.renewableItems(in: DataStackProvider.shared.backgroundManagedObjectContext)
+                if let dataStackProvider = self.dataStackProvider as? SwiftOnlyDataStackProviding {
+                    let renewableItems = try await dataStackProvider.renewableItems(in: self.dataStackProvider.backgroundManagedObjectContext)
                     try await AppEventPublisher.shared.sendUpdate(.settingChange(renewableItems: renewableItems))
                 }
             }

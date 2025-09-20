@@ -7,6 +7,7 @@
 //
 
 import CoreData
+import SwiftUI
 
 import LibraryCore
 import Localization
@@ -17,6 +18,83 @@ public enum PersistenceBundle {
     }
 }
 
+public extension EnvironmentValues {
+    var dataStackProvider: DataStackProviding {
+        get { self[DataStackProviderEnvironmentKey.self] }
+        set { self[DataStackProviderEnvironmentKey.self] = newValue }
+    }
+}
+
+public struct DataStackProviderEnvironmentKey: EnvironmentKey {
+    public static var defaultValue: DataStackProviding = NoOpDataStackProvider()
+}
+
+class NoOpDataStackProvider: DataStackProviding {
+    var foregroundManagedObjectContext: NSManagedObjectContext {
+        fatalError()
+    }
+
+    var backgroundManagedObjectContext: NSManagedObjectContext {
+        fatalError()
+    }
+
+    var persistentContainer: PersistentContainer?
+    
+    func load(_ completion: @escaping () -> Void) {
+    }
+    
+    func loadInMemory() {
+    }
+    
+    func resetStore() {
+    }
+    
+    func newAccount() async throws -> EDAccount {
+        fatalError()
+    }
+    
+    func createAccount() throws -> EDAccount {
+        fatalError()
+    }
+    
+    func accounts(in context: NSManagedObjectContext) async throws -> [NSManagedObjectID] {
+        fatalError()
+    }
+    
+    func loan(for barcode: String, in context: NSManagedObjectContext) async throws -> NSManagedObjectID {
+        fatalError()
+    }
+    
+    func activeAccounts(in context: NSManagedObjectContext) async throws(LibraryCore.PaperErrorInternal) -> [NSManagedObjectID] {
+        fatalError()
+    }
+    
+    func nextReturnDate(in context: NSManagedObjectContext) async -> Date? {
+        fatalError()
+    }
+    
+    func overallNumberOfLoans(in context: NSManagedObjectContext) async -> Int {
+        fatalError()
+    }
+    
+    func items(in context: NSManagedObjectContext, renewableOnly: Bool, fetchLimit: Int) async -> [LibraryCore.Item] {
+        fatalError()
+    }
+    
+    
+}
+
+//public extension EnvironmentValues {
+//    var persistentContainer: PersistentContainer? {
+//        get { self[PersistentContainerEnvironmentKey.self] }
+//        set { self[PersistentContainerEnvironmentKey.self] = newValue }
+//    }
+//}
+//
+//public struct PersistentContainerEnvironmentKey: EnvironmentKey {
+//    public static var defaultValue: PersistentContainer? = nil
+//}
+
 /// The CoreData entity name
 let ENTITY_NAME_ACCOUNT = "Account"
 
@@ -25,7 +103,7 @@ let ENTITY_NAME_LIBRARY = "Library"
 
 let DEFAULT_LIBRARY_IDENTIFIER = "Hamburg"
 
-public class PersistentContainer: NSPersistentContainer {
+public class PersistentContainer: NSPersistentContainer, @unchecked Sendable {
 
     func newAccount(context: NSManagedObjectContext) async throws -> EDAccount {
         var result: EDAccount!
@@ -86,11 +164,12 @@ extension PersistentContainer {
 
 }
 
-/// Libraries
-extension PersistentContainer {
+// MARK: - Libraries
+
+public extension PersistentContainer {
 
     @MainActor
-    public func libraries(in context: NSManagedObjectContext) throws -> [Library] {
+    func libraries(in context: NSManagedObjectContext) throws -> [Library] {
 
         let fetchRequest = NSFetchRequest<Library>(entityName: ENTITY_NAME_LIBRARY)
 
@@ -110,7 +189,7 @@ extension PersistentContainer {
 
      - Parameter completion: The completion with a result
      */
-    public func libraries<L>(completion: @escaping (Result<[L], Error>) -> Void) {
+    func libraries<L>(completion: @escaping (Result<[L], Error>) -> Void) {
         let fetchRequest = NSFetchRequest<Library>(entityName: ENTITY_NAME_LIBRARY)
 
         let predicate = NSPredicate(format: "self.identifier != %@ AND self.name != ''", argumentArray: [DEFAULT_LIBRARY_IDENTIFIER])

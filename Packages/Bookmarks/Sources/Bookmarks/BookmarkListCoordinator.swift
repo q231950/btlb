@@ -5,7 +5,7 @@ import LibraryCore
 import Localization
 import Persistence
 
-public class BookmarkListCoordinator<ViewModel: BookmarkListViewModelProtocol>: Coordinator {
+@MainActor public class BookmarkListCoordinator<ViewModel: BookmarkListViewModelProtocol>: @MainActor Coordinator {
     public var router: Router? = Router()
 
     private var viewModel: ViewModel

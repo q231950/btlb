@@ -19,6 +19,7 @@ struct SearchSectionView: View {
 
     @ObservedObject var viewModel: SearchSectionViewModel
     @FocusState private var removeFocusFromSearchBar: Bool
+    @Environment(\.dataStackProvider) private var dataStackProvider
 
     @ViewBuilder var content: some View {
         switch viewModel.state {
@@ -53,7 +54,7 @@ struct SearchSectionView: View {
         }
         .sheet(isPresented: $viewModel.isShowingLibrarySelection, content: {
             NavigationView {
-                LibrarySelectionCoordinator<Persistence.Library>(for: .search, currentlySelected: viewModel.library.identifier, librarySelection: viewModel.onLibrarySelected)
+                LibrarySelectionCoordinator<Persistence.Library>(for: .search, persistentContainer: dataStackProvider.persistentContainer, currentlySelected: viewModel.library.identifier, librarySelection: viewModel.onLibrarySelected)
                     .contentView
                     .navigationTitle(Text("LIBRARIES", tableName: "Applicationwide"))
                     .toolbar {

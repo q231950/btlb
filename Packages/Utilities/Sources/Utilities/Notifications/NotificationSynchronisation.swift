@@ -12,13 +12,11 @@ import Persistence
 
 public class NotificationSynchronisation: AppEventObserver {
 
-    @MainActor public static private(set) var shared = NotificationSynchronisation(scheduler: NotificationScheduler())
-
     private var disposeBag = Set<AnyCancellable>()
 
     private let scheduler: NotificationScheduling
 
-    init(scheduler: NotificationScheduling) {
+    public init(scheduler: NotificationScheduling) {
         self.scheduler = scheduler
     }
 

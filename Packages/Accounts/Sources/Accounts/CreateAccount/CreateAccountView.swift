@@ -31,11 +31,16 @@ enum SignInState: Equatable, Sendable {
 @MainActor
 class CreateAccountViewModel: ObservableObject {
     @Published var account: (any Account)?
-    @Published var activationState: SignInState = .signedOut
+    @Published var activationState: SignInState
 
     lazy var signInViewModel: SignInViewModel = SignInViewModel(publisher: signInPublisher)
+    private var cancellables: Set<AnyCancellable>
 
-    private var cancellables = Set<AnyCancellable>()
+    init(account: (any Account)? = nil, activationState: SignInState = .signedOut, cancellables: Set<AnyCancellable> = Set<AnyCancellable>()) {
+        self.account = account
+        self.activationState = activationState
+        self.cancellables = cancellables
+    }
 
     var signInPublisher: CurrentValueSubject<SignInState, Never> {
         let publisher = CurrentValueSubject<SignInState, Never>(.signedOut)

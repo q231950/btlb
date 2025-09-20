@@ -27,15 +27,14 @@ final class SignInViewModel: ObservableObject {
     @Published var showsError = false
 
     private var publisher = CurrentValueSubject<SignInState, Never>(.signedOut)
-
     init(publisher: CurrentValueSubject<SignInState, Never>) {
         self.publisher = publisher
     }
 
-    @MainActor func handleLogin(username: String, password: String, library: Persistence.Library?, libraryProvider: (any LibraryProvider)?, accountActivator: AccountActivating) {
+    @MainActor func handleLogin(username: String, password: String, library: Persistence.Library?, libraryProvider: (any LibraryProvider)?, accountActivator: AccountActivating, dataStackProvider: DataStackProviding) {
         let keychainProvider = KeychainManager()
         let authenticationManager = AuthenticationManager(network: NetworkClient(), keychainManager: keychainProvider)
-        let persistentContainer = DataStackProvider.shared.persistentContainer
+        let persistentContainer = dataStackProvider.persistentContainer
 
         guard let foregroundManagedObjectContext = persistentContainer?.viewContext,
               let libraryProvider,
@@ -59,7 +58,7 @@ final class SignInViewModel: ObservableObject {
                 Task { @MainActor in
                     try credentialStore.store(password, of: username)
 
-                    let account = try DataStackProvider.shared.createAccount()
+                    let account = try dataStackProvider.createAccount()
 
                     let accountTemplate = AccountTemplateGenerator.random()
                     account.accountName = Localization.localized(accountTemplate.name)

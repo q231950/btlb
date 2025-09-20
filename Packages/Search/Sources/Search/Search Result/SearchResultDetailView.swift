@@ -164,6 +164,8 @@ struct SearchResultDetailView: View {
 }
 
 #if DEBUG
+import Persistence
+
 struct SearchResultDetail_Previews: PreviewProvider {
 
     static var previews: some View {
@@ -177,7 +179,7 @@ struct SearchResultDetail_Previews: PreviewProvider {
         )
 
         return NavigationView {
-            SearchResultDetailView(viewModel: SearchResultInfoViewModel(result: result, detailsProvider: MockSearchResultDetailsProviding()))
+            SearchResultDetailView(viewModel: SearchResultInfoViewModel(result: result, detailsProvider: MockSearchResultDetailsProviding(), dataStackProvider: DataStackProvider()))
         }
     }
 }

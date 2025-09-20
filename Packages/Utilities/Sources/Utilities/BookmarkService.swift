@@ -17,7 +17,7 @@ extension NSNotification.Name {
     static let bookmarkChanged = Notification.Name("bookmarkChanged")
 }
 
-public class BookmarkService: NSObject, BookmarkServicing {
+@MainActor public class BookmarkService: NSObject, BookmarkServicing {
 
     public func isBookmarked(identifier: String?, title: String?) async throws -> Bool {
         hasBookmark(identifier: identifier, title: title)

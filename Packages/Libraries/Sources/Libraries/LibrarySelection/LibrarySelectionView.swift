@@ -12,6 +12,7 @@ import SwiftUI
 
 import LibraryCore
 import class Persistence.DataStackProvider
+import class Persistence.PersistentContainer
 
 public struct LibrarySelectionView<L: LibraryCore.Library>: View {
 
@@ -69,6 +70,7 @@ public class LibrarySelectionViewModel<L: LibraryCore.Library>: ObservableObject
     @Published var filterText = ""
     @Published var filteredLibraries = [L]()
     @Published var libraries = [L]()
+    private let persistentContainer: PersistentContainer?
     let selectionType: LibrarySelectionType
     let currentlySelectedIdentifier: String?
     let librarySelection: (_ selectedLibrary: L) -> ()
@@ -82,9 +84,11 @@ public class LibrarySelectionViewModel<L: LibraryCore.Library>: ObservableObject
     }
 
     init(for selectionType: LibrarySelectionType,
+         persistentContainer: PersistentContainer?,
          currentlySelected identifier: String? = nil,
          librarySelection: @escaping (_ selectedLibrary: L) -> ()) {
         self.selectionType = selectionType
+        self.persistentContainer = persistentContainer
         self.currentlySelectedIdentifier = identifier
         self.librarySelection = librarySelection
 
@@ -110,7 +114,7 @@ public class LibrarySelectionViewModel<L: LibraryCore.Library>: ObservableObject
     }
 
     fileprivate func fetchLibraries() {
-        DataStackProvider.shared.persistentContainer?.libraries(completion: { (result: Result<[L], Error>) in
+        persistentContainer?.libraries(completion: { (result: Result<[L], Error>) in
             switch result {
             case .success(let libraries):
                 print(libraries)
@@ -125,15 +129,15 @@ public class LibrarySelectionViewModel<L: LibraryCore.Library>: ObservableObject
 }
 
 #Preview {
-    DataStackProvider.shared.loadInMemory()
+//    dataStackProvider.loadInMemory()
 
-    return LibrarySelectionView<LibraryStub>(viewModel: LibrarySelectionViewModel.stub)
+    LibrarySelectionView<LibraryStub>(viewModel: LibrarySelectionViewModel.stub)
 }
 
 private extension LibrarySelectionViewModel {
 
-    static var stub: LibrarySelectionViewModel {
-        LibrarySelectionViewModel(for: .search, librarySelection: { library in
+    @MainActor static var stub: LibrarySelectionViewModel {
+        LibrarySelectionViewModel(for: .search, persistentContainer: DataStackProvider().persistentContainer, librarySelection: { library in
         })
     }
 }

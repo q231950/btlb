@@ -15,13 +15,20 @@ import Utilities
 import LibraryCore
 
 struct Provider: TimelineProvider {
+
+    private let widgetSynchronisation: WidgetSynchronisation
+
+    init(widgetSynchronisation: WidgetSynchronisation) {
+        self.widgetSynchronisation = widgetSynchronisation
+    }
+
     func placeholder(in context: Context) -> SimpleEntry {
         SimpleEntry(date: Date(), state: .content(viewModel: Self.errorContentViewModel))
     }
 
     func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
 
-        let widgetState = try? WidgetSynchronisation.shared.widgetState
+        let widgetState = try? widgetSynchronisation.widgetState
 
         guard case .content(let viewModel) = widgetState else {
             completion(SimpleEntry(date: Date(), state: .content(viewModel: Self.errorContentViewModel)))
@@ -73,7 +80,7 @@ struct Provider: TimelineProvider {
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<SimpleEntry>) -> Void) {
         Task {
-            let widgetState: WidgetState = try WidgetSynchronisation.shared.widgetState
+            let widgetState: WidgetState = try widgetSynchronisation.widgetState
 
             let currentDate: Date = .now
 
@@ -99,8 +106,12 @@ struct SimpleEntry: TimelineEntry {
 struct LockscreenBTLBWidget: Widget {
     let kind: String = "LockscreenBTLBWidget"
 
+    var provider: Provider {
+        Provider(widgetSynchronisation: WidgetSynchronisation(dataStackProvider: BTLBWidgetViewModel().dataStackProvider))
+    }
+
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: Provider()) { entry in
+        StaticConfiguration(kind: kind, provider: provider) { entry in
             TinyEntryView(entry: entry)
         }
         .configurationDisplayName("widget configuration title".localized)
@@ -112,8 +123,12 @@ struct LockscreenBTLBWidget: Widget {
 struct LockscreenRectangularBTLBWidget: Widget {
     let kind: String = "RectangularLockscreenBTLBWidget"
 
+    var provider: Provider {
+        Provider(widgetSynchronisation: WidgetSynchronisation(dataStackProvider: BTLBWidgetViewModel().dataStackProvider))
+    }
+
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: Provider()) { entry in
+        StaticConfiguration(kind: kind, provider: provider) { entry in
             TinyEntryView(entry: entry)
         }
         .configurationDisplayName("widget configuration title".localized)

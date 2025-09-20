@@ -13,10 +13,13 @@ import Persistence
 
 public struct RenewableItemEntityQuery: EntityQuery {
 
-    public init() {}
+    private let dataStackProvider: DataStackProviding = AppViewModel.shared.dataStackProvider
+
+    public init() {
+    }
 
     public func entities(for identifiers: [ItemEntity.ID]) async throws -> [ItemEntity] {
-        let items = await DataStackProvider.shared.items(in: DataStackProvider.shared.foregroundManagedObjectContext, 
+        let items = await dataStackProvider.items(in: dataStackProvider.foregroundManagedObjectContext, 
                                                          renewableOnly: true,
                                                          fetchLimit: 1000)
         return items.filter {
@@ -29,7 +32,7 @@ public struct RenewableItemEntityQuery: EntityQuery {
     }
 
     public func suggestedEntities() async throws -> [ItemEntity] {
-        let items = await DataStackProvider.shared.items(in: DataStackProvider.shared.foregroundManagedObjectContext,
+        let items = await dataStackProvider.items(in: dataStackProvider.foregroundManagedObjectContext,
                                                          renewableOnly: true,
                                                          fetchLimit: 1000)
 

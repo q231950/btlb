@@ -21,6 +21,7 @@ struct AccountEditView: View {
     @ObservedObject private var viewModel: AccountEditViewModel
     @Environment(\.libraryProvider) private var libraryProvider: LibraryProvider?
     @Environment(\.accountActivating) private var accountActivating: AccountActivating
+    @Environment(\.dataStackProvider) private var dataStackProvider
     @State private var showsDeleteConfirmation = false
     @State var isShowingAvatarSelection = false
     private let onSave: () -> Void
@@ -161,7 +162,7 @@ struct AccountEditView: View {
 
     @ViewBuilder private var librarySelectionView: some View {
         NavigationView {
-            LibrarySelectionCoordinator<Persistence.Library>(for: .login, currentlySelected: viewModel.account?.library?.identifier) { (library: Persistence.Library) in
+            LibrarySelectionCoordinator<Persistence.Library>(for: .login, persistentContainer: dataStackProvider.persistentContainer, currentlySelected: viewModel.account?.library?.identifier) { (library: Persistence.Library) in
                 viewModel.librarySelectionViewModel.selectedLibraryIdentifier = library.identifier
                 viewModel.account?.library = library
                 viewModel.isShowingLibrarySelection = false
@@ -208,23 +209,24 @@ struct AccountEditView: View {
 }
 
 #Preview {
+    let dataStackProvider = DataStackProvider()
     let inMemoryContext: (NSManagedObjectContext, NSManagedObjectID) = {
-        DataStackProvider.shared.loadInMemory()
+        dataStackProvider.loadInMemory()
 
-        let account = try! DataStackProvider.shared.createAccount()
+        let account = try! dataStackProvider.createAccount()
         account.accountName = "account II"
         account.accountUserID = "12345"
         account.displayName = "Irma Vep 👩🏻‍🏫"
         account.activated = false
 
-        return (DataStackProvider.shared.foregroundManagedObjectContext, account.objectID)
+        return (dataStackProvider.foregroundManagedObjectContext, account.objectID)
     }()
 
     let viewModel = AccountEditViewModel(
         accountService: LocalAccountRepository(context: inMemoryContext.0),
         accountCredentialStore: nil,
         accountActivating: nil,
-        managedObjectContext: inMemoryContext.0, managedObjectId: inMemoryContext.1, onDelete: {})
+        managedObjectContext: inMemoryContext.0, managedObjectId: inMemoryContext.1, dataStackProvider: dataStackProvider, onDelete: {})
 
     return NavigationView {
         AccountEditView(viewModel, onSave: {})

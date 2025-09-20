@@ -62,6 +62,7 @@ final class AccountEditViewModel: ObservableObject, @MainActor AccountEditViewMo
     @Published var isAuthenticated: Bool = false
     @Published var avatarName: String?
     private var initialAccountActivation = false
+    private let dataStackProvider: DataStackProviding
 
     private var onDelete: () -> Void
 
@@ -91,12 +92,14 @@ final class AccountEditViewModel: ObservableObject, @MainActor AccountEditViewMo
          accountActivating: AccountActivating?,
          managedObjectContext: NSManagedObjectContext,
          managedObjectId: NSManagedObjectID,
+         dataStackProvider: DataStackProviding,
          onDelete: @escaping () -> Void) {
         self.accountService = accountService
         self.accountCredentialStore = accountCredentialStore
         self.accountActivating = accountActivating
         self.managedObjectContext = managedObjectContext
         self.managedObjectId = managedObjectId
+        self.dataStackProvider = dataStackProvider
         self.onDelete = onDelete
 
         shirt.isDirty
@@ -160,7 +163,7 @@ final class AccountEditViewModel: ObservableObject, @MainActor AccountEditViewMo
 
         let keychainProvider = KeychainManager()
         let authenticationManager = AuthenticationManager(network: NetworkClient(), keychainManager: keychainProvider)
-        let persistentContainer = DataStackProvider.shared.persistentContainer
+        let persistentContainer = dataStackProvider.persistentContainer
 
         guard let account,
               let foregroundManagedObjectContext = persistentContainer?.viewContext,

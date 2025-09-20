@@ -120,8 +120,9 @@ class ViewModel: BookmarkListViewModelProtocol {
 }
 
 #Preview {
-    DataStackProvider.shared.loadInMemory()
-    let moc = DataStackProvider.shared.foregroundManagedObjectContext
+    let dataStackProvider = DataStackProvider()
+    dataStackProvider.loadInMemory()
+    let moc = dataStackProvider.foregroundManagedObjectContext
     let controller = BookmarkService(managedObjectContext: moc)
 
     try! controller.bookmarkSearchResult(.init(library: LibraryMock(), ISBN: "nil", title: "A", author: "a", image: nil, imageURL: nil, barcode: "", content: [Pair(key: "x", value: "a")]), identifier: "123")

@@ -30,6 +30,7 @@ struct SignInView: View {
     @Environment(\.accountActivating) private var accountActivating: AccountActivating
     @FetchRequest private var libraries: FetchedResults<Persistence.Library>
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.dataStackProvider) private var dataStackProvider
 
     init(viewModel: SignInViewModel) {
         self.viewModel = viewModel
@@ -106,7 +107,7 @@ struct SignInView: View {
                                   password: password,
                                   library: viewModel.library,
                                   libraryProvider: libraryProvider,
-                                  accountActivator: accountActivating)
+                                  accountActivator: accountActivating, dataStackProvider: dataStackProvider)
         }) {
             if viewModel.isAuthenticating {
                 ActivityIndicator(shouldAnimate: .constant(true))
@@ -125,7 +126,7 @@ struct SignInView: View {
 
     @ViewBuilder private var librarySelectionView: some View {
         NavigationView {
-            LibrarySelectionCoordinator(for: .login) { (library: Persistence.Library) in
+            LibrarySelectionCoordinator(for: .login, persistentContainer: dataStackProvider.persistentContainer) { (library: Persistence.Library) in
                 viewModel.library = library
                 viewModel.isShowingLibrarySelection = false
 
@@ -155,6 +156,8 @@ struct SignInView: View {
 }
 
 #Preview {
+    let dataStackProvider = DataStackProvider()
+
     NavigationStack {
         SignInView(viewModel: SignInViewModel(publisher: CurrentValueSubject<SignInState, Never>(.signedOut)))
     }

@@ -16,7 +16,7 @@ import Localization
 import Persistence
 import Utilities
 
-public class BookmarkCoordinator: Coordinator {
+@MainActor public class BookmarkCoordinator: @MainActor Coordinator {
     public var router: Router?
 
     private var bookmark: any Bookmark

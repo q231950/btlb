@@ -150,7 +150,7 @@ class SearchSectionViewModel: ObservableObject {
     }
 
     @MainActor func show(result: SearchResultListItemModel) {
-        let detailCoordinator = SearchResultCoordinator(result: result, detailsProvider: dependencies.detailsProvider)
+        let detailCoordinator = SearchResultCoordinator(result: result, detailsProvider: dependencies.detailsProvider, dataStackProvider: dependencies.dataStackProvider)
 
         coordinator.transition(to: detailCoordinator, style: .present(modalInPresentation: false))
     }
