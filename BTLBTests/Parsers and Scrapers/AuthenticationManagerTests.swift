@@ -180,6 +180,7 @@ import Persistence
 //
 extension SomeHelper {
     public func managedObjectContextStub(for test: XCTestCase) async -> NSManagedObjectContext {
+        let dataStackProvider = DataStackProvider()
         dataStackProvider.loadInMemory()
 
         return dataStackProvider.foregroundManagedObjectContext

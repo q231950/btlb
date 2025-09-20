@@ -129,8 +129,6 @@ public class LibrarySelectionViewModel<L: LibraryCore.Library>: ObservableObject
 }
 
 #Preview {
-//    dataStackProvider.loadInMemory()
-
     LibrarySelectionView<LibraryStub>(viewModel: LibrarySelectionViewModel.stub)
 }
 
