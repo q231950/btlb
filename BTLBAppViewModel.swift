@@ -141,7 +141,10 @@ class AppViewModel: ObservableObject {
             dataStackProvider: dataStackProvider
         )
 
-    lazy var chargesCoordinator = ChargeListCoordinator(refreshable: RefreshHandler {
+    lazy var chargesCoordinator = ChargeListCoordinator(refreshable: RefreshHandler { [weak self] in
+
+        guard let self else { return }
+
         // TODO: unite the 2 update methods into one
         //        try await AccountUpdater().update(.manual(.now))
         try await self.accountUpdater.manualUpdate(in: self.dataStackProvider.backgroundManagedObjectContext, at: Date())
