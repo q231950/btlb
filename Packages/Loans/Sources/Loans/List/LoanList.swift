@@ -116,9 +116,15 @@ public struct LoanList<ViewModel: LibraryCore.LoanListViewModel>: View {
 #if DEBUG
 import CoreData
 
+struct LoanList_Previews: PreviewProvider {
+    private static let viewModel = PreviewLoanListViewModel()
+    static var previews: some View {
+        LoanList(viewModel: viewModel)
+    }
+}
+
 public class PreviewLoanListViewModel: LibraryCore.LoanListViewModel {
     public var errors: [LibraryCore.PaperErrorInternal] = []
-    
 
     public var id = UUID()
 
@@ -134,14 +140,6 @@ public class PreviewLoanListViewModel: LibraryCore.LoanListViewModel {
 
     public func show(_ loan: some LibraryCore.LoanViewModel) {
         print("showing")
-    }
-
-}
-
-struct LoanList_Previews: PreviewProvider {
-    private static let viewModel = PreviewLoanListViewModel()
-    static var previews: some View {
-        LoanList(viewModel: viewModel)
     }
 }
 #endif

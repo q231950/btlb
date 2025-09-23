@@ -102,19 +102,14 @@ struct SignInView: View {
     }
 
     @ViewBuilder private var signInButton: some View {
-        RoundedButton( {
+        RoundedButton(loading: $viewModel.isAuthenticating, {
             viewModel.handleLogin(username: username,
                                   password: password,
                                   library: viewModel.library,
                                   libraryProvider: libraryProvider,
                                   accountActivator: accountActivating, dataStackProvider: dataStackProvider)
         }) {
-            if viewModel.isAuthenticating {
-                ActivityIndicator(shouldAnimate: .constant(true))
-                    .foregroundStyle(.primary)
-            } else {
-                Text(Localization.CreateAccount.SignIn.signInButtonTitle)
-            }
+            Text(Localization.CreateAccount.SignIn.signInButtonTitle)
         }
     }
 

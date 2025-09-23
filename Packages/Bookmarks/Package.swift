@@ -30,7 +30,8 @@ let package = Package(
                 "LibraryUI",
                 "Localization",
                 "Persistence"
-            ]),
+            ],
+            resources: [.process("Resources")]),
         .testTarget(
             name: "BookmarksTests",
             dependencies: ["Bookmarks"]),

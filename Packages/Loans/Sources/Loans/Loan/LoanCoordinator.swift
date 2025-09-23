@@ -24,8 +24,7 @@ class LoanCoordinator<ViewModel: LibraryCore.LoanViewModel>: Coordinator {
     }
 
     @MainActor var contentView: some View {
-        LoanDetailView(loan) {
-            self.dismiss()
-        }
+        LoanDetailView(loan)
+            .presentationDetents([.medium, .large])
     }
 }

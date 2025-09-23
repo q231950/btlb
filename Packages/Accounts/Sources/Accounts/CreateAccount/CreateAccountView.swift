@@ -61,10 +61,16 @@ class CreateAccountViewModel: ObservableObject {
 
 public struct CreateAccountView: View {
 
-    @ObservedObject var viewModel = CreateAccountViewModel()
+    @ObservedObject var viewModel: CreateAccountViewModel
     @Environment(\.dismiss) private var dismiss
 
-    public init() {}
+    public init() {
+        self.init(viewModel: CreateAccountViewModel())
+    }
+
+    init(viewModel: CreateAccountViewModel) {
+        self.viewModel = viewModel
+    }
 
     public var body: some View {
         NavigationStack {
@@ -83,6 +89,25 @@ public struct CreateAccountView: View {
     }
 }
 
-#Preview {
-    CreateAccountView()
+#if DEBUG
+class MockAccount: Account {
+    var allLoans: [any LibraryCore.Loan] = []
+
+    var allCharges: [any LibraryCore.Charge] = []
+
+    var name: String? = "Irma Vep"
+
+    var username: String? = "Irmion"
+
+    var avatar: String? = AccountTemplate.cat.avatar.imageName
+
+    var isActivated: Bool = true
+
+    var library: (any LibraryCore.Library)?
 }
+#Preview {
+    let mockAccount = MockAccount()
+    let viewModel = CreateAccountViewModel(activationState: .signedOut)
+    CreateAccountView(viewModel: viewModel)
+}
+#endif

@@ -146,10 +146,8 @@ struct BTLBApp: App {
             appReviewService: BTLBSettings.AppReviewService(userDefaults: .suite),
             notificationScheduler: NotificationScheduler(), loan: loan)
 
-        LoanDetailView(loanDetailViewModel) {
-            viewModel.deeplinkLoanContainer = nil
-        }
-        .containInNavigation
+        LoanDetailView(loanDetailViewModel)
+            .containInNavigation
     }
 
     @State private var navigationPath = NavigationPath()

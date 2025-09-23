@@ -95,17 +95,27 @@ struct SignInSuccessView: View {
                 }
 
                 Section {
-                    NavigationLink(value: AccountEditViewModel(accountService: accountService,
-                                                               accountCredentialStore: accountCredentialStore,
-                                                               accountActivating: accountActivating,
-                                                               managedObjectContext: dataStackProvider.foregroundManagedObjectContext,
-                                                               managedObjectId: viewModel.managedObjectId,
-                                                               dataStackProvider: dataStackProvider,
-                                                               onDelete: {
-                        assertionFailure("you cannot delete the account during account creation")
-                    })) {
-                        HStack(alignment: .center) {
-                            AvatarView(viewModel.avatar, size: .small)
+                    NavigationLink(
+                        value: AccountEditViewModel(
+                            accountService: accountService,
+                            accountCredentialStore: accountCredentialStore,
+                            accountActivating: accountActivating,
+                            managedObjectContext: dataStackProvider.foregroundManagedObjectContext,
+                            managedObjectId: viewModel.managedObjectId,
+                            dataStackProvider: dataStackProvider,
+                            onDelete: {
+                                assertionFailure(
+                                    "you cannot delete the account during account creation"
+                                )
+                            })
+                    ) {
+                        HStack(
+                            alignment: .center
+                        ) {
+                            AvatarView(
+                                viewModel.avatar,
+                                size: .small
+                            )
 
                             VStack {
                                 HStack {
@@ -156,7 +166,6 @@ struct SignInSuccessView: View {
                         }
                     }
                 }
-
             })
 
             RoundedButton({
@@ -169,21 +178,27 @@ struct SignInSuccessView: View {
     }
 }
 
+#if DEBUG
 import Mocks
 #Preview {
     let dataStackProvider = DataStackProvider()
-    let inMemoryContext: (NSManagedObjectID, NSManagedObjectContext) = {
-        dataStackProvider.loadInMemory()
+    let inMemoryContext = dataStackProvider.inMemory()
+    return SignInSuccessView(viewModel: SignInSuccessViewModel(account: AccountMock(), identifier: inMemoryContext.0)) {
+    }
+    .environment(\.dataStackProvider, dataStackProvider)
+}
 
-        let account = try! dataStackProvider.createAccount()
+extension DataStackProvider {
+    func inMemory() -> (NSManagedObjectID, NSManagedObjectContext) {
+        loadInMemory()
+
+        let account = try! createAccount()
         account.accountName = "account II"
         account.accountUserID = "12345"
         account.displayName = "Irma Vep 👩🏻‍🏫"
         account.activated = true
 
-        return (account.objectID, dataStackProvider.foregroundManagedObjectContext)
-    }()
-    
-    return SignInSuccessView(viewModel: SignInSuccessViewModel(account: AccountMock(), identifier: inMemoryContext.0)) {
+        return (account.objectID, foregroundManagedObjectContext)
     }
 }
+#endif

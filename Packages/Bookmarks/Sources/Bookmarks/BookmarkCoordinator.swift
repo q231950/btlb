@@ -26,7 +26,7 @@ import Utilities
     }
 
     private var bag = Set<AnyCancellable>()
-    private lazy var viewModel: BookmarkViewModelProtocol = {
+    private lazy var viewModel: BookmarkViewModel = {
         let viewModel = BookmarkViewModel(bookmark: bookmark)
         viewModel.eventPublisher.sink { [weak self] event in
             self?.handle(event)
@@ -42,8 +42,6 @@ import Utilities
 
     private func handle(_ event: BookmarkEvent) {
         switch event {
-        case .dismiss:
-            dismiss()
         case .delete(let bookmark):
             Task { @MainActor in
                 dismiss()
