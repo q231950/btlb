@@ -1086,7 +1086,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\nCONFIG_FILE=\"${SRCROOT}/Secrets.xcconfig\"\nOUTPUT_FILE=\"${SRCROOT}/Classes/Generated/BuildConfig.swift\"\n\n# Read key\nOPENROUTER_API_KEY=$(grep 'OPENROUTER_API_KEY' \"$CONFIG_FILE\" | cut -d '=' -f2 | xargs)\n\n# Generate Swift file\nmkdir -p \"$(dirname \"$OUTPUT_FILE\")\"\ncat <<EOF > \"$OUTPUT_FILE\"\n// Generated at build time by the \"Create BuildConfig\" Run Script build phase. Do not modify ☝️\n\nimport Foundation\n\nimport ObfuscateMacro\n\nenum BuildConfig {\n    // The API key for OpenRouter. It's used by the AI Recommender and generated at build time.\n    static let openRouterApiKey = #ObfuscatedString(\"$OPENROUTER_API_KEY\")\n}\n\nEOF\n";
+			shellScript = "#!/bin/sh\n\nCONFIG_FILE=\"${SRCROOT}/Secrets.xcconfig\"\nOUTPUT_FILE=\"${SRCROOT}/Classes/Generated/BuildConfig.swift\"\n\n# Read key\nAB_TEST_X=$(grep 'AB_TEST_X' \"$CONFIG_FILE\" | cut -d '=' -f2 | xargs)\n\n# Generate Swift file\nmkdir -p \"$(dirname \"$OUTPUT_FILE\")\"\ncat <<EOF > \"$OUTPUT_FILE\"\n// Generated at build time by the \"Create BuildConfig\" Run Script build phase. Do not modify ☝️\n\nimport Foundation\n\nimport ObfuscateMacro\n\nenum BuildConfig {\n    // The API key for OpenRouter. It's used by the AI Recommender and generated at build time.\n    static let openRouterApiKey = #ObfuscatedString(\"$AB_TEST_X\")\n}\n\nEOF\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
