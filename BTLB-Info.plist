@@ -92,8 +92,6 @@
 	</dict>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2024 neoneon. All rights reserved.</string>
-	<key>AB_TEST_X</key>
-	<string>$(AB_TEST_X)</string>
 	<key>PUSH_NOTIFICATION_SERVER_URL</key>
 	<string>$(PUSH_NOTIFICATION_SERVER_URL)</string>
 	<key>UIBackgroundModes</key>
