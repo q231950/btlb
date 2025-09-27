@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "Accounts"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Облікові записи"
+          }
         }
       }
     },
@@ -48,6 +54,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Authentication failed"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помилка аутентифікації"
           }
         }
       }
@@ -66,6 +78,12 @@
             "state" : "translated",
             "value" : "Please check your username, password and the selected library."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, перевірте своє ім'я користувача, пароль та вибрану бібліотеку."
+          }
         }
       }
     },
@@ -83,6 +101,12 @@
             "state" : "translated",
             "value" : "Cancel"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скасувати"
+          }
         }
       }
     },
@@ -99,6 +123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Charges"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Плата"
           }
         }
       }

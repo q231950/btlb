@@ -15,6 +15,12 @@
             "state" : "translated",
             "value" : "%@: available"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: доступно"
+          }
         }
       }
     },
@@ -31,6 +37,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: not available"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: недоступно"
           }
         }
       }
@@ -49,6 +61,12 @@
             "state" : "translated",
             "value" : "%@: unknown availability"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: доступність невідома"
+          }
         }
       }
     },
@@ -65,6 +83,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A selected search result's details will be displayed here."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тут будуть відображені деталі обраного результату пошуку."
           }
         }
       }
@@ -83,6 +107,12 @@
             "state" : "translated",
             "value" : "append"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "додати"
+          }
         }
       }
     },
@@ -99,6 +129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aquisition Date"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дата надходження"
           }
         }
       }
@@ -117,6 +153,12 @@
             "state" : "translated",
             "value" : "Classification"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Класифікація"
+          }
         }
       }
     },
@@ -133,6 +175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annotations"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Примітки"
           }
         }
       }
@@ -151,6 +199,12 @@
             "state" : "translated",
             "value" : "Number"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер"
+          }
         }
       }
     },
@@ -167,6 +221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Print/Distribution"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Друк/Розповсюдження"
           }
         }
       }
@@ -185,6 +245,12 @@
             "state" : "translated",
             "value" : "Published"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Опубліковано"
+          }
         }
       }
     },
@@ -202,6 +268,12 @@
             "state" : "translated",
             "value" : "Contents"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зміст"
+          }
         }
       }
     },
@@ -215,6 +287,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN/EAN"
+          }
+        },
+        "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN/EAN"
@@ -236,6 +314,12 @@
             "state" : "translated",
             "value" : "Links"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Посилання"
+          }
         }
       }
     },
@@ -252,6 +336,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Organisation(s)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Організація(ї)"
           }
         }
       }
@@ -270,6 +360,12 @@
             "state" : "translated",
             "value" : "Original Title"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оригінальна назва"
+          }
         }
       }
     },
@@ -286,6 +382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Persons"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Особи"
           }
         }
       }
@@ -304,6 +406,12 @@
             "state" : "translated",
             "value" : "Price"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ціна"
+          }
         }
       }
     },
@@ -320,6 +428,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Series"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Серія"
           }
         }
       }
@@ -338,6 +452,12 @@
             "state" : "translated",
             "value" : "Keywords"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ключові слова"
+          }
         }
       }
     },
@@ -354,6 +474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Shelfmark"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифр зберігання"
           }
         }
       }
@@ -372,6 +498,12 @@
             "state" : "translated",
             "value" : "Language"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мова"
+          }
         }
       }
     },
@@ -388,6 +520,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Title"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Назва"
           }
         }
       }
@@ -406,6 +544,12 @@
             "state" : "translated",
             "value" : "Size"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обсяг"
+          }
         }
       }
     },
@@ -422,6 +566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "search"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "шукати"
           }
         }
       }
@@ -441,6 +591,12 @@
             "state" : "translated",
             "value" : "insert"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "вставити"
+          }
         }
       }
     },
@@ -457,6 +613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Load image"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завантажити зображення"
           }
         }
       }
@@ -475,6 +637,12 @@
             "state" : "translated",
             "value" : "loading..."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "завантаження..."
+          }
         }
       }
     },
@@ -491,6 +659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld hits"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld результатів"
           }
         }
       }
@@ -509,6 +683,12 @@
             "state" : "translated",
             "value" : "Publication Date"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дата публікації"
+          }
         }
       }
     },
@@ -525,6 +705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Publisher"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видавництво"
           }
         }
       }
@@ -543,6 +729,12 @@
             "state" : "translated",
             "value" : "Recent Searches"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Недавні пошуки"
+          }
         }
       }
     },
@@ -559,6 +751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ПОШУК"
           }
         }
       }
@@ -577,6 +775,12 @@
             "state" : "translated",
             "value" : "Search in %@"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук у %@"
+          }
         }
       }
     },
@@ -592,6 +796,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your search history will appear here once you've entered something.\n\nGo on and have a try!\n😃"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тут з'явиться історія ваших пошуків після того, як ви щось введете.\n\nСпробуйте здійснити пошук!\n😃"
           }
         }
       }

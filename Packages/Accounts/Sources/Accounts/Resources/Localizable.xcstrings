@@ -28,6 +28,12 @@
             "state" : "translated",
             "value" : "Ok"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гаразд"
+          }
         }
       }
     },
@@ -43,6 +49,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Something went wrong."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Щось пішло не так."
           }
         }
       }
@@ -61,6 +73,12 @@
             "state" : "translated",
             "value" : "Oops"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Упс"
+          }
         }
       }
     },
@@ -76,6 +94,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ok"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гаразд"
           }
         }
       }
@@ -93,6 +117,12 @@
             "state" : "translated",
             "value" : "• Did you select the correct library?"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Чи вибрали ви правильну бібліотеку?"
+          }
         }
       }
     },
@@ -108,6 +138,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "• Did you enter the correct username?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Чи правильно ви ввели ім'я користувача?"
           }
         }
       }
@@ -125,6 +161,12 @@
             "state" : "translated",
             "value" : "• Do you know your password? Be aware that some libraries lock the account if you enter it incorrectly too often."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Чи знаєте ви свій пароль? Майте на увазі, що деякі бібліотеки блокують обліковий запис при занадто частому неправильному введенні."
+          }
         }
       }
     },
@@ -141,6 +183,12 @@
             "state" : "translated",
             "value" : "• In case you forgot, there's the '%@' button below which opens the selected library's website so you can reset your password there."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Якщо ви забули пароль, є кнопка '%@' нижче, яка відкриває веб-сайт вибраної бібліотеки, де ви можете скинути пароль."
+          }
         }
       }
     },
@@ -156,6 +204,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset Password"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скинути пароль"
           }
         }
       }
@@ -174,6 +228,12 @@
             "state" : "translated",
             "value" : "Sign In Failed"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помилка входу"
+          }
         }
       }
     },
@@ -189,6 +249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Cat"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кіт-читач"
           }
         }
       }
@@ -206,6 +272,12 @@
             "state" : "translated",
             "value" : "Reading Duck"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Качка-читач"
+          }
         }
       }
     },
@@ -221,6 +293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Fox"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лис-читач"
           }
         }
       }
@@ -238,6 +316,12 @@
             "state" : "translated",
             "value" : "Reading Horse"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кінь-читач"
+          }
         }
       }
     },
@@ -253,6 +337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Lion"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лев-читач"
           }
         }
       }
@@ -270,6 +360,12 @@
             "state" : "translated",
             "value" : "Reading Mouse"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мишка-читач"
+          }
         }
       }
     },
@@ -285,6 +381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Panda"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Панда-читач"
           }
         }
       }
@@ -302,6 +404,12 @@
             "state" : "translated",
             "value" : "Reading Poodle"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пудель-читач"
+          }
         }
       }
     },
@@ -317,6 +425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Rabbit"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кролик-читач"
           }
         }
       }
@@ -334,6 +448,12 @@
             "state" : "translated",
             "value" : "Reading Tiger"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тигр-читач"
+          }
         }
       }
     },
@@ -349,6 +469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Turtle"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Черепаха-читач"
           }
         }
       }
@@ -366,6 +492,12 @@
             "state" : "translated",
             "value" : "Reading Wolf"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вовк-читач"
+          }
         }
       }
     },
@@ -381,6 +513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sign In"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Увійти"
           }
         }
       }
@@ -398,6 +536,12 @@
             "state" : "translated",
             "value" : "My library account"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мій бібліотечний обліковий запис"
+          }
         }
       }
     },
@@ -414,6 +558,12 @@
             "state" : "translated",
             "value" : "Select Library"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оберіть бібліотеку"
+          }
         }
       }
     },
@@ -429,6 +579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пароль"
           }
         }
       }
@@ -447,6 +603,12 @@
             "state" : "translated",
             "value" : "Add Account"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Додати обліковий запис"
+          }
         }
       }
     },
@@ -462,6 +624,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Library Card Number"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер бібліотечного квитка"
           }
         }
       }
@@ -479,6 +647,12 @@
             "state" : "translated",
             "value" : "• Due charges: %@"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Нараховані платежі: %@"
+          }
         }
       }
     },
@@ -494,6 +668,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Let's read"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Почнемо читати"
           }
         }
       }
@@ -512,6 +692,12 @@
             "state" : "translated",
             "value" : "Edit Display Name"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Редагувати відображуване ім'я"
+          }
         }
       }
     },
@@ -527,6 +713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The library account **%@** has successfully been added. You can edit this account or add additional ones in the _Settings Section_ of the app at any time."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотечний обліковий запис **%@** успішно додано. Ви можете редагувати цей обліковий запис або додати додаткові в _розділі налаштувань_ додатку в будь-який час."
           }
         }
       }
@@ -544,6 +736,12 @@
             "state" : "translated",
             "value" : "• No due charges."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Немає боргових платежів."
+          }
         }
       }
     },
@@ -559,6 +757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "• Days until next expiry date: **%@**"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Днів до наступної дати закінчення терміну: **%@**"
           }
         }
       }
@@ -576,6 +780,12 @@
             "state" : "translated",
             "value" : "• Number of Loans Borrowed: **%lld**"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Кількість взятих позичок: **%lld**"
+          }
         }
       }
     },
@@ -591,6 +801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You can now manage the loans of your account and view charges."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тепер ви можете керувати позичками вашого облікового запису та переглядати платежі."
           }
         }
       }
@@ -608,6 +824,12 @@
             "state" : "translated",
             "value" : "Account Added"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обліковий запис додано"
+          }
         }
       }
     },
@@ -623,6 +845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activated"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активовано"
           }
         }
       }
@@ -640,6 +868,12 @@
             "state" : "translated",
             "value" : "Display Name"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відображуване ім'я"
+          }
         }
       }
     },
@@ -655,6 +889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пароль"
           }
         }
       }
@@ -672,6 +912,12 @@
             "state" : "translated",
             "value" : "Username"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ім'я користувача"
+          }
         }
       }
     },
@@ -687,6 +933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete Account"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видалити обліковий запис"
           }
         }
       }
@@ -704,6 +956,12 @@
             "state" : "translated",
             "value" : "Cancel"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скасувати"
+          }
         }
       }
     },
@@ -719,6 +977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete Account"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видалити обліковий запис"
           }
         }
       }
@@ -736,6 +1000,12 @@
             "state" : "translated",
             "value" : "Delete"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видалити"
+          }
         }
       }
     },
@@ -751,6 +1021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Are you sure to delete this account?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви впевнені, що хочете видалити цей обліковий запис?"
           }
         }
       }
@@ -768,6 +1044,12 @@
             "state" : "translated",
             "value" : "Are you sure to delete `%@`?"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви впевнені, що хочете видалити `%@`?"
+          }
         }
       }
     },
@@ -783,6 +1065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Select a Library"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оберіть бібліотеку"
           }
         }
       }
@@ -801,6 +1089,12 @@
             "state" : "translated",
             "value" : "Account"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обліковий запис"
+          }
         }
       }
     },
@@ -816,6 +1110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Signed In"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Увійшли"
           }
         }
       }
@@ -833,6 +1133,12 @@
             "state" : "translated",
             "value" : "Sign In"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Увійти"
+          }
         }
       }
     },
@@ -848,6 +1154,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Signed Out"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не увійшли"
           }
         }
       }
@@ -866,6 +1178,12 @@
             "state" : "translated",
             "value" : "Edit"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Редагувати"
+          }
         }
       }
     },
@@ -882,6 +1200,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add Account"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Додати обліковий запис"
           }
         }
       }
@@ -901,6 +1225,12 @@
             "state" : "translated",
             "value" : "Display Name"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відображуване ім'я"
+          }
         }
       }
     },
@@ -918,6 +1248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Created"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Створено"
           }
         }
       }
@@ -937,6 +1273,12 @@
             "state" : "translated",
             "value" : "your account ID..."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ваш ID облікового запису..."
+          }
         }
       }
     },
@@ -954,6 +1296,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Updated"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновлено"
           }
         }
       }
@@ -973,6 +1321,12 @@
             "state" : "translated",
             "value" : "Never updated"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ніколи не оновлювалось"
+          }
         }
       }
     },
@@ -991,6 +1345,12 @@
             "state" : "translated",
             "value" : "Library"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотека"
+          }
         }
       }
     },
@@ -1001,37 +1361,26 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ID"
+            "value" : "Benutzername"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ID"
-          }
-        }
-      }
-    },
-    "ACCOUNT_USER_PASSWORD" : {
-      "comment" : "A descriptive title of a table cell.\n It should be kept really short.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Passwort"
+            "value" : "Username"
           }
         },
-        "en" : {
+        "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Password"
+            "value" : "Ім'я користувача"
           }
         }
       }
     },
     "ACCOUNTS" : {
-      "comment" : "Account.strings\n BTLB\n\n Created by Martin Kim Dung-Pham on 07/04/2009.\n Copyright 2009 neoneon. All rights reserved.",
+      "comment" : "Title of the accounts view",
+      "extractionState" : "manual",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1043,6 +1392,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Accounts"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Облікові записи"
           }
         }
       }
@@ -1062,6 +1417,12 @@
             "state" : "translated",
             "value" : "Activated"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активовано"
+          }
         }
       }
     },
@@ -1079,6 +1440,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap \"+\" to add an account."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Натисніть \"+\", щоб додати обліковий запис."
           }
         }
       }
@@ -1098,6 +1465,12 @@
             "state" : "translated",
             "value" : "Tap \"Edit\" to add or remove accounts."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Натисніть \"Редагувати\", щоб додати або видалити облікові записи."
+          }
         }
       }
     },
@@ -1114,6 +1487,12 @@
             "state" : "translated",
             "value" : "Avatars"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аватари"
+          }
         }
       }
     },
@@ -1124,6 +1503,18 @@
             "state" : "translated",
             "value" : "Abbrechen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скасувати"
+          }
         }
       }
     },
@@ -1133,6 +1524,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abbrechen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CANCEL"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "СКАСУВАТИ"
           }
         }
       }
@@ -1149,6 +1552,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Swipe horizontally to find a suitable avatar for your account."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проведіть горизонтально, щоб знайти підходящий аватар для вашого облікового запису."
           }
         }
       }
@@ -1168,6 +1577,12 @@
             "state" : "translated",
             "value" : "create new account"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "створити новий обліковий запис"
+          }
         }
       }
     },
@@ -1177,6 +1592,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fertig"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
           }
         }
       }
@@ -1196,6 +1623,12 @@
             "state" : "translated",
             "value" : "Tap \"Edit\" modify entries."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Натисніть \"Редагувати\", щоб змінити записи."
+          }
         }
       }
     },
@@ -1213,6 +1646,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "is not activated"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "не активовано"
           }
         }
       }
@@ -1232,6 +1671,12 @@
             "state" : "translated",
             "value" : "is not activated. Activate it in the Accounts View."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "не активовано. Активуйте його в розділі \"Облікові записи\"."
+          }
         }
       }
     },
@@ -1250,6 +1695,12 @@
             "state" : "translated",
             "value" : "is not active. Login failed."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "не активний. Помилка входу."
+          }
         }
       }
     },
@@ -1259,6 +1710,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliotheken"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LIBRARIES"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "БІБЛІОТЕКИ"
           }
         }
       }
@@ -1276,6 +1739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Більше"
           }
         }
       }
@@ -1295,6 +1764,12 @@
             "state" : "translated",
             "value" : "Not activated"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не активовано"
+          }
         }
       }
     },
@@ -1312,6 +1787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "not set..."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "не встановлено..."
           }
         }
       }
@@ -1331,6 +1812,12 @@
             "state" : "translated",
             "value" : "set"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "встановлено"
+          }
         }
       }
     },
@@ -1348,6 +1835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "There is no account to update. Would you like to create one?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає облікового запису для оновлення. Чи хотіли б ви створити його?"
           }
         }
       }
@@ -1367,6 +1860,12 @@
             "state" : "translated",
             "value" : "Tap \"Done or activate the account to save changes."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Натисніть \"Готово\" або активуйте обліковий запис, щоб зберегти зміни."
+          }
         }
       }
     },
@@ -1377,6 +1876,18 @@
             "state" : "translated",
             "value" : "Rasteransicht auswählen"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to grid view"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейти до сітки"
+          }
         }
       }
     },
@@ -1386,6 +1897,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Horizontalen Listenansicht auswählen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to list view"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейти до списку"
           }
         }
       }

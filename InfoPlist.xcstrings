@@ -14,6 +14,12 @@
             "state" : "translated",
             "value" : "bit lib"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "біт ліб"
+          }
         }
       }
     },
@@ -30,6 +36,12 @@
             "state" : "translated",
             "value" : "bit lib"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "біт ліб"
+          }
         }
       }
     },
@@ -45,6 +57,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "lib"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ліб"
           }
         }
       }
@@ -63,6 +81,12 @@
             "state" : "translated",
             "value" : "bitlib"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "бітліб"
+          }
         }
       }
     },
@@ -79,6 +103,12 @@
             "state" : "translated",
             "value" : "bit lib"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "біт ліб"
+          }
         }
       }
     },
@@ -94,6 +124,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "lib"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "біб"
           }
         }
       }

@@ -15,6 +15,12 @@
             "state" : "translated",
             "value" : "Content"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зміст"
+          }
         }
       }
     },
@@ -31,6 +37,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unable to get details"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вдалося отримати деталі"
           }
         }
       }
@@ -49,6 +61,12 @@
             "state" : "translated",
             "value" : "Unable to get search result details."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вдалося отримати деталі результату пошуку."
+          }
         }
       }
     },
@@ -65,6 +83,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
           }
         }
       }
@@ -83,6 +107,12 @@
             "state" : "translated",
             "value" : "available"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "доступно"
+          }
         }
       }
     },
@@ -99,6 +129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "not available"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "недоступно"
           }
         }
       }
@@ -117,6 +153,12 @@
             "state" : "translated",
             "value" : "loading..."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "завантаження..."
+          }
         }
       }
     },
@@ -133,6 +175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Info: "
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інфо: "
           }
         }
       }
@@ -151,6 +199,12 @@
             "state" : "translated",
             "value" : "Location "
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Місцезнаходження "
+          }
         }
       }
     },
@@ -167,6 +221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Locations"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Місцезнаходження"
           }
         }
       }
@@ -185,6 +245,12 @@
             "state" : "translated",
             "value" : "Location"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Місцезнаходження"
+          }
         }
       }
     },
@@ -201,6 +267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Location: "
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Місцезнаходження: "
           }
         }
       }
@@ -219,6 +291,12 @@
             "state" : "translated",
             "value" : "No Library selected"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотеку не обрано"
+          }
         }
       }
     },
@@ -235,6 +313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open in web view"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відкрити у веб-переглядачі"
           }
         }
       }
@@ -253,6 +337,12 @@
             "state" : "translated",
             "value" : "Online resource"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-ресурс"
+          }
         }
       }
     },
@@ -269,6 +359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please choose a library and search again."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, оберіть бібліотеку і повторіть пошук."
           }
         }
       }
@@ -287,6 +383,12 @@
             "state" : "translated",
             "value" : "Retrieving additional results"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отримання додаткових результатів"
+          }
         }
       }
     },
@@ -303,6 +405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search string too short"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошуковий запит занадто короткий"
           }
         }
       }
@@ -321,6 +429,12 @@
             "state" : "translated",
             "value" : "Search will not search for the string you entered. Please enter at least 3 characters."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук не буде виконано для введеного рядка. Будь ласка, введіть принаймні 3 символи."
+          }
         }
       }
     },
@@ -337,6 +451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search failed"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук не вдалося"
           }
         }
       }
@@ -355,6 +475,12 @@
             "state" : "translated",
             "value" : "Please make sure you are connected and try again."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, перевірте з'єднання і спробуйте знову."
+          }
         }
       }
     },
@@ -371,6 +497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "searching..."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "пошук..."
           }
         }
       }
@@ -389,6 +521,12 @@
             "state" : "translated",
             "value" : "select a library"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "обрати бібліотеку"
+          }
         }
       }
     },
@@ -406,6 +544,12 @@
             "state" : "translated",
             "value" : "Shelfmark: "
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифр зберігання: "
+          }
         }
       }
     },
@@ -422,6 +566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Library"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотека"
           }
         }
       }

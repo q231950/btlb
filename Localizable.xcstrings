@@ -9,6 +9,18 @@
             "state" : "translated",
             "value" : "%@"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
         }
       }
     },
@@ -26,6 +38,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: available"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: доступно"
           }
         }
       }
@@ -45,6 +63,12 @@
             "state" : "translated",
             "value" : "%@: not available"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: недоступно"
+          }
         }
       }
     },
@@ -63,6 +87,12 @@
             "state" : "translated",
             "value" : "%@: unknown availability"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: доступність невідома"
+          }
         }
       }
     },
@@ -80,6 +110,12 @@
             "state" : "translated",
             "value" : "Availabilities"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступність"
+          }
         }
       }
     },
@@ -89,6 +125,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Debug Informationen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debug Info"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налагоджувальна інформація"
           }
         }
       }
@@ -107,6 +155,12 @@
             "state" : "translated",
             "value" : "Due Date: %@"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Термін повернення: %@"
+          }
         }
       }
     },
@@ -120,6 +174,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@"
@@ -141,6 +201,12 @@
             "state" : "translated",
             "value" : "Select Renewable Items"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оберіть примірники для продовження"
+          }
         }
       }
     },
@@ -158,6 +224,12 @@
             "state" : "translated",
             "value" : "The selected items will be renewed."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обрані примірники будуть продовжені."
+          }
         }
       }
     },
@@ -173,6 +245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ok"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гаразд"
           }
         }
       }
@@ -271,6 +349,12 @@
             "state" : "translated",
             "value" : "Error"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помилка"
+          }
         }
       }
     },
@@ -286,6 +370,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Refresh failed. Please try again later."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновлення не вдалося. Будь ласка, спробуйте пізніше."
           }
         }
       }
@@ -490,6 +580,12 @@
             "state" : "translated",
             "value" : "Search"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук"
+          }
         }
       }
     },
@@ -553,6 +649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search Term"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошуковий запит"
           }
         }
       }

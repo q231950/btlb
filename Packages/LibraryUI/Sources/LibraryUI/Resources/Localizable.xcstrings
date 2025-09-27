@@ -30,6 +30,12 @@
             "state" : "translated",
             "value" : "An error occurred!"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сталася помилка!"
+          }
         }
       }
     },
@@ -46,6 +52,12 @@
             "state" : "translated",
             "value" : "Alright"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зрозуміло"
+          }
         }
       }
     },
@@ -61,6 +73,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Errors have occurred!"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сталися помилки!"
           }
         }
       }

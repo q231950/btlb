@@ -16,6 +16,12 @@
             "state" : "translated",
             "value" : "Number of active Accounts"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кількість активних облікових записів"
+          }
         }
       }
     },
@@ -33,6 +39,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Number of Accounts"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кількість облікових записів"
           }
         }
       }
@@ -52,6 +64,12 @@
             "state" : "translated",
             "value" : "Number of inactive Accounts"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кількість неактивних облікових записів"
+          }
         }
       }
     },
@@ -69,6 +87,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activate your account in the accounts view"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активуйте ваш обліковий запис у відображенні облікових записів"
           }
         }
       }
@@ -88,6 +112,12 @@
             "state" : "translated",
             "value" : "Activate an account in the accounts view"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активуйте обліковий запис у відображенні облікових записів"
+          }
         }
       }
     },
@@ -105,6 +135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sum of all Charges"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сума всіх платежів"
           }
         }
       }
@@ -124,6 +160,12 @@
             "state" : "translated",
             "value" : "Most recent update on %@"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Останнє оновлення %@"
+          }
         }
       }
     },
@@ -141,6 +183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Number of Loans"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кількість видач"
           }
         }
       }
@@ -160,6 +208,12 @@
             "state" : "translated",
             "value" : "Number of expired Loans"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кількість прострочених видач"
+          }
         }
       }
     },
@@ -177,6 +231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loans ready for collection"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видачі готові до отримання"
           }
         }
       }
@@ -196,6 +256,12 @@
             "state" : "translated",
             "value" : "You have not set up an account yet"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви ще не налаштували обліковий запис"
+          }
         }
       }
     },
@@ -213,6 +279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No charges on any active account"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає платежів на жодному активному обліковому записі"
           }
         }
       }
@@ -232,6 +304,12 @@
             "state" : "translated",
             "value" : "none"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "немає"
+          }
         }
       }
     },
@@ -249,6 +327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "none"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "немає"
           }
         }
       }
@@ -268,6 +352,12 @@
             "state" : "translated",
             "value" : "Set up an account in the accounts view"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налаштуйте обліковий запис у відображенні облікових записів"
+          }
         }
       }
     },
@@ -285,6 +375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Summary"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Огляд"
           }
         }
       }
