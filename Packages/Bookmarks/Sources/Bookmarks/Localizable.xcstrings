@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "Delete Bookmark"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видалити закладку"
+          }
         }
       }
     },
@@ -48,6 +54,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🕵🏻 nothing found. Every word of the search string is being looked up in the title and shelfmark fields of a bookmark."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🕵🏻 нічого не знайдено. Кожне слово пошукового запиту шукається в полях назви та шифру закладки."
           }
         }
       }
@@ -151,6 +163,12 @@
             "state" : "translated",
             "value" : "Generate Recommendations"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Згенерувати рекомендації"
+          }
         }
       }
     },
@@ -168,6 +186,12 @@
             "state" : "translated",
             "value" : "How AI Book Recommendation Works"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Як працюють ШІ-рекомендації книг"
+          }
         }
       }
     },
@@ -178,6 +202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lade Empfehlungen…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завантаження рекомендацій…"
           }
         }
       }
@@ -196,6 +226,12 @@
             "state" : "translated",
             "value" : "Your bookmarks will appear here. Bookmarks can be set for search results as well as borrowed items ☝️"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тут з'являться ваші закладки. Закладки можна встановлювати для результатів пошуку, а також для позичених матеріалів ☝️"
+          }
         }
       }
     },
@@ -212,6 +248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No recommendations found."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рекомендацій не знайдено."
           }
         }
       }
@@ -280,6 +322,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✨ Recommender"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Рекомендатор"
           }
         }
       }

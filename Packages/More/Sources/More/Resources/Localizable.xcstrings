@@ -12,6 +12,12 @@
             "state" : "translated",
             "value" : "aktualisiere Konten…"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "оновлення облікових записів…"
+          }
         }
       }
     }

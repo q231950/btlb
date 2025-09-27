@@ -15,6 +15,12 @@
             "state" : "translated",
             "value" : "Made for you.\n\nBTLB | bɪtlɪb | is a small App that enables you to synchronize your library account with your device. With BTLB you can see which books you have borrowed and how much you owe the libraries for tardily returning items. You can interact with your library as the App can prolong items with a tap of your finger.\nBTLB was first released in July 2010. The project has come into being about a year before the actual release date. It originates from a Mac application I had been working on since 2007.\n\nYou are free to use this App as much as you wish. However, I can not give any garantee for neither functionality of the App itself nor the interaction between this App and the libraries' servers."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Створено для вас.\n\nBTLB | bɪtlɪb | це невеликий додаток, який дозволяє синхронізувати ваш бібліотечний обліковий запис з вашим пристроєм. За допомогою BTLB ви можете переглядати, які книги ви взяли в оренду та скільки ви винні бібліотекам за несвоєчасне повернення матеріалів. Ви можете взаємодіяти з бібліотекою, оскільки додаток може продовжувати терміни одним дотиком пальця.\nBTLB був вперше випущений у липні 2010 року. Проект почав розроблятися приблизно за рік до фактичної дати випуску. Він походить від додатку для Mac, над яким я працював з 2007 року.\n\nВи можете використовувати цей додаток скільки завгодно. Однак я не можу дати жодних гарантій щодо функціональності самого додатку або взаємодії між цим додатком та серверами бібліотек."
+          }
         }
       }
     },
@@ -31,6 +37,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Made with 💖"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зроблено з 💖"
           }
         }
       }
@@ -49,6 +61,12 @@
             "state" : "translated",
             "value" : "Give feedback"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надати відгук"
+          }
         }
       }
     },
@@ -65,6 +83,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Would you like to use the alternate App icon?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бажаєте використовувати альтернативну іконку додатку?"
           }
         }
       }
@@ -83,6 +107,12 @@
             "state" : "translated",
             "value" : "App Icon"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Іконка додатку"
+          }
         }
       }
     },
@@ -99,6 +129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скасувати"
           }
         }
       }
@@ -117,6 +153,12 @@
             "state" : "translated",
             "value" : "Setting for developers and Beta testers"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налаштування для розробників та бета-тестерів"
+          }
         }
       }
     },
@@ -133,6 +175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Debugging"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налагодження"
           }
         }
       }
@@ -151,6 +199,12 @@
             "state" : "translated",
             "value" : "I forgot to write something here."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я забув тут щось написати."
+          }
         }
       }
     },
@@ -167,6 +221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notes"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Примітки"
           }
         }
       }
@@ -186,6 +246,12 @@
             "state" : "translated",
             "value" : "Contents"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зміст"
+          }
         }
       }
     },
@@ -202,6 +268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gesamtkatalog der Bibliothek der Hochschule Anhalt"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загальний каталог бібліотеки Університету прикладних наук Ангальт"
           }
         }
       }
@@ -747,6 +819,12 @@
             "state" : "translated",
             "value" : "The last successful account background update happeened on %@."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Останнє успішне фонове оновлення облікового запису відбулося %@."
+          }
         }
       }
     },
@@ -763,6 +841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Some libraries only support a limited feature set."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Деякі бібліотеки підтримують лише обмежений набір функцій."
           }
         }
       }
@@ -781,6 +865,12 @@
             "state" : "translated",
             "value" : "Libraries"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотеки"
+          }
         }
       }
     },
@@ -797,6 +887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Receive a silently delivered notification in Notification Center upon successful account updates in the background"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отримуйте тихі сповіщення в Центрі сповіщень при успішному фоновому оновленні облікових записів"
           }
         }
       }
@@ -816,6 +912,12 @@
             "state" : "translated",
             "value" : "Notifications"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сповіщення"
+          }
         }
       }
     },
@@ -833,6 +935,12 @@
             "state" : "translated",
             "value" : "This app does not log or share any of your personal information. Your usage is not being tracked.\n\nThirdparty services: Google Image API for displaying covers in search result details of GBV libraries."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цей додаток не зберігає дані у логах і не передає вашу особисту інформацію третім особам. Ваше використання не відстежується.\n\nСторонні сервіси: Google Image API для відображення обкладинок у деталях результатів пошуку бібліотек GBV."
+          }
         }
       }
     },
@@ -849,6 +957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Privacy Policy"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Політика конфіденційності"
           }
         }
       }
@@ -868,6 +982,12 @@
             "state" : "translated",
             "value" : "Rate this app"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оцінити цей додаток"
+          }
         }
       }
     },
@@ -885,6 +1005,12 @@
             "state" : "translated",
             "value" : "Recommend to friend"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порекомендувати другові"
+          }
         }
       }
     },
@@ -901,6 +1027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please note that data transfers will be sent via HyperText Transfer Protocol Secure (HTTPS) as long as your account's library does support this type of encrypted communication. If you happen to see a missing HTTPS encryption where HTTPS encrypted communication should be possible on the serverside please contact me."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, зверніть увагу, що передача даних до серверів бібліотек здійснюється через захищений протокол HTTPS, якщо відповідні сервери підтримують цей тип шифрованої комунікації. Якщо ви помітите відсутнє шифрування HTTPS там, де HTTPS має бути можливим на стороні сервера, будь ласка, зв’яжіться зі мною."
           }
         }
       }
@@ -920,6 +1052,12 @@
             "state" : "translated",
             "value" : "Note on security"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Примітка щодо безпеки"
+          }
         }
       }
     },
@@ -937,6 +1075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Information"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інформація"
           }
         }
       }

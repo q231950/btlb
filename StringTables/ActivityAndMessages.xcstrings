@@ -15,6 +15,12 @@
             "state" : "translated",
             "value" : "incorrect credentials"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "неправильні облікові дані"
+          }
         }
       }
     },
@@ -31,6 +37,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Success"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Успішно"
           }
         }
       }
@@ -49,6 +61,12 @@
             "state" : "translated",
             "value" : "Activating account"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активація облікового запису"
+          }
         }
       }
     },
@@ -66,6 +84,12 @@
             "state" : "translated",
             "value" : "initiating..."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ініціалізація..."
+          }
         }
       }
     },
@@ -82,6 +106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This may take a moment"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Це може зайняти кілька хвилин"
           }
         }
       }
@@ -101,6 +131,12 @@
             "state" : "translated",
             "value" : "Updating accounts"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновлення облікових записів"
+          }
         }
       }
     },
@@ -117,6 +153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Updating libraries"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновлення бібліотек"
           }
         }
       }

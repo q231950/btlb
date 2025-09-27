@@ -16,6 +16,12 @@
             "state" : "translated",
             "value" : "Later"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пізніше"
+          }
         }
       }
     },
@@ -32,6 +38,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A working email is required for recommendation."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для рекомендації потрібна працююча електронна пошта."
           }
         }
       }
@@ -50,6 +62,12 @@
             "state" : "translated",
             "value" : "Recommendation not available"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рекомендація недоступна"
+          }
         }
       }
     },
@@ -66,6 +84,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "<p>BTLB is a truly useful app. It syncs your library account with your Apple device. <br>Have a look at <a href=\"http://itunes.apple.com/en/app/BTLB/id383008918?mt=8\">BTLB on iTunes</a>.</p>"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<p>BTLB - це дійсно корисний додаток. Він синхронізує ваш бібліотечний обліковий запис з вашим Apple пристроєм. <br>Ознайомтеся з <a href=\"http://itunes.apple.com/en/app/BTLB/id383008918?mt=8\">BTLB в iTunes</a>.</p>"
           }
         }
       }
@@ -84,6 +108,12 @@
             "state" : "translated",
             "value" : "made with 💖"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "зроблено з 💖"
+          }
         }
       }
     },
@@ -100,6 +130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ok"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гаразд"
           }
         }
       }
@@ -118,6 +154,12 @@
             "state" : "translated",
             "value" : "Of course, you're busy right now. Reading books? You may recommend BTLB at any time."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звісно, ви зараз зайняті. Читаєте книги? Ви можете рекомендувати BTLB у будь-який час."
+          }
         }
       }
     },
@@ -134,6 +176,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Later maybe"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Можливо, пізніше"
           }
         }
       }
@@ -152,6 +200,12 @@
             "state" : "translated",
             "value" : "I hope you & your friends will enjoy BTLB"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сподіваюся, вам і вашим друзям сподобається BTLB"
+          }
         }
       }
     },
@@ -168,6 +222,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thank you!"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дякую!"
           }
         }
       }

@@ -14,6 +14,12 @@
             "state" : "translated",
             "value" : "%lld items"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld елементів"
+          }
         }
       }
     },
@@ -31,6 +37,12 @@
             "state" : "translated",
             "value" : "${int} Borrowed Items"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${int} позичених елементів"
+          }
         }
       }
     },
@@ -44,6 +56,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB"
+          }
+        },
+        "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "BTLB"

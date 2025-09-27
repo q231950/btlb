@@ -9,6 +9,18 @@
             "state" : "translated",
             "value" : "Hier werden die Details zum selektierten Lesezeichen angezeigt."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A selected bookmark's details will be displayed here."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тут будуть відображені деталі обраної закладки."
+          }
         }
       }
     },
@@ -27,6 +39,12 @@
             "state" : "translated",
             "value" : "Bookmarks"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закладки"
+          }
         }
       }
     },
@@ -43,6 +61,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loan"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видача"
           }
         }
       }
@@ -61,6 +85,12 @@
             "state" : "translated",
             "value" : "Search"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук"
+          }
         }
       }
     },
@@ -77,6 +107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No Bookmarks"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає закладок"
           }
         }
       }

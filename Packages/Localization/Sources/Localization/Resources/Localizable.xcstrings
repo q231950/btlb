@@ -10,6 +10,12 @@
             "state" : "translated",
             "value" : "%@ - %@"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ - %@"
+          }
         }
       }
     },
@@ -26,6 +32,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "item"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "видача"
           }
         }
       }
@@ -45,6 +57,12 @@
             "state" : "translated",
             "value" : "items"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "видачі"
+          }
         }
       }
     },
@@ -63,6 +81,12 @@
             "state" : "translated",
             "value" : "new Account"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "новий обліковий запис"
+          }
         }
       }
     },
@@ -79,6 +103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No active library account. Activate it now."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає активного облікового запису бібліотеки. Активуйте його зараз."
           }
         }
       }
@@ -115,6 +145,12 @@
             "state" : "translated",
             "value" : "activate"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "активувати"
+          }
         }
       }
     },
@@ -131,6 +167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "retry"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "спробувати знову"
           }
         }
       }
@@ -149,6 +191,12 @@
             "state" : "translated",
             "value" : "activating…"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "активація…"
+          }
         }
       }
     },
@@ -165,6 +213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activation failed"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активація не вдалася"
           }
         }
       }
@@ -217,6 +271,12 @@
             "state" : "translated",
             "value" : "Author"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автор"
+          }
         }
       }
     },
@@ -233,6 +293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Location"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Місцезнаходження"
           }
         }
       }
@@ -252,6 +318,12 @@
             "state" : "translated",
             "value" : "Barcode"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Штрих-код"
+          }
         }
       }
     },
@@ -262,6 +334,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abbrechen"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скасувати"
           }
         }
       }
@@ -535,6 +613,12 @@
             "state" : "translated",
             "value" : "day"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "день"
+          }
         }
       }
     },
@@ -552,6 +636,12 @@
             "state" : "translated",
             "value" : "days"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "днів"
+          }
         }
       }
     },
@@ -562,6 +652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fertig"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
           }
         }
       }
@@ -649,6 +745,12 @@
             "state" : "translated",
             "value" : "Library"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотека"
+          }
         }
       }
     },
@@ -683,6 +785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loaned until"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видано до"
           }
         }
       }
@@ -751,6 +859,12 @@
             "state" : "translated",
             "value" : "Add Account"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Додати обліковий запис"
+          }
         }
       }
     },
@@ -817,6 +931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nothing loaned."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нічого не видано."
           }
         }
       }

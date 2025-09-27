@@ -8,6 +8,12 @@
             "state" : "translated",
             "value" : "**%@**"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**%@**"
+          }
         }
       }
     },
@@ -23,6 +29,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "BTLB | bɪtlɪb | is a small App that enables you to synchronize your library account with your device. With BTLB you can see which books you have borrowed and how much you owe the libraries for tardily returning items. You can interact with your library as the App can prolong items with a tap of your finger.\nBTLB was first released in July 2010. The project has come into being about a year before the actual release date. It originates from a Mac application I had been working on since 2007.\n\nYou are free to use this App as much as you wish. However, I can not give any garantee for neither functionality of the App itself nor the interaction between this App and the libraries' servers."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB | bɪtlɪb | це невеликий додаток, який дозволяє синхронізувати ваш бібліотечний обліковий запис з вашим пристроєм. За допомогою BTLB ви можете переглядати, які книги ви взяли в оренду та скільки ви винні бібліотекам за несвоєчасне повернення. Ви можете взаємодіяти з бібліотекою, оскільки додаток може продовжувати терміни одним дотиком.\nBTLB був вперше випущений у липні 2010 року. Проект почав розроблятися приблизно за рік до фактичної дати випуску. Він походить від додатку для Mac, над яким я працював з 2007 року.\n\nВи можете використовувати цей додаток скільки завгодно. Однак я не можу дати жодних гарантій щодо функціональності додатку або взаємодії між додатком та серверами бібліотек."
           }
         }
       }
@@ -41,6 +53,12 @@
             "state" : "translated",
             "value" : "**Made with 💖 – made for you.**"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Зроблено з 💖 – зроблено для вас.**"
+          }
         }
       }
     },
@@ -57,6 +75,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Should the AI Recommender be available in the Bookmarks section?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чи має бути доступний ШІ-рекомендатор у розділі закладок?"
           }
         }
       }
@@ -75,6 +99,12 @@
             "state" : "translated",
             "value" : "✨AI Recommender"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ШІ-рекомендатор"
+          }
         }
       }
     },
@@ -90,6 +120,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Would you like to use the alternate App icon?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чи хотіли б ви використовувати альтернативну іконку додатка?"
           }
         }
       }
@@ -107,6 +143,12 @@
             "state" : "translated",
             "value" : "App Icon"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Іконка додатка"
+          }
         }
       }
     },
@@ -122,6 +164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Setting for developers and Beta testers"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налаштування для розробників та бета-тестерів"
           }
         }
       }
@@ -139,6 +187,12 @@
             "state" : "translated",
             "value" : "Debugging"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відлагодження"
+          }
         }
       }
     },
@@ -148,6 +202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "GitHub Repository"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub-репозиторій"
           }
         }
       }
@@ -184,6 +244,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contents"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зміст"
           }
         }
       }

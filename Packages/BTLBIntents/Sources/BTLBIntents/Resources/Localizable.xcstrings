@@ -38,6 +38,36 @@
               }
             }
           }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Всі %lld вибрані елементи було поновлено"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Всі %lld вибраних елементів було поновлено"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вибраний елемент було поновлено"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Всі %lld вибраних елементів було поновлено"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -53,6 +83,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No renewable items"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає елементів для поновлення"
           }
         }
       }
@@ -71,6 +107,12 @@
             "state" : "translated",
             "value" : "No item was selected for renewal"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вибрано жодного елемента для поновлення"
+          }
         }
       }
     },
@@ -87,6 +129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "To renew an item you need to select it ☝️try once again or renew your items at a later point in time."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Щоб поновити елемент, потрібно його вибрати ☝️спробуйте ще раз або поновіть ваші елементи пізніше."
           }
         }
       }
@@ -128,6 +176,36 @@
               }
             }
           }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Жоден з %lld вибраних елементів не було поновлено."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Жоден з %lld вибраних елементів не було поновлено."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вибраний елемент не було поновлено."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Жоден з %lld вибраних елементів не було поновлено."
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -143,6 +221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Only %1$lld out of the %2$lld selected items have been renewed"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лише %1$lld з %2$lld вибраних елементів було поновлено"
           }
         }
       }
@@ -161,6 +245,12 @@
             "state" : "translated",
             "value" : "Have you added an account? When did you last refresh the loans list?"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чи додали ви обліковий запис? Коли ви останній раз оновлювали список позичок?"
+          }
         }
       }
     },
@@ -178,6 +268,12 @@
             "state" : "translated",
             "value" : "Has the item expired already or has the maximum number of renewals been reached? Someone might as well have placed a preorder on the item."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чи вже закінчився термін позички або досягнуто максимальної кількості поновлень? Можливо, хтось також зробив попереднє замовлення на цей елемент."
+          }
         }
       }
     },
@@ -194,6 +290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Have the non renewed items possibly expired already or has the maximum number of renewals been reached? Someone might as well have placed a preorder on an item."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чи можливо вже закінчився термін непоновлених елементів або досягнуто максимальної кількості поновлень? Можливо, хтось також зробив попереднє замовлення на елемент."
           }
         }
       }

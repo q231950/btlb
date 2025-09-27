@@ -15,6 +15,12 @@
             "state" : "translated",
             "value" : "Accounts"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Облікові записи"
+          }
         }
       }
     },
@@ -33,6 +39,12 @@
             "state" : "translated",
             "value" : "Action"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дія"
+          }
         }
       }
     },
@@ -49,6 +61,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Interact with this loan"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Взаємодіяти з цією видачею"
           }
         }
       }
@@ -67,6 +85,12 @@
             "state" : "translated",
             "value" : "Bookmarks"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закладки"
+          }
         }
       }
     },
@@ -83,6 +107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Charges"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Платежі"
           }
         }
       }
@@ -101,6 +131,12 @@
             "state" : "translated",
             "value" : "Edits account settings"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Редагувати налаштування облікового запису"
+          }
         }
       }
     },
@@ -117,6 +153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done editing this account"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завершити редагування облікового запису"
           }
         }
       }
@@ -136,6 +178,12 @@
             "state" : "translated",
             "value" : "Edit"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Редагувати"
+          }
         }
       }
     },
@@ -152,6 +200,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
           }
         }
       }
@@ -171,6 +225,12 @@
             "state" : "translated",
             "value" : "Info"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інформація"
+          }
         }
       }
     },
@@ -187,6 +247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Displays imprint"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відображає інформацію про додаток"
           }
         }
       }
@@ -206,6 +272,12 @@
             "state" : "translated",
             "value" : "List of loans"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Список видач"
+          }
         }
       }
     },
@@ -222,6 +294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Displaying %1$i loans of %2$i accounts"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відображення %1$i видач з %2$i облікових записів"
           }
         }
       }
@@ -240,6 +318,12 @@
             "state" : "translated",
             "value" : "Loans"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видачі"
+          }
         }
       }
     },
@@ -256,6 +340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Більше"
           }
         }
       }
@@ -275,16 +365,34 @@
             "state" : "translated",
             "value" : "Send feedback"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надіслати відгук"
+          }
         }
       }
     },
     "Rate_request_button_Hint" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "öffnet den AppStore"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opens app store"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відкриває магазин додатків"
           }
         }
       }
@@ -302,6 +410,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук"
           }
         }
       }
@@ -321,6 +435,12 @@
             "state" : "translated",
             "value" : "Set search catalogue"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обрати каталог для пошуку"
+          }
         }
       }
     },
@@ -337,6 +457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set the catalogue to search in"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обрати каталог для пошуку"
           }
         }
       }
@@ -355,6 +481,12 @@
             "state" : "translated",
             "value" : "Show filter options"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показати опції фільтра"
+          }
         }
       }
     },
@@ -372,6 +504,12 @@
             "state" : "translated",
             "value" : "Update"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновити"
+          }
         }
       }
     },
@@ -388,6 +526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Updates loans"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновляє видачі"
           }
         }
       }

@@ -15,6 +15,12 @@
             "state" : "translated",
             "value" : "A selected loan's details will be displayed here."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тут будуть відображені деталі обраної видачі."
+          }
         }
       }
     },
@@ -33,6 +39,12 @@
             "state" : "translated",
             "value" : "Actions"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дії"
+          }
         }
       }
     },
@@ -49,6 +61,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add\nbookmark"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Додати\nзакладку"
           }
         }
       }
@@ -67,6 +85,12 @@
             "state" : "translated",
             "value" : "loans"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "видачі"
+          }
         }
       }
     },
@@ -84,6 +108,12 @@
             "state" : "translated",
             "value" : "Bookmark"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закладка"
+          }
         }
       }
     },
@@ -100,6 +130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скасувати"
           }
         }
       }
@@ -119,6 +155,12 @@
             "state" : "translated",
             "value" : "Email this to..."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надіслати електронною поштою до..."
+          }
         }
       }
     },
@@ -136,6 +178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Email to %1$@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Електронний лист до %1$@"
           }
         }
       }
@@ -155,6 +203,12 @@
             "state" : "translated",
             "value" : "%2$@ is expired since %2$@. Return this item as soon as possible."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ прострочено з %2$@. Поверніть цей примірник якомога швидше."
+          }
         }
       }
     },
@@ -171,6 +225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Expired since"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прострочено з"
           }
         }
       }
@@ -190,6 +250,12 @@
             "state" : "translated",
             "value" : "Loan"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видача"
+          }
         }
       }
     },
@@ -206,6 +272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "borrowed"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "видано"
           }
         }
       }
@@ -225,6 +297,12 @@
             "state" : "translated",
             "value" : "not borrowed yet"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ще не видано"
+          }
         }
       }
     },
@@ -242,6 +320,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prolong attempt failed. \"%1$@\" has already expired"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помилка продовження. \"%1$@\" вже прострочено"
           }
         }
       }
@@ -261,6 +345,12 @@
             "state" : "translated",
             "value" : "Too late"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запізно"
+          }
         }
       }
     },
@@ -278,6 +368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A internet connection is required to prolong a loan"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для продовження видачі потрібне інтернет-з'єднання"
           }
         }
       }
@@ -297,6 +393,12 @@
             "state" : "translated",
             "value" : "No Connection"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає з'єднання"
+          }
         }
       }
     },
@@ -314,6 +416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ready for collection"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "готово до отримання"
           }
         }
       }
@@ -333,6 +441,12 @@
             "state" : "translated",
             "value" : "please collect the item"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "будь ласка, отримайте примірник"
+          }
         }
       }
     },
@@ -349,6 +463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loans"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видачі"
           }
         }
       }
@@ -367,6 +487,12 @@
             "state" : "translated",
             "value" : "No loans"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає видач"
+          }
         }
       }
     },
@@ -383,6 +509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "none"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "немає"
           }
         }
       }
@@ -401,6 +533,12 @@
             "state" : "translated",
             "value" : "This item can't be prolonged as it has yet to be borrowed. Fetch it from the library."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цей примірник не можна продовжити, оскільки він ще не був виданий. Отримайте його в бібліотеці."
+          }
         }
       }
     },
@@ -418,6 +556,12 @@
             "state" : "translated",
             "value" : "Can't prolong"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неможливо продовжити"
+          }
         }
       }
     },
@@ -434,6 +578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You have not setup any account. There is nothing to display. Please setup a new account in the accounts view."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви ще не налаштували жодного облікового запису. Немає нічого для відображення. Будь ласка, налаштуйте новий обліковий запис у відображенні облікових записів."
           }
         }
       }
@@ -453,6 +603,12 @@
             "state" : "translated",
             "value" : "Post on Facebook"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Опублікувати у Facebook"
+          }
         }
       }
     },
@@ -470,6 +626,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Failed to prolong"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помилка продовження"
           }
         }
       }
@@ -489,6 +651,12 @@
             "state" : "translated",
             "value" : "Prolonging \"%1$@\" did fail."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовження \"%1$@\" не вдалося."
+          }
         }
       }
     },
@@ -506,6 +674,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prolong this loan"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжити цю видачу"
           }
         }
       }
@@ -525,6 +699,12 @@
             "state" : "translated",
             "value" : "Prolonged"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжено"
+          }
         }
       }
     },
@@ -542,6 +722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ has successfully been prolonged. Please update your account for applying the changes to the loan."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ було успішно продовжено. Будь ласка, оновіть ваш обліковий запис, щоб застосувати зміни до видачі."
           }
         }
       }
@@ -561,6 +747,12 @@
             "state" : "translated",
             "value" : "Rate this"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оцінити"
+          }
         }
       }
     },
@@ -578,6 +770,12 @@
             "state" : "translated",
             "value" : "Remove\nbookmark"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видалити\nзакладку"
+          }
         }
       }
     },
@@ -594,6 +792,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove bookmark"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видалити закладку"
           }
         }
       }
