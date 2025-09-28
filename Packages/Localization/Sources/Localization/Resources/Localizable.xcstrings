@@ -127,6 +127,12 @@
             "state" : "translated",
             "value" : "No active library account. Activate it now."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш обліковий запис бібліотеки не активовано. Активуйте його зараз."
+          }
         }
       }
     },
@@ -237,6 +243,12 @@
             "state" : "translated",
             "value" : "Remarks:"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Примітки:"
+          }
         }
       }
     },
@@ -253,6 +265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edition:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видання:"
           }
         }
       }
@@ -336,6 +354,12 @@
             "value" : "Abbrechen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -358,6 +382,12 @@
             "state" : "translated",
             "value" : "Currentness of data"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Актуальність даних"
+          }
         }
       }
     },
@@ -374,6 +404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remarks"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Примітки"
           }
         }
       }
@@ -392,6 +428,12 @@
             "state" : "translated",
             "value" : "Issue"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Випуск"
+          }
         }
       }
     },
@@ -409,6 +451,12 @@
             "state" : "translated",
             "value" : "Published"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Опубліковано"
+          }
         }
       }
     },
@@ -422,6 +470,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN/EAN"
+          }
+        },
+        "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN/EAN"
@@ -443,6 +497,12 @@
             "state" : "translated",
             "value" : "Links"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Посилання"
+          }
         }
       }
     },
@@ -459,6 +519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Original Title"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оригінальна назва"
           }
         }
       }
@@ -477,6 +543,12 @@
             "state" : "translated",
             "value" : "Persons"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Особи"
+          }
         }
       }
     },
@@ -493,6 +565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Price"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ціна"
           }
         }
       }
@@ -511,6 +589,12 @@
             "state" : "translated",
             "value" : "Series"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Серія"
+          }
         }
       }
     },
@@ -527,6 +611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keywords"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ключові слова"
           }
         }
       }
@@ -545,6 +635,12 @@
             "state" : "translated",
             "value" : "Signature"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сигнатура"
+          }
         }
       }
     },
@@ -561,6 +657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Language"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мова"
           }
         }
       }
@@ -579,6 +681,12 @@
             "state" : "translated",
             "value" : "Full Title"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повна назва"
+          }
         }
       }
     },
@@ -595,6 +703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Size"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обсяг"
           }
         }
       }
@@ -654,6 +768,12 @@
             "value" : "Fertig"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -676,6 +796,12 @@
             "state" : "translated",
             "value" : "Published:"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Опубліковано:"
+          }
         }
       }
     },
@@ -692,6 +818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Identifier"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ідентифікатор"
           }
         }
       }
@@ -710,6 +842,12 @@
             "state" : "translated",
             "value" : "Interest"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зацікавлення"
+          }
         }
       }
     },
@@ -726,6 +864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN/Price:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN/Ціна:"
           }
         }
       }
@@ -768,6 +912,12 @@
             "state" : "translated",
             "value" : "Link(s):"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Посилання:"
+          }
         }
       }
     },
@@ -809,6 +959,12 @@
             "state" : "translated",
             "value" : "Type"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тип"
+          }
         }
       }
     },
@@ -826,6 +982,12 @@
             "state" : "translated",
             "value" : "Add your library account"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Додайте ваш обліковий запис бібліотеки"
+          }
         }
       }
     },
@@ -842,6 +1004,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No library account found. Add one now."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обліковий запис бібліотеки не знайдено. Додайте зараз."
           }
         }
       }
@@ -881,6 +1049,12 @@
             "state" : "translated",
             "value" : "Pretty empty here ☝️ this will change once you have setup your library account."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Досить порожньо ☝️ це зміниться, коли ви налаштуєте ваш обліковий запис бібліотеки."
+          }
         }
       }
     },
@@ -898,6 +1072,12 @@
             "state" : "translated",
             "value" : "Activate a library account now."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активуйте обліковий запис бібліотеки зараз."
+          }
         }
       }
     },
@@ -914,6 +1094,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "None of the library accounts is activated. Activate one now."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жоден з облікових записів бібліотеки не активовано. Активуйте один зараз."
           }
         }
       }
@@ -956,6 +1142,12 @@
             "state" : "translated",
             "value" : "No info"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає інформації"
+          }
         }
       }
     },
@@ -972,6 +1164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "not activated"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "не активовано"
           }
         }
       }
@@ -990,6 +1188,12 @@
             "state" : "translated",
             "value" : "Enjoy the items"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Насолоджуйтеся матеріалами"
+          }
         }
       }
     },
@@ -1006,6 +1210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Account updated 👩‍🏫🧑🏻‍🏫"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обліковий запис оновлено 👩‍🏫🧑🏻‍🏫"
           }
         }
       }
@@ -1024,6 +1234,12 @@
             "state" : "translated",
             "value" : "No Library Account"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає облікового запису бібліотеки"
+          }
         }
       }
     },
@@ -1040,6 +1256,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add one now"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Додати зараз"
           }
         }
       }
@@ -1058,6 +1280,12 @@
             "state" : "translated",
             "value" : "Nothing has changed"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нічого не змінилося"
+          }
         }
       }
     },
@@ -1075,6 +1303,12 @@
             "state" : "translated",
             "value" : "Library account up-to-date 😌"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обліковий запис бібліотеки актуальний 😌"
+          }
         }
       }
     },
@@ -1091,6 +1325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "refresh accounts"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "оновити облікові записи"
           }
         }
       }
@@ -1110,6 +1350,12 @@
             "state" : "translated",
             "value" : "renew"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "поновити"
+          }
         }
       }
     },
@@ -1126,6 +1372,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "try to renew"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "спробувати поновити"
           }
         }
       }
@@ -1144,6 +1396,12 @@
             "state" : "translated",
             "value" : "is due on %@."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "потрібно повернути %@."
+          }
         }
       }
     },
@@ -1160,6 +1418,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "is overdue since %@."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "прострочено з %@."
           }
         }
       }
@@ -1178,6 +1442,12 @@
             "state" : "translated",
             "value" : "is due today and not renewable!"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "потрібно повернути сьогодні і не можна поновити!"
+          }
         }
       }
     },
@@ -1194,6 +1464,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "is due today; potentially renewable."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "потрібно повернути сьогодні; можливо поновлення."
           }
         }
       }
@@ -1212,6 +1488,12 @@
             "state" : "translated",
             "value" : "%1@ could not be renewed. Please try again in the app or return the item to the library"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1@ не вдалося поновити. Спробуйте ще раз у додатку або поверніть матеріал до бібліотеки"
+          }
         }
       }
     },
@@ -1228,6 +1510,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Failed to renew 😢"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вдалося поновити 😢"
           }
         }
       }
@@ -1246,6 +1534,12 @@
             "state" : "translated",
             "value" : "%1@ is now due on %2@."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1@ тепер потрібно повернути %2@."
+          }
         }
       }
     },
@@ -1262,6 +1556,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Successfully renewed 🤖"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Успішно поновлено 🤖"
           }
         }
       }
@@ -1280,6 +1580,12 @@
             "state" : "translated",
             "value" : "Organisation(s):"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Організація(ї):"
+          }
         }
       }
     },
@@ -1296,6 +1602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Original Language"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оригінальна мова"
           }
         }
       }
@@ -1314,6 +1626,12 @@
             "state" : "translated",
             "value" : "Original Title"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оригінальна назва"
+          }
         }
       }
     },
@@ -1329,6 +1647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1lld loans on%2lld accounts"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1lld видач на %2lld облікових записах"
           }
         }
       }
@@ -1346,6 +1670,12 @@
             "state" : "translated",
             "value" : "1 loan on%2lld accounts"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 видача на %2lld облікових записах"
+          }
         }
       }
     },
@@ -1362,6 +1692,12 @@
             "state" : "translated",
             "value" : "%1lld loans"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1lld видач"
+          }
         }
       }
     },
@@ -1377,6 +1713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 loan"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 видача"
           }
         }
       }
@@ -1397,6 +1739,12 @@
             "state" : "translated",
             "value" : "Person(s):"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Особа(и):"
+          }
         }
       }
     },
@@ -1414,6 +1762,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Person(s):"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Особа(и):"
           }
         }
       }
@@ -1433,6 +1787,12 @@
             "state" : "translated",
             "value" : "Renewals"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поновлення"
+          }
         }
       }
     },
@@ -1449,6 +1809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Series:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Серія:"
           }
         }
       }
@@ -1468,6 +1834,12 @@
             "state" : "translated",
             "value" : "Reservations"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бронювання"
+          }
         }
       }
     },
@@ -1484,6 +1856,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keywords:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ключові слова:"
           }
         }
       }
@@ -1502,6 +1880,12 @@
             "state" : "translated",
             "value" : "Shelf Mark"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Полична позначка"
+          }
         }
       }
     },
@@ -1519,6 +1903,12 @@
             "state" : "translated",
             "value" : "Signature:"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сигнатура:"
+          }
         }
       }
     },
@@ -1535,6 +1925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Language:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мова:"
           }
         }
       }
@@ -1554,6 +1950,12 @@
             "state" : "translated",
             "value" : "Status"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Статус"
+          }
         }
       }
     },
@@ -1570,6 +1972,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Part:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Частина:"
           }
         }
       }
@@ -1588,6 +1996,12 @@
             "state" : "translated",
             "value" : "Title:"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Назва:"
+          }
         }
       }
     },
@@ -1604,6 +2018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Scope:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обсяг:"
           }
         }
       }
@@ -1622,6 +2042,12 @@
             "state" : "translated",
             "value" : "until next expiry date"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "до наступної дати повернення"
+          }
         }
       }
     },
@@ -1638,6 +2064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "until upcoming expiry date"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "до найближчої дати виплати"
           }
         }
       }
@@ -1657,6 +2089,12 @@
             "state" : "translated",
             "value" : "Volume No."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "№ тому"
+          }
         }
       }
     },
@@ -1673,6 +2111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Shows the number of days until the next expiry date."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показує кількість днів до наступної дати повернення."
           }
         }
       }
@@ -1692,6 +2136,12 @@
             "state" : "translated",
             "value" : "Remaining Days"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дні, що залишилися"
+          }
         }
       }
     },
@@ -1709,6 +2159,12 @@
             "state" : "translated",
             "value" : "Account"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обліковий запис"
+          }
         }
       }
     },
@@ -1725,6 +2181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sign in"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Увійти"
           }
         }
       }

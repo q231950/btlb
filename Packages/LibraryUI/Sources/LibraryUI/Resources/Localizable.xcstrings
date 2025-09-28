@@ -90,6 +90,12 @@
             "state" : "translated",
             "value" : "Die Netzwerkverbindung ist fehlgeschlagen."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мережевий запит не вдався."
+          }
         }
       }
     },
@@ -105,6 +111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The requested functionality is not yet implemented for the library system of the account with the username “%@”."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запитувана функціональність ще не реалізована для бібліотечної системи облікового запису з іменем користувача “%@”."
           }
         }
       }
