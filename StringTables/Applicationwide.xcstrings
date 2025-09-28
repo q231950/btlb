@@ -15,6 +15,12 @@
             "state" : "translated",
             "value" : "3128"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3128"
+          }
         }
       }
     },
@@ -141,6 +147,12 @@
             "state" : "translated",
             "value" : "Hier werden die Details der Konto- und Infosektion angezeigt."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тут будуть відображені деталі розділу Облікові записи та Інформація."
+          }
         }
       }
     },
@@ -157,6 +169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Details on"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Деталі про"
           }
         }
       }
@@ -175,6 +193,12 @@
             "state" : "translated",
             "value" : "Cancel"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скасувати"
+          }
         }
       }
     },
@@ -191,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove Proxy"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видалити проксі"
           }
         }
       }
@@ -209,6 +239,12 @@
             "state" : "translated",
             "value" : "Maybe you have no network? Or try without a network proxy?"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Можливо, у вас немає мережі? Або спробуйте без мережевого проксі?"
+          }
         }
       }
     },
@@ -225,6 +261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connection Error"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помилка з'єднання"
           }
         }
       }
@@ -243,6 +285,12 @@
             "state" : "translated",
             "value" : "Libraries"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотеки"
+          }
         }
       }
     },
@@ -259,6 +307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Updating libraries"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновлення бібліотек"
           }
         }
       }
@@ -277,6 +331,12 @@
             "state" : "translated",
             "value" : "BTLB functionality will be limited"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Функціональність BTLB буде обмежена"
+          }
         }
       }
     },
@@ -293,6 +353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loading..."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завантаження..."
           }
         }
       }
@@ -311,6 +377,12 @@
             "state" : "translated",
             "value" : "Loans"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позики"
+          }
         }
       }
     },
@@ -327,6 +399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Більше"
           }
         }
       }
@@ -345,6 +423,12 @@
             "state" : "translated",
             "value" : "You have never updated your accounts. Tap on the update button at the top right corner of the screen to run an update now"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви ніколи не оновлювали свої облікові записи. Натисніть на кнопку оновлення в правому верхньому куті екрана, щоб запустити оновлення зараз"
+          }
         }
       }
     },
@@ -361,6 +445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No Connection"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає з'єднання"
           }
         }
       }
@@ -379,6 +469,12 @@
             "state" : "translated",
             "value" : "BTLB was not able to automatically synchronize any account"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB не зміг автоматично синхронізувати жоден обліковий запис"
+          }
         }
       }
     },
@@ -395,6 +491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No Connection"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає з'єднання"
           }
         }
       }
@@ -413,6 +515,12 @@
             "state" : "translated",
             "value" : "Service unavailable"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сервіс недоступний"
+          }
         }
       }
     },
@@ -429,6 +537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please try again later"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, спробуйте пізніше"
           }
         }
       }
@@ -447,6 +561,12 @@
             "state" : "translated",
             "value" : "Account was not activated. Please check your internet connection."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обліковий запис не було активовано. Будь ласка, перевірте своє інтернет-з'єднання."
+          }
         }
       }
     },
@@ -463,6 +583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ was not activated because of missing login credentials. Please enter your user ID as well as password."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ не було активовано через відсутні дані для входу. Будь ласка, введіть свій ідентифікатор користувача та пароль."
           }
         }
       }
@@ -481,6 +607,12 @@
             "state" : "translated",
             "value" : "%@ was not activated because of wrong login data."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ не було активовано через неправильні дані для входу."
+          }
         }
       }
     },
@@ -497,6 +629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please enter your username and password"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, введіть своє ім'я користувача та пароль"
           }
         }
       }
@@ -515,6 +653,12 @@
             "state" : "translated",
             "value" : "Please enter your password"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, введіть свій пароль"
+          }
         }
       }
     },
@@ -531,6 +675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please enter a username"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, введіть ім'я користувача"
           }
         }
       }
@@ -549,6 +699,12 @@
             "state" : "translated",
             "value" : "not now"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "не зараз"
+          }
         }
       }
     },
@@ -565,6 +721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ was not updated because of wrong login data"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ не було оновлено через неправильні дані для входу"
           }
         }
       }
@@ -583,6 +745,12 @@
             "state" : "translated",
             "value" : "None of your accounts is active. Activate at least one account in the accounts view"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жоден з ваших облікових записів не активний. Активуйте принаймні один обліковий запис у перегляді облікових записів"
+          }
         }
       }
     },
@@ -599,6 +767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your account is not active. Activate it in the accounts view"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш обліковий запис не активний. Активуйте його у перегляді облікових записів"
           }
         }
       }
@@ -617,6 +791,12 @@
             "state" : "translated",
             "value" : "Nothing to update"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нічого оновлювати"
+          }
         }
       }
     },
@@ -633,6 +813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Operation failed"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Операція не вдалася"
           }
         }
       }
@@ -651,6 +837,12 @@
             "state" : "translated",
             "value" : "Please use a library known to the application"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, використовуйте бібліотеку, відому програмі"
+          }
         }
       }
     },
@@ -667,6 +859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Port"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порт"
           }
         }
       }
@@ -685,6 +883,12 @@
             "state" : "translated",
             "value" : "Proxy address"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Адреса проксі"
+          }
         }
       }
     },
@@ -702,6 +906,12 @@
             "state" : "translated",
             "value" : "Proxy error"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помилка проксі"
+          }
         }
       }
     },
@@ -715,6 +925,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "proxyuhh.uni-hamburg.de"
+          }
+        },
+        "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "proxyuhh.uni-hamburg.de"
@@ -736,6 +952,12 @@
             "state" : "translated",
             "value" : "Unable to create request"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неможливо створити запит"
+          }
         }
       }
     },
@@ -752,6 +974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reservations"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Резервування"
           }
         }
       }
@@ -770,6 +998,12 @@
             "state" : "translated",
             "value" : "synchronizing..."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "синхронізація..."
+          }
         }
       }
     },
@@ -787,6 +1021,12 @@
             "state" : "translated",
             "value" : "The action could not be performed because the library is unknown."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дію не вдалося виконати, оскільки бібліотека невідома."
+          }
         }
       }
     },
@@ -803,6 +1043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Try again"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спробувати знову"
           }
         }
       }
@@ -822,6 +1068,12 @@
             "state" : "translated",
             "value" : "undefined library name"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "невизначена назва бібліотеки"
+          }
         }
       }
     },
@@ -839,6 +1091,12 @@
             "state" : "translated",
             "value" : "Your account was not updated. Please check your internet connection."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш обліковий запис не було оновлено. Будь ласка, перевірте своє інтернет-з'єднання."
+          }
         }
       }
     },
@@ -855,6 +1113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "None of your accounts was updated. Please check your internet connection."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жоден з ваших облікових записів не було оновлено. Будь ласка, перевірте своє інтернет-з'єднання."
           }
         }
       }

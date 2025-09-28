@@ -68,7 +68,6 @@
       }
     },
     "APP_NAME_SYNONYM_1" : {
-      "comment" : "InfoPlist.strings\n  BTLB\n\n  Created by Martin Kim Dung-Pham on 13.03.24.\n  Copyright © 2024 neoneon. All rights reserved.",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -150,7 +149,8 @@
             "value" : "BTLB α"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "CFBundleName" : {
       "comment" : "Bundle name",
@@ -168,12 +168,19 @@
             "value" : "BTLB α"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "CFBundleSpokenName" : {
       "comment" : "Accessibility Bundle Name",
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -204,7 +211,8 @@
             "value" : "Copyright © 2024 neoneon. Усі права захищені."
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     }
   },
   "version" : "1.0"

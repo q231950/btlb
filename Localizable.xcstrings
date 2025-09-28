@@ -268,6 +268,12 @@
             "state" : "translated",
             "value" : "Search"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук"
+          }
         }
       }
     },
@@ -283,6 +289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виконати пошук"
           }
         }
       }
@@ -300,6 +312,12 @@
             "state" : "translated",
             "value" : "Search"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук"
+          }
         }
       }
     },
@@ -316,6 +334,12 @@
             "state" : "translated",
             "value" : "Perform a text search."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виконати текстовий пошук."
+          }
         }
       }
     },
@@ -331,6 +355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук"
           }
         }
       }
@@ -394,6 +424,12 @@
             "state" : "translated",
             "value" : "Library"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотека"
+          }
         }
       }
     },
@@ -410,6 +446,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Renew selected items from your list of loaned items."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжити обрані примірники зі списку випозичених матеріалів."
           }
         }
       }
@@ -428,6 +470,12 @@
             "state" : "translated",
             "value" : "Select Items"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обрати примірники"
+          }
         }
       }
     },
@@ -444,6 +492,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "book"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "книга"
           }
         }
       }
@@ -462,6 +516,12 @@
             "state" : "translated",
             "value" : "library"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "бібліотека"
+          }
         }
       }
     },
@@ -478,6 +538,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "media"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "медіа"
           }
         }
       }
@@ -496,6 +562,12 @@
             "state" : "translated",
             "value" : "prolong"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "продовжити"
+          }
         }
       }
     },
@@ -512,6 +584,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "renew"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "продовження"
           }
         }
       }
@@ -530,6 +608,12 @@
             "state" : "translated",
             "value" : "Renewal"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовження"
+          }
         }
       }
     },
@@ -547,6 +631,12 @@
             "state" : "translated",
             "value" : "Renew Items"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжити примірники"
+          }
         }
       }
     },
@@ -563,6 +653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Renew with bɪtlɪb"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжити з bɪtlɪb"
           }
         }
       }
@@ -602,6 +698,12 @@
             "state" : "translated",
             "value" : "Search BTLB"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук у BTLB"
+          }
         }
       }
     },
@@ -618,6 +720,12 @@
             "state" : "translated",
             "value" : "Enter a search term and perform a search."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введіть пошуковий запит і виконайте пошук."
+          }
         }
       }
     },
@@ -633,6 +741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search for ‘%@’"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук за запитом '%@'"
           }
         }
       }
@@ -673,6 +787,12 @@
             "state" : "translated",
             "value" : "Search with bɪtlɪb"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук з bɪtlɪb"
+          }
         }
       }
     },
@@ -688,6 +808,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The term to search for."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Термін для пошуку."
           }
         }
       }
