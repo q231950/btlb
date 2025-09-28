@@ -13,7 +13,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The book recommender uses a large language model (LLM) to suggest books based on your selection of bookmarks. In order to provide suggestions the _title_ and _author_ of each selected item is sent to an LLM provider. If you feel uncomfortable with submitting data to the LLM provider you can turn off the Recommender feature in the settings section of the app or simply don’t use it. Please also note that because of the nature of LLMs the suggestions might be funny/weird and may contain unexpected content – there may even be recommendations of books which do not exist in the real world. Please be aware of this and send feedback in case of unexpected results."
+            "value" : "The book recommender uses a large language model (LLM) to suggest books based on your selection of bookmarks. In order to provide suggestions the _title_ and _author_ of each selected item is sent to an LLM provider. If you feel uncomfortable with submitting data to the LLM provider you can turn off the Recommender feature in the settings section of the app or simply don't use it. Please also note that because of the nature of LLMs the suggestions might be funny/weird and may contain unexpected content – there may even be recommendations of books which do not exist in the real world. Please be aware of this and send feedback in case of unexpected results."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рекомендатор книг використовує велику мовну модель (ВММ) для пропонування книг на основі вашого вибору закладок. Для надання пропозицій _назва_ та _автор_ кожного обраного елемента надсилаються провайдеру ВММ. Якщо вам некомфортно передавати дані провайдеру ВММ, ви можете вимкнути функцію Рекомендатора в налаштуваннях програми або просто не використовувати її. Також зауважте, що через природу ВММ пропозиції можуть бути кумедними/дивними та містити неочікуваний контент – навіть можуть з'явитися рекомендації книг, які не існують у реальному світі. Будьте свідомі цього та надсилайте зворотний зв'язок у випадку неочікуваних результатів."
           }
         }
       }
@@ -78,6 +84,12 @@
             "state" : "translated",
             "value" : "Additional Information:"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Додаткова інформація:"
+          }
         }
       }
     },
@@ -94,6 +106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "AI Recommender Feedback"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зворотний зв'язок про ШІ-рекомендатор"
           }
         }
       }
@@ -112,6 +130,12 @@
             "state" : "translated",
             "value" : "Any other relevant details:"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь-які інші відповідні деталі:"
+          }
         }
       }
     },
@@ -129,6 +153,12 @@
             "state" : "translated",
             "value" : "Issue Description:"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Опис проблеми:"
+          }
         }
       }
     },
@@ -145,6 +175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please describe the issue you encountered with the AI Recommender:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, опишіть проблему, з якою ви зіткнулися з ШІ-рекомендатором:"
           }
         }
       }
@@ -202,6 +238,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lade Empfehlungen…"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading recommendations…"
           }
         },
         "uk" : {
@@ -272,6 +314,12 @@
             "state" : "translated",
             "value" : "These are recommendations based on the selected items. Tap on any to check for availability in your library."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Це рекомендації на основі обраних елементів. Натисніть на будь-який, щоб перевірити наявність у вашій бібліотеці."
+          }
         }
       }
     },
@@ -289,6 +337,12 @@
             "state" : "translated",
             "value" : "✨ Recommender Feedback"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Зворотний зв'язок про Рекомендатор"
+          }
         }
       }
     },
@@ -305,6 +359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please select the bookmarks you would like to get recommendations for"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, оберіть закладки, для яких ви хочете отримати рекомендації"
           }
         }
       }

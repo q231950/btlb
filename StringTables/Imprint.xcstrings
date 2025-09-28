@@ -292,6 +292,12 @@
             "state" : "translated",
             "value" : "Onlinekatalog der Commerzbibliothek"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Комерційної бібліотеки"
+          }
         }
       }
     },
@@ -308,6 +314,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Online-Katalog der Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Університетської та дослідницької бібліотеки Ерфурт/Гота"
           }
         }
       }
@@ -326,6 +338,12 @@
             "state" : "translated",
             "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нижньосаксонська державна та університетська бібліотека Геттінгена (SUB)"
+          }
         }
       }
     },
@@ -342,6 +360,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Online-Katalog der Universitätsbibliothek Greifswald"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Університетської бібліотеки Грайфсвальда"
           }
         }
       }
@@ -360,6 +384,12 @@
             "state" : "translated",
             "value" : "Campus-Katalog Hamburg"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кампус-каталог Гамбурга"
+          }
         }
       }
     },
@@ -376,6 +406,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stiftung Hamburger Öffentliche Bücherhallen"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фонд гамбурзьких публічних бібліотек"
           }
         }
       }
@@ -394,6 +430,12 @@
             "state" : "translated",
             "value" : "Technische Informationsbibliothek (TIB)"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Технічна інформаційна бібліотека (TIB)"
+          }
         }
       }
     },
@@ -410,6 +452,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gesamt-Katalog der Bibliothek"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загальний каталог бібліотеки"
           }
         }
       }
@@ -428,6 +476,12 @@
             "state" : "translated",
             "value" : "Katalog des Hochschulinformations- und Bibliotheksservice (HIBS)"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каталог служби вищої освіти інформації та бібліотечного сервісу (HIBS)"
+          }
         }
       }
     },
@@ -444,6 +498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Online-Katalog der Universitätsbibliothek Hildesheim"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Університетської бібліотеки Гільдесгайма"
           }
         }
       }
@@ -462,6 +522,12 @@
             "state" : "translated",
             "value" : "Gemeinsame Bibliothek der Hochschule Hannover und der Hochschule für Musik, Theater und Medien Hannover"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спільна бібліотека Ганноверського університету та Ганноверського університету музики, театру та медіа"
+          }
         }
       }
     },
@@ -478,6 +544,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська бібліотека"
           }
         }
       }
@@ -496,6 +568,12 @@
             "state" : "translated",
             "value" : "Regional Katalog"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Регіональний каталог"
+          }
         }
       }
     },
@@ -512,6 +590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bücher und Zeitschriften der Universitätsbibliothek der TUHH"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Книги та журнали університетської бібліотеки TUHH"
           }
         }
       }
@@ -530,6 +614,12 @@
             "state" : "translated",
             "value" : "Online-Katalog der Hochschulbibliothek"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог університетської бібліотеки"
+          }
         }
       }
     },
@@ -546,6 +636,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hochschule Anhalt"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt (Університет прикладних наук Ангальт)"
           }
         }
       }
@@ -564,6 +660,12 @@
             "state" : "translated",
             "value" : "Commerzbibliothek Hamburg"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek Hamburg (Комерційна бібліотека Гамбурга)"
+          }
         }
       }
     },
@@ -580,6 +682,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська та дослідницька бібліотека Ерфурт/Гота"
           }
         }
       }
@@ -598,6 +706,12 @@
             "state" : "translated",
             "value" : "Göttinger Universitätskatalog (GUK)"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göttinger Universitätskatalog (GUK) (Геттінгенський університетський каталог)"
+          }
         }
       }
     },
@@ -614,6 +728,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek Greifswald"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська бібліотека Грайфсвальда"
           }
         }
       }
@@ -632,6 +752,12 @@
             "state" : "translated",
             "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Державна та університетська бібліотека Гамбурга Карла фон Оссієцького"
+          }
         }
       }
     },
@@ -648,6 +774,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bücherhallen Hamburg"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücherhallen Hamburg (Публічні бібліотеки Гамбурга)"
           }
         }
       }
@@ -666,6 +798,12 @@
             "state" : "translated",
             "value" : "Leibniz Universität Hannover"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leibniz Universität Hannover (Університет Лайбніца Ганновер)"
+          }
         }
       }
     },
@@ -682,6 +820,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg) (Університет прикладних наук Гамбурга)"
           }
         }
       }
@@ -700,6 +844,12 @@
             "state" : "translated",
             "value" : "Hochschule Hannover"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover (Університет прикладних наук Ганновера)"
+          }
         }
       }
     },
@@ -716,6 +866,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek Hildesheim"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська бібліотека Гільдесгайма"
           }
         }
       }
@@ -734,6 +890,12 @@
             "state" : "translated",
             "value" : "Bibliothek im Kurt-Schwitters-Forum"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотека у форумі Курта Швіттерса"
+          }
         }
       }
     },
@@ -750,6 +912,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університет Гельмута-Шмідта / Університет бундесверу Гамбурга"
           }
         }
       }
@@ -768,6 +936,12 @@
             "state" : "translated",
             "value" : "Universitätsbibliothek Rostock"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська бібліотека Ростока"
+          }
         }
       }
     },
@@ -785,6 +959,12 @@
             "state" : "translated",
             "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська бібліотека Технічного університету Гамбург-Гарбург"
+          }
         }
       }
     },
@@ -801,6 +981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Wismar (Університет прикладних наук Вісмар - техніка, економіка та дизайн)"
           }
         }
       }
