@@ -7,7 +7,7 @@
 - Translations do not use slang
 - Do not remove any existing translations or keys
 - Look into the localization comment if it makes sense to get further information about the semantics of the string that should be translated
-- Only take the following files into account, only edit the following files:
+- Take the following string catalogues into account, only edit the following files:
   - AppIntents.xcstrings
   - InfoPlist.xcstrings
   - Packages/BTLBIntents/Sources/BTLBIntents/Resources/Localizable.xcstrings
@@ -31,6 +31,7 @@
   - StringTables/Summary.xcstrings
   - StringTables/Catalogue.xcstrings
   - StringTables/Tabbar.xcstrings
+- if necessary, create a new `.lproj` folder at `Packages/Localization/Sources/Localization/Resources/` for the desired language similar to the `de.lproj` folder structure and add `.strings` files according to the `de.lproj` folder structure. Then translate each string in the `.strings` files.
 
 ## Decision Making
 

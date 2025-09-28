@@ -143,6 +143,12 @@
             "state" : "new",
             "value" : "BTLB α"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB α"
+          }
         }
       }
     },
@@ -153,6 +159,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
+            "value" : "BTLB α"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
             "value" : "BTLB α"
           }
         }
@@ -167,6 +179,12 @@
             "state" : "new",
             "value" : "bit lib"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "біт ліб"
+          }
         }
       }
     },
@@ -178,6 +196,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Copyright © 2024 neoneon. All rights reserved."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2024 neoneon. Усі права захищені."
           }
         }
       }
