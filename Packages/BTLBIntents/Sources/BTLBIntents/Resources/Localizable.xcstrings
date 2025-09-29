@@ -57,6 +57,36 @@
             }
           }
         },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Все %lld выбранных элемента были продлены"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Все %lld выбранных элементов были продлены"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Выбранный элемент был продлён"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Все %lld выбранных элементов были продлены"
+                }
+              }
+            }
+          }
+        },
         "uk" : {
           "variations" : {
             "plural" : {
@@ -109,6 +139,12 @@
             "value" : "Aucun élément renouvelable"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет элементов для продления"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -138,6 +174,12 @@
             "value" : "Aucun élément n'a été sélectionné pour le renouvellement"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не выбран ни один элемент для продления"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -165,6 +207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pour renouveler un élément vous devez le sélectionner ☝️essayez encore une fois ou renouvelez vos éléments ultérieurement."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтобы продлить элемент, нужно его выбрать ☝️попробуйте ещё раз или продлите ваши элементы позже."
           }
         },
         "uk" : {
@@ -231,6 +279,36 @@
             }
           }
         },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ни один из %lld выбранных элементов не был продлён."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ни один из %lld выбранных элементов не был продлён."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Выбранный элемент не был продлён."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ни один из %lld выбранных элементов не был продлён."
+                }
+              }
+            }
+          }
+        },
         "uk" : {
           "variations" : {
             "plural" : {
@@ -283,6 +361,12 @@
             "value" : "Seulement %1$lld sur les %2$lld éléments sélectionnés ont été renouvelés"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Только %1$lld из %2$lld выбранных элементов были продлены"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -310,6 +394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avez-vous ajouté un compte ? Quand avez-vous actualisé la liste des emprunts pour la dernière fois ?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавили ли вы аккаунт? Когда вы последний раз обновляли список выдач?"
           }
         },
         "uk" : {
@@ -341,6 +431,12 @@
             "value" : "L'élément a-t-il déjà expiré ou le nombre maximum de renouvellements a-t-il été atteint ? Quelqu'un pourrait également avoir placé une précommande sur l'élément."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уже ли истёк срок выдачи или достигнуто максимальное количество продлений? Кто-то мог также забронировать этот элемент."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -368,6 +464,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les éléments non renouvelés ont-ils possiblement déjà expiré ou le nombre maximum de renouvellements a-t-il été atteint ? Quelqu'un pourrait également avoir placé une précommande sur un élément."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Возможно, уже истёк срок непродлённых элементов или достигнуто максимальное количество продлений? Кто-то мог также забронировать элемент."
           }
         },
         "uk" : {

@@ -22,6 +22,12 @@
             "value" : "Les détails du signet sélectionné seront affichés ici."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Здесь будут отображаться детали выбранной закладки."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50,6 +56,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Signets"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закладки"
           }
         },
         "uk" : {
@@ -81,6 +93,12 @@
             "value" : "Emprunt"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выдача"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -110,6 +128,12 @@
             "value" : "Recherche"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -137,6 +161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun signet"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет закладок"
           }
         },
         "uk" : {

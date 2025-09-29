@@ -22,6 +22,12 @@
             "value" : "Les détails de l'emprunt sélectionné s'afficheront ici."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Здесь будут отображаться детали выбранной выдачи."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50,6 +56,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Actions"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Действия"
           }
         },
         "uk" : {
@@ -81,6 +93,12 @@
             "value" : "Ajouter\nsignet"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить\nзакладку"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -108,6 +126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "emprunts"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "выдачи"
           }
         },
         "uk" : {
@@ -139,6 +163,12 @@
             "value" : "Signet"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закладка"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -166,6 +196,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annuler"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
           }
         },
         "uk" : {
@@ -198,6 +234,12 @@
             "value" : "Envoyer par email à..."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправить по почте..."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -226,6 +268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Email à %1$@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Письмо в %1$@"
           }
         },
         "uk" : {
@@ -258,6 +306,12 @@
             "value" : "%2$@ est expiré depuis %2$@. Retournez cet élément dès que possible."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ просрочена с %2$@. Верните эту книгу как можно скорее."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -285,6 +339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Expiré depuis"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Просрочено с"
           }
         },
         "uk" : {
@@ -317,6 +377,12 @@
             "value" : "Emprunt"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выдача"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -344,6 +410,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "emprunté"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "выдана"
           }
         },
         "uk" : {
@@ -376,6 +448,12 @@
             "value" : "pas encore emprunté"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "еще не выдана"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -404,6 +482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tentative de prolongation échouée. \"%1$@\" a déjà expiré"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Попытка продления не удалась. \"%1$@\" уже просрочена"
           }
         },
         "uk" : {
@@ -436,6 +520,12 @@
             "value" : "Trop tard"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Слишком поздно"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -464,6 +554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une connexion internet est requise pour prolonger un emprunt"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для продления выдачи требуется подключение к интернету"
           }
         },
         "uk" : {
@@ -496,6 +592,12 @@
             "value" : "Aucune connexion"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет соединения"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -524,6 +626,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "prêt pour retrait"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "готова к получению"
           }
         },
         "uk" : {
@@ -556,6 +664,12 @@
             "value" : "veuillez retirer l'élément"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "пожалуйста, заберите книгу"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -583,6 +697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Emprunts"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выдачи"
           }
         },
         "uk" : {
@@ -614,6 +734,12 @@
             "value" : "Aucun emprunt"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет выдач"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -641,6 +767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "aucun"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ничего"
           }
         },
         "uk" : {
@@ -672,6 +804,12 @@
             "value" : "Cet élément ne peut pas être prolongé car il n'a pas encore été emprunté. Récupérez-le à la bibliothèque."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эту книгу нельзя продлить, так как она еще не выдана. Заберите ее из библиотеки."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -701,6 +839,12 @@
             "value" : "Impossible de prolonger"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нельзя продлить"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -728,6 +872,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous n'avez configuré aucun compte. Il n'y a rien à afficher. Veuillez configurer un nouveau compte dans la vue des comptes."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы еще не настроили ни одного аккаунта. Нечего отображать. Пожалуйста, настройте новый аккаунт в разделе аккаунтов."
           }
         },
         "uk" : {
@@ -760,6 +910,12 @@
             "value" : "Publier sur Facebook"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Опубликовать в Facebook"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -788,6 +944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Échec de la prolongation"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка продления"
           }
         },
         "uk" : {
@@ -820,6 +982,12 @@
             "value" : "La prolongation de \"%1$@\" a échoué."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продление \"%1$@\" не удалось."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -848,6 +1016,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prolonger cet emprunt"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продлить эту выдачу"
           }
         },
         "uk" : {
@@ -880,6 +1054,12 @@
             "value" : "Prolongé"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продлено"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -908,6 +1088,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ a été prolongé avec succès. Veuillez mettre à jour votre compte pour appliquer les modifications à l'emprunt."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ была успешно продлена. Пожалуйста, обновите ваш аккаунт, чтобы применить изменения к выдаче."
           }
         },
         "uk" : {
@@ -940,6 +1126,12 @@
             "value" : "Évaluer ceci"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оценить"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -969,6 +1161,12 @@
             "value" : "Supprimer\nsignet"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить\nзакладку"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -996,6 +1194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer signet"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить закладку"
           }
         },
         "uk" : {

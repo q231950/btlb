@@ -22,6 +22,12 @@
             "value" : "Comptes"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аккаунты"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49,6 +55,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frais"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Платежи"
           }
         },
         "uk" : {
@@ -80,6 +92,12 @@
             "value" : "Signets"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закладки"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -107,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Emprunts"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выдачи"
           }
         },
         "uk" : {
@@ -138,6 +162,12 @@
             "value" : "Plus"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Еще"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -165,6 +195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recherche"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск"
           }
         },
         "uk" : {
@@ -195,6 +231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Résumé"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сводка"
           }
         },
         "uk" : {

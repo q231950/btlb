@@ -22,6 +22,12 @@
             "value" : "Fait pour vous.\n\nBTLB | bɪtlɪb | est une petite application qui vous permet de synchroniser votre compte de bibliothèque avec votre appareil. Avec BTLB, vous pouvez voir quels livres vous avez empruntés et combien vous devez aux bibliothèques pour les retours tardifs. Vous pouvez interagir avec votre bibliothèque car l'application peut prolonger les éléments d'un simple toucher du doigt.\nBTLB a été publié pour la première fois en juillet 2010. Le projet a vu le jour environ un an avant la date de publication réelle. Il provient d'une application Mac sur laquelle je travaillais depuis 2007.\n\nVous êtes libre d'utiliser cette application autant que vous le souhaitez. Cependant, je ne peux donner aucune garantie concernant la fonctionnalité de l'application elle-même ni l'interaction entre cette application et les serveurs des bibliothèques."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создано для вас.\n\nBTLB | bɪtlɪb | это небольшое приложение, которое позволяет синхронизировать ваш библиотечный аккаунт с вашим устройством. С помощью BTLB вы можете видеть, какие книги вы взяли, и сколько вы должны библиотекам за просроченные возвраты. Вы можете взаимодействовать с библиотекой, поскольку приложение может продлевать книги одним касанием пальца.\nBTLB был впервые выпущен в июле 2010 года. Проект появился примерно за год до фактической даты выпуска. Он происходит от приложения для Mac, над которым я работал с 2007 года.\n\nВы можете использовать это приложение сколько угодно. Однако я не могу дать никаких гарантий ни относительно функциональности самого приложения, ни относительно взаимодействия между этим приложением и серверами библиотек."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49,6 +55,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fait avec 💖"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сделано с 💖"
           }
         },
         "uk" : {
@@ -80,6 +92,12 @@
             "value" : "Donner un avis"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оставить отзыв"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -107,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Souhaitez-vous utiliser l'icône d'application alternative ?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хотите использовать альтернативную иконку приложения?"
           }
         },
         "uk" : {
@@ -138,6 +162,12 @@
             "value" : "Icône d'application"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Иконка приложения"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -165,6 +195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annuler"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
           }
         },
         "uk" : {
@@ -196,6 +232,12 @@
             "value" : "Paramètre pour les développeurs et testeurs bêta"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройка для разработчиков и бета-тестеров"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -223,6 +265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Débogage"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отладка"
           }
         },
         "uk" : {
@@ -254,6 +302,12 @@
             "value" : "J'ai oublié d'écrire quelque chose ici."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я забыл здесь что-то написать."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -281,6 +335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remarques"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Примечания"
           }
         },
         "uk" : {
@@ -313,6 +373,12 @@
             "value" : "Contenu"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Содержание"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -340,6 +406,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Catalogue général de la bibliothèque de la Hochschule Anhalt"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Общий каталог библиотеки Hochschule Anhalt"
           }
         },
         "uk" : {
@@ -371,6 +443,12 @@
             "value" : "Catalogue en ligne de la Commerzbibliothek"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Commerzbibliothek"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -400,6 +478,12 @@
             "value" : "Catalogue en ligne de la Universitäts- und Forschungsbibliothek Erfurt/Gotha"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -424,6 +508,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
@@ -458,6 +548,12 @@
             "value" : "Catalogue en ligne de la Universitätsbibliothek Greifswald"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Universitätsbibliothek Greifswald"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -482,6 +578,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campus-Katalog Hamburg"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Campus-Katalog Hamburg"
@@ -516,6 +618,12 @@
             "value" : "Fondation des bibliothèques publiques de Hambourg"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фонд гамбургских публичных библиотек"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -543,6 +651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliothèque d'information technique (TIB)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Техническая информационная библиотека (TIB)"
           }
         },
         "uk" : {
@@ -574,6 +688,12 @@
             "value" : "Catalogue général de la bibliothèque"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Общий каталог библиотеки"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -601,6 +721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Catalogue du service d'information universitaire et bibliothécaire (HIBS)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каталог службы информации и библиотечного сервиса университета (HIBS)"
           }
         },
         "uk" : {
@@ -632,6 +758,12 @@
             "value" : "Catalogue en ligne de la Universitätsbibliothek Hildesheim"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Universitätsbibliothek Hildesheim"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -659,6 +791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliothèque commune de la Hochschule Hannover et de la Hochschule für Musik, Theater und Medien Hannover"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Общая библиотека Hochschule Hannover и Hochschule für Musik, Theater und Medien Hannover"
           }
         },
         "uk" : {
@@ -690,6 +828,12 @@
             "value" : "Bibliothèque universitaire"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Университетская библиотека"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -717,6 +861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Catalogue régional"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Региональный каталог"
           }
         },
         "uk" : {
@@ -748,6 +898,12 @@
             "value" : "Livres et périodiques de la bibliothèque universitaire de la TUHH"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Книги и журналы университетской библиотеки TUHH"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -777,6 +933,12 @@
             "value" : "Catalogue en ligne de la bibliothèque universitaire"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог университетской библиотеки"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -801,6 +963,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hochschule Anhalt"
@@ -835,6 +1003,12 @@
             "value" : "Commerzbibliothek Hamburg"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek Hamburg"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -859,6 +1033,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
@@ -893,6 +1073,12 @@
             "value" : "Göttinger Universitätskatalog (GUK)"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göttinger Universitätskatalog (GUK)"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -917,6 +1103,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Greifswald"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek Greifswald"
@@ -951,6 +1143,12 @@
             "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -975,6 +1173,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücherhallen Hamburg"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bücherhallen Hamburg"
@@ -1009,6 +1213,12 @@
             "value" : "Leibniz Universität Hannover"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leibniz Universität Hannover"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1033,6 +1243,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
@@ -1067,6 +1283,12 @@
             "value" : "Hochschule Hannover"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1091,6 +1313,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Hildesheim"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek Hildesheim"
@@ -1125,6 +1353,12 @@
             "value" : "Bibliothek im Kurt-Schwitters-Forum"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothek im Kurt-Schwitters-Forum"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1149,6 +1383,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
@@ -1183,6 +1423,12 @@
             "value" : "Universitätsbibliothek Rostock"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Rostock"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1207,6 +1453,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
@@ -1241,6 +1493,12 @@
             "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1268,6 +1526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La dernière mise à jour réussie du compte en arrière-plan a eu lieu le %@."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Последнее успешное фоновое обновление аккаунта произошло %@."
           }
         },
         "uk" : {
@@ -1299,6 +1563,12 @@
             "value" : "Certaines bibliothèques ne prennent en charge qu'un ensemble limité de fonctionnalités."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Некоторые библиотеки поддерживают только ограниченный набор функций."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1328,6 +1598,12 @@
             "value" : "Bibliothèques"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Библиотеки"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1355,6 +1631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recevez une notification silencieuse dans le Centre de notifications lors de mises à jour réussies des comptes en arrière-plan"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Получайте тихие уведомления в Центре уведомлений при успешном фоновом обновлении аккаунтов"
           }
         },
         "uk" : {
@@ -1387,6 +1669,12 @@
             "value" : "Notifications"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уведомления"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1416,6 +1704,12 @@
             "value" : "Cette application n'enregistre ni ne partage vos informations personnelles. Votre utilisation n'est pas suivie.\n\nServices tiers : Google Image API pour afficher les couvertures dans les détails des résultats de recherche des bibliothèques GBV."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Это приложение не регистрирует и не передает ваши личные данные. Ваше использование не отслеживается.\n\nСторонние сервисы: Google Image API для отображения обложек в деталях результатов поиска библиотек GBV."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1443,6 +1737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Politique de confidentialité"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Политика конфиденциальности"
           }
         },
         "uk" : {
@@ -1475,6 +1775,12 @@
             "value" : "Évaluer cette application"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оценить приложение"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1502,6 +1808,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recommander à un ami"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рекомендовать другу"
           }
         },
         "uk" : {
@@ -1533,10 +1845,16 @@
             "value" : "Veuillez noter que les transferts de données vers les serveurs des bibliothèques sont effectués via le protocole sécurisé HTTPS tant que les serveurs concernés prennent en charge ce type de communication chiffrée. Si vous constatez l'absence de chiffrement HTTPS là où la communication chiffrée HTTPS devrait être possible côté serveur, veuillez me contacter."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обратите внимание, что передача данных на серверы библиотек осуществляется по защищенному протоколу HTTPS, если соответствующие серверы поддерживают этот тип зашифрованной связи. Если вы заметите отсутствие HTTPS-шифрования там, где зашифрованная HTTPS-связь должна быть возможна на стороне сервера, пожалуйста, свяжитесь со мной."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Будь ласка, зверніть увагу, що передача даних до серверів бібліотек здійснюється через захищений протокол HTTPS, якщо відповідні сервери підтримують цей тип шифрованої комунікації. Якщо ви помітите відсутнє шифрування HTTPS там, де HTTPS має бути можливим на стороні сервера, будь ласка, зв’яжіться зі мною."
+            "value" : "Будь ласка, зверніть увагу, що передача даних до серверів бібліотек здійснюється через захищений протокол HTTPS, якщо відповідні сервери підтримують цей тип шифрованої комунікації. Якщо ви помітите відсутнє шифрування HTTPS там, де HTTPS має бути можливим на стороні сервера, будь ласка, зв'яжіться зі мною."
           }
         }
       }
@@ -1561,6 +1879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Note sur la sécurité"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Примечание по безопасности"
           }
         },
         "uk" : {
@@ -1591,6 +1915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Information"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Информация"
           }
         },
         "uk" : {

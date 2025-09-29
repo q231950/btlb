@@ -1,1428 +1,1722 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
-    "3128" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "3128"
+  "sourceLanguage": "en",
+  "strings": {
+    "3128": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3128"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "3128"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3128"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "3128"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3128"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "3128"
-          }
-        }
-      }
-    },
-    "ACCOUNTS" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konten"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3128"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Accounts"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Comptes"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Облікові записи"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3128"
           }
         }
       }
     },
-    "AUTHENTICATION_FAILED" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Authentifizierung fehlgeschlagen"
+    "ACCOUNTS": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konten"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Authentication failed"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accounts"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Authentification échouée"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comptes"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Помилка аутентифікації"
-          }
-        }
-      }
-    },
-    "AUTHENTICATION_FAILED_ADVICE" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bitte überprüfe Nutzernummer, Passwort und die ausgewählte Bibliothek."
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аккаунты"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please check your username, password and the selected library."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Veuillez vérifier votre nom d'utilisateur, mot de passe et la bibliothèque sélectionnée."
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Будь ласка, перевірте своє ім'я користувача, пароль та вибрану бібліотеку."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Облікові записи"
           }
         }
       }
     },
-    "CANCEL" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abbrechen"
+    "AUTHENTICATION_FAILED": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Authentifizierung fehlgeschlagen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancel"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Authentication failed"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Annuler"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Authentification échouée"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Скасувати"
-          }
-        }
-      }
-    },
-    "CHARGES" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gebühren"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ошибка аутентификации"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Charges"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Frais"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Плата"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Помилка аутентифікації"
           }
         }
       }
     },
-    "Details of the Accounts and Info section will be displayed here." : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hier werden die Details der Konto- und Infosektion angezeigt."
+    "AUTHENTICATION_FAILED_ADVICE": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitte überprüfe Nutzernummer, Passwort und die ausgewählte Bibliothek."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Details of the Accounts and Info section will be displayed here."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please check your username, password and the selected library."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Les détails de la section Comptes et Informations seront affichés ici."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veuillez vérifier votre nom d'utilisateur, mot de passe et la bibliothèque sélectionnée."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Тут будуть відображені деталі розділу Облікові записи та Інформація."
-          }
-        }
-      }
-    },
-    "DETAILS_FOR" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Details zu"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пожалуйста, проверьте ваше имя пользователя, пароль и выбранную библиотеку."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Details on"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Détails sur"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Деталі про"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будь ласка, перевірте своє ім'я користувача, пароль та вибрану бібліотеку."
           }
         }
       }
     },
-    "Error_while_connecting_button1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abbrechen"
+    "CANCEL": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancel"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Annuler"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Скасувати"
-          }
-        }
-      }
-    },
-    "Error_while_connecting_button2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Proxy entfernen"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отмена"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Remove Proxy"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Supprimer le proxy"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Видалити проксі"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скасувати"
           }
         }
       }
     },
-    "Error_while_connecting_message" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vielleicht hast du kein Netz? Oder versuche es mal ohne Proxy"
+    "CHARGES": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gebühren"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Maybe you have no network? Or try without a network proxy?"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Charges"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peut-être n'avez-vous pas de réseau ? Ou essayez sans proxy réseau ?"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frais"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Можливо, у вас немає мережі? Або спробуйте без мережевого проксі?"
-          }
-        }
-      }
-    },
-    "Error_while_connecting_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verbindungsfehler"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Платежи"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Connection Error"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Erreur de connexion"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Помилка з'єднання"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Плата"
           }
         }
       }
     },
-    "LIBRARIES" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bibliotheken"
+    "Details of the Accounts and Info section will be displayed here.": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hier werden die Details der Konto- und Infosektion angezeigt."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Libraries"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details of the Accounts and Info section will be displayed here."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bibliothèques"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les détails de la section Comptes et Informations seront affichés ici."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Бібліотеки"
-          }
-        }
-      }
-    },
-    "LIBRARIES_BEING_UPDATED" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aktualisiere Bibliotheken"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Здесь будут отображаться детали раздела Аккаунты и Информация."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Updating libraries"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mise à jour des bibliothèques"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Оновлення бібліотек"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тут будуть відображені деталі розділу Облікові записи та Інформація."
           }
         }
       }
     },
-    "LIMITED_APP_USE" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Die Funktionalität von BTLB wird eingeschränkt sein."
+    "DETAILS_FOR": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details zu"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "BTLB functionality will be limited"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details on"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Les fonctionnalités de BTLB seront limitées"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Détails sur"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Функціональність BTLB буде обмежена"
-          }
-        }
-      }
-    },
-    "Loading ..." : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lädt..."
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Детали о"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Loading..."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chargement..."
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Завантаження..."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Деталі про"
           }
         }
       }
     },
-    "LOANS" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entleihungen"
+    "Error_while_connecting_button1": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Loans"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Emprunts"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Позики"
-          }
-        }
-      }
-    },
-    "MORE" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mehr"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отмена"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "More"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Plus"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Більше"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скасувати"
           }
         }
       }
     },
-    "NEVER_UPDATED" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Du hast deine Konten noch nie aktualisiert. Tappe auf den Aktualisieren Button am oberen rechten Bildschirmrand, um jetzt eine Aktualisierung durchzuführen"
+    "Error_while_connecting_button2": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proxy entfernen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You have never updated your accounts. Tap on the update button at the top right corner of the screen to run an update now"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove Proxy"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vous n'avez jamais mis à jour vos comptes. Appuyez sur le bouton de mise à jour en haut à droite de l'écran pour effectuer une mise à jour maintenant"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer le proxy"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ви ніколи не оновлювали свої облікові записи. Натисніть на кнопку оновлення в правому верхньому куті екрана, щоб запустити оновлення зараз"
-          }
-        }
-      }
-    },
-    "NO_INTERNET" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kein Netz"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить прокси"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No Connection"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aucune connexion"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Немає з'єднання"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Видалити проксі"
           }
         }
       }
     },
-    "NO_INTERNET_NO_AUTO_UPDATE" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "BTLB konnte kein Konto synchronisieren"
+    "Error_while_connecting_message": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vielleicht hast du kein Netz? Oder versuche es mal ohne Proxy"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "BTLB was not able to automatically synchronize any account"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maybe you have no network? Or try without a network proxy?"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "BTLB n'a pas pu synchroniser automatiquement aucun compte"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peut-être n'avez-vous pas de réseau ? Ou essayez sans proxy réseau ?"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "BTLB не зміг автоматично синхронізувати жоден обліковий запис"
-          }
-        }
-      }
-    },
-    "NO_INTERNET_NO_UPDATES" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verbindungsfehler"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Возможно, у вас нет сети? Или попробуйте без сетевого прокси?"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No Connection"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aucune connexion"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Немає з'єднання"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Можливо, у вас немає мережі? Або спробуйте без мережевого проксі?"
           }
         }
       }
     },
-    "NO_USERDATA_SERVICE" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Service reagiert nicht"
+    "Error_while_connecting_title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbindungsfehler"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Service unavailable"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connection Error"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Service indisponible"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erreur de connexion"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сервіс недоступний"
-          }
-        }
-      }
-    },
-    "NO_USERDATA_SERVICE_SUBTITLE" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bitte versuche es später erneut"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ошибка подключения"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please try again later"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Veuillez réessayer plus tard"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Будь ласка, спробуйте пізніше"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Помилка з'єднання"
           }
         }
       }
     },
-    "NOT_ACTIVATED" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konto wurde nicht aktiviert. Überprüfe deine Netzwerkverbindung."
+    "LIBRARIES": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bibliotheken"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Account was not activated. Please check your internet connection."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libraries"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Le compte n'a pas été activé. Veuillez vérifier votre connexion internet."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bibliothèques"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обліковий запис не було активовано. Будь ласка, перевірте своє інтернет-з'єднання."
-          }
-        }
-      }
-    },
-    "NOT_ACTIVATED_DUE_TO_LOGIN_CREDENTIALS_INCOMPLETE" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ wurde wegen fehlender Login Daten nicht aktiviert. Bitte gib sowohl deine Nutzer ID als auch das Passwort an."
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Библиотеки"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ was not activated because of missing login credentials. Please enter your user ID as well as password."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ n'a pas été activé en raison d'identifiants de connexion manquants. Veuillez saisir votre identifiant utilisateur ainsi que votre mot de passe."
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ не було активовано через відсутні дані для входу. Будь ласка, введіть свій ідентифікатор користувача та пароль."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Бібліотеки"
           }
         }
       }
     },
-    "NOT_ACTIVATED_DUE_TO_LOGIN_FAILURE" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "'%@' wurde wegen falscher Login Daten nicht aktiviert."
+    "LIBRARIES_BEING_UPDATED": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktualisiere Bibliotheken"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ was not activated because of wrong login data."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Updating libraries"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ n'a pas été activé en raison de données de connexion incorrectes."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mise à jour des bibliothèques"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ не було активовано через неправильні дані для входу."
-          }
-        }
-      }
-    },
-    "NOT_ACTIVATED_DUE_TO_MISSING_CREDENTIALS" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bitte gib Nutzernummer und Passwort an"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обновление библиотек"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please enter your username and password"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Veuillez saisir votre nom d'utilisateur et votre mot de passe"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Будь ласка, введіть своє ім'я користувача та пароль"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оновлення бібліотек"
           }
         }
       }
     },
-    "NOT_ACTIVATED_DUE_TO_MISSING_PASSWORD" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bitte gib dein Passwort ein"
+    "LIMITED_APP_USE": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Funktionalität von BTLB wird eingeschränkt sein."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please enter your password"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BTLB functionality will be limited"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Veuillez saisir votre mot de passe"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les fonctionnalités de BTLB seront limitées"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Будь ласка, введіть свій пароль"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Функциональность BTLB будет ограничена"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Функціональність BTLB буде обмежена"
           }
         }
       }
     },
-    "NOT_ACTIVATED_DUE_TO_MISSING_USERID" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bitte trage die Nutzernummer ein"
+    "Loading ...": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lädt..."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please enter a username"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading..."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Veuillez saisir un nom d'utilisateur"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chargement..."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Будь ласка, введіть ім'я користувача"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузка..."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завантаження..."
           }
         }
       }
     },
-    "NOT_NOW" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "später"
+    "LOANS": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entleihungen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "not now"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loans"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "pas maintenant"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emprunts"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "не зараз"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выдачи"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Позики"
           }
         }
       }
     },
-    "NOT_UPDATED_DUE_TO_LOGIN_FAILURE" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "'%@' wurde wegen falscher Login Daten nicht aktualisiert."
+    "MORE": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mehr"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ was not updated because of wrong login data"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ n'a pas été mis à jour en raison de données de connexion incorrectes"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plus"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ не було оновлено через неправильні дані для входу"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Еще"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Більше"
           }
         }
       }
     },
-    "Nothing_to_update_message_multiple" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keines der Konten ist aktiv. Aktiviere mindestens ein Konto in der Kontenansicht."
+    "NEVER_UPDATED": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du hast deine Konten noch nie aktualisiert. Tappe auf den Aktualisieren Button am oberen rechten Bildschirmrand, um jetzt eine Aktualisierung durchzuführen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "None of your accounts is active. Activate at least one account in the accounts view"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You have never updated your accounts. Tap on the update button at the top right corner of the screen to run an update now"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aucun de vos comptes n'est actif. Activez au moins un compte dans la vue des comptes"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous n'avez jamais mis à jour vos comptes. Appuyez sur le bouton de mise à jour en haut à droite de l'écran pour effectuer une mise à jour maintenant"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Жоден з ваших облікових записів не активний. Активуйте принаймні один обліковий запис у перегляді облікових записів"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы никогда не обновляли свои аккаунты. Нажмите кнопку обновления в верхнем правом углу экрана, чтобы запустить обновление сейчас"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ви ніколи не оновлювали свої облікові записи. Натисніть на кнопку оновлення в правому верхньому куті екрана, щоб запустити оновлення зараз"
           }
         }
       }
     },
-    "Nothing_to_update_message_single" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dein Konto ist inaktiv. Aktiviere es in der Kontenansicht."
+    "NO_INTERNET": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Netz"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your account is not active. Activate it in the accounts view"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Connection"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Votre compte n'est pas actif. Activez-le dans la vue des comptes"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune connexion"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ваш обліковий запис не активний. Активуйте його у перегляді облікових записів"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет соединения"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Немає з'єднання"
           }
         }
       }
     },
-    "Nothing_to_update_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nichts zu aktualisieren"
+    "NO_INTERNET_NO_AUTO_UPDATE": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BTLB konnte kein Konto synchronisieren"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nothing to update"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BTLB was not able to automatically synchronize any account"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rien à mettre à jour"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BTLB n'a pas pu synchroniser automatiquement aucun compte"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нічого оновлювати"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BTLB не смог автоматически синхронизировать ни один аккаунт"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BTLB не зміг автоматично синхронізувати жоден обліковий запис"
           }
         }
       }
     },
-    "OPERATION_FAILED" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Die Operation wurde nicht ausgeführt"
+    "NO_INTERNET_NO_UPDATES": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbindungsfehler"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Operation failed"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Connection"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "L'opération a échoué"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune connexion"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Операція не вдалася"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет соединения"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Немає з'єднання"
           }
         }
       }
     },
-    "Please use a library known to the application" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bitte wähle eine Bibliothek, welche der App bekannt ist"
+    "NO_USERDATA_SERVICE": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Service reagiert nicht"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please use a library known to the application"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Service unavailable"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Veuillez utiliser une bibliothèque connue de l'application"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Service indisponible"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Будь ласка, використовуйте бібліотеку, відому програмі"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сервис недоступен"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сервіс недоступний"
           }
         }
       }
     },
-    "port" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Port"
+    "NO_USERDATA_SERVICE_SUBTITLE": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitte versuche es später erneut"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Port"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please try again later"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Port"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veuillez réessayer plus tard"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Порт"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Попробуйте снова позже"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будь ласка, спробуйте пізніше"
           }
         }
       }
     },
-    "proxy address" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Proxy Adresse"
+    "NOT_ACTIVATED": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konto wurde nicht aktiviert. Überprüfe deine Netzwerkverbindung."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Proxy address"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Account was not activated. Please check your internet connection."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Adresse proxy"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le compte n'a pas été activé. Veuillez vérifier votre connexion internet."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Адреса проксі"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аккаунт не был активирован. Пожалуйста, проверьте интернет-соединение."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обліковий запис не було активовано. Будь ласка, перевірте своє інтернет-з'єднання."
           }
         }
       }
     },
-    "Proxy_error_while_connecting" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Proxy Fehler"
+    "NOT_ACTIVATED_DUE_TO_LOGIN_CREDENTIALS_INCOMPLETE": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ wurde wegen fehlender Login Daten nicht aktiviert. Bitte gib sowohl deine Nutzer ID als auch das Passwort an."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Proxy error"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ was not activated because of missing login credentials. Please enter your user ID as well as password."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Erreur de proxy"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ n'a pas été activé en raison d'identifiants de connexion manquants. Veuillez saisir votre identifiant utilisateur ainsi que votre mot de passe."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Помилка проксі"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ не был активирован из-за отсутствующих данных для входа. Пожалуйста, введите ваш ID пользователя и пароль."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ не було активовано через відсутні дані для входу. Будь ласка, введіть свій ідентифікатор користувача та пароль."
           }
         }
       }
     },
-    "proxyuhh.uni-hamburg.de" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "proxyuhh.uni-hamburg.de"
+    "NOT_ACTIVATED_DUE_TO_LOGIN_FAILURE": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "'%@' wurde wegen falscher Login Daten nicht aktiviert."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "proxyuhh.uni-hamburg.de"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ was not activated because of wrong login data."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "proxyuhh.uni-hamburg.de"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ n'a pas été activé en raison de données de connexion incorrectes."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "proxyuhh.uni-hamburg.de"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ не был активирован из-за неправильных данных для входа."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ не було активовано через неправильні дані для входу."
           }
         }
       }
     },
-    "REQUEST_CREATION_FAILED" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ein Request konnte nicht erzeugt werden"
+    "NOT_ACTIVATED_DUE_TO_MISSING_CREDENTIALS": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitte gib Nutzernummer und Passwort an"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unable to create request"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please enter your username and password"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Impossible de créer la requête"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veuillez saisir votre nom d'utilisateur et votre mot de passe"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Неможливо створити запит"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пожалуйста, введите имя пользователя и пароль"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будь ласка, введіть своє ім'я користувача та пароль"
           }
         }
       }
     },
-    "RESERVATIONS" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vormerkungen"
+    "NOT_ACTIVATED_DUE_TO_MISSING_PASSWORD": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitte gib dein Passwort ein"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reservations"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please enter your password"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Réservations"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veuillez saisir votre mot de passe"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Резервування"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пожалуйста, введите ваш пароль"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будь ласка, введіть свій пароль"
           }
         }
       }
     },
-    "synchronizing accounts" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Synchronisiere..."
+    "NOT_ACTIVATED_DUE_TO_MISSING_USERID": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitte trage die Nutzernummer ein"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "synchronizing..."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please enter a username"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Synchronisation..."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veuillez saisir un nom d'utilisateur"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "синхронізація..."
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пожалуйста, введите имя пользователя"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будь ласка, введіть ім'я користувача"
           }
         }
       }
     },
-    "The action could not be performed because the library is unknown." : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Die Anwendung konnte die Anfrage nicht verarbeiten, weil die Bibliothek unbekannt ist."
+    "NOT_NOW": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "später"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The action could not be performed because the library is unknown."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "not now"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "L'action n'a pas pu être effectuée car la bibliothèque est inconnue."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pas maintenant"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Дію не вдалося виконати, оскільки бібліотека невідома."
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не сейчас"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не зараз"
           }
         }
       }
     },
-    "TRY_AGAIN" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Versuchen"
+    "NOT_UPDATED_DUE_TO_LOGIN_FAILURE": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "'%@' wurde wegen falscher Login Daten nicht aktualisiert."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Try again"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ was not updated because of wrong login data"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recommencer"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ n'a pas été mis à jour en raison de données de connexion incorrectes"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Спробувати знову"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ не был обновлен из-за неправильных данных для входа"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ не було оновлено через неправильні дані для входу"
           }
         }
       }
     },
-    "UNDEFINED_LIBRARY_NAME" : {
-      "comment" : "Applicationwide.strings\n BTLB\n \n Created by Martin Kim Dung-Pham on 07/04/2009.\n Copyright 2009 neoneon. All rights reserved.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "unbekannte Bibliothek"
+    "Nothing_to_update_message_multiple": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keines der Konten ist aktiv. Aktiviere mindestens ein Konto in der Kontenansicht."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "undefined library name"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None of your accounts is active. Activate at least one account in the accounts view"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "nom de bibliothèque indéfini"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun de vos comptes n'est actif. Activez au moins un compte dans la vue des comptes"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "невизначена назва бібліотеки"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Все ваши аккаунты уже обновлены."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Жоден з ваших облікових записів не активний. Активуйте принаймні один обліковий запис у перегляді облікових записів"
           }
         }
       }
     },
-    "WONT_UPDATE_ACCOUNT" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dein Konto wurde nicht aktualisiert. Überprüfe die Internetverbindung."
+    "Nothing_to_update_message_single": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Konto ist inaktiv. Aktiviere es in der Kontenansicht."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your account was not updated. Please check your internet connection."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your account is not active. Activate it in the accounts view"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Votre compte n'a pas été mis à jour. Veuillez vérifier votre connexion internet."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre compte n'est pas actif. Activez-le dans la vue des comptes"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ваш обліковий запис не було оновлено. Будь ласка, перевірте своє інтернет-з'єднання."
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш аккаунт уже обновлен."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш обліковий запис не активний. Активуйте його у перегляді облікових записів"
           }
         }
       }
     },
-    "WONT_UPDATE_ACCOUNTS" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keines der Konten wurde aktualisiert. Überprüfe die Internetverbindung."
+    "Nothing_to_update_title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nichts zu aktualisieren"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "None of your accounts was updated. Please check your internet connection."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing to update"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aucun de vos comptes n'a été mis à jour. Veuillez vérifier votre connexion internet."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rien à mettre à jour"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Жоден з ваших облікових записів не було оновлено. Будь ласка, перевірте своє інтернет-з'єднання."
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нечего обновлять"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нічого оновлювати"
+          }
+        }
+      }
+    },
+    "OPERATION_FAILED": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Operation wurde nicht ausgeführt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operation failed"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'opération a échoué"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Операция не удалась"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Операція не вдалася"
+          }
+        }
+      }
+    },
+    "Please use a library known to the application": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitte wähle eine Bibliothek, welche der App bekannt ist"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please use a library known to the application"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veuillez utiliser une bibliothèque connue de l'application"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пожалуйста, используйте библиотеку, известную приложению"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будь ласка, використовуйте бібліотеку, відому програмі"
+          }
+        }
+      }
+    },
+    "port": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Port"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Port"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Port"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "порт"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Порт"
+          }
+        }
+      }
+    },
+    "proxy address": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proxy Adresse"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proxy address"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adresse proxy"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "адрес прокси"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Адреса проксі"
+          }
+        }
+      }
+    },
+    "Proxy_error_while_connecting": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proxy Fehler"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proxy error"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erreur de proxy"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ошибка прокси при подключении"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Помилка проксі"
+          }
+        }
+      }
+    },
+    "proxyuhh.uni-hamburg.de": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "proxyuhh.uni-hamburg.de"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "proxyuhh.uni-hamburg.de"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "proxyuhh.uni-hamburg.de"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "proxyuhh.uni-hamburg.de"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "proxyuhh.uni-hamburg.de"
+          }
+        }
+      }
+    },
+    "REQUEST_CREATION_FAILED": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein Request konnte nicht erzeugt werden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unable to create request"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de créer la requête"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ошибка создания запроса"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неможливо створити запит"
+          }
+        }
+      }
+    },
+    "RESERVATIONS": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vormerkungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reservations"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réservations"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Резервирования"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Резервування"
+          }
+        }
+      }
+    },
+    "synchronizing accounts": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronisiere..."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "synchronizing..."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronisation..."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "синхронизация аккаунтов"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "синхронізація..."
+          }
+        }
+      }
+    },
+    "The action could not be performed because the library is unknown.": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Anwendung konnte die Anfrage nicht verarbeiten, weil die Bibliothek unbekannt ist."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The action could not be performed because the library is unknown."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'action n'a pas pu être effectuée car la bibliothèque est inconnue."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Действие не может быть выполнено, так как библиотека неизвестна."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дію не вдалося виконати, оскільки бібліотека невідома."
+          }
+        }
+      }
+    },
+    "TRY_AGAIN": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versuchen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommencer"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Попробовать снова"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Спробувати знову"
+          }
+        }
+      }
+    },
+    "UNDEFINED_LIBRARY_NAME": {
+      "comment": "Applicationwide.strings\n BTLB\n \n Created by Martin Kim Dung-Pham on 07/04/2009.\n Copyright 2009 neoneon. All rights reserved.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "unbekannte Bibliothek"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "undefined library name"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nom de bibliothèque indéfini"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неопределенное имя библиотеки"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "невизначена назва бібліотеки"
+          }
+        }
+      }
+    },
+    "WONT_UPDATE_ACCOUNT": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Konto wurde nicht aktualisiert. Überprüfe die Internetverbindung."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your account was not updated. Please check your internet connection."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre compte n'a pas été mis à jour. Veuillez vérifier votre connexion internet."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не будет обновлять аккаунт"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш обліковий запис не було оновлено. Будь ласка, перевірте своє інтернет-з'єднання."
+          }
+        }
+      }
+    },
+    "WONT_UPDATE_ACCOUNTS": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keines der Konten wurde aktualisiert. Überprüfe die Internetverbindung."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None of your accounts was updated. Please check your internet connection."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun de vos comptes n'a été mis à jour. Veuillez vérifier votre connexion internet."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не будет обновлять аккаунты"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Жоден з ваших облікових записів не було оновлено. Будь ласка, перевірте своє інтернет-з'єднання."
           }
         }
       }
     }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }

@@ -21,6 +21,12 @@
             "value" : "%1$@ - %2$@"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ - %2$@"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50,6 +56,12 @@
             "value" : "Éléments"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Элементы"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -70,6 +82,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Terminé"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
           }
         },
         "uk" : {
@@ -101,6 +119,12 @@
             "value" : "Cet élément est bloqué par une précommande !"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Этот элемент заблокирован предзаказом!"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -128,6 +152,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Personne n'a précommandé cet élément."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Никто не заказывал этот элемент заранее."
           }
         },
         "uk" : {
@@ -158,6 +188,12 @@
             "value" : "Annuler"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отменить"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -186,6 +222,12 @@
             "value" : "Renouveler"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продлить"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -212,6 +254,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Souhaitez-vous renouveler cet élément ?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хотите ли вы продлить этот элемент?"
           }
         },
         "uk" : {

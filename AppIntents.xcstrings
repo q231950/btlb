@@ -21,6 +21,12 @@
             "value" : "%lld éléments"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld элементов"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50,6 +56,12 @@
             "value" : "${int} éléments empruntés"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${int} выданных книг"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -74,6 +86,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "BTLB"

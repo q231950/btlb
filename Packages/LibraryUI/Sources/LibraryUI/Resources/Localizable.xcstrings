@@ -37,6 +37,12 @@
             "value" : "Une erreur s'est produite !"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Произошла ошибка!"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -63,6 +69,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comprendre"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Понятно"
           }
         },
         "uk" : {
@@ -93,6 +105,12 @@
             "value" : "Plusieurs erreurs se sont produites !"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Произошли ошибки!"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La requête réseau a échoué."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сетевой запрос не выполнен."
           }
         },
         "uk" : {
@@ -149,10 +173,16 @@
             "value" : "La fonctionnalité demandée n'est pas encore implémentée pour le système de bibliothèque du compte avec le nom d'utilisateur « %@ »."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запрашиваемая функция ещё не реализована для типа библиотечной системы учётной записи с именем пользователя “%@“."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Запитувана функціональність ще не реалізована для бібліотечної системи облікового запису з іменем користувача “%@”."
+            "value" : "Запитувана функціональність ще не реалізована для бібліотечної системи облікового запису з іменем користувача “%@“."
           }
         }
       }

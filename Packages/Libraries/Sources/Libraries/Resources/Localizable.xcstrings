@@ -15,6 +15,12 @@
             "value" : "Actuellement, la recherche prend en charge les bibliothèques de _Stiftung Hamburger Öffentliche Bücherhallen_ et _Gemeinsamer Bibliotheksverbund_. Veuillez sélectionner la bibliothèque dans laquelle rechercher."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В настоящее время поиск поддерживает библиотеки _Stiftung Hamburger Öffentliche Bücherhallen_ и _Gemeinsamer Bibliotheksverbund_. Пожалуйста, выберите библиотеку для поиска."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35,6 +41,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Actuellement, vous pouvez vous connecter aux bibliothèques de _Stiftung Hamburger Öffentliche Bücherhallen_ et _Gemeinsamer Bibliotheksverbund_. Veuillez sélectionner la bibliothèque pour vous connecter."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В настоящее время вы можете войти в библиотеки _Stiftung Hamburger Öffentliche Bücherhallen_ и _Gemeinsamer Bibliotheksverbund_. Пожалуйста, выберите библиотеку для входа."
           }
         },
         "uk" : {

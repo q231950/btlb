@@ -23,6 +23,12 @@
             "value" : "Nombre de comptes actifs"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Количество активных аккаунтов"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51,6 +57,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nombre de comptes"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Количество аккаунтов"
           }
         },
         "uk" : {
@@ -83,6 +95,12 @@
             "value" : "Nombre de comptes inactifs"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Количество неактивных аккаунтов"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -111,6 +129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activez votre compte dans la vue des comptes"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активируйте ваш аккаунт в просмотре аккаунтов"
           }
         },
         "uk" : {
@@ -143,6 +167,12 @@
             "value" : "Activez un compte dans la vue des comptes"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активируйте аккаунт в просмотре аккаунтов"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -171,6 +201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Somme de tous les frais"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сумма всех платежей"
           }
         },
         "uk" : {
@@ -203,6 +239,12 @@
             "value" : "Dernière mise à jour le %@"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Последнее обновление %@"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -231,6 +273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nombre d'emprunts"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Количество выдач"
           }
         },
         "uk" : {
@@ -263,6 +311,12 @@
             "value" : "Nombre d'emprunts expirés"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Количество просроченных выдач"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -291,6 +345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Emprunts prêts à récupérer"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выдачи готовы к получению"
           }
         },
         "uk" : {
@@ -323,6 +383,12 @@
             "value" : "Vous n'avez pas encore configuré de compte"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы еще не настроили аккаунт"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -351,6 +417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun frais sur les comptes actifs"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет платежей ни на одном активном аккаунте"
           }
         },
         "uk" : {
@@ -383,6 +455,12 @@
             "value" : "aucun"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "нет"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -411,6 +489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "aucun"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "нет"
           }
         },
         "uk" : {
@@ -443,6 +527,12 @@
             "value" : "Configurez un compte dans la vue des comptes"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройте аккаунт в просмотре аккаунтов"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -471,6 +561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Résumé"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сводка"
           }
         },
         "uk" : {

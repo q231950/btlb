@@ -21,6 +21,12 @@
             "value" : "bit lib"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "бит либ"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47,6 +53,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bit lib"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "бит либ"
           }
         },
         "uk" : {
@@ -77,6 +89,12 @@
             "value" : "bib"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "либ"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -103,6 +121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bitlib"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "битлиб"
           }
         },
         "uk" : {
@@ -133,6 +157,12 @@
             "value" : "bit lib"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "бит либ"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -159,6 +189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bib"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "биб"
           }
         },
         "uk" : {
@@ -227,6 +263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bit lib"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "бит либ"
           }
         },
         "uk" : {
