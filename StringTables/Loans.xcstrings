@@ -16,6 +16,12 @@
             "value" : "A selected loan's details will be displayed here."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les détails de l'emprunt sélectionné s'afficheront ici."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35,6 +41,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actions"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Actions"
@@ -63,6 +75,12 @@
             "value" : "Add\nbookmark"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter\nsignet"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -84,6 +102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "loans"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "emprunts"
           }
         },
         "uk" : {
@@ -109,6 +133,12 @@
             "value" : "Bookmark"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signet"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -130,6 +160,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
           }
         },
         "uk" : {
@@ -156,6 +192,12 @@
             "value" : "Email this to..."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Envoyer par email à..."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -178,6 +220,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Email to %1$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email à %1$@"
           }
         },
         "uk" : {
@@ -204,6 +252,12 @@
             "value" : "%2$@ is expired since %2$@. Return this item as soon as possible."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ est expiré depuis %2$@. Retournez cet élément dès que possible."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -225,6 +279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Expired since"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expiré depuis"
           }
         },
         "uk" : {
@@ -251,6 +311,12 @@
             "value" : "Loan"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emprunt"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -272,6 +338,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "borrowed"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "emprunté"
           }
         },
         "uk" : {
@@ -298,6 +370,12 @@
             "value" : "not borrowed yet"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pas encore emprunté"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -320,6 +398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prolong attempt failed. \"%1$@\" has already expired"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tentative de prolongation échouée. \"%1$@\" a déjà expiré"
           }
         },
         "uk" : {
@@ -346,6 +430,12 @@
             "value" : "Too late"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trop tard"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -368,6 +458,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A internet connection is required to prolong a loan"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une connexion internet est requise pour prolonger un emprunt"
           }
         },
         "uk" : {
@@ -394,6 +490,12 @@
             "value" : "No Connection"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune connexion"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -416,6 +518,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ready for collection"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "prêt pour retrait"
           }
         },
         "uk" : {
@@ -442,6 +550,12 @@
             "value" : "please collect the item"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "veuillez retirer l'élément"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -463,6 +577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loans"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emprunts"
           }
         },
         "uk" : {
@@ -488,6 +608,12 @@
             "value" : "No loans"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun emprunt"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -509,6 +635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "none"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aucun"
           }
         },
         "uk" : {
@@ -534,6 +666,12 @@
             "value" : "This item can't be prolonged as it has yet to be borrowed. Fetch it from the library."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cet élément ne peut pas être prolongé car il n'a pas encore été emprunté. Récupérez-le à la bibliothèque."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -557,6 +695,12 @@
             "value" : "Can't prolong"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de prolonger"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -578,6 +722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You have not setup any account. There is nothing to display. Please setup a new account in the accounts view."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous n'avez configuré aucun compte. Il n'y a rien à afficher. Veuillez configurer un nouveau compte dans la vue des comptes."
           }
         },
         "uk" : {
@@ -604,6 +754,12 @@
             "value" : "Post on Facebook"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Publier sur Facebook"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -626,6 +782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Failed to prolong"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échec de la prolongation"
           }
         },
         "uk" : {
@@ -652,6 +814,12 @@
             "value" : "Prolonging \"%1$@\" did fail."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La prolongation de \"%1$@\" a échoué."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -674,6 +842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prolong this loan"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prolonger cet emprunt"
           }
         },
         "uk" : {
@@ -700,6 +874,12 @@
             "value" : "Prolonged"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prolongé"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -722,6 +902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ has successfully been prolonged. Please update your account for applying the changes to the loan."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ a été prolongé avec succès. Veuillez mettre à jour votre compte pour appliquer les modifications à l'emprunt."
           }
         },
         "uk" : {
@@ -748,6 +934,12 @@
             "value" : "Rate this"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Évaluer ceci"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -771,6 +963,12 @@
             "value" : "Remove\nbookmark"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer\nsignet"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -792,6 +990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove bookmark"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer signet"
           }
         },
         "uk" : {

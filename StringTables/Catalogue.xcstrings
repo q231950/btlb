@@ -16,6 +16,12 @@
             "value" : "Content"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contenu"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37,6 +43,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unable to get details"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible d'obtenir les détails"
           }
         },
         "uk" : {
@@ -62,6 +74,12 @@
             "value" : "Unable to get search result details."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible d'obtenir les détails du résultat de recherche."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -83,6 +101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminé"
           }
         },
         "uk" : {
@@ -108,6 +132,12 @@
             "value" : "available"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "disponible"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -129,6 +159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "not available"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "non disponible"
           }
         },
         "uk" : {
@@ -154,6 +190,12 @@
             "value" : "loading..."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chargement..."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -175,6 +217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Info: "
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info : "
           }
         },
         "uk" : {
@@ -200,6 +248,12 @@
             "value" : "Location "
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emplacement "
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -221,6 +275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Locations"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emplacements"
           }
         },
         "uk" : {
@@ -246,6 +306,12 @@
             "value" : "Location"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emplacement"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -267,6 +333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Location: "
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emplacement : "
           }
         },
         "uk" : {
@@ -292,6 +364,12 @@
             "value" : "No Library selected"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune bibliothèque sélectionnée"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -313,6 +391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open in web view"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir dans la vue web"
           }
         },
         "uk" : {
@@ -338,6 +422,12 @@
             "value" : "Online resource"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ressource en ligne"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -359,6 +449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please choose a library and search again."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez choisir une bibliothèque et rechercher à nouveau."
           }
         },
         "uk" : {
@@ -384,6 +480,12 @@
             "value" : "Retrieving additional results"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Récupération de résultats supplémentaires"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -405,6 +507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search string too short"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terme de recherche trop court"
           }
         },
         "uk" : {
@@ -430,6 +538,12 @@
             "value" : "Search will not search for the string you entered. Please enter at least 3 characters."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La recherche ne sera pas effectuée pour le terme saisi. Veuillez entrer au moins 3 caractères."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -451,6 +565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search failed"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recherche échouée"
           }
         },
         "uk" : {
@@ -476,6 +596,12 @@
             "value" : "Please make sure you are connected and try again."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez vérifier votre connexion et réessayer."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -497,6 +623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "searching..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "recherche..."
           }
         },
         "uk" : {
@@ -522,6 +654,12 @@
             "value" : "select a library"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sélectionnez une bibliothèque"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -545,6 +683,12 @@
             "value" : "Shelfmark: "
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cote : "
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -566,6 +710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Library"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothèque"
           }
         },
         "uk" : {

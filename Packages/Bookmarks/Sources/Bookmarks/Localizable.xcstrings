@@ -16,6 +16,12 @@
             "value" : "The book recommender uses a large language model (LLM) to suggest books based on your selection of bookmarks. In order to provide suggestions the _title_ and _author_ of each selected item is sent to an LLM provider. If you feel uncomfortable with submitting data to the LLM provider you can turn off the Recommender feature in the settings section of the app or simply don't use it. Please also note that because of the nature of LLMs the suggestions might be funny/weird and may contain unexpected content – there may even be recommendations of books which do not exist in the real world. Please be aware of this and send feedback in case of unexpected results."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le recommandeur de livres utilise un grand modèle de langage (LLM) pour suggérer des livres basés sur votre sélection de signets. Afin de fournir des suggestions, le _titre_ et l'_auteur_ de chaque élément sélectionné sont envoyés à un fournisseur LLM. Si vous n'êtes pas à l'aise avec la soumission de données au fournisseur LLM, vous pouvez désactiver la fonction Recommandeur dans la section des paramètres de l'application ou simplement ne pas l'utiliser. Veuillez également noter qu'en raison de la nature des LLM, les suggestions peuvent être drôles/étranges et peuvent contenir du contenu inattendu – il peut même y avoir des recommandations de livres qui n'existent pas dans le monde réel. Veuillez en être conscient et envoyer des commentaires en cas de résultats inattendus."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37,6 +43,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete Bookmark"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer le signet"
           }
         },
         "uk" : {
@@ -62,6 +74,12 @@
             "value" : "🕵🏻 nothing found. Every word of the search string is being looked up in the title and shelfmark fields of a bookmark."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🕵🏻 rien trouvé. Chaque mot de la chaîne de recherche est recherché dans les champs titre et cote d'un signet."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -83,6 +101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Additional Information:"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informations supplémentaires :"
           }
         },
         "uk" : {
@@ -108,6 +132,12 @@
             "value" : "AI Recommender Feedback"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commentaires sur le recommandeur IA"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -129,6 +159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Any other relevant details:"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout autre détail pertinent :"
           }
         },
         "uk" : {
@@ -154,6 +190,12 @@
             "value" : "Issue Description:"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Description du problème :"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -175,6 +217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please describe the issue you encountered with the AI Recommender:"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez décrire le problème que vous avez rencontré avec le recommandeur IA :"
           }
         },
         "uk" : {
@@ -200,6 +248,12 @@
             "value" : "Generate Recommendations"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Générer des recommandations"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -221,6 +275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "How AI Book Recommendation Works"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comment fonctionne la recommandation de livres par IA"
           }
         },
         "uk" : {
@@ -246,6 +306,12 @@
             "value" : "Loading recommendations…"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chargement des recommandations…"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -267,6 +333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your bookmarks will appear here. Bookmarks can be set for search results as well as borrowed items ☝️"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos signets apparaîtront ici. Les signets peuvent être définis pour les résultats de recherche ainsi que pour les éléments empruntés ☝️"
           }
         },
         "uk" : {
@@ -292,6 +364,12 @@
             "value" : "No recommendations found."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune recommandation trouvée."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -313,6 +391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "These are recommendations based on the selected items. Tap on any to check for availability in your library."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voici des recommandations basées sur les éléments sélectionnés. Appuyez sur n'importe lequel pour vérifier la disponibilité dans votre bibliothèque."
           }
         },
         "uk" : {
@@ -338,6 +422,12 @@
             "value" : "✨ Recommender Feedback"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Commentaires sur le recommandeur"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -361,6 +451,12 @@
             "value" : "Please select the bookmarks you would like to get recommendations for"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez sélectionner les signets pour lesquels vous souhaitez obtenir des recommandations"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -382,6 +478,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✨ Recommender"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Recommandeur"
           }
         },
         "uk" : {

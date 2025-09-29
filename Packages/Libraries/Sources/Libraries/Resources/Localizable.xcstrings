@@ -9,6 +9,12 @@
             "value" : "Derzeit unterstützt die Suche die Bibliotheken der _Stiftung Öffentliche Bücherhallen Hamburg_ und viele Bibliotheken des _Gemeinsamer Bibliotheksverbund_. Wähle die Bibliothek in welcher gesucht werden soll aus."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actuellement, la recherche prend en charge les bibliothèques de _Stiftung Hamburger Öffentliche Bücherhallen_ et _Gemeinsamer Bibliotheksverbund_. Veuillez sélectionner la bibliothèque dans laquelle rechercher."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23,6 +29,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Derzeit unterstützt die Suche die Bibliotheken der _Stiftung Öffentliche Bücherhallen Hamburg_ und viele Bibliotheken des _Gemeinsamer Bibliotheksverbund_. Wähle deine Bibliothek aus."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actuellement, vous pouvez vous connecter aux bibliothèques de _Stiftung Hamburger Öffentliche Bücherhallen_ et _Gemeinsamer Bibliotheksverbund_. Veuillez sélectionner la bibliothèque pour vous connecter."
           }
         },
         "uk" : {

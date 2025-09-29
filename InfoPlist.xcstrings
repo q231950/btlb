@@ -15,6 +15,12 @@
             "value" : "bit lib"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32,6 +38,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "bit lib"
@@ -59,6 +71,12 @@
             "value" : "lib"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bib"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -76,6 +94,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bitlib"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "bitlib"
@@ -103,6 +127,12 @@
             "value" : "bit lib"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -123,6 +153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "lib"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bib"
           }
         },
         "uk" : {
@@ -184,6 +220,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
+            "value" : "bit lib"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
             "value" : "bit lib"
           }
         },

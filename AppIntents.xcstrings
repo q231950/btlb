@@ -15,6 +15,12 @@
             "value" : "%lld items"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld éléments"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38,6 +44,12 @@
             "value" : "${int} Borrowed Items"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${int} éléments empruntés"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -56,6 +68,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "BTLB"

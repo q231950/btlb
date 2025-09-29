@@ -39,6 +39,24 @@
             }
           }
         },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "L'élément sélectionné a été renouvelé"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Tous les %lld éléments sélectionnés ont été renouvelés"
+                }
+              }
+            }
+          }
+        },
         "uk" : {
           "variations" : {
             "plural" : {
@@ -85,6 +103,12 @@
             "value" : "No renewable items"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun élément renouvelable"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -108,6 +132,12 @@
             "value" : "No item was selected for renewal"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun élément n'a été sélectionné pour le renouvellement"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -129,6 +159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "To renew an item you need to select it ☝️try once again or renew your items at a later point in time."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour renouveler un élément vous devez le sélectionner ☝️essayez encore une fois ou renouvelez vos éléments ultérieurement."
           }
         },
         "uk" : {
@@ -172,6 +208,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "None of %lld selected items have been renewed."
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "L'élément sélectionné n'a pas été renouvelé."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Aucun des %lld éléments sélectionnés n'a été renouvelé."
                 }
               }
             }
@@ -223,6 +277,12 @@
             "value" : "Only %1$lld out of the %2$lld selected items have been renewed"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seulement %1$lld sur les %2$lld éléments sélectionnés ont été renouvelés"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -244,6 +304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Have you added an account? When did you last refresh the loans list?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avez-vous ajouté un compte ? Quand avez-vous actualisé la liste des emprunts pour la dernière fois ?"
           }
         },
         "uk" : {
@@ -269,6 +335,12 @@
             "value" : "Has the item expired already or has the maximum number of renewals been reached? Someone might as well have placed a preorder on the item."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'élément a-t-il déjà expiré ou le nombre maximum de renouvellements a-t-il été atteint ? Quelqu'un pourrait également avoir placé une précommande sur l'élément."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -290,6 +362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Have the non renewed items possibly expired already or has the maximum number of renewals been reached? Someone might as well have placed a preorder on an item."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les éléments non renouvelés ont-ils possiblement déjà expiré ou le nombre maximum de renouvellements a-t-il été atteint ? Quelqu'un pourrait également avoir placé une précommande sur un élément."
           }
         },
         "uk" : {

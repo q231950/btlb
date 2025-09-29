@@ -16,6 +16,12 @@
             "value" : "3128"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3128"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37,6 +43,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Accounts"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comptes"
           }
         },
         "uk" : {
@@ -62,6 +74,12 @@
             "value" : "Authentication failed"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authentification échouée"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -83,6 +101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please check your username, password and the selected library."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez vérifier votre nom d'utilisateur, mot de passe et la bibliothèque sélectionnée."
           }
         },
         "uk" : {
@@ -108,6 +132,12 @@
             "value" : "Cancel"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -131,6 +161,12 @@
             "value" : "Charges"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frais"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -146,6 +182,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hier werden die Details der Konto- und Infosektion angezeigt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details of the Accounts and Info section will be displayed here."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les détails de la section Comptes et Informations seront affichés ici."
           }
         },
         "uk" : {
@@ -171,6 +219,12 @@
             "value" : "Details on"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Détails sur"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -192,6 +246,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
           }
         },
         "uk" : {
@@ -217,6 +277,12 @@
             "value" : "Remove Proxy"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer le proxy"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -238,6 +304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maybe you have no network? Or try without a network proxy?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peut-être n'avez-vous pas de réseau ? Ou essayez sans proxy réseau ?"
           }
         },
         "uk" : {
@@ -263,6 +335,12 @@
             "value" : "Connection Error"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur de connexion"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -284,6 +362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Libraries"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothèques"
           }
         },
         "uk" : {
@@ -309,6 +393,12 @@
             "value" : "Updating libraries"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise à jour des bibliothèques"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -330,6 +420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "BTLB functionality will be limited"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les fonctionnalités de BTLB seront limitées"
           }
         },
         "uk" : {
@@ -355,6 +451,12 @@
             "value" : "Loading..."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chargement..."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -376,6 +478,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loans"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emprunts"
           }
         },
         "uk" : {
@@ -401,6 +509,12 @@
             "value" : "More"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -422,6 +536,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You have never updated your accounts. Tap on the update button at the top right corner of the screen to run an update now"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous n'avez jamais mis à jour vos comptes. Appuyez sur le bouton de mise à jour en haut à droite de l'écran pour effectuer une mise à jour maintenant"
           }
         },
         "uk" : {
@@ -447,6 +567,12 @@
             "value" : "No Connection"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune connexion"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -468,6 +594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "BTLB was not able to automatically synchronize any account"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB n'a pas pu synchroniser automatiquement aucun compte"
           }
         },
         "uk" : {
@@ -493,6 +625,12 @@
             "value" : "No Connection"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune connexion"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -514,6 +652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Service unavailable"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Service indisponible"
           }
         },
         "uk" : {
@@ -539,6 +683,12 @@
             "value" : "Please try again later"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez réessayer plus tard"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -560,6 +710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Account was not activated. Please check your internet connection."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le compte n'a pas été activé. Veuillez vérifier votre connexion internet."
           }
         },
         "uk" : {
@@ -585,6 +741,12 @@
             "value" : "%@ was not activated because of missing login credentials. Please enter your user ID as well as password."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ n'a pas été activé en raison d'identifiants de connexion manquants. Veuillez saisir votre identifiant utilisateur ainsi que votre mot de passe."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -606,6 +768,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ was not activated because of wrong login data."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ n'a pas été activé en raison de données de connexion incorrectes."
           }
         },
         "uk" : {
@@ -631,6 +799,12 @@
             "value" : "Please enter your username and password"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez saisir votre nom d'utilisateur et votre mot de passe"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -652,6 +826,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please enter your password"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez saisir votre mot de passe"
           }
         },
         "uk" : {
@@ -677,6 +857,12 @@
             "value" : "Please enter a username"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez saisir un nom d'utilisateur"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -698,6 +884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "not now"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pas maintenant"
           }
         },
         "uk" : {
@@ -723,6 +915,12 @@
             "value" : "%@ was not updated because of wrong login data"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ n'a pas été mis à jour en raison de données de connexion incorrectes"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -744,6 +942,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "None of your accounts is active. Activate at least one account in the accounts view"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun de vos comptes n'est actif. Activez au moins un compte dans la vue des comptes"
           }
         },
         "uk" : {
@@ -769,6 +973,12 @@
             "value" : "Your account is not active. Activate it in the accounts view"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre compte n'est pas actif. Activez-le dans la vue des comptes"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -790,6 +1000,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nothing to update"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rien à mettre à jour"
           }
         },
         "uk" : {
@@ -815,6 +1031,12 @@
             "value" : "Operation failed"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'opération a échoué"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -838,6 +1060,12 @@
             "value" : "Please use a library known to the application"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez utiliser une bibliothèque connue de l'application"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -856,6 +1084,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Port"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Port"
@@ -884,6 +1118,12 @@
             "value" : "Proxy address"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adresse proxy"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -907,6 +1147,12 @@
             "value" : "Proxy error"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur de proxy"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -925,6 +1171,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "proxyuhh.uni-hamburg.de"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "proxyuhh.uni-hamburg.de"
@@ -953,6 +1205,12 @@
             "value" : "Unable to create request"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de créer la requête"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -974,6 +1232,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reservations"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réservations"
           }
         },
         "uk" : {
@@ -999,6 +1263,12 @@
             "value" : "synchronizing..."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchronisation..."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1022,6 +1292,12 @@
             "value" : "The action could not be performed because the library is unknown."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'action n'a pas pu être effectuée car la bibliothèque est inconnue."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1043,6 +1319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Try again"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommencer"
           }
         },
         "uk" : {
@@ -1069,6 +1351,12 @@
             "value" : "undefined library name"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nom de bibliothèque indéfini"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1092,6 +1380,12 @@
             "value" : "Your account was not updated. Please check your internet connection."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre compte n'a pas été mis à jour. Veuillez vérifier votre connexion internet."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1113,6 +1407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "None of your accounts was updated. Please check your internet connection."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun de vos comptes n'a été mis à jour. Veuillez vérifier votre connexion internet."
           }
         },
         "uk" : {

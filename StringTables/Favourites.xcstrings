@@ -16,6 +16,12 @@
             "value" : "A selected bookmark's details will be displayed here."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les détails du signet sélectionné seront affichés ici."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38,6 +44,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmarks"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signets"
           }
         },
         "uk" : {
@@ -63,6 +75,12 @@
             "value" : "Loan"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emprunt"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -86,6 +104,12 @@
             "value" : "Search"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recherche"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -107,6 +131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No Bookmarks"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun signet"
           }
         },
         "uk" : {

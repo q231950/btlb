@@ -17,6 +17,12 @@
             "value" : "Later"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus tard"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38,6 +44,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A working email is required for recommendation."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un e-mail fonctionnel est requis pour une recommandation."
           }
         },
         "uk" : {
@@ -63,6 +75,12 @@
             "value" : "Recommendation not available"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommandation non disponible"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -84,6 +102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "<p>BTLB is a truly useful app. It syncs your library account with your Apple device. <br>Have a look at <a href=\"http://itunes.apple.com/en/app/BTLB/id383008918?mt=8\">BTLB on iTunes</a>.</p>"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<p>BTLB est une application vraiment utile. Elle synchronise votre compte de bibliothèque avec votre appareil Apple. <br>Jetez un œil à <a href=\"http://itunes.apple.com/fr/app/BTLB/id383008918?mt=8\">BTLB sur iTunes</a>.</p>"
           }
         },
         "uk" : {
@@ -109,6 +133,12 @@
             "value" : "made with 💖"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fait avec 💖"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -127,6 +157,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ok"
@@ -155,6 +191,12 @@
             "value" : "Of course, you're busy right now. Reading books? You may recommend BTLB at any time."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bien sûr, vous êtes occupé en ce moment. Vous lisez des livres ? Vous pouvez recommander BTLB à tout moment."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -176,6 +218,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Later maybe"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus tard peut-être"
           }
         },
         "uk" : {
@@ -201,6 +249,12 @@
             "value" : "I hope you & your friends will enjoy BTLB"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J'espère que vous et vos amis apprécierez BTLB"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -222,6 +276,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thank you!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merci !"
           }
         },
         "uk" : {

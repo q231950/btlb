@@ -16,6 +16,12 @@
             "value" : "Accounts"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comptes"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35,6 +41,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Action"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Action"
@@ -63,6 +75,12 @@
             "value" : "Interact with this loan"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interagir avec cet emprunt"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -84,6 +102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmarks"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signets"
           }
         },
         "uk" : {
@@ -109,6 +133,12 @@
             "value" : "Charges"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frais"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -132,6 +162,12 @@
             "value" : "Edits account settings"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier les paramètres du compte"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -153,6 +189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done editing this account"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fin de la modification de ce compte"
           }
         },
         "uk" : {
@@ -179,6 +221,12 @@
             "value" : "Edit"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -202,6 +250,12 @@
             "value" : "Done"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminé"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -221,6 +275,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Info"
@@ -249,6 +309,12 @@
             "value" : "Displays imprint"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affiche les informations"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -271,6 +337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "List of loans"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liste des emprunts"
           }
         },
         "uk" : {
@@ -296,6 +368,12 @@
             "value" : "Displaying %1$i loans of %2$i accounts"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affichage de %1$i emprunts sur %2$i comptes"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -319,6 +397,12 @@
             "value" : "Loans"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emprunts"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -340,6 +424,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus"
           }
         },
         "uk" : {
@@ -366,6 +456,12 @@
             "value" : "Send feedback"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Envoyer un commentaire"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -389,6 +485,12 @@
             "value" : "Opens app store"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvre l'App Store"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -410,6 +512,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher"
           }
         },
         "uk" : {
@@ -436,6 +544,12 @@
             "value" : "Set search catalogue"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Définir le catalogue de recherche"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -457,6 +571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set the catalogue to search in"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Définir le catalogue dans lequel rechercher"
           }
         },
         "uk" : {
@@ -482,6 +602,12 @@
             "value" : "Show filter options"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afficher les options de filtre"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -505,6 +631,12 @@
             "value" : "Update"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise à jour"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -526,6 +658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Updates loans"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Met à jour les emprunts"
           }
         },
         "uk" : {

@@ -31,6 +31,12 @@
             "value" : "An error occurred!"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une erreur s'est produite !"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51,6 +57,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alright"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comprendre"
           }
         },
         "uk" : {
@@ -75,6 +87,12 @@
             "value" : "Errors have occurred!"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plusieurs erreurs se sont produites !"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -89,6 +107,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die Netzwerkverbindung ist fehlgeschlagen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The network request has failed."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La requête réseau a échoué."
           }
         },
         "uk" : {
@@ -110,7 +140,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The requested functionality is not yet implemented for the library system of the account with the username “%@”."
+            "value" : "The requested functionality is not yet implemented for the library system of the account with the username “%@“."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La fonctionnalité demandée n'est pas encore implémentée pour le système de bibliothèque du compte avec le nom d'utilisateur « %@ »."
           }
         },
         "uk" : {

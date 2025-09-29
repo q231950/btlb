@@ -1,2196 +1,2766 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
-    "%@ - %@" : {
-      "extractionState" : "manual",
-      "generatesSymbol" : false,
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ - %@"
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ - %@": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ - %@"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ - %@"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ - %@"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ - %@"
+          }
         }
       }
     },
-    "account header item" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entleihung"
+    "account header item": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entleihung"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "item"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "item"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "видача"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "élément"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "видача"
+          }
         }
       }
     },
-    "account header items" : {
-      "comment" : "Loan Section",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entleihungen"
+    "account header items": {
+      "comment": "Loan Section",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entleihungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "items"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "items"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "éléments"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "видачі"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "видачі"
           }
         }
       }
     },
-    "account name placeholder" : {
-      "comment" : "Placeholder for the title of a newly created account",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "neues Konto"
+    "account name placeholder": {
+      "comment": "Placeholder for the title of a newly created account",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "neues Konto"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "new Account"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "new Account"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nouveau compte"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "новий обліковий запис"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "новий обліковий запис"
           }
         }
       }
     },
-    "account not active" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aktiviere dein Bibliothekskonto"
+    "account not active": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiviere dein Bibliothekskonto"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No active library account. Activate it now."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No active library account. Activate it now."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Немає активного облікового запису бібліотеки. Активуйте його зараз."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun compte de bibliothèque actif. Activez-le maintenant."
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Немає активного облікового запису бібліотеки. Активуйте його зараз."
+          }
         }
       }
     },
-    "account not active long" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dein Bibliothekskonto ist nicht aktiviert. Aktiviere es jetzt."
+    "account not active long": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Bibliothekskonto ist nicht aktiviert. Aktiviere es jetzt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No active library account. Activate it now."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No active library account. Activate it now."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre compte de bibliothèque n'est pas activé. Activez-le maintenant."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ваш обліковий запис бібліотеки не активовано. Активуйте його зараз."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш обліковий запис бібліотеки не активовано. Активуйте його зараз."
           }
         }
       }
     },
-    "activate account button title" : {
-      "comment" : "The title of a button that activate an account",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "aktivieren"
+    "activate account button title": {
+      "comment": "The title of a button that activate an account",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "aktivieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "activate"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "activate"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "activer"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "активувати"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "активувати"
           }
         }
       }
     },
-    "activate account retry button title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "erneut versuchen"
+    "activate account retry button title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "erneut versuchen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "retry"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "retry"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "спробувати знову"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "réessayer"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "спробувати знову"
+          }
         }
       }
     },
-    "activating copy" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "aktiviere…"
+    "activating copy": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "aktiviere…"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "activating…"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "activating…"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "activation…"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "активація…"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "активація…"
           }
         }
       }
     },
-    "activation failed copy" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aktivierung fehlgeschlagen"
+    "activation failed copy": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivierung fehlgeschlagen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activation failed"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Activation failed"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Échec de l'activation"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Активація не вдалася"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Активація не вдалася"
           }
         }
       }
     },
-    "Anmerkungen:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anmerkungen"
+    "Anmerkungen:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anmerkungen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Remarks:"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remarks:"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Примітки:"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remarques :"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Примітки:"
+          }
         }
       }
     },
-    "Ausgabe:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ausgabe"
+    "Ausgabe:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausgabe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edition:"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edition:"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Édition :"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Видання:"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Видання:"
           }
         }
       }
     },
-    "Author" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Autor"
+    "Author": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autor"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Author"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Author"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auteur"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Автор"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Автор"
           }
         }
       }
     },
-    "BACOWN" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Standort"
+    "BACOWN": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standort"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Location"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Location"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Місцезнаходження"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emplacement"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Місцезнаходження"
+          }
         }
       }
     },
-    "Barcode" : {
-      "comment" : "The barcode of the item",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Strichcode"
+    "Barcode": {
+      "comment": "The barcode of the item",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strichcode"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barcode"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Barcode"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code-barres"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Штрих-код"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Штрих-код"
           }
         }
       }
     },
-    "Cancel" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abbrechen"
+    "Cancel": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancel"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Скасувати"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скасувати"
           }
         }
       }
     },
-    "currentness of data" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aktualität der angezeigten Informationen"
+    "currentness of data": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktualität der angezeigten Informationen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Currentness of data"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Currentness of data"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Актуальність даних"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualité des données"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Актуальність даних"
+          }
         }
       }
     },
-    "data anmerkungen" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anmerkungen"
+    "data anmerkungen": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anmerkungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remarks"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Remarks"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remarques"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Примітки"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Примітки"
           }
         }
       }
     },
-    "data ausgabe" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ausgabe"
+    "data ausgabe": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausgabe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Issue"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Issue"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Édition"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Випуск"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Випуск"
           }
         }
       }
     },
-    "data erschienen" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Erschienen"
+    "data erschienen": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erschienen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Published"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Published"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Опубліковано"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Publié"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Опубліковано"
+          }
         }
       }
     },
-    "data isbn-ean" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ISBN/EAN"
+    "data isbn-ean": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ISBN/EAN"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ISBN/EAN"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ISBN/EAN"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ISBN/EAN"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ISBN/EAN"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ISBN/EAN"
           }
         }
       }
     },
-    "data links" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Links"
+    "data links": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Links"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Links"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Links"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liens"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Посилання"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Посилання"
           }
         }
       }
     },
-    "data originaltitel" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Originaltitel"
+    "data originaltitel": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Originaltitel"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Original Title"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original Title"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Оригінальна назва"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Titre original"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оригінальна назва"
+          }
         }
       }
     },
-    "data personen" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Person(en)"
+    "data personen": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Person(en)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Persons"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Persons"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personnes"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Особи"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Особи"
           }
         }
       }
     },
-    "data preis" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Preis"
+    "data preis": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preis"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Price"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Price"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prix"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ціна"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ціна"
           }
         }
       }
     },
-    "data reihe" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reihe"
+    "data reihe": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reihe"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Series"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Series"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Серія"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Série"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Серія"
+          }
         }
       }
     },
-    "data schlagwoerter" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Schlagwörter"
+    "data schlagwoerter": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schlagwörter"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keywords"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keywords"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mots-clés"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ключові слова"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ключові слова"
           }
         }
       }
     },
-    "data signatur" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Signatur"
+    "data signatur": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signatur"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signature"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Signature"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cote"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сигнатура"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сигнатура"
           }
         }
       }
     },
-    "data sprache" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sprache"
+    "data sprache": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprache"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Language"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Мова"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Langue"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мова"
+          }
         }
       }
     },
-    "data titel-lang" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Titel"
+    "data titel-lang": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Titel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Title"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Full Title"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Titre complet"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Повна назва"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повна назва"
           }
         }
       }
     },
-    "data umfang" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Umfang"
+    "data umfang": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Umfang"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Size"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Size"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taille"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обсяг"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обсяг"
           }
         }
       }
     },
-    "day" : {
-      "extractionState" : "migrated",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tag"
+    "day": {
+      "extractionState": "migrated",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tag"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "day"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "day"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "день"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jour"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "день"
+          }
         }
       }
     },
-    "days" : {
-      "extractionState" : "migrated",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tage"
+    "days": {
+      "extractionState": "migrated",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tage"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "days"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "days"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jours"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "днів"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "днів"
           }
         }
       }
     },
-    "Done" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fertig"
+    "Done": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fertig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Done"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminé"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Готово"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
           }
         }
       }
     },
-    "Erschienen:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Erschienen"
+    "Erschienen:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erschienen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Published:"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Published:"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Опубліковано:"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Publié :"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Опубліковано:"
+          }
         }
       }
     },
-    "identifier" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Identifikationsnummer"
+    "identifier": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identifikationsnummer"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identifier"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Identifier"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identifiant"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ідентифікатор"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ідентифікатор"
           }
         }
       }
     },
-    "InterestLevelName" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Interessen"
+    "InterestLevelName": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interessen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interest"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Interest"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intérêt"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Зацікавлення"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Зацікавлення"
           }
         }
       }
     },
-    "ISBN/Preis:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ISBN/Preis"
+    "ISBN/Preis:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ISBN/Preis"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ISBN/Price:"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ISBN/Price:"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ISBN/Ціна:"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ISBN/Prix :"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ISBN/Ціна:"
+          }
         }
       }
     },
-    "Library" : {
-      "comment" : "The library the item belongs to",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bibliothek"
+    "Library": {
+      "comment": "The library the item belongs to",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bibliothek"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Library"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Library"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bibliothèque"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Бібліотека"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Бібліотека"
           }
         }
       }
     },
-    "Link(s):" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Link(s)"
+    "Link(s):": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link(s)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link(s):"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Link(s):"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lien(s) :"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Посилання:"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Посилання:"
           }
         }
       }
     },
-    "Loaned until" : {
-      "comment" : "This is followed by a colon and the Date until the Media should be returned\n Example: \"Loaned until: 13 February 2011\"",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entliehen bis"
+    "Loaned until": {
+      "comment": "This is followed by a colon and the Date until the Media should be returned\n Example: \"Loaned until: 13 February 2011\"",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entliehen bis"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Loaned until"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loaned until"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Видано до"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emprunté jusqu'au"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Видано до"
+          }
         }
       }
     },
-    "MaterialTypeName" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Art"
+    "MaterialTypeName": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Art"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Type"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Тип"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тип"
           }
         }
       }
     },
-    "no account" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Log dich in dein Bibliothekskonto ein."
+    "no account": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log dich in dein Bibliothekskonto ein."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add your library account"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add your library account"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajoutez votre compte de bibliothèque"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Додайте ваш обліковий запис бібліотеки"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Додайте ваш обліковий запис бібліотеки"
           }
         }
       }
     },
-    "no account long" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kein Bibliothekskonto vorhanden. Füge jetzt eines hinzu."
+    "no account long": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Bibliothekskonto vorhanden. Füge jetzt eines hinzu."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No library account found. Add one now."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No library account found. Add one now."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обліковий запис бібліотеки не знайдено. Додайте зараз."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обліковий запис бібліотеки не знайдено. Додайте зараз."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun compte de bibliothèque trouvé. Ajoutez-en un maintenant."
+          }
         }
       }
     },
-    "no accounts add account button title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konto Hinzufügen"
+    "no accounts add account button title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konto Hinzufügen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Account"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add Account"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Додати обліковий запис"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Додати обліковий запис"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter un compte"
           }
         }
       }
     },
-    "no accounts hint text" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ziemlich leer hier ☝️ das ändert sich, sobald du dein Bibliothekskonto hinzugefügt hast."
+    "no accounts hint text": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ziemlich leer hier ☝️ das ändert sich, sobald du dein Bibliothekskonto hinzugefügt hast."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pretty empty here ☝️ this will change once you have setup your library account."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pretty empty here ☝️ this will change once you have setup your library account."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Досить порожньо ☝️ це зміниться, коли ви налаштуєте ваш обліковий запис бібліотеки."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Досить порожньо ☝️ це зміниться, коли ви налаштуєте ваш обліковий запис бібліотеки."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plutôt vide ici ☝️ cela changera une fois que vous aurez configuré votre compte de bibliothèque."
           }
         }
       }
     },
-    "no active accounts" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aktiviere ein Bibliothekskonto"
+    "no active accounts": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiviere ein Bibliothekskonto"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Activate a library account now."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activate a library account now."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Активуйте обліковий запис бібліотеки зараз."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Активуйте обліковий запис бібліотеки зараз."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activez un compte de bibliothèque maintenant."
+          }
         }
       }
     },
-    "no active accounts long" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keines der Bibliothekskonten ist aktiviert. Aktiviere mindestens eines."
+    "no active accounts long": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keines der Bibliothekskonten ist aktiviert. Aktiviere mindestens eines."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None of the library accounts is activated. Activate one now."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "None of the library accounts is activated. Activate one now."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Жоден з облікових записів бібліотеки не активовано. Активуйте один зараз."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Жоден з облікових записів бібліотеки не активовано. Активуйте один зараз."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun des comptes de bibliothèque n'est activé. Activez-en un maintenant."
           }
         }
       }
     },
-    "no item to return" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keine Entleihungen"
+    "no item to return": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Entleihungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing loaned."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nothing loaned."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нічого не видано."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нічого не видано."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun emprunt."
           }
         }
       }
     },
-    "NO_INFO" : {
-      "comment" : "This should never be displayed. It will, however, be displayed if there is nothing to display.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keine Informationen"
+    "NO_INFO": {
+      "comment": "This should never be displayed. It will, however, be displayed if there is nothing to display.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Informationen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No info"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No info"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Немає інформації"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Немає інформації"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune information"
           }
         }
       }
     },
-    "not activated copy" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "nicht aktiviert"
+    "not activated copy": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nicht aktiviert"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "not activated"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "not activated"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "не активовано"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не активовано"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "non activé"
+          }
         }
       }
     },
-    "notification account update has changes subtitle" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viel Freude mit den Entleihungen."
+    "notification account update has changes subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Viel Freude mit den Entleihungen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enjoy the items"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enjoy the items"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Насолоджуйтеся матеріалами"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Насолоджуйтеся матеріалами"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profitez de vos emprunts"
           }
         }
       }
     },
-    "notification account update has changes title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konto aktualisiert 👩‍🏫🧑🏻‍🏫"
+    "notification account update has changes title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konto aktualisiert 👩‍🏫🧑🏻‍🏫"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Account updated 👩‍🏫🧑🏻‍🏫"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Account updated 👩‍🏫🧑🏻‍🏫"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обліковий запис оновлено 👩‍🏫🧑🏻‍🏫"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обліковий запис оновлено 👩‍🏫🧑🏻‍🏫"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compte mis à jour 👩‍🏫🧑🏻‍🏫"
           }
         }
       }
     },
-    "notification account update without account" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kein Bibliothekskonto"
+    "notification account update without account": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Bibliothekskonto"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No Library Account"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Library Account"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Немає облікового запису бібліотеки"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Немає облікового запису бібліотеки"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun compte de bibliothèque"
+          }
         }
       }
     },
-    "notification account update without account subtitle" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Füge eines hinzu"
+    "notification account update without account subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Füge eines hinzu"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add one now"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add one now"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Додати зараз"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Додати зараз"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajoutez-en un maintenant"
           }
         }
       }
     },
-    "notification account update without changes subtitle" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Alles beim Alten"
+    "notification account update without changes subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles beim Alten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing has changed"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nothing has changed"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нічого не змінилося"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нічого не змінилося"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rien n'a changé"
           }
         }
       }
     },
-    "notification account update without changes title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entleihungen unverändert 😌"
+    "notification account update without changes title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entleihungen unverändert 😌"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Library account up-to-date 😌"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Library account up-to-date 😌"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обліковий запис бібліотеки актуальний 😌"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обліковий запис бібліотеки актуальний 😌"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compte de bibliothèque à jour 😌"
+          }
         }
       }
     },
-    "notification action refresh accounts" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "aktualisiere Konten"
+    "notification action refresh accounts": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "aktualisiere Konten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "refresh accounts"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "refresh accounts"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "оновити облікові записи"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "оновити облікові записи"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "actualiser les comptes"
           }
         }
       }
     },
-    "notification action renew" : {
-      "comment" : "Notifications",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "verlängern"
+    "notification action renew": {
+      "comment": "Notifications",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "verlängern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "renew"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "renew"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "поновити"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "поновити"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "renouveler"
           }
         }
       }
     },
-    "notification action try to renew" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "versuche zu verlängern"
+    "notification action try to renew": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "versuche zu verlängern"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "try to renew"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "try to renew"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "спробувати поновити"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "спробувати поновити"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "essayer de renouveler"
+          }
         }
       }
     },
-    "notification expiration due message" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ist am %@ fällig."
+    "notification expiration due message": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ist am %@ fällig."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "is due on %@."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "is due on %@."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "потрібно повернути %@."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "потрібно повернути %@."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "est dû le %@."
           }
         }
       }
     },
-    "notification expired message" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ist seit %@ überfällig."
+    "notification expired message": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ist seit %@ überfällig."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "is overdue since %@."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "is overdue since %@."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "прострочено з %@."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "прострочено з %@."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "est en retard depuis le %@."
           }
         }
       }
     },
-    "notification expires today not renewable message" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ist heute fällig und nicht verängerbar!"
+    "notification expires today not renewable message": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ist heute fällig und nicht verängerbar!"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "is due today and not renewable!"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "is due today and not renewable!"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "потрібно повернути сьогодні і не можна поновити!"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "потрібно повернути сьогодні і не можна поновити!"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "est dû aujourd'hui et non renouvelable !"
+          }
         }
       }
     },
-    "notification expires today renewable message" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ist heute fällig; eventuell noch verlängerbar."
+    "notification expires today renewable message": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ist heute fällig; eventuell noch verlängerbar."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "is due today; potentially renewable."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "is due today; potentially renewable."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "потрібно повернути сьогодні; можливо поновлення."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "потрібно повернути сьогодні; можливо поновлення."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "est dû aujourd'hui ; potentiellement renouvelable."
           }
         }
       }
     },
-    "notification renewal failure subtitle" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1@ konnte nicht verlängert werden. Versuche es noch einmal in der App oder gib das Medium bei deiner Bibliothek zurück."
+    "notification renewal failure subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1@ konnte nicht verlängert werden. Versuche es noch einmal in der App oder gib das Medium bei deiner Bibliothek zurück."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1@ could not be renewed. Please try again in the app or return the item to the library"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1@ could not be renewed. Please try again in the app or return the item to the library"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1@ не вдалося поновити. Спробуйте ще раз у додатку або поверніть матеріал до бібліотеки"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1@ не вдалося поновити. Спробуйте ще раз у додатку або поверніть матеріал до бібліотеки"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1@ n'a pas pu être renouvelé. Veuillez réessayer dans l'application ou retourner l'élément à la bibliothèque"
           }
         }
       }
     },
-    "notification renewal failure title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keine Verlängerung 😢"
+    "notification renewal failure title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Verlängerung 😢"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Failed to renew 😢"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to renew 😢"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Не вдалося поновити 😢"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не вдалося поновити 😢"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Échec du renouvellement 😢"
+          }
         }
       }
     },
-    "notification renewal success subtitle" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1@ ist nun bis zum %2@ entliehen."
+    "notification renewal success subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1@ ist nun bis zum %2@ entliehen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1@ is now due on %2@."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1@ is now due on %2@."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1@ тепер потрібно повернути %2@."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1@ тепер потрібно повернути %2@."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1@ est maintenant dû le %2@."
           }
         }
       }
     },
-    "notification renewal success title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Erfolgreich verlängert 🤖"
+    "notification renewal success title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erfolgreich verlängert 🤖"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Successfully renewed 🤖"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Successfully renewed 🤖"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Успішно поновлено 🤖"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Успішно поновлено 🤖"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renouvelé avec succès 🤖"
           }
         }
       }
     },
-    "Organisation(en):" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Organisation(en)"
+    "Organisation(en):": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Organisation(en)"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Organisation(s):"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Organisation(s):"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Організація(ї):"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Організація(ї):"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Organisation(s) :"
+          }
         }
       }
     },
-    "Originalsprache:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Originalsprache"
+    "Originalsprache:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Originalsprache"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original Language"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Original Language"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оригінальна мова"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Оригінальна мова"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Langue originale :"
           }
         }
       }
     },
-    "Originaltitel:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Originaltitel"
+    "Originaltitel:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Originaltitel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original Title"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Original Title"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оригінальна назва"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Оригінальна назва"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Titre original :"
           }
         }
       }
     },
-    "overall number of loans long %lld %lld" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1lld Entleihungen auf%2lld Konten"
+    "overall number of loans long %lld %lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1lld Entleihungen auf%2lld Konten"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1lld loans on%2lld accounts"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1lld loans on%2lld accounts"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1lld видач на %2lld облікових записах"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1lld видач на %2lld облікових записах"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1lld emprunts sur %2lld comptes"
+          }
         }
       }
     },
-    "overall number of loans long single item %lld" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 Entleihung auf%2lld Konten"
+    "overall number of loans long single item %lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 Entleihung auf%2lld Konten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 loan on%2lld accounts"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 loan on%2lld accounts"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 видача на %2lld облікових записах"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 видача на %2lld облікових записах"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 emprunt sur %2lld comptes"
           }
         }
       }
     },
-    "overall number of loans single account long %lld" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1lld Entleihungen"
+    "overall number of loans single account long %lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1lld Entleihungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1lld loans"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1lld loans"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1lld видач"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1lld видач"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1lld emprunts"
           }
         }
       }
     },
-    "overall number of loans single account single item long" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 Entleihung"
+    "overall number of loans single account single item long": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 Entleihung"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 loan"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 loan"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 видача"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 видача"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 emprunt"
+          }
         }
       }
     },
-    "Person(en):" : {
-      "comment" : "pub hamburg",
-      "extractionState" : "manual",
-      "generatesSymbol" : false,
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Personen"
+    "Person(en):": {
+      "comment": "pub hamburg",
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Person(s):"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Person(s):"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Особа(и):"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Особа(и):"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personne(s) :"
           }
         }
       }
     },
-    "Person/en:" : {
-      "comment" : "opac",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Person/en:"
+    "Person/en:": {
+      "comment": "opac",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Person/en:"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Person(s):"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Person(s):"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Особа(и):"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Особа(и):"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personne(s) :"
           }
         }
       }
     },
-    "Prolonged" : {
-      "comment" : "This is followed by a colon and the number of times this item has been prolonged (extended)\n Example: \"Verlängerungen: 2\"",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verlängerungen"
+    "Prolonged": {
+      "comment": "This is followed by a colon and the number of times this item has been prolonged (extended)\n Example: \"Verlängerungen: 2\"",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verlängerungen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Renewals"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renewals"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поновлення"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поновлення"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renouvellements"
+          }
         }
       }
     },
-    "Reihe:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reihe"
+    "Reihe:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reihe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Series:"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Series:"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Серія:"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Серія:"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Série :"
           }
         }
       }
     },
-    "Reservations" : {
-      "comment" : "Whether someone has placed a reservation on this item.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vormerkungen"
+    "Reservations": {
+      "comment": "Whether someone has placed a reservation on this item.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vormerkungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reservations"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reservations"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Бронювання"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Бронювання"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réservations"
           }
         }
       }
     },
-    "Schlagwörter:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Schlagwörter"
+    "Schlagwörter:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schlagwörter"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keywords:"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keywords:"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ключові слова:"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ключові слова:"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mots-clés :"
+          }
         }
       }
     },
-    "Shelf Mark" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Signatur"
+    "Shelf Mark": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signatur"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shelf Mark"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Shelf Mark"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Полична позначка"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Полична позначка"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cote"
           }
         }
       }
     },
-    "Signatur:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Signatur"
+    "Signatur:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signatur"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signature:"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Signature:"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сигнатура:"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сигнатура:"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cote :"
           }
         }
       }
     },
-    "Sprache:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sprache"
+    "Sprache:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprache"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Language:"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language:"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Мова:"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мова:"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Langue :"
+          }
         }
       }
     },
-    "Status" : {
-      "comment" : "The state of the item. It might be borrowed, expired,...",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Status"
+    "Status": {
+      "comment": "The state of the item. It might be borrowed, expired,...",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Status"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Статус"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Статус"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statut"
           }
         }
       }
     },
-    "Teil:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Teil"
+    "Teil:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teil"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Part:"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Part:"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Частина:"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Частина:"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partie :"
           }
         }
       }
     },
-    "Titel:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Titel"
+    "Titel:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Titel"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Title:"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Title:"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Назва:"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Назва:"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Titre :"
+          }
         }
       }
     },
-    "Umfang:" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Umfang"
+    "Umfang:": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Umfang"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scope:"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Scope:"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обсяг:"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обсяг:"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taille :"
           }
         }
       }
     },
-    "until next return date" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "bis Leihfristende"
+    "until next return date": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bis Leihfristende"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "until next expiry date"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "until next expiry date"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "до наступної дати повернення"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "до наступної дати повернення"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jusqu'à la prochaine date de retour"
           }
         }
       }
     },
-    "until next return date long" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "bis zum nächsten Leihfristende"
+    "until next return date long": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bis zum nächsten Leihfristende"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "until upcoming expiry date"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "until upcoming expiry date"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "до найближчої дати виплати"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "до найближчої дати виплати"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jusqu'à la prochaine date d'échéance"
+          }
         }
       }
     },
-    "Volume No." : {
-      "comment" : "The Volume number of the borrowed item.\n The borrowed item may be volume 3 out of 5\n This is followed by a colon and the volume number.\n Example: \"Volume No.: kein Band\" or \"Volume No.: 3\"",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Band Nr."
+    "Volume No.": {
+      "comment": "The Volume number of the borrowed item.\n The borrowed item may be volume 3 out of 5\n This is followed by a colon and the volume number.\n Example: \"Volume No.: kein Band\" or \"Volume No.: 3\"",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Band Nr."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volume No."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Volume No."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "№ тому"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "№ тому"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "N° de volume"
           }
         }
       }
     },
-    "widget configuration description" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zeigt die Anzahl der Tage bis zum nächsten Leihfristende an."
+    "widget configuration description": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zeigt die Anzahl der Tage bis zum nächsten Leihfristende an."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shows the number of days until the next expiry date."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Shows the number of days until the next expiry date."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показує кількість днів до наступної дати повернення."
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Показує кількість днів до наступної дати повернення."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Affiche le nombre de jours jusqu'à la prochaine date d'échéance."
           }
         }
       }
     },
-    "widget configuration title" : {
-      "comment" : "Widget",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verbleibende Tage"
+    "widget configuration title": {
+      "comment": "Widget",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbleibende Tage"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Remaining Days"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remaining Days"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Дні, що залишилися"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дні, що залишилися"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jours restants"
+          }
         }
       }
     },
-    "widget lockscreen no account" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konto"
+    "widget lockscreen no account": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konto"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Account"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Account"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обліковий запис"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обліковий запис"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compte"
           }
         }
       }
     },
-    "widget lockscreen no active accounts" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konto"
+    "widget lockscreen no active accounts": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konto"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sign in"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увійти"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Увійти"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se connecter"
           }
         }
       }
     }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }

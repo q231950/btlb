@@ -16,6 +16,12 @@
             "value" : "%@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38,6 +44,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: available"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: disponible"
           }
         },
         "uk" : {
@@ -64,6 +76,12 @@
             "value" : "%@: not available"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: non disponible"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -86,6 +104,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: unknown availability"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: disponibilité inconnue"
           }
         },
         "uk" : {
@@ -111,6 +135,12 @@
             "value" : "Availabilities"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponibilités"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -131,6 +161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Debug Info"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informations de débogage"
           }
         },
         "uk" : {
@@ -156,6 +192,12 @@
             "value" : "Due Date: %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date de retour: %@"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -174,6 +216,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@"
@@ -202,6 +250,12 @@
             "value" : "Select Renewable Items"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionner les éléments à renouveler"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -225,6 +279,12 @@
             "value" : "The selected items will be renewed."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les éléments sélectionnés seront renouvelés."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -242,6 +302,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ok"
@@ -269,6 +335,12 @@
             "value" : "Search"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -289,6 +361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effectuer une recherche"
           }
         },
         "uk" : {
@@ -313,6 +391,12 @@
             "value" : "Search"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -335,6 +419,12 @@
             "value" : "Perform a text search."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effectuer une recherche textuelle."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -355,6 +445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recherche"
           }
         },
         "uk" : {
@@ -380,6 +476,12 @@
             "value" : "Error"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -400,6 +502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Refresh failed. Please try again later."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'actualisation a échoué. Veuillez réessayer plus tard."
           }
         },
         "uk" : {
@@ -425,6 +533,12 @@
             "value" : "Library"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothèque"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -446,6 +560,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Renew selected items from your list of loaned items."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renouveler les éléments sélectionnés de votre liste d'emprunts."
           }
         },
         "uk" : {
@@ -471,6 +591,12 @@
             "value" : "Select Items"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionner les éléments"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -492,6 +618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "book"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "livre"
           }
         },
         "uk" : {
@@ -517,6 +649,12 @@
             "value" : "library"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bibliothèque"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -538,6 +676,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "media"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "médias"
           }
         },
         "uk" : {
@@ -563,6 +707,12 @@
             "value" : "prolong"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "prolonger"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -584,6 +734,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "renew"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "renouveler"
           }
         },
         "uk" : {
@@ -609,6 +765,12 @@
             "value" : "Renewal"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renouvellement"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -630,6 +792,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Renew Items"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renouveler les éléments"
           }
         },
         "uk" : {
@@ -655,6 +823,12 @@
             "value" : "Renew with bɪtlɪb"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renouveler avec bɪtlɪb"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -675,6 +849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher"
           }
         },
         "uk" : {
@@ -699,6 +879,12 @@
             "value" : "Search BTLB"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher dans BTLB"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -719,6 +905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enter a search term and perform a search."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrez un terme de recherche et effectuez une recherche."
           }
         },
         "uk" : {
@@ -743,6 +935,12 @@
             "value" : "Search for ‘%@’"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher '%@'"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -763,6 +961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search Term"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terme de recherche"
           }
         },
         "uk" : {
@@ -788,6 +992,12 @@
             "value" : "Search with bɪtlɪb"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher avec bɪtlɪb"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -808,6 +1018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The term to search for."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le terme à rechercher."
           }
         },
         "uk" : {

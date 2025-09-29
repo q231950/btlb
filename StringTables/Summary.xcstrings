@@ -17,6 +17,12 @@
             "value" : "Number of active Accounts"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de comptes actifs"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39,6 +45,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Number of Accounts"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de comptes"
           }
         },
         "uk" : {
@@ -65,6 +77,12 @@
             "value" : "Number of inactive Accounts"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de comptes inactifs"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -87,6 +105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activate your account in the accounts view"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activez votre compte dans la vue des comptes"
           }
         },
         "uk" : {
@@ -113,6 +137,12 @@
             "value" : "Activate an account in the accounts view"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activez un compte dans la vue des comptes"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -135,6 +165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sum of all Charges"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Somme de tous les frais"
           }
         },
         "uk" : {
@@ -161,6 +197,12 @@
             "value" : "Most recent update on %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dernière mise à jour le %@"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -183,6 +225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Number of Loans"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre d'emprunts"
           }
         },
         "uk" : {
@@ -209,6 +257,12 @@
             "value" : "Number of expired Loans"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre d'emprunts expirés"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -231,6 +285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loans ready for collection"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emprunts prêts à récupérer"
           }
         },
         "uk" : {
@@ -257,6 +317,12 @@
             "value" : "You have not set up an account yet"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous n'avez pas encore configuré de compte"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -279,6 +345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No charges on any active account"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun frais sur les comptes actifs"
           }
         },
         "uk" : {
@@ -305,6 +377,12 @@
             "value" : "none"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aucun"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -327,6 +405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "none"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aucun"
           }
         },
         "uk" : {
@@ -353,6 +437,12 @@
             "value" : "Set up an account in the accounts view"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurez un compte dans la vue des comptes"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -375,6 +465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Summary"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Résumé"
           }
         },
         "uk" : {

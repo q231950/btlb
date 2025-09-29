@@ -15,6 +15,12 @@
             "value" : "%1$@ - %2$@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ - %2$@"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38,6 +44,12 @@
             "value" : "Items"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Éléments"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52,6 +64,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fertig"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminé"
           }
         },
         "uk" : {
@@ -77,6 +95,12 @@
             "value" : "This item is locked by preorder!"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cet élément est bloqué par une précommande !"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -98,6 +122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No one has preordered this item."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personne n'a précommandé cet élément."
           }
         },
         "uk" : {
@@ -122,6 +152,12 @@
             "value" : "Cancel"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -144,6 +180,12 @@
             "value" : "Renew"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renouveler"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -164,6 +206,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Would you like to renew this item?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Souhaitez-vous renouveler cet élément ?"
           }
         },
         "uk" : {

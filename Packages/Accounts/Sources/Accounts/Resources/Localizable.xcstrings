@@ -29,6 +29,12 @@
             "value" : "Ok"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49,6 +55,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Something went wrong."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quelque chose s'est mal passé."
           }
         },
         "uk" : {
@@ -74,6 +86,12 @@
             "value" : "Oops"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oups"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -91,6 +109,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ok"
@@ -118,6 +142,12 @@
             "value" : "• Did you select the correct library?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Avez-vous sélectionné la bonne bibliothèque ?"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -138,6 +168,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "• Did you enter the correct username?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Avez-vous saisi le bon nom d'utilisateur ?"
           }
         },
         "uk" : {
@@ -162,6 +198,12 @@
             "value" : "• Do you know your password? Be aware that some libraries lock the account if you enter it incorrectly too often."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Connaissez-vous votre mot de passe ? Attention, certaines bibliothèques bloquent le compte si vous le saisissez incorrectement trop souvent."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -184,6 +226,12 @@
             "value" : "• In case you forgot, there's the '%@' button below which opens the selected library's website so you can reset your password there."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Si vous l'avez oublié, il y a le bouton '%@' ci-dessous qui ouvre le site web de la bibliothèque sélectionnée pour que vous puissiez y réinitialiser votre mot de passe."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -204,6 +252,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset Password"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser le mot de passe"
           }
         },
         "uk" : {
@@ -229,6 +283,12 @@
             "value" : "Sign In Failed"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échec de la connexion"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -249,6 +309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Cat"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chat Lecteur"
           }
         },
         "uk" : {
@@ -273,6 +339,12 @@
             "value" : "Reading Duck"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canard Lecteur"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -293,6 +365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Fox"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renard Lecteur"
           }
         },
         "uk" : {
@@ -317,6 +395,12 @@
             "value" : "Reading Horse"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheval Lecteur"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -337,6 +421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Lion"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lion Lecteur"
           }
         },
         "uk" : {
@@ -361,6 +451,12 @@
             "value" : "Reading Mouse"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Souris Lectrice"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -381,6 +477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Panda"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panda Lecteur"
           }
         },
         "uk" : {
@@ -405,6 +507,12 @@
             "value" : "Reading Poodle"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caniche Lecteur"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -425,6 +533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Rabbit"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lapin Lecteur"
           }
         },
         "uk" : {
@@ -449,6 +563,12 @@
             "value" : "Reading Tiger"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tigre Lecteur"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -469,6 +589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading Turtle"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tortue Lectrice"
           }
         },
         "uk" : {
@@ -493,6 +619,12 @@
             "value" : "Reading Wolf"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loup Lecteur"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -513,6 +645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sign In"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se connecter"
           }
         },
         "uk" : {
@@ -537,6 +675,12 @@
             "value" : "My library account"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mon compte de bibliothèque"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -559,6 +703,12 @@
             "value" : "Select Library"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionner une bibliothèque"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -579,6 +729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mot de passe"
           }
         },
         "uk" : {
@@ -604,6 +760,12 @@
             "value" : "Add Account"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un compte"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -624,6 +786,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Library Card Number"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Numéro de carte de bibliothèque"
           }
         },
         "uk" : {
@@ -648,6 +816,12 @@
             "value" : "• Due charges: %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Frais dus : %@"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -668,6 +842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Let's read"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commençons à lire"
           }
         },
         "uk" : {
@@ -693,6 +873,12 @@
             "value" : "Edit Display Name"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier le nom d'affichage"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -713,6 +899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The library account **%@** has successfully been added. You can edit this account or add additional ones in the _Settings Section_ of the app at any time."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le compte de bibliothèque **%@** a été ajouté avec succès. Vous pouvez modifier ce compte ou en ajouter d'autres dans la _Section Paramètres_ de l'application à tout moment."
           }
         },
         "uk" : {
@@ -737,6 +929,12 @@
             "value" : "• No due charges."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Aucuns frais dus."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -757,6 +955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "• Days until next expiry date: **%@**"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Jours jusqu'à la prochaine date d'expiration : **%@**"
           }
         },
         "uk" : {
@@ -781,6 +985,12 @@
             "value" : "• Number of Loans Borrowed: **%lld**"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Nombre d'emprunts : **%lld**"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -801,6 +1011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You can now manage the loans of your account and view charges."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez maintenant gérer les emprunts de votre compte et consulter les frais."
           }
         },
         "uk" : {
@@ -825,6 +1041,12 @@
             "value" : "Account Added"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compte ajouté"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -845,6 +1067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activated"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activé"
           }
         },
         "uk" : {
@@ -869,6 +1097,12 @@
             "value" : "Display Name"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nom d'affichage"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -889,6 +1123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mot de passe"
           }
         },
         "uk" : {
@@ -913,6 +1153,12 @@
             "value" : "Username"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nom d'utilisateur"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -933,6 +1179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete Account"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer le compte"
           }
         },
         "uk" : {
@@ -957,6 +1209,12 @@
             "value" : "Cancel"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -977,6 +1235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete Account"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer le compte"
           }
         },
         "uk" : {
@@ -1001,6 +1265,12 @@
             "value" : "Delete"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1021,6 +1291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Are you sure to delete this account?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Êtes-vous sûr de vouloir supprimer ce compte ?"
           }
         },
         "uk" : {
@@ -1045,6 +1321,12 @@
             "value" : "Are you sure to delete `%@`?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Êtes-vous sûr de vouloir supprimer `%@` ?"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1065,6 +1347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Select a Library"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionner une bibliothèque"
           }
         },
         "uk" : {
@@ -1090,6 +1378,12 @@
             "value" : "Account"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compte"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1110,6 +1404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Signed In"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connecté"
           }
         },
         "uk" : {
@@ -1134,6 +1434,12 @@
             "value" : "Sign In"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se connecter"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1154,6 +1460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Signed Out"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Déconnecté"
           }
         },
         "uk" : {
@@ -1179,6 +1491,12 @@
             "value" : "Edit"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Éditer"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1200,6 +1518,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add Account"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un compte"
           }
         },
         "uk" : {
@@ -1226,6 +1550,12 @@
             "value" : "Display Name"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nom d'affichage"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1248,6 +1578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Created"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Créé"
           }
         },
         "uk" : {
@@ -1274,6 +1610,12 @@
             "value" : "your account ID..."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "votre ID de compte..."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1296,6 +1638,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Updated"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mis à jour"
           }
         },
         "uk" : {
@@ -1322,6 +1670,12 @@
             "value" : "Never updated"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jamais mis à jour"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1344,6 +1698,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Library"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothèque"
           }
         },
         "uk" : {
@@ -1370,6 +1730,12 @@
             "value" : "Username"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nom d'utilisateur"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1392,6 +1758,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Accounts"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comptes"
           }
         },
         "uk" : {
@@ -1418,6 +1790,12 @@
             "value" : "Activated"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activé"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1440,6 +1818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap \"+\" to add an account."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appuyez sur \"+\" pour ajouter un compte."
           }
         },
         "uk" : {
@@ -1466,6 +1850,12 @@
             "value" : "Tap \"Edit\" to add or remove accounts."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appuyez sur \"Éditer\" pour ajouter ou supprimer des comptes."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1483,6 +1873,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avatars"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avatars"
@@ -1510,6 +1906,12 @@
             "value" : "Cancel"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1532,6 +1934,12 @@
             "value" : "CANCEL"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ANNULER"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1552,6 +1960,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Swipe horizontally to find a suitable avatar for your account."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balayez horizontalement pour trouver un avatar adapté à votre compte."
           }
         },
         "uk" : {
@@ -1578,6 +1992,12 @@
             "value" : "create new account"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "créer un nouveau compte"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1598,6 +2018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminé"
           }
         },
         "uk" : {
@@ -1624,6 +2050,12 @@
             "value" : "Tap \"Edit\" modify entries."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appuyez sur \"Éditer\" pour modifier les entrées."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1646,6 +2078,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "is not activated"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "n'est pas activé"
           }
         },
         "uk" : {
@@ -1672,6 +2110,12 @@
             "value" : "is not activated. Activate it in the Accounts View."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "n'est pas activé. Activez-le dans la vue Comptes."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1696,6 +2140,12 @@
             "value" : "is not active. Login failed."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "n'est pas actif. Échec de la connexion."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1716,6 +2166,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "LIBRARIES"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BIBLIOTHÈQUES"
           }
         },
         "uk" : {
@@ -1739,6 +2195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus"
           }
         },
         "uk" : {
@@ -1765,6 +2227,12 @@
             "value" : "Not activated"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non activé"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1787,6 +2255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "not set..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "non défini..."
           }
         },
         "uk" : {
@@ -1813,6 +2287,12 @@
             "value" : "set"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "défini"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1835,6 +2315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "There is no account to update. Would you like to create one?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il n'y a aucun compte à mettre à jour. Souhaitez-vous en créer un ?"
           }
         },
         "uk" : {
@@ -1861,6 +2347,12 @@
             "value" : "Tap \"Done or activate the account to save changes."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appuyez sur \"Terminé\" ou activez le compte pour enregistrer les modifications."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1883,6 +2375,12 @@
             "value" : "Switch to grid view"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passer à la vue grille"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1903,6 +2401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Switch to list view"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passer à la vue liste"
           }
         },
         "uk" : {

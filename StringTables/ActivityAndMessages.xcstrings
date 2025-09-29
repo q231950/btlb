@@ -16,6 +16,12 @@
             "value" : "incorrect credentials"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "identifiants incorrects"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37,6 +43,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Success"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Succès"
           }
         },
         "uk" : {
@@ -62,6 +74,12 @@
             "value" : "Activating account"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activation du compte"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -85,6 +103,12 @@
             "value" : "initiating..."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "initialisation..."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -106,6 +130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This may take a moment"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cela peut prendre un moment"
           }
         },
         "uk" : {
@@ -132,6 +162,12 @@
             "value" : "Updating accounts"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise à jour des comptes"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -153,6 +189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Updating libraries"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise à jour des bibliothèques"
           }
         },
         "uk" : {
