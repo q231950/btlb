@@ -1,5 +1,3 @@
-[submodule "Packages/shared/paper"]
-	path = Packages/shared/paper
+[submodule "BTLB/Packages/shared/paper"]
+	path = BTLB/Packages/shared/paper
 	url = git@github.com:q231950/paper.git
-[submodule "./"]
-	branch = main
