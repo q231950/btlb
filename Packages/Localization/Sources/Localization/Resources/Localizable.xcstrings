@@ -709,16 +709,46 @@
       "comment" : "The order number of an item in the details view",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bestellnummer"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Order Number"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Número de pedido"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Numéro de commande"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер заказа"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sipariş Numarası"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер замовлення"
           }
         }
       }
@@ -2157,13 +2187,19 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Plutôt vide ici ☝️ cela changera une fois que vous aurez configuré votre compte de bibliothèque."
+            "value" : "Plutôt vide ici ☝️ cela changera une vez que vous aurez configuré votre compte de bibliothèque."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Здесь довольно пусто ☝️ это изменится, когда вы настроите ваш аккаунт библиотеки."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Burada oldukça boş ☝️ kütüphane hesabınızı ayarladıktan sonra bu değişecek."
           }
         },
         "uk" : {
@@ -2207,6 +2243,12 @@
             "value" : "Активируйте аккаунт библиотеки сейчас."
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi bir kütüphane hesabı etkinleştirin."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2246,6 +2288,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ни один из аккаунтов библиотеки не активирован. Активируйте один сейчас."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kütüphane hesaplarından hiçbiri etkinleştirilmemiş. Şimdi birini etkinleştirin."
           }
         },
         "uk" : {
@@ -2337,6 +2385,12 @@
             "value" : "Нет информации"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilgi yok"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2376,6 +2430,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "не активировано"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "etkinleştirilmemiş"
           }
         },
         "uk" : {
@@ -2419,6 +2479,12 @@
             "value" : "Наслаждайтесь материалами"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ödünç alınan öğelerin keyfini çıkarın"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2439,7 +2505,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Account updated 👩‍🏫🧑🏻‍🏫"
+            "value" : "Account updated 👩‍🏫��🏻‍🏫"
           }
         },
         "es" : {
@@ -2458,6 +2524,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Аккаунт обновлен 👩‍🏫🧑🏻‍🏫"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hesap güncellendi 👩‍🏫🧑🏻‍🏫"
           }
         },
         "uk" : {
@@ -2501,6 +2573,12 @@
             "value" : "Нет аккаунта библиотеки"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kütüphane Hesabı Yok"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2540,6 +2618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить сейчас"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi bir tane ekle"
           }
         },
         "uk" : {
@@ -2583,6 +2667,12 @@
             "value" : "Ничего не изменилось"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiçbir şey değişmedi"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2624,6 +2714,12 @@
             "value" : "Аккаунт библиотеки актуален 😌"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kütüphane hesabı güncel 😌"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2663,6 +2759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "обновить аккаунты"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hesapları yenile"
           }
         },
         "uk" : {
@@ -2707,6 +2809,12 @@
             "value" : "продлить"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yenile"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2746,6 +2854,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "попробовать продлить"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yenilemeyi dene"
           }
         },
         "uk" : {
@@ -2789,6 +2903,12 @@
             "value" : "должно быть возвращено %@."
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ tarihinde iade edilmelidir."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2828,6 +2948,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "просрочено с %@."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ tarihinden beri gecikmiş."
           }
         },
         "uk" : {
@@ -2871,6 +2997,12 @@
             "value" : "должно быть возвращено сегодня и не подлежит продлению!"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bugün iade edilmeli ve yenilenemez!"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2910,6 +3042,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "должно быть возвращено сегодня; возможно продление."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bugün iade edilmeli; muhtemelen yenilenebilir."
           }
         },
         "uk" : {
@@ -2953,6 +3091,12 @@
             "value" : "%1@ не удалось продлить. Попробуйте еще раз в приложении или верните элемент в библиотеку"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1@ yenilenemedi. Lütfen uygulamada tekrar deneyin veya öğeyi kütüphaneye iade edin"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2992,6 +3136,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось продлить 😢"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilenemedi 😢"
           }
         },
         "uk" : {
@@ -3035,6 +3185,12 @@
             "value" : "%1@ теперь должно быть возвращено %2@."
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1@ artık %2@ tarihinde iade edilmelidir."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3074,6 +3230,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Успешно продлено 🤖"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarıyla yenilendi 🤖"
           }
         },
         "uk" : {
@@ -3117,6 +3279,12 @@
             "value" : "Организация(и):"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuruluş(lar):"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3156,6 +3324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оригинальный язык:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orijinal Dil:"
           }
         },
         "uk" : {
@@ -3199,6 +3373,12 @@
             "value" : "Оригинальное название:"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orijinal Başlık:"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3237,6 +3417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1lld выдач на %2lld аккаунтах"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2lld hesapta %1lld ödünç"
           }
         },
         "uk" : {
@@ -3279,6 +3465,12 @@
             "value" : "1 выдача на %2lld аккаунтах"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2lld hesapta 1 ödünç"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3319,6 +3511,12 @@
             "value" : "%1lld выдач"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1lld ödünç"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3357,6 +3555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 выдача"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ödünç"
           }
         },
         "uk" : {
@@ -3402,6 +3606,12 @@
             "value" : "Лица:"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kişi(ler):"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3442,6 +3652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Лица:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kişi(ler):"
           }
         },
         "uk" : {
@@ -3486,6 +3702,12 @@
             "value" : "Продления"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilemeler"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3525,6 +3747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Серия:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seri:"
           }
         },
         "uk" : {
@@ -3569,6 +3797,12 @@
             "value" : "Резервирования"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rezervasyonlar"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3608,6 +3842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ключевые слова:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anahtar kelimeler:"
           }
         },
         "uk" : {
@@ -3651,6 +3891,12 @@
             "value" : "Полочная метка"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raf İşareti"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3692,6 +3938,12 @@
             "value" : "Сигнатура:"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İmza:"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3731,6 +3983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Язык:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dil:"
           }
         },
         "uk" : {
@@ -3822,6 +4080,12 @@
             "value" : "Часть:"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kısım:"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3861,6 +4125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Название:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlık:"
           }
         },
         "uk" : {
@@ -3904,6 +4174,12 @@
             "value" : "Объем:"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapsam:"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3945,6 +4221,12 @@
             "value" : "до следующей даты возврата"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bir sonraki iade tarihine kadar"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3984,6 +4266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "до предстоящей даты возврата"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yaklaşan iade tarihine kadar"
           }
         },
         "uk" : {
@@ -4028,6 +4316,12 @@
             "value" : "№ тома"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cilt No."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4067,6 +4361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Показывает количество дней до следующей даты возврата."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir sonraki iade tarihine kadar kalan gün sayısını gösterir."
           }
         },
         "uk" : {
@@ -4109,6 +4409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оставшиеся дни"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalan Günler"
           }
         },
         "uk" : {
@@ -4197,6 +4503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Войти"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giriş yap"
           }
         },
         "uk" : {

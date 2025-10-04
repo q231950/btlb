@@ -1003,6 +1003,12 @@
             "value" : "Language"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idioma"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1015,10 +1021,10 @@
             "value" : "Язык"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Idioma"
+            "value" : "Dil"
           }
         },
         "uk" : {
@@ -1044,6 +1050,12 @@
             "value" : "Title"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Título"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1056,10 +1068,10 @@
             "value" : "Название"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Título"
+            "value" : "Başlık"
           }
         },
         "uk" : {
@@ -1085,6 +1097,12 @@
             "value" : "Size"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamaño"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1097,10 +1115,10 @@
             "value" : "Объем"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tamaño"
+            "value" : "Boyut"
           }
         },
         "uk" : {
@@ -1126,6 +1144,12 @@
             "value" : "search"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "buscar"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1138,10 +1162,10 @@
             "value" : "искать"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "buscar"
+            "value" : "ara"
           }
         },
         "uk" : {
@@ -1168,6 +1192,12 @@
             "value" : "insert"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "insertar"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1180,10 +1210,10 @@
             "value" : "вставить"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "insertar"
+            "value" : "ekle"
           }
         },
         "uk" : {
@@ -1209,6 +1239,12 @@
             "value" : "Load image"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargar imagen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1221,10 +1257,10 @@
             "value" : "Загрузить изображение"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cargar imagen"
+            "value" : "Resmi yükle"
           }
         },
         "uk" : {
@@ -1250,6 +1286,12 @@
             "value" : "loading..."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cargando..."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1262,10 +1304,10 @@
             "value" : "загрузка..."
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "cargando..."
+            "value" : "yükleniyor..."
           }
         },
         "uk" : {
@@ -1291,6 +1333,12 @@
             "value" : "%lld hits"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld resultados"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1303,10 +1351,10 @@
             "value" : "%lld результатов"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%lld resultados"
+            "value" : "%lld sonuç"
           }
         },
         "uk" : {
@@ -1332,6 +1380,12 @@
             "value" : "Publication Date"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fecha de publicación"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1344,10 +1398,10 @@
             "value" : "Дата публикации"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fecha de publicación"
+            "value" : "Yayın Tarihi"
           }
         },
         "uk" : {
@@ -1373,6 +1427,12 @@
             "value" : "Publisher"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editorial"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1385,10 +1445,10 @@
             "value" : "Издательство"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Editorial"
+            "value" : "Yayınevi"
           }
         },
         "uk" : {
@@ -1414,6 +1474,12 @@
             "value" : "Recent Searches"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Búsquedas recientes"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1426,10 +1492,10 @@
             "value" : "Недавние поиски"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Búsquedas recientes"
+            "value" : "Son Aramalar"
           }
         },
         "uk" : {
@@ -1455,6 +1521,12 @@
             "value" : "Search"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BÚSQUEDA"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1467,10 +1539,10 @@
             "value" : "ПОИСК"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "BÚSQUEDA"
+            "value" : "ARAMA"
           }
         },
         "uk" : {
@@ -1496,6 +1568,12 @@
             "value" : "Search in %@"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar en %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1508,10 +1586,10 @@
             "value" : "Поиск в %@"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Buscar en %@"
+            "value" : "%@ içinde ara"
           }
         },
         "uk" : {
@@ -1536,6 +1614,12 @@
             "value" : "Your search history will appear here once you've entered something.\n\nGo on and have a try!\n😃"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su historial de búsquedas aparecerá aquí una vez que haya ingresado algo.\n\n¡Adelante, inténtelo!\n😃"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1548,10 +1632,10 @@
             "value" : "Здесь будет отображаться история ваших поисков после того, как вы что-нибудь введете.\n\nПопробуйте выполнить поиск!\n😃"
           }
         },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Su historial de búsquedas aparecerá aquí una vez que haya ingresado algo.\n\n¡Adelante, inténtelo!\n😃"
+            "value" : "Bir arama yaptıktan sonra arama geçmişiniz burada görünecektir.\n\nHadi bir deneyin!\n😃"
           }
         },
         "uk" : {

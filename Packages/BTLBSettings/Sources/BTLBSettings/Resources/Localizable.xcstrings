@@ -1709,6 +1709,12 @@
             "value" : "Университет прикладных наук Гамбург (HAW Гамбург)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburg Uygulamalı Bilimler Üniversitesi (HAW Hamburg)"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1748,6 +1754,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Университет Ганновер"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hannover Üniversitesi"
           }
         },
         "uk" : {
@@ -1791,6 +1803,12 @@
             "value" : "Университетская библиотека Хильдесхайм"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hildesheim Üniversite Kütüphanesi"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1830,6 +1848,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Библиотека форума Курта Швиттерса"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurt-Schwitters-Forum Kütüphanesi"
           }
         },
         "uk" : {
@@ -1873,6 +1897,12 @@
             "value" : "Университет Гельмута Шмидта / Университет бундесвера Гамбург"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helmut-Schmidt-Üniversitesi / Hamburg Federal Silahlı Kuvvetler Üniversitesi"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1912,6 +1942,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Университетская библиотека Росток"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rostock Üniversite Kütüphanesi"
           }
         },
         "uk" : {
@@ -1955,6 +1991,12 @@
             "value" : "Университетская библиотека Технического университета Гамбург-Харбург"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburg-Harburg Teknik Üniversitesi Kütüphanesi"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1994,6 +2036,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Университет Висмар - высшая школа техники, экономики и дизайна"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wismar Üniversitesi - Teknik, Ekonomi ve Tasarım Yüksekokulu"
           }
         },
         "uk" : {
