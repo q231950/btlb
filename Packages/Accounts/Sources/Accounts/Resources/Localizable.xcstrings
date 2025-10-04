@@ -1,1395 +1,3934 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
-    "" : {
-      "shouldTranslate" : false
+  "sourceLanguage": "en",
+  "strings": {
+    "": {
+      "shouldTranslate": false
     },
-    "%@ • %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ • %2$@"
+    "%@ • %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ • %2$@"
           }
         }
       },
-      "shouldTranslate" : false
+      "shouldTranslate": false
     },
-    "account creation error dismiss button title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ok"
+    "account creation error dismiss button title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ok"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ok"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ok"
           }
-        }
-      }
-    },
-    "account creation error message" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Da ist etwas schief gelaufen."
-          }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Something went wrong."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceptar"
           }
-        }
-      }
-    },
-    "account creation error title" : {
-      "comment" : "MARK: Error",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hoppla"
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ok"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Oops"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Хорошо"
           }
-        }
-      }
-    },
-    "account creation failure dismiss button title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ok"
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamam"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ok"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Гаразд"
           }
         }
       }
     },
-    "account creation failure hint 1" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• ist die passende Bibliothek ausgewählt? Manche Städte haben mehrere Bibliotheken zur Auswahl."
+    "account creation error message": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Da ist etwas schief gelaufen."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• Did you select the correct library?"
-          }
-        }
-      }
-    },
-    "account creation failure hint 2" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• stimmt die Bibliotheksausweisnummer mit der eingegebenen überein?"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something went wrong."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• Did you enter the correct username?"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algo salió mal."
           }
-        }
-      }
-    },
-    "account creation failure hint 3" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• ist das Passwort korrekt? Hier ist Vorsicht geboten – manche Bibliotheken sperren das Konto bei zu häufiger Falscheingabe."
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quelque chose s'est mal passé."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• Do you know your password? Be aware that some libraries lock the account if you enter it incorrectly too often."
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Что-то пошло не так."
           }
-        }
-      }
-    },
-    "account creation failure hint 4 %@" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• falls das Passwort nicht mehr bekannt ist, kannst du es mit '%@' weiter unten zurücksetzen. Es öffnet sich die Bibliotheksseite mit der entsprechenden Möglichkeit."
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir şeyler ters gitti."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• In case you forgot, there's the '%@' button below which opens the selected library's website so you can reset your password there."
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Щось пішло не так."
           }
         }
       }
     },
-    "account creation failure reset password button title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Password Zurücksetzen"
+    "account creation error title": {
+      "comment": "MARK: Error",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoppla"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reset Password"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oops"
           }
-        }
-      }
-    },
-    "account creation failure title" : {
-      "comment" : "MARK: Failure",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Login Fehlgeschlagen"
-          }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sign In Failed"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ups"
           }
-        }
-      }
-    },
-    "account creation sign in account name suggestion cat" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lesekatze"
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oups"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Cat"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Упс"
           }
-        }
-      }
-    },
-    "account creation sign in account name suggestion duck" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Leseente"
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hata"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Duck"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Упс"
           }
         }
       }
     },
-    "account creation sign in account name suggestion fox" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lesefuchs"
+    "account creation failure dismiss button title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ok"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Fox"
-          }
-        }
-      }
-    },
-    "account creation sign in account name suggestion horse" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lesepferdchen"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ok"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Horse"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceptar"
           }
-        }
-      }
-    },
-    "account creation sign in account name suggestion lion" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Leselöwe"
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ok"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Lion"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Хорошо"
           }
-        }
-      }
-    },
-    "account creation sign in account name suggestion mouse" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lesemaus"
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamam"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Mouse"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Гаразд"
           }
         }
       }
     },
-    "account creation sign in account name suggestion panda" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lesepanda"
+    "account creation failure hint 1": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• ist die passende Bibliothek ausgewählt? Manche Städte haben mehrere Bibliotheken zur Auswahl."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Panda"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Did you select the correct library?"
           }
-        }
-      }
-    },
-    "account creation sign in account name suggestion poodle" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lesepudel"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• ¿Seleccionaste la biblioteca correcta?"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Poodle"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Avez-vous sélectionné la bonne bibliothèque ?"
           }
-        }
-      }
-    },
-    "account creation sign in account name suggestion rabbit" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lesehase"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Выбрали ли вы правильную библиотеку?"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Rabbit"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Doğru kütüphaneyi seçtiniz mi?"
           }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Чи вибрали ви правильну бібліотеку?"
+          }
         }
       }
     },
-    "account creation sign in account name suggestion tiger" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lesetiger"
+    "account creation failure hint 2": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• stimmt die Bibliotheksausweisnummer mit der eingegebenen überein?"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Tiger"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Did you enter the correct username?"
           }
-        }
-      }
-    },
-    "account creation sign in account name suggestion turtle" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hildi Leseschildi"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• ¿Ingresaste el nombre de usuario correcto?"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Turtle"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Avez-vous saisi le bon nom d'utilisateur ?"
           }
-        }
-      }
-    },
-    "account creation sign in account name suggestion wolf" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lesewolf"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Правильно ли вы ввели имя пользователя?"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Чи правильно ви ввели ім'я користувача?"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading Wolf"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Doğru kullanıcı adını girdiniz mi?"
           }
         }
       }
     },
-    "account creation sign in button title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anmelden"
+    "account creation failure hint 3": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• ist das Passwort korrekt? Hier ist Vorsicht geboten – manche Bibliotheken sperren das Konto bei zu häufiger Falscheingabe."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sign In"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Do you know your password? Be aware that some libraries lock the account if you enter it incorrectly too often."
           }
-        }
-      }
-    },
-    "account creation sign in default account name" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mein Bibliothekskonto"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• ¿Conoces tu contraseña? Ten en cuenta que algunas bibliotecas bloquean la cuenta si la ingresas incorrectamente con demasiada frecuencia."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "My library account"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Connaissez-vous votre mot de passe ? Attention, certaines bibliothèques bloquent le compte si vous le saisissez incorrectement trop souvent."
           }
-        }
-      }
-    },
-    "account creation sign in library selection placeholder" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bibliothek Auswählen"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Знаете ли вы свой пароль? Имейте в виду, что некоторые библиотеки блокируют аккаунт при слишком частом неправильном вводе."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Select Library"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Чи знаєте ви свій пароль? Майте на увазі, що деякі бібліотеки блокують обліковий запис при занадто частому неправильному введенні."
           }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Şifrenizi biliyor musunuz? Bazı kütüphaneler çok fazla yanlış giriş yaparsanız hesabı kilitleyebilir."
+          }
         }
       }
     },
-    "account creation sign in password placeholder" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Passwort"
+    "account creation failure hint 4 %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• falls das Passwort nicht mehr bekannt ist, kannst du es mit '%@' weiter unten zurücksetzen. Es öffnet sich die Bibliotheksseite mit der entsprechenden Möglichkeit."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Password"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• In case you forgot, there's the '%@' button below which opens the selected library's website so you can reset your password there."
           }
-        }
-      }
-    },
-    "account creation sign in title" : {
-      "comment" : "MARK: Sign In Form",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konto Hinzufügen"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• En caso de que la hayas olvidado, está el botón '%@' abajo que abre el sitio web de la biblioteca seleccionada para que puedas restablecer tu contraseña allí."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add Account"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Si vous l'avez oublié, il y a le bouton '%@' ci-dessous qui ouvre le site web de la bibliothèque sélectionnée pour que vous puissiez y réinitialiser votre mot de passe."
           }
-        }
-      }
-    },
-    "account creation sign in username placeholder" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bücherhallen-Karten Nummer"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Если вы забыли пароль, есть кнопка '%@' ниже, которая открывает веб-сайт выбранной библиотеки, где вы можете сбросить пароль."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Якщо ви забули пароль, є кнопка '%@' нижче, яка відкриває веб-сайт вибраної бібліотеки, де ви можете скинути пароль."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Library Card Number"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Şifrenizi unuttuysanız, aşağıdaki '%@' düğmesi seçilen kütüphanenin web sitesini açar ve şifrenizi sıfırlayabilirsiniz."
           }
         }
       }
     },
-    "account creation success amount of charges %@" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• Angefallene Gebühren: %@"
+    "account creation failure reset password button title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Password Zurücksetzen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• Due charges: %@"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Password"
           }
-        }
-      }
-    },
-    "account creation success done button title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Loslesen"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer contraseña"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Let's read"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser le mot de passe"
           }
-        }
-      }
-    },
-    "account creation success edit button title" : {
-      "comment" : "MARK: Success",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anzeigename Anpassen"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбросить пароль"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit Display Name"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скинути пароль"
           }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Şifreyi Sıfırla"
+          }
         }
       }
     },
-    "account creation success message %@" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Das Bibliothekskonto **%@** wurde erfolgreich hinzugefügt. Du kannst dieses Konto jederzeit in der _Einstellungen Sektion_ bearbeiten und dort auch weitere hinzufügen."
+    "account creation failure title": {
+      "comment": "MARK: Failure",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Login Fehlgeschlagen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The library account **%@** has successfully been added. You can edit this account or add additional ones in the _Settings Section_ of the app at any time."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign In Failed"
           }
-        }
-      }
-    },
-    "account creation success no charges info message" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• Keine ausstehenden Gebühren"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error de inicio de sesión"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• No due charges."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Échec de la connexion"
           }
-        }
-      }
-    },
-    "account creation success number of days until next expiry date %@" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• Tage bis zum nächsten Leihfristende: **%@**"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ошибка входа"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Помилка входу"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• Days until next expiry date: **%@**"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giriş Başarısız"
           }
         }
       }
     },
-    "account creation success number of loans %lld" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• Anzahl Entleihungen: **%lld**"
+    "account creation sign in account name suggestion cat": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lesekatze"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "• Number of Loans Borrowed: **%lld**"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Cat"
           }
-        }
-      }
-    },
-    "account creation success subtitle" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Du kannst deine Entleihungen jetzt verwalten und Gebühren einsehen."
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gato Lector"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You can now manage the loans of your account and view charges."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chat Lecteur"
           }
-        }
-      }
-    },
-    "account creation success title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konto Hinzugefügt"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кот-читатель"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Account Added"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кіт-читач"
           }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan Kedi"
+          }
         }
       }
     },
-    "account detail account activated toggle title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aktiviert"
+    "account creation sign in account name suggestion duck": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leseente"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Activated"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Duck"
           }
-        }
-      }
-    },
-    "account detail account display name field title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anzeigename"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pato Lector"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Display Name"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Canard Lecteur"
           }
-        }
-      }
-    },
-    "account detail account password field title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Passwort"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Утка-читатель"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Качка-читач"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Password"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan Ördek"
           }
         }
       }
     },
-    "account detail account username field title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Benutzername"
+    "account creation sign in account name suggestion fox": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lesefuchs"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Username"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Fox"
           }
-        }
-      }
-    },
-    "account detail delete button title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konto Löschen"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zorro Lector"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete Account"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renard Lecteur"
           }
-        }
-      }
-    },
-    "account detail delete cancel button title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abbrechen"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лиса-читатель"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancel"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лис-читач"
           }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan Tilki"
+          }
         }
       }
     },
-    "account detail delete confirmation title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konto Löschen"
+    "account creation sign in account name suggestion horse": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lesepferdchen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete Account"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Horse"
           }
-        }
-      }
-    },
-    "account detail delete confirmed ok button title" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Löschen"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caballo Lector"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cheval Lecteur"
           }
-        }
-      }
-    },
-    "account detail generic delete confirmation message" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Möchtest du dieses Konto wirklich löschen?"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лошадка-читатель"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кінь-читач"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Are you sure to delete this account?"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan At"
           }
         }
       }
     },
-    "account detail specific delete confirmation message %@" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Möchtest du %@ wirklich löschen?"
+    "account creation sign in account name suggestion lion": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leselöwe"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Are you sure to delete `%@`?"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Lion"
           }
-        }
-      }
-    },
-    "account detail view library none selected" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bibliothek auswählen"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "León Lector"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Select a Library"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lion Lecteur"
           }
-        }
-      }
-    },
-    "account detail view title" : {
-      "comment" : "The title of the Account detail view.",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konto"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лев-читатель"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Account"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лев-читач"
           }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan Aslan"
+          }
         }
       }
     },
-    "account edit activate button title activated" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Angemeldet"
+    "account creation sign in account name suggestion mouse": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lesemaus"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Signed In"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Mouse"
           }
-        }
-      }
-    },
-    "account edit activate button title authenticate" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anmelden"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ratón Lector"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sign In"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Souris Lectrice"
           }
-        }
-      }
-    },
-    "account edit activate button title not activated" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nicht Angemeldet"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мышка-читатель"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мишка-читач"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Signed Out"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan Fare"
           }
         }
       }
     },
-    "account edit display name title" : {
-      "comment" : "MARK: Edit Account -",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anpassen"
+    "account creation sign in account name suggestion panda": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lesepanda"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Panda"
           }
-        }
-      }
-    },
-    "account list new account button accessibility" : {
-      "comment" : "MARK: Account List -",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konto hinzufügen"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panda Lector"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add Account"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panda Lecteur"
           }
-        }
-      }
-    },
-    "account name" : {
-      "comment" : "Users can name their accounts.\n A descriptive title of a table cell.\n It should be kept really short.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anzeigename"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Панда-читатель"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Display Name"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Панда-читач"
           }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan Panda"
+          }
         }
       }
     },
-    "ACCOUNT_CREATION_DATE" : {
-      "comment" : "A descriptive title of a table cell.\n It is followed by a colon and a date.\n It describes the date when this account was created\n It should be kept really short.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Erstellt"
+    "account creation sign in account name suggestion poodle": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lesepudel"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Created"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Poodle"
           }
-        }
-      }
-    },
-    "Account_ID_Placeholder" : {
-      "comment" : "Placeholder for the user ID of a newly created account",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bibliotheksausweisnummer..."
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caniche Lector"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "your account ID..."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caniche Lecteur"
           }
-        }
-      }
-    },
-    "ACCOUNT_LAST_UPDATE" : {
-      "comment" : "A descriptive title of a table cell.\n It is followed by a colon and a date.\n It describes the last date the user has updated this account\n It should be kept really short.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aktualisiert"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пудель-читатель"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пудель-читач"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Updated"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan Kaniş"
           }
         }
       }
     },
-    "ACCOUNT_NEVER_UPDATED" : {
-      "comment" : "Placeholder for the last update date if this account has never been successfully updated",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "noch nie aktualisiert"
+    "account creation sign in account name suggestion rabbit": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lesehase"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Never updated"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Rabbit"
           }
-        }
-      }
-    },
-    "ACCOUNT_TYPE" : {
-      "comment" : "A descriptive title for the library the user is connecting to. Placed inside a table cell.\n It should be kept really short.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bibliothek"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conejo Lector"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Library"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lapin Lecteur"
           }
-        }
-      }
-    },
-    "ACCOUNT_USER_ID" : {
-      "comment" : "A descriptive title of a table cell.\n It should be kept really short.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ID"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кролик-читатель"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ID"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кролик-читач"
           }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan Tavşan"
+          }
         }
       }
     },
-    "ACCOUNT_USER_PASSWORD" : {
-      "comment" : "A descriptive title of a table cell.\n It should be kept really short.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Passwort"
+    "account creation sign in account name suggestion tiger": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lesetiger"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Password"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Tiger"
           }
-        }
-      }
-    },
-    "ACCOUNTS" : {
-      "comment" : "Account.strings\n BTLB\n\n Created by Martin Kim Dung-Pham on 07/04/2009.\n Copyright 2009 neoneon. All rights reserved.",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konten"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tigre Lector"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Accounts"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tigre Lecteur"
           }
-        }
-      }
-    },
-    "ACTIVATED" : {
-      "comment" : "A descriptive title of a table cell.\n It should be kept really short.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aktiviert"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тигр-читатель"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тигр-читач"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Activated"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan Kaplan"
           }
         }
       }
     },
-    "ADD_ACCOUNT_ADVICE" : {
-      "comment" : "A hint on how to add when user is looking at the accounts view and there is no account to see.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tappe auf \"+\", um ein Konto hinzuzufügen."
+    "account creation sign in account name suggestion turtle": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hildi Leseschildi"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tap \"+\" to add an account."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Turtle"
           }
-        }
-      }
-    },
-    "ADD_OR_REMOVE_ACCOUNT_ADVICE" : {
-      "comment" : "A hint on how to add and remove accounts when user is looking at the accounts view and there is at least one account to see",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tappe auf \"Bearbeiten\", um ein Konto hinzuzufügen oder zu löschen."
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tortuga Lectora"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tap \"Edit\" to add or remove accounts."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tortue Lectrice"
           }
-        }
-      }
-    },
-    "Avatars" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Avatare"
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Черепаха-читатель"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Avatars"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Черепаха-читач"
           }
-        }
-      }
-    },
-    "Cancel" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abbrechen"
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan Kaplumbağa"
           }
         }
       }
     },
-    "CANCEL" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abbrechen"
+    "account creation sign in account name suggestion wolf": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lesewolf"
           }
-        }
-      }
-    },
-    "Choose your avatar" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Swipe horizontal um ein passendes Avatar für dein Konto zu finden."
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading Wolf"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Swipe horizontally to find a suitable avatar for your account."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lobo Lector"
           }
-        }
-      }
-    },
-    "CREATE_ACCOUNT_QUESTION" : {
-      "comment" : "User tries to update but no there is no account at all.\n Request for creating a new account",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ein Konto erstellen"
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loup Lecteur"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "create new account"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Волк-читатель"
           }
-        }
-      }
-    },
-    "Done" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fertig"
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вовк-читач"
           }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okuyan Kurt"
+          }
         }
       }
     },
-    "EDIT_ACCOUNT_ADVICE" : {
-      "comment" : "A hint on how to edit the account's settings",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tappe auf \"Bearbeiten\", um das Konto zu bearbeiten."
+    "account creation sign in button title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anmelden"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tap \"Edit\" modify entries."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign In"
           }
-        }
-      }
-    },
-    "IS_INACTIVE" : {
-      "comment" : "Something like: \"Captain Flash is not activated\"\n Please keep in mind that there is no space at the beginning of the phrase nor a fullstop at the end",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ist nicht aktiv"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar sesión"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "is not activated"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se connecter"
           }
-        }
-      }
-    },
-    "IS_INACTIVE_ADVICE" : {
-      "comment" : "This is preceded by the title/name of the account and a space.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ist nicht aktiv. Aktiviere das Konto in der Kontenansicht."
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Войти"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увійти"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "is not activated. Activate it in the Accounts View."
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giriş Yap"
           }
         }
       }
     },
-    "IS_INACTIVE_DUE_TO_LOGIN_ADVICE" : {
-      "comment" : "User is seeing the loans view but the account failed logging in.\n Keep in mind that there is no space at the beginning of the phrase.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ist nicht aktiviert."
+    "account creation sign in default account name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mein Bibliothekskonto"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "is not active. Login failed."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My library account"
           }
-        }
-      }
-    },
-    "LIBRARIES" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bibliotheken"
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mi cuenta de biblioteca"
           }
-        }
-      }
-    },
-    "More" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mehr"
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mon compte de bibliothèque"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "More"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мой библиотечный аккаунт"
           }
-        }
-      }
-    },
-    "NOT_ACTIVATED" : {
-      "comment" : "Part of a subtitle in the accounts view.\n Describes the state of the account. The account can be 'active' or 'inactive'.",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nicht aktiviert"
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мій бібліотечний обліковий запис"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Not activated"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kütüphane hesabım"
           }
         }
       }
     },
-    "PASSWORD_IS_NOT_SET" : {
-      "comment" : "Placeholder for an unset password",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "nicht festgelegt..."
+    "account creation sign in library selection placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bibliothek Auswählen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "not set..."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Library"
           }
-        }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seleccionar biblioteca"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sélectionner une bibliothèque"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите библиотеку"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оберіть бібліотеку"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kütüphane Seç"
+          }
+        }
+      }
+    },
+    "account creation sign in password placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passwort"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Password"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contraseña"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mot de passe"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пароль"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пароль"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Şifre"
+          }
+        }
+      }
+    },
+    "account creation sign in title": {
+      "comment": "MARK: Sign In Form",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konto Hinzufügen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Account"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agregar cuenta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter un compte"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить аккаунт"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Додати обліковий запис"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hesap Ekle"
+          }
+        }
+      }
+    },
+    "account creation sign in username placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bücherhallen-Karten Nummer"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Library Card Number"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Número de tarjeta de biblioteca"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Numéro de carte de bibliothèque"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Номер читательского билета"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Номер бібліотечного квитка"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kütüphane Kart Numarası"
+          }
+        }
+      }
+    },
+    "account creation success amount of charges %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Angefallene Gebühren: %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Due charges: %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Cargos pendientes: %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Frais dus : %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Задолженность: %@"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Нараховані платежі: %@"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Ödenmesi gereken ücretler: %@"
+          }
+        }
+      }
+    },
+    "account creation success done button title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loslesen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Let's read"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empecemos a leer"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commençons à lire"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Давайте читать"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Почнемо читати"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okumaya başlayalım"
+          }
+        }
+      }
+    },
+    "account creation success edit button title": {
+      "comment": "MARK: Success",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anzeigename Anpassen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Display Name"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar nombre para mostrar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifier le nom d'affichage"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменить отображаемое имя"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Редагувати відображуване ім'я"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görünen Adı Düzenle"
+          }
+        }
+      }
+    },
+    "account creation success message %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Bibliothekskonto **%@** wurde erfolgreich hinzugefügt. Du kannst dieses Konto jederzeit in der _Einstellungen Sektion_ bearbeiten und dort auch weitere hinzufügen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The library account **%@** has successfully been added. You can edit this account or add additional ones in the _Settings Section_ of the app at any time."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La cuenta de biblioteca **%@** se ha agregado exitosamente. Puedes editar esta cuenta o agregar otras adicionales en la _Sección de Configuración_ de la aplicación en cualquier momento."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le compte de bibliothèque **%@** a été ajouté avec succès. Vous pouvez modifier ce compte ou en ajouter d'autres dans la _Section Paramètres_ de l'application à tout moment."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Библиотечный аккаунт **%@** успешно добавлен. Вы можете редактировать этот аккаунт или добавить дополнительные в _разделе Настройки_ приложения в любое время."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Бібліотечний обліковий запис **%@** успішно додано. Ви можете редагувати цей обліковий запис або додати додаткові в _розділі налаштувань_ додатку в будь-який час."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**%@** kütüphane hesabı başarıyla eklendi. Bu hesabı düzenleyebilir veya uygulamanın _Ayarlar Bölümü_'nden istediğiniz zaman yeni hesaplar ekleyebilirsiniz."
+          }
+        }
+      }
+    },
+    "account creation success no charges info message": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Keine ausstehenden Gebühren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• No due charges."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Sin cargos pendientes."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Aucuns frais dus."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Нет задолженности."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Немає боргових платежів."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Ödenmesi gereken ücret yok."
+          }
+        }
+      }
+    },
+    "account creation success number of days until next expiry date %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Tage bis zum nächsten Leihfristende: **%@**"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Days until next expiry date: **%@**"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Días hasta la próxima fecha de vencimiento: **%@**"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Jours jusqu'à la prochaine date d'expiration : **%@**"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Дней до следующей даты возврата: **%@**"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Днів до наступної дати закінчення терміну: **%@**"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Sonraki iade tarihine kadar günler: **%@**"
+          }
+        }
+      }
+    },
+    "account creation success number of loans %lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Anzahl Entleihungen: **%lld**"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Number of Loans Borrowed: **%lld**"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Número de préstamos solicitados: **%lld**"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Nombre d'emprunts : **%lld**"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Количество выданных книг: **%lld**"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Кількість взятих позичок: **%lld**"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Ödünç Alınan Kitap Sayısı: **%lld**"
+          }
+        }
+      }
+    },
+    "account creation success subtitle": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du kannst deine Entleihungen jetzt verwalten und Gebühren einsehen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You can now manage the loans of your account and view charges."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora puedes administrar los préstamos de tu cuenta y ver los cargos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous pouvez maintenant gérer les emprunts de votre compte et consulter les frais."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Теперь вы можете управлять выданными книгами вашего аккаунта и просматривать задолженности."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тепер ви можете керувати позичками вашого облікового запису та переглядати платежі."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Artık hesabınızın ödünç alınan kitaplarını yönetebilir ve ücretleri görüntüleyebilirsiniz."
+          }
+        }
+      }
+    },
+    "account creation success title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konto Hinzugefügt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Account Added"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuenta agregada"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compte ajouté"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аккаунт добавлен"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обліковий запис додано"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hesap Eklendi"
+          }
+        }
+      }
+    },
+    "account detail account activated toggle title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiviert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activated"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activé"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Активирован"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Активовано"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etkinleştirildi"
+          }
+        }
+      }
+    },
+    "account detail account display name field title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anzeigename"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Display Name"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre para mostrar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom d'affichage"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отображаемое имя"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Відображуване ім'я"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görünen Ad"
+          }
+        }
+      }
+    },
+    "account detail account password field title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passwort"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Password"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contraseña"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mot de passe"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пароль"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пароль"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Şifre"
+          }
+        }
+      }
+    },
+    "account detail account username field title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Benutzername"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Username"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre de usuario"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom d'utilisateur"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Имя пользователя"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ім'я користувача"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kullanıcı Adı"
+          }
+        }
+      }
+    },
+    "account detail delete button title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konto Löschen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete Account"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar cuenta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer le compte"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить аккаунт"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Видалити обліковий запис"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hesabı Sil"
+          }
+        }
+      }
+    },
+    "account detail delete cancel button title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отменить"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скасувати"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İptal"
+          }
+        }
+      }
+    },
+    "account detail delete confirmation title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konto Löschen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete Account"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar cuenta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer le compte"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить аккаунт"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Видалити обліковий запис"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hesabı Sil"
+          }
+        }
+      }
+    },
+    "account detail delete confirmed ok button title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Видалити"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sil"
+          }
+        }
+      }
+    },
+    "account detail generic delete confirmation message": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Möchtest du dieses Konto wirklich löschen?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure to delete this account?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Estás seguro de eliminar esta cuenta?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Êtes-vous sûr de vouloir supprimer ce compte ?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы уверены, что хотите удалить этот аккаунт?"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ви впевнені, що хочете видалити цей обліковий запис?"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu hesabı silmek istediğinizden emin misiniz?"
+          }
+        }
+      }
+    },
+    "account detail specific delete confirmation message %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Möchtest du %@ wirklich löschen?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure to delete `%@`?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Estás seguro de eliminar `%@`?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Êtes-vous sûr de vouloir supprimer `%@` ?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы уверены, что хотите удалить `%@`?"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ви впевнені, що хочете видалити `%@`?"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "`%@`'yi silmek istediğinizden emin misiniz?"
+          }
+        }
+      }
+    },
+    "account detail view library none selected": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bibliothek auswählen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select a Library"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seleccionar una biblioteca"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sélectionner une bibliothèque"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите библиотеку"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оберіть бібліотеку"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir Kütüphane Seçin"
+          }
+        }
+      }
+    },
+    "account detail view title": {
+      "comment": "The title of the Account detail view.",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konto"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Account"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuenta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compte"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аккаунт"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обліковий запис"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hesap"
+          }
+        }
+      }
+    },
+    "account edit activate button title activated": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Angemeldet"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signed In"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connecté"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вошли"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увійшли"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giriş Yapıldı"
+          }
+        }
+      }
+    },
+    "account edit activate button title authenticate": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anmelden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign In"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar sesión"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se connecter"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Войти"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увійти"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giriş Yap"
+          }
+        }
+      }
+    },
+    "account edit activate button title not activated": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht Angemeldet"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signed Out"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desconectado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déconnecté"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не вошли"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не увійшли"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çıkış Yapıldı"
+          }
+        }
+      }
+    },
+    "account edit display name title": {
+      "comment": "MARK: Edit Account -",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anpassen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Éditer"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Редактировать"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Редагувати"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Düzenle"
+          }
+        }
+      }
+    },
+    "account list new account button accessibility": {
+      "comment": "MARK: Account List -",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konto hinzufügen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Account"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agregar cuenta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter un compte"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить аккаунт"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Додати обліковий запис"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hesap Ekle"
+          }
+        }
+      }
+    },
+    "account name": {
+      "comment": "Users can name their accounts.\n A descriptive title of a table cell.\n It should be kept really short.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anzeigename"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Display Name"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre para mostrar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom d'affichage"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отображаемое имя"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Відображуване ім'я"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görünen Ad"
+          }
+        }
+      }
+    },
+    "ACCOUNT_CREATION_DATE": {
+      "comment": "A descriptive title of a table cell.\n It is followed by a colon and a date.\n It describes the date when this account was created\n It should be kept really short.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erstellt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Created"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Creado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Créé"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создан"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Створено"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oluşturuldu"
+          }
+        }
+      }
+    },
+    "Account_ID_Placeholder": {
+      "comment": "Placeholder for the user ID of a newly created account",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bibliotheksausweisnummer..."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "your account ID..."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tu ID de cuenta..."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "votre ID de compte..."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ваш ID аккаунта..."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ваш ID облікового запису..."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hesap ID'niz..."
+          }
+        }
+      }
+    },
+    "ACCOUNT_LAST_UPDATE": {
+      "comment": "A descriptive title of a table cell.\n It is followed by a colon and a date.\n It describes the last date the user has updated this account\n It should be kept really short.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktualisiert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Updated"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualizado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mis à jour"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обновлен"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оновлено"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Güncellendi"
+          }
+        }
+      }
+    },
+    "ACCOUNT_NEVER_UPDATED": {
+      "comment": "Placeholder for the last update date if this account has never been successfully updated",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "noch nie aktualisiert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Never updated"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nunca actualizado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jamais mis à jour"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Никогда не обновлялся"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ніколи не оновлювалось"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiç güncellenmedi"
+          }
+        }
+      }
+    },
+    "ACCOUNT_TYPE": {
+      "comment": "A descriptive title for the library the user is connecting to. Placed inside a table cell.\n It should be kept really short.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bibliothek"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Library"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biblioteca"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bibliothèque"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Библиотека"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Бібліотека"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kütüphane"
+          }
+        }
+      }
+    },
+    "ACCOUNT_USER_ID": {
+      "comment": "A descriptive title of a table cell.\n It should be kept really short.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Benutzername"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Username"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre de usuario"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom d'utilisateur"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Имя пользователя"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ім'я користувача"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kullanıcı Adı"
+          }
+        }
+      }
+    },
+    "ACCOUNTS": {
+      "comment": "Title of the accounts view",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accounts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuentas"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comptes"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аккаунты"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Облікові записи"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hesaplar"
+          }
+        }
+      }
+    },
+    "ACTIVATED": {
+      "comment": "A descriptive title of a table cell.\n It should be kept really short.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiviert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activated"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activé"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Активирован"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Активовано"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etkinleştirildi"
+          }
+        }
+      }
+    },
+    "ADD_ACCOUNT_ADVICE": {
+      "comment": "A hint on how to add when user is looking at the accounts view and there is no account to see.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tappe auf \"+\", um ein Konto hinzuzufügen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap \"+\" to add an account."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca \"+\" para agregar una cuenta."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appuyez sur \"+\" pour ajouter un compte."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите \"+\", чтобы добавить аккаунт."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Натисніть \"+\", щоб додати обліковий запис."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hesap eklemek için \"+\" düğmesine dokunun."
+          }
+        }
+      }
+    },
+    "ADD_OR_REMOVE_ACCOUNT_ADVICE": {
+      "comment": "A hint on how to add and remove accounts when user is looking at the accounts view and there is at least one account to see",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tappe auf \"Bearbeiten\", um ein Konto hinzuzufügen oder zu löschen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap \"Edit\" to add or remove accounts."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca \"Editar\" para agregar o eliminar cuentas."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appuyez sur \"Éditer\" pour ajouter ou supprimer des comptes."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите \"Редактировать\", чтобы добавить или удалить аккаунты."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Натисніть \"Редагувати\", щоб додати або видалити облікові записи."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hesap eklemek veya kaldırmak için \"Düzenle\"ye dokunun."
+          }
+        }
+      }
+    },
+    "Avatars": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avatare"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avatars"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avatares"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avatars"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аватары"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аватари"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avatarlar"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отменить"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скасувати"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İptal"
+          }
+        }
+      }
+    },
+    "CANCEL": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CANCEL"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CANCELAR"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ANNULER"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ОТМЕНИТЬ"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "СКАСУВАТИ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İPTAL"
+          }
+        }
+      }
+    },
+    "Choose your avatar": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Swipe horizontal um ein passendes Avatar für dein Konto zu finden."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Swipe horizontally to find a suitable avatar for your account."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desliza horizontalmente para encontrar un avatar adecuado para tu cuenta."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Balayez horizontalement pour trouver un avatar adapté à votre compte."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проведите горизонтально, чтобы найти подходящий аватар для вашего аккаунта."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проведіть горизонтально, щоб знайти підходящий аватар для вашого облікового запису."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hesabınız için uygun bir avatar bulmak için yatay olarak kaydırın."
+          }
+        }
+      }
+    },
+    "CREATE_ACCOUNT_QUESTION": {
+      "comment": "User tries to update but no there is no account at all.\n Request for creating a new account",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ein Konto erstellen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "create new account"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "crear nueva cuenta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "créer un nouveau compte"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "создать новый аккаунт"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "створити новий обліковий запис"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "yeni hesap oluştur"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fertig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminé"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamam"
+          }
+        }
+      }
+    },
+    "EDIT_ACCOUNT_ADVICE": {
+      "comment": "A hint on how to edit the account's settings",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tappe auf \"Bearbeiten\", um das Konto zu bearbeiten."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap \"Edit\" modify entries."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca \"Editar\" para modificar entradas."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appuyez sur \"Éditer\" pour modifier les entrées."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите \"Редактировать\", чтобы изменить записи."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Натисніть \"Редагувати\", щоб змінити записи."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Girişleri değiştirmek için \"Düzenle\"ye dokunun."
+          }
+        }
+      }
+    },
+    "IS_INACTIVE": {
+      "comment": "Something like: \"Captain Flash is not activated\"\n Please keep in mind that there is no space at the beginning of the phrase nor a fullstop at the end",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ist nicht aktiv"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "is not activated"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "no está activado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "n'est pas activé"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не активирован"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не активовано"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "etkin değil"
+          }
+        }
+      }
+    },
+    "IS_INACTIVE_ADVICE": {
+      "comment": "This is preceded by the title/name of the account and a space.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ist nicht aktiv. Aktiviere das Konto in der Kontenansicht."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "is not activated. Activate it in the Accounts View."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "no está activado. Actívalo en la Vista de Cuentas."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "n'est pas activé. Activez-le dans la vue Comptes."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не активирован. Активируйте его в разделе \"Аккаунты\"."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не активовано. Активуйте його в розділі \"Облікові записи\"."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "etkin değil. Hesaplar Görünümü'nde etkinleştirin."
+          }
+        }
+      }
+    },
+    "IS_INACTIVE_DUE_TO_LOGIN_ADVICE": {
+      "comment": "User is seeing the loans view but the account failed logging in.\n Keep in mind that there is no space at the beginning of the phrase.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ist nicht aktiviert."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "is not active. Login failed."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "no está activo. Error de inicio de sesión."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "n'est pas actif. Échec de la connexion."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не активен. Ошибка входа."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не активний. Помилка входу."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "etkin değil. Giriş başarısız."
+          }
+        }
+      }
+    },
+    "LIBRARIES": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bibliotheken"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LIBRARIES"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BIBLIOTECAS"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BIBLIOTHÈQUES"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "БИБЛИОТЕКИ"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "БІБЛІОТЕКИ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KÜTÜPHANELERİ"
+          }
+        }
+      }
+    },
+    "More": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mehr"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plus"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Больше"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Більше"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daha fazla"
+          }
+        }
+      }
+    },
+    "NOT_ACTIVATED": {
+      "comment": "Part of a subtitle in the accounts view.\n Describes the state of the account. The account can be 'active' or 'inactive'.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht aktiviert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not activated"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No activado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non activé"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не активирован"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не активовано"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etkinleştirilmedi"
+          }
+        }
+      }
+    },
+    "PASSWORD_IS_NOT_SET": {
+      "comment": "Placeholder for an unset password",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nicht festgelegt..."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "not set..."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sin establecer..."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "non défini..."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не установлен..."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не встановлено..."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ayarlanmadı..."
+          }
+        }
       }
     },
-    "PASSWORD_IS_SET" : {
-      "comment" : "Placeholder for a set password",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "festgelegt"
+    "PASSWORD_IS_SET": {
+      "comment": "Placeholder for a set password",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "festgelegt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "set"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "establecido"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "défini"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "установлен"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "встановлено"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "set"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ayarlandı"
           }
         }
       }
     },
-    "REQUEST_ACCOUNT_CREATION" : {
-      "comment" : "User tries to update but no there is no account at all",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Es ist kein Konto vorhanden, welches aktualisiert werden könnte. Möchtest Du jetzt ein Konto erstellen?"
+    "REQUEST_ACCOUNT_CREATION": {
+      "comment": "User tries to update but no there is no account at all",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Es ist kein Konto vorhanden, welches aktualisiert werden könnte. Möchtest Du jetzt ein Konto erstellen?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There is no account to update. Would you like to create one?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay ninguna cuenta para actualizar. ¿Te gustaría crear una?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il n'y a aucun compte à mettre à jour. Souhaitez-vous en créer un ?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет аккаунта для обновления. Хотели бы вы создать его?"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Немає облікового запису для оновлення. Чи хотіли б ви створити його?"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "There is no account to update. Would you like to create one?"
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Güncellenecek hesap yok. Bir tane oluşturmak ister misiniz?"
           }
         }
       }
     },
-    "SAVE_EDIT_ACCOUNT_ADVICE" : {
-      "comment" : "A hint on when changes to the account are saved",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tappe auf \"Fertig\" oder aktiviere das Konto, um Änderungen zu speichern."
+    "SAVE_EDIT_ACCOUNT_ADVICE": {
+      "comment": "A hint on when changes to the account are saved",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tappe auf \"Fertig\" oder aktiviere das Konto, um Änderungen zu speichern."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap \"Done or activate the account to save changes."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca \"Listo\" o activa la cuenta para guardar los cambios."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appuyez sur \"Terminé\" ou activez le compte pour enregistrer les modifications."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите \"Готово\" или активируйте аккаунт, чтобы сохранить изменения."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Натисніть \"Готово\" або активуйте обліковий запис, щоб зберегти зміни."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tap \"Done or activate the account to save changes."
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Değişiklikleri kaydetmek için \"Tamam\"a dokunun veya hesabı etkinleştirin."
           }
         }
       }
     },
-    "Switch to grid view" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rasteransicht auswählen"
+    "Switch to grid view": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rasteransicht auswählen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch to grid view"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambiar a vista de cuadrícula"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passer à la vue grille"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переключиться на вид сетки"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перейти до сітки"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izgara görünümüne geç"
           }
         }
       }
     },
-    "Switch to list view" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Horizontalen Listenansicht auswählen"
+    "Switch to list view": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horizontalen Listenansicht auswählen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch to list view"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambiar a vista de lista"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passer à la vue liste"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переключиться на вид списка"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перейти до списку"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liste görünümüne geç"
           }
         }
       }
     }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }

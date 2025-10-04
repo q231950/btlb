@@ -1,0 +1,148 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Renew with ${applicationName} |bɪtlɪb|" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Verlängere mit ${applicationName} |bɪtlɪb|"
+            ]
+          }
+        },
+        "en" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "Renew with ${applicationName} |bɪtlɪb|",
+              "Renew using ${applicationName}",
+              "Renew Items with ${applicationName}",
+              "Renew Books with ${applicationName}",
+              "Renew Media with ${applicationName}",
+              "Prolong with ${applicationName}",
+              "Prolong using ${applicationName}",
+              "Extend books with ${applicationName}",
+              "Extend items with ${applicationName}",
+              "Renew Items with the ${applicationName} app",
+              "Renew Books with the ${applicationName} app",
+              "Renew Media with the ${applicationName} app",
+              "Renew with the ${applicationName} app",
+              "Prolong with the ${applicationName} app",
+              "Renew using the ${applicationName} app",
+              "Prolong using the ${applicationName} app",
+              "Extend books with the${applicationName} app",
+              "Extend items with the ${applicationName} app",
+              "Renew with the ${applicationName} app"
+            ]
+          }
+        },
+        "es" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Renovar con ${applicationName} |bɪtlɪb|"
+            ]
+          }
+        },
+        "fr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Renouveler avec ${applicationName} |bɪtlɪb|"
+            ]
+          }
+        },
+        "ru" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Продлить с ${applicationName} |bɪtlɪb|"
+            ]
+          }
+        },
+        "tr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName} |bɪtlɪb| ile yenile"
+            ]
+          }
+        },
+        "uk" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Продовжити з ${applicationName} |bɪtlɪb|"
+            ]
+          }
+        }
+      }
+    },
+    "Search in ${applicationName} |bɪtlɪb|" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Suche in ${applicationName} |bɪtlɪb|"
+            ]
+          }
+        },
+        "en" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "Search in ${applicationName} |bɪtlɪb|",
+              "Find in ${applicationName} |bɪtlɪb|",
+              "Look for something in ${applicationName} |bɪtlɪb|"
+            ]
+          }
+        },
+        "es" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Buscar en ${applicationName} |bɪtlɪb|"
+            ]
+          }
+        },
+        "fr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Rechercher dans ${applicationName} |bɪtlɪb|"
+            ]
+          }
+        },
+        "ru" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Поиск в ${applicationName} |bɪtlɪb|"
+            ]
+          }
+        },
+        "tr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName} |bɪtlɪb| içinde ara"
+            ]
+          }
+        },
+        "uk" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Пошук у ${applicationName} |bɪtlɪb|"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}

@@ -1,0 +1,15 @@
+//
+//  Titles.strings
+//
+//
+//  Created by Martin Kim Dung-Pham on 28.09.22.
+//
+
+"Accounts" = "Аккаунты";
+"Loans" = "Выдачи";
+"More" = "Больше";
+"Bookmarks" = "Закладки";
+"Search" = "Поиск";
+"Charges" = "Платежи";
+"Settings" = "Настройки";
+"About" = "О программе";

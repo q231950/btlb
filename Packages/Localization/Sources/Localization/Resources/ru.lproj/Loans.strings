@@ -1,0 +1,16 @@
+/*
+  Loans.strings
+
+
+  Created by Martin Kim Dung-Pham on 15.04.23.
+
+*/
+"notification item expires today description text" = "Период выдачи заканчивается сегодня – пора действовать.";
+"notification item expires tomorrow description text" = "Завтра истекает период выдачи. После этого вы получите напоминание.";
+"notification trigger date description text" = "Вы получите %@ напоминание об окончании периода выдачи.";
+"notification trigger expired item" = "Период выдачи этого документа истек. Вы получите повторное уведомление %@.";
+"accessibility bookmark" = "Добавить закладку";
+"accessibility unbookmark" = "Удалить закладку";
+"accessibility renew" = "продлить";
+"accessibility not renewable" = "не подлежит продлению";
+"accessibility renewed" = "продлено";

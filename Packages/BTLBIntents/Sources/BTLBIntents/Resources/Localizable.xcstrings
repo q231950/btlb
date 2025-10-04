@@ -38,6 +38,120 @@
               }
             }
           }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "El elemento seleccionado ha sido renovado"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Todos los %lld elementos seleccionados han sido renovados"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "L'élément sélectionné a été renouvelé"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Tous les %lld éléments sélectionnés ont été renouvelés"
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Все %lld выбранных элемента были продлены"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Все %lld выбранных элементов были продлены"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Выбранный элемент был продлён"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Все %lld выбранных элементов были продлены"
+                }
+              }
+            }
+          }
+        },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Seçilen öğe yenilendi"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Seçilen %lld öğenin tümü yenilendi"
+                }
+              }
+            }
+          }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Всі %lld вибрані елементи було поновлено"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Всі %lld вибраних елементів було поновлено"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вибраний елемент було поновлено"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Всі %lld вибраних елементів було поновлено"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -53,6 +167,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No renewable items"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay elementos renovables"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun élément renouvelable"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет элементов для продления"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilenebilir öğe yok"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає елементів для поновлення"
           }
         }
       }
@@ -71,6 +215,36 @@
             "state" : "translated",
             "value" : "No item was selected for renewal"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se seleccionó ningún elemento para renovar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun élément n'a été sélectionné pour le renouvellement"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не выбран ни один элемент для продления"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenileme için hiçbir öğe seçilmedi"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вибрано жодного елемента для поновлення"
+          }
         }
       }
     },
@@ -87,6 +261,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "To renew an item you need to select it ☝️try once again or renew your items at a later point in time."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para renovar un elemento necesitas seleccionarlo ☝️inténtalo de nuevo o renueva tus elementos más tarde."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour renouveler un élément vous devez le sélectionner ☝️essayez encore une fois ou renouvelez vos éléments ultérieurement."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтобы продлить элемент, нужно его выбрать ☝️попробуйте ещё раз или продлите ваши элементы позже."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir öğeyi yenilemek için onu seçmeniz gerekir ☝️tekrar deneyin veya öğelerinizi daha sonra yenileyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Щоб поновити елемент, потрібно його вибрати ☝️спробуйте ще раз або поновіть ваші елементи пізніше."
           }
         }
       }
@@ -128,6 +332,120 @@
               }
             }
           }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "El elemento seleccionado no ha sido renovado."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ninguno de los %lld elementos seleccionados ha sido renovado."
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "L'élément sélectionné n'a pas été renouvelé."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Aucun des %lld éléments sélectionnés n'a été renouvelé."
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ни один из %lld выбранных элементов не был продлён."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ни один из %lld выбранных элементов не был продлён."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Выбранный элемент не был продлён."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ни один из %lld выбранных элементов не был продлён."
+                }
+              }
+            }
+          }
+        },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Seçilen öğe yenilenmedi."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Seçilen %lld öğenin hiçbiri yenilenmedi."
+                }
+              }
+            }
+          }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Жоден з %lld вибраних елементів не було поновлено."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Жоден з %lld вибраних елементів не було поновлено."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вибраний елемент не було поновлено."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Жоден з %lld вибраних елементів не було поновлено."
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -136,13 +454,43 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nur %1$@ der %2$@ ausgewählten Entleihungen wurden verlängert."
+            "value" : "Nur %1$lld der %2$lld ausgewählten Entleihungen wurden verlängert."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Only %1$lld out of the %2$lld selected items have been renewed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo %1$lld de los %2$lld elementos seleccionados han sido renovados"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seulement %1$lld sur les %2$lld éléments sélectionnés ont été renouvelés"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Только %1$lld из %2$lld выбранных элементов были продлены"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçilen %2$lld öğeden yalnızca %1$lld tanesi yenilendi"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лише %1$lld з %2$lld вибраних елементів було поновлено"
           }
         }
       }
@@ -161,6 +509,36 @@
             "state" : "translated",
             "value" : "Have you added an account? When did you last refresh the loans list?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Has añadido una cuenta? ¿Cuándo actualizaste la lista de préstamos por última vez?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avez-vous ajouté un compte ? Quand avez-vous actualisé la liste des emprunts pour la dernière fois ?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавили ли вы аккаунт? Когда вы последний раз обновляли список выдач?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir hesap eklediniz mi? Ödünç listesini en son ne zaman yenilediniz?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чи додали ви обліковий запис? Коли ви останній раз оновлювали список позичок?"
+          }
         }
       }
     },
@@ -178,6 +556,36 @@
             "state" : "translated",
             "value" : "Has the item expired already or has the maximum number of renewals been reached? Someone might as well have placed a preorder on the item."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Ha expirado ya el elemento o se ha alcanzado el número máximo de renovaciones? Alguien también podría haber hecho una reserva del elemento."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'élément a-t-il déjà expiré ou le nombre maximum de renouvellements a-t-il été atteint ? Quelqu'un pourrait également avoir placé une précommande sur l'élément."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уже ли истёк срок выдачи или достигнуто максимальное количество продлений? Кто-то мог также забронировать этот элемент."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öğenin süresi çoktan dolmuş olabilir mi veya maksimum yenileme sayısına ulaşılmış olabilir mi? Birisi bu öğe için ön sipariş de vermiş olabilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чи вже закінчився термін позички або досягнуто максимальної кількості поновлень? Можливо, хтось також зробив попереднє замовлення на цей елемент."
+          }
         }
       }
     },
@@ -194,6 +602,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Have the non renewed items possibly expired already or has the maximum number of renewals been reached? Someone might as well have placed a preorder on an item."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Han expirado posiblemente ya los elementos no renovados o se ha alcanzado el número máximo de renovaciones? Alguien también podría haber hecho una reserva de un elemento."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les éléments non renouvelés ont-ils possiblement déjà expiré ou le nombre maximum de renouvellements a-t-il été atteint ? Quelqu'un pourrait également avoir placé une précommande sur un élément."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Возможно, уже истёк срок непродлённых элементов или достигнуто максимальное количество продлений? Кто-то мог также забронировать элемент."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilenmeyen öğelerin süresi çoktan dolmuş olabilir mi veya maksimum yenileme sayısına ulaşılmış olabilir mi? Birisi bir öğe için ön sipariş de vermiş olabilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чи можливо вже закінчився термін непоновлених елементів або досягнуто максимальної кількості поновлень? Можливо, хтось також зробив попереднє замовлення на елемент."
           }
         }
       }
