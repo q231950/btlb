@@ -2,7 +2,6 @@
   "sourceLanguage" : "en",
   "strings" : {
     "%lld items" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -96,7 +95,6 @@
       }
     },
     "BTLB" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -138,83 +136,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "BTLB"
-          }
-        }
-      }
-    },
-    "Find in %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "In %@ finden"
-          }
-        }
-      }
-    },
-    "Look for something in %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Suche nach etwas in %@"
-          }
-        }
-      }
-    },
-    "Renew all items in %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Alle Medien in %@ verlängern"
-          }
-        }
-      }
-    },
-    "Renew items" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Medien verlängern"
-          }
-        }
-      }
-    },
-    "Renew my items in %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Meine Medien in %@ verlängern"
-          }
-        }
-      }
-    },
-    "Search" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Suchen"
-          }
-        }
-      }
-    },
-    "Search in %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "In %@ suchen"
           }
         }
       }

@@ -381,18 +381,6 @@
         }
       },
       "shouldTranslate" : false
-    },
-    "NSSiriUsageDescription" : {
-      "comment" : "Privacy - Siri Usage Description",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Use BTLB in Spotlight."
-          }
-        }
-      }
     }
   },
   "version" : "1.0"

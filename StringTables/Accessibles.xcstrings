@@ -900,47 +900,6 @@
         }
       }
     },
-    "Set_Search_Catalogue_Hint" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Wählt den Katalog für die Suche aus"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Set the catalogue to search in"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Définir le catalogue dans lequel rechercher"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Установить каталог для поиска"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aranacak kataloğu ayarla"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обрати каталог для пошуку"
-          }
-        }
-      }
-    },
     "Show search filter" : {
       "extractionState" : "manual",
       "localizations" : {

@@ -19,7 +19,7 @@ public struct RenewItemsIntent: AppIntent {
         self.items = items
     }
 
-    public static var title: LocalizedStringResource = LocalizedStringResource("renew intent title")
+    public static var title: LocalizedStringResource = "renew intent title"
 
     public static var description = IntentDescription("renew intent description",
                                                       categoryName: "renew intent category name",

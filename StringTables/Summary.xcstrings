@@ -625,48 +625,6 @@
         }
       }
     },
-    "NO_LOANS" : {
-      "comment" : "Label in case there are no loans on any account",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "keine"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "none"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ninguno"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "aucun"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "нет"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "немає"
-          }
-        }
-      }
-    },
     "SET_UP_AN_ACCOUNT_ADVICE" : {
       "comment" : "Hint that no accounts have been set up yet.",
       "extractionState" : "manual",

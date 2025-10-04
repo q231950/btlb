@@ -687,6 +687,12 @@
             "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -728,6 +734,12 @@
             "value" : "Онлайн-каталог Universitätsbibliothek Greifswald"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Greifswald çevrimiçi kataloğu"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -764,6 +776,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campus-Katalog Hamburg"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Campus-Katalog Hamburg"
@@ -951,6 +969,12 @@
             "value" : "Каталог службы информации и библиотечного сервиса университета (HIBS)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yükseköğretim bilgi ve kütüphane hizmetleri kataloğu (HIBS)"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -992,6 +1016,12 @@
             "value" : "Онлайн-каталог Universitätsbibliothek Hildesheim"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Hildesheim çevrimiçi kataloğu"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1031,6 +1061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Общая библиотека Hochschule Hannover и Hochschule für Musik, Theater und Medien Hannover"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover ve Hochschule für Musik, Theater und Medien Hannover ortak kütüphanesi"
           }
         },
         "uk" : {
@@ -1121,6 +1157,12 @@
             "value" : "Региональный каталог"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bölgesel katalog"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1160,6 +1202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Книги и журналы университетской библиотеки TUHH"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TUHH üniversite kütüphanesinin kitapları ve dergileri"
           }
         },
         "uk" : {
@@ -1203,6 +1251,12 @@
             "value" : "Онлайн-каталог университетской библиотеки"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yüksekokul kütüphanesinin çevrimiçi kataloğu"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1239,6 +1293,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hochschule Anhalt"
@@ -1285,6 +1345,12 @@
             "value" : "Commerzbibliothek Hamburg"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek Hamburg"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1321,6 +1387,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
@@ -1378,6 +1450,12 @@
             "state" : "translated",
             "value" : "Göttinger Universitätskatalog (GUK)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göttinger Universitätskatalog (GUK)"
+          }
         }
       }
     },
@@ -1415,6 +1493,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Greifswald"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek Greifswald"
@@ -1460,6 +1544,12 @@
             "state" : "translated",
             "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
+          }
         }
       }
     },
@@ -1497,6 +1587,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücherhallen Hamburg"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bücherhallen Hamburg"
@@ -1542,6 +1638,12 @@
             "state" : "translated",
             "value" : "Leibniz Universität Hannover"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leibniz Universität Hannover"
+          }
         }
       }
     },
@@ -1579,6 +1681,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
@@ -1624,6 +1732,12 @@
             "state" : "translated",
             "value" : "Hochschule Hannover"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover"
+          }
         }
       }
     },
@@ -1661,6 +1775,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Hildesheim"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek Hildesheim"
@@ -1706,6 +1826,12 @@
             "state" : "translated",
             "value" : "Bibliothek im Kurt-Schwitters-Forum"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothek im Kurt-Schwitters-Forum"
+          }
         }
       }
     },
@@ -1743,6 +1869,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
@@ -1788,6 +1920,12 @@
             "state" : "translated",
             "value" : "Universitätsbibliothek Rostock"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Rostock"
+          }
         }
       }
     },
@@ -1825,6 +1963,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
@@ -1870,6 +2014,12 @@
             "state" : "translated",
             "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
+          }
         }
       }
     },
@@ -1910,6 +2060,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La última actualización exitosa de la cuenta en segundo plano ocurrió el %@."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son başarılı arka plan hesap güncellemesi %@ tarihinde gerçekleşti."
           }
         }
       }
@@ -1952,6 +2108,12 @@
             "state" : "translated",
             "value" : "Algunas bibliotecas solo admiten un conjunto limitado de funciones."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bazı kütüphaneler yalnızca sınırlı bir özellik kümesini destekler."
+          }
         }
       }
     },
@@ -1993,6 +2155,12 @@
             "state" : "translated",
             "value" : "Bibliotecas"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kütüphaneler"
+          }
         }
       }
     },
@@ -2033,6 +2201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recibe notificaciones silenciosas en el Centro de notificaciones cuando las actualizaciones de cuentas en segundo plano sean exitosas"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arka plan hesap güncellemeleri başarılı olduğunda Bildirim Merkezi'nde sessizce gönderilen bir bildirim alın"
           }
         }
       }
@@ -2076,6 +2250,12 @@
             "state" : "translated",
             "value" : "Notificaciones"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildirimler"
+          }
         }
       }
     },
@@ -2117,6 +2297,12 @@
             "state" : "translated",
             "value" : "Esta aplicación no registra ni comparte ninguna de tus informaciones personales. Tu uso no está siendo rastreado.\n\nServicios de terceros: Google Image API para mostrar portadas en los detalles de resultados de búsqueda de las bibliotecas GBV."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu uygulama kişisel bilgilerinizi kaydetmez veya paylaşmaz. Kullanımınız izlenmiyor.\n\nÜçüncü taraf hizmetler: GBV kütüphanelerinin arama sonucu ayrıntılarında kapakları görüntülemek için Google Image API."
+          }
         }
       }
     },
@@ -2157,6 +2343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Política de privacidad"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gizlilik politikası"
           }
         }
       }
@@ -2200,6 +2392,12 @@
             "state" : "translated",
             "value" : "Calificar esta aplicación"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu uygulamayı değerlendir"
+          }
         }
       }
     },
@@ -2241,6 +2439,12 @@
             "state" : "translated",
             "value" : "Recomendar a un amigo"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arkadaşa öner"
+          }
         }
       }
     },
@@ -2281,6 +2485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Por favor tenga en cuenta que la transferencia de datos a los servidores de las bibliotecas se realiza a través del protocolo seguro HTTPS, siempre que los servidores correspondientes admitan este tipo de comunicación cifrada. Si nota la ausencia de cifrado HTTPS donde la comunicación HTTPS cifrada debería ser posible del lado del servidor, por favor contácteme."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen kütüphane sunucularına veri aktarımının, ilgili sunucular bu tür şifreli iletişimi desteklediği sürece güvenli HTTPS protokolü üzerinden gerçekleştirildiğini unutmayın. Sunucu tarafında HTTPS şifreli iletişimin mümkün olması gereken bir yerde HTTPS şifrelemesinin eksik olduğunu fark ederseniz, lütfen benimle iletişime geçin."
           }
         }
       }
@@ -2324,6 +2534,12 @@
             "state" : "translated",
             "value" : "Nota sobre seguridad"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güvenlik notu"
+          }
         }
       }
     },
@@ -2364,6 +2580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Información"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilgi"
           }
         }
       }
