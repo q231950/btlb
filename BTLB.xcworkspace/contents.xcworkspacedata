@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BTLB.xcodeproj">
+      location = "group:BTLB/BTLB.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:BTLBTests.xctestplan">
+      location = "group:BTLB/BTLBTests.xctestplan">
    </FileRef>
 </Workspace>

@@ -4,7 +4,7 @@
 defaults write com.apple.dt.Xcode IDESkipMacroFingerprintValidation -bool YES
 
 # Prepare Build
-mv ../Secrets.sample.xcconfig ../Secrets.xcconfig
+mv ../BTLB/Secrets.sample.xcconfig ../BTLB/Secrets.xcconfig
 
 # Install Dependencies
 brew install rust
@@ -16,7 +16,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # Make the Paper Swift Package
-cd ../Packages/shared/paper
+cd ../BTLB/Packages/shared/paper
 make prepare-apple
 cd paper
 make apple-release

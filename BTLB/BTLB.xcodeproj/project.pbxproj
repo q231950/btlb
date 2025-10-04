@@ -215,7 +215,7 @@
 		39E45D6F11B6E93A005745AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		39F23DB4129C3DB8008EDF14 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		39F23DB9129C3E02008EDF14 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		39F8D8C511ED28070009DE37 /* Credits.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Credits.md; sourceTree = "<group>"; };
+		39F8D8C511ED28070009DE37 /* Credits.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = Credits.md; path = ../Credits.md; sourceTree = "<group>"; };
 		3B020A032D047AB100B8486C /* Recommend.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = Recommend.xcstrings; path = StringTables/Recommend.xcstrings; sourceTree = "<group>"; };
 		3B020A052D047AB100B8486C /* AppIntents.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = AppIntents.xcstrings; sourceTree = "<group>"; };
 		3B020A072D047AB100B8486C /* Accessibles.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = Accessibles.xcstrings; path = StringTables/Accessibles.xcstrings; sourceTree = "<group>"; };
@@ -316,7 +316,7 @@
 		3BAF8FEB2B0A6C0900D5AF81 /* BTLBAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLBAppViewModel.swift; sourceTree = "<group>"; };
 		3BB03179164EA89B004030D5 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		3BB5C86A28E233B400D56B04 /* Localization */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Localization; path = Packages/Localization; sourceTree = "<group>"; };
-		3BB5F0C02E7DFB4F00214A41 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = ci_post_clone.sh; path = ci_scripts/ci_post_clone.sh; sourceTree = "<group>"; };
+		3BB5F0C02E7DFB4F00214A41 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = ci_post_clone.sh; path = ../ci_scripts/ci_post_clone.sh; sourceTree = "<group>"; };
 		3BB68ABA1FFFA3DF00A1F616 /* BTLBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTLBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB68ABE1FFFA3DF00A1F616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BBA8CAF23F2E8F000795358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -357,7 +357,7 @@
 		3BF9B86A2B7CFCFB001AED4D /* BTLBShortcutsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLBShortcutsProvider.swift; sourceTree = "<group>"; };
 		3BFABA8B29A555650030E114 /* Charges */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Charges; path = Packages/Charges; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* BTLB-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BTLB-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		FDC3D3622145932C001678AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FDC3D3622145932C001678AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
