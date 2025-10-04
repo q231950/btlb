@@ -243,11 +243,12 @@ extension View {
 #if DEBUG
 import Combine
 import LibraryCore
+import Persistence
 
 struct SettingsSectionView_Previews: PreviewProvider {
 
     struct Preview: View {
-        @ObservedObject private var viewModel = SettingsViewModel(service: MockSettingsService(isAlternateAppIconEnabled: true, aiRecommenderEnabled: true))
+        @ObservedObject private var viewModel = SettingsViewModel(service: MockSettingsService(isAlternateAppIconEnabled: true, aiRecommenderEnabled: true), dataStackProvider: DataStackProvider())
 
         var body: some View {
             NavigationView {

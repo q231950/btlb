@@ -16,12 +16,16 @@ struct MediumBTLBWidget: Widget {
     let kind: String = "BTLBWidget"
 
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: Provider()) { entry in
+        StaticConfiguration(kind: kind, provider: provider) { entry in
             MediumEntryView(entry: entry)
         }
         .configurationDisplayName("widget configuration title".localized)
         .description("widget configuration description".localized)
         .supportedFamilies([.systemMedium])
+    }
+
+    var provider: Provider {
+        Provider(widgetSynchronisation: WidgetSynchronisation(dataStackProvider: BTLBWidgetViewModel().dataStackProvider))
     }
 }
 

@@ -20,7 +20,7 @@ private enum Constants {
 }
 
 public final class LibraryManager: LibraryProvider {
-    private let persistentContainer: NSPersistentContainer
+    private let persistentContainer: PersistentContainer
     var amountOfLibrariesToProcess: UInt = 0
 
     public var legacySearchLibrary: NSManagedObjectID? {
@@ -36,7 +36,7 @@ public final class LibraryManager: LibraryProvider {
         }
 
         return library(forIdentifier: libraryIdentifier,
-                       in: DataStackProvider.shared.backgroundManagedObjectContext)
+                       in: persistentContainer.newBackgroundContext())
     }
 
     public var defaultLibrary: NSManagedObjectID? {
@@ -44,7 +44,7 @@ public final class LibraryManager: LibraryProvider {
                 in: persistentContainer.viewContext)
     }
 
-    public init(persistentContainer: NSPersistentContainer) {
+    public init(persistentContainer: PersistentContainer) {
         self.persistentContainer = persistentContainer
     }
     
@@ -84,11 +84,7 @@ public final class LibraryManager: LibraryProvider {
     func libraries(in context: NSManagedObjectContext, completion: @escaping ([Persistence.Library]) -> Void) {
         Task {
             do {
-                if let libraries = try await DataStackProvider.shared.persistentContainer?.libraries(in: context) {
-                    completion(libraries)
-                } else {
-                    completion([])
-                }
+                completion(try await persistentContainer.libraries(in: context))
             } catch let error {
                 Logger.libraries.error("Error loading libraries from persistent container\n\(error.localizedDescription)")
                 completion([])

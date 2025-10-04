@@ -30,8 +30,8 @@ import Utilities
 //        try await super.setUp()
 //        mocStub = await SomeHelper().managedObjectContextStub(for: self)
 //        
-//        account = try await DataStackProvider.shared.newAccount()
-//        let library = try await DataStackProvider.shared.persistentContainer?.libraries(in: mocStub).first
+//        account = try await dataStackProvider.newAccount()
+//        let library = try await dataStackProvider.persistentContainer?.libraries(in: mocStub).first
 //        account.library = library
 //        authManager = AuthenticationManager(network: networkMock, keychainManager: keychainMock)
 //        credentialStore = AccountCredentialStore(keychainProvider: keychainMock)

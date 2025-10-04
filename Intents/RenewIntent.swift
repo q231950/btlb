@@ -11,6 +11,8 @@ import Utilities
 
 public struct RenewItemsIntent: AppIntent {
 
+    private let dataStackProvider: DataStackProviding = AppViewModel.shared.dataStackProvider
+
     public init() {}
 
     init(items: [ItemEntity]) {
@@ -46,8 +48,9 @@ public struct RenewItemsIntent: AppIntent {
         }
 
         let loanService = DatabaseConnectionFactory().databaseConnection(
-            for: DataStackProvider.shared.foregroundManagedObjectContext,
-            accountService: AccountScraper()
+            for: dataStackProvider.foregroundManagedObjectContext,
+            accountService: AccountScraper(),
+            dataStackProvider: dataStackProvider
         )
 
         let renewedItemResults = try await withThrowingTaskGroup(of: Result<any LibraryCore.Loan, Error>.self) { group in

@@ -180,9 +180,10 @@ import Persistence
 //
 extension SomeHelper {
     public func managedObjectContextStub(for test: XCTestCase) async -> NSManagedObjectContext {
-        DataStackProvider.shared.loadInMemory()
+        let dataStackProvider = DataStackProvider()
+        dataStackProvider.loadInMemory()
 
-        return DataStackProvider.shared.foregroundManagedObjectContext
+        return dataStackProvider.foregroundManagedObjectContext
 
         //        let exp = test.expectation(description: "wait for persistent store")
         //        guard let managedObjectModel = NSManagedObjectModel.mergedModel(from: [PersistenceBundle.module]) else {

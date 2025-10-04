@@ -23,6 +23,7 @@ public struct LoanList<ViewModel: LibraryCore.LoanListViewModel>: View {
     @ObservedObject private var viewModel: ViewModel
     @Environment(\.loanService) private var loanService: LoanService
     @Environment(\.intent) private var intent: (any AppIntent)?
+    @Environment(\.dataStackProvider) private var dataStackProvider
 
     @SectionedFetchRequest<String, EDAccount>(
         sectionIdentifier: \.accountIdentifier,
@@ -104,7 +105,7 @@ public struct LoanList<ViewModel: LibraryCore.LoanListViewModel>: View {
         }
         .refreshable {
             do {
-                try await viewModel.refresh()
+                try await viewModel.refresh(in: dataStackProvider.foregroundManagedObjectContext)
             } catch let error{
                 print("handle me \(error.localizedDescription)")
             }
@@ -113,6 +114,8 @@ public struct LoanList<ViewModel: LibraryCore.LoanListViewModel>: View {
 }
 
 #if DEBUG
+import CoreData
+
 public class PreviewLoanListViewModel: LibraryCore.LoanListViewModel {
     public var errors: [LibraryCore.PaperErrorInternal] = []
     
@@ -125,7 +128,7 @@ public class PreviewLoanListViewModel: LibraryCore.LoanListViewModel {
         .activated(account)
     }
 
-    public func refresh() async throws {
+    public func refresh(in context: NSManagedObjectContext) async throws {
         print("refreshing")
     }
 

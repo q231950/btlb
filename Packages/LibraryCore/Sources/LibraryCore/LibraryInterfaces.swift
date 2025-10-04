@@ -168,10 +168,6 @@ public enum Setting {
     case notificationsAuthorized(Bool)
 }
 
-public protocol DatabaseConnectionProducing {
-    func databaseConnection(for managedObjectContext: NSManagedObjectContext, accountService: AccountServiceProviding) -> LoanBackendServicing
-}
-
 public enum ProgressButtonState: Equatable {
     case idle(systemImageName: String)
     case animating(systemImageName: String)
@@ -200,7 +196,7 @@ public protocol LoanListViewModel: ObservableObject {
     var isShowingErrors: Bool { get set }
     var errors: [PaperErrorInternal] { get }
 
-    func refresh() async throws
+    func refresh(in context: NSManagedObjectContext) async throws
 
     func show(_ loan: some LoanViewModel)
 }
@@ -677,7 +673,7 @@ public struct BookRecommendation: Hashable {
 }
 
 public protocol RecommenderProtocol {
-    func recommendations(for titles: [String]) async throws -> Recommendation
+    @MainActor func recommendations(for titles: [String]) async throws -> Recommendation
 }
 
 public extension EnvironmentValues {

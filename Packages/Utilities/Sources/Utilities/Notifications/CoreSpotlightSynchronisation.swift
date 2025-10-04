@@ -14,10 +14,13 @@ import Persistence
 
 public class CoreSpotlightSynchronisation: AppEventObserver {
 
-    public static private(set) var shared: CoreSpotlightSynchronisation = CoreSpotlightSynchronisation()
-
     public var id: UUID = UUID()
     private let domainIdentifier = "Loans"
+    private let dataStackProvider: DataStackProviding
+
+    public init(dataStackProvider: DataStackProviding) {
+        self.dataStackProvider = dataStackProvider
+    }
 
     public func handle(_ change: LibraryCore.AppEventPublisher.AppEvent) async throws {
         switch change {
@@ -32,7 +35,7 @@ public class CoreSpotlightSynchronisation: AppEventObserver {
     private lazy var index = CSSearchableIndex.default()
 
     private func updateVocabulary(in context: NSManagedObjectContext) async throws {
-        let items = await DataStackProvider.shared.items(in: context, renewableOnly: false, fetchLimit: 1000)
+        let items = await dataStackProvider.items(in: context, renewableOnly: false, fetchLimit: 1000)
         let contents = items.map {
             let attributeSet = CSSearchableItemAttributeSet(contentType: .item)
             attributeSet.title = $0.title

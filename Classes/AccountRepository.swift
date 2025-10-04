@@ -16,9 +16,14 @@ import Persistence
 import Utilities
 import Libraries
 
-public final class AccountRepository: AccountService, Sendable {
+@MainActor
+public final class AccountRepository: AccountService {
 
-    public static let shared = AccountRepository()
+    private let dataStackProvider: DataStackProviding
+
+    init(dataStackProvider: DataStackProviding) {
+        self.dataStackProvider = dataStackProvider
+    }
 
     public func removeLoansNotifications() {
         Task {
@@ -26,8 +31,8 @@ public final class AccountRepository: AccountService, Sendable {
             await NotificationScheduler().removeAllNotifications()
 
             // remove all Notification Scheduled Dates from the loans
-            let moc = DataStackProvider.shared.backgroundManagedObjectContext
-            let accounts = try await DataStackProvider.shared.persistentContainer?.accounts(in: moc)
+            let moc = dataStackProvider.backgroundManagedObjectContext
+            let accounts = try await dataStackProvider.persistentContainer?.accounts(in: moc)
 
             try await moc.perform {
                 accounts?.forEach {
@@ -48,22 +53,27 @@ public final class AccountRepository: AccountService, Sendable {
     ///   - account: the account to update
     ///   - context: the NSManagedObjectContext in which the account should be modified
     /// - Returns: a ``UpdateResult``
-    public func updateAccount(_ account: NSManagedObjectID, in context: NSManagedObjectContext) async throws -> UpdateResult {
+    public func updateAccount(
+        _ account: NSManagedObjectID,
+        in context: NSManagedObjectContext,
+        dataStackProvider: DataStackProviding
+    ) async throws -> UpdateResult {
         Logger.accountRepository.debug("updateAccount \(account)")
         let databaseConnection = DatabaseConnectionFactory().databaseConnection(
             for: context,
-            accountService: AccountScraper()
+            accountService: AccountScraper(),
+            dataStackProvider: dataStackProvider
         )
 
         let keychainProvider = KeychainManager()
         let accountCredentialStore = AccountCredentialStore(keychainProvider: keychainProvider)
 
-        guard let persistentContainer = DataStackProvider.shared.persistentContainer else {
+        guard let persistentContainer = dataStackProvider.persistentContainer else {
             Logger.accountRepository.debug("updateAccount missing persistent container")
             throw PaperErrorInternal.accountReposioryError(.update(.missingPersistentContainer))
         }
 
-        let serializer = LoanSerializer()
+        let serializer = LoanSerializer(dataStackProvider: dataStackProvider)
         let loansHash = try await serializer.loansHash(for: account)
 
         let libraryProvider = LibraryManager(persistentContainer: persistentContainer)
@@ -97,7 +107,7 @@ public final class AccountRepository: AccountService, Sendable {
             throw PaperErrorInternal.accountReposioryError(.update(.missingCredentials))
         }
 
-        let serializer = LoanSerializer()
+        let serializer = LoanSerializer(dataStackProvider: dataStackProvider)
         let oldLoanBarcodes = try await serializer.loansBarcodes(for: accountId)
 
         try await databaseConnection.initiateUpdate(forAccount: accountId, accountIdentifier: userId, password: password, libraryProvider: libraryProvider)

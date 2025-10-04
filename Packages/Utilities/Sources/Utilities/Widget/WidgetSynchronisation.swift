@@ -14,7 +14,15 @@ import CoreData
 
 public final class WidgetSynchronisation: AppEventObserver {
 
-    public static private(set) var shared: WidgetSynchronisation = WidgetSynchronisation()
+    public var id: UUID
+
+    private let dataStackProvider: DataStackProviding
+    private let storage = AppGroupStorage()
+
+    public init(dataStackProvider: DataStackProviding, id: UUID = UUID()) {
+        self.dataStackProvider = dataStackProvider
+        self.id = id
+    }
 
     public var widgetState: WidgetState {
         get throws {
@@ -23,9 +31,6 @@ public final class WidgetSynchronisation: AppEventObserver {
         }
     }
 
-    private let storage = AppGroupStorage()
-
-    public var id = UUID()
     public func handle(_ change: AppEventPublisher.AppEvent) async throws {
         switch change {
         case .accountActivation(count: let count, activated: 0, _):
@@ -57,13 +62,13 @@ public final class WidgetSynchronisation: AppEventObserver {
     }
 
     private func updateWidgetContent(didRefresh: Bool, in context: NSManagedObjectContext) async throws {
-        let nextReturnDate = await DataStackProvider.shared.nextReturnDate(in: context)
+        let nextReturnDate = await dataStackProvider.nextReturnDate(in: context)
         let lastUpdateDate: Date = didRefresh ? .now : UserDefaults.suite.latestSuccessfulAccountUpdateDate ?? .now
-        let overallNumberOfLoans = await DataStackProvider.shared.overallNumberOfLoans(in: context)
-        let numberOfAccounts = try await DataStackProvider.shared.activeAccounts(in: context).count
+        let overallNumberOfLoans = await dataStackProvider.overallNumberOfLoans(in: context)
+        let numberOfAccounts = try await dataStackProvider.activeAccounts(in: context).count
         // Limit elements displayed in a widget so that they all fit into the available vertical space
         // Limiting should probably happen within the view/view model of the widget since it knows better how much space is available
-        let items = await DataStackProvider.shared.items(in: context, renewableOnly: false, fetchLimit: 8)
+        let items = await dataStackProvider.items(in: context, renewableOnly: false, fetchLimit: 8)
         let viewModel = WidgetState.ContentViewModel(lastUpdate: lastUpdateDate,
                                                      nextReturnDate: nextReturnDate,
                                                      overallNumberOfLoans: overallNumberOfLoans,

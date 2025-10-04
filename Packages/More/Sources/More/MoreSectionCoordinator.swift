@@ -30,6 +30,7 @@ public final class MoreSectionCoordinator: Coordinator {
 struct MoreList: View {
     @ObservedObject var viewModel: MoreSectionViewModel
     @State var path = NavigationPath()
+    @Environment(\.dataStackProvider) var dataStackProvider
 
     var body: some View {
         NavigationStack(path: $path) {
@@ -47,13 +48,14 @@ struct MoreList: View {
                 case .about:
                     AboutSectionCoordinator().contentView
                 case .accounts:
-                    let listViewModel = AccountListViewModel(dataStackProvider: DataStackProvider.shared) {
+                    let listViewModel = AccountListViewModel(dataStackProvider: dataStackProvider) {
                         path.removeLast()
                     }
 
                     AccountList(viewModel: listViewModel)
                 case .settings(let settingsService):
-                    SettingsSectionCoordinator(settingsService: settingsService).contentView
+                    SettingsSectionCoordinator(settingsService: settingsService, dataStackProvider: dataStackProvider)
+                        .contentView
                 case .openSource:
                     OpenSourceSectionView()
                 }

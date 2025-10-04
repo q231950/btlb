@@ -72,16 +72,17 @@ public struct AccountList: View {
 }
 
 #Preview {
-    let viewModel = AccountListViewModel(dataStackProvider: DataStackProvider.shared) {}
+    let dataStackProvider = DataStackProvider()
+    let viewModel = AccountListViewModel(dataStackProvider: dataStackProvider) {}
     var inMemoryContext: NSManagedObjectContext = {
-        DataStackProvider.shared.loadInMemory()
+        dataStackProvider.loadInMemory()
 
-        let account2 = try! DataStackProvider.shared.createAccount()
+        let account2 = try! dataStackProvider.createAccount()
         account2.accountName = "account II"
         account2.accountUserID = "12345"
         account2.accountAvatar = "avatar-tiger"
 
-        return DataStackProvider.shared.foregroundManagedObjectContext
+        return dataStackProvider.foregroundManagedObjectContext
     }()
 
         NavigationStack {

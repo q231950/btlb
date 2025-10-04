@@ -17,6 +17,7 @@ public struct DatabaseConnectionDependencies {
     let accountService: AccountServiceProviding
     let authenticationManager: AuthenticationManaging
     let credentialStore: AccountCredentialStoring
+    let dataStackProvider: DataStackProviding
 }
 
 public struct DatabaseConnection: LoanBackendServicing {
@@ -47,9 +48,9 @@ public struct DatabaseConnection: LoanBackendServicing {
 
     public func renew(loan: any LibraryCore.Renewable) async throws -> Result<any LibraryCore.Loan, Error> {
 
-        let loanManagedObjectId = try await DataStackProvider.shared.loan(for: loan.barcode, in: context)
+        let loanManagedObjectId = try await dependencies.dataStackProvider.loan(for: loan.barcode, in: context)
 
-        guard let loan = DataStackProvider.shared.foregroundManagedObjectContext.object(with: loanManagedObjectId) as? Persistence.Loan, let account = loan.loanAccount else {
+        guard let loan = dependencies.dataStackProvider.foregroundManagedObjectContext.object(with: loanManagedObjectId) as? Persistence.Loan, let account = loan.loanAccount else {
             assertionFailure("don't get here")
             throw RenewalError.unexpectedError
         }

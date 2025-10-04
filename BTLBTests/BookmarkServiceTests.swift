@@ -69,6 +69,7 @@ class BookmarkControllerTests: XCTestCase {
         }
     }
 
+    @MainActor
     func testRemoveBookmark() async throws {
         throw XCTSkip()
         guard let mock = loanMock else { XCTFail(); return }
@@ -87,7 +88,7 @@ class BookmarkControllerTests: XCTestCase {
     func setupLoanInMockContext(_ moc: NSManagedObjectContext) async throws {
         guard let mock = loanMock else { XCTFail(); return }
 
-        let account = try await DataStackProvider.shared.newAccount()
+        let account = try await DataStackProvider().newAccount()
 
 //        account.accountType = "an account type"
         account.addToLoans(mock)

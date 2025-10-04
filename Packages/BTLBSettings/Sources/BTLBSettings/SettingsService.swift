@@ -64,6 +64,7 @@ public final class SettingsService: LibraryCore.SettingsService {
         UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
     }
 
+    @MainActor
     public func toggleNotificationsEnabled(on isOn: Bool) {
         Task {
             if await notificationScheduler.authorized() {
@@ -73,11 +74,12 @@ public final class SettingsService: LibraryCore.SettingsService {
                 publisher.send(.notificationsAuthorized(false))
             }
 
-            if !isOn {
+            if isOn == false {
                 // TODO: should remove all notifications, not just loans
                 accountService.removeLoansNotifications()
             } else {
-                //            let renewableItems = DataStackProvider.shared.renewableItems(in: DataStackProvider.shared.backgroundManagedObjectContext)
+                // TODO: what's going on here?
+                // let renewableItems = dataStackProvider.renewableItems(in: dataStackProvider.backgroundManagedObjectContext)
                 try await AppEventPublisher.shared.sendUpdate(.settingChange(renewableItems: [])) //renewableItems
             }
         }
@@ -93,6 +95,7 @@ public final class SettingsService: LibraryCore.SettingsService {
         userDefaults.accountUpdateNotificationsEnabled
     }
 
+    @MainActor
     public func toggleLoanExpirationNotificationsEnabled(on isOn: Bool) {
         userDefaults.accountUpdateNotificationsEnabled = isOn
 

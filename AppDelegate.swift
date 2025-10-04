@@ -22,6 +22,8 @@ import Bookmarks
 
 class EDSyncAppDelegate: NSObject, UIApplicationDelegate {
 
+    private let appViewModel = AppViewModel.shared
+
     public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
 
         UNUserNotificationCenter.current().delegate = self
@@ -32,8 +34,8 @@ class EDSyncAppDelegate: NSObject, UIApplicationDelegate {
         configureEventObservers()
         requestNotificationAuthorization()
 
-        DataStackProvider.shared.load {
-            if let container = DataStackProvider.shared.persistentContainer {
+        appViewModel.dataStackProvider.load { [weak self] in
+            if let container = self?.appViewModel.dataStackProvider.persistentContainer {
                 let librariesController = LibraryManager(persistentContainer: container)
 
                 librariesController.loadOrUpdateLibraries(in: container.viewContext)
@@ -79,7 +81,7 @@ extension EDSyncAppDelegate: UNUserNotificationCenterDelegate {
 
     private func refresh(response: UNNotificationResponse) async {
         do {
-            try await AccountUpdater().update()
+            try await AccountUpdater(dataStackProvider: appViewModel.dataStackProvider).update(in: appViewModel.dataStackProvider.backgroundManagedObjectContext)
         } catch {
 
         }
@@ -87,15 +89,19 @@ extension EDSyncAppDelegate: UNUserNotificationCenterDelegate {
 
     private func renew(response: UNNotificationResponse) async {
         if let barcode = response.notification.request.content.userInfo["barcode"] as? String {
-            let context = DataStackProvider.shared.foregroundManagedObjectContext
+            let context = appViewModel.dataStackProvider.foregroundManagedObjectContext
 
-            let backendService = DatabaseConnectionFactory().databaseConnection(for: context, accountService: AccountScraper())
+            let backendService = DatabaseConnectionFactory().databaseConnection(
+                for: context,
+                accountService: AccountScraper(),
+                dataStackProvider: appViewModel.dataStackProvider
+            )
             let bookmarkService = BookmarkService(managedObjectContext: context)
             let loanService = BTLBLoanService(backendService: backendService,
                                               bookmarkService: bookmarkService)
 
             do {
-                let activeAccounts = try await DataStackProvider.shared.activeAccounts(in: context)
+                let activeAccounts = try await appViewModel.dataStackProvider.activeAccounts(in: context)
 
                 if let loanManagedObjectId = await loan(for: barcode, in: context, accounts: activeAccounts),
                    let loanManagedObject = context.object(with: loanManagedObjectId) as? Persistence.Loan {
@@ -191,7 +197,6 @@ extension EDSyncAppDelegate: UNUserNotificationCenterDelegate {
         notificationCenter.setNotificationCategories([itemRenewableCategory, itemExpiresTodayCategory])
     }
 
-
     func didRegister(deviceToken: Data) {
         Task {
             let pushManager = PushNotificationManager()
@@ -210,13 +215,13 @@ extension EDSyncAppDelegate: UNUserNotificationCenterDelegate {
         let currentValue = UserDefaults.suite.backgroundNotificationRefreshCount
         UserDefaults.suite.backgroundNotificationRefreshCount = currentValue + 1
 
-        AppEventPublisher.shared.addObserver(WidgetSynchronisation.shared)
-        AppEventPublisher.shared.addObserver(NotificationSynchronisation.shared)
+        AppEventPublisher.shared.addObserver(appViewModel.widgetSynchronisation)
+        AppEventPublisher.shared.addObserver(appViewModel.notificationSynchronisation)
 
-        let context = DataStackProvider.shared.foregroundManagedObjectContext
+        let context = appViewModel.dataStackProvider.foregroundManagedObjectContext
 
         return await withCheckedContinuation { continuation in
-            let operation = RefreshAppContentsOperation(updater: AccountUpdater(),
+            let operation = RefreshAppContentsOperation(updater: AccountUpdater(dataStackProvider: appViewModel.dataStackProvider),
                                                         context: context) { updateResult in
                 let currentValue = UserDefaults.suite.successfulBackgroundNotificationRefreshCount
                 UserDefaults.suite.successfulBackgroundNotificationRefreshCount = currentValue + 1
@@ -231,9 +236,9 @@ extension EDSyncAppDelegate: UNUserNotificationCenterDelegate {
     }
 
     func configureEventObservers() {
-        AppEventPublisher.shared.addObserver(WidgetSynchronisation.shared)
-        AppEventPublisher.shared.addObserver(NotificationSynchronisation.shared)
-        AppEventPublisher.shared.addObserver(CoreSpotlightSynchronisation.shared)
+        AppEventPublisher.shared.addObserver(appViewModel.widgetSynchronisation)
+        AppEventPublisher.shared.addObserver(appViewModel.notificationSynchronisation)
+        AppEventPublisher.shared.addObserver(appViewModel.coreSpotlightSynchronisation)
     }
 
     // MARK: - Background Tasks
@@ -277,8 +282,8 @@ extension EDSyncAppDelegate: UNUserNotificationCenterDelegate {
 
         scheduleAppRefresh()
 
-        let context = DataStackProvider.shared.backgroundManagedObjectContext
-        let operation = RefreshAppContentsOperation(updater: AccountUpdater(),
+        let context = appViewModel.dataStackProvider.backgroundManagedObjectContext
+        let operation = RefreshAppContentsOperation(updater: AccountUpdater(dataStackProvider: appViewModel.dataStackProvider),
                                                     context: context) { updateResult in
             switch updateResult {
             case .finished:

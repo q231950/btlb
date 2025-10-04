@@ -319,6 +319,7 @@
 		3BAF8FEB2B0A6C0900D5AF81 /* BTLBAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLBAppViewModel.swift; sourceTree = "<group>"; };
 		3BB03179164EA89B004030D5 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		3BB5C86A28E233B400D56B04 /* Localization */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Localization; path = Packages/Localization; sourceTree = "<group>"; };
+		3BB5F0C02E7DFB4F00214A41 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = ci_post_clone.sh; path = ci_scripts/ci_post_clone.sh; sourceTree = "<group>"; };
 		3BB68ABA1FFFA3DF00A1F616 /* BTLBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTLBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB68ABE1FFFA3DF00A1F616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BBA8CAF23F2E8F000795358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -452,6 +453,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				3BB5F0C02E7DFB4F00214A41 /* ci_post_clone.sh */,
 				3B3ED2592BA6366C00C67380 /* PrivacyInfo.xcprivacy */,
 				3B4A909C1BF26B8A0097962E /* Changelog.md */,
 				3BBD79C4294CFE320006A165 /* Release.xcconfig */,

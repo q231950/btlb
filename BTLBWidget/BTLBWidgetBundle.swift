@@ -9,6 +9,8 @@
 import WidgetKit
 import SwiftUI
 
+import Persistence
+
 @main
 struct BTLBWidgetBundle: WidgetBundle {
     var body: some Widget {
@@ -18,4 +20,8 @@ struct BTLBWidgetBundle: WidgetBundle {
         SmallBTLBWidget()
         LargeBTLBWidget()
     }
+}
+
+class BTLBWidgetViewModel {
+    lazy var dataStackProvider: DataStackProviding = DataStackProvider()
 }

@@ -16,8 +16,12 @@ import Utilities
 struct LargeBTLBWidget: Widget {
     let kind: String = "LargeBTLBWidget"
 
+    var provider: Provider {
+        Provider(widgetSynchronisation: WidgetSynchronisation(dataStackProvider: BTLBWidgetViewModel().dataStackProvider))
+    }
+
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: Provider()) { entry in
+        StaticConfiguration(kind: kind, provider: provider) { entry in
             LargeEntryView(entry: entry)
         }
         .configurationDisplayName("widget configuration title".localized)

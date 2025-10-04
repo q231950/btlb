@@ -46,15 +46,6 @@ public class LoansSectionCoordinator: Coordinator {
     }
 
     public var contentView: some View {
-        let viewContext = DataStackProvider.shared.foregroundManagedObjectContext
-        let backendService = databaseFactory.databaseConnection(for: viewContext, accountService: dependencies.accountService)
-        let bookmarkService = BookmarkService(managedObjectContext: viewContext)
-
-        return LoanList(viewModel: viewModel)
-            .environment(\.managedObjectContext,
-                          DataStackProvider.shared.foregroundManagedObjectContext)
-            .environment(\.loanService,
-                          BTLBLoanService(backendService: backendService,
-                                          bookmarkService: bookmarkService))
+        LoanList(viewModel: viewModel)
     }
 }

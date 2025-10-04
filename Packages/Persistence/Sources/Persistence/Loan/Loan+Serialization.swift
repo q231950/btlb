@@ -12,13 +12,19 @@ import LibraryCore
 
 public struct LoanSerializer {
 
-    public init() {}
+    let dataStackProvider: DataStackProviding
+
+    public init(dataStackProvider: DataStackProviding) {
+        self.dataStackProvider = dataStackProvider
+    }
 
     // TODO: add tests
     public func loansHash(for accountId: NSManagedObjectID) async throws -> String {
 
         var account: EDAccount?
-        let moc = DataStackProvider.shared.backgroundManagedObjectContext
+        let moc = await MainActor.run {
+            dataStackProvider.backgroundManagedObjectContext
+        }
 
         await moc.perform {
             account =  moc.object(with: accountId) as? EDAccount
@@ -44,7 +50,9 @@ public struct LoanSerializer {
     // TODO: add tests
     public func loansBarcodes(for accountId: NSManagedObjectID) async throws -> [String] {
         var account: EDAccount?
-        let moc = DataStackProvider.shared.backgroundManagedObjectContext
+        let moc = await MainActor.run {
+            dataStackProvider.backgroundManagedObjectContext
+        }
 
         await moc.perform {
             account =  moc.object(with: accountId) as? EDAccount

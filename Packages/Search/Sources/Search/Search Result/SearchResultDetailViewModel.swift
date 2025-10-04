@@ -21,16 +21,23 @@ final class SearchResultInfoViewModel: ObservableObject {
     private let detailsProvider: SearchResultDetailsProviding
     private var coordinator: SearchResultCoordinator?
     private var loadDetailsTask: Task<Void, Never>?
+    private let dataStackProvider: DataStackProviding
 
     var availabilityStatus: AvailabilityStatus {
         detailsProvider.status(availabilities: details?.availability.availabilities ?? [], in: result.library)
     }
 
-    init(coordinator: SearchResultCoordinator? = nil, result: SearchResultListItemModel, detailsProvider: SearchResultDetailsProviding) {
+    init(
+        coordinator: SearchResultCoordinator? = nil,
+        result: SearchResultListItemModel,
+        detailsProvider: SearchResultDetailsProviding,
+        dataStackProvider: DataStackProviding
+    ) {
         self.coordinator = coordinator
         self.result = result
         self.detailsProvider = detailsProvider
         self.bookmarkState = .loading
+        self.dataStackProvider = dataStackProvider
 
         defer {
             Task {
@@ -45,13 +52,13 @@ final class SearchResultInfoViewModel: ObservableObject {
     }
 
     @MainActor func updateBookmarkState() {
-        let controller = BookmarkService(managedObjectContext: DataStackProvider.shared.foregroundManagedObjectContext)
+        let controller = BookmarkService(managedObjectContext: dataStackProvider.foregroundManagedObjectContext)
         let bookmarked = controller.hasBookmark(identifier: result.number, title: self.result.title)
         bookmarkState = .bookmarked(bookmarked)
     }
 
     @MainActor func toggleBookmark() {
-        let controller = BookmarkService(managedObjectContext: DataStackProvider.shared.foregroundManagedObjectContext)
+        let controller = BookmarkService(managedObjectContext: dataStackProvider.foregroundManagedObjectContext)
 
         do {
             if case .bookmarked(let bookmark) = bookmarkState {

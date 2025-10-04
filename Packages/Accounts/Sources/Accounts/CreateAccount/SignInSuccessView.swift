@@ -50,6 +50,7 @@ struct SignInSuccessView: View {
     @Environment(\.localAccountService) private var accountService: LocalAccountService
     @Environment(\.accountActivating) private var accountActivating: AccountActivating
     @Environment(\.accountCredentialStore) private var accountCredentialStore: AccountCredentialStoring
+    @Environment(\.dataStackProvider) private var dataStackProvider
 
     init(viewModel: SignInSuccessViewModel, done: @escaping () -> Void) {
         self.viewModel = viewModel
@@ -97,8 +98,9 @@ struct SignInSuccessView: View {
                     NavigationLink(value: AccountEditViewModel(accountService: accountService,
                                                                accountCredentialStore: accountCredentialStore,
                                                                accountActivating: accountActivating,
-                                                               managedObjectContext: DataStackProvider.shared.foregroundManagedObjectContext,
+                                                               managedObjectContext: dataStackProvider.foregroundManagedObjectContext,
                                                                managedObjectId: viewModel.managedObjectId,
+                                                               dataStackProvider: dataStackProvider,
                                                                onDelete: {
                         assertionFailure("you cannot delete the account during account creation")
                     })) {
@@ -169,16 +171,17 @@ struct SignInSuccessView: View {
 
 import Mocks
 #Preview {
+    let dataStackProvider = DataStackProvider()
     let inMemoryContext: (NSManagedObjectID, NSManagedObjectContext) = {
-        DataStackProvider.shared.loadInMemory()
+        dataStackProvider.loadInMemory()
 
-        let account = try! DataStackProvider.shared.createAccount()
+        let account = try! dataStackProvider.createAccount()
         account.accountName = "account II"
         account.accountUserID = "12345"
         account.displayName = "Irma Vep 👩🏻‍🏫"
         account.activated = true
 
-        return (account.objectID, DataStackProvider.shared.foregroundManagedObjectContext)
+        return (account.objectID, dataStackProvider.foregroundManagedObjectContext)
     }()
     
     return SignInSuccessView(viewModel: SignInSuccessViewModel(account: AccountMock(), identifier: inMemoryContext.0)) {

@@ -40,7 +40,7 @@ enum AppState {
 class AppViewModel: ObservableObject {
 
     static var shared: AppViewModel = {
-        AppViewModel(debugCenter: DebugCenter(), appReviewService: AppReviewService(userDefaults: .suite), accountUpdater: AccountUpdater())
+        AppViewModel(debugCenter: DebugCenter(), appReviewService: AppReviewService(userDefaults: .suite))
     }()
 
     enum Tab {
@@ -52,17 +52,9 @@ class AppViewModel: ObservableObject {
         case settings
     }
 
-    init(debugCenter: DebugCenter, appReviewService: LibraryCore.AppReviewService, accountUpdater: AccountUpdating) {
+    init(debugCenter: DebugCenter, appReviewService: LibraryCore.AppReviewService) {
         self.debugCenter = debugCenter
         self.appReviewService = appReviewService
-        self.accountUpdater = accountUpdater
-
-        backendService = DatabaseConnectionFactory()
-            .databaseConnection(
-                for: DataStackProvider.shared.foregroundManagedObjectContext,
-                accountService: AccountScraper()
-        )
-        bookmarkService = BookmarkService(managedObjectContext: DataStackProvider.shared.foregroundManagedObjectContext)
     }
 
     func updateLaunchCount() {
@@ -73,7 +65,7 @@ class AppViewModel: ObservableObject {
 
     private let debugCenter: DebugCenter
     private let appReviewService: LibraryCore.AppReviewService
-    private let accountUpdater: AccountUpdating
+    private lazy var accountUpdater: AccountUpdating = AccountUpdater(dataStackProvider: dataStackProvider)
 
     @Published var route: Route?
     @Published var deeplinkLoanContainer: DeeplinkLoanContainer?
@@ -96,7 +88,7 @@ class AppViewModel: ObservableObject {
     @MainActor func refresh() async throws {
         guard lastRefreshIsOlderThan12Hours else { return state = .idle }
 
-        guard try await DataStackProvider.shared.activeAccounts(in: DataStackProvider.shared.foregroundManagedObjectContext).count > 0 else { return state = .idle }
+        guard try await dataStackProvider.activeAccounts(in: dataStackProvider.foregroundManagedObjectContext).count > 0 else { return state = .idle }
 
         state = .refreshing
 
@@ -123,48 +115,62 @@ class AppViewModel: ObservableObject {
 
     // MARK: Bookmarks
 
-    var bookmarksCoordinator = BookmarkListCoordinator(viewModel: BookmarkListViewModel())
+    @MainActor var bookmarksCoordinator = BookmarkListCoordinator(viewModel: BookmarkListViewModel())
 
-    let bookmarkService: BookmarkServicing
+    @MainActor lazy var bookmarkService: BookmarkServicing = BookmarkService(managedObjectContext: dataStackProvider.foregroundManagedObjectContext)
 
-    var bookmarksTitle: String = Localization.Titles.bookmarks
+    @MainActor var bookmarksTitle: String = Localization.Titles.bookmarks
 
-    var loansCoordinator = LoansSectionCoordinator(
+    lazy var widgetSynchronisation = WidgetSynchronisation(dataStackProvider: dataStackProvider)
+    @MainActor lazy var notificationSynchronisation = NotificationSynchronisation(scheduler: NotificationScheduler())
+    lazy var coreSpotlightSynchronisation = CoreSpotlightSynchronisation(dataStackProvider: dataStackProvider)
+
+    lazy var loansCoordinator = LoansSectionCoordinator(
         databaseFactory: DatabaseConnectionFactory(),
-        accountUpdater: AccountUpdater(),
+        accountUpdater: accountUpdater,
         dependencies: LoanSectionDependencies(
             accountService: AccountScraper()
         )
     )
     var loansTitle = Localization.Titles.loans
 
-    let backendService: LoanBackendServicing
+    lazy var backendService: LoanBackendServicing = DatabaseConnectionFactory()
+        .databaseConnection(
+            for: dataStackProvider.foregroundManagedObjectContext,
+            accountService: AccountScraper(),
+            dataStackProvider: dataStackProvider
+        )
 
-    var chargesCoordinator = ChargeListCoordinator(refreshable: RefreshHandler {
+    lazy var chargesCoordinator = ChargeListCoordinator(refreshable: RefreshHandler { [weak self] in
+
+        guard let self else { return }
+
         // TODO: unite the 2 update methods into one
         //        try await AccountUpdater().update(.manual(.now))
-        try await AccountUpdater().manualUpdate(at: Date())
+        try await self.accountUpdater.manualUpdate(in: self.dataStackProvider.backgroundManagedObjectContext, at: Date())
     })
 
     var chargesTitle: String = Localization.Titles.charges
 
     func createSearchCoordinator() -> SearchSectionCoordinator {
-        let container = DataStackProvider.shared.persistentContainer!
+        let container = dataStackProvider.persistentContainer!
         let libraryManagedObjectIdentifier = LibraryManager(persistentContainer: container).legacySearchLibrary
-        let libraryManagedObject = libraryManagedObjectIdentifier.map { DataStackProvider.shared.foregroundManagedObjectContext.object(with: $0) as? any  LibraryCore.Library
+        let libraryManagedObject = libraryManagedObjectIdentifier.map { dataStackProvider.foregroundManagedObjectContext.object(with: $0) as? any  LibraryCore.Library
         } ?? nil
 
         let name = libraryManagedObject?.name ?? "unknown"
         let subtitle = libraryManagedObject?.subtitle ?? ""
         let databaseConnection = DatabaseConnectionFactory().databaseConnection(
-            for: DataStackProvider.shared.foregroundManagedObjectContext,
-            accountService: AccountScraper()
+            for: dataStackProvider.foregroundManagedObjectContext,
+            accountService: AccountScraper(),
+            dataStackProvider: dataStackProvider
         ) as? DatabaseConnection
 
         let searchDependencies = SearchDependencies(
             databaseConnection: databaseConnection,
             searchProvider: SearchScraper(),
-            detailsProvider: SearchResultDetailScraper()
+            detailsProvider: SearchResultDetailScraper(),
+            dataStackProvider: dataStackProvider
         )
 
         return SearchSectionCoordinator(
@@ -179,23 +185,25 @@ class AppViewModel: ObservableObject {
         )
     }
 
-    var searchCoordinator: SearchSectionCoordinator? = {
-        guard let container = DataStackProvider.shared.persistentContainer else { return nil }
+    lazy var searchCoordinator: SearchSectionCoordinator? = {
+        guard let container = dataStackProvider.persistentContainer else { return nil }
         let libraryManagedObjectIdentifier = LibraryManager(persistentContainer: container).legacySearchLibrary
-        let libraryManagedObject = libraryManagedObjectIdentifier.map { DataStackProvider.shared.foregroundManagedObjectContext.object(with: $0) as? any  LibraryCore.Library
+        let libraryManagedObject = libraryManagedObjectIdentifier.map { dataStackProvider.foregroundManagedObjectContext.object(with: $0) as? any  LibraryCore.Library
         } ?? nil
 
         let name = libraryManagedObject?.name ?? "unknown"
         let subtitle = libraryManagedObject?.subtitle ?? ""
         let databaseConnection = DatabaseConnectionFactory().databaseConnection(
-            for: DataStackProvider.shared.foregroundManagedObjectContext,
-            accountService: AccountScraper()
+            for: dataStackProvider.foregroundManagedObjectContext,
+            accountService: AccountScraper(),
+            dataStackProvider: dataStackProvider
         ) as? DatabaseConnection
 
         let searchDependencies = SearchDependencies(
             databaseConnection: databaseConnection,
             searchProvider: SearchScraper(),
-            detailsProvider: SearchResultDetailScraper()
+            detailsProvider: SearchResultDetailScraper(),
+            dataStackProvider: dataStackProvider
         )
 
         return SearchSectionCoordinator(
@@ -214,32 +222,34 @@ class AppViewModel: ObservableObject {
 
     // MARK: More Section
 
-    @MainActor var moreCoordinator = {
+    @MainActor lazy var moreCoordinator = {
         let settingsService = SettingsService(
             notificationScheduler: NotificationScheduler(),
-            accountService: AccountRepository.shared, userDefaults: UserDefaults.suite)
+            accountService: accountRepository, userDefaults: UserDefaults.suite)
         let accountCredentialStore = AccountCredentialStore(keychainProvider: KeychainManager())
 
         return MoreSectionCoordinator(entries: [.accounts, .about, .settings(settingsService), .openSource])
     }()
 
-    @MainActor var settingsService: LibraryCore.SettingsService = SettingsService(
+    @MainActor lazy var settingsService: LibraryCore.SettingsService = SettingsService(
         notificationScheduler: NotificationScheduler(),
-        accountService: AccountRepository.shared, userDefaults: UserDefaults.suite)
+        accountService: accountRepository, userDefaults: UserDefaults.suite)
 
     var moreTitle: String = Localization.Titles.more
 
-    var localAccountRepository = {
-        LocalAccountRepository(context: DataStackProvider.shared.foregroundManagedObjectContext)
-    }()
+    lazy var localAccountRepository = LocalAccountRepository(context: dataStackProvider.foregroundManagedObjectContext)
 
-    lazy var loanService: LoanService = {
+    lazy var dataStackProvider: DataStackProviding = DataStackProvider()
+
+    @MainActor lazy var accountRepository = AccountRepository(dataStackProvider: dataStackProvider)
+
+    @MainActor lazy var loanService: LoanService = {
         BTLBLoanService(backendService: backendService, bookmarkService: bookmarkService)
     }()
 
     var accountCredentialStore = AccountCredentialStore(keychainProvider: KeychainManager())
 
     // TODO: kill the force! !
-    var libraryProvider: LibraryProvider = LibraryManager(persistentContainer: DataStackProvider.shared.persistentContainer!) as LibraryProvider
+    lazy var libraryProvider: LibraryProvider = LibraryManager(persistentContainer: dataStackProvider.persistentContainer!) as LibraryProvider
 
 }

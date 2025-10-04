@@ -14,7 +14,7 @@ import Libraries
 import Utilities
 import Persistence
 
-class AiRecommenderCoordinator: Coordinator {
+@MainActor class AiRecommenderCoordinator: @MainActor Coordinator {
     var router: Router?
 
     let recommender: RecommenderProtocol
@@ -25,7 +25,7 @@ class AiRecommenderCoordinator: Coordinator {
         self.bookmarks = bookmarks
     }
 
-    var contentView: some View {
+    @MainActor var contentView: some View {
         AiRecommenderView(viewModel: AiRecommenderViewModel(recommender, titles: bookmarks.compactMap { $0.bookmarkTitle }) { recommendation, bookRecommendation, coordinatorProvider in
 
             self.transition(to: coordinatorProvider.coordinator(for: .search(query: bookRecommendation.title)), style: .present(modalInPresentation: false))

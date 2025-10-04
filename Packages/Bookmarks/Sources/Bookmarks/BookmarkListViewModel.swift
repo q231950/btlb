@@ -12,7 +12,7 @@ import SwiftUI
 import ArchitectureX
 import LibraryCore
 
-public class BookmarkListViewModel: Bookmarks.BookmarkListViewModelProtocol {
+@MainActor public class BookmarkListViewModel: @MainActor Bookmarks.BookmarkListViewModelProtocol {
 
     @Published public var searchText: String = ""
     private var currentDetailCoordinator: (any Coordinator)?

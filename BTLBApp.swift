@@ -78,9 +78,10 @@ struct BTLBApp: App {
                 })
                 .onContinueUserActivity(CSSearchableItemActionType, perform: handleSpotlight)
                 .onOpenURL(perform: handleIncomingURL)
-                .environment(\.accountActivating, AccountUpdater())
-                .environment(\.accountUpdating, AccountUpdater())
-                .environment(\.managedObjectContext, DataStackProvider.shared.foregroundManagedObjectContext)
+                .environment(\.accountActivating, AccountUpdater(dataStackProvider: viewModel.dataStackProvider))
+                .environment(\.accountUpdating, AccountUpdater(dataStackProvider: viewModel.dataStackProvider))
+                .environment(\.managedObjectContext, viewModel.dataStackProvider.foregroundManagedObjectContext)
+                .environment(\.dataStackProvider, viewModel.dataStackProvider)
                 .environment(\.loanService, viewModel.loanService)
                 .environment(\.localAccountService, viewModel.localAccountRepository)
                 .environment(\.accountCredentialStore, viewModel.accountCredentialStore)
@@ -250,9 +251,9 @@ struct BTLBApp: App {
     func handleSpotlight(_ userActivity: NSUserActivity) {
         if let id = userActivity.userInfo?[CSSearchableItemActivityIdentifier] as? String {
             Task { @MainActor in
-                let context = DataStackProvider.shared.foregroundManagedObjectContext
+                let context = viewModel.dataStackProvider.foregroundManagedObjectContext
 
-                let loanManagedObjectId = try await DataStackProvider.shared.loan(for: id, in: context)
+                let loanManagedObjectId = try await viewModel.dataStackProvider.loan(for: id, in: context)
 
                 guard let loan = context.object(with: loanManagedObjectId) as? Persistence.Loan else { return }
 

@@ -7,6 +7,7 @@
 //
 
 import Combine
+import CoreData
 import Foundation
 import SwiftUI
 
@@ -34,9 +35,9 @@ class LoanListViewModel: LibraryCore.LoanListViewModel {
     }
 
     @MainActor
-    func refresh() async throws {
+    func refresh(in context: NSManagedObjectContext) async throws {
         do {
-            let updateResult = try await accountUpdater.manualUpdate(in: DataStackProvider.shared.foregroundManagedObjectContext, at: .now)
+            let updateResult = try await accountUpdater.manualUpdate(in: context, at: .now)
             errors = updateResult.errors
             isShowingErrors = updateResult.errors.isEmpty == false
         } catch(let error as PaperErrorInternal) {
