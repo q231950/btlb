@@ -33,6 +33,18 @@
             "state" : "translated",
             "value" : "Тут будуть відображені деталі обраної видачі."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Los detalles del préstamo seleccionado se mostrarán aquí."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçilen ödüncün detayları burada gösterilecektir."
+          }
         }
       }
     },
@@ -69,6 +81,18 @@
             "state" : "translated",
             "value" : "Дії"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acciones"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eylemler"
+          }
         }
       }
     },
@@ -103,6 +127,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Додати\nзакладку"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir\nmarcador"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yer işareti\nekle"
           }
         }
       }
@@ -139,6 +175,18 @@
             "state" : "translated",
             "value" : "видачі"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "préstamos"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ödünç"
+          }
         }
       }
     },
@@ -174,6 +222,18 @@
             "state" : "translated",
             "value" : "Закладка"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marcador"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yer İşareti"
+          }
         }
       }
     },
@@ -208,6 +268,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скасувати"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İptal"
           }
         }
       }
@@ -245,6 +317,18 @@
             "state" : "translated",
             "value" : "Надіслати електронною поштою до..."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar por email a..."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-posta ile gönder..."
+          }
         }
       }
     },
@@ -280,6 +364,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Електронний лист до %1$@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email a %1$@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ adresine e-posta"
           }
         }
       }
@@ -317,6 +413,18 @@
             "state" : "translated",
             "value" : "%2$@ прострочено з %2$@. Поверніть цей примірник якомога швидше."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ está vencido desde %2$@. Devuelva este elemento tan pronto como sea posible."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ %2$@ tarihinden beri süresi dolmuş. Bu öğeyi en kısa sürede iade edin."
+          }
         }
       }
     },
@@ -351,6 +459,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Прострочено з"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vencido desde"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Süresi doldu"
           }
         }
       }
@@ -388,6 +508,18 @@
             "state" : "translated",
             "value" : "Видача"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Préstamo"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ödünç"
+          }
         }
       }
     },
@@ -422,6 +554,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "видано"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "prestado"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ödünç alınmış"
           }
         }
       }
@@ -459,6 +603,18 @@
             "state" : "translated",
             "value" : "ще не видано"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aún no prestado"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "henüz ödünç alınmamış"
+          }
         }
       }
     },
@@ -494,6 +650,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Помилка продовження. \"%1$@\" вже прострочено"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intento de renovación fallido. \"%1$@\" ya ha expirado"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uzatma denemesi başarısız. \"%1$@\" zaten süresi dolmuş"
           }
         }
       }
@@ -531,6 +699,18 @@
             "state" : "translated",
             "value" : "Запізно"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muy tarde"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çok geç"
+          }
         }
       }
     },
@@ -566,6 +746,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Для продовження видачі потрібне інтернет-з'єднання"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se requiere una conexión a internet para renovar un préstamo"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ödünç süresini uzatmak için internet bağlantısı gereklidir"
           }
         }
       }
@@ -603,6 +795,18 @@
             "state" : "translated",
             "value" : "Немає з'єднання"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin conexión"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlantı Yok"
+          }
         }
       }
     },
@@ -638,6 +842,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "готово до отримання"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "listo para recogida"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teslim alınabilir"
           }
         }
       }
@@ -675,6 +891,18 @@
             "state" : "translated",
             "value" : "будь ласка, отримайте примірник"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "por favor recoja el ítem"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lütfen öğeyi teslim alın"
+          }
         }
       }
     },
@@ -709,6 +937,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Видачі"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Préstamos"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ödünçler"
           }
         }
       }
@@ -745,6 +985,18 @@
             "state" : "translated",
             "value" : "Немає видач"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin préstamos"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ödünç Yok"
+          }
         }
       }
     },
@@ -779,6 +1031,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "немає"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ninguno"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hiçbiri"
           }
         }
       }
@@ -815,6 +1079,18 @@
             "state" : "translated",
             "value" : "Цей примірник не можна продовжити, оскільки він ще не був виданий. Отримайте його в бібліотеці."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este ítem no puede ser renovado ya que aún no ha sido prestado. Retírelo de la biblioteca."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu öğe henüz ödünç alınmadığı için süresi uzatılamaz. Kütüphaneden alın."
+          }
         }
       }
     },
@@ -850,6 +1126,18 @@
             "state" : "translated",
             "value" : "Неможливо продовжити"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se puede renovar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uzatılamaz"
+          }
         }
       }
     },
@@ -884,6 +1172,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ви ще не налаштували жодного облікового запису. Немає нічого для відображення. Будь ласка, налаштуйте новий обліковий запис у відображенні облікових записів."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No ha configurado ninguna cuenta. No hay nada que mostrar. Por favor configure una nueva cuenta en la vista de cuentas."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz hiçbir hesap ayarlamadınız. Gösterilecek bir şey yok. Lütfen hesaplar görünümünde yeni bir hesap ayarlayın."
           }
         }
       }
@@ -921,6 +1221,18 @@
             "state" : "translated",
             "value" : "Опублікувати у Facebook"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Publicar en Facebook"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Facebook'ta Paylaş"
+          }
         }
       }
     },
@@ -956,6 +1268,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Помилка продовження"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al renovar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uzatma başarısız"
           }
         }
       }
@@ -993,6 +1317,18 @@
             "state" : "translated",
             "value" : "Продовження \"%1$@\" не вдалося."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La renovación de \"%1$@\" ha fallado."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"%1$@\" uzatma işlemi başarısız oldu."
+          }
         }
       }
     },
@@ -1028,6 +1364,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Продовжити цю видачу"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renovar este préstamo"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu ödüncü uzat"
           }
         }
       }
@@ -1065,6 +1413,18 @@
             "state" : "translated",
             "value" : "Продовжено"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renovado"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uzatıldı"
+          }
         }
       }
     },
@@ -1100,6 +1460,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ було успішно продовжено. Будь ласка, оновіть ваш обліковий запис, щоб застосувати зміни до видачі."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ha sido renovado exitosamente. Por favor actualice su cuenta para aplicar los cambios al préstamo."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ başarıyla uzatıldı. Değişiklikleri ödünce uygulamak için lütfen hesabınızı güncelleyin."
           }
         }
       }
@@ -1137,6 +1509,18 @@
             "state" : "translated",
             "value" : "Оцінити"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calificar esto"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bunu oyla"
+          }
         }
       }
     },
@@ -1172,6 +1556,18 @@
             "state" : "translated",
             "value" : "Видалити\nзакладку"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar\nmarcador"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yer işaretini\nkaldır"
+          }
         }
       }
     },
@@ -1206,6 +1602,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Видалити закладку"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar marcador"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yer işaretini kaldır"
           }
         }
       }

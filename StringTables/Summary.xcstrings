@@ -17,6 +17,12 @@
             "value" : "Number of active Accounts"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Número de cuentas activas"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27,6 +33,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Количество активных аккаунтов"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktif hesap sayısı"
           }
         },
         "uk" : {
@@ -53,6 +65,12 @@
             "value" : "Number of Accounts"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Número de cuentas"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -63,6 +81,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Количество аккаунтов"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hesap sayısı"
           }
         },
         "uk" : {
@@ -89,6 +113,12 @@
             "value" : "Number of inactive Accounts"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Número de cuentas inactivas"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -99,6 +129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Количество неактивных аккаунтов"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasif hesap sayısı"
           }
         },
         "uk" : {
@@ -125,6 +161,12 @@
             "value" : "Activate your account in the accounts view"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activa tu cuenta en la vista de cuentas"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -135,6 +177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Активируйте ваш аккаунт в просмотре аккаунтов"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hesabınızı hesaplar görünümünde etkinleştirin"
           }
         },
         "uk" : {
@@ -161,6 +209,12 @@
             "value" : "Activate an account in the accounts view"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activa una cuenta en la vista de cuentas"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -171,6 +225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Активируйте аккаунт в просмотре аккаунтов"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hesaplar görünümünde bir hesabı etkinleştirin"
           }
         },
         "uk" : {
@@ -197,6 +257,12 @@
             "value" : "Sum of all Charges"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suma de todos los cargos"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -207,6 +273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сумма всех платежей"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm ücretlerin toplamı"
           }
         },
         "uk" : {
@@ -233,6 +305,12 @@
             "value" : "Most recent update on %@"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Última actualización el %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -243,6 +321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Последнее обновление %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son güncelleme %@"
           }
         },
         "uk" : {
@@ -269,6 +353,12 @@
             "value" : "Number of Loans"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Número de préstamos"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -279,6 +369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Количество выдач"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ödünç alma sayısı"
           }
         },
         "uk" : {
@@ -305,6 +401,12 @@
             "value" : "Number of expired Loans"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Número de préstamos vencidos"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -315,6 +417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Количество просроченных выдач"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Süresi geçmiş ödünç alma sayısı"
           }
         },
         "uk" : {
@@ -341,6 +449,12 @@
             "value" : "Loans ready for collection"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Préstamos listos para recoger"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -351,6 +465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выдачи готовы к получению"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teslim alınmaya hazır ödünçler"
           }
         },
         "uk" : {
@@ -377,6 +497,12 @@
             "value" : "You have not set up an account yet"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no has configurado una cuenta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -387,6 +513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вы еще не настроили аккаунт"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz bir hesap oluşturmadınız"
           }
         },
         "uk" : {
@@ -413,6 +545,12 @@
             "value" : "No charges on any active account"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin cargos en ninguna cuenta activa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -423,6 +561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нет платежей ни на одном активном аккаунте"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiçbir aktif hesapta ücret yok"
           }
         },
         "uk" : {
@@ -449,6 +593,12 @@
             "value" : "none"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ninguno"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -459,6 +609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "нет"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yok"
           }
         },
         "uk" : {
@@ -483,6 +639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "none"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ninguno"
           }
         },
         "fr" : {
@@ -521,6 +683,12 @@
             "value" : "Set up an account in the accounts view"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configura una cuenta en la vista de cuentas"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -531,6 +699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройте аккаунт в просмотре аккаунтов"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hesaplar görünümünde bir hesap oluşturun"
           }
         },
         "uk" : {
@@ -557,6 +731,12 @@
             "value" : "Summary"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resumen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -567,6 +747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сводка"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özet"
           }
         },
         "uk" : {

@@ -16,6 +16,12 @@
             "value" : "Content"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contenido"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26,6 +32,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Содержание"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İçerik"
           }
         },
         "uk" : {
@@ -51,6 +63,12 @@
             "value" : "Unable to get details"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudieron obtener los detalles"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -61,6 +79,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось получить подробности"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayrıntılar alınamadı"
           }
         },
         "uk" : {
@@ -86,6 +110,12 @@
             "value" : "Unable to get search result details."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudieron obtener los detalles del resultado de búsqueda."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -96,6 +126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось получить подробности результата поиска."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arama sonucu ayrıntıları alınamadı."
           }
         },
         "uk" : {
@@ -121,6 +157,12 @@
             "value" : "Done"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listo"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -131,6 +173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Готово"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamam"
           }
         },
         "uk" : {
@@ -156,6 +204,12 @@
             "value" : "available"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "disponible"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -166,6 +220,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "доступно"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mevcut"
           }
         },
         "uk" : {
@@ -191,6 +251,12 @@
             "value" : "not available"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "no disponible"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -201,6 +267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "недоступно"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mevcut değil"
           }
         },
         "uk" : {
@@ -226,6 +298,12 @@
             "value" : "loading..."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cargando..."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -236,6 +314,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "загрузка..."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yükleniyor..."
           }
         },
         "uk" : {
@@ -261,6 +345,12 @@
             "value" : "Info: "
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info: "
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -271,6 +361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Инфо: "
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilgi: "
           }
         },
         "uk" : {
@@ -296,6 +392,12 @@
             "value" : "Location "
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubicación "
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -306,6 +408,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Местоположение "
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konum "
           }
         },
         "uk" : {
@@ -331,6 +439,12 @@
             "value" : "Locations"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubicaciones"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -343,39 +457,10 @@
             "value" : "Местоположения"
           }
         },
-        "uk" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Місцезнаходження"
-          }
-        }
-      }
-    },
-    "location_section_header_title_single" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Standort"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Location"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Emplacement"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Местоположение"
+            "value" : "Konumlar"
           }
         },
         "uk" : {
@@ -401,6 +486,12 @@
             "value" : "Location: "
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubicación: "
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -411,6 +502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Местоположение: "
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konum: "
           }
         },
         "uk" : {
@@ -436,6 +533,12 @@
             "value" : "No Library selected"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se ha seleccionado biblioteca"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -446,6 +549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Библиотека не выбрана"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiçbir kütüphane seçilmedi"
           }
         },
         "uk" : {
@@ -471,6 +580,12 @@
             "value" : "Open in web view"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir en vista web"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -481,6 +596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открыть в веб-просмотре"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Web görünümünde aç"
           }
         },
         "uk" : {
@@ -506,6 +627,12 @@
             "value" : "Online resource"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recurso en línea"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -516,6 +643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Онлайн-ресурс"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online kaynak"
           }
         },
         "uk" : {
@@ -541,6 +674,12 @@
             "value" : "Please choose a library and search again."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por favor, selecciona una biblioteca y busca de nuevo."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -551,6 +690,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пожалуйста, выберите библиотеку и повторите поиск."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen bir kütüphane seçin ve tekrar arayın."
           }
         },
         "uk" : {
@@ -576,6 +721,12 @@
             "value" : "Retrieving additional results"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obteniendo resultados adicionales"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -586,6 +737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Получение дополнительных результатов"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ek sonuçlar alınıyor"
           }
         },
         "uk" : {
@@ -611,6 +768,12 @@
             "value" : "Search string too short"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Término de búsqueda demasiado corto"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -621,6 +784,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поисковый запрос слишком короткий"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arama metni çok kısa"
           }
         },
         "uk" : {
@@ -646,6 +815,12 @@
             "value" : "Search will not search for the string you entered. Please enter at least 3 characters."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La búsqueda no buscará el término ingresado. Por favor, ingresa al menos 3 caracteres."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -656,6 +831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поиск не будет выполнен для введенной строки. Пожалуйста, введите не менее 3 символов."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Girdiğiniz metin için arama yapılmayacak. Lütfen en az 3 karakter girin."
           }
         },
         "uk" : {
@@ -681,6 +862,12 @@
             "value" : "Search failed"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Búsqueda fallida"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -691,6 +878,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поиск не удался"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arama başarısız"
           }
         },
         "uk" : {
@@ -716,6 +909,12 @@
             "value" : "Please make sure you are connected and try again."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por favor, asegúrate de estar conectado e inténtalo de nuevo."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -726,6 +925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пожалуйста, проверьте соединение и попробуйте снова."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen bağlantınızı kontrol edin ve tekrar deneyin."
           }
         },
         "uk" : {
@@ -751,6 +956,12 @@
             "value" : "searching..."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "buscando..."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -761,6 +972,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "поиск..."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aranıyor..."
           }
         },
         "uk" : {
@@ -786,6 +1003,12 @@
             "value" : "select a library"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "seleccionar una biblioteca"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -796,6 +1019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "выбрать библиотеку"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bir kütüphane seç"
           }
         },
         "uk" : {
@@ -821,6 +1050,12 @@
             "value" : "Shelfmark: "
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signatura: "
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -831,6 +1066,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Шифр хранения: "
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raf işareti: "
           }
         },
         "uk" : {
@@ -856,6 +1097,12 @@
             "value" : "Library"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biblioteca"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -866,6 +1113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Библиотека"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kütüphane"
           }
         },
         "uk" : {

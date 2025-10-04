@@ -28,10 +28,22 @@
             "value" : "Аккаунты"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuentas"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Облікові записи"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hesaplar"
           }
         }
       }
@@ -63,10 +75,22 @@
             "value" : "Платежи"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargos"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Платежі"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ücretler"
           }
         }
       }
@@ -98,10 +122,22 @@
             "value" : "Закладки"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marcadores"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закладки"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yer İşaretleri"
           }
         }
       }
@@ -133,10 +169,22 @@
             "value" : "Выдачи"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Préstamos"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Видачі"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ödünçler"
           }
         }
       }
@@ -168,10 +216,22 @@
             "value" : "Еще"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Більше"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha Fazla"
           }
         }
       }
@@ -203,10 +263,22 @@
             "value" : "Поиск"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пошук"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arama"
           }
         }
       }
@@ -239,10 +311,22 @@
             "value" : "Сводка"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resumen"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Огляд"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özet"
           }
         }
       }

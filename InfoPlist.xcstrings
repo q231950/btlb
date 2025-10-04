@@ -15,6 +15,12 @@
             "value" : "bit lib"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25,6 +31,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "бит либ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
           }
         },
         "uk" : {
@@ -49,6 +61,12 @@
             "value" : "bit lib"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59,6 +77,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "бит либ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
           }
         },
         "uk" : {
@@ -83,6 +107,12 @@
             "value" : "lib"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lib"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -93,6 +123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "либ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lib"
           }
         },
         "uk" : {
@@ -117,6 +153,12 @@
             "value" : "bitlib"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bitlib"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -127,6 +169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "битлиб"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bitlib"
           }
         },
         "uk" : {
@@ -151,6 +199,12 @@
             "value" : "bit lib"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -161,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "бит либ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
           }
         },
         "uk" : {
@@ -185,6 +245,12 @@
             "value" : "lib"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lib"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -195,6 +261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "биб"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lib"
           }
         },
         "uk" : {
@@ -259,6 +331,12 @@
             "value" : "bit lib"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -269,6 +347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "бит либ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
           }
         },
         "uk" : {
@@ -297,6 +381,18 @@
         }
       },
       "shouldTranslate" : false
+    },
+    "NSSiriUsageDescription" : {
+      "comment" : "Privacy - Siri Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Use BTLB in Spotlight."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

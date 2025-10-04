@@ -31,6 +31,12 @@
             "value" : "An error occurred!"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Ha ocurrido un error!"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41,6 +47,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Произошла ошибка!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir hata oluştu!"
           }
         },
         "uk" : {
@@ -65,6 +77,12 @@
             "value" : "Alright"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entendido"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -75,6 +93,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Понятно"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anlaşıldı"
           }
         },
         "uk" : {
@@ -99,6 +123,12 @@
             "value" : "Errors have occurred!"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Han ocurrido varios errores!"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -109,6 +139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Произошли ошибки!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Birden fazla hata oluştu!"
           }
         },
         "uk" : {
@@ -133,6 +169,12 @@
             "value" : "The network request has failed."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La solicitud de red ha fallado."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -143,6 +185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сетевой запрос не выполнен."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ağ isteği başarısız oldu."
           }
         },
         "uk" : {
@@ -167,6 +215,12 @@
             "value" : "The requested functionality is not yet implemented for the library system of the account with the username “%@“."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La funcionalidad solicitada aún no está implementada para el sistema de biblioteca de la cuenta con el nombre de usuario “%@“."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -183,6 +237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Запитувана функціональність ще не реалізована для бібліотечної системи облікового запису з іменем користувача “%@“."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İstenen işlevsellik, “%@” kullanıcı adına sahip hesabın kütüphane sistemi için henüz uygulanmamıştır."
           }
         }
       }

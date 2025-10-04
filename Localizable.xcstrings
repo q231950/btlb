@@ -1,1255 +1,1260 @@
 {
-  "sourceLanguage": "en",
-  "strings": {
-    "%@": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
-          }
-        }
-      }
-    },
-    "%@: available": {
-      "comment": "An item is available in a given library",
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: verfügbar"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: available"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: disponible"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: доступно"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: доступно"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
           }
         }
       }
     },
-    "%@: not available": {
-      "comment": "An item is not available in a given library",
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: nicht verfügbar"
+    "%@: available" : {
+      "comment" : "An item is available in a given library",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: verfügbar"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: not available"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: available"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: non disponible"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: disponible"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: недоступно"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: доступно"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: недоступно"
-          }
-        }
-      }
-    },
-    "%@: unknown availability": {
-      "comment": "Information about availability of an item in the given library is not available",
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: Verfügbarkeit unbekannt"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: unknown availability"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: disponibilité inconnue"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: доступность неизвестна"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@: доступність невідома"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: доступно"
           }
         }
       }
     },
-    "Availabilities": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verfügbarkeit"
+    "%@: not available" : {
+      "comment" : "An item is not available in a given library",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: nicht verfügbar"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Availabilities"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: not available"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Disponibilités"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: non disponible"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Доступность"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: недоступно"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Доступність"
-          }
-        }
-      }
-    },
-    "Debug Info": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Debug Informationen"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Debug Info"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Informations de débogage"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Отладочная информация"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Налагоджувальна інформація"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: недоступно"
           }
         }
       }
     },
-    "intent entity item display representation subtitle %@": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Leihfrist: %@"
+    "%@: unknown availability" : {
+      "comment" : "Information about availability of an item in the given library is not available",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: Verfügbarkeit unbekannt"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Due Date: %@"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: unknown availability"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Date de retour: %@"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: disponibilité inconnue"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Срок возврата: %@"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: доступность неизвестна"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Термін повернення: %@"
-          }
-        }
-      }
-    },
-    "intent entity item display representation title %@": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: доступність невідома"
           }
         }
       }
     },
-    "items to renew": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wähle zu verlängernde Entleihungen aus"
+    "Availabilities" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verfügbarkeit"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Select Renewable Items"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Availabilities"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sélectionner les éléments à renouveler"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponibilités"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Выберите материалы для продления"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступность"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Оберіть примірники для продовження"
-          }
-        }
-      }
-    },
-    "items to renew description": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Die ausgewählten Entleihungen werden verlängert"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The selected items will be renewed."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Les éléments sélectionnés seront renouvelés."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Выбранные материалы будут продлены."
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Обрані примірники будуть продовжені."
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступність"
           }
         }
       }
     },
-    "Ok": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ok"
+    "Debug Info" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debug Informationen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ok"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debug Info"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ok"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informations de débogage"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ок"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отладочная информация"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Гаразд"
-          }
-        }
-      }
-    },
-    "open search shortcut title": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suchen"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rechercher"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Поиск"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пошук"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налагоджувальна інформація"
           }
         }
       }
     },
-    "Perform Search": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suchen"
+    "intent entity item display representation subtitle %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leihfrist: %@"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Due Date: %@"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Effectuer une recherche"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date de retour: %@"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Поиск"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Срок возврата: %@"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Виконати пошук"
-          }
-        }
-      }
-    },
-    "perform search intent category name": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suchen"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rechercher"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Поиск"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пошук"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Термін повернення: %@"
           }
         }
       }
     },
-    "perform search intent description": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Führe eine Suche aus."
+    "intent entity item display representation title %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Perform a text search."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Effectuer une recherche textuelle."
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Выполнить текстовый поиск."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Виконати текстовий пошук."
-          }
-        }
-      }
-    },
-    "perform search intent search keyword 1": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suche"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Recherche"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Поиск"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пошук"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
           }
         }
       }
     },
-    "Refresh Error": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fehler"
+    "items to renew" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle zu verlängernde Entleihungen aus"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Renewable Items"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Erreur"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionner les éléments à renouveler"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ошибка"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите материалы для продления"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Помилка"
-          }
-        }
-      }
-    },
-    "Refresh failed. Please try again later.": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Die Aktualisierung ist fehlgeschlagen. Versuche es bitte später erneut."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Refresh failed. Please try again later."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "L'actualisation a échoué. Veuillez réessayer plus tard."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Обновление не удалось. Пожалуйста, попробуйте позже."
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Оновлення не вдалося. Будь ласка, спробуйте пізніше."
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оберіть примірники для продовження"
           }
         }
       }
     },
-    "renew intent category name": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bibliothek"
+    "items to renew description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die ausgewählten Entleihungen werden verlängert"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Library"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The selected items will be renewed."
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bibliothèque"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les éléments sélectionnés seront renouvelés."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Библиотека"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбранные материалы будут продлены."
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Бібліотека"
-          }
-        }
-      }
-    },
-    "renew intent description": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wähle Entleihungen aus und verlängere sie."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Renew selected items from your list of loaned items."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Renouveler les éléments sélectionnés de votre liste d'emprunts."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Продлить выбранные материалы из списка выдач."
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Продовжити обрані примірники зі списку випозичених матеріалів."
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обрані примірники будуть продовжені."
           }
         }
       }
     },
-    "renew intent parameter summary": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Entleihungen Auswählen"
+    "Ok" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Select Items"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sélectionner les éléments"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Выбрать материалы"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ок"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Обрати примірники"
-          }
-        }
-      }
-    },
-    "renew intent search keyword book": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Buch"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "book"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "livre"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "книга"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "книга"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гаразд"
           }
         }
       }
     },
-    "renew intent search keyword library": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bibliothek"
+    "open search shortcut title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suchen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "library"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "bibliothèque"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "библиотека"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "бібліотека"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук"
           }
         }
       }
     },
-    "renew intent search keyword media": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medien"
+    "Perform Search" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suchen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "media"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "médias"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effectuer une recherche"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "медиа"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "медіа"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виконати пошук"
           }
         }
       }
     },
-    "renew intent search keyword prolong": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verlängern"
+    "perform search intent category name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suchen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "prolong"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "prolonger"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "продлить"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "продовжити"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук"
           }
         }
       }
     },
-    "renew intent search keyword renew": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verlängerung"
+    "perform search intent description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Führe eine Suche aus."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "renew"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perform a text search."
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "renouveler"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effectuer une recherche textuelle."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "продление"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выполнить текстовый поиск."
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "продовження"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виконати текстовий пошук."
           }
         }
       }
     },
-    "renew intent title": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verlängern"
+    "perform search intent search keyword 1" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Renewal"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Renouvellement"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recherche"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Продление"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Продовження"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук"
           }
         }
       }
     },
-    "renew shortcut title": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medien verlängern"
+    "Refresh Error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Renew Items"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Renouveler les éléments"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Продлить материалы"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Продовжити примірники"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помилка"
           }
         }
       }
     },
-    "Renew with bɪtlɪb": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verlängere mit bɪtlɪb"
+    "Refresh failed. Please try again later." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Aktualisierung ist fehlgeschlagen. Versuche es bitte später erneut."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Renew with bɪtlɪb"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refresh failed. Please try again later."
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Renouveler avec bɪtlɪb"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'actualisation a échoué. Veuillez réessayer plus tard."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Продлить с bɪtlɪb"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновление не удалось. Пожалуйста, попробуйте позже."
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Продовжити з bɪtlɪb"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновлення не вдалося. Будь ласка, спробуйте пізніше."
           }
         }
       }
     },
-    "Search": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suchen"
+    "renew intent category name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothek"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Library"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rechercher"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothèque"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Поиск"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Библиотека"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пошук"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотека"
           }
         }
       }
     },
-    "Search BTLB": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suche in BTLB"
+    "renew intent description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle Entleihungen aus und verlängere sie."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search BTLB"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renew selected items from your list of loaned items."
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rechercher dans BTLB"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renouveler les éléments sélectionnés de votre liste d'emprunts."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Поиск в BTLB"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продлить выбранные материалы из списка выдач."
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пошук у BTLB"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжити обрані примірники зі списку випозичених матеріалів."
           }
         }
       }
     },
-    "search intent entity item display representation subtitle": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Führe ein Textsuche aus."
+    "renew intent parameter summary" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entleihungen Auswählen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enter a search term and perform a search."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Items"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Entrez un terme de recherche et effectuez une recherche."
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionner les éléments"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Введите поисковый запрос и выполните поиск."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать материалы"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Введіть пошуковий запит і виконайте пошук."
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обрати примірники"
           }
         }
       }
     },
-    "search intent entity item display representation title %@": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suche nach “%@”"
+    "renew intent search keyword book" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buch"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search for ‘%@’"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "book"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rechercher '%@'"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "livre"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "книга"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пошук за запитом '%@'"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "книга"
           }
         }
       }
     },
-    "Search Term": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suchbegriff"
+    "renew intent search keyword library" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothek"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search Term"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "library"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terme de recherche"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bibliothèque"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Поисковый термин"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "библиотека"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пошуковий запит"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "бібліотека"
           }
         }
       }
     },
-    "Search with bɪtlɪb": {
-      "extractionState": "manual",
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suche mit bɪtlɪb"
+    "renew intent search keyword media" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medien"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search with bɪtlɪb"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "media"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rechercher avec bɪtlɪb"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "médias"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Поиск с помощью bɪtlɪb"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "медиа"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пошук з bɪtlɪb"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "медіа"
           }
         }
       }
     },
-    "the term to search for": {
-      "localizations": {
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Der Text nach welchem gesucht werden soll."
+    "renew intent search keyword prolong" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlängern"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The term to search for."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "prolong"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Le terme à rechercher."
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "prolonger"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "термин для поиска"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "продлить"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Термін для пошуку."
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "продовжити"
+          }
+        }
+      }
+    },
+    "renew intent search keyword renew" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlängerung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "renew"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "renouveler"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "продление"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "продовження"
+          }
+        }
+      }
+    },
+    "renew intent title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlängern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renewal"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renouvellement"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продление"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовження"
+          }
+        }
+      }
+    },
+    "Renew items" : {
+      "comment" : "Shortcut title for renewing items.",
+      "isCommentAutoGenerated" : true
+    },
+    "renew shortcut title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medien verlängern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renew Items"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renouveler les éléments"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продлить материалы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжити примірники"
+          }
+        }
+      }
+    },
+    "Renew with bɪtlɪb" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlängere mit bɪtlɪb"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renew with bɪtlɪb"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renouveler avec bɪtlɪb"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продлить с bɪtlɪb"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжити з bɪtlɪb"
+          }
+        }
+      }
+    },
+    "Search" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suchen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук"
+          }
+        }
+      }
+    },
+    "Search BTLB" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche in BTLB"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search BTLB"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher dans BTLB"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск в BTLB"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук у BTLB"
+          }
+        }
+      }
+    },
+    "search intent entity item display representation subtitle" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Führe ein Textsuche aus."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a search term and perform a search."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrez un terme de recherche et effectuez une recherche."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите поисковый запрос и выполните поиск."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введіть пошуковий запит і виконайте пошук."
+          }
+        }
+      }
+    },
+    "search intent entity item display representation title %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche nach “%@”"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search for ‘%@’"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher '%@'"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук за запитом '%@'"
+          }
+        }
+      }
+    },
+    "Search Term" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suchbegriff"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search Term"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terme de recherche"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поисковый термин"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошуковий запит"
+          }
+        }
+      }
+    },
+    "Search with bɪtlɪb" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche mit bɪtlɪb"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search with bɪtlɪb"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher avec bɪtlɪb"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск с помощью bɪtlɪb"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук з bɪtlɪb"
+          }
+        }
+      }
+    },
+    "the term to search for" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Text nach welchem gesucht werden soll."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The term to search for."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le terme à rechercher."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "термин для поиска"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Термін для пошуку."
           }
         }
       }
     }
   },
-  "version": "1.0"
+  "version" : "1.1"
 }

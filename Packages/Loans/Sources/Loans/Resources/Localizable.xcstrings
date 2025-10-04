@@ -15,6 +15,12 @@
             "value" : "%1$@ - %2$@"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ - %2$@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22,6 +28,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ - %2$@"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ - %2$@"
@@ -50,6 +62,12 @@
             "value" : "Items"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elementos"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -60,6 +78,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Элементы"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öğeler"
           }
         },
         "uk" : {
@@ -78,6 +102,12 @@
             "value" : "Fertig"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hecho"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -88,6 +118,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Готово"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamamlandı"
           }
         },
         "uk" : {
@@ -113,6 +149,12 @@
             "value" : "This item is locked by preorder!"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Este elemento está bloqueado por reserva previa!"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -123,6 +165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Этот элемент заблокирован предзаказом!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu öğe ön sipariş tarafından kilitlenmiş!"
           }
         },
         "uk" : {
@@ -148,6 +196,12 @@
             "value" : "No one has preordered this item."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nadie ha reservado este elemento previamente."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -158,6 +212,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Никто не заказывал этот элемент заранее."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu öğeyi kimse önceden sipariş etmemiş."
           }
         },
         "uk" : {
@@ -182,6 +242,12 @@
             "value" : "Cancel"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -192,6 +258,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отменить"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İptal"
           }
         },
         "uk" : {
@@ -216,6 +288,12 @@
             "value" : "Renew"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renovar"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -226,6 +304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Продлить"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenile"
           }
         },
         "uk" : {
@@ -250,6 +334,12 @@
             "value" : "Would you like to renew this item?"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Te gustaría renovar este elemento?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -260,6 +350,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Хотите ли вы продлить этот элемент?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu öğeyi yenilemek ister misiniz?"
           }
         },
         "uk" : {

@@ -33,11 +33,22 @@
             "state" : "translated",
             "value" : "Тут будуть відображені деталі обраної закладки."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Los detalles del marcador seleccionado se mostrarán aquí."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçilen yer işaretinin detayları burada gösterilecektir."
+          }
         }
       }
     },
     "Bookmarks" : {
-      "comment" : "Favourites.strings\n  EDsync\n\n  Created by Martin Kim Dung-Pham on 2/21/11.\n  Copyright 2011 neoneon. All rights reserved.",
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
@@ -68,6 +79,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закладки"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marcadores"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yer İşaretleri"
           }
         }
       }
@@ -104,6 +127,18 @@
             "state" : "translated",
             "value" : "Видача"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Préstamo"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ödünç"
+          }
         }
       }
     },
@@ -139,6 +174,18 @@
             "state" : "translated",
             "value" : "Пошук"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Búsqueda"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arama"
+          }
         }
       }
     },
@@ -173,6 +220,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Немає закладок"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin marcadores"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yer İşareti Yok"
           }
         }
       }

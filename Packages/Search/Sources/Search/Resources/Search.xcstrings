@@ -28,10 +28,22 @@
             "value" : "%@: доступно"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: disponible"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: доступно"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: mevcut"
           }
         }
       }
@@ -63,10 +75,22 @@
             "value" : "%@: недоступно"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: no disponible"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: недоступно"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: mevcut değil"
           }
         }
       }
@@ -98,10 +122,22 @@
             "value" : "%@: доступность неизвестна"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: disponibilidad desconocida"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: доступність невідома"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: bilinmeyen durum"
           }
         }
       }
@@ -133,10 +169,22 @@
             "value" : "Здесь будут отображены детали выбранного результата поиска."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Los detalles del resultado de búsqueda seleccionado se mostrarán aquí."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тут будуть відображені деталі обраного результату пошуку."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçilen arama sonucunun detayları burada görüntülenecek."
           }
         }
       }
@@ -168,10 +216,22 @@
             "value" : "добавить"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "agregar"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "додати"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ekle"
           }
         }
       }
@@ -203,10 +263,22 @@
             "value" : "Дата поступления"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fecha de adquisición"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Дата надходження"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satın alma tarihi"
           }
         }
       }
@@ -238,10 +310,22 @@
             "value" : "Классификация"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clasificación"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Класифікація"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınıflandırma"
           }
         }
       }
@@ -273,10 +357,22 @@
             "value" : "Примечания"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anotaciones"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Примітки"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notlar"
           }
         }
       }
@@ -308,10 +404,22 @@
             "value" : "Номер"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Número"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Номер"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sayı"
           }
         }
       }
@@ -343,10 +451,22 @@
             "value" : "Печать/Распространение"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impresión/Distribución"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Друк/Розповсюдження"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basım/Dağıtım"
           }
         }
       }
@@ -378,10 +498,22 @@
             "value" : "Опубликовано"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Publicado"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Опубліковано"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yayınlandı"
           }
         }
       }
@@ -413,10 +545,22 @@
             "value" : "Содержание"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contenido"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Зміст"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İçerik"
           }
         }
       }
@@ -448,7 +592,19 @@
             "value" : "ISBN/EAN"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN/EAN"
+          }
+        },
         "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN/EAN"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN/EAN"
@@ -483,10 +639,22 @@
             "value" : "Ссылки"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enlaces"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Посилання"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlantılar"
           }
         }
       }
@@ -518,10 +686,22 @@
             "value" : "Организация(и)"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Organización(es)"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Організація(ї)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Organizasyon(lar)"
           }
         }
       }
@@ -553,10 +733,22 @@
             "value" : "Оригинальное название"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Título original"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оригінальна назва"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orijinal Başlık"
           }
         }
       }
@@ -588,10 +780,22 @@
             "value" : "Лица"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personas"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Особи"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kişiler"
           }
         }
       }
@@ -623,10 +827,22 @@
             "value" : "Цена"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Precio"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ціна"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiyat"
           }
         }
       }
@@ -658,10 +874,22 @@
             "value" : "Серия"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serie"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Серія"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seri"
           }
         }
       }
@@ -693,10 +921,22 @@
             "value" : "Ключевые слова"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palabras clave"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ключові слова"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anahtar Kelimeler"
           }
         }
       }
@@ -728,10 +968,22 @@
             "value" : "Шифр хранения"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signatura"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Шифр зберігання"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raf Numarası"
           }
         }
       }
@@ -761,6 +1013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Язык"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idioma"
           }
         },
         "uk" : {
@@ -798,6 +1056,12 @@
             "value" : "Название"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Título"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -833,6 +1097,12 @@
             "value" : "Объем"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamaño"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -866,6 +1136,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "искать"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "buscar"
           }
         },
         "uk" : {
@@ -904,6 +1180,12 @@
             "value" : "вставить"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "insertar"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -937,6 +1219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Загрузить изображение"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargar imagen"
           }
         },
         "uk" : {
@@ -974,6 +1262,12 @@
             "value" : "загрузка..."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cargando..."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1007,6 +1301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld результатов"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld resultados"
           }
         },
         "uk" : {
@@ -1044,6 +1344,12 @@
             "value" : "Дата публикации"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fecha de publicación"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1077,6 +1383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Издательство"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editorial"
           }
         },
         "uk" : {
@@ -1114,6 +1426,12 @@
             "value" : "Недавние поиски"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Búsquedas recientes"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1147,6 +1465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ПОИСК"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BÚSQUEDA"
           }
         },
         "uk" : {
@@ -1184,6 +1508,12 @@
             "value" : "Поиск в %@"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar en %@"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1216,6 +1546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Здесь будет отображаться история ваших поисков после того, как вы что-нибудь введете.\n\nПопробуйте выполнить поиск!\n😃"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su historial de búsquedas aparecerá aquí una vez que haya ingresado algo.\n\n¡Adelante, inténtelo!\n😃"
           }
         },
         "uk" : {

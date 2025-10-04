@@ -1,0 +1,11 @@
+/*
+  Charges.strings
+
+
+  Created by Martin Kim Dung-Pham on 23.02.23.
+
+*/
+
+"sum text" = "Total";
+"zero charges text" = "¡Enhorabuena! No tienes ninguna multa pendiente. Pareces ser una persona muy organizada 👌";
+"paid text" = "(pagado)";

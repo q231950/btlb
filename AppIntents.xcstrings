@@ -2,6 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "%lld items" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -15,6 +16,12 @@
             "value" : "%lld items"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld elementos"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25,6 +32,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld элементов"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld öğe"
           }
         },
         "uk" : {
@@ -50,6 +63,12 @@
             "value" : "${int} Borrowed Items"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${int} elementos prestados"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -62,6 +81,12 @@
             "value" : "${int} выданных книг"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${int} ödünç alınan öğe"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71,7 +96,7 @@
       }
     },
     "BTLB" : {
-      "comment" : "AppIntents.strings\n  BTLB\n\n  Created by Martin Kim Dung-Pham on 20.02.24.\n  Copyright © 2024 neoneon. All rights reserved.\n\n  Keep this file so that App Intents will stay localized",
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -85,6 +110,12 @@
             "value" : "BTLB"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -97,10 +128,93 @@
             "value" : "BTLB"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "BTLB"
+          }
+        }
+      }
+    },
+    "Find in %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In %@ finden"
+          }
+        }
+      }
+    },
+    "Look for something in %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche nach etwas in %@"
+          }
+        }
+      }
+    },
+    "Renew all items in %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Medien in %@ verlängern"
+          }
+        }
+      }
+    },
+    "Renew items" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medien verlängern"
+          }
+        }
+      }
+    },
+    "Renew my items in %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meine Medien in %@ verlängern"
+          }
+        }
+      }
+    },
+    "Search" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suchen"
+          }
+        }
+      }
+    },
+    "Search in %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In %@ suchen"
           }
         }
       }

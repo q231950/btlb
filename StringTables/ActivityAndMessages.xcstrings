@@ -33,6 +33,18 @@
             "state" : "translated",
             "value" : "неправильні облікові дані"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "credenciales incorrectas"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yanlış kimlik bilgileri"
+          }
         }
       }
     },
@@ -67,6 +79,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Успішно"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Éxito"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarılı"
           }
         }
       }
@@ -103,6 +127,18 @@
             "state" : "translated",
             "value" : "Активація облікового запису"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activando cuenta"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hesap etkinleştiriliyor"
+          }
         }
       }
     },
@@ -137,6 +173,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ініціалізація..."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iniciando..."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "başlatılıyor..."
           }
         }
       }
@@ -173,11 +221,22 @@
             "state" : "translated",
             "value" : "Це може зайняти кілька хвилин"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esto puede tomar un momento"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu biraz zaman alabilir"
+          }
         }
       }
     },
     "UPDATING_ACCOUNTS_TITLE" : {
-      "comment" : "ActivityAndMessages.strings\n  BTLB\n\n  Created by Martin Kim Dung-Pham on 7/23/11.\n  Copyright 2011 neoneon. All rights reserved.",
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
@@ -208,6 +267,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оновлення облікових записів"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualizando cuentas"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hesaplar güncelleniyor"
           }
         }
       }
@@ -243,6 +314,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оновлення бібліотек"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualizando bibliotecas"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kütüphaneler güncelleniyor"
           }
         }
       }

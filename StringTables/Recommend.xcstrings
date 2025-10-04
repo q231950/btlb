@@ -33,6 +33,18 @@
             "state" : "translated",
             "value" : "Пізніше"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más tarde"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonra"
+          }
         }
       }
     },
@@ -67,6 +79,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Для рекомендації потрібна працююча електронна пошта."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se requiere un email funcional para la recomendación."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavsiye için çalışan bir e-posta gereklidir."
           }
         }
       }
@@ -103,6 +127,18 @@
             "state" : "translated",
             "value" : "Рекомендація недоступна"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recomendación no disponible"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavsiye mevcut değil"
+          }
         }
       }
     },
@@ -137,6 +173,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "<p>BTLB - це дійсно корисний додаток. Він синхронізує ваш бібліотечний обліковий запис з вашим Apple пристроєм. <br>Ознайомтеся з <a href=\"http://itunes.apple.com/en/app/BTLB/id383008918?mt=8\">BTLB в iTunes</a>.</p>"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<p>BTLB es una aplicación realmente útil. Sincroniza tu cuenta de biblioteca con tu dispositivo Apple. <br>Echa un vistazo a <a href=\"http://itunes.apple.com/es/app/BTLB/id383008918?mt=8\">BTLB en iTunes</a>.</p>"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<p>BTLB gerçekten kullanışlı bir uygulama. Kütüphane hesabınızı Apple cihazınızla senkronize eder. <br><a href=\"http://itunes.apple.com/tr/app/BTLB/id383008918?mt=8\">iTunes'da BTLB</a>'ye göz atın.</p>"
           }
         }
       }
@@ -173,6 +221,18 @@
             "state" : "translated",
             "value" : "зроблено з 💖"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hecho con 💖"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "💖 ile yapıldı"
+          }
         }
       }
     },
@@ -207,6 +267,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Гаразд"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamam"
           }
         }
       }
@@ -243,6 +315,18 @@
             "state" : "translated",
             "value" : "Звісно, ви зараз зайняті. Читаєте книги? Ви можете рекомендувати BTLB у будь-який час."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por supuesto, estás ocupado ahora. ¿Leyendo libros? Puedes recomendar BTLB en cualquier momento."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabii ki, şu anda meşgulsün. Kitap mı okuyorsun? BTLB'yi istediğin zaman tavsiye edebilirsin."
+          }
         }
       }
     },
@@ -277,6 +361,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можливо, пізніше"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quizás más tarde"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belki sonra"
           }
         }
       }
@@ -313,6 +409,18 @@
             "state" : "translated",
             "value" : "Сподіваюся, вам і вашим друзям сподобається BTLB"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espero que tú y tus amigos disfruten de BTLB"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umarım sen ve arkadaşların BTLB'den hoşlanırsınız"
+          }
         }
       }
     },
@@ -347,6 +455,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Дякую!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Gracias!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teşekkürler!"
           }
         }
       }

@@ -21,10 +21,22 @@
             "value" : "В настоящее время поиск поддерживает библиотеки _Stiftung Hamburger Öffentliche Bücherhallen_ и _Gemeinsamer Bibliotheksverbund_. Пожалуйста, выберите библиотеку для поиска."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualmente la búsqueda admite las bibliotecas de _Stiftung Hamburger Öffentliche Bücherhallen_ y _Gemeinsamer Bibliotheksverbund_. Por favor, selecciona la biblioteca en la que buscar."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Наразі пошук підтримує бібліотеки _Stiftung Hamburger Öffentliche Bücherhallen_ та _Gemeinsamer Bibliotheksverbund_. Будь ласка, оберіть бібліотеку для пошуку."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şu anda arama _Stiftung Hamburger Öffentliche Bücherhallen_ ve _Gemeinsamer Bibliotheksverbund_ kütüphanelerini desteklemektedir. Lütfen arama yapılacak kütüphaneyi seçin."
           }
         }
       }
@@ -49,10 +61,22 @@
             "value" : "В настоящее время вы можете войти в библиотеки _Stiftung Hamburger Öffentliche Bücherhallen_ и _Gemeinsamer Bibliotheksverbund_. Пожалуйста, выберите библиотеку для входа."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualmente puedes iniciar sesión en las bibliotecas de _Stiftung Hamburger Öffentliche Bücherhallen_ y _Gemeinsamer Bibliotheksverbund_. Por favor, selecciona la biblioteca para iniciar sesión."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Наразі ви можете увійти до бібліотек _Stiftung Hamburger Öffentliche Bücherhallen_ та _Gemeinsamer Bibliotheksverbund_. Будь ласка, оберіть бібліотеку для входу."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şu anda _Stiftung Hamburger Öffentliche Bücherhallen_ ve _Gemeinsamer Bibliotheksverbund_ kütüphanelerine giriş yapabilirsiniz. Lütfen giriş yapılacak kütüphaneyi seçin."
           }
         }
       }
