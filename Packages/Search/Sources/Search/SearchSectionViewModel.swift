@@ -57,7 +57,7 @@ class SearchSectionViewModel: ObservableObject {
     }
 
     @MainActor func search() {
-        guard library.isAvailable else {
+        guard library.enabledForSearch else {
             showsLibrarySupportHint = true
             return
         }

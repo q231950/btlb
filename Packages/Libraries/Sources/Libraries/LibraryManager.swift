@@ -110,6 +110,8 @@ public final class LibraryManager: LibraryProvider {
         libraryManagedObject.identifier = identifier
         libraryManagedObject.subtitle = libraryModel.subtitle
         libraryManagedObject.name = libraryModel.name
+        libraryManagedObject.enabledForLogin = libraryModel.enabledForLogin
+        libraryManagedObject.enabledForSearch = libraryModel.enabledForSearch
 
         try? context.save()
     }

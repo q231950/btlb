@@ -46,11 +46,15 @@ private struct InternalLibraryModel: LibraryCore.Library {
     let name: String?
     let subtitle: String?
     let identifier: String?
+    let enabledForSearch: Bool
+    let enabledForLogin: Bool
 
     init(library: Paper.Library) {
         self.name = library.name
         self.subtitle = library.subtitle
         self.identifier = library.identifier
+        self.enabledForSearch = library.enabledForSearch
+        self.enabledForLogin = library.enabledForLogin
     }
 }
 

@@ -85,6 +85,7 @@
 		3B58742D2143C70000EB3B27 /* AuthenticationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58742C2143C70000EB3B27 /* AuthenticationManagerTests.swift */; };
 		3B60C9082B7424F200605B4C /* SmallBTLBWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B60C9072B7424F200605B4C /* SmallBTLBWidget.swift */; };
 		3B60C90A2B7425F300605B4C /* SmallEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B60C9092B7425F300605B4C /* SmallEntryView.swift */; };
+		3B628DD02F1BAD8E0038A1E3 /* 28to29.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B628DCF2F1BAD8E0038A1E3 /* 28to29.xcmappingmodel */; };
 		3B64879E2D200D1200D92A34 /* Paper in Frameworks */ = {isa = PBXBuildFile; productRef = 3B0D30612BE25C87008C67E7 /* Paper */; };
 		3B64879F2D200D1200D92A34 /* Paper in Frameworks */ = {isa = PBXBuildFile; productRef = 3BDC0CC32CB0117E001E9828 /* Paper */; };
 		3B6487A12D200DC400D92A34 /* RenewUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6487A02D200DC400D92A34 /* RenewUseCase.swift */; };
@@ -300,6 +301,7 @@
 		3B58742C2143C70000EB3B27 /* AuthenticationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManagerTests.swift; sourceTree = "<group>"; };
 		3B60C9072B7424F200605B4C /* SmallBTLBWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBTLBWidget.swift; sourceTree = "<group>"; };
 		3B60C9092B7425F300605B4C /* SmallEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallEntryView.swift; sourceTree = "<group>"; };
+		3B628DCF2F1BAD8E0038A1E3 /* 28to29.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = 28to29.xcmappingmodel; sourceTree = "<group>"; };
 		3B6487A02D200DC400D92A34 /* RenewUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenewUseCase.swift; sourceTree = "<group>"; };
 		3B6487A22D200DD600D92A34 /* ValidateAccountUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateAccountUseCase.swift; sourceTree = "<group>"; };
 		3B7284B729257E01003E2544 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Utilities; path = Packages/Utilities; sourceTree = "<group>"; };
@@ -624,6 +626,7 @@
 				3BEB14782C76652E0023E1F8 /* 25to26.xcmappingmodel */,
 				3B179FC12D6D0441007D9DD3 /* 26to27.xcmappingmodel */,
 				3BE5BFB92D8B6CFD00EE48BD /* 27to28.xcmappingmodel */,
+				3B628DCF2F1BAD8E0038A1E3 /* 28to29.xcmappingmodel */,
 			);
 			path = MappingModels;
 			sourceTree = "<group>";
@@ -1119,6 +1122,7 @@
 				3B257D0E29A66F8B00B1CC0B /* 15to16.xcmappingmodel in Sources */,
 				3B6487A12D200DC400D92A34 /* RenewUseCase.swift in Sources */,
 				3B257CF829A66F8B00B1CC0B /* 7to8.xcmappingmodel in Sources */,
+				3B628DD02F1BAD8E0038A1E3 /* 28to29.xcmappingmodel in Sources */,
 				3BE9A5BB21D25BE200D16D11 /* AccountPasswordMigratingPolicy.swift in Sources */,
 				3B257CF929A66F8B00B1CC0B /* 4to5.xcmappingmodel in Sources */,
 				3BF799BA2E18201B00F63075 /* BuildConfig.swift in Sources */,

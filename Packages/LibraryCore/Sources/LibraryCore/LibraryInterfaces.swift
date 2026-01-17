@@ -596,11 +596,15 @@ public struct LibraryModel: Sendable, Library {
     public let name: String?
     public let subtitle: String?
     public let identifier: String?
+    public let enabledForSearch: Bool
+    public let enabledForLogin: Bool
 
-    public init(name: String?, subtitle: String?, identifier: String?) {
+    public init(name: String?, subtitle: String?, identifier: String?, enabledForSearch: Bool = true, enabledForLogin: Bool = true) {
         self.name = name
         self.subtitle = subtitle
         self.identifier = identifier
+        self.enabledForSearch = enabledForSearch
+        self.enabledForLogin = enabledForLogin
     }
 
     public var isPublicHamburg: Bool {
@@ -615,6 +619,8 @@ public extension LibraryModel {
             name: wrapping.name,
             subtitle: wrapping.subtitle,
             identifier: wrapping.identifier,
+            enabledForSearch: wrapping.enabledForSearch,
+            enabledForLogin: wrapping.enabledForLogin
         )
     }
 }
@@ -623,31 +629,9 @@ public protocol Library: Identifiable, Hashable {
     var name: String? { get }
     var subtitle: String? { get }
     var identifier: String? { get }
+    var enabledForSearch: Bool { get }
+    var enabledForLogin: Bool { get }
 }
-
-public extension Library {
-    /// Whether or not the library is supported by BTLB
-    var isAvailable: Bool {
-        /// Allow all libraries to be selected as search and account synchronisation libraries except these:
-        if identifier == "GREIFSWALD" ||
-            identifier == "COMMERZ_HH" ||
-            identifier == "LUH" {
-            return false
-        }
-
-        return true
-    }
-
-    var isAvailableForLogin: Bool {
-        /// Allow all libraries to be selected as search and account synchronisation libraries except these:
-        if !(identifier ?? "").isEmpty {
-            return true
-        }
-
-        return false
-    }
-}
-
 
 var kDefaultSearchLibraryIdentifier: String { "HAMBURGPUBLIC" }
 
