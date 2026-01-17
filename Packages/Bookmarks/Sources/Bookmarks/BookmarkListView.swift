@@ -151,6 +151,9 @@ public final class LibraryMock: LibraryCore.Library {
     public var baseURL: String?
     public var catalogUrl: String?
 
+    public var enabledForLogin: Bool = true
+    public var enabledForSearch: Bool = true
+
     public var identifier: String? = "Mock Library Identifier"
 
     public static func == (lhs: LibraryMock, rhs: LibraryMock) -> Bool {

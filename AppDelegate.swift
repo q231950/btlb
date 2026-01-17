@@ -38,7 +38,11 @@ class EDSyncAppDelegate: NSObject, UIApplicationDelegate {
             if let container = self?.appViewModel.dataStackProvider.persistentContainer {
                 let librariesController = LibraryManager(persistentContainer: container)
 
-                librariesController.loadOrUpdateLibraries(in: container.viewContext)
+                librariesController
+                    .loadOrUpdateLibraries(
+                        in: container.viewContext,
+                        libraryProvider: LibraryList()
+                    )
             }
         }
 
@@ -260,8 +264,13 @@ extension EDSyncAppDelegate: UNUserNotificationCenterDelegate {
             try await dependency(RenewUseCase())
         }
 
-        UtilitiesDependencies.accountValidatingUseCase = { (depenency: (AccountValidatingUseCase) async throws -> ValidationStatus) in
-            try await depenency(ValidateAccountUseCase())
+        UtilitiesDependencies.accountValidatingUseCase = { (dependency: (AccountValidatingUseCase) async throws -> ValidationStatus) in
+            try await dependency(ValidateAccountUseCase())
+        }
+
+        LibrariesDependencies.libraryModelProvider = { (
+            dependency: (LibraryModelProvider) async throws -> Void) in
+            try await dependency(LibraryList())
         }
     }
 

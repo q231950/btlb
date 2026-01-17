@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		392252C111A27E9E00B29A01 /* Libraries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 397E5B1B0F8F550F00500714 /* Libraries.plist */; };
 		392252C511A27EAC00B29A01 /* BTLBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* BTLBApp.swift */; };
 		39F8D8C611ED28070009DE37 /* Credits.md in Resources */ = {isa = PBXBuildFile; fileRef = 39F8D8C511ED28070009DE37 /* Credits.md */; };
 		3B020A042D047AB100B8486C /* Recommend.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3B020A032D047AB100B8486C /* Recommend.xcstrings */; };
@@ -86,6 +85,7 @@
 		3B58742D2143C70000EB3B27 /* AuthenticationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58742C2143C70000EB3B27 /* AuthenticationManagerTests.swift */; };
 		3B60C9082B7424F200605B4C /* SmallBTLBWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B60C9072B7424F200605B4C /* SmallBTLBWidget.swift */; };
 		3B60C90A2B7425F300605B4C /* SmallEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B60C9092B7425F300605B4C /* SmallEntryView.swift */; };
+		3B628DD02F1BAD8E0038A1E3 /* 28to29.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B628DCF2F1BAD8E0038A1E3 /* 28to29.xcmappingmodel */; };
 		3B64879E2D200D1200D92A34 /* Paper in Frameworks */ = {isa = PBXBuildFile; productRef = 3B0D30612BE25C87008C67E7 /* Paper */; };
 		3B64879F2D200D1200D92A34 /* Paper in Frameworks */ = {isa = PBXBuildFile; productRef = 3BDC0CC32CB0117E001E9828 /* Paper */; };
 		3B6487A12D200DC400D92A34 /* RenewUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6487A02D200DC400D92A34 /* RenewUseCase.swift */; };
@@ -204,7 +204,6 @@
 		39446FDC11A29E0800B64170 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3944700811A29FB400B64170 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		397A9B3811D69F5D0031C9D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		397E5B1B0F8F550F00500714 /* Libraries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Libraries.plist; path = Classes/Libraries.plist; sourceTree = "<group>"; };
 		39815E9D12D20307006CDCC8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		3981E54511E149A000C7FBB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3998C0E412F2EDC400C68CC6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -302,6 +301,7 @@
 		3B58742C2143C70000EB3B27 /* AuthenticationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManagerTests.swift; sourceTree = "<group>"; };
 		3B60C9072B7424F200605B4C /* SmallBTLBWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBTLBWidget.swift; sourceTree = "<group>"; };
 		3B60C9092B7425F300605B4C /* SmallEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallEntryView.swift; sourceTree = "<group>"; };
+		3B628DCF2F1BAD8E0038A1E3 /* 28to29.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = 28to29.xcmappingmodel; sourceTree = "<group>"; };
 		3B6487A02D200DC400D92A34 /* RenewUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenewUseCase.swift; sourceTree = "<group>"; };
 		3B6487A22D200DD600D92A34 /* ValidateAccountUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateAccountUseCase.swift; sourceTree = "<group>"; };
 		3B7284B729257E01003E2544 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Utilities; path = Packages/Utilities; sourceTree = "<group>"; };
@@ -626,6 +626,7 @@
 				3BEB14782C76652E0023E1F8 /* 25to26.xcmappingmodel */,
 				3B179FC12D6D0441007D9DD3 /* 26to27.xcmappingmodel */,
 				3BE5BFB92D8B6CFD00EE48BD /* 27to28.xcmappingmodel */,
+				3B628DCF2F1BAD8E0038A1E3 /* 28to29.xcmappingmodel */,
 			);
 			path = MappingModels;
 			sourceTree = "<group>";
@@ -683,7 +684,6 @@
 				3BA11B5E21EB51FC00F8D16F /* Entitlements */,
 				FDC3D3622145932C001678AD /* README.md */,
 				39F8D8C511ED28070009DE37 /* Credits.md */,
-				397E5B1B0F8F550F00500714 /* Libraries.plist */,
 				8D1107310486CEB800E47090 /* BTLB-Info.plist */,
 			);
 			name = "Supporting Files";
@@ -991,7 +991,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B020A142D047AB200B8486C /* Applicationwide.xcstrings in Resources */,
-				392252C111A27E9E00B29A01 /* Libraries.plist in Resources */,
 				3B020A042D047AB100B8486C /* Recommend.xcstrings in Resources */,
 				3B2FB1531E22883200DC52A5 /* Assets.xcassets in Resources */,
 				3B020A062D047AB100B8486C /* AppIntents.xcstrings in Resources */,
@@ -1123,6 +1122,7 @@
 				3B257D0E29A66F8B00B1CC0B /* 15to16.xcmappingmodel in Sources */,
 				3B6487A12D200DC400D92A34 /* RenewUseCase.swift in Sources */,
 				3B257CF829A66F8B00B1CC0B /* 7to8.xcmappingmodel in Sources */,
+				3B628DD02F1BAD8E0038A1E3 /* 28to29.xcmappingmodel in Sources */,
 				3BE9A5BB21D25BE200D16D11 /* AccountPasswordMigratingPolicy.swift in Sources */,
 				3B257CF929A66F8B00B1CC0B /* 4to5.xcmappingmodel in Sources */,
 				3BF799BA2E18201B00F63075 /* BuildConfig.swift in Sources */,
