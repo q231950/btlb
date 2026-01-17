@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		392252C111A27E9E00B29A01 /* Libraries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 397E5B1B0F8F550F00500714 /* Libraries.plist */; };
 		392252C511A27EAC00B29A01 /* BTLBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* BTLBApp.swift */; };
 		39F8D8C611ED28070009DE37 /* Credits.md in Resources */ = {isa = PBXBuildFile; fileRef = 39F8D8C511ED28070009DE37 /* Credits.md */; };
 		3B020A042D047AB100B8486C /* Recommend.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3B020A032D047AB100B8486C /* Recommend.xcstrings */; };
@@ -204,7 +203,6 @@
 		39446FDC11A29E0800B64170 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3944700811A29FB400B64170 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		397A9B3811D69F5D0031C9D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		397E5B1B0F8F550F00500714 /* Libraries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Libraries.plist; path = Classes/Libraries.plist; sourceTree = "<group>"; };
 		39815E9D12D20307006CDCC8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		3981E54511E149A000C7FBB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3998C0E412F2EDC400C68CC6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -683,7 +681,6 @@
 				3BA11B5E21EB51FC00F8D16F /* Entitlements */,
 				FDC3D3622145932C001678AD /* README.md */,
 				39F8D8C511ED28070009DE37 /* Credits.md */,
-				397E5B1B0F8F550F00500714 /* Libraries.plist */,
 				8D1107310486CEB800E47090 /* BTLB-Info.plist */,
 			);
 			name = "Supporting Files";
@@ -991,7 +988,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B020A142D047AB200B8486C /* Applicationwide.xcstrings in Resources */,
-				392252C111A27E9E00B29A01 /* Libraries.plist in Resources */,
 				3B020A042D047AB100B8486C /* Recommend.xcstrings in Resources */,
 				3B2FB1531E22883200DC52A5 /* Assets.xcassets in Resources */,
 				3B020A062D047AB100B8486C /* AppIntents.xcstrings in Resources */,

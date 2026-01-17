@@ -136,9 +136,7 @@ class SearchSectionViewModel: ObservableObject {
         searchResults.append(contentsOf: viewModels.compactMap {
             let library = LibraryModel(name: library.name ?? "",
                                        subtitle: library.subtitle ?? "",
-                                       identifier: library.identifier ?? "",
-                                       baseUrl: library.baseURL,
-                                       catalogUrl: library.catalogUrl)
+                                       identifier: library.identifier ?? "")
             return SearchResultListItemModel(library: library,
                                          identifier: $0.identifier,
                                          title: $0.title ?? "",
@@ -158,9 +156,7 @@ class SearchSectionViewModel: ObservableObject {
     @MainActor func onLibrarySelected(selectedLibrary: Persistence.Library) {
         library = LibraryModel(name: selectedLibrary.name ?? "unknown",
                                subtitle: selectedLibrary.subtitle ?? "unknown",
-                               identifier: selectedLibrary.identifier ?? "unknown",
-                               baseUrl: selectedLibrary.baseURL,
-                               catalogUrl: selectedLibrary.catalogUrl)
+                               identifier: selectedLibrary.identifier ?? "unknown")
 
 //        coordinator.selectedLibrary = library.identifier
         UserDefaults.standard.set(selectedLibrary.identifier, forKey: "search_Library")

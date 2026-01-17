@@ -9,6 +9,51 @@ import Foundation
 import Paper
 import LibraryCore
 
+// MARK: LibraryList
+
+/// A wrapper around Paper's LibraryList to hide the implementation detail
+public struct LibraryList: LibraryModelProvider {
+
+    private let paperLibraryList: Paper.LibraryList
+    
+    public init() {
+        self.paperLibraryList = Paper.LibraryList()
+    }
+
+    public func libraries() -> [any LibraryCore.Library] {
+        paperLibraryList
+            .libraries()
+            .map { $0.internalLibraryModel }
+    }
+
+    public func library(for identifier: String) -> (any LibraryCore.Library)? {
+        paperLibraryList
+            .libraryForIdentifier(identifier: identifier)?.internalLibraryModel
+    }
+}
+
+extension Paper.Library {
+    var internalLibraryModel: any LibraryCore.Library {
+        InternalLibraryModel.init(library: self)
+    }
+}
+
+private struct InternalLibraryModel: LibraryCore.Library {
+    var id: String {
+        identifier ?? UUID().uuidString
+    }
+
+    let name: String?
+    let subtitle: String?
+    let identifier: String?
+
+    init(library: Paper.Library) {
+        self.name = library.name
+        self.subtitle = library.subtitle
+        self.identifier = library.identifier
+    }
+}
+
 // MARK: Recommender
 
 public struct Recommender: LibraryCore.RecommenderProtocol {
@@ -88,12 +133,14 @@ extension PaperErrorInternal {
 public struct AccountScraper: AccountServiceProviding {
 
     public func account(username: String?, password: String?, library: LibraryModel) async throws(PaperErrorInternal) -> InternalAccount? {
-
-        guard let apiConfiguration = ApiConfiguration(library: library) else {
+        guard let wrappedLibrary = Paper.LibraryList().libraryForIdentifier(identifier: library.id) else {
             throw .LibraryNotSupportedError
         }
 
-        let configuration = Paper.Configuration(username: username, password: password, apiConfiguration: apiConfiguration)
+        let configuration = Paper.Configuration(
+            username: username,
+            password: password,
+            apiConfiguration: wrappedLibrary.api)
         let scraper = LibraryScraper(configuration: configuration)
 
         do {
@@ -110,20 +157,6 @@ public struct AccountScraper: AccountServiceProviding {
     }
 }
 
-/// This logic is not in Paper since the clients currently define the identifier of a library themselves.
-extension Paper.ApiConfiguration {
-
-    init?(library: LibraryModel) {
-        guard let baseUrl = library.baseURL, let catalogUrl = library.catalogUrl else { return nil }
-
-        if library.isPublicHamburg {
-            self.init(api: .hamburgPublic, baseUrl: baseUrl, catalogUrl: catalogUrl)
-        } else {
-            self.init(api: .opc4v213vzg6, baseUrl: baseUrl, catalogUrl: catalogUrl)
-        }
-    }
-}
-
 public struct SearchScraper: SearchScraping {
 
     enum SearchScraperError: Error {
@@ -135,9 +168,11 @@ public struct SearchScraper: SearchScraping {
 
     public func search(text: String, in library: LibraryModel, nextPageUrl: String?) async throws  -> LibraryCore.SearchResultList {
 
-        guard let configuration = Paper.ApiConfiguration(library: library) else { throw SearchScraperError.unsupportedLibrary }
+        guard let wrappedLibrary = Paper.LibraryList().libraryForIdentifier(identifier: library.id) else { throw SearchScraperError.unsupportedLibrary }
 
-        let result = try await Paper.SearchScraper(configuration: configuration)
+        let result = try await Paper.SearchScraper(
+            configuration: wrappedLibrary.api
+        )
             .search(text: text, nextPageUrl: nextPageUrl)
         return result.asSearchResultList
     }
@@ -157,18 +192,24 @@ public struct SearchResultDetailScraper: LibraryCore.SearchResultDetailsProvidin
         guard let url else {
             throw SearchResultDetailScraperError.invalidURL
         }
-        guard let configuration = Paper.ApiConfiguration(library: library) else { throw SearchResultDetailScraperError.unsupportedLibrary }
+        guard let wrappedLibrary = Paper.LibraryList().libraryForIdentifier(identifier: library.id) else { throw SearchResultDetailScraperError.unsupportedLibrary }
 
-        return try await Paper.SearchDetailScraper(configuration: configuration).detailsForUrl(url: url.absoluteString).asSearchResultDetail
+        return try await Paper
+            .SearchDetailScraper(configuration: wrappedLibrary.api)
+            .detailsForUrl(url: url.absoluteString).asSearchResultDetail
     }
 
     public func status(availabilities: [LibraryCore.Availability], in library: LibraryModel) -> LibraryCore.AvailabilityStatus {
-        guard let apiConfiguration = ApiConfiguration(library: library) else {
+        guard let wrappedLibrary = Paper.LibraryList().libraryForIdentifier(identifier: library.id) else {
 //            throw NSError.unknownLibraryError()
             return .noneAvailable // TODO: make this throw
         }
 
-        return Paper.SearchDetailScraper(configuration: apiConfiguration).status(availabilities: availabilities.map { $0.paperAvailability }).availabilityStatus
+        return Paper
+            .SearchDetailScraper(configuration: wrappedLibrary.api)
+            .status(
+                availabilities: availabilities.map { $0.paperAvailability
+                }).availabilityStatus
     }
 }
 

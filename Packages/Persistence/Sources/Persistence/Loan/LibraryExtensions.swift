@@ -26,9 +26,7 @@ public extension LibraryModel {
         self.init(
             name: wrapping.name,
             subtitle: wrapping.subtitle,
-            identifier: wrapping.identifier,
-            baseUrl: wrapping.baseURL,
-            catalogUrl: wrapping.catalogUrl
+            identifier: wrapping.identifier
         )
     }
 }

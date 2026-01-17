@@ -70,9 +70,7 @@ struct SearchResultListItem_Previews: PreviewProvider {
             library: LibraryModel(
                 name: "Central Library",
                 subtitle: "The very central library",
-                identifier: "abc",
-                baseUrl: nil,
-                catalogUrl: nil
+                identifier: "abc"
             ),
             identifier: "identifier",
             title: "Neuromancer",
