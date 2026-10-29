@@ -22,12 +22,6 @@
             "value" : "Plus tard"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Позже"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67,12 +61,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un e-mail fonctionnel est requis pour une recommandation."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Для рекомендации требуется рабочая электронная почта."
           }
         },
         "uk" : {
@@ -116,12 +104,6 @@
             "value" : "Recommandation non disponible"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Рекомендация недоступна"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -161,12 +143,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "<p>BTLB est une application vraiment utile. Elle synchronise votre compte de bibliothèque avec votre appareil Apple. <br>Jetez un œil à <a href=\"http://itunes.apple.com/fr/app/BTLB/id383008918?mt=8\">BTLB sur iTunes</a>.</p>"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "<p>BTLB - это действительно полезное приложение. Оно синхронизирует ваш библиотечный аккаунт с вашим устройством Apple. <br>Посмотрите на <a href=\"http://itunes.apple.com/ru/app/BTLB/id383008918?mt=8\">BTLB в iTunes</a>.</p>"
           }
         },
         "uk" : {
@@ -210,12 +186,6 @@
             "value" : "fait avec 💖"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "сделано с 💖"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -255,12 +225,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ok"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Хорошо"
           }
         },
         "uk" : {
@@ -304,12 +268,6 @@
             "value" : "Bien sûr, vous êtes occupé en ce moment. Vous lisez des livres ? Vous pouvez recommander BTLB à tout moment."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Конечно, вы сейчас заняты. Читаете книги? Вы можете рекомендовать BTLB в любое время."
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -349,12 +307,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus tard peut-être"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Возможно, позже"
           }
         },
         "uk" : {
@@ -398,12 +350,6 @@
             "value" : "J'espère que vous et vos amis apprécierez BTLB"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Надеюсь, вам и вашим друзьям понравится BTLB"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -443,12 +389,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Merci !"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Спасибо!"
           }
         },
         "uk" : {

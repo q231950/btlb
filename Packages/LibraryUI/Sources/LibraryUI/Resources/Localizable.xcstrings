@@ -43,12 +43,6 @@
             "value" : "Une erreur s'est produite !"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Произошла ошибка!"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -87,12 +81,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comprendre"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Понятно"
           }
         },
         "tr" : {
@@ -135,12 +123,6 @@
             "value" : "Plusieurs erreurs se sont produites !"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Произошли ошибки!"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -181,12 +163,6 @@
             "value" : "La requête réseau a échoué."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сетевой запрос не выполнен."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -225,12 +201,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La fonctionnalité demandée n'est pas encore implémentée pour le système de bibliothèque du compte avec le nom d'utilisateur « %@ »."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Запрашиваемая функция ещё не реализована для типа библиотечной системы учётной записи с именем пользователя “%@“."
           }
         },
         "uk" : {

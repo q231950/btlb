@@ -28,12 +28,6 @@
             "value" : "3128"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "3128"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -73,12 +67,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comptes"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Аккаунты"
           }
         },
         "tr" : {
@@ -122,12 +110,6 @@
             "value" : "Authentification échouée"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ошибка аутентификации"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,12 +149,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veuillez vérifier votre nom d'utilisateur, mot de passe et la bibliothèque sélectionnée."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Пожалуйста, проверьте ваше имя пользователя, пароль и выбранную библиотеку."
           }
         },
         "tr" : {
@@ -216,12 +192,6 @@
             "value" : "Annuler"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Отмена"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -261,12 +231,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frais"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Платежи"
           }
         },
         "tr" : {
@@ -310,12 +274,6 @@
             "value" : "Les détails de la section Comptes et Informations seront affichés ici."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Здесь будут отображаться детали раздела Аккаунты и Информация."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -355,12 +313,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Détails sur"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Детали о"
           }
         },
         "tr" : {
@@ -404,12 +356,6 @@
             "value" : "Annuler"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Отмена"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -449,12 +395,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer le proxy"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Удалить прокси"
           }
         },
         "tr" : {
@@ -498,12 +438,6 @@
             "value" : "Peut-être n'avez-vous pas de réseau ? Ou essayez sans proxy réseau ?"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Возможно, у вас нет сети? Или попробуйте без сетевого прокси?"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -543,12 +477,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erreur de connexion"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ошибка подключения"
           }
         },
         "tr" : {
@@ -592,12 +520,6 @@
             "value" : "Bibliothèques"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Библиотеки"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -637,12 +559,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mise à jour des bibliothèques"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обновление библиотек"
           }
         },
         "tr" : {
@@ -686,12 +602,6 @@
             "value" : "Les fonctionnalités de BTLB seront limitées"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Функциональность BTLB будет ограничена"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -731,12 +641,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chargement..."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Загрузка..."
           }
         },
         "tr" : {
@@ -780,12 +684,6 @@
             "value" : "Emprunts"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Выдачи"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -825,12 +723,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Еще"
           }
         },
         "tr" : {
@@ -874,12 +766,6 @@
             "value" : "Vous n'avez jamais mis à jour vos comptes. Appuyez sur le bouton de mise à jour en haut à droite de l'écran pour effectuer une mise à jour maintenant"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Вы никогда не обновляли свои аккаунты. Нажмите кнопку обновления в верхнем правом углу экрана, чтобы запустить обновление сейчас"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -919,12 +805,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune connexion"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нет соединения"
           }
         },
         "tr" : {
@@ -968,12 +848,6 @@
             "value" : "BTLB n'a pas pu synchroniser automatiquement aucun compte"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "BTLB не смог автоматически синхронизировать ни один аккаунт"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1013,12 +887,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune connexion"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нет соединения"
           }
         },
         "tr" : {
@@ -1062,12 +930,6 @@
             "value" : "Service indisponible"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сервис недоступен"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1107,12 +969,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veuillez réessayer plus tard"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Попробуйте снова позже"
           }
         },
         "tr" : {
@@ -1156,12 +1012,6 @@
             "value" : "Le compte n'a pas été activé. Veuillez vérifier votre connexion internet."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Аккаунт не был активирован. Пожалуйста, проверьте интернет-соединение."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1201,12 +1051,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ n'a pas été activé en raison d'identifiants de connexion manquants. Veuillez saisir votre identifiant utilisateur ainsi que votre mot de passe."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ не был активирован из-за отсутствующих данных для входа. Пожалуйста, введите ваш ID пользователя и пароль."
           }
         },
         "tr" : {
@@ -1250,12 +1094,6 @@
             "value" : "%@ n'a pas été activé en raison de données de connexion incorrectes."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ не был активирован из-за неправильных данных для входа."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1295,12 +1133,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veuillez saisir votre nom d'utilisateur et votre mot de passe"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Пожалуйста, введите имя пользователя и пароль"
           }
         },
         "tr" : {
@@ -1344,12 +1176,6 @@
             "value" : "Veuillez saisir votre mot de passe"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Пожалуйста, введите ваш пароль"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1389,12 +1215,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veuillez saisir un nom d'utilisateur"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Пожалуйста, введите имя пользователя"
           }
         },
         "tr" : {
@@ -1438,12 +1258,6 @@
             "value" : "pas maintenant"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "не сейчас"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1483,12 +1297,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ n'a pas été mis à jour en raison de données de connexion incorrectes"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ не был обновлен из-за неправильных данных для входа"
           }
         },
         "tr" : {
@@ -1532,12 +1340,6 @@
             "value" : "Aucun de vos comptes n'est actif. Activez au moins un compte dans la vue des comptes"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Все ваши аккаунты уже обновлены."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1577,12 +1379,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votre compte n'est pas actif. Activez-le dans la vue des comptes"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ваш аккаунт уже обновлен."
           }
         },
         "tr" : {
@@ -1626,12 +1422,6 @@
             "value" : "Rien à mettre à jour"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нечего обновлять"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1671,12 +1461,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L'opération a échoué"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Операция не удалась"
           }
         },
         "tr" : {
@@ -1720,12 +1504,6 @@
             "value" : "Veuillez utiliser une bibliothèque connue de l'application"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Пожалуйста, используйте библиотеку, известную приложению"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1765,12 +1543,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Port"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "порт"
           }
         },
         "tr" : {
@@ -1814,12 +1586,6 @@
             "value" : "Adresse proxy"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "адрес прокси"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1861,12 +1627,6 @@
             "value" : "Erreur de proxy"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ошибка прокси при подключении"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1903,12 +1663,6 @@
           }
         },
         "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "proxyuhh.uni-hamburg.de"
-          }
-        },
-        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "proxyuhh.uni-hamburg.de"
@@ -1955,12 +1709,6 @@
             "value" : "Impossible de créer la requête"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ошибка создания запроса"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2000,12 +1748,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réservations"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Резервирования"
           }
         },
         "tr" : {
@@ -2049,12 +1791,6 @@
             "value" : "Synchronisation..."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "синхронизация аккаунтов"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2096,12 +1832,6 @@
             "value" : "L'action n'a pas pu être effectuée car la bibliothèque est inconnue."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Действие не может быть выполнено, так как библиотека неизвестна."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2141,12 +1871,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recommencer"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Попробовать снова"
           }
         },
         "tr" : {

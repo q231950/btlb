@@ -54,14 +54,6 @@
             ]
           }
         },
-        "ru" : {
-          "stringSet" : {
-            "state" : "translated",
-            "values" : [
-              "Продлить с ${applicationName} |bɪtlɪb|"
-            ]
-          }
-        },
         "tr" : {
           "stringSet" : {
             "state" : "translated",
@@ -114,14 +106,6 @@
             "state" : "translated",
             "values" : [
               "Rechercher dans ${applicationName} |bɪtlɪb|"
-            ]
-          }
-        },
-        "ru" : {
-          "stringSet" : {
-            "state" : "translated",
-            "values" : [
-              "Поиск в ${applicationName} |bɪtlɪb|"
             ]
           }
         },

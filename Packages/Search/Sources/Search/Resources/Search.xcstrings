@@ -22,12 +22,6 @@
             "value" : "%@ : disponible"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@: доступно"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67,12 +61,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ : non disponible"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@: недоступно"
           }
         },
         "es" : {
@@ -116,12 +104,6 @@
             "value" : "%@ : disponibilité inconnue"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@: доступность неизвестна"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -161,12 +143,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les détails du résultat de recherche sélectionné seront affichés ici."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Здесь будут отображены детали выбранного результата поиска."
           }
         },
         "es" : {
@@ -210,12 +186,6 @@
             "value" : "ajouter"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "добавить"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -255,12 +225,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Date d'acquisition"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Дата поступления"
           }
         },
         "es" : {
@@ -304,12 +268,6 @@
             "value" : "Classification"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Классификация"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -349,12 +307,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annotations"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Примечания"
           }
         },
         "es" : {
@@ -398,12 +350,6 @@
             "value" : "Numéro"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Номер"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -443,12 +389,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impression/Distribution"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Печать/Распространение"
           }
         },
         "es" : {
@@ -492,12 +432,6 @@
             "value" : "Publié"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Опубликовано"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -539,12 +473,6 @@
             "value" : "Contenu"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Содержание"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -581,12 +509,6 @@
           }
         },
         "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ISBN/EAN"
-          }
-        },
-        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN/EAN"
@@ -633,12 +555,6 @@
             "value" : "Liens"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ссылки"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -678,12 +594,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Organisation(s)"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Организация(и)"
           }
         },
         "es" : {
@@ -727,12 +637,6 @@
             "value" : "Titre original"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Оригинальное название"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -772,12 +676,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Personnes"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Лица"
           }
         },
         "es" : {
@@ -821,12 +719,6 @@
             "value" : "Prix"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Цена"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -866,12 +758,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Série"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Серия"
           }
         },
         "es" : {
@@ -915,12 +801,6 @@
             "value" : "Mots-clés"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ключевые слова"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -960,12 +840,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cote"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Шифр хранения"
           }
         },
         "es" : {
@@ -1015,12 +889,6 @@
             "value" : "Langue"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Язык"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1060,12 +928,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Titre"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Название"
           }
         },
         "tr" : {
@@ -1109,12 +971,6 @@
             "value" : "Taille"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Объем"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1154,12 +1010,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "rechercher"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "искать"
           }
         },
         "tr" : {
@@ -1204,12 +1054,6 @@
             "value" : "insérer"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "вставить"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1249,12 +1093,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Charger l'image"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Загрузить изображение"
           }
         },
         "tr" : {
@@ -1298,12 +1136,6 @@
             "value" : "chargement..."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "загрузка..."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1343,12 +1175,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld résultats"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld результатов"
           }
         },
         "tr" : {
@@ -1392,12 +1218,6 @@
             "value" : "Date de publication"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Дата публикации"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1437,12 +1257,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Éditeur"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Издательство"
           }
         },
         "tr" : {
@@ -1486,12 +1300,6 @@
             "value" : "Recherches récentes"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Недавние поиски"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1531,12 +1339,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "RECHERCHE"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ПОИСК"
           }
         },
         "tr" : {
@@ -1580,12 +1382,6 @@
             "value" : "Rechercher dans %@"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поиск в %@"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1624,12 +1420,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votre historique de recherche apparaîtra ici une fois que vous aurez saisi quelque chose.\n\nAllez-y et essayez !\n😃"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Здесь будет отображаться история ваших поисков после того, как вы что-нибудь введете.\n\nПопробуйте выполнить поиск!\n😃"
           }
         },
         "tr" : {

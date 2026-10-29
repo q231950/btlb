@@ -23,12 +23,6 @@
             "value" : "%@ - %@"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ - %@"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -68,12 +62,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "élément"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "элемент"
           }
         },
         "tr" : {
@@ -118,12 +106,6 @@
             "value" : "éléments"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "элементы"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -164,12 +146,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "nouveau compte"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "новый аккаунт"
           }
         },
         "tr" : {
@@ -213,12 +189,6 @@
             "value" : "Aucun compte de bibliothèque actif. Activez-le maintenant."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нет активного аккаунта библиотеки. Активируйте его сейчас."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -258,12 +228,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votre compte de bibliothèque n'est pas activé. Activez-le maintenant."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ваш аккаунт библиотеки не активирован. Активируйте его сейчас."
           }
         },
         "tr" : {
@@ -308,12 +272,6 @@
             "value" : "activer"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "активировать"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -353,12 +311,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "réessayer"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "повторить"
           }
         },
         "tr" : {
@@ -402,12 +354,6 @@
             "value" : "activation…"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "активация…"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -447,12 +393,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Échec de l'activation"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Активация не удалась"
           }
         },
         "tr" : {
@@ -496,12 +436,6 @@
             "value" : "Remarques :"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Примечания:"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -541,12 +475,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Édition :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Издание:"
           }
         },
         "tr" : {
@@ -590,12 +518,6 @@
             "value" : "Auteur"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Автор"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -635,12 +557,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Emplacement"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Местоположение"
           }
         },
         "tr" : {
@@ -685,12 +601,6 @@
             "value" : "Code-barres"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Штрих-код"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -731,12 +641,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Numéro de commande"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Номер заказа"
           }
         },
         "tr" : {
@@ -780,12 +684,6 @@
             "value" : "Annuler"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Отменить"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -825,12 +723,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Actualité des données"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Актуальность данных"
           }
         },
         "tr" : {
@@ -874,12 +766,6 @@
             "value" : "Remarques"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Примечания"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -919,12 +805,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Édition"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Выпуск"
           }
         },
         "tr" : {
@@ -968,12 +848,6 @@
             "value" : "Publié"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Опубликовано"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1010,12 +884,6 @@
           }
         },
         "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ISBN/EAN"
-          }
-        },
-        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN/EAN"
@@ -1062,12 +930,6 @@
             "value" : "Liens"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ссылки"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1107,12 +969,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Titre original"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Оригинальное название"
           }
         },
         "tr" : {
@@ -1156,12 +1012,6 @@
             "value" : "Personnes"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Лица"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1201,12 +1051,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prix"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Цена"
           }
         },
         "tr" : {
@@ -1250,12 +1094,6 @@
             "value" : "Série"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Серия"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1295,12 +1133,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mots-clés"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ключевые слова"
           }
         },
         "tr" : {
@@ -1344,12 +1176,6 @@
             "value" : "Cote"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сигнатура"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1389,12 +1215,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Langue"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Язык"
           }
         },
         "tr" : {
@@ -1438,12 +1258,6 @@
             "value" : "Titre complet"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Полное название"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1483,12 +1297,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taille"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Объем"
           }
         },
         "tr" : {
@@ -1532,12 +1340,6 @@
             "value" : "jour"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "день"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1577,12 +1379,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "jours"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "дней"
           }
         },
         "tr" : {
@@ -1626,12 +1422,6 @@
             "value" : "Terminé"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Готово"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1671,12 +1461,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Publié :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Опубликовано:"
           }
         },
         "tr" : {
@@ -1720,12 +1504,6 @@
             "value" : "Identifiant"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Идентификатор"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1767,12 +1545,6 @@
             "value" : "Intérêt"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Интерес"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1812,12 +1584,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN/Prix :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ISBN/Цена:"
           }
         },
         "tr" : {
@@ -1862,12 +1628,6 @@
             "value" : "Bibliothèque"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Библиотека"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1907,12 +1667,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lien(s) :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ссылки:"
           }
         },
         "tr" : {
@@ -1957,12 +1711,6 @@
             "value" : "Emprunté jusqu'au"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Выдано до"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2002,12 +1750,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Type"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Тип"
           }
         },
         "tr" : {
@@ -2051,12 +1793,6 @@
             "value" : "Ajoutez votre compte de bibliothèque"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Добавьте ваш аккаунт библиотеки"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2096,12 +1832,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun compte de bibliothèque trouvé. Ajoutez-en un maintenant."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Аккаунт библиотеки не найден. Добавьте сейчас."
           }
         },
         "tr" : {
@@ -2144,12 +1874,6 @@
             "value" : "Ajouter un compte"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Добавить аккаунт"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2188,12 +1912,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plutôt vide ici ☝️ cela changera une vez que vous aurez configuré votre compte de bibliothèque."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Здесь довольно пусто ☝️ это изменится, когда вы настроите ваш аккаунт библиотеки."
           }
         },
         "tr" : {
@@ -2237,12 +1955,6 @@
             "value" : "Activez un compte de bibliothèque maintenant."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Активируйте аккаунт библиотеки сейчас."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2284,12 +1996,6 @@
             "value" : "Aucun des comptes de bibliothèque n'est activé. Activez-en un maintenant."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ни один из аккаунтов библиотеки не активирован. Активируйте один сейчас."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2329,12 +2035,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun emprunt."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ничего не выдано."
           }
         },
         "tr" : {
@@ -2379,12 +2079,6 @@
             "value" : "Aucune information"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нет информации"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2424,12 +2118,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "non activé"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "не активировано"
           }
         },
         "tr" : {
@@ -2473,12 +2161,6 @@
             "value" : "Profitez de vos emprunts"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Наслаждайтесь материалами"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2518,12 +2200,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compte mis à jour 👩‍🏫🧑🏻‍🏫"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Аккаунт обновлен 👩‍🏫🧑🏻‍🏫"
           }
         },
         "tr" : {
@@ -2567,12 +2243,6 @@
             "value" : "Aucun compte de bibliothèque"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нет аккаунта библиотеки"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2612,12 +2282,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajoutez-en un maintenant"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Добавить сейчас"
           }
         },
         "tr" : {
@@ -2661,12 +2325,6 @@
             "value" : "Rien n'a changé"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ничего не изменилось"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2708,12 +2366,6 @@
             "value" : "Compte de bibliothèque à jour 😌"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Аккаунт библиотеки актуален 😌"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2753,12 +2405,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "actualiser les comptes"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "обновить аккаунты"
           }
         },
         "tr" : {
@@ -2803,12 +2449,6 @@
             "value" : "renouveler"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "продлить"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2848,12 +2488,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "essayer de renouveler"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "попробовать продлить"
           }
         },
         "tr" : {
@@ -2897,12 +2531,6 @@
             "value" : "est dû le %@."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "должно быть возвращено %@."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2942,12 +2570,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "est en retard depuis le %@."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "просрочено с %@."
           }
         },
         "tr" : {
@@ -2991,12 +2613,6 @@
             "value" : "est dû aujourd'hui et non renouvelable !"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "должно быть возвращено сегодня и не подлежит продлению!"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3036,12 +2652,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "est dû aujourd'hui ; potentiellement renouvelable."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "должно быть возвращено сегодня; возможно продление."
           }
         },
         "tr" : {
@@ -3085,12 +2695,6 @@
             "value" : "%1@ n'a pas pu être renouvelé. Veuillez réessayer dans l'application ou retourner l'élément à la bibliothèque"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1@ не удалось продлить. Попробуйте еще раз в приложении или верните элемент в библиотеку"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3130,12 +2734,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Échec du renouvellement 😢"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Не удалось продлить 😢"
           }
         },
         "tr" : {
@@ -3179,12 +2777,6 @@
             "value" : "%1@ est maintenant dû le %2@."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1@ теперь должно быть возвращено %2@."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3224,12 +2816,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Renouvelé avec succès 🤖"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Успешно продлено 🤖"
           }
         },
         "tr" : {
@@ -3273,12 +2859,6 @@
             "value" : "Organisation(s) :"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Организация(и):"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3318,12 +2898,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Langue originale :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Оригинальный язык:"
           }
         },
         "tr" : {
@@ -3367,12 +2941,6 @@
             "value" : "Titre original :"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Оригинальное название:"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3411,12 +2979,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1lld emprunts sur %2lld comptes"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1lld выдач на %2lld аккаунтах"
           }
         },
         "tr" : {
@@ -3459,12 +3021,6 @@
             "value" : "1 emprunt sur %2lld comptes"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 выдача на %2lld аккаунтах"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3505,12 +3061,6 @@
             "value" : "%1lld emprunts"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1lld выдач"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3549,12 +3099,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 emprunt"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 выдача"
           }
         },
         "tr" : {
@@ -3600,12 +3144,6 @@
             "value" : "Personne(s) :"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Лица:"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3646,12 +3184,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Personne(s) :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Лица:"
           }
         },
         "tr" : {
@@ -3696,12 +3228,6 @@
             "value" : "Renouvellements"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Продления"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3741,12 +3267,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Série :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Серия:"
           }
         },
         "tr" : {
@@ -3791,12 +3311,6 @@
             "value" : "Réservations"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Резервирования"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3836,12 +3350,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mots-clés :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ключевые слова:"
           }
         },
         "tr" : {
@@ -3885,12 +3393,6 @@
             "value" : "Cote"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Полочная метка"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3932,12 +3434,6 @@
             "value" : "Cote :"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сигнатура:"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3977,12 +3473,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Langue :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Язык:"
           }
         },
         "tr" : {
@@ -4027,12 +3517,6 @@
             "value" : "Statut"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Статус"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4072,12 +3556,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partie :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Часть:"
           }
         },
         "tr" : {
@@ -4121,12 +3599,6 @@
             "value" : "Titre :"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Название:"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4166,12 +3638,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taille :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Объем:"
           }
         },
         "tr" : {
@@ -4215,12 +3681,6 @@
             "value" : "jusqu'à la prochaine date de retour"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "до следующей даты возврата"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4260,12 +3720,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "jusqu'à la prochaine date d'échéance"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "до предстоящей даты возврата"
           }
         },
         "tr" : {
@@ -4310,12 +3764,6 @@
             "value" : "N° de volume"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "№ тома"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4355,12 +3803,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Affiche le nombre de jours jusqu'à la prochaine date d'échéance."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Показывает количество дней до следующей даты возврата."
           }
         },
         "tr" : {
@@ -4405,12 +3847,6 @@
             "value" : "Jours restants"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Оставшиеся дни"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4452,12 +3888,6 @@
             "value" : "Compte"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Аккаунт"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4497,12 +3927,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se connecter"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Войти"
           }
         },
         "tr" : {

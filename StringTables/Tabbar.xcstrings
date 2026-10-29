@@ -22,12 +22,6 @@
             "value" : "Comptes"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Аккаунты"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67,12 +61,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frais"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Платежи"
           }
         },
         "es" : {
@@ -116,12 +104,6 @@
             "value" : "Signets"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Закладки"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -161,12 +143,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Emprunts"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Выдачи"
           }
         },
         "es" : {
@@ -210,12 +186,6 @@
             "value" : "Plus"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Еще"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -255,12 +225,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recherche"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поиск"
           }
         },
         "es" : {
@@ -303,12 +267,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Résumé"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сводка"
           }
         },
         "es" : {

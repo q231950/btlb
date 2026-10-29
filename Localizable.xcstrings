@@ -28,12 +28,6 @@
             "value" : "%@"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -74,12 +68,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: disponible"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@: доступно"
           }
         },
         "tr" : {
@@ -124,12 +112,6 @@
             "value" : "%@: non disponible"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@: недоступно"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -170,12 +152,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: disponibilité inconnue"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@: доступность неизвестна"
           }
         },
         "tr" : {
@@ -219,12 +195,6 @@
             "value" : "Disponibilités"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Доступность"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -263,12 +233,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Informations de débogage"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Отладочная информация"
           }
         },
         "tr" : {
@@ -312,12 +276,6 @@
             "value" : "Date de retour: %@"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Срок возврата: %@"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -354,12 +312,6 @@
           }
         },
         "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@"
@@ -406,12 +358,6 @@
             "value" : "Sélectionner les éléments à renouveler"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Выберите материалы для продления"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -451,12 +397,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les éléments sélectionnés seront renouvelés."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Выбранные материалы будут продлены."
           }
         },
         "tr" : {
@@ -499,12 +439,6 @@
             "value" : "Ok"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ок"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -543,12 +477,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effectuer une recherche"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поиск"
           }
         },
         "tr" : {
@@ -591,12 +519,6 @@
             "value" : "Rechercher"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поиск"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -637,12 +559,6 @@
             "value" : "Effectuer une recherche textuelle."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Выполнить текстовый поиск."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -681,12 +597,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recherche"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поиск"
           }
         },
         "tr" : {
@@ -730,12 +640,6 @@
             "value" : "Erreur"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ошибка"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -774,12 +678,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L'actualisation a échoué. Veuillez réessayer plus tard."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обновление не удалось. Пожалуйста, попробуйте позже."
           }
         },
         "tr" : {
@@ -823,12 +721,6 @@
             "value" : "Bibliothèque"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Библиотека"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -868,12 +760,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Renouveler les éléments sélectionnés de votre liste d'emprunts."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Продлить выбранные материалы из списка выдач."
           }
         },
         "tr" : {
@@ -917,12 +803,6 @@
             "value" : "Sélectionner les éléments"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Выбрать материалы"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -962,12 +842,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "livre"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "книга"
           }
         },
         "tr" : {
@@ -1011,12 +885,6 @@
             "value" : "bibliothèque"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "библиотека"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1056,12 +924,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "médias"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "медиа"
           }
         },
         "tr" : {
@@ -1105,12 +967,6 @@
             "value" : "prolonger"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "продлить"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1152,12 +1008,6 @@
             "value" : "renouveler"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "продление"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1197,12 +1047,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Renouvellement"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Продление"
           }
         },
         "tr" : {
@@ -1247,12 +1091,6 @@
             "value" : "Renouveler les éléments"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Продлить материалы"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1292,12 +1130,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Renouveler les éléments"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Продлить материалы"
           }
         },
         "tr" : {
@@ -1341,12 +1173,6 @@
             "value" : "Renouveler avec bɪtlɪb"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Продлить с bɪtlɪb"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1385,12 +1211,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rechercher"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поиск"
           }
         },
         "tr" : {
@@ -1433,12 +1253,6 @@
             "value" : "Rechercher dans BTLB"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поиск в BTLB"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1477,12 +1291,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entrez un terme de recherche et effectuez une recherche."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Введите поисковый запрос и выполните поиск."
           }
         },
         "tr" : {
@@ -1525,12 +1333,6 @@
             "value" : "Rechercher '%@'"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1569,12 +1371,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Terme de recherche"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поисковый термин"
           }
         },
         "tr" : {
@@ -1618,12 +1414,6 @@
             "value" : "Rechercher avec bɪtlɪb"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поиск с помощью bɪtlɪb"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1662,12 +1452,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le terme à rechercher."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "термин для поиска"
           }
         },
         "tr" : {

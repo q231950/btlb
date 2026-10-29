@@ -22,12 +22,6 @@
             "value" : "Le recommandeur de livres utilise un grand modèle de langage (LLM) pour suggérer des livres basés sur votre sélection de signets. Afin de fournir des suggestions, le _titre_ et l'_auteur_ de chaque élément sélectionné sont envoyés à un fournisseur LLM. Si vous n'êtes pas à l'aise avec la soumission de données au fournisseur LLM, vous pouvez désactiver la fonction Recommandeur dans la section des paramètres de l'application ou simplement ne pas l'utiliser. Veuillez également noter qu'en raison de la nature des LLM, les suggestions peuvent être drôles/étranges et peuvent contenir du contenu inattendu – il peut même y avoir des recommandations de livres qui n'existent pas dans le monde réel. Veuillez en être conscient et envoyer des commentaires en cas de résultats inattendus."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Рекомендатор книг использует большую языковую модель (БЯМ) для предложения книг на основе вашего выбора закладок. Для предоставления рекомендаций _название_ и _автор_ каждого выбранного элемента отправляются поставщику БЯМ. Если вы чувствуете дискомфорт при передаче данных поставщику БЯМ, вы можете отключить функцию Рекомендатора в разделе настроек приложения или просто не использовать её. Также обратите внимание, что из-за природы БЯМ предложения могут быть забавными/странными и содержать неожиданный контент – могут даже появиться рекомендации книг, которые не существуют в реальном мире. Пожалуйста, учитывайте это и присылайте обратную связь в случае неожиданных результатов."
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67,12 +61,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer le signet"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Удалить закладку"
           }
         },
         "uk" : {
@@ -116,12 +104,6 @@
             "value" : "🕵🏻 rien trouvé. Chaque mot de la chaîne de recherche est recherché dans les champs titre et cote d'un signet."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "🕵🏻 ничего не найдено. Каждое слово поисковой строки ищется в полях названия и шифра закладки."
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -161,12 +143,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Informations supplémentaires :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Дополнительная информация:"
           }
         },
         "uk" : {
@@ -210,12 +186,6 @@
             "value" : "Commentaires sur le recommandeur IA"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обратная связь об ИИ-рекомендаторе"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -255,12 +225,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout autre détail pertinent :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Любые другие соответствующие детали:"
           }
         },
         "uk" : {
@@ -304,12 +268,6 @@
             "value" : "Description du problème :"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Описание проблемы:"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -349,12 +307,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veuillez décrire le problème que vous avez rencontré avec le recommandeur IA :"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Пожалуйста, опишите проблему, с которой вы столкнулись при использовании ИИ-рекомендатора:"
           }
         },
         "uk" : {
@@ -398,12 +350,6 @@
             "value" : "Générer des recommandations"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сгенерировать рекомендации"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -443,12 +389,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comment fonctionne la recommandation de livres par IA"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Как работают ИИ-рекомендации книг"
           }
         },
         "uk" : {
@@ -492,12 +432,6 @@
             "value" : "Chargement des recommandations…"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Загрузка рекомендаций…"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -537,12 +471,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vos signets apparaîtront ici. Les signets peuvent être définis pour les résultats de recherche ainsi que pour les éléments empruntés ☝️"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Здесь будут отображаться ваши закладки. Закладки можно устанавливать для результатов поиска, а также для взятых книг ☝️"
           }
         },
         "uk" : {
@@ -586,12 +514,6 @@
             "value" : "Aucune recommandation trouvée."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Рекомендаций не найдено."
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -631,12 +553,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voici des recommandations basées sur les éléments sélectionnés. Appuyez sur n'importe lequel pour vérifier la disponibilité dans votre bibliothèque."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Это рекомендации на основе выбранных элементов. Нажмите на любой, чтобы проверить наличие в вашей библиотеке."
           }
         },
         "uk" : {
@@ -680,12 +596,6 @@
             "value" : "✨ Commentaires sur le recommandeur"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "✨ Обратная связь о Рекомендаторе"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -727,12 +637,6 @@
             "value" : "Veuillez sélectionner les signets pour lesquels vous souhaitez obtenir des recommandations"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Пожалуйста, выберите закладки, для которых вы хотите получить рекомендации"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -772,12 +676,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✨ Recommandeur"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "✨ Рекомендатор"
           }
         },
         "uk" : {

@@ -41,12 +41,6 @@
             "value": "Ok"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Хорошо"
-          }
-        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -85,12 +79,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quelque chose s'est mal passé."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Что-то пошло не так."
           }
         },
         "tr": {
@@ -134,12 +122,6 @@
             "value": "Oups"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Упс"
-          }
-        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -178,12 +160,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ok"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Хорошо"
           }
         },
         "tr": {
@@ -226,12 +202,6 @@
             "value": "• Avez-vous sélectionné la bonne bibliothèque ?"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "• Выбрали ли вы правильную библиотеку?"
-          }
-        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -270,12 +240,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "• Avez-vous saisi le bon nom d'utilisateur ?"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "• Правильно ли вы ввели имя пользователя?"
           }
         },
         "uk": {
@@ -318,12 +282,6 @@
             "value": "• Connaissez-vous votre mot de passe ? Attention, certaines bibliothèques bloquent le compte si vous le saisissez incorrectement trop souvent."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "• Знаете ли вы свой пароль? Имейте в виду, что некоторые библиотеки блокируют аккаунт при слишком частом неправильном вводе."
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -364,12 +322,6 @@
             "value": "• Si vous l'avez oublié, il y a le bouton '%@' ci-dessous qui ouvre le site web de la bibliothèque sélectionnée pour que vous puissiez y réinitialiser votre mot de passe."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "• Если вы забыли пароль, есть кнопка '%@' ниже, которая открывает веб-сайт выбранной библиотеки, где вы можете сбросить пароль."
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -408,12 +360,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réinitialiser le mot de passe"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Сбросить пароль"
           }
         },
         "uk": {
@@ -457,12 +403,6 @@
             "value": "Échec de la connexion"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ошибка входа"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -501,12 +441,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chat Lecteur"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Кот-читатель"
           }
         },
         "uk": {
@@ -549,12 +483,6 @@
             "value": "Canard Lecteur"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Утка-читатель"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -593,12 +521,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Renard Lecteur"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Лиса-читатель"
           }
         },
         "uk": {
@@ -641,12 +563,6 @@
             "value": "Cheval Lecteur"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Лошадка-читатель"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -685,12 +601,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lion Lecteur"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Лев-читатель"
           }
         },
         "uk": {
@@ -733,12 +643,6 @@
             "value": "Souris Lectrice"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мышка-читатель"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -777,12 +681,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Panda Lecteur"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Панда-читатель"
           }
         },
         "uk": {
@@ -825,12 +723,6 @@
             "value": "Caniche Lecteur"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пудель-читатель"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -869,12 +761,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lapin Lecteur"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Кролик-читатель"
           }
         },
         "uk": {
@@ -917,12 +803,6 @@
             "value": "Tigre Lecteur"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Тигр-читатель"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -961,12 +841,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tortue Lectrice"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Черепаха-читатель"
           }
         },
         "uk": {
@@ -1009,12 +883,6 @@
             "value": "Loup Lecteur"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Волк-читатель"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1053,12 +921,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se connecter"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Войти"
           }
         },
         "uk": {
@@ -1101,12 +963,6 @@
             "value": "Mon compte de bibliothèque"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мой библиотечный аккаунт"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1147,12 +1003,6 @@
             "value": "Sélectionner une bibliothèque"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Выберите библиотеку"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1191,12 +1041,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mot de passe"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пароль"
           }
         },
         "uk": {
@@ -1240,12 +1084,6 @@
             "value": "Ajouter un compte"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Добавить аккаунт"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1284,12 +1122,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Numéro de carte de bibliothèque"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Номер читательского билета"
           }
         },
         "uk": {
@@ -1332,12 +1164,6 @@
             "value": "• Frais dus : %@"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "• Задолженность: %@"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1376,12 +1202,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Commençons à lire"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Давайте читать"
           }
         },
         "uk": {
@@ -1425,12 +1245,6 @@
             "value": "Modifier le nom d'affichage"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Изменить отображаемое имя"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1469,12 +1283,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le compte de bibliothèque **%@** a été ajouté avec succès. Vous pouvez modifier ce compte ou en ajouter d'autres dans la _Section Paramètres_ de l'application à tout moment."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Библиотечный аккаунт **%@** успешно добавлен. Вы можете редактировать этот аккаунт или добавить дополнительные в _разделе Настройки_ приложения в любое время."
           }
         },
         "uk": {
@@ -1517,12 +1325,6 @@
             "value": "• Aucuns frais dus."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "• Нет задолженности."
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1561,12 +1363,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "• Jours jusqu'à la prochaine date d'expiration : **%@**"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "• Дней до следующей даты возврата: **%@**"
           }
         },
         "uk": {
@@ -1609,12 +1405,6 @@
             "value": "• Nombre d'emprunts : **%lld**"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "• Количество выданных книг: **%lld**"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1653,12 +1443,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vous pouvez maintenant gérer les emprunts de votre compte et consulter les frais."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Теперь вы можете управлять выданными книгами вашего аккаунта и просматривать задолженности."
           }
         },
         "uk": {
@@ -1701,12 +1485,6 @@
             "value": "Compte ajouté"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Аккаунт добавлен"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1745,12 +1523,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Activé"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Активирован"
           }
         },
         "uk": {
@@ -1793,12 +1565,6 @@
             "value": "Nom d'affichage"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Отображаемое имя"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1837,12 +1603,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mot de passe"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пароль"
           }
         },
         "uk": {
@@ -1885,12 +1645,6 @@
             "value": "Nom d'utilisateur"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Имя пользователя"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -1929,12 +1683,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer le compte"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Удалить аккаунт"
           }
         },
         "uk": {
@@ -1977,12 +1725,6 @@
             "value": "Annuler"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Отменить"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -2021,12 +1763,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer le compte"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Удалить аккаунт"
           }
         },
         "uk": {
@@ -2069,12 +1805,6 @@
             "value": "Supprimer"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Удалить"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -2113,12 +1843,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Êtes-vous sûr de vouloir supprimer ce compte ?"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Вы уверены, что хотите удалить этот аккаунт?"
           }
         },
         "uk": {
@@ -2161,12 +1885,6 @@
             "value": "Êtes-vous sûr de vouloir supprimer `%@` ?"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Вы уверены, что хотите удалить `%@`?"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -2205,12 +1923,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sélectionner une bibliothèque"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Выберите библиотеку"
           }
         },
         "uk": {
@@ -2254,12 +1966,6 @@
             "value": "Compte"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Аккаунт"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -2298,12 +2004,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Connecté"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Вошли"
           }
         },
         "uk": {
@@ -2346,12 +2046,6 @@
             "value": "Se connecter"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Войти"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -2390,12 +2084,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Déconnecté"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Не вошли"
           }
         },
         "uk": {
@@ -2439,12 +2127,6 @@
             "value": "Éditer"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Редактировать"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -2484,12 +2166,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ajouter un compte"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Добавить аккаунт"
           }
         },
         "uk": {
@@ -2534,12 +2210,6 @@
             "value": "Nom d'affichage"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Отображаемое имя"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -2580,12 +2250,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Créé"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Создан"
           }
         },
         "uk": {
@@ -2630,12 +2294,6 @@
             "value": "votre ID de compte..."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ваш ID аккаунта..."
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -2676,12 +2334,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mis à jour"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Обновлен"
           }
         },
         "uk": {
@@ -2726,12 +2378,6 @@
             "value": "Jamais mis à jour"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Никогда не обновлялся"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -2772,12 +2418,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bibliothèque"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Библиотека"
           }
         },
         "uk": {
@@ -2822,12 +2462,6 @@
             "value": "Nom d'utilisateur"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Имя пользователя"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -2868,12 +2502,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Comptes"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Аккаунты"
           }
         },
         "uk": {
@@ -2918,12 +2546,6 @@
             "value": "Activé"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Активирован"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -2964,12 +2586,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Appuyez sur \"+\" pour ajouter un compte."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Нажмите \"+\", чтобы добавить аккаунт."
           }
         },
         "uk": {
@@ -3014,12 +2630,6 @@
             "value": "Appuyez sur \"Éditer\" pour ajouter ou supprimer des comptes."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Нажмите \"Редактировать\", чтобы добавить или удалить аккаунты."
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -3058,12 +2668,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Avatars"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Аватары"
           }
         },
         "uk": {
@@ -3106,12 +2710,6 @@
             "value": "Annuler"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Отменить"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -3152,12 +2750,6 @@
             "value": "ANNULER"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ОТМЕНИТЬ"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -3196,12 +2788,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Balayez horizontalement pour trouver un avatar adapté à votre compte."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Проведите горизонтально, чтобы найти подходящий аватар для вашего аккаунта."
           }
         },
         "uk": {
@@ -3246,12 +2832,6 @@
             "value": "créer un nouveau compte"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "создать новый аккаунт"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -3290,12 +2870,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Terminé"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Готово"
           }
         },
         "uk": {
@@ -3340,12 +2914,6 @@
             "value": "Appuyez sur \"Éditer\" pour modifier les entrées."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Нажмите \"Редактировать\", чтобы изменить записи."
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -3386,12 +2954,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "n'est pas activé"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "не активирован"
           }
         },
         "uk": {
@@ -3436,12 +2998,6 @@
             "value": "n'est pas activé. Activez-le dans la vue Comptes."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "не активирован. Активируйте его в разделе \"Аккаунты\"."
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -3484,12 +3040,6 @@
             "value": "n'est pas actif. Échec de la connexion."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "не активен. Ошибка входа."
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -3528,12 +3078,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "BIBLIOTHÈQUES"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "БИБЛИОТЕКИ"
           }
         },
         "uk": {
@@ -3575,12 +3119,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Plus"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Больше"
           }
         },
         "uk": {
@@ -3625,12 +3163,6 @@
             "value": "Non activé"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Не активирован"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -3671,12 +3203,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "non défini..."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "не установлен..."
           }
         },
         "uk": {
@@ -3721,12 +3247,6 @@
             "value": "défini"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "установлен"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -3767,12 +3287,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Il n'y a aucun compte à mettre à jour. Souhaitez-vous en créer un ?"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Нет аккаунта для обновления. Хотели бы вы создать его?"
           }
         },
         "uk": {
@@ -3817,12 +3331,6 @@
             "value": "Appuyez sur \"Terminé\" ou activez le compte pour enregistrer les modifications."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Нажмите \"Готово\" или активируйте аккаунт, чтобы сохранить изменения."
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -3863,12 +3371,6 @@
             "value": "Passer à la vue grille"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Переключиться на вид сетки"
-          }
-        },
         "uk": {
           "stringUnit": {
             "state": "translated",
@@ -3907,12 +3409,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Passer à la vue liste"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Переключиться на вид списка"
           }
         },
         "uk": {

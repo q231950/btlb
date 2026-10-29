@@ -27,12 +27,6 @@
             "value" : "bit lib"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "бит либ"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71,12 +65,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bit lib"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "бит либ"
           }
         },
         "tr" : {
@@ -119,12 +107,6 @@
             "value" : "bib"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "либ"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -163,12 +145,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bitlib"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "битлиб"
           }
         },
         "tr" : {
@@ -211,12 +187,6 @@
             "value" : "bit lib"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "бит либ"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -255,12 +225,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bib"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "биб"
           }
         },
         "tr" : {
@@ -341,12 +305,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bit lib"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "бит либ"
           }
         },
         "tr" : {

@@ -19,12 +19,6 @@
             "value" : "actualisation des comptes…"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "обновление аккаунтов…"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",

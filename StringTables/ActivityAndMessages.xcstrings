@@ -22,12 +22,6 @@
             "value" : "identifiants incorrects"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "неверные учетные данные"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67,12 +61,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Succès"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Успешно"
           }
         },
         "uk" : {
@@ -116,12 +104,6 @@
             "value" : "Activation du compte"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Активация аккаунта"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -161,12 +143,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "initialisation..."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "инициализация..."
           }
         },
         "uk" : {
@@ -210,12 +186,6 @@
             "value" : "Cela peut prendre un moment"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Это может занять некоторое время"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -257,12 +227,6 @@
             "value" : "Mise à jour des comptes"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обновление аккаунтов"
-          }
-        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
@@ -302,12 +266,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mise à jour des bibliothèques"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обновление библиотек"
           }
         },
         "uk" : {

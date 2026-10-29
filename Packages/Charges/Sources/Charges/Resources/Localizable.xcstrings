@@ -27,12 +27,6 @@
             "value" : " (payé)"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : " (оплачено)"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -73,12 +67,6 @@
             "value" : "Total"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Итого"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -117,12 +105,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun frais"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нет платежей"
           }
         },
         "tr" : {

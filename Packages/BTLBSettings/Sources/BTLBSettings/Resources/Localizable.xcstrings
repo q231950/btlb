@@ -21,12 +21,6 @@
             "value" : "**%@**"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "**%@**"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -65,12 +59,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "BTLB | bɪtlɪb | est une petite application qui vous permet de synchroniser votre compte de bibliothèque avec votre appareil. Avec BTLB, vous pouvez voir quels livres vous avez empruntés et combien vous devez aux bibliothèques pour des retours tardifs. Vous pouvez interagir avec votre bibliothèque car l'application peut prolonger les éléments d'un simple toucher.\nBTLB a été publié pour la première fois en juillet 2010. Le projet a vu le jour environ un an avant la date de sortie réelle. Il provient d'une application Mac sur laquelle je travaillais depuis 2007.\n\nVous êtes libre d'utiliser cette application autant que vous le souhaitez. Cependant, je ne peux donner aucune garantie ni sur la fonctionnalité de l'application elle-même ni sur l'interaction entre cette application et les serveurs des bibliothèques."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "BTLB | bɪtlɪb | это небольшое приложение, которое позволяет синхронизировать ваш библиотечный аккаунт с вашим устройством. С помощью BTLB вы можете видеть, какие книги вы взяли в аренду и сколько вы должны библиотекам за несвоевременный возврат. Вы можете взаимодействовать с библиотекой, поскольку приложение может продлевать сроки одним касанием пальца.\nBTLB впервые был выпущен в июле 2010 года. Проект возник примерно за год до фактической даты выпуска. Он происходит от приложения для Mac, над которым я работал с 2007 года.\n\nВы можете использовать это приложение сколько угодно. Однако я не могу дать никаких гарантий ни функциональности самого приложения, ни взаимодействия между этим приложением и серверами библиотек."
           }
         },
         "tr" : {
@@ -114,12 +102,6 @@
             "value" : "**Fait avec 💖 – fait pour vous.**"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "**Сделано с 💖 – сделано для вас.**"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -159,12 +141,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le recommandeur IA devrait-il être disponible dans la section Signets ?"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Должен ли ИИ-рекомендатель быть доступен в разделе закладок?"
           }
         },
         "tr" : {
@@ -208,12 +184,6 @@
             "value" : "✨Recommandeur IA"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "✨ИИ-рекомендатель"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -252,12 +222,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Souhaitez-vous utiliser l'icône d'application alternative ?"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Хотели бы вы использовать альтернативную иконку приложения?"
           }
         },
         "tr" : {
@@ -300,12 +264,6 @@
             "value" : "Icône d'application"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Иконка приложения"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -344,12 +302,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Paramètre pour les développeurs et les testeurs bêta"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Настройка для разработчиков и бета-тестеров"
           }
         },
         "tr" : {
@@ -392,12 +344,6 @@
             "value" : "Débogage"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Отладка"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -430,12 +376,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dépôt GitHub"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "GitHub репозиторий"
           }
         },
         "tr" : {
@@ -481,12 +421,6 @@
             "value" : "BTLB n'est qu'une enveloppe autour de la Fondation des bibliothèques publiques de Hambourg et du Réseau commun des bibliothèques (GBV) des États allemands de Brême, Hambourg, Mecklembourg-Poméranie-Occidentale, Basse-Saxe, Saxe-Anhalt, Schleswig-Holstein, Thuringe et de la Fondation du patrimoine culturel prussien pour rendre leur contenu plus accessible sur mobile. Si vous aimez BTLB, c'est aux bibliothèques que vous devez vraiment votre reconnaissance puisqu'elles sont les gardiennes du contenu que vous voyez dans BTLB. _Sans leurs efforts et leur passion, BTLB serait une coquille vide - ce sont les bibliothèques qui lui donnent vie_"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "BTLB является всего лишь оболочкой вокруг Фонда гамбургских общественных библиотек и Общего библиотечного союза (GBV) немецких земель Бремен, Гамбург, Мекленбург-Передняя Померания, Нижняя Саксония, Саксония-Анхальт, Шлезвиг-Гольштейн, Тюрингия и Фонда прусского культурного наследия, чтобы сделать их содержимое более доступным на мобильных устройствах. Если вам нравится BTLB, то истинная благодарность принадлежит библиотекам, поскольку они являются хранителями содержимого, которое вы видите в BTLB. _Без их усилий и страсти BTLB был бы пустой оболочкой - это библиотеки наполняют его жизнью_"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -526,12 +460,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contenus"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Содержимое"
           }
         },
         "tr" : {
@@ -575,12 +503,6 @@
             "value" : "Catalogue général de la bibliothèque de l'Université d'Anhalt"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Общий каталог библиотеки университета Анхальт"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -620,12 +542,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Catalogue en ligne de la Bibliothèque commerciale"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Онлайн-каталог Коммерческой библиотеки"
           }
         },
         "tr" : {
@@ -669,12 +585,6 @@
             "value" : "Catalogue en ligne de la Bibliothèque universitaire et de recherche d'Erfurt/Gotha"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Онлайн-каталог университетской и исследовательской библиотеки Эрфурт/Гота"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -714,12 +624,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliothèque d'État et universitaire de Basse-Saxe Göttingen (SUB)"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нижнесаксонская государственная и университетская библиотека Гёттинген (SUB)"
           }
         },
         "tr" : {
@@ -763,12 +667,6 @@
             "value" : "Catalogue en ligne de la Bibliothèque universitaire de Greifswald"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Онлайн-каталог университетской библиотеки Грайфсвальд"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -808,12 +706,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Catalogue Campus Hambourg"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Кампус-каталог Гамбург"
           }
         },
         "tr" : {
@@ -857,12 +749,6 @@
             "value" : "Fondation des bibliothèques publiques de Hambourg"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Фонд гамбургских общественных библиотек"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -902,12 +788,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliothèque d'information technique (TIB)"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Техническая информационная библиотека (TIB)"
           }
         },
         "tr" : {
@@ -951,12 +831,6 @@
             "value" : "Catalogue général de la bibliothèque"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Общий каталог библиотеки"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -996,12 +870,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Catalogue du service d'information et de bibliothèque universitaire (HIBS)"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Каталог университетского информационного и библиотечного сервиса (HIBS)"
           }
         },
         "tr" : {
@@ -1045,12 +913,6 @@
             "value" : "Catalogue en ligne de la Bibliothèque universitaire de Hildesheim"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Онлайн-каталог университетской библиотеки Хильдесхайм"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1090,12 +952,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliothèque commune de l'Université de Hanovre et de l'Université de musique, théâtre et médias de Hanovre"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Общая библиотека университета Ганновер и университета музыки, театра и медиа Ганновер"
           }
         },
         "tr" : {
@@ -1139,12 +995,6 @@
             "value" : "Bibliothèque universitaire"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университетская библиотека"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1184,12 +1034,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Catalogue régional"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Региональный каталог"
           }
         },
         "tr" : {
@@ -1233,12 +1077,6 @@
             "value" : "Livres et revues de la Bibliothèque universitaire de la TUHH"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Книги и журналы университетской библиотеки TUHH"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1278,12 +1116,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Catalogue en ligne de la bibliothèque universitaire"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Онлайн-каталог университетской библиотеки"
           }
         },
         "tr" : {
@@ -1327,12 +1159,6 @@
             "value" : "Université d'Anhalt"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университет Анхальт"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1372,12 +1198,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliothèque commerciale de Hambourg"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Коммерческая библиотека Гамбург"
           }
         },
         "tr" : {
@@ -1421,12 +1241,6 @@
             "value" : "Bibliothèque universitaire et de recherche d'Erfurt/Gotha"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университетская и исследовательская библиотека Эрфурт/Гота"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1466,12 +1280,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Catalogue universitaire de Göttingen (GUK)"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Гёттингенский университетский каталог (GUK)"
           }
         },
         "tr" : {
@@ -1515,12 +1323,6 @@
             "value" : "Bibliothèque universitaire de Greifswald"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университетская библиотека Грайфсвальд"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1560,12 +1362,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliothèque d'État et universitaire de Hambourg Carl von Ossietzky"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Государственная и университетская библиотека Гамбург им. Карла фон Оссиецкого"
           }
         },
         "tr" : {
@@ -1609,12 +1405,6 @@
             "value" : "Bibliothèques de Hambourg"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Библиотеки Гамбурга"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1654,12 +1444,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Université Leibniz de Hanovre"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университет Лайбница Ганновер"
           }
         },
         "tr" : {
@@ -1703,12 +1487,6 @@
             "value" : "Université des sciences appliquées de Hambourg (HAW Hambourg)"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университет прикладных наук Гамбург (HAW Гамбург)"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1748,12 +1526,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Université de Hanovre"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университет Ганновер"
           }
         },
         "tr" : {
@@ -1797,12 +1569,6 @@
             "value" : "Bibliothèque universitaire de Hildesheim"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университетская библиотека Хильдесхайм"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1842,12 +1608,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliothèque du Forum Kurt-Schwitters"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Библиотека форума Курта Швиттерса"
           }
         },
         "tr" : {
@@ -1891,12 +1651,6 @@
             "value" : "Université Helmut-Schmidt / Université de la Bundeswehr de Hambourg"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университет Гельмута Шмидта / Университет бундесвера Гамбург"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1936,12 +1690,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliothèque universitaire de Rostock"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университетская библиотека Росток"
           }
         },
         "tr" : {
@@ -1985,12 +1733,6 @@
             "value" : "Bibliothèque universitaire de l'Université technique de Hambourg-Harburg"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университетская библиотека Технического университета Гамбург-Харбург"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2030,12 +1772,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Université de Wismar - École supérieure de technologie, économie et design"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Университет Висмар - высшая школа техники, экономики и дизайна"
           }
         },
         "tr" : {
@@ -2078,12 +1814,6 @@
             "value" : "Vous n'avez jamais mis à jour vos comptes manuellement. Tirez pour actualiser dans la section emprunts ou frais de l'application pour déclencher une mise à jour."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Вы никогда не обновляли свои аккаунты вручную. Потяните вниз в разделе займов или платежей приложения, чтобы запустить обновление."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2124,12 +1854,6 @@
             "value" : "Vos comptes n'ont jamais été mis à jour en arrière-plan."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ваши аккаунты никогда не обновлялись в фоновом режиме."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2168,12 +1892,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les bibliothèques de la Fondation des bibliothèques publiques de Hambourg et beaucoup du Réseau commun des bibliothèques (GBV) sont supportées en ce moment. Veuillez nous contacter si vous souhaitez que votre bibliothèque soit ajoutée."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "В настоящее время поддерживаются библиотеки Фонда гамбургских общественных библиотек и многие библиотеки Общего библиотечного союза (GBV). Пожалуйста, свяжитесь с нами, если вы хотите добавить свою библиотеку."
           }
         },
         "tr" : {
@@ -2217,12 +1935,6 @@
             "value" : "Bibliothèques supportées"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поддерживаемые библиотеки"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2257,12 +1969,6 @@
             "value" : "Licence"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Лицензия"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2295,12 +2001,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liens"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ссылки"
           }
         },
         "tr" : {
@@ -2344,12 +2044,6 @@
             "value" : "La dernière mise à jour automatique en arrière-plan a eu lieu le %@"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Последнее автоматическое фоновое обновление произошло %@"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2388,12 +2082,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recevez des notifications concernant les mises à jour automatiques de compte qui se sont produites pendant que l'application était en arrière-plan."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Получайте уведомления об автоматических обновлениях аккаунтов, которые произошли, когда приложение работало в фоновом режиме."
           }
         },
         "tr" : {
@@ -2436,12 +2124,6 @@
             "value" : "Combien de jours avant l'expiration d'un élément souhaitez-vous être notifié ?"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "За сколько дней до истечения срока аренды вы хотели бы получать уведомления?"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2480,12 +2162,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heure de notification"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Время уведомления"
           }
         },
         "tr" : {
@@ -2528,12 +2204,6 @@
             "value" : "Notifications de mise à jour de compte"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Уведомления об обновлении аккаунта"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2572,12 +2242,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "**BTLB n'est pas autorisé à diffuser des notifications**"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "**BTLB не разрешено отправлять уведомления**"
           }
         },
         "tr" : {
@@ -2620,12 +2284,6 @@
             "value" : "Vous pouvez autoriser cela dans les paramètres système."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Вы можете разрешить это в системных настройках."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2664,12 +2322,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recevez une notification silencieuse dans le Centre de notifications lors de l'expiration d'emprunts et d'autres événements sélectionnés."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Получайте тихие уведомления в Центре уведомлений о сроке истечения займов и других выбранных событиях."
           }
         },
         "tr" : {
@@ -2713,12 +2365,6 @@
             "value" : "Notifications"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Уведомления"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2751,12 +2397,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🦄 Open Source"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "🦄 Открытый код"
           }
         },
         "tr" : {
@@ -2800,12 +2440,6 @@
             "value" : "BTLB | bɪtlɪb | est open source ! Vous pouvez consulter son code à tout moment ou même le modifier. Vous êtes invité à ouvrir une Issue ou à proposer des modifications de code dans une pull request.\n\nAinsi, cette section de l'application est dédiée à la passion et à la créativité de tous les contributeurs qui ont travaillé sur cette application ! Merci de rendre BTLB meilleur qu'il n'aurait jamais pu l'être sans vous 💖"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "BTLB | bɪtlɪb | имеет открытый код! Вы можете посмотреть на его код в любое время или даже изменить его. Мы приглашаем вас открыть Issue или предложить изменения кода через pull request.\n\nПоэтому этот раздел приложения посвящён страсти и творчеству всех участников, которые работали над этим приложением! Спасибо за то, что сделали BTLB лучше, чем он когда-либо мог бы быть без вас 💖"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2844,12 +2478,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cette application n'enregistre ni ne partage aucune de vos informations personnelles. Votre utilisation n'est pas suivie."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Это приложение не ведёт логи и не передаёт вашу личную информацию третьим лицам. Ваше использование не отслеживается."
           }
         },
         "tr" : {
@@ -2893,12 +2521,6 @@
             "value" : "Politique de confidentialité"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Политика конфиденциальности"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2937,12 +2559,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veuillez noter que les transferts de données seront envoyés via le protocole de transfert hypertexte sécurisé (HTTPS) tant que la bibliothèque de votre compte prend en charge ce type de communication chiffrée. Si vous remarquez une absence de chiffrement HTTPS là où la communication chiffrée HTTPS devrait être possible côté serveur, veuillez me contacter."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Обратите внимание, что передача данных будет осуществляться по защищённому протоколу передачи гипертекста (HTTPS), пока библиотека вашего аккаунта поддерживает этот тип шифрованной связи. Если вы обнаружите отсутствие HTTPS-шифрования там, где шифрованная связь HTTPS должна быть возможна на стороне сервера, пожалуйста, свяжитесь со мной."
           }
         },
         "tr" : {
@@ -2987,12 +2603,6 @@
             "value" : "Note sur la sécurité"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Замечание о безопасности"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3032,12 +2642,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La dernière mise à jour manuelle a eu lieu le %@."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Последнее ручное обновление произошло %@."
           }
         },
         "tr" : {
@@ -3081,12 +2685,6 @@
             "value" : "La dernière mise à jour réussie du compte en arrière-plan a eu lieu le %@."
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Последнее успешное фоновое обновление аккаунта произошло %@."
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3125,12 +2723,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Version"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Версия"
           }
         },
         "tr" : {
