@@ -4,7 +4,7 @@ import XCTest
 final class LibraryCoreTests: XCTestCase {
     func testExample() throws {
         XCTAssertEqual(LibraryModel(name: "Bücherhallen Hamburg",
-                                    identifier: "HAMBUE",
-                                    type: .hamburgPublic).name, "Bücherhallen Hamburg")
+                                    subtitle: nil,
+                                    identifier: "HAMBUE").name, "Bücherhallen Hamburg")
     }
 }
