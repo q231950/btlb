@@ -20,7 +20,7 @@ cd ../Packages/shared/paper
 make prepare-apple
 cd paper
 make apple-release
-status=$?
+make_status=$?
 
 # Diagnostics for the Paper Swift Package, e.g. when Paper.swift cannot find RustBuffer
 echo "=== Paper diagnostics ==="
@@ -49,4 +49,4 @@ grep -n "canImport\|^import" paper-package/Sources/Paper/Paper.swift
 echo "=== End of Paper diagnostics ==="
 
 # keep failing the build when making the package failed
-exit $status
+exit $make_status
