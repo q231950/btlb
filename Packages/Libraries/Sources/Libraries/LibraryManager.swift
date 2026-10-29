@@ -63,21 +63,16 @@ public final class LibraryManager: LibraryProvider {
         return resultID
     }
 
-    public func loadOrUpdateLibraries(in context: NSManagedObjectContext?) {
-        guard let url = Bundle.main.url(forResource: "Libraries", withExtension: "plist"),
-              let data = try? Data(contentsOf: url),
-              let plist = try? PropertyListSerialization.propertyList(from: data,
-                                                                      format: nil) as? [String: Any],
-              let version = plist[Constants.versionKey] as? NSNumber,
-              currentLibrariesVersion != version else {
-            return
-        }
+    public func loadOrUpdateLibraries(
+        in context: NSManagedObjectContext?,
+        libraryProvider: LibraryModelProvider
+    ) {
+        let libraries = libraryProvider.libraries()
 
-        if let context, let libraries = plist[Constants.librariesKey] as? [[String: Any]] {
-            libraries.forEach { libraryDict in
-                insertOrUpdateLibrary(with: libraryDict, context: context)
+        if let context {
+            libraries.forEach { library in
+                insertOrUpdateLibrary(with: library, context: context)
             }
-            currentLibrariesVersion = version
         }
     }
 
@@ -101,9 +96,9 @@ public final class LibraryManager: LibraryProvider {
         }
     }
     
-    private func insertOrUpdateLibrary(with dictionary: [String: Any], context: NSManagedObjectContext) {
-        guard let identifier = dictionary[Constants.libraryIdentifierKey] as? String else { return }
-        
+    private func insertOrUpdateLibrary(with libraryModel: any LibraryCore.Library, context: NSManagedObjectContext) {
+        guard let identifier = libraryModel.identifier else { return }
+
         let libraryManagedObject: Persistence.Library
         if let existingLibraryID = library(forIdentifier: identifier, in: context),
            let existing = try? context.existingObject(with: existingLibraryID) as? Persistence.Library {
@@ -113,11 +108,11 @@ public final class LibraryManager: LibraryProvider {
         }
         
         libraryManagedObject.identifier = identifier
-        libraryManagedObject.baseURL = dictionary[Constants.baseUrlKey] as? String
-        libraryManagedObject.catalogueBaseString = dictionary[Constants.catalogUrlKey] as? String
-        libraryManagedObject.subtitle = dictionary[Constants.librarySubtitleKey] as? String
-        libraryManagedObject.name = dictionary[Constants.libraryNameKey] as? String
-        
+        libraryManagedObject.subtitle = libraryModel.subtitle
+        libraryManagedObject.name = libraryModel.name
+        libraryManagedObject.enabledForLogin = libraryModel.enabledForLogin
+        libraryManagedObject.enabledForSearch = libraryModel.enabledForSearch
+
         try? context.save()
     }
 }
