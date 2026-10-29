@@ -19,10 +19,9 @@ public final class TestHelper {
 
     public init() {}
     
-    /// @return data from the fixture with the given file name and type
+    /// @return data from the fixture with the given file name and type in the given bundle
     /// @details uses html as default file type
-    public static func data(resource: String, type: DataType = .html, bundle: Bundle? = nil) -> Data {
-        let bundle = bundle ?? Bundle.module
+    public static func data(resource: String, type: DataType = .html, bundle: Bundle) -> Data {
         let path: String?
         switch type {
         case .html:
