@@ -15,16 +15,16 @@ public struct BTLBShortcutsProvider: AppShortcutsProvider {
     public static var appShortcuts: [AppShortcut] {
         AppShortcut(intent: PerformSearchIntent(),
                     phrases: [
-                        "Search in \(.applicationName) |bɪtlɪb|",
-                        "Find in \(.applicationName) |bɪtlɪb|",
-                        "Look for something in \(.applicationName) |bɪtlɪb|"
+                        "Search in \(.applicationName) (bɪtlɪb)",
+                        "Find in \(.applicationName) (bɪtlɪb)",
+                        "Look for something in \(.applicationName) (bɪtlɪb)"
                     ],
                     shortTitle: "Search",
                     systemImageName: "text.magnifyingglass")
 
         AppShortcut(intent: RenewItemsIntent(),
                     phrases: [
-                        "Renew with \(.applicationName) |bɪtlɪb|",
+                        "Renew with \(.applicationName) (bɪtlɪb)",
                         "Renew using \(.applicationName)",
                         "Renew Items with \(.applicationName)",
                         "Renew Books with \(.applicationName)",

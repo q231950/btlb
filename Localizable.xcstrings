@@ -1146,43 +1146,43 @@
         }
       }
     },
-    "Renew with bɪtlɪb" : {
+    "Renew with ${applicationName} (bɪtlɪb)" : {
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Verlängere mit bɪtlɪb"
+            "value" : "Verlängere mit ${applicationName} (bɪtlɪb)"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Renew with bɪtlɪb"
+            "value" : "Renew with ${applicationName} (bɪtlɪb)"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Renovar con bɪtlɪb"
+            "value" : "Renovar con ${applicationName} (bɪtlɪb)"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Renouveler avec bɪtlɪb"
+            "value" : "Renouveler avec ${applicationName} (bɪtlɪb)"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bɪtlɪb ile yenile"
+            "value" : "${applicationName} (bɪtlɪb) ile yenile"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Продовжити з bɪtlɪb"
+            "value" : "Продовжити з ${applicationName} (bɪtlɪb)"
           }
         }
       }
@@ -1387,43 +1387,43 @@
         }
       }
     },
-    "Search with bɪtlɪb" : {
+    "Search with ${applicationName} (bɪtlɪb)" : {
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suche mit bɪtlɪb"
+            "value" : "Suche mit ${applicationName} (bɪtlɪb)"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Search with bɪtlɪb"
+            "value" : "Search with ${applicationName} (bɪtlɪb)"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Buscar con bɪtlɪb"
+            "value" : "Buscar con ${applicationName} (bɪtlɪb)"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rechercher avec bɪtlɪb"
+            "value" : "Rechercher avec ${applicationName} (bɪtlɪb)"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bɪtlɪb ile ara"
+            "value" : "${applicationName} (bɪtlɪb) ile ara"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Пошук з bɪtlɪb"
+            "value" : "Пошук з ${applicationName} (bɪtlɪb)"
           }
         }
       }
