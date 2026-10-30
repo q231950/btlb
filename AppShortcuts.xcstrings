@@ -1,14 +1,14 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Renew with ${applicationName} |bɪtlɪb|" : {
+    "Renew with ${applicationName} (bɪtlɪb)" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringSet" : {
             "state" : "translated",
             "values" : [
-              "Verlängere mit ${applicationName} |bɪtlɪb|"
+              "Verlängere mit ${applicationName} (bɪtlɪb)"
             ]
           }
         },
@@ -16,7 +16,7 @@
           "stringSet" : {
             "state" : "new",
             "values" : [
-              "Renew with ${applicationName} |bɪtlɪb|",
+              "Renew with ${applicationName} (bɪtlɪb)",
               "Renew using ${applicationName}",
               "Renew Items with ${applicationName}",
               "Renew Books with ${applicationName}",
@@ -42,7 +42,7 @@
           "stringSet" : {
             "state" : "translated",
             "values" : [
-              "Renovar con ${applicationName} |bɪtlɪb|"
+              "Renovar con ${applicationName} (bɪtlɪb)"
             ]
           }
         },
@@ -50,7 +50,7 @@
           "stringSet" : {
             "state" : "translated",
             "values" : [
-              "Renouveler avec ${applicationName} |bɪtlɪb|"
+              "Renouveler avec ${applicationName} (bɪtlɪb)"
             ]
           }
         },
@@ -58,7 +58,7 @@
           "stringSet" : {
             "state" : "translated",
             "values" : [
-              "${applicationName} |bɪtlɪb| ile yenile"
+              "${applicationName} (bɪtlɪb) ile yenile"
             ]
           }
         },
@@ -66,20 +66,20 @@
           "stringSet" : {
             "state" : "translated",
             "values" : [
-              "Продовжити з ${applicationName} |bɪtlɪb|"
+              "Продовжити з ${applicationName} (bɪtlɪb)"
             ]
           }
         }
       }
     },
-    "Search in ${applicationName} |bɪtlɪb|" : {
+    "Search in ${applicationName} (bɪtlɪb)" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "de" : {
           "stringSet" : {
             "state" : "translated",
             "values" : [
-              "Suche in ${applicationName} |bɪtlɪb|"
+              "Suche in ${applicationName} (bɪtlɪb)"
             ]
           }
         },
@@ -87,9 +87,9 @@
           "stringSet" : {
             "state" : "new",
             "values" : [
-              "Search in ${applicationName} |bɪtlɪb|",
-              "Find in ${applicationName} |bɪtlɪb|",
-              "Look for something in ${applicationName} |bɪtlɪb|"
+              "Search in ${applicationName} (bɪtlɪb)",
+              "Find in ${applicationName} (bɪtlɪb)",
+              "Look for something in ${applicationName} (bɪtlɪb)"
             ]
           }
         },
@@ -97,7 +97,7 @@
           "stringSet" : {
             "state" : "translated",
             "values" : [
-              "Buscar en ${applicationName} |bɪtlɪb|"
+              "Buscar en ${applicationName} (bɪtlɪb)"
             ]
           }
         },
@@ -105,7 +105,7 @@
           "stringSet" : {
             "state" : "translated",
             "values" : [
-              "Rechercher dans ${applicationName} |bɪtlɪb|"
+              "Rechercher dans ${applicationName} (bɪtlɪb)"
             ]
           }
         },
@@ -113,7 +113,7 @@
           "stringSet" : {
             "state" : "translated",
             "values" : [
-              "${applicationName} |bɪtlɪb| içinde ara"
+              "${applicationName} (bɪtlɪb) içinde ara"
             ]
           }
         },
@@ -121,7 +121,7 @@
           "stringSet" : {
             "state" : "translated",
             "values" : [
-              "Пошук у ${applicationName} |bɪtlɪb|"
+              "Пошук у ${applicationName} (bɪtlɪb)"
             ]
           }
         }
