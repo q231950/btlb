@@ -1,0 +1,16 @@
+/*
+  Loans.strings
+
+
+  Created by Martin Kim Dung-Pham on 15.04.23.
+
+*/
+"notification item expires today description text" = "El préstamo vence hoy – es hora de actuar.";
+"notification item expires tomorrow description text" = "Mañana se cumple el plazo de préstamo. Recibirás entonces un recordatorio.";
+"notification trigger date description text" = "Recibirás el %@ un recordatorio sobre el vencimiento del préstamo.";
+"notification trigger expired item" = "El plazo de préstamo de este material ha expirado. Se te recordará nuevamente el %@.";
+"accessibility bookmark" = "Añadir marcador";
+"accessibility unbookmark" = "Eliminar marcador";
+"accessibility renew" = "renovar";
+"accessibility not renewable" = "no renovable";
+"accessibility renewed" = "renovado";

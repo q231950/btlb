@@ -13,7 +13,31 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The book recommender uses a large language model (LLM) to suggest books based on your selection of bookmarks. In order to provide suggestions the _title_ and _author_ of each selected item is sent to an LLM provider. If you feel uncomfortable with submitting data to the LLM provider you can turn off the Recommender feature in the settings section of the app or simply don’t use it. Please also note that because of the nature of LLMs the suggestions might be funny/weird and may contain unexpected content – there may even be recommendations of books which do not exist in the real world. Please be aware of this and send feedback in case of unexpected results."
+            "value" : "The book recommender uses a large language model (LLM) to suggest books based on your selection of bookmarks. In order to provide suggestions the _title_ and _author_ of each selected item is sent to an LLM provider. If you feel uncomfortable with submitting data to the LLM provider you can turn off the Recommender feature in the settings section of the app or simply don't use it. Please also note that because of the nature of LLMs the suggestions might be funny/weird and may contain unexpected content – there may even be recommendations of books which do not exist in the real world. Please be aware of this and send feedback in case of unexpected results."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le recommandeur de livres utilise un grand modèle de langage (LLM) pour suggérer des livres basés sur votre sélection de signets. Afin de fournir des suggestions, le _titre_ et l'_auteur_ de chaque élément sélectionné sont envoyés à un fournisseur LLM. Si vous n'êtes pas à l'aise avec la soumission de données au fournisseur LLM, vous pouvez désactiver la fonction Recommandeur dans la section des paramètres de l'application ou simplement ne pas l'utiliser. Veuillez également noter qu'en raison de la nature des LLM, les suggestions peuvent être drôles/étranges et peuvent contenir du contenu inattendu – il peut même y avoir des recommandations de livres qui n'existent pas dans le monde réel. Veuillez en être conscient et envoyer des commentaires en cas de résultats inattendus."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рекомендатор книг використовує велику мовну модель (ВММ) для пропонування книг на основі вашого вибору закладок. Для надання пропозицій _назва_ та _автор_ кожного обраного елемента надсилаються провайдеру ВММ. Якщо вам некомфортно передавати дані провайдеру ВММ, ви можете вимкнути функцію Рекомендатора в налаштуваннях програми або просто не використовувати її. Також зауважте, що через природу ВММ пропозиції можуть бути кумедними/дивними та містити неочікуваний контент – навіть можуть з'явитися рекомендації книг, які не існують у реальному світі. Будьте свідомі цього та надсилайте зворотний зв'язок у випадку неочікуваних результатів."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El recomendador de libros utiliza un modelo de lenguaje grande (LLM) para sugerir libros basados en tu selección de marcadores. Para proporcionar sugerencias, el _título_ y _autor_ de cada elemento seleccionado se envían a un proveedor de LLM. Si te sientes incómodo enviando datos al proveedor de LLM, puedes desactivar la función de Recomendador en la sección de configuración de la aplicación o simplemente no usarla. También ten en cuenta que debido a la naturaleza de los LLM, las sugerencias pueden ser divertidas/extrañas y pueden contener contenido inesperado – incluso puede haber recomendaciones de libros que no existen en el mundo real. Ten esto en cuenta y envía comentarios en caso de resultados inesperados."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kitap önericisi, seçtiğiniz yer işaretlerine dayalı olarak kitap önerileri sunmak için büyük bir dil modeli (LLM) kullanır. Öneriler sağlamak için seçilen her öğenin _başlığı_ ve _yazarı_ bir LLM sağlayıcısına gönderilir. LLM sağlayıcısına veri gönderme konusunda rahatsızlık duyuyorsanız, uygulamanın ayarlar bölümünden Öneri özelliğini kapatabilir veya kullanmayabilirsiniz. Ayrıca LLM'lerin doğası gereği önerilerin komik/garip olabileceğini ve beklenmedik içerik barındırabileceğini - hatta gerçek dünyada var olmayan kitap önerilerinin bile olabileceğini unutmayın. Lütfen bunun farkında olun ve beklenmedik sonuçlar durumunda geri bildirim gönderin."
           }
         }
       }
@@ -32,6 +56,30 @@
             "state" : "translated",
             "value" : "Delete Bookmark"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer le signet"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видалити закладку"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar marcador"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yer İşaretini Sil"
+          }
         }
       }
     },
@@ -48,6 +96,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🕵🏻 nothing found. Every word of the search string is being looked up in the title and shelfmark fields of a bookmark."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🕵🏻 rien trouvé. Chaque mot de la chaîne de recherche est recherché dans les champs titre et cote d'un signet."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🕵🏻 нічого не знайдено. Кожне слово пошукового запиту шукається в полях назви та шифру закладки."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🕵🏻 no se encontró nada. Cada palabra de la cadena de búsqueda se busca en los campos de título y signatura de un marcador."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🕵🏻 hiçbir şey bulunamadı. Arama dizisinin her kelimesi, yer işaretinin başlık ve raf numarası alanlarında aranır."
           }
         }
       }
@@ -66,6 +138,30 @@
             "state" : "translated",
             "value" : "Additional Information:"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informations supplémentaires :"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Додаткова інформація:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información adicional:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ek Bilgiler:"
+          }
         }
       }
     },
@@ -82,6 +178,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "AI Recommender Feedback"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commentaires sur le recommandeur IA"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зворотний зв'язок про ШІ-рекомендатор"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comentarios del Recomendador IA"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Önericisi Geri Bildirimi"
           }
         }
       }
@@ -100,6 +220,30 @@
             "state" : "translated",
             "value" : "Any other relevant details:"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout autre détail pertinent :"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь-які інші відповідні деталі:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cualquier otro detalle relevante:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diğer ilgili detaylar:"
+          }
         }
       }
     },
@@ -116,6 +260,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Issue Description:"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Description du problème :"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Опис проблеми:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descripción del problema:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorun Açıklaması:"
           }
         }
       }
@@ -134,6 +302,30 @@
             "state" : "translated",
             "value" : "Please describe the issue you encountered with the AI Recommender:"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez décrire le problème que vous avez rencontré avec le recommandeur IA :"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, опишіть проблему, з якою ви зіткнулися з ШІ-рекомендатором:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por favor, describe el problema que encontraste con el Recomendador IA:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen AI Önericisi ile karşılaştığınız sorunu açıklayın:"
+          }
         }
       }
     },
@@ -150,6 +342,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Generate Recommendations"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Générer des recommandations"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Згенерувати рекомендації"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generar recomendaciones"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öneriler Oluştur"
           }
         }
       }
@@ -168,6 +384,30 @@
             "state" : "translated",
             "value" : "How AI Book Recommendation Works"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comment fonctionne la recommandation de livres par IA"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Як працюють ШІ-рекомендації книг"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cómo funcionan las recomendaciones de libros IA"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Kitap Önerisi Nasıl Çalışır"
+          }
         }
       }
     },
@@ -178,6 +418,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lade Empfehlungen…"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading recommendations…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chargement des recommandations…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завантаження рекомендацій…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando recomendaciones…"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öneriler yükleniyor…"
           }
         }
       }
@@ -196,6 +466,30 @@
             "state" : "translated",
             "value" : "Your bookmarks will appear here. Bookmarks can be set for search results as well as borrowed items ☝️"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos signets apparaîtront ici. Les signets peuvent être définis pour les résultats de recherche ainsi que pour les éléments empruntés ☝️"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тут з'являться ваші закладки. Закладки можна встановлювати для результатів пошуку, а також для позичених матеріалів ☝️"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tus marcadores aparecerán aquí. Los marcadores se pueden establecer para resultados de búsqueda así como para elementos prestados ☝️"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yer işaretleriniz burada görünecek. Yer işaretleri hem arama sonuçları hem de ödünç alınan öğeler için ayarlanabilir ☝️"
+          }
         }
       }
     },
@@ -212,6 +506,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No recommendations found."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune recommandation trouvée."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рекомендацій не знайдено."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se encontraron recomendaciones."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiçbir öneri bulunamadı."
           }
         }
       }
@@ -230,6 +548,30 @@
             "state" : "translated",
             "value" : "These are recommendations based on the selected items. Tap on any to check for availability in your library."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voici des recommandations basées sur les éléments sélectionnés. Appuyez sur n'importe lequel pour vérifier la disponibilité dans votre bibliothèque."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Це рекомендації на основі обраних елементів. Натисніть на будь-який, щоб перевірити наявність у вашій бібліотеці."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estas son recomendaciones basadas en los elementos seleccionados. Toca cualquiera para verificar la disponibilidad en tu biblioteca."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bunlar seçilen öğelere dayalı önerilerdir. Kütüphanenizde mevcut olup olmadığını kontrol etmek için herhangi birine dokunun."
+          }
         }
       }
     },
@@ -246,6 +588,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✨ Recommender Feedback"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Commentaires sur le recommandeur"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Зворотний зв'язок про Рекомендатор"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Comentarios del Recomendador"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Önericiden Geri Bildirim"
           }
         }
       }
@@ -264,6 +630,30 @@
             "state" : "translated",
             "value" : "Please select the bookmarks you would like to get recommendations for"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez sélectionner les signets pour lesquels vous souhaitez obtenir des recommandations"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, оберіть закладки, для яких ви хочете отримати рекомендації"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por favor, selecciona los marcadores para los que te gustaría obtener recomendaciones"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen öneri almak istediğiniz yer işaretlerini seçin"
+          }
         }
       }
     },
@@ -280,6 +670,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✨ Recommender"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Recommandeur"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Рекомендатор"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Recomendador"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Önericiler"
           }
         }
       }
