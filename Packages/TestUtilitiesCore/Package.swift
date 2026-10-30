@@ -13,12 +13,6 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .target(
-            name: "TestUtilitiesCore",
-            resources: [.process("Resources")]
-        ),
-        .testTarget(
-            name: "TestUtilitiesCoreTests",
-            dependencies: ["TestUtilitiesCore"]),
+        .target(name: "TestUtilitiesCore"),
     ]
 )

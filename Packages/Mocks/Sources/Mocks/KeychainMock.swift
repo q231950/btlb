@@ -50,7 +50,7 @@ public struct SomeHelper {
         managedObjectContext.performAndWait {
             let account = EDAccount(context: managedObjectContext)
             let library = Persistence.Library(context: managedObjectContext)
-            library.type = 1
+            library.identifier = "HAMBURGPUBLIC"
             account.accountLibrary = library
 
             result = account

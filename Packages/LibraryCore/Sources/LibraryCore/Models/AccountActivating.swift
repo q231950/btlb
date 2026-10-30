@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol AccountActivating {
-    func activate(_ account: any Account) async -> ActivationState
+    @MainActor func activate(_ account: any Account) async -> ActivationState
 }
