@@ -1,0 +1,16 @@
+/*
+  Loans.strings
+
+
+  Created by Martin Kim Dung-Pham on 15.04.23.
+
+*/
+"notification item expires today description text" = "Ödünç verme süresi bugün sona eriyor – harekete geçme zamanı.";
+"notification item expires tomorrow description text" = "Yarın ödünç verme süresi sona eriyor. O zaman bir hatırlatma alacaksın.";
+"notification trigger date description text" = "%@ tarihinde ödünç verme süresinin bitişi hakkında hatırlatma alacaksın.";
+"notification trigger expired item" = "Bu materyalin ödünç verme süresi dolmuş. %@ tarihinde yeniden hatırlatılacaksın.";
+"accessibility bookmark" = "Yer imi ekle";
+"accessibility unbookmark" = "Yer imini kaldır";
+"accessibility renew" = "yenile";
+"accessibility not renewable" = "yenilenemez";
+"accessibility renewed" = "yenilendi";
