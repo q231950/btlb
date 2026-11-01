@@ -202,7 +202,6 @@
 		29B97316FDCFA39411CA2CEA /* BTLBApp.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = BTLBApp.swift; sourceTree = "<group>"; };
 		392FF1501219960400DCBA21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		39446FDC11A29E0800B64170 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		3944700811A29FB400B64170 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		397A9B3811D69F5D0031C9D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		39815E9D12D20307006CDCC8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		3981E54511E149A000C7FBB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -508,7 +507,6 @@
 				3B082B471BEE0589008DC196 /* Foundation.framework */,
 				3BB03179164EA89B004030D5 /* libz.1.2.5.dylib */,
 				39F23DB4129C3DB8008EDF14 /* libsqlite3.dylib */,
-				3944700811A29FB400B64170 /* libxml2.dylib */,
 				3BF23348164FB81200050DFE /* UIKit.framework */,
 				39815E9D12D20307006CDCC8 /* MobileCoreServices.framework */,
 				39E45D6F11B6E93A005745AB /* SystemConfiguration.framework */,
@@ -1728,7 +1726,6 @@
 				LIBRARY_SEARCH_PATHS = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1778,7 +1775,6 @@
 				LIBRARY_SEARCH_PATHS = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
