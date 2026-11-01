@@ -5,6 +5,7 @@
 //  Created by Martin Kim Dung-Pham on 21.02.23.
 //
 
+import CoreData
 import Foundation
 import SwiftUI
 

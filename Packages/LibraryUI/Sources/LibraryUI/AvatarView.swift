@@ -51,6 +51,18 @@ public struct AvatarView: View {
     }
 
     public var body: some View {
+        if editAction != nil {
+            Button {
+                editAction?()
+            } label: {
+                image
+            }
+        } else {
+            image
+        }
+    }
+
+    @ViewBuilder private var image: some View {
         Image(avatar.imageName, bundle: .module)
             .resizable()
             .frame(width: size.width, height: size.width)

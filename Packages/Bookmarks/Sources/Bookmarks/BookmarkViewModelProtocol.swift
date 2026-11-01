@@ -10,20 +10,18 @@ import Combine
 import LibraryCore
 
 public enum BookmarkEvent {
-    /// Used for dismissing the Bookmark Detail View
-    case dismiss
-
     /// Used for deleting a given bookmark
     case delete(bookmark: any Bookmark)
 }
 
-public protocol BookmarkViewModelProtocol {
+@MainActor
+public protocol BookmarkViewModelProtocol: ObservableObject {
 
     var bookmark: any Bookmark { get }
 
+    @MainActor var showsDeleteConfirmation: Bool { get set }
+
     var eventPublisher: PassthroughSubject<BookmarkEvent, Never> { get }
 
-    func dismiss()
-
-    func delete()
+    @MainActor func delete()
 }

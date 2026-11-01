@@ -61,10 +61,16 @@ class CreateAccountViewModel: ObservableObject {
 
 public struct CreateAccountView: View {
 
-    @ObservedObject var viewModel = CreateAccountViewModel()
+    @ObservedObject var viewModel: CreateAccountViewModel
     @Environment(\.dismiss) private var dismiss
 
-    public init() {}
+    public init() {
+        self.init(viewModel: CreateAccountViewModel())
+    }
+
+    init(viewModel: CreateAccountViewModel) {
+        self.viewModel = viewModel
+    }
 
     public var body: some View {
         NavigationStack {
@@ -83,6 +89,8 @@ public struct CreateAccountView: View {
     }
 }
 
+#if DEBUG
 #Preview {
-    CreateAccountView()
+    CreateAccountView(viewModel: CreateAccountViewModel(activationState: .signedOut))
 }
+#endif

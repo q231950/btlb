@@ -32,42 +32,40 @@ struct AccountEditView: View {
     }
 
     var body: some View {
-        VStack {
-            List {
-                Section {
-                    HStack {
-                        Spacer()
-                        AvatarView(viewModel.avatarName, selected: true) {
-                            isShowingAvatarSelection = true
-                        }
+        List {
+            Section {
+                HStack {
+                    Spacer()
+                    AvatarView(viewModel.avatarName, selected: true) {
+                        isShowingAvatarSelection = true
                     }
                 }
-                .listRowBackground(Color.clear)
-
-                Section {
-                    ValueEditView(viewModel.displayNameValueEditViewModel)
-                        .textContentType(.nickname)
-
-                    ValueEditView(viewModel.userNameValueEditViewModel)
-                        .textContentType(.username)
-
-                    ValueEditView(viewModel.passwordValueEditViewModel)
-                        .textContentType(.password)
-                }
-
-                
-                Section {
-                    librarySelectionButton
-                }
-                .listRowBackground(Color.clear)
             }
-            .scrollContentBackground(.hidden)
+            .listRowBackground(Color.clear)
 
-            Spacer()
+            Section {
+                ValueEditView(viewModel.displayNameValueEditViewModel)
+                    .textContentType(.nickname)
 
-            activateButton
-                .padding()
+                ValueEditView(viewModel.userNameValueEditViewModel)
+                    .textContentType(.username)
+
+                ValueEditView(viewModel.passwordValueEditViewModel)
+                    .textContentType(.password)
+            }
+
+
+            Section {
+                librarySelectionButton
+            }
+            .listRowBackground(Color.clear)
         }
+        .scrollContentBackground(.hidden)
+        .toolbar {
+            activateButton
+        }
+        .toolbarRole(.editor)
+
         .scrollDismissesKeyboard(.interactively)
         .task {
             viewModel.updateValues()
@@ -110,25 +108,20 @@ struct AccountEditView: View {
     @ViewBuilder private var activateButton: some View {
         switch viewModel.activationState {
         case .signInFailed, .inactive, .error:
-            RoundedButton({
+            Button(action: {
                 viewModel.saveAndActivateAccount(libraryProvider: libraryProvider,
                                                  accountActivating: accountActivating)
-            }, {
-                Text(viewModel.isDirty ? 
+            }) {
+                Text(viewModel.isDirty ?
                      Localization.EditAccount.ActivateButtonTitle.authenticate:
                         Localization.EditAccount.ActivateButtonTitle.notActivated)
-            })
+            }
         case .activating:
-            RoundedButton({
-            }, {
-                ActivityIndicator(shouldAnimate: .constant(true))
-            })
-            .disabled(true)
+            ActivityIndicator(shouldAnimate: .constant(true))
         case .activated:
-            RoundedButton({
-            }, {
+            Button(action: {}) {
                 Text(Localization.EditAccount.ActivateButtonTitle.activated)
-            })
+            }
             .disabled(true)
         }
     }
@@ -187,8 +180,8 @@ struct AccountEditView: View {
         LibraryButton(
             name: viewModel.account?.library?.name ?? Localization.Detail.noLibrarySelected,
             subtitle: viewModel.account?.library?.subtitle) {
-            viewModel.isShowingLibrarySelection = true
-        }
+                viewModel.isShowingLibrarySelection = true
+            }
     }
 
     private var deleteConfirmationAlert: Alert {

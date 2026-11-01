@@ -84,7 +84,6 @@ public struct AccountList: View {
 
         return dataStackProvider.foregroundManagedObjectContext
     }()
-
         NavigationStack {
             AccountList(viewModel: viewModel)
         }

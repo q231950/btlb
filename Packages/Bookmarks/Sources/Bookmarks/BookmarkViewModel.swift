@@ -16,16 +16,14 @@ import Persistence
 public final class BookmarkViewModel: BookmarkViewModelProtocol, ObservableObject {
 
     @Published public var bookmark: any Bookmark
+    @Published public var showsDeleteConfirmation: Bool = false
     public var eventPublisher: PassthroughSubject<BookmarkEvent, Never> = PassthroughSubject<BookmarkEvent, Never>()
 
     public init(bookmark: any Bookmark) {
         self.bookmark = bookmark
     }
 
-    public func dismiss() {
-        eventPublisher.send(.dismiss)
-    }
-
+    @MainActor
     public func delete() {
         eventPublisher.send(.delete(bookmark: bookmark))
     }
