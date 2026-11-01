@@ -153,11 +153,4 @@ extension XCUIApplication {
         tabBars.buttons[section.rawValue].tap()
     }
 
-    /// Taps the search tab.
-    ///
-    /// iOS provides the label of the search tab, so match by prefix to cover both "Suche" and "Suchen".
-    func tapSearchTab() {
-        tabBars.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Such")).firstMatch.tap()
-    }
-
 }
