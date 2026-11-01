@@ -8,7 +8,7 @@ Initial setup:
 
 **Setup**
 
-Create the file (`Secrets.xcconfig`) that contains your secrets.
+Create the file (`Secrets.xcconfig`) that contains your secrets:
 
 ```
 mv Secrets.sample.xcconfig Secrets.xcconfig
@@ -30,6 +30,7 @@ make prepare-apple
 ```
 
 Whenever the Rust `paper` library is updated:
+
 ```shell
 cd Packages/shared/paper/paper
 

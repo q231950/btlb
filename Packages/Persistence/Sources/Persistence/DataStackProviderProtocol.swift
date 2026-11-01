@@ -20,7 +20,8 @@ import LibraryCore
     func createAccount() throws -> EDAccount
     func accounts(in context: NSManagedObjectContext) async throws -> [NSManagedObjectID]
     func loan(for barcode: String, in context: NSManagedObjectContext) async throws -> NSManagedObjectID
-    func activeAccounts(in context: NSManagedObjectContext) async throws(PaperErrorInternal) -> [NSManagedObjectID]
+    // throws `PaperErrorInternal`, typed throws cannot be represented in Objective-C
+    func activeAccounts(in context: NSManagedObjectContext) async throws -> [NSManagedObjectID]
 
     func nextReturnDate(in context: NSManagedObjectContext) async -> Date?
     // TODO: This would be an optional, but optional Int cannot be represented by Objc-C

@@ -12,7 +12,6 @@ let package = Package(
     ],
     dependencies: [
         .package(path: "../Localization"),
-        .package(path: "../TestUtilitiesCore"),
     ],
     targets: [
         .target(
@@ -24,7 +23,6 @@ let package = Package(
             name: "LibraryCoreTests",
             dependencies: [
                 "LibraryCore",
-                "TestUtilitiesCore"
             ]),
     ]
 )
