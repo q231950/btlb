@@ -36,6 +36,12 @@ extension Paper.Library {
     var internalLibraryModel: any LibraryCore.Library {
         InternalLibraryModel.init(library: self)
     }
+
+    /// The library system used to search and to load search result details. Libraries can search
+    /// a different system than the one they sign in to, e.g. K10plus instead of their OPAC.
+    var resolvedSearchApi: Paper.Api {
+        searchApi ?? api
+    }
 }
 
 private struct InternalLibraryModel: LibraryCore.Library {
@@ -175,7 +181,7 @@ public struct SearchScraper: SearchScraping {
         guard let wrappedLibrary = Paper.LibraryList().libraryForIdentifier(identifier: library.id) else { throw SearchScraperError.unsupportedLibrary }
 
         let result = try await Paper.SearchScraper(
-            configuration: wrappedLibrary.api
+            configuration: wrappedLibrary.resolvedSearchApi
         )
             .search(text: text, nextPageUrl: nextPageUrl)
         return result.asSearchResultList
@@ -199,7 +205,7 @@ public struct SearchResultDetailScraper: LibraryCore.SearchResultDetailsProvidin
         guard let wrappedLibrary = Paper.LibraryList().libraryForIdentifier(identifier: library.id) else { throw SearchResultDetailScraperError.unsupportedLibrary }
 
         return try await Paper
-            .SearchDetailScraper(configuration: wrappedLibrary.api)
+            .SearchDetailScraper(configuration: wrappedLibrary.resolvedSearchApi)
             .detailsForUrl(url: url.absoluteString).asSearchResultDetail
     }
 
@@ -210,7 +216,7 @@ public struct SearchResultDetailScraper: LibraryCore.SearchResultDetailsProvidin
         }
 
         return Paper
-            .SearchDetailScraper(configuration: wrappedLibrary.api)
+            .SearchDetailScraper(configuration: wrappedLibrary.resolvedSearchApi)
             .status(
                 availabilities: availabilities.map { $0.paperAvailability
                 }).availabilityStatus

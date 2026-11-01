@@ -32,6 +32,10 @@ let package = Package(
             ]),
         .testTarget(
             name: "LibrariesTests",
-            dependencies: ["Libraries"]),
+            dependencies: [
+                "Libraries",
+                "LibraryCore",
+                "Persistence"
+            ]),
     ]
 )
