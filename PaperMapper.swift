@@ -79,7 +79,7 @@ public struct Recommender: LibraryCore.RecommenderProtocol {
                 config: RecommenderConfig(
                     apiKey: BuildConfig.openRouterApiKey,
                     apiBase: "https://openrouter.ai/api/v1",
-                    model: .gpt41
+                    model: .gptLunaLatest
                 )
             )
             .internalRecommendation
