@@ -36,8 +36,8 @@ struct SearchSectionView: View {
 
     var body: some View {
         content
+        // Automatic placement lets the field live in the iOS 26 search tab at the bottom of the screen.
         .searchable(text: $viewModel.searchText,
-                    placement: .navigationBarDrawer(displayMode: .always),
                     prompt: Text("Search in \(libraryName)", tableName: "Search" , bundle: .module),
                     suggestions: {
             ForEach(viewModel.suggestions) { suggestion in

@@ -157,7 +157,7 @@ class BTLBUITests: XCTestCase {
     }
 
     func testSearchSnapshot() {
-        app.tabBars.buttons["Suche"].tap()
+        app.tapSearchTab()
 
         screenshotRecorder?.snapshot(name: "SearchHistoryPortrait")
 
@@ -188,7 +188,7 @@ class BTLBUITests: XCTestCase {
     }
 
     func testSearchDetailSnapshot() {
-        app.tabBars.buttons["Suche"].tap()
+        app.tapSearchTab()
 
         app.navigationBars["Suche"]/*@START_MENU_TOKEN@*/.buttons["Katalog für die Suche auswählen"]/*[[".buttons[\"Katalog für die Suche auswählen\"]",".buttons[\"switch library button\"]"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/.tap()
 

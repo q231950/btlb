@@ -99,43 +99,43 @@ struct BTLBApp: App {
             case .initial:
                 EmptyView()
             case .idle:
-                Group {
-                    if #available(iOS 26.0, *) {
-                        tabs
-                    } else {
-                        legacyTabs
+                tabs
+                    .onAppear {
+                        migrateLegacySearchTabSelection()
+                        viewModel.updateDebugAlertPresented()
+                        viewModel.updateLaunchCount()
                     }
-                }
-                .onAppear {
-                    viewModel.updateDebugAlertPresented()
-                    viewModel.updateLaunchCount()
-                }
-                .sheet(item: $viewModel.deeplinkLoanContainer) { container in
-                    loanView(container.loan)
-                }
-                .onChange(of: viewModel.route) { oldValue, newValue in
-                    switch newValue {
-                    case .loans: selectedTabIndex = 1
-                    case .search(let query):
-                        selectedTabIndex = searchTabIndex
-                        viewModel.searchCoordinator?.prefillSearchQuery(query)
-                    case .openSearch:
-                        selectedTabIndex = searchTabIndex
-                    case .none: break
+                    .sheet(item: $viewModel.deeplinkLoanContainer) { container in
+                        loanView(container.loan)
                     }
-                }
+                    .onChange(of: viewModel.route) { oldValue, newValue in
+                        switch newValue {
+                        case .loans: selectedTabIndex = 1
+                        case .search(let query):
+                            selectedTabIndex = Self.searchTabValue
+                            viewModel.searchCoordinator?.prefillSearchQuery(query)
+                        case .openSearch:
+                            selectedTabIndex = Self.searchTabValue
+                        case .none: break
+                        }
+                    }
             case .refreshing:
                 AppRefreshingView()
             }
         }
     }
 
-    /// Returns the index of the search tab depending on which OS version the app is running
-    private var searchTabIndex: Int {
-        if #available(iOS 26.0, *) {
-            5
-        } else {
-            0
+    /// The selection value of the search tab.
+    private static let searchTabValue = 5
+
+    /// The selection value the search tab had before iOS 26, when it was the first tab.
+    private static let legacySearchTabValue = 0
+
+    /// Selects the search tab for people whose stored selection still points at the pre-iOS 26 search tab,
+    /// which no longer exists.
+    private func migrateLegacySearchTabSelection() {
+        if selectedTabIndex == Self.legacySearchTabValue {
+            selectedTabIndex = Self.searchTabValue
         }
     }
 
@@ -152,7 +152,6 @@ struct BTLBApp: App {
 
     @State private var navigationPath = NavigationPath()
 
-    @available(iOS 26.0, *)
     private var tabs: some View {
         TabView(selection: $selectedTabIndex) {
             Tab(viewModel.loansTitle, systemImage: "tray.full", value: 1) {
@@ -183,61 +182,13 @@ struct BTLBApp: App {
                 }
             }
 
-            Tab(viewModel.searchTitle, systemImage: "doc.text.magnifyingglass", value: 5, role: .search) {
+            // The system provides the standard search label and shows the tab separately at the
+            // trailing edge of the tab bar, where it expands into the search field.
+            Tab(value: Self.searchTabValue, role: .search) {
                 NavigationStack(path: $navigationPath) {
                     viewModel.searchCoordinator?.view
                         .navigationTitle(viewModel.searchTitle)
                 }
-            }
-        }
-    }
-
-    private var legacyTabs: some View {
-        TabView(selection: $selectedTabIndex) {
-
-            NavigationStack(path: $navigationPath) {
-                viewModel.searchCoordinator?.view
-                    .navigationTitle(viewModel.searchTitle)
-            }
-            .tag(0)
-            .tabItem {
-                Label(viewModel.searchTitle, systemImage: "doc.text.magnifyingglass")
-            }
-
-            NavigationStack {
-                viewModel.loansCoordinator.view
-                    .navigationTitle(viewModel.loansTitle)
-            }
-            .tag(1)
-            .tabItem {
-                Label(viewModel.loansTitle, systemImage: "tray.full")
-            }
-
-            NavigationStack {
-                viewModel.chargesCoordinator.view
-                    .navigationTitle(viewModel.chargesTitle)
-            }
-            .tag(2)
-            .tabItem {
-                Label(viewModel.chargesTitle, systemImage: "eurosign.square")
-            }
-
-            NavigationStack {
-                viewModel.bookmarksCoordinator.view
-                    .navigationTitle(viewModel.bookmarksTitle)
-            }
-            .tag(3)
-            .tabItem {
-                Label(viewModel.bookmarksTitle, systemImage: "bookmark")
-            }
-
-            NavigationStack {
-                viewModel.moreCoordinator
-                    .view
-            }
-            .tag(4)
-            .tabItem {
-                Label(viewModel.moreTitle, systemImage: "ellipsis")
             }
         }
     }
