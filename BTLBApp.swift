@@ -182,27 +182,16 @@ struct BTLBApp: App {
                 }
             }
 
-            Tab(viewModel.searchTitle, systemImage: "magnifyingglass", value: Self.searchTabValue, role: searchTabRole) {
+            Tab(viewModel.searchTitle, systemImage: "magnifyingglass", value: Self.searchTabValue, role: .search) {
                 NavigationStack(path: $navigationPath) {
                     viewModel.searchCoordinator?.view
                         .navigationTitle(viewModel.searchTitle)
                 }
             }
         }
-    }
-
-    /// The role that shows the search tab as a separate button at the trailing edge of the tab bar.
-    ///
-    /// On iOS 26 the search role does this. From iOS 27 on, only the prominent role is guaranteed to;
-    /// a search tab may otherwise be shown like every other tab. The compiler check keeps the project
-    /// building with SDKs that don't have the prominent role yet.
-    private var searchTabRole: TabRole {
-        #if compiler(>=6.4)
-        if #available(iOS 27.0, *) {
-            return .prominent
-        }
-        #endif
-        return .search
+        // Selecting the search tab activates search, so the tab turns into the search field. Without this,
+        // a search tab built with the iOS 27 SDK is shown inside the tab bar like every other tab.
+        .tabViewSearchActivation(.searchTabSelection)
     }
 
     /// Handles User Activity when the app is launched via Spotlight Search on iOS.
