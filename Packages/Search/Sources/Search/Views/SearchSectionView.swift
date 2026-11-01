@@ -61,7 +61,7 @@ struct SearchSectionView: View {
                     librarySelection: viewModel.onLibrarySelected
                 )
                 .contentView
-                .navigationTitle(Text("LIBRARIES", tableName: "Search", bundle: .module))
+                .navigationTitle(Text("Libraries", tableName: "Search", bundle: .module))
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
                         Button(action: {

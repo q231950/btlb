@@ -1068,7 +1068,7 @@
         }
       }
     },
-    "LIBRARIES" : {
+    "Libraries" : {
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
