@@ -6,6 +6,7 @@
 //
 
 import Combine
+import CoreData
 import Foundation
 import SwiftUI
 
@@ -139,7 +140,7 @@ struct SignInView: View {
                 }
             }
             .contentView
-            .navigationTitle(Text("LIBRARIES", tableName: "Applicationwide"))
+            .navigationTitle(Text("LIBRARIES", bundle: .module))
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button(action: {

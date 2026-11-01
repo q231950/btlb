@@ -168,7 +168,7 @@ struct AccountEditView: View {
                 viewModel.isShowingLibrarySelection = false
             }
             .contentView
-            .navigationTitle(Text("LIBRARIES", tableName: "Applicationwide"))
+            .navigationTitle(Text("LIBRARIES", bundle: .module))
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button(action: {
