@@ -14,6 +14,30 @@
             "state" : "translated",
             "value" : "bit lib"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "біт ліб"
+          }
         }
       }
     },
@@ -29,6 +53,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bit lib"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "біт ліб"
           }
         }
       }
@@ -46,11 +94,34 @@
             "state" : "translated",
             "value" : "lib"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lib"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bib"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lib"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ліб"
+          }
         }
       }
     },
     "APP_NAME_SYNONYM_1" : {
-      "comment" : "InfoPlist.strings\n  BTLB\n\n  Created by Martin Kim Dung-Pham on 13.03.24.\n  Copyright © 2024 neoneon. All rights reserved.",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -62,6 +133,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bitlib"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bitlib"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bitlib"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bitlib"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "бітліб"
           }
         }
       }
@@ -79,6 +174,30 @@
             "state" : "translated",
             "value" : "bit lib"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "біт ліб"
+          }
         }
       }
     },
@@ -95,6 +214,30 @@
             "state" : "translated",
             "value" : "lib"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lib"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bib"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lib"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "біб"
+          }
         }
       }
     },
@@ -107,8 +250,15 @@
             "state" : "new",
             "value" : "BTLB α"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB α"
+          }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "CFBundleName" : {
       "comment" : "Bundle name",
@@ -119,17 +269,54 @@
             "state" : "new",
             "value" : "BTLB α"
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BTLB α"
+          }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "CFBundleSpokenName" : {
       "comment" : "Accessibility Bundle Name",
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "bit lib"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bit lib"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "біт ліб"
           }
         }
       }
@@ -143,8 +330,15 @@
             "state" : "new",
             "value" : "Copyright © 2024 neoneon. All rights reserved."
           }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2024 neoneon. Усі права захищені."
+          }
         }
-      }
+      },
+      "shouldTranslate" : false
     }
   },
   "version" : "1.0"

@@ -108,8 +108,8 @@ public class LibrarySelectionViewModel<L: LibraryCore.Library>: ObservableObject
 
     func isDisabled(_ library: L) -> Bool {
         switch selectionType {
-        case .search: !library.isAvailable
-        case .login: !library.isAvailableForLogin
+        case .search: !library.enabledForSearch
+        case .login: !library.enabledForLogin
         }
     }
 
@@ -147,8 +147,9 @@ private class LibraryResourceMock {
 }
 
 private class LibraryStub: LibraryCore.Library {
-    
-    var isAvailable: Bool { true }
+
+    var enabledForSearch: Bool { true }
+    var enabledForLogin: Bool { true }
 
     static func == (lhs: LibraryStub, rhs: LibraryStub) -> Bool {
         lhs.identifier == rhs.identifier
@@ -184,6 +185,9 @@ public final class LibraryMock: LibraryCore.Library {
     public var identifier: String? {
         "Mock Library Identifier \(name ?? "")"
     }
+
+    public var enabledForSearch: Bool = true
+    public var enabledForLogin: Bool = true
 
     public static func == (lhs: LibraryMock, rhs: LibraryMock) -> Bool {
         lhs.identifier == rhs.identifier

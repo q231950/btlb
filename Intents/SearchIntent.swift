@@ -51,31 +51,31 @@ public struct SearchEntity: AppEntity {
 
 }
 
-
-@available(iOS 17.2, *)
-@AssistantIntent(schema: .system.search)
-struct SearchIntent: ShowInAppSearchResultsIntent {
-    static var title: LocalizedStringResource = "Search BTLB"
-    static var searchScopes: [StringSearchScope] = [.general]
+@AppIntent(schema: .system.search)
+public struct SearchIntent: ShowInAppSearchResultsIntent {
+    public static var title: LocalizedStringResource = "Search BTLB"
+    public static var searchScopes: [StringSearchScope] = [.general]
 
     @Parameter(title: "Search")
-    var criteria: StringSearchCriteria
+    public var criteria: StringSearchCriteria
 
-    static var description: String? {
-        "Let's you search"
+    public init() {
     }
 
     @MainActor
-    func perform() async throws -> some IntentResult {
+    public func perform() async throws -> some IntentResult {
         let searchString = criteria.term
         print("Searching for \(searchString)")
 
         AppViewModel.shared.route = .openSearch
 
+
         return .result()
     }
 
-    static var isAssistantOnly: Bool = true
+    public static var openAppWhenRun: Bool { true }
+    public static var isAssistantOnly: Bool = true
+    public static var isDiscoverable: Bool = true
 }
 
 struct PerformSearchIntent: AppIntent {

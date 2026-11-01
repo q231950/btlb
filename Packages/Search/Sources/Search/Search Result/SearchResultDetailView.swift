@@ -170,7 +170,7 @@ struct SearchResultDetail_Previews: PreviewProvider {
 
     static var previews: some View {
         let result = SearchResultListItemModel(
-            library: LibraryModel(name: "Central Library", subtitle: "The most central library", identifier: "abc-123", baseUrl: nil, catalogUrl: nil),
+            library: LibraryModel(name: "Central Library", subtitle: "The most central library", identifier: "abc-123"),
             identifier: "abc123",
             title: "Neuromancer",
             subtitle: "The fancy robot story",

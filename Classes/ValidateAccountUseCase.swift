@@ -20,10 +20,10 @@ public struct ValidateAccountUseCase: AccountValidatingUseCase {
     public init() {}
 
     public func validate(account: String?, password: String?, library: LibraryModel) async throws -> LibraryCore.ValidationStatus {
-        guard let apiConfiguration = ApiConfiguration(library: library) else {
+        guard let wrappedLibrary = Paper.LibraryList().libraryForIdentifier(identifier: library.id) else {
             throw NSError.unknownLibraryError()
         }
-        let configuration = Paper.Configuration(username: account, password: password, apiConfiguration: apiConfiguration)
+        let configuration = Paper.Configuration(username: account, password: password, apiConfiguration: wrappedLibrary.api)
 
         let authenticator = Authenticator(configuration: configuration)
         os_log("Verifying credentials", log: self.log, type: .debug)

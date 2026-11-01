@@ -15,6 +15,30 @@
             "state" : "translated",
             "value" : "Made for you.\n\nBTLB | bɪtlɪb | is a small App that enables you to synchronize your library account with your device. With BTLB you can see which books you have borrowed and how much you owe the libraries for tardily returning items. You can interact with your library as the App can prolong items with a tap of your finger.\nBTLB was first released in July 2010. The project has come into being about a year before the actual release date. It originates from a Mac application I had been working on since 2007.\n\nYou are free to use this App as much as you wish. However, I can not give any garantee for neither functionality of the App itself nor the interaction between this App and the libraries' servers."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fait pour vous.\n\nBTLB | bɪtlɪb | est une petite application qui vous permet de synchroniser votre compte de bibliothèque avec votre appareil. Avec BTLB, vous pouvez voir quels livres vous avez empruntés et combien vous devez aux bibliothèques pour les retours tardifs. Vous pouvez interagir avec votre bibliothèque car l'application peut prolonger les éléments d'un simple toucher du doigt.\nBTLB a été publié pour la première fois en juillet 2010. Le projet a vu le jour environ un an avant la date de publication réelle. Il provient d'une application Mac sur laquelle je travaillais depuis 2007.\n\nVous êtes libre d'utiliser cette application autant que vous le souhaitez. Cependant, je ne peux donner aucune garantie concernant la fonctionnalité de l'application elle-même ni l'interaction entre cette application et les serveurs des bibliothèques."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Створено для вас.\n\nBTLB | bɪtlɪb | це невеликий додаток, який дозволяє синхронізувати ваш бібліотечний обліковий запис з вашим пристроєм. За допомогою BTLB ви можете переглядати, які книги ви взяли в оренду та скільки ви винні бібліотекам за несвоєчасне повернення матеріалів. Ви можете взаємодіяти з бібліотекою, оскільки додаток може продовжувати терміни одним дотиком пальця.\nBTLB був вперше випущений у липні 2010 року. Проект почав розроблятися приблизно за рік до фактичної дати випуску. Він походить від додатку для Mac, над яким я працював з 2007 року.\n\nВи можете використовувати цей додаток скільки завгодно. Однак я не можу дати жодних гарантій щодо функціональності самого додатку або взаємодії між цим додатком та серверами бібліотек."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hecho para ti.\n\nBTLB | bɪtlɪb | es una pequeña aplicación que te permite sincronizar tu cuenta de biblioteca con tu dispositivo. Con BTLB puedes ver qué libros has prestado y cuánto debes a las bibliotecas por devolver artículos tardíamente. Puedes interactuar con tu biblioteca ya que la aplicación puede prolongar elementos con solo tocar tu dedo.\nBTLB fue lanzado por primera vez en julio de 2010. El proyecto surgió aproximadamente un año antes de la fecha de lanzamiento real. Se origina de una aplicación de Mac en la que había estado trabajando desde 2007.\n\nEres libre de usar esta aplicación tanto como desees. Sin embargo, no puedo dar ninguna garantía sobre la funcionalidad de la aplicación en sí ni sobre la interacción entre esta aplicación y los servidores de las bibliotecas."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sizin için yapıldı.\n\nBTLB | bɪtlɪb | kütüphane hesabınızı cihazınızla senkronize etmenizi sağlayan küçük bir uygulamadır. BTLB ile hangi kitapları ödünç aldığınızı ve geç iade ettiğiniz öğeler için kütüphanelere ne kadar borcunuz olduğunu görebilirsiniz. Uygulama parmağınızın dokunuşuyla öğeleri uzatabileceğinden kütüphanenizle etkileşime girebilirsiniz.\nBTLB ilk olarak Temmuz 2010'da piyasaya sürüldü. Proje, gerçek çıkış tarihinden yaklaşık bir yıl önce başlatıldı. 2007'den beri üzerinde çalıştığım bir Mac uygulamasından kaynaklanmaktadır.\n\nBu uygulamayı istediğiniz kadar kullanmakta özgürsünüz. Ancak, ne uygulamanın kendisinin işlevselliği ne de bu uygulama ile kütüphanelerin sunucuları arasındaki etkileşim için herhangi bir garanti veremem."
+          }
         }
       }
     },
@@ -31,6 +55,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Made with 💖"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fait avec 💖"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зроблено з 💖"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hecho con 💖"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "💖 ile yapıldı"
           }
         }
       }
@@ -49,6 +97,30 @@
             "state" : "translated",
             "value" : "Give feedback"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Donner un avis"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надати відгук"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dar comentarios"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geri bildirim ver"
+          }
         }
       }
     },
@@ -65,6 +137,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Would you like to use the alternate App icon?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Souhaitez-vous utiliser l'icône d'application alternative ?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бажаєте використовувати альтернативну іконку додатку?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Te gustaría usar el icono alternativo de la aplicación?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alternatif uygulama simgesini kullanmak ister misiniz?"
           }
         }
       }
@@ -83,6 +179,30 @@
             "state" : "translated",
             "value" : "App Icon"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Icône d'application"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Іконка додатку"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Icono de la aplicación"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama simgesi"
+          }
         }
       }
     },
@@ -99,6 +219,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скасувати"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İptal"
           }
         }
       }
@@ -117,6 +261,30 @@
             "state" : "translated",
             "value" : "Setting for developers and Beta testers"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paramètre pour les développeurs et testeurs bêta"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налаштування для розробників та бета-тестерів"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuración para desarrolladores y probadores beta"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geliştiriciler ve beta test kullanıcıları için ayar"
+          }
         }
       }
     },
@@ -133,6 +301,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Debugging"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Débogage"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налагодження"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Depuración"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hata ayıklama"
           }
         }
       }
@@ -151,6 +343,30 @@
             "state" : "translated",
             "value" : "I forgot to write something here."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J'ai oublié d'écrire quelque chose ici."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я забув тут щось написати."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olvidé escribir algo aquí."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Burada bir şey yazmayı unuttum."
+          }
         }
       }
     },
@@ -167,6 +383,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remarques"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Примітки"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notas"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notlar"
           }
         }
       }
@@ -186,6 +426,30 @@
             "state" : "translated",
             "value" : "Contents"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contenu"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зміст"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contenidos"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İçerikler"
+          }
         }
       }
     },
@@ -202,6 +466,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gesamtkatalog der Bibliothek der Hochschule Anhalt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catalogue général de la bibliothèque de la Hochschule Anhalt"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загальний каталог бібліотеки Університету прикладних наук Ангальт"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catálogo completo de la biblioteca de la Hochschule Anhalt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt kütüphanesinin genel kataloğu"
           }
         }
       }
@@ -220,6 +508,30 @@
             "state" : "translated",
             "value" : "Onlinekatalog der Commerzbibliothek"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catalogue en ligne de la Commerzbibliothek"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Комерційної бібліотеки"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catálogo en línea de la Commerzbibliothek"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek çevrimiçi kataloğu"
+          }
         }
       }
     },
@@ -237,6 +549,30 @@
             "state" : "translated",
             "value" : "Online-Katalog der Universitäts- und Forschungsbibliothek Erfurt/Gotha"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catalogue en ligne de la Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha çevrimiçi kataloğu"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Університетської та дослідницької бібліотеки Ерфурт/Гота"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catálogo en línea de la Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
         }
       }
     },
@@ -250,6 +586,30 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нижньосаксонська державна та університетська бібліотека Геттінгена (SUB)"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB)"
@@ -271,6 +631,30 @@
             "state" : "translated",
             "value" : "Online-Katalog der Universitätsbibliothek Greifswald"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catalogue en ligne de la Universitätsbibliothek Greifswald"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Greifswald çevrimiçi kataloğu"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Університетської бібліотеки Грайфсвальда"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catálogo en línea de la Universitätsbibliothek Greifswald"
+          }
         }
       }
     },
@@ -284,6 +668,30 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campus-Katalog Hamburg"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campus-Katalog Hamburg"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campus-Katalog Hamburg"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кампус-каталог Гамбурга"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Campus-Katalog Hamburg"
@@ -305,6 +713,30 @@
             "state" : "translated",
             "value" : "Stiftung Hamburger Öffentliche Bücherhallen"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fondation des bibliothèques publiques de Hambourg"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фонд гамбурзьких публічних бібліотек"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fundación de Bibliotecas Públicas de Hamburgo"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburg Halk Kütüphaneleri Vakfı"
+          }
         }
       }
     },
@@ -321,6 +753,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Technische Informationsbibliothek (TIB)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothèque d'information technique (TIB)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Технічна інформаційна бібліотека (TIB)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biblioteca de Información Técnica (TIB)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teknik Bilgi Kütüphanesi (TIB)"
           }
         }
       }
@@ -339,6 +795,30 @@
             "state" : "translated",
             "value" : "Gesamt-Katalog der Bibliothek"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catalogue général de la bibliothèque"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загальний каталог бібліотеки"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catálogo completo de la biblioteca"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kütüphanenin genel kataloğu"
+          }
         }
       }
     },
@@ -355,6 +835,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Katalog des Hochschulinformations- und Bibliotheksservice (HIBS)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catalogue du service d'information universitaire et bibliothécaire (HIBS)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yükseköğretim bilgi ve kütüphane hizmetleri kataloğu (HIBS)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каталог служби вищої освіти інформації та бібліотечного сервісу (HIBS)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catálogo del servicio de información universitaria y bibliotecario (HIBS)"
           }
         }
       }
@@ -373,6 +877,30 @@
             "state" : "translated",
             "value" : "Online-Katalog der Universitätsbibliothek Hildesheim"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catalogue en ligne de la Universitätsbibliothek Hildesheim"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Hildesheim çevrimiçi kataloğu"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог Університетської бібліотеки Гільдесгайма"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catálogo en línea de la Universitätsbibliothek Hildesheim"
+          }
         }
       }
     },
@@ -389,6 +917,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gemeinsame Bibliothek der Hochschule Hannover und der Hochschule für Musik, Theater und Medien Hannover"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothèque commune de la Hochschule Hannover et de la Hochschule für Musik, Theater und Medien Hannover"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover ve Hochschule für Musik, Theater und Medien Hannover ortak kütüphanesi"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спільна бібліотека Ганноверського університету та Ганноверського університету музики, театру та медіа"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biblioteca conjunta de la Hochschule Hannover y la Hochschule für Musik, Theater und Medien Hannover"
           }
         }
       }
@@ -407,6 +959,30 @@
             "state" : "translated",
             "value" : "Universitätsbibliothek"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothèque universitaire"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська бібліотека"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biblioteca universitaria"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üniversite kütüphanesi"
+          }
         }
       }
     },
@@ -423,6 +999,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Regional Katalog"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catalogue régional"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bölgesel katalog"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Регіональний каталог"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catálogo regional"
           }
         }
       }
@@ -441,6 +1041,30 @@
             "state" : "translated",
             "value" : "Bücher und Zeitschriften der Universitätsbibliothek der TUHH"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Livres et périodiques de la bibliothèque universitaire de la TUHH"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TUHH üniversite kütüphanesinin kitapları ve dergileri"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Книги та журнали університетської бібліотеки TUHH"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Libros y revistas de la biblioteca universitaria de la TUHH"
+          }
         }
       }
     },
@@ -458,6 +1082,30 @@
             "state" : "translated",
             "value" : "Online-Katalog der Hochschulbibliothek"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catalogue en ligne de la bibliothèque universitaire"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yüksekokul kütüphanesinin çevrimiçi kataloğu"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онлайн-каталог університетської бібліотеки"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catálogo en línea de la biblioteca universitaria"
+          }
         }
       }
     },
@@ -471,6 +1119,30 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Anhalt (Університет прикладних наук Ангальт)"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hochschule Anhalt"
@@ -492,6 +1164,30 @@
             "state" : "translated",
             "value" : "Commerzbibliothek Hamburg"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek Hamburg"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek Hamburg"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek Hamburg (Комерційна бібліотека Гамбурга)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerzbibliothek Hamburg"
+          }
         }
       }
     },
@@ -505,6 +1201,30 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська та дослідницька бібліотека Ерфурт/Гота"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitäts- und Forschungsbibliothek Erfurt/Gotha"
@@ -526,6 +1246,30 @@
             "state" : "translated",
             "value" : "Göttinger Universitätskatalog (GUK)"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göttinger Universitätskatalog (GUK)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göttinger Universitätskatalog (GUK) (Геттінгенський університетський каталог)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göttinger Universitätskatalog (GUK)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göttinger Universitätskatalog (GUK)"
+          }
         }
       }
     },
@@ -539,6 +1283,30 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Greifswald"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Greifswald"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська бібліотека Грайфсвальда"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Greifswald"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek Greifswald"
@@ -560,6 +1328,30 @@
             "state" : "translated",
             "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Державна та університетська бібліотека Гамбурга Карла фон Оссієцького"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"
+          }
         }
       }
     },
@@ -573,6 +1365,30 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücherhallen Hamburg"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücherhallen Hamburg"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücherhallen Hamburg (Публічні бібліотеки Гамбурга)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bücherhallen Hamburg"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bücherhallen Hamburg"
@@ -594,6 +1410,30 @@
             "state" : "translated",
             "value" : "Leibniz Universität Hannover"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leibniz Universität Hannover"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leibniz Universität Hannover (Університет Лайбніца Ганновер)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leibniz Universität Hannover"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leibniz Universität Hannover"
+          }
         }
       }
     },
@@ -607,6 +1447,30 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg) (Університет прикладних наук Гамбурга)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)"
@@ -628,6 +1492,30 @@
             "state" : "translated",
             "value" : "Hochschule Hannover"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover (Університет прикладних наук Ганновера)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Hannover"
+          }
         }
       }
     },
@@ -641,6 +1529,30 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Hildesheim"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Hildesheim"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська бібліотека Гільдесгайма"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Hildesheim"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek Hildesheim"
@@ -662,6 +1574,30 @@
             "state" : "translated",
             "value" : "Bibliothek im Kurt-Schwitters-Forum"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothek im Kurt-Schwitters-Forum"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотека у форумі Курта Швіттерса"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothek im Kurt-Schwitters-Forum"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothek im Kurt-Schwitters-Forum"
+          }
         }
       }
     },
@@ -675,6 +1611,30 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університет Гельмута-Шмідта / Університет бундесверу Гамбурга"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg"
@@ -696,6 +1656,30 @@
             "state" : "translated",
             "value" : "Universitätsbibliothek Rostock"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Rostock"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська бібліотека Ростока"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Rostock"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek Rostock"
+          }
         }
       }
     },
@@ -709,6 +1693,30 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Університетська бібліотека Технічного університету Гамбург-Гарбург"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universitätsbibliothek der Technischen Universität Hamburg-Harburg"
@@ -730,6 +1738,30 @@
             "state" : "translated",
             "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Wismar (Університет прикладних наук Вісмар - техніка, економіка та дизайн)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochschule Wismar - Fachhochschule für Technik, Wirtschaft und Gestaltung"
+          }
         }
       }
     },
@@ -746,6 +1778,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The last successful account background update happeened on %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La dernière mise à jour réussie du compte en arrière-plan a eu lieu le %@."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Останнє успішне фонове оновлення облікового запису відбулося %@."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La última actualización exitosa de la cuenta en segundo plano ocurrió el %@."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son başarılı arka plan hesap güncellemesi %@ tarihinde gerçekleşti."
           }
         }
       }
@@ -764,6 +1820,30 @@
             "state" : "translated",
             "value" : "Some libraries only support a limited feature set."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Certaines bibliothèques ne prennent en charge qu'un ensemble limité de fonctionnalités."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Деякі бібліотеки підтримують лише обмежений набір функцій."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algunas bibliotecas solo admiten un conjunto limitado de funciones."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bazı kütüphaneler yalnızca sınırlı bir özellik kümesini destekler."
+          }
         }
       }
     },
@@ -781,6 +1861,30 @@
             "state" : "translated",
             "value" : "Libraries"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliothèques"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бібліотеки"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliotecas"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kütüphaneler"
+          }
         }
       }
     },
@@ -797,6 +1901,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Receive a silently delivered notification in Notification Center upon successful account updates in the background"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recevez une notification silencieuse dans le Centre de notifications lors de mises à jour réussies des comptes en arrière-plan"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отримуйте тихі сповіщення в Центрі сповіщень при успішному фоновому оновленні облікових записів"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recibe notificaciones silenciosas en el Centro de notificaciones cuando las actualizaciones de cuentas en segundo plano sean exitosas"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arka plan hesap güncellemeleri başarılı olduğunda Bildirim Merkezi'nde sessizce gönderilen bir bildirim alın"
           }
         }
       }
@@ -816,6 +1944,30 @@
             "state" : "translated",
             "value" : "Notifications"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сповіщення"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificaciones"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildirimler"
+          }
         }
       }
     },
@@ -833,6 +1985,30 @@
             "state" : "translated",
             "value" : "This app does not log or share any of your personal information. Your usage is not being tracked.\n\nThirdparty services: Google Image API for displaying covers in search result details of GBV libraries."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette application n'enregistre ni ne partage vos informations personnelles. Votre utilisation n'est pas suivie.\n\nServices tiers : Google Image API pour afficher les couvertures dans les détails des résultats de recherche des bibliothèques GBV."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цей додаток не зберігає дані у логах і не передає вашу особисту інформацію третім особам. Ваше використання не відстежується.\n\nСторонні сервіси: Google Image API для відображення обкладинок у деталях результатів пошуку бібліотек GBV."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta aplicación no registra ni comparte ninguna de tus informaciones personales. Tu uso no está siendo rastreado.\n\nServicios de terceros: Google Image API para mostrar portadas en los detalles de resultados de búsqueda de las bibliotecas GBV."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu uygulama kişisel bilgilerinizi kaydetmez veya paylaşmaz. Kullanımınız izlenmiyor.\n\nÜçüncü taraf hizmetler: GBV kütüphanelerinin arama sonucu ayrıntılarında kapakları görüntülemek için Google Image API."
+          }
         }
       }
     },
@@ -849,6 +2025,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Privacy Policy"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Politique de confidentialité"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Політика конфіденційності"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Política de privacidad"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gizlilik politikası"
           }
         }
       }
@@ -868,6 +2068,30 @@
             "state" : "translated",
             "value" : "Rate this app"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Évaluer cette application"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оцінити цей додаток"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calificar esta aplicación"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu uygulamayı değerlendir"
+          }
         }
       }
     },
@@ -885,6 +2109,30 @@
             "state" : "translated",
             "value" : "Recommend to friend"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommander à un ami"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порекомендувати другові"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recomendar a un amigo"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arkadaşa öner"
+          }
         }
       }
     },
@@ -901,6 +2149,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please note that data transfers will be sent via HyperText Transfer Protocol Secure (HTTPS) as long as your account's library does support this type of encrypted communication. If you happen to see a missing HTTPS encryption where HTTPS encrypted communication should be possible on the serverside please contact me."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez noter que les transferts de données vers les serveurs des bibliothèques sont effectués via le protocole sécurisé HTTPS tant que les serveurs concernés prennent en charge ce type de communication chiffrée. Si vous constatez l'absence de chiffrement HTTPS là où la communication chiffrée HTTPS devrait être possible côté serveur, veuillez me contacter."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь ласка, зверніть увагу, що передача даних до серверів бібліотек здійснюється через захищений протокол HTTPS, якщо відповідні сервери підтримують цей тип шифрованої комунікації. Якщо ви помітите відсутнє шифрування HTTPS там, де HTTPS має бути можливим на стороні сервера, будь ласка, зв'яжіться зі мною."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por favor tenga en cuenta que la transferencia de datos a los servidores de las bibliotecas se realiza a través del protocolo seguro HTTPS, siempre que los servidores correspondientes admitan este tipo de comunicación cifrada. Si nota la ausencia de cifrado HTTPS donde la comunicación HTTPS cifrada debería ser posible del lado del servidor, por favor contácteme."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen kütüphane sunucularına veri aktarımının, ilgili sunucular bu tür şifreli iletişimi desteklediği sürece güvenli HTTPS protokolü üzerinden gerçekleştirildiğini unutmayın. Sunucu tarafında HTTPS şifreli iletişimin mümkün olması gereken bir yerde HTTPS şifrelemesinin eksik olduğunu fark ederseniz, lütfen benimle iletişime geçin."
           }
         }
       }
@@ -920,11 +2192,34 @@
             "state" : "translated",
             "value" : "Note on security"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note sur la sécurité"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Примітка щодо безпеки"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nota sobre seguridad"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güvenlik notu"
+          }
         }
       }
     },
     "Title" : {
-      "comment" : "Imprint.strings\n EDsync\n \n Created by Martin Kim Dung-Pham on 1/16/11.\n Copyright 2011 neoneon. All rights reserved.",
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
@@ -937,6 +2232,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Information"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Information"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інформація"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilgi"
           }
         }
       }

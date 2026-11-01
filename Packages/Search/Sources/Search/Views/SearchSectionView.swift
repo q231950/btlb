@@ -54,20 +54,25 @@ struct SearchSectionView: View {
         }
         .sheet(isPresented: $viewModel.isShowingLibrarySelection, content: {
             NavigationView {
-                LibrarySelectionCoordinator<Persistence.Library>(for: .search, persistentContainer: dataStackProvider.persistentContainer, currentlySelected: viewModel.library.identifier, librarySelection: viewModel.onLibrarySelected)
-                    .contentView
-                    .navigationTitle(Text("LIBRARIES", tableName: "Applicationwide"))
-                    .toolbar {
-                        ToolbarItem(placement: .topBarLeading) {
-                            Button(action: {
-                                Task {
-                                    viewModel.isShowingLibrarySelection = false
-                                }
-                            }) {
-                                Text("CANCEL", tableName: "Applicationwide")
+                LibrarySelectionCoordinator<Persistence.Library>(
+                    for: .search,
+                    persistentContainer: dataStackProvider.persistentContainer,
+                    currentlySelected: viewModel.library.identifier,
+                    librarySelection: viewModel.onLibrarySelected
+                )
+                .contentView
+                .navigationTitle(Text("Libraries", tableName: "Search", bundle: .module))
+                .toolbar {
+                    ToolbarItem(placement: .topBarLeading) {
+                        Button(action: {
+                            Task {
+                                viewModel.isShowingLibrarySelection = false
                             }
+                        }) {
+                            Text("CANCEL", tableName: "Applicationwide")
                         }
                     }
+                }
             }
         })
         .alert(

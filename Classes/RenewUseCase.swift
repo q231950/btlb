@@ -6,27 +6,32 @@
 //  Copyright © 2024 neoneon. All rights reserved.
 //
 import Foundation
-import Paper
 import LibraryCore
+
+import Paper
 
 public struct RenewUseCase: RenewingUseCase {
 
     public init() {}
 
     public func renew(item: String, renewalToken: String?, for account: String?, password: String?, in library: LibraryModel?) async throws -> (dueDateString: String, renewalCount: Int, canRenew: Bool) {
-        guard let library, let apiConfiguration = ApiConfiguration(library: library) else {
+        guard let library, let wrappedLibrary = Paper.LibraryList().libraryForIdentifier(identifier: library.id) else {
             throw PaperErrorInternal.LibraryNotSupportedError
         }
 
         let configuration = Paper.Configuration(
             username: account,
             password: password,
-            apiConfiguration: apiConfiguration
+            apiConfiguration: wrappedLibrary.api
         )
         let renewalService = Paper.RenewalService()
 
         do {
-            let loan = try await renewalService.renew(itemNumber: item, renewalToken: renewalToken, configuration: configuration)
+            let loan = try await renewalService.renew(
+                itemNumber: item,
+                renewalToken: renewalToken,
+                configuration: configuration
+            )
 
             return (loan.dateDue, Int(loan.renewalsCount), loan.canRenew)
         } catch(let error as PaperErrorInternal) {

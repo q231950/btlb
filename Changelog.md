@@ -1,5 +1,9 @@
 ## Changelog
 
+### 2.30.0
+
+• Staatsbibliothek Berlin searches its catalog via K10plus
+
 ### 2.29.0
 
 • security enhancement

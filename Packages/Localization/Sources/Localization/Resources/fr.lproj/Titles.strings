@@ -1,0 +1,15 @@
+//
+//  Titles.strings
+//
+//
+//  Created by Martin Kim Dung-Pham on 28.09.22.
+//
+
+"Accounts" = "Comptes";
+"Loans" = "Emprunts";
+"More" = "Plus";
+"Bookmarks" = "Signets";
+"Search" = "Recherche";
+"Charges" = "Frais";
+"Settings" = "Réglages";
+"About" = "À propos";

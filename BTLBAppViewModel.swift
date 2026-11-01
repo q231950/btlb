@@ -177,9 +177,7 @@ class AppViewModel: ObservableObject {
             library: LibraryModel(
                 name: name,
                 subtitle: subtitle,
-                identifier: libraryManagedObject?.identifier ?? "unknown",
-                baseUrl: libraryManagedObject?.baseURL,
-                catalogUrl: libraryManagedObject?.catalogUrl
+                identifier: libraryManagedObject?.identifier ?? "unknown"
             ),
             dependencies: searchDependencies
         )
@@ -210,9 +208,7 @@ class AppViewModel: ObservableObject {
             library: LibraryModel(
                 name: name,
                 subtitle: subtitle,
-                identifier: libraryManagedObject?.identifier ?? "unknown",
-                baseUrl: libraryManagedObject?.baseURL,
-                catalogUrl: libraryManagedObject?.catalogUrl
+                identifier: libraryManagedObject?.identifier ?? "unknown"
             ),
             dependencies: searchDependencies
         )

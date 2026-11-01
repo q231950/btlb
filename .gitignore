@@ -38,3 +38,4 @@ stubs
 .aider*
 .build
 Secrets.xcconfig
+Classes/Generated/BuildConfig.swift

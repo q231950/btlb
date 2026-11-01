@@ -109,5 +109,5 @@ struct SignInFailureView: View {
 }
 
 #Preview {
-    SignInFailureView(viewModel: SignInFailureView.ViewModel(library: LibraryModel(name: "", subtitle: "", identifier: "HAMBURG_PUBLIC", baseUrl: nil, catalogUrl: nil)))
+    SignInFailureView(viewModel: SignInFailureView.ViewModel(library: LibraryModel(name: "", subtitle: "", identifier: "HAMBURG_PUBLIC")))
 }

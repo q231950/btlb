@@ -571,7 +571,7 @@ extension SearchResultList: LibraryCore.SearchResultInfoHolding {
     }
 }
 
-@objc public protocol LibraryProvider {
+public protocol LibraryProvider {
 
     /// The default library which is selected when no user selection has happened yet
     var defaultLibrary: NSManagedObjectID? { get }
@@ -581,7 +581,12 @@ extension SearchResultList: LibraryCore.SearchResultInfoHolding {
     /// A library for the given identifier
     func library(forIdentifier: String, in context: NSManagedObjectContext?) -> NSManagedObjectID?
 
-    func loadOrUpdateLibraries(in context: NSManagedObjectContext?)
+    func loadOrUpdateLibraries(in context: NSManagedObjectContext?, libraryProvider: LibraryModelProvider)
+}
+
+public protocol LibraryModelProvider {
+    func libraries() -> [any Library]
+    func library(for identifier: String) -> (any LibraryCore.Library)?
 }
 
 public struct LibraryModel: Sendable, Library {
@@ -591,15 +596,15 @@ public struct LibraryModel: Sendable, Library {
     public let name: String?
     public let subtitle: String?
     public let identifier: String?
-    public let baseURL: String?
-    public let catalogUrl: String?
+    public let enabledForSearch: Bool
+    public let enabledForLogin: Bool
 
-    public init(name: String?, subtitle: String?, identifier: String?, baseUrl: String?, catalogUrl: String?) {
+    public init(name: String?, subtitle: String?, identifier: String?, enabledForSearch: Bool = true, enabledForLogin: Bool = true) {
         self.name = name
         self.subtitle = subtitle
         self.identifier = identifier
-        self.baseURL = baseUrl
-        self.catalogUrl = catalogUrl
+        self.enabledForSearch = enabledForSearch
+        self.enabledForLogin = enabledForLogin
     }
 
     public var isPublicHamburg: Bool {
@@ -613,9 +618,9 @@ public extension LibraryModel {
         self.init(
             name: wrapping.name,
             subtitle: wrapping.subtitle,
-            identifier: wrapping.baseURL,
-            baseUrl: wrapping.catalogUrl,
-            catalogUrl: wrapping.identifier
+            identifier: wrapping.identifier,
+            enabledForSearch: wrapping.enabledForSearch,
+            enabledForLogin: wrapping.enabledForLogin
         )
     }
 }
@@ -623,34 +628,10 @@ public extension LibraryModel {
 public protocol Library: Identifiable, Hashable {
     var name: String? { get }
     var subtitle: String? { get }
-    var baseURL: String? { get }
-    var catalogUrl: String? { get }
     var identifier: String? { get }
+    var enabledForSearch: Bool { get }
+    var enabledForLogin: Bool { get }
 }
-
-public extension Library {
-    /// Whether or not the library is supported by BTLB
-    var isAvailable: Bool {
-        /// Allow all libraries to be selected as search and account synchronisation libraries except these:
-        if identifier == "GREIFSWALD" ||
-            identifier == "COMMERZ_HH" ||
-            identifier == "LUH" {
-            return false
-        }
-
-        return true
-    }
-
-    var isAvailableForLogin: Bool {
-        /// Allow all libraries to be selected as search and account synchronisation libraries except these:
-        if !(identifier ?? "").isEmpty {
-            return true
-        }
-
-        return false
-    }
-}
-
 
 var kDefaultSearchLibraryIdentifier: String { "HAMBURGPUBLIC" }
 

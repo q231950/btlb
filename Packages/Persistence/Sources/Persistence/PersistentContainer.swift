@@ -65,7 +65,7 @@ class NoOpDataStackProvider: DataStackProviding {
         fatalError()
     }
 
-    func activeAccounts(in context: NSManagedObjectContext) async throws(LibraryCore.PaperErrorInternal) -> [NSManagedObjectID] {
+    func activeAccounts(in context: NSManagedObjectContext) async throws -> [NSManagedObjectID] {
         fatalError()
     }
 

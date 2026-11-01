@@ -124,7 +124,7 @@ extension DataStackProvider: SwiftOnlyDataStackProviding {
         }
     }
 
-    public func activeAccounts(in context: NSManagedObjectContext) async throws(PaperErrorInternal) -> [NSManagedObjectID] {
+    public func activeAccounts(in context: NSManagedObjectContext) async throws -> [NSManagedObjectID] {
         guard let persistentContainer = dataModelStack.persistentContainer else {
             throw PaperErrorInternal.dataStackProviderError(.persistentStoreNotConfigured)
         }
