@@ -52,9 +52,7 @@ struct SearchSectionView: View {
             viewModel.search()
             removeFocusFromSearchBar = true
         }
-        .sheet(
-isPresented: $viewModel.isShowingLibrarySelection,
- content: {
+        .sheet(isPresented: $viewModel.isShowingLibrarySelection, content: {
             NavigationView {
                 LibrarySelectionCoordinator<Persistence.Library>(
                     for: .search,
@@ -63,20 +61,18 @@ isPresented: $viewModel.isShowingLibrarySelection,
                     librarySelection: viewModel.onLibrarySelected
                 )
                 .contentView
-                .navigationTitle(
-                    Text("LIBRARIES", tableName: "Search", bundle: .module)
-                )
-                    .toolbar {
-                        ToolbarItem(placement: .topBarLeading) {
-                            Button(action: {
-                                Task {
-                                    viewModel.isShowingLibrarySelection = false
-                                }
-                            }) {
-                                Text("CANCEL", tableName: "Applicationwide")
+                .navigationTitle(Text("LIBRARIES", tableName: "Search", bundle: .module))
+                .toolbar {
+                    ToolbarItem(placement: .topBarLeading) {
+                        Button(action: {
+                            Task {
+                                viewModel.isShowingLibrarySelection = false
                             }
+                        }) {
+                            Text("CANCEL", tableName: "Applicationwide")
                         }
                     }
+                }
             }
         })
         .alert(
