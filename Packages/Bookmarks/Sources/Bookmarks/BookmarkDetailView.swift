@@ -62,8 +62,8 @@ struct BookmarkDetailView<ViewModel: BookmarkViewModelProtocol>: View {
                     } label: {
                         Image(systemName: "trash")
                     }
-                    .accessibilityLabel("delete bookmark button")
-                    .confirmationDialog("Are you sure you want to delete the bookmark?", isPresented: $viewModel.showsDeleteConfirmation) {
+                    .accessibilityLabel(Text("delete bookmark button", bundle: .module))
+                    .confirmationDialog(Text("delete bookmark confirmation title", bundle: .module), isPresented: $viewModel.showsDeleteConfirmation) {
                         Button(action: {
                             Task {
                                 viewModel.delete()
