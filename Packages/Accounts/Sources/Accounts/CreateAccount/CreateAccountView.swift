@@ -90,24 +90,7 @@ public struct CreateAccountView: View {
 }
 
 #if DEBUG
-class MockAccount: Account {
-    var allLoans: [any LibraryCore.Loan] = []
-
-    var allCharges: [any LibraryCore.Charge] = []
-
-    var name: String? = "Irma Vep"
-
-    var username: String? = "Irmion"
-
-    var avatar: String? = AccountTemplate.cat.avatar.imageName
-
-    var isActivated: Bool = true
-
-    var library: (any LibraryCore.Library)?
-}
 #Preview {
-    let mockAccount = MockAccount()
-    let viewModel = CreateAccountViewModel(activationState: .signedOut)
-    CreateAccountView(viewModel: viewModel)
+    CreateAccountView(viewModel: CreateAccountViewModel(activationState: .signedOut))
 }
 #endif
