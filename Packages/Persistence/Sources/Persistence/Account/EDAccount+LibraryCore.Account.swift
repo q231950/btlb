@@ -5,7 +5,9 @@
 //  Created by Martin Kim Dung-Pham on 04.11.22.
 //
 
+import CoreData
 import Foundation
+
 import LibraryCore
 
 extension EDAccount: LibraryCore.Account {
