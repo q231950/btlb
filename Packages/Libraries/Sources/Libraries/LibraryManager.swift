@@ -17,10 +17,16 @@ private enum Constants {
     static let librarySubtitleKey = "subtitle"
     static let libraryNameKey = "name"
     static let defaultLibraryIdentifier = "HAMBURGPUBLIC"
+    /// Libraries that have been merged into another library, by their former identifier
+    static let mergedLibraryIdentifiers = [
+        // StabiKat searched the catalog of the Staatsbibliothek, which BERLIN searches now
+        "STABIKAT": "BERLIN"
+    ]
 }
 
 public final class LibraryManager: LibraryProvider {
     private let persistentContainer: PersistentContainer
+    private let userDefaults: UserDefaults
     var amountOfLibrariesToProcess: UInt = 0
 
     public var legacySearchLibrary: NSManagedObjectID? {
@@ -28,11 +34,11 @@ public final class LibraryManager: LibraryProvider {
     }
 
     public var searchLibrary: NSManagedObjectID? {
-        let libraryIdentifier = UserDefaults.standard.string(forKey: Constants.settingsSearchLibrary)
+        let libraryIdentifier = userDefaults.string(forKey: Constants.settingsSearchLibrary)
         ?? Constants.defaultSearchLibraryIdentifier
 
-        if UserDefaults.standard.string(forKey: Constants.settingsSearchLibrary) == nil {
-            UserDefaults.standard.set(libraryIdentifier, forKey: Constants.settingsSearchLibrary)
+        if userDefaults.string(forKey: Constants.settingsSearchLibrary) == nil {
+            userDefaults.set(libraryIdentifier, forKey: Constants.settingsSearchLibrary)
         }
 
         return library(forIdentifier: libraryIdentifier,
@@ -44,8 +50,9 @@ public final class LibraryManager: LibraryProvider {
                 in: persistentContainer.viewContext)
     }
 
-    public init(persistentContainer: PersistentContainer) {
+    public init(persistentContainer: PersistentContainer, userDefaults: UserDefaults = .standard) {
         self.persistentContainer = persistentContainer
+        self.userDefaults = userDefaults
     }
     
     public func library(forIdentifier identifier: String, in context: NSManagedObjectContext?) -> NSManagedObjectID? {
@@ -69,10 +76,62 @@ public final class LibraryManager: LibraryProvider {
     ) {
         let libraries = libraryProvider.libraries()
 
+        // without any provided libraries there is nothing to tell removed libraries apart by
+        guard !libraries.isEmpty else { return }
+
         if let context {
             libraries.forEach { library in
                 insertOrUpdateLibrary(with: library, context: context)
             }
+
+            removeLibraries(notIn: libraries, in: context)
+        }
+
+        replaceSearchLibraryIfRemoved(providedIdentifiers: Set(libraries.compactMap(\.identifier)))
+    }
+
+    /// Removes the stored libraries that are no longer provided, e.g. because they have been merged into another library.
+    /// Libraries that accounts or loans still belong to are kept, but can no longer be selected.
+    func removeLibraries(notIn libraries: [any LibraryCore.Library], in context: NSManagedObjectContext) {
+        let providedIdentifiers = libraries.compactMap(\.identifier)
+
+        context.performAndWait {
+            let fetchRequest: NSFetchRequest<Persistence.Library> = Persistence.Library.fetchRequest()
+            fetchRequest.predicate = NSPredicate(format: "NOT (identifier IN %@)", argumentArray: [providedIdentifiers])
+
+            guard let removedLibraries = try? context.fetch(fetchRequest) else { return }
+
+            for library in removedLibraries {
+                let isInUse = (library.libraryAccounts?.count ?? 0) > 0 || (library.libraryLoans?.count ?? 0) > 0
+
+                if isInUse {
+                    library.enabledForSearch = false
+                    library.enabledForLogin = false
+                } else {
+                    context.delete(library)
+                }
+            }
+
+            if context.hasChanges {
+                do {
+                    try context.save()
+                } catch {
+                    Logger.libraries.error("Error removing libraries that are no longer provided\n\(error.localizedDescription)")
+                }
+            }
+        }
+    }
+
+    /// Searches the library a removed search library has been merged into, or the default library
+    func replaceSearchLibraryIfRemoved(providedIdentifiers: Set<String>) {
+        guard let identifier = userDefaults.string(forKey: Constants.settingsSearchLibrary),
+              !providedIdentifiers.contains(identifier) else { return }
+
+        if let mergedIdentifier = Constants.mergedLibraryIdentifiers[identifier],
+           providedIdentifiers.contains(mergedIdentifier) {
+            userDefaults.set(mergedIdentifier, forKey: Constants.settingsSearchLibrary)
+        } else {
+            userDefaults.removeObject(forKey: Constants.settingsSearchLibrary)
         }
     }
 
