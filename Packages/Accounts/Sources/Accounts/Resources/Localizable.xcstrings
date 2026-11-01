@@ -3043,11 +3043,11 @@
         }
       }
     },
-    "LIBRARIES" : {
+    "Libraries" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Bibliotheken"
           }
         },
@@ -3059,26 +3059,26 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "BIBLIOTECAS"
+            "state" : "translated",
+            "value" : "Blbliotecas"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "BIBLIOTHÈQUES"
+            "state" : "translated",
+            "value" : "Bibliothèques"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "KÜTÜPHANELERİ"
+            "state" : "translated",
+            "value" : "Kütüphaneleri"
           }
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "БІБЛІОТЕКИ"
+            "state" : "machine_translated",
+            "value" : "Бібліотеки"
           }
         }
       }
