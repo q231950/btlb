@@ -5,7 +5,8 @@ import PackageDescription
 
 let package = Package(
     name: "Search",
-    platforms: [.iOS(.v17)],
+    // searchFocused(_:) needs iOS 18. The tools version predates `.v18`, hence the version string.
+    platforms: [.iOS("18.0")],
     products: [
         .library(
             name: "Search",
