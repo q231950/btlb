@@ -44,7 +44,8 @@ class SignInSuccessViewModel: ObservableObject {
 }
 
 struct SignInSuccessView: View {
-    @ObservedObject var viewModel: SignInSuccessViewModel
+    /// Owned by the view, so it survives updates of the views around it, such as the list behind the sheet.
+    @StateObject private var viewModel: SignInSuccessViewModel
     private let done: () -> Void
 
     @Environment(\.localAccountService) private var accountService: LocalAccountService
@@ -52,8 +53,8 @@ struct SignInSuccessView: View {
     @Environment(\.accountCredentialStore) private var accountCredentialStore: AccountCredentialStoring
     @Environment(\.dataStackProvider) private var dataStackProvider
 
-    init(viewModel: SignInSuccessViewModel, done: @escaping () -> Void) {
-        self.viewModel = viewModel
+    init(viewModel: @autoclosure @escaping () -> SignInSuccessViewModel, done: @escaping () -> Void) {
+        _viewModel = StateObject(wrappedValue: viewModel())
         self.done = done
     }
 
