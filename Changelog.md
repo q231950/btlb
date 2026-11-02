@@ -3,6 +3,7 @@
 ### Unreleased
 
 • Loans and charges of every account in a single Accounts tab
+• Add, edit and delete accounts right in the Accounts tab
 
 ### 2.30.0
 

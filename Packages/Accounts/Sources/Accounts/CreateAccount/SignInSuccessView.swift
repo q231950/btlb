@@ -102,12 +102,7 @@ struct SignInSuccessView: View {
                             accountActivating: accountActivating,
                             managedObjectContext: dataStackProvider.foregroundManagedObjectContext,
                             managedObjectId: viewModel.managedObjectId,
-                            dataStackProvider: dataStackProvider,
-                            onDelete: {
-                                assertionFailure(
-                                    "you cannot delete the account during account creation"
-                                )
-                            })
+                            dataStackProvider: dataStackProvider)
                     ) {
                         HStack(
                             alignment: .center

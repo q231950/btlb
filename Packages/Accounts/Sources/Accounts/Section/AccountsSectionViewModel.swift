@@ -5,9 +5,11 @@
 //  Created by Martin Kim Dung-Pham on 02.11.26.
 //
 
+import CoreData
 import Foundation
 
 import LibraryCore
+import Persistence
 
 @MainActor final class AccountsSectionViewModel: ObservableObject {
     @Published var isShowingErrors = false
@@ -41,5 +43,27 @@ import LibraryCore
 
     func show(_ loan: any LibraryCore.Loan, loanService: any LoanService) {
         onLoanSelection(loan, loanService)
+    }
+
+    /// Creates the view model of the editor of an account.
+    ///
+    /// View models of the same account are equal, so a person stays in the editor while the list behind it updates.
+    /// - Parameters:
+    ///   - account: the identifier of the account to edit
+    ///   - dataStackProvider: provides the context the account is edited in
+    ///   - accountService: loads and deletes the account
+    ///   - accountCredentialStore: holds the password of the account
+    ///   - accountActivating: activates the account after a person signed in
+    func accountEditViewModel(for account: NSManagedObjectID,
+                              dataStackProvider: DataStackProviding,
+                              accountService: LocalAccountService,
+                              accountCredentialStore: AccountCredentialStoring,
+                              accountActivating: AccountActivating) -> AccountEditViewModel {
+        AccountEditViewModel(accountService: accountService,
+                             accountCredentialStore: accountCredentialStore,
+                             accountActivating: accountActivating,
+                             managedObjectContext: dataStackProvider.foregroundManagedObjectContext,
+                             managedObjectId: account,
+                             dataStackProvider: dataStackProvider)
     }
 }

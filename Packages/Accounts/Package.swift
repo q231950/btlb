@@ -38,6 +38,6 @@ let package = Package(
             ]),
         .testTarget(
             name: "AccountsTests",
-            dependencies: ["Accounts", "LibraryCore", "Mocks"]),
+            dependencies: ["Accounts", "LibraryCore", "Mocks", "Persistence"]),
     ]
 )

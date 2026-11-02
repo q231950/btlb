@@ -3,7 +3,6 @@ import SwiftUI
 
 import ArchitectureX
 
-import Accounts
 import LibraryCore
 import LibraryUI
 import Localization
@@ -47,12 +46,6 @@ struct MoreList: View {
                 switch entry {
                 case .about:
                     AboutSectionCoordinator().contentView
-                case .accounts:
-                    let listViewModel = AccountListViewModel(dataStackProvider: dataStackProvider) {
-                        path.removeLast()
-                    }
-
-                    AccountList(viewModel: listViewModel)
                 case .settings(let settingsService):
                     SettingsSectionCoordinator(settingsService: settingsService, dataStackProvider: dataStackProvider)
                         .contentView
@@ -85,7 +78,6 @@ public enum Entry: Hashable, Identifiable {
         title
     }
     case about
-    case accounts
     case settings(any LibraryCore.SettingsService)
     case openSource
 
@@ -93,8 +85,6 @@ public enum Entry: Hashable, Identifiable {
         switch self {
         case .about:
             return Localization.Titles.about
-        case .accounts:
-            return Localization.Titles.accounts
         case .settings:
             return Localization.Titles.settings
         case .openSource:
@@ -105,7 +95,7 @@ public enum Entry: Hashable, Identifiable {
 
 //#Preview {
 //    NavigationStack {
-//        MoreSectionCoordinator(entries: [.accounts, .about])
+//        MoreSectionCoordinator(entries: [.about])
 //            .contentView
 //    }
 //}

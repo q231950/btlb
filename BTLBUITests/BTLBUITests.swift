@@ -263,8 +263,7 @@ class BTLBUITests: XCTestCase {
     }
 
     func login(name: String, login: String, password: String, library: String) {
-        app.tabBars.buttons["Mehr"].tap()
-        app.staticTexts["Konten"].tap()
+        _ = app.navigateToAccountsSection()
 
         app.buttons["Konto hinzufügen"].tap()
 
@@ -289,8 +288,7 @@ class BTLBUITests: XCTestCase {
     }
 
     func logout(file: StaticString = #file, line: Int = #line) {
-        app.tabBars.buttons["Mehr"].tap()
-        app.staticTexts["Konten"].tap()
+        _ = app.navigateToAccountsSection()
 
         let accounts = app.buttons.matching(identifier: "account item")
         var count = accounts.count

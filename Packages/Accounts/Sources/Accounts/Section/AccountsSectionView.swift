@@ -15,12 +15,17 @@ import Localization
 import Persistence
 
 /// A scrollable list of all accounts, each showing its loans and charges.
+/// People add accounts from the navigation bar and edit an account by tapping it.
 struct AccountsSectionView: View {
 
     @ObservedObject private var viewModel: AccountsSectionViewModel
     @State private var showsAccountCreation = false
     @Environment(\.loanService) private var loanService: any LoanService
     @Environment(\.intent) private var intent: (any AppIntent)?
+    @Environment(\.dataStackProvider) private var dataStackProvider
+    @Environment(\.localAccountService) private var accountService: LocalAccountService
+    @Environment(\.accountCredentialStore) private var accountCredentialStore: AccountCredentialStoring
+    @Environment(\.accountActivating) private var accountActivating: AccountActivating
 
     @SectionedFetchRequest<String, EDAccount>(
         sectionIdentifier: \.accountIdentifier,
@@ -34,12 +39,27 @@ struct AccountsSectionView: View {
     }
 
     var body: some View {
-        Group {
-            if !showsAccountCreation && accounts.count > 0 {
+        // Unlike a `Group`, the stack keeps the sheets presented when the list replaces the empty state,
+        // for example when a person adds their first account.
+        ZStack {
+            if accounts.count > 0 {
                 accountList
             } else {
                 emptyState
             }
+        }
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    showsAccountCreation = true
+                } label: {
+                    Image(systemName: "person.crop.circle.badge.plus")
+                }
+                .accessibilityLabel(Localization.List.newAccountButtonAccessibilityLabel)
+            }
+        }
+        .navigationDestination(for: AccountEditViewModel.self) { editViewModel in
+            AccountEditView(editViewModel, onSave: {})
         }
         .sheet(isPresented: $showsAccountCreation) {
             CreateAccountView()
@@ -76,12 +96,18 @@ struct AccountsSectionView: View {
             ForEach(accounts) { section in
                 ForEach(section) { account in
                     if account.activated?.boolValue ?? false {
-                        AccountOverviewSection(account: account) { loan in
+                        AccountOverviewSection(account: account, editViewModel: editViewModel(for: account)) { loan in
                             viewModel.show(loan, loanService: loanService)
                         }
                     } else {
-                        Section(header: Text(account.sectionTitle(.loans))) {
+                        Section {
                             InactiveAccountView(account: account)
+                        } header: {
+                            AccountHeaderLink(editViewModel: editViewModel(for: account)) {
+                                Text(account.sectionTitle(.loans))
+
+                                Spacer()
+                            }
                         }
                     }
                 }
@@ -90,6 +116,14 @@ struct AccountsSectionView: View {
         .refreshable { [viewModel] in
             await viewModel.refresh()
         }
+    }
+
+    private func editViewModel(for account: EDAccount) -> AccountEditViewModel {
+        viewModel.accountEditViewModel(for: account.objectID,
+                                       dataStackProvider: dataStackProvider,
+                                       accountService: accountService,
+                                       accountCredentialStore: accountCredentialStore,
+                                       accountActivating: accountActivating)
     }
 }
 

@@ -64,8 +64,6 @@ final class AccountEditViewModel: ObservableObject, @MainActor AccountEditViewMo
     private var initialAccountActivation = false
     private let dataStackProvider: DataStackProviding
 
-    private var onDelete: () -> Void
-
     lazy var librarySelectionViewModel: LibrarySelectionEditViewModel = .init(selectedLibraryIdentifier: self.account?.library?.identifier, observedValue: librarySelectionObservedValue)
     private lazy var librarySelectionObservedValue: ObservedValue = shirt.observeValue(named: "library") { old, new in
     }
@@ -92,15 +90,13 @@ final class AccountEditViewModel: ObservableObject, @MainActor AccountEditViewMo
          accountActivating: AccountActivating?,
          managedObjectContext: NSManagedObjectContext,
          managedObjectId: NSManagedObjectID,
-         dataStackProvider: DataStackProviding,
-         onDelete: @escaping () -> Void) {
+         dataStackProvider: DataStackProviding) {
         self.accountService = accountService
         self.accountCredentialStore = accountCredentialStore
         self.accountActivating = accountActivating
         self.managedObjectContext = managedObjectContext
         self.managedObjectId = managedObjectId
         self.dataStackProvider = dataStackProvider
-        self.onDelete = onDelete
 
         shirt.isDirty
             .receive(on: RunLoop.main)
@@ -217,7 +213,6 @@ final class AccountEditViewModel: ObservableObject, @MainActor AccountEditViewMo
 
     func deleteAccount() async throws {
         try await accountService.deleteAccount(with: managedObjectId)
-        onDelete()
     }
 
     func save() {

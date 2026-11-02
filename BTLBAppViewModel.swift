@@ -207,9 +207,8 @@ class AppViewModel: ObservableObject {
         let settingsService = SettingsService(
             notificationScheduler: NotificationScheduler(),
             accountService: accountRepository, userDefaults: UserDefaults.suite)
-        let accountCredentialStore = AccountCredentialStore(keychainProvider: KeychainManager())
 
-        return MoreSectionCoordinator(entries: [.accounts, .about, .settings(settingsService), .openSource])
+        return MoreSectionCoordinator(entries: [.about, .settings(settingsService), .openSource])
     }()
 
     @MainActor lazy var settingsService: LibraryCore.SettingsService = SettingsService(
