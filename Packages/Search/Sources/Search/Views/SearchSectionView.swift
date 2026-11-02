@@ -18,7 +18,7 @@ import Persistence
 struct SearchSectionView: View {
 
     @ObservedObject var viewModel: SearchSectionViewModel
-    @FocusState private var removeFocusFromSearchBar: Bool
+    @FocusState private var isSearchFieldFocused: Bool
     @Environment(\.dataStackProvider) private var dataStackProvider
 
     @ViewBuilder var content: some View {
@@ -27,6 +27,14 @@ struct SearchSectionView: View {
             initialSearchContent(for: viewModel)
         case .searching, .results:
             SearchResultListView(viewModel: viewModel)
+                .overlay {
+                    // While the search text is being edited, the search history covers the results, so
+                    // the results keep their scroll position for when editing ends.
+                    if isSearchFieldFocused && !viewModel.suggestions.isEmpty {
+                        searchHistory
+                            .background(.background)
+                    }
+                }
         }
     }
 
@@ -36,21 +44,17 @@ struct SearchSectionView: View {
 
     var body: some View {
         content
+        .contentMarginsForFloatingSearchField()
         // Automatic placement lets the field live in the iOS 26 search tab at the bottom of the screen.
+        //
+        // The search history is shown in this view's own list instead of as search suggestions, so it gets
+        // the margin for the search field above the keyboard. SwiftUI presents suggestions in a list of its own.
         .searchable(text: $viewModel.searchText,
-                    prompt: Text("Search in \(libraryName)", tableName: "Search" , bundle: .module),
-                    suggestions: {
-            ForEach(viewModel.suggestions) { suggestion in
-                SearchSuggestionListItem(suggestion, onDelete: {
-                    viewModel.deleteSuggestion(suggestion)
-                })
-                .searchCompletion(suggestion.searchTerm)
-                .focused($removeFocusFromSearchBar)
-            }
-        })
+                    prompt: Text("Search in \(libraryName)", tableName: "Search" , bundle: .module))
+        .searchFocused($isSearchFieldFocused)
         .onSubmit(of: .search) {
             viewModel.search()
-            removeFocusFromSearchBar = true
+            isSearchFieldFocused = false
         }
         .sheet(isPresented: $viewModel.isShowingLibrarySelection, content: {
             NavigationView {
@@ -115,25 +119,28 @@ struct SearchSectionView: View {
                     .padding()
             }
         } else {
-            VStack {
-                List {
-                    Section {
-                        ForEach(viewModel.suggestions) { suggestion in
-                            SearchSuggestionListItem(suggestion, onSelect: {
-                                removeFocusFromSearchBar = true
+            searchHistory
+        }
+    }
 
-                                viewModel.searchText = suggestion.searchTerm
+    /// The previous searches that match the search text.
+    private var searchHistory: some View {
+        List {
+            Section {
+                ForEach(viewModel.suggestions) { suggestion in
+                    SearchSuggestionListItem(suggestion, onSelect: {
+                        isSearchFieldFocused = false
 
-                                viewModel.search()
-                            }) {
-                                viewModel.deleteSuggestion(suggestion)
-                            }
-                            .foregroundColor(Color("textColor"))
-                        }
+                        viewModel.searchText = suggestion.searchTerm
+
+                        viewModel.search()
+                    }) {
+                        viewModel.deleteSuggestion(suggestion)
                     }
+                    .foregroundColor(Color("textColor"))
                 }
             }
-            .listStyle(.plain)
         }
+        .listStyle(.plain)
     }
 }
