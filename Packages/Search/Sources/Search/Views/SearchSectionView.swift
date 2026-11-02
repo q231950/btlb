@@ -44,11 +44,11 @@ struct SearchSectionView: View {
 
     var body: some View {
         content
+        .contentMarginsForFloatingSearchField()
         // Automatic placement lets the field live in the iOS 26 search tab at the bottom of the screen.
         //
-        // The search history is shown in this view's own list instead of as search suggestions. SwiftUI
-        // presents suggestions in a list of its own, and the search field above the keyboard covers the
-        // end of that list once it scrolls.
+        // The search history is shown in this view's own list instead of as search suggestions, so it gets
+        // the margin for the search field above the keyboard. SwiftUI presents suggestions in a list of its own.
         .searchable(text: $viewModel.searchText,
                     prompt: Text("Search in \(libraryName)", tableName: "Search" , bundle: .module))
         .searchFocused($isSearchFieldFocused)
