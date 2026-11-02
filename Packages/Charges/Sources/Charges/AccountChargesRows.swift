@@ -1,6 +1,6 @@
 //
-//  ChargesAccountSection.swift
-//  
+//  AccountChargesRows.swift
+//
 //
 //  Created by Martin Kim Dung-Pham on 21.02.23.
 //
@@ -14,14 +14,13 @@ import Localization
 import Persistence
 import Utilities
 
-struct ChargesAccountSection: View {
-    private let title: String
-    private let subtitle: String
+/// The charges of a single account, to be placed inside a list section:
+/// a "Charges" label, one row per charge and then either the total or a hint that there are no charges.
+public struct AccountChargesRows: View {
     @FetchRequest private var charges: FetchedResults<Persistence.Charge>
 
-    public init(title: String, subtitle: String, account objectId: NSManagedObjectID) {
-        self.title = title
-        self.subtitle = subtitle
+    /// - Parameter objectId: the managed object identifier of the account whose charges are shown
+    public init(account objectId: NSManagedObjectID) {
         _charges = FetchRequest(
             sortDescriptors: [
                 NSSortDescriptor(key: "date", ascending: true),
@@ -37,9 +36,9 @@ struct ChargesAccountSection: View {
         MockCharge(reason: "Versäumnisgebühren", amount: 0.8),
     ]
 
-    var body: some View {
-        ChargeSection(title, subtitle: subtitle, charges: charges.map { $0 }, sum: charges.map { $0 }.sum)
-//        ChargeSection(title, subtitle: subtitle, charges: chargesMocks, sum: chargesMocks.map { $0 }.sum)
+    public var body: some View {
+        ChargeRows(charges: charges.map { $0 }, sum: charges.map { $0 }.sum)
+//        ChargeRows(charges: chargesMocks, sum: chargesMocks.map { $0 }.sum)
     }
 }
 
@@ -47,36 +46,30 @@ protocol ChargeRepresentable {
     var amount: Int { get }
 }
 
-struct ChargeSection<ChargeType: LibraryCore.Charge>: View {
+struct ChargeRows<ChargeType: LibraryCore.Charge>: View {
 
-    let title: String
-    let subtitle: String
     let sum: Float?
     let charges: [ChargeType]
 
-    init(_ title: String, subtitle: String, charges: [ChargeType], sum: Float?) {
-        self.title = title
-        self.subtitle = subtitle
+    init(charges: [ChargeType], sum: Float?) {
         self.charges = charges
         self.sum = sum
     }
 
     var body: some View {
-        Section(content: {
-            list(of: charges)
+        header
 
-            footer(sum: sum)
-        }, header: {
-            header(title: title, subtitle: subtitle)
-                .padding(.bottom, 10)
-        })
+        list(of: charges)
+
+        footer(sum: sum)
     }
 
-    @ViewBuilder private func header(title: String, subtitle: String) -> some View {
-        ItemView(title: title,
-                 subtitle2: subtitle,
-                 subtitleSystemImageName: "building.columns")
-        .listRowSeparator(.hidden)
+    @ViewBuilder private var header: some View {
+        Text(Localization.Titles.charges)
+            .font(.subheadline)
+            .bold()
+            .foregroundStyle(.secondary)
+            .accessibilityAddTraits(.isHeader)
     }
 
     @ViewBuilder private func list(of charges: [ChargeType]) -> some View {
@@ -139,36 +132,35 @@ class MockCharge: LibraryCore.Charge {
     }
 }
 
-struct ChargeSection_Previews: PreviewProvider {
+struct ChargeRows_Previews: PreviewProvider {
 
     static var previews: some View {
         List {
-            ChargeSection("abc",
-                          subtitle: "Bücherhallen Hamburg",
-                          charges: [
-                            MockCharge(reason: "Vormerkung", amount: 23),
-                            MockCharge(reason: nil, amount: 12),
-                            MockCharge(reason: "Vormerkung", amount: 0.4),
-                          ], sum: 42)
+            Section("abc") {
+                ChargeRows(charges: [
+                    MockCharge(reason: "Vormerkung", amount: 23),
+                    MockCharge(reason: nil, amount: 12),
+                    MockCharge(reason: "Vormerkung", amount: 0.4),
+                ], sum: 42)
+            }
 
-            ChargeSection("def",
-                          subtitle: "Bücherhallen Hamburg",
-                          charges: [
-                            MockCharge(reason: "Vormerkung", amount: 0),
-                            MockCharge(reason: "Vormerkung Vorkung Vormerkg ", amount: 20.33)
-                          ], sum: 30.33)
+            Section("def") {
+                ChargeRows(charges: [
+                    MockCharge(reason: "Vormerkung", amount: 0),
+                    MockCharge(reason: "Vormerkung Vorkung Vormerkg ", amount: 20.33)
+                ], sum: 30.33)
+            }
 
-            ChargeSection("def",
-                          subtitle: "Bücherhallen Hamburg",
-                          charges: [
-                            MockCharge(reason: "Vormerkung", amount: 0),
-                            MockCharge(reason: "Vormerkung", amount: 0)
-                          ], sum: nil)
+            Section("def") {
+                ChargeRows(charges: [
+                    MockCharge(reason: "Vormerkung", amount: 0),
+                    MockCharge(reason: "Vormerkung", amount: 0)
+                ], sum: nil)
+            }
 
-            ChargeSection("Kim",
-                          subtitle: "Bücherhallen Hamburg Bücherhallen Hamburg Bücherhallen Hamburg",
-                          charges: [MockCharge
-            ](), sum: nil)
+            Section("Kim") {
+                ChargeRows(charges: [MockCharge](), sum: nil)
+            }
         }
     }
 }

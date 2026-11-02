@@ -8,23 +8,42 @@
 
 import Foundation
 import ArchitectureX
+import BTLBSettings
 import LibraryCore
 import LibraryUI
 import SwiftUI
 import Persistence
 
-class LoanCoordinator<ViewModel: LibraryCore.LoanViewModel>: Coordinator {
+/// Presents the details of a single loan.
+public class LoanCoordinator<ViewModel: LibraryCore.LoanViewModel>: Coordinator {
 
-    var router: Router? = Router()
+    public var router: Router? = Router()
 
     let loan: ViewModel
 
-    init(loan: ViewModel) {
+    public init(loan: ViewModel) {
         self.loan = loan
     }
 
-    @MainActor var contentView: some View {
+    @MainActor public var contentView: some View {
         LoanDetailView(loan)
             .presentationDetents([.medium, .large])
+    }
+}
+
+/// Presents the details of a single loan, set up with the app's own services.
+public typealias LoanDetailCoordinator = LoanCoordinator<LoanViewModel>
+
+public extension LoanCoordinator where ViewModel == LoanViewModel {
+
+    /// Creates a coordinator for the details of a loan.
+    /// - Parameters:
+    ///   - loan: the loan to show the details of
+    ///   - loanService: the service that renews and bookmarks the loan
+    @MainActor convenience init(loan: any LibraryCore.Loan, loanService: any LoanService) {
+        self.init(loan: LoanViewModel(loanService: loanService,
+                                      appReviewService: BTLBSettings.AppReviewService(userDefaults: .suite),
+                                      notificationScheduler: NotificationScheduler(),
+                                      loan: loan))
     }
 }

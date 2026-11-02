@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Accounts",
     defaultLocalization: "en",
-    platforms: [.iOS(.v16)],
+    platforms: [.iOS(.v17)],
     products: [
         .library(
             name: "Accounts",
@@ -13,9 +13,11 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/q231950/architecture-x", .upToNextMajor(from: "0.0.3")),
+        .package(path: "../Charges"),
         .package(path: "../Libraries"),
         .package(path: "../LibraryCore"),
         .package(path: "../LibraryUI"),
+        .package(path: "../Loans"),
         .package(path: "../Localization"),
         .package(path: "../Persistence"),
         .package(path: "../Mocks")
@@ -25,15 +27,17 @@ let package = Package(
             name: "Accounts",
             dependencies: [
                 .product(name: "ArchitectureX", package: "architecture-x"),
+                "Charges",
                 "Libraries",
                 "LibraryCore",
                 "LibraryUI",
+                "Loans",
                 "Localization",
                 "Mocks",
                 "Persistence"
             ]),
         .testTarget(
             name: "AccountsTests",
-            dependencies: ["Accounts", "Mocks"]),
+            dependencies: ["Accounts", "LibraryCore", "Mocks"]),
     ]
 )

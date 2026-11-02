@@ -142,10 +142,10 @@ class BTLBUITests: XCTestCase {
 
     func testChargesSnapshot() {
         expect {
-            When("I login and navigate to the 'Charges' section") {
+            When("I login and navigate to the 'Accounts' section, which shows the charges") {
                 self.login(name: "Laserman", login: "123456789", password: "***", library: "Bücherhallen Hamburg")
 
-                self.app.tabBars.buttons["Gebühren"].tap()
+                _ = self.app.navigateToAccountsSection()
             }
 
             Then("I take a snapshot and log out") {
@@ -213,8 +213,8 @@ class BTLBUITests: XCTestCase {
                 self.login(name: "Irma Vep", login: "123456789", password: "***", library: "Bücherhallen Hamburg")
             }
 
-            When("I navigate to the loans section") {
-                context.loansSection = context.app?.navigateToLoansSection()
+            When("I navigate to the accounts section") {
+                context.loansSection = context.app?.navigateToAccountsSection()
                 self.screenshotRecorder?.snapshot(name: "loans")
             }
 
@@ -241,7 +241,7 @@ class BTLBUITests: XCTestCase {
             Given("I select a loan") {
                 self.login(name: "John Doe", login: "123456789", password: "***", library: "Bücherhallen Hamburg")
 
-                let loansSection = context.app?.navigateToLoansSection()
+                let loansSection = context.app?.navigateToAccountsSection()
                 context.loanPage = loansSection?.selectLoan(title: "Dinosaurier")
             }
 

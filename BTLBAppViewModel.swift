@@ -9,9 +9,9 @@
 import Foundation
 import SwiftUI
 
+import Accounts
 import Bookmarks
 import BTLBSettings
-import Charges
 import Libraries
 import LibraryCore
 import Loans
@@ -125,14 +125,10 @@ class AppViewModel: ObservableObject {
     @MainActor lazy var notificationSynchronisation = NotificationSynchronisation(scheduler: NotificationScheduler())
     lazy var coreSpotlightSynchronisation = CoreSpotlightSynchronisation(dataStackProvider: dataStackProvider)
 
-    lazy var loansCoordinator = LoansSectionCoordinator(
-        databaseFactory: DatabaseConnectionFactory(),
-        accountUpdater: accountUpdater,
-        dependencies: LoanSectionDependencies(
-            accountService: AccountScraper()
-        )
-    )
-    var loansTitle = Localization.Titles.loans
+    @MainActor lazy var accountsCoordinator = AccountsSectionCoordinator { [accountUpdater, dataStackProvider] in
+        try await accountUpdater.manualUpdate(in: dataStackProvider.foregroundManagedObjectContext, at: .now)
+    }
+    var accountsTitle = Localization.Titles.accounts
 
     lazy var backendService: LoanBackendServicing = DatabaseConnectionFactory()
         .databaseConnection(
@@ -140,17 +136,6 @@ class AppViewModel: ObservableObject {
             accountService: AccountScraper(),
             dataStackProvider: dataStackProvider
         )
-
-    lazy var chargesCoordinator = ChargeListCoordinator(refreshable: RefreshHandler { [weak self] in
-
-        guard let self else { return }
-
-        // TODO: unite the 2 update methods into one
-        //        try await AccountUpdater().update(.manual(.now))
-        try await self.accountUpdater.manualUpdate(in: self.dataStackProvider.backgroundManagedObjectContext, at: Date())
-    })
-
-    var chargesTitle: String = Localization.Titles.charges
 
     func createSearchCoordinator() -> SearchSectionCoordinator {
         let container = dataStackProvider.persistentContainer!

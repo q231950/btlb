@@ -101,7 +101,7 @@ struct BTLBApp: App {
             case .idle:
                 tabs
                     .onAppear {
-                        migrateLegacySearchTabSelection()
+                        migrateLegacyTabSelection()
                         viewModel.updateDebugAlertPresented()
                         viewModel.updateLaunchCount()
                     }
@@ -110,7 +110,7 @@ struct BTLBApp: App {
                     }
                     .onChange(of: viewModel.route) { oldValue, newValue in
                         switch newValue {
-                        case .loans: selectedTabIndex = 1
+                        case .loans: selectedTabIndex = Self.accountsTabValue
                         case .search(let query):
                             selectedTabIndex = Self.searchTabValue
                             viewModel.searchCoordinator?.prefillSearchQuery(query)
@@ -125,17 +125,29 @@ struct BTLBApp: App {
         }
     }
 
+    /// The selection value of the accounts tab, which shows the loans and charges of every account.
+    /// It took over the value of the former loans tab.
+    private static let accountsTabValue = 1
+
     /// The selection value of the search tab.
     private static let searchTabValue = 5
 
     /// The selection value the search tab had before iOS 26, when it was the first tab.
     private static let legacySearchTabValue = 0
 
-    /// Selects the search tab for people whose stored selection still points at the pre-iOS 26 search tab,
-    /// which no longer exists.
-    private func migrateLegacySearchTabSelection() {
-        if selectedTabIndex == Self.legacySearchTabValue {
+    /// The selection value of the former charges tab, whose content is now part of the accounts tab.
+    private static let legacyChargesTabValue = 2
+
+    /// Selects the tab that took over for people whose stored selection still points at a tab that no longer exists:
+    /// the pre-iOS 26 search tab or the charges tab.
+    private func migrateLegacyTabSelection() {
+        switch selectedTabIndex {
+        case Self.legacySearchTabValue:
             selectedTabIndex = Self.searchTabValue
+        case Self.legacyChargesTabValue:
+            selectedTabIndex = Self.accountsTabValue
+        default:
+            break
         }
     }
 
@@ -154,17 +166,10 @@ struct BTLBApp: App {
 
     private var tabs: some View {
         TabView(selection: $selectedTabIndex) {
-            Tab(viewModel.loansTitle, systemImage: "tray.full", value: 1) {
+            Tab(viewModel.accountsTitle, systemImage: "person.crop.rectangle.stack", value: Self.accountsTabValue) {
                 NavigationStack {
-                    viewModel.loansCoordinator.view
-                        .navigationTitle(viewModel.loansTitle)
-                }
-            }
-
-            Tab(viewModel.chargesTitle, systemImage: "eurosign.square", value: 2) {
-                NavigationStack {
-                    viewModel.chargesCoordinator.view
-                        .navigationTitle(viewModel.chargesTitle)
+                    viewModel.accountsCoordinator.view
+                        .navigationTitle(viewModel.accountsTitle)
                 }
             }
 
