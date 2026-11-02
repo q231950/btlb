@@ -51,6 +51,9 @@ struct SearchSectionView: View {
         // the margin for the search field above the keyboard. SwiftUI presents suggestions in a list of its own.
         .searchable(text: $viewModel.searchText,
                     prompt: Text("Search in \(libraryName)", tableName: "Search" , bundle: .module))
+        // Selecting the search tab activates search, which hides the navigation bar by default. Keep it, so the
+        // button for selecting the library stays available while searching and after a search.
+        .searchPresentationToolbarBehavior(.avoidHidingContent)
         .searchFocused($isSearchFieldFocused)
         .onSubmit(of: .search) {
             viewModel.search()
