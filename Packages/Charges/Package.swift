@@ -12,7 +12,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/q231950/architecture-x", .upToNextMajor(from: "0.0.3")),
-        .package(path: "../Accounts"),
         .package(path: "../LibraryCore"),
         .package(path: "../LibraryUI"),
         .package(path: "../Localization"),
@@ -23,7 +22,6 @@ let package = Package(
             name: "Charges",
             dependencies: [
                 .product(name: "ArchitectureX", package: "architecture-x"),
-                "Accounts",
                 "LibraryCore",
                 "LibraryUI",
                 "Localization",

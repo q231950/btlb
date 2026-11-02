@@ -191,16 +191,6 @@ public protocol LoanViewModel: AnyObject, Identifiable, Hashable, ObservableObje
     func renew() async throws
 }
 
-public protocol LoanListViewModel: ObservableObject {
-
-    var isShowingErrors: Bool { get set }
-    var errors: [PaperErrorInternal] { get }
-
-    func refresh(in context: NSManagedObjectContext) async throws
-
-    func show(_ loan: some LoanViewModel)
-}
-
 public protocol AppReviewService {
     var shouldRequestAppReview: Bool { get }
 

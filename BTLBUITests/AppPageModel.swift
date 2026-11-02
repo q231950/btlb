@@ -138,13 +138,13 @@ struct LoanPage: PageModel {
 }
 
 enum Section: String {
-    case loans = "Entleihungen"
+    case accounts = "Konten"
 }
 
 extension XCUIApplication {
 
-    func navigateToLoansSection() -> LoansPage {
-        tapTabBarItem(section: .loans)
+    func navigateToAccountsSection() -> LoansPage {
+        tapTabBarItem(section: .accounts)
 
         return LoansPage(app: self)
     }

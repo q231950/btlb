@@ -1,5 +1,9 @@
 ## Changelog
 
+### Unreleased
+
+• Loans and charges of every account in a single Accounts tab
+
 ### 2.30.0
 
 • Staatsbibliothek Berlin searches its catalog via K10plus
