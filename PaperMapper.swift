@@ -143,6 +143,11 @@ extension PaperErrorInternal {
 public struct AccountScraper: AccountServiceProviding {
 
     public func account(username: String?, password: String?, library: LibraryModel) async throws(PaperErrorInternal) -> InternalAccount? {
+        // the demo account has made-up loans and charges at any library
+        if LibraryCore.DemoAccount.matches(username: username, password: password) {
+            return LibraryCore.DemoAccount.account(now: .now)
+        }
+
         guard let wrappedLibrary = Paper.LibraryList().libraryForIdentifier(identifier: library.id) else {
             throw .LibraryNotSupportedError
         }

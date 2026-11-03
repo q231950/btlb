@@ -61,6 +61,11 @@ public struct DatabaseConnection: LoanBackendServicing {
             throw NSError.missingCredentialsError()
         }
 
+        // renewing a loan of the demo account changes nothing, the loan keeps its due date
+        if DemoAccount.matches(username: accountIdentifier, password: password) {
+            return .success(loan)
+        }
+
         guard let library = account.accountLibrary else {
             throw NSError.unknownLibraryError()
         }

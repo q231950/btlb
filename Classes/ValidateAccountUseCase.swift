@@ -20,6 +20,12 @@ public struct ValidateAccountUseCase: AccountValidatingUseCase {
     public init() {}
 
     public func validate(account: String?, password: String?, library: LibraryModel) async throws -> LibraryCore.ValidationStatus {
+        // the demo account signs in at any library without reaching it
+        if LibraryCore.DemoAccount.matches(username: account, password: password) {
+            os_log("Signing in to the demo account", log: self.log, type: .debug)
+            return .valid
+        }
+
         guard let wrappedLibrary = Paper.LibraryList().libraryForIdentifier(identifier: library.id) else {
             throw NSError.unknownLibraryError()
         }
