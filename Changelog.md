@@ -4,6 +4,7 @@
 
 • Loans and charges of every account in a single Accounts tab
 • Add, edit and delete accounts right in the Accounts tab
+• Search library selection highlights the Staatsbibliothek Berlin
 
 ### 2.30.0
 
