@@ -78,7 +78,7 @@ public class LibrarySelectionViewModel<L: LibraryCore.Library>: ObservableObject
 
     public var descriptiveText: LocalizedStringKey {
         switch selectionType {
-        case .search: "Currently Search supports libraries of _Stiftung Hamburger Öffentliche Bücherhallen_ and _Gemeinsamer Bibliotheksverbund_. Please select the library to search in."
+        case .search: "Currently Search supports libraries of _Staatsbibliothek Preußischer Kulturbesitz zu Berlin_ and _Gemeinsamer Bibliotheksverbund_. Please select the library to search in."
         case .login: "Currently you can login to libraries of _Stiftung Hamburger Öffentliche Bücherhallen_ and _Gemeinsamer Bibliotheksverbund_. Please select the library to login to."
         }
     }
