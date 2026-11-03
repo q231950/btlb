@@ -12,6 +12,7 @@
 • Deleting a bookmark asks for confirmation first
 • The library picker is titled "Libraries" in English
 • Staatsbibliothek Berlin searches its catalog via K10plus
+• Search library selection highlights the Staatsbibliothek Berlin
 
 #### What's new (English)
 

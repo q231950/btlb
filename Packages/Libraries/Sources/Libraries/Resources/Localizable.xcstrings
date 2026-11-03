@@ -1,36 +1,36 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Currently Search supports libraries of _Stiftung Hamburger Öffentliche Bücherhallen_ and _Gemeinsamer Bibliotheksverbund_. Please select the library to search in." : {
+    "Currently Search supports libraries of _Staatsbibliothek Preußischer Kulturbesitz zu Berlin_ and _Gemeinsamer Bibliotheksverbund_. Please select the library to search in." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Derzeit unterstützt die Suche die Bibliotheken der _Stiftung Öffentliche Bücherhallen Hamburg_ und viele Bibliotheken des _Gemeinsamer Bibliotheksverbund_. Wähle die Bibliothek in welcher gesucht werden soll aus."
+            "value" : "Derzeit unterstützt die Suche die _Staatsbibliothek Preußischer Kulturbesitz zu Berlin_ und viele Bibliotheken des _Gemeinsamer Bibliotheksverbund_. Wähle die Bibliothek in welcher gesucht werden soll aus."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Actuellement, la recherche prend en charge les bibliothèques de _Stiftung Hamburger Öffentliche Bücherhallen_ et _Gemeinsamer Bibliotheksverbund_. Veuillez sélectionner la bibliothèque dans laquelle rechercher."
+            "value" : "Actuellement, la recherche prend en charge les bibliothèques de _Staatsbibliothek Preußischer Kulturbesitz zu Berlin_ et _Gemeinsamer Bibliotheksverbund_. Veuillez sélectionner la bibliothèque dans laquelle rechercher."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Actualmente la búsqueda admite las bibliotecas de _Stiftung Hamburger Öffentliche Bücherhallen_ y _Gemeinsamer Bibliotheksverbund_. Por favor, selecciona la biblioteca en la que buscar."
+            "value" : "Actualmente la búsqueda admite las bibliotecas de _Staatsbibliothek Preußischer Kulturbesitz zu Berlin_ y _Gemeinsamer Bibliotheksverbund_. Por favor, selecciona la biblioteca en la que buscar."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Наразі пошук підтримує бібліотеки _Stiftung Hamburger Öffentliche Bücherhallen_ та _Gemeinsamer Bibliotheksverbund_. Будь ласка, оберіть бібліотеку для пошуку."
+            "value" : "Наразі пошук підтримує бібліотеки _Staatsbibliothek Preußischer Kulturbesitz zu Berlin_ та _Gemeinsamer Bibliotheksverbund_. Будь ласка, оберіть бібліотеку для пошуку."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Şu anda arama _Stiftung Hamburger Öffentliche Bücherhallen_ ve _Gemeinsamer Bibliotheksverbund_ kütüphanelerini desteklemektedir. Lütfen arama yapılacak kütüphaneyi seçin."
+            "value" : "Şu anda arama _Staatsbibliothek Preußischer Kulturbesitz zu Berlin_ ve _Gemeinsamer Bibliotheksverbund_ kütüphanelerini desteklemektedir. Lütfen arama yapılacak kütüphaneyi seçin."
           }
         }
       }
