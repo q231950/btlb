@@ -1,13 +1,41 @@
 ## Changelog
 
-### Unreleased
+### 2.30.0
 
 • Loans and charges of every account in a single Accounts tab
 • Add, edit and delete accounts right in the Accounts tab
-
-### 2.30.0
-
+• Search lives in the standard iOS 26 search tab
+• The search history stays clear of the search field above the keyboard
+• The library button stays visible while searching
+• Refreshed buttons with a loading state, in light and dark mode
+• Loan details open as a sheet you can swipe away, at half or full height
+• Deleting a bookmark asks for confirmation first
+• The library picker is titled "Libraries" in English
 • Staatsbibliothek Berlin searches its catalog via K10plus
+
+#### What's new (English)
+
+Hello Staatsbibliothek zu Berlin! You can now search the Stabi catalogue right in BTLB.
+
+All your accounts, one tab: the new Accounts tab shows the loans and charges of every account in one place. You can add, edit and delete accounts right there, too.
+
+Search feels at home on iOS 27: it now sits in the standard search tab. Your search history no longer hides behind the keyboard, and the library button stays in view while you search.
+
+Plus lots of polish: refreshed buttons that show when something is loading, loan details you can open at half or full height and simply swipe away, and a quick confirmation before you delete a bookmark.
+
+Thanks for using BTLB, and good luck with your studies!
+
+#### Neu in dieser Version (Deutsch)
+
+Hallo Staatsbibliothek zu Berlin! Den Katalog der Stabi kannst du jetzt direkt in BTLB durchsuchen.
+
+Alle Konten in einem Tab: Im neuen Konten-Tab siehst du die Ausleihen und Gebühren all deiner Konten an einem Ort. Dort kannst du Konten auch direkt hinzufügen, bearbeiten und löschen.
+
+Die Suche fühlt sich unter iOS 26 wie zu Hause an: Sie sitzt jetzt im Standard-Such-Tab. Dein Suchverlauf verschwindet nicht mehr hinter der Tastatur, und der Bibliotheks-Button bleibt beim Suchen sichtbar.
+
+Dazu jede Menge Feinschliff: neu gestaltete Buttons, die anzeigen, wenn etwas lädt, Ausleihdetails, die du halb oder ganz aufziehen und einfach wegwischen kannst, und eine kurze Rückfrage, bevor du ein Lesezeichen löschst.
+
+Danke, dass du BTLB nutzt, und viel Erfolg im Studium!
 
 ### 2.29.0
 
