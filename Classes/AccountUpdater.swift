@@ -27,6 +27,10 @@ import Utilities
         let moc = moc ?? dataStackProvider.backgroundManagedObjectContext
         let accounts = try await dataStackProvider.activeAccounts(in: moc)
 
+        if await isOnlyDemoAccount(accounts, in: moc) {
+            return Self.unchangedDemoAccountUpdateResult
+        }
+
         do {
             return try await update(accounts, in: moc, at: date)
         } catch {
@@ -38,6 +42,10 @@ import Utilities
     func update(in moc: NSManagedObjectContext?) async throws -> UpdateResult {
         let moc = moc ?? dataStackProvider.backgroundManagedObjectContext
         let accounts = try await dataStackProvider.activeAccounts(in: moc)
+
+        if await isOnlyDemoAccount(accounts, in: moc) {
+            return Self.unchangedDemoAccountUpdateResult
+        }
 
         return try await update(accounts, in: moc)
     }
@@ -141,6 +149,28 @@ import Utilities
             Logger.accountActivation.debug("finished updating accounts: \(String(describing: updateResult))")
             return updateResult
         }
+    }
+
+    // MARK: Demo Account
+
+    /// The result of updating only the demo account, whose loans and charges stay the ones from signing in
+    private static var unchangedDemoAccountUpdateResult: UpdateResult {
+        .finished(hasChanges: false, renewableItems: [], returnedItems: [], errors: [])
+    }
+
+    /// Whether the given accounts are exactly one account, the demo account.
+    ///
+    /// Updating only the demo account changes nothing, so its due dates stay the ones from signing in.
+    /// Signing in still loads the demo loans and charges, since activating an account updates it with ``update(_:in:at:)``.
+    private func isOnlyDemoAccount(_ accounts: [NSManagedObjectID], in context: NSManagedObjectContext) async -> Bool {
+        guard accounts.count == 1, let account = accounts.first else { return false }
+
+        let username = await context.perform {
+            (context.object(with: account) as? EDAccount)?.accountUserID
+        }
+        let password = AccountCredentialStore(keychainProvider: KeychainManager()).password(for: username)
+
+        return DemoAccount.matches(username: username, password: password)
     }
 }
 

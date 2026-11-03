@@ -49,6 +49,13 @@
     },
     {
       "target" : {
+        "containerPath" : "container:Packages\/LibraryCore",
+        "identifier" : "LibraryCoreTests",
+        "name" : "LibraryCoreTests"
+      }
+    },
+    {
+      "target" : {
         "containerPath" : "container:Packages\/Loans",
         "identifier" : "LoansTests",
         "name" : "LoansTests"

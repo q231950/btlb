@@ -262,6 +262,32 @@ class BTLBUITests: XCTestCase {
         }
     }
 
+    func test_demoAccount() {
+        var context = Context(app: app, test: self)
+
+        expect {
+            Given("I sign in to the demo account") {
+                self.login(name: "Demo", login: "demo", password: "demo", library: "Bücherhallen Hamburg")
+            }
+
+            When("I select one of its loans and renew it") {
+                let loansSection = context.app?.navigateToAccountsSection()
+                context.loanPage = loansSection?.selectLoan(title: "Der Process")
+                context.loanPage.renew()
+            }
+
+            Then("I can see a success message") {
+                let renewedSuccessLabel = context.app?.navigationBars.buttons["verlängert"]
+                let exists = NSPredicate(format: "exists == true")
+                let exp = context.test.expectation(for: exists, evaluatedWith: renewedSuccessLabel)
+                context.test.wait(for: [exp], timeout: 2)
+
+                context.loanPage.tapDone()
+                self.logout()
+            }
+        }
+    }
+
     func login(name: String, login: String, password: String, library: String) {
         _ = app.navigateToAccountsSection()
 
