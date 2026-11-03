@@ -22,6 +22,7 @@ struct AccountEditView: View {
     @Environment(\.libraryProvider) private var libraryProvider: LibraryProvider?
     @Environment(\.accountActivating) private var accountActivating: AccountActivating
     @Environment(\.dataStackProvider) private var dataStackProvider
+    @Environment(\.dismiss) private var dismiss
     @State private var showsDeleteConfirmation = false
     @State var isShowingAvatarSelection = false
     private let onSave: () -> Void
@@ -133,9 +134,15 @@ struct AccountEditView: View {
         .tint(.primary)
 
         Button(Localization.Detail.deleteConfirmationOk, role: .destructive) {
-            Task {
-                try await viewModel.deleteAccount()
-            }
+            deleteAccount()
+        }
+    }
+
+    /// Deletes the account and goes back to where the editor was opened from.
+    private func deleteAccount() {
+        Task {
+            try await viewModel.deleteAccount()
+            dismiss()
         }
     }
 
@@ -193,9 +200,7 @@ struct AccountEditView: View {
                 }),
               secondaryButton:
                 .destructive(Text(Localization.Detail.deleteConfirmationOk)) {
-                    Task {
-                        try await viewModel.deleteAccount()
-                    }
+                    deleteAccount()
                 }
         )
     }
@@ -219,7 +224,7 @@ struct AccountEditView: View {
         accountService: LocalAccountRepository(context: inMemoryContext.0),
         accountCredentialStore: nil,
         accountActivating: nil,
-        managedObjectContext: inMemoryContext.0, managedObjectId: inMemoryContext.1, dataStackProvider: dataStackProvider, onDelete: {})
+        managedObjectContext: inMemoryContext.0, managedObjectId: inMemoryContext.1, dataStackProvider: dataStackProvider)
 
     return NavigationView {
         AccountEditView(viewModel, onSave: {})

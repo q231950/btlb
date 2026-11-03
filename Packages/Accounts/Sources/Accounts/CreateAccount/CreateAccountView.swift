@@ -61,15 +61,17 @@ class CreateAccountViewModel: ObservableObject {
 
 public struct CreateAccountView: View {
 
-    @ObservedObject var viewModel: CreateAccountViewModel
+    /// Owned by the view, so the sign-in keeps its progress when the view that presents it updates,
+    /// for example when the new account appears in the list behind the sheet.
+    @StateObject private var viewModel: CreateAccountViewModel
     @Environment(\.dismiss) private var dismiss
 
     public init() {
         self.init(viewModel: CreateAccountViewModel())
     }
 
-    init(viewModel: CreateAccountViewModel) {
-        self.viewModel = viewModel
+    init(viewModel: @autoclosure @escaping () -> CreateAccountViewModel) {
+        _viewModel = StateObject(wrappedValue: viewModel())
     }
 
     public var body: some View {
