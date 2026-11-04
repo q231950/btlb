@@ -68,6 +68,8 @@ struct AiRecommendationBookmarkSelectionCoordinatorView: View {
                         }
                     } header: {
                         Text("Recommender Selection Description", bundle: .module)
+                    } footer: {
+                        Text("Recommender Selection Limit", bundle: .module)
                     }
                 }
                 .navigationTitle("Recommender Title".localized(bundle: .module))
@@ -99,7 +101,8 @@ struct AiRecommendationBookmarkSelectionCoordinatorView: View {
             selectedItems.removeAll { b in
                 b.bookmarkIdentifier == bookmark.bookmarkIdentifier
             }
-        } else {
+        } else if selectedItems.count < RecommenderAPI.maximumTitles {
+            // The server takes at most 10 titles; the footer says so.
             selectedItems.insert(bookmark, at: 0)
         }
     }

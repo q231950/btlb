@@ -21,6 +21,7 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
     private let coordinator: BookmarkListCoordinator<ViewModel>
     @State private var aiRecommenderEnabled = false
     @Environment(\.settingsService) private var settingsService
+    @Environment(\.recommender) private var recommender
 
     @ObservedObject private var viewModel: ViewModel
 
@@ -60,7 +61,8 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
             }
         }
         .task {
-            aiRecommenderEnabled = settingsService.aiRecommenderEnabled
+            // Hidden where the recommender can't work (no App Attest), whatever the setting says.
+            aiRecommenderEnabled = settingsService.aiRecommenderEnabled && recommender.isAvailable
         }
     }
 
