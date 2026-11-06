@@ -127,8 +127,20 @@ final class StubTransport: HTTPTransport, @unchecked Sendable {
     }
 }
 
-private func errorBody(_ code: String) -> String {
-    #"{"error":true,"code":"\#(code)","reason":"…"}"#
+private func errorBody(_ code: String, reason: String = "…") -> String {
+    #"{"error":true,"code":"\#(code)","reason":"\#(reason)"}"#
+}
+
+/// Collects the client's diagnostics.
+final class LogSink: @unchecked Sendable {
+    private let lock = NSLock()
+    private var _lines: [String] = []
+
+    var lines: [String] { lock.lock(); defer { lock.unlock() }; return _lines }
+
+    var log: @Sendable (String) -> Void {
+        { [self] line in lock.lock(); _lines.append(line); lock.unlock() }
+    }
 }
 
 // MARK: - Wire contract
@@ -199,7 +211,7 @@ final class RecommenderAPITests: XCTestCase {
             (nil, 500, .failed),
         ]
         for (code, status, expected) in cases {
-            let body = code.map(errorBody) ?? "<html>bad gateway</html>"
+            let body = code.map { errorBody($0) } ?? "<html>bad gateway</html>"
             XCTAssertEqual(RecommenderClient.error(status: status, data: Data(body.utf8)), expected, "\(code ?? "no code") \(status)")
         }
     }
@@ -368,6 +380,48 @@ final class RecommenderClientTests: XCTestCase {
         await assertThrows(.unavailable) {
             try await self.client(StubTransport.neoneon(), appAttest: appAttest).recommendations(for: ["Momo"])
         }
+    }
+
+    /// The app shows one generic message for most failures; the log says which one it was, with
+    /// the server's code and reason — and never the titles.
+    func testARefusedRegistrationIsLoggedWithTheServersReason() async throws {
+        let transport = StubTransport { request in
+            switch request.url?.path {
+            case RecommenderAPI.challengePath:
+                return (200, #"{"challenge":"c-1"}"#)
+            default:
+                return (401, errorBody("attestation_invalid", reason: "Development-environment keys are not accepted"))
+            }
+        }
+        let sink = LogSink()
+        let client = RecommenderClient(
+            transport: transport,
+            appAttest: StubAppAttest(),
+            keyStore: MemoryKeyStore(),
+            log: sink.log
+        )
+
+        await assertThrows(.failed) { try await client.recommendations(for: ["Secret Diary"]) }
+
+        XCTAssertEqual(sink.lines, [
+            "POST /btlb/recommender/keys → HTTP 401 attestation_invalid: Development-environment keys are not accepted",
+        ])
+        XCTAssertFalse(sink.lines.joined().contains("Secret Diary"))
+    }
+
+    func testASuccessfulRunLogsEachStep() async throws {
+        let sink = LogSink()
+        let client = RecommenderClient(
+            transport: StubTransport.neoneon(),
+            appAttest: StubAppAttest(),
+            keyStore: MemoryKeyStore(),
+            log: sink.log
+        )
+        _ = try await client.recommendations(for: ["Momo"])
+        XCTAssertEqual(sink.lines, [
+            "POST /btlb/recommender/keys → HTTP 201, App Attest key registered",
+            "POST /btlb/recommender/recommendations → HTTP 200, 1 recommendations",
+        ])
     }
 
     func testARateLimitedDeviceIsTold() async {

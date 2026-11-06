@@ -60,6 +60,10 @@ actor RecommenderClient {
     private let appAttest: any AppAttestProviding
     private let keyStore: any AppAttestKeyStoring
     private let now: @Sendable () -> Date
+    /// Where diagnostics go: which step failed, the HTTP status and the server's `code` and
+    /// `reason`. The app shows a generic message for most failures; this says which one it was.
+    /// Never given titles, bodies or full key IDs.
+    private let log: @Sendable (String) -> Void
 
     private var registration: Task<String, any Error>?
 
@@ -68,13 +72,15 @@ actor RecommenderClient {
         transport: any HTTPTransport,
         appAttest: any AppAttestProviding,
         keyStore: any AppAttestKeyStoring,
-        now: @escaping @Sendable () -> Date = { Date() }
+        now: @escaping @Sendable () -> Date = { Date() },
+        log: @escaping @Sendable (String) -> Void = { _ in }
     ) {
         self.baseURL = baseURL
         self.transport = transport
         self.appAttest = appAttest
         self.keyStore = keyStore
         self.now = now
+        self.log = log
     }
 
     func recommendations(for titles: [String]) async throws -> [RecommendedBook] {
@@ -89,10 +95,12 @@ actor RecommenderClient {
         } catch KeyRejected.rejected {
             // The stored key is gone (reinstall, restore to another device) or the server doesn't
             // know it. Normal, not an error: register a new key and try exactly once more.
+            log("App Attest key no longer usable; registering a new one")
             keyStore.delete()
             do {
                 return try await requestRecommendations(body: body)
             } catch KeyRejected.rejected {
+                log("The newly registered key was rejected as well; giving up")
                 throw RecommenderError.failed
             }
         }
@@ -122,6 +130,7 @@ actor RecommenderClient {
             )
         } catch {
             if appAttest.classify(error) == .invalidKey { throw KeyRejected.rejected }
+            log("App Attest generateAssertion failed: \(error)")
             throw appAttestError(error)
         }
 
@@ -136,12 +145,15 @@ actor RecommenderClient {
 
         let (data, response) = try await send(request)
         guard response.statusCode == 200 else {
+            logFailure(request, status: response.statusCode, data: data)
             if Self.errorCode(in: data) == "unknown_key" { throw KeyRejected.rejected }
             throw Self.error(status: response.statusCode, data: data)
         }
         guard let decoded = try? JSONDecoder().decode(RecommenderAPI.RecommendationsResponse.self, from: data) else {
+            log("POST \(RecommenderAPI.recommendationsPath) → HTTP 200, but the body didn't decode")
             throw RecommenderError.failed
         }
+        log("POST \(RecommenderAPI.recommendationsPath) → HTTP 200, \(decoded.recommendations.count) recommendations")
         return decoded.recommendations.map { RecommendedBook(title: $0.title, author: $0.author) }
     }
 
@@ -165,6 +177,7 @@ actor RecommenderClient {
         do {
             keyID = try await appAttest.generateKey()
         } catch {
+            log("App Attest generateKey failed: \(error)")
             throw appAttestError(error)
         }
 
@@ -177,6 +190,7 @@ actor RecommenderClient {
                 clientDataHash: RecommenderAPI.attestationClientDataHash(challenge: challenge)
             )
         } catch {
+            log("App Attest attestKey failed: \(error)")
             throw appAttestError(error)
         }
 
@@ -192,9 +206,11 @@ actor RecommenderClient {
         let (data, response) = try await send(request)
         // 201 registered; 200 this exact attestation was already registered (a retry).
         guard response.statusCode == 201 || response.statusCode == 200 else {
+            logFailure(request, status: response.statusCode, data: data)
             throw Self.error(status: response.statusCode, data: data)
         }
 
+        log("POST \(RecommenderAPI.keysPath) → HTTP \(response.statusCode), App Attest key registered")
         keyStore.save(keyID)
         return keyID
     }
@@ -205,9 +221,11 @@ actor RecommenderClient {
 
         let (data, response) = try await send(request)
         guard response.statusCode == 200 else {
+            logFailure(request, status: response.statusCode, data: data)
             throw Self.error(status: response.statusCode, data: data)
         }
         guard let decoded = try? JSONDecoder().decode(RecommenderAPI.ChallengeResponse.self, from: data) else {
+            log("POST \(RecommenderAPI.challengePath) → HTTP 200, but the body didn't decode")
             throw RecommenderError.failed
         }
         return decoded.challenge
@@ -219,8 +237,18 @@ actor RecommenderClient {
         do {
             return try await transport.send(request)
         } catch {
+            log("\(request.httpMethod ?? "?") \(request.url?.path ?? "?") → network error: \(error)")
             throw RecommenderError.network
         }
+    }
+
+    /// One line per refused request: method, path, status and the server's `code` and `reason`,
+    /// e.g. `POST /btlb/recommender/keys → HTTP 401 attestation_invalid: Development-environment
+    /// keys are not accepted`. That is what tells the failures apart that the app shows as one
+    /// generic message.
+    private func logFailure(_ request: URLRequest, status: Int, data: Data) {
+        let body = try? JSONDecoder().decode(RecommenderAPI.ErrorResponse.self, from: data)
+        log("\(request.httpMethod ?? "?") \(request.url?.path ?? "?") → HTTP \(status) \(body?.code ?? "-"): \(body?.reason ?? "no reason given")")
     }
 
     private func appAttestError(_ error: any Error) -> RecommenderError {

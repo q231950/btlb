@@ -140,8 +140,10 @@ enum RecommenderAPI {
         let challenge: String
     }
 
-    /// `{ "error": true, "code": "…", "reason": "…" }`. Clients branch on `code` only.
+    /// `{ "error": true, "code": "…", "reason": "…" }`. Clients branch on `code` only; `reason` is
+    /// for logs (it never contains titles).
     struct ErrorResponse: Decodable {
         let code: String?
+        let reason: String?
     }
 }

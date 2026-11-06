@@ -5,6 +5,7 @@
 
 import Foundation
 import LibraryCore
+import os
 
 /// BTLB's AI book recommender, served by neoneon.dev.
 ///
@@ -35,8 +36,17 @@ public struct NeoneonRecommender: RecommenderProtocol {
             baseURL: baseURL,
             transport: transport,
             appAttest: appAttest,
-            keyStore: keyStore
+            keyStore: keyStore,
+            log: Self.log
         )
+    }
+
+    /// Diagnostics to the unified log (Xcode's console, Console.app): subsystem `com.elbedev.sync`,
+    /// category `Recommender`. Public, because the messages hold only steps, statuses and the
+    /// server's error codes and reasons — never titles.
+    private static let log: @Sendable (String) -> Void = { message in
+        Logger(subsystem: "com.elbedev.sync", category: "Recommender")
+            .notice("\(message, privacy: .public)")
     }
 
     /// Without App Attest (the Simulator, some Macs) the server would refuse every request, so
