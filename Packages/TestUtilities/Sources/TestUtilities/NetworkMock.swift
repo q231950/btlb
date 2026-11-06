@@ -9,7 +9,7 @@
 import XCTest
 import NetworkShim
 
-class URLSessionDataTaskMock: URLSessionDataTask {
+class URLSessionDataTaskMock: URLSessionDataTask, @unchecked Sendable {
     override func resume() {
         /// this thing could remember the stubbed values, but currently it does nothing
     }
