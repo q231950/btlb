@@ -1,12 +1,5 @@
 ## Changelog
 
-### Unreleased
-
-• AI book recommendations come from neoneon.dev: only the titles of the selected bookmarks are sent, and the app no longer contains an API key
-• Recommendation requests are signed with App Attest; the recommender is hidden on devices without it
-• Select up to 10 bookmarks for recommendations
-• Clear, localized messages when recommendations can't be loaded
-
 ### 2.30.0
 
 • Loans and charges of every account in a single Accounts tab
@@ -19,7 +12,6 @@
 • Deleting a bookmark asks for confirmation first
 • The library picker is titled "Libraries" in English
 • Staatsbibliothek Berlin searches its catalog via K10plus
-• Search library selection highlights the Staatsbibliothek Berlin
 
 #### What's new (English)
 
@@ -39,7 +31,7 @@ Hallo Staatsbibliothek zu Berlin! Den Katalog der Stabi kannst du jetzt direkt i
 
 Alle Konten in einem Tab: Im neuen Konten-Tab siehst du die Ausleihen und Gebühren all deiner Konten an einem Ort. Dort kannst du Konten auch direkt hinzufügen, bearbeiten und löschen.
 
-Die Suche fühlt sich unter iOS 26 wie zu Hause an: Sie sitzt jetzt im Standard-Such-Tab. Dein Suchverlauf verschwindet nicht mehr hinter der Tastatur, und der Bibliotheks-Button bleibt beim Suchen sichtbar.
+Die Suche fühlt sich unter iOS 27 wie zu Hause an: Sie sitzt jetzt im Standard-Such-Tab. Dein Suchverlauf verschwindet nicht mehr hinter der Tastatur, und der Bibliotheks-Button bleibt beim Suchen sichtbar.
 
 Dazu jede Menge Feinschliff: neu gestaltete Buttons, die anzeigen, wenn etwas lädt, Ausleihdetails, die du halb oder ganz aufziehen und einfach wegwischen kannst, und eine kurze Rückfrage, bevor du ein Lesezeichen löschst.
 
