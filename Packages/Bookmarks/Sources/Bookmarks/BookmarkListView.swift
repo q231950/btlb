@@ -45,7 +45,7 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
             }
         }
         .searchable(text: $viewModel.searchText)
-        .onChange(of: viewModel.searchText) { newValue in
+        .onChange(of: viewModel.searchText) { _, newValue in
             bookmarks.nsPredicate = newValue.isEmpty ? nil : FilterPredicateBuilder(text: newValue).predicate
         }
         .navigationTitle(Localization.Titles.bookmarks)
