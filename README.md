@@ -4,19 +4,6 @@
 
 ## Build the App
 
-Initial setup:
-
-**Setup**
-
-Create the file (`Secrets.xcconfig`) that contains your secrets:
-
-```
-mv Secrets.sample.xcconfig Secrets.xcconfig
-```
-
-This file is ignored by Git to prevent secrets from being committed. It currently holds no
-secrets: the AI recommender's OpenRouter key lives on the server (see below).
-
 **AI recommender**
 
 The recommender runs on neoneon.dev (`q231950/neoneon`, `docs/btlb-recommender-api.md`): the app

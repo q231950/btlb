@@ -3,9 +3,6 @@
 # Allow Xcode Plugins on ci
 defaults write com.apple.dt.Xcode IDESkipMacroFingerprintValidation -bool YES
 
-# Prepare Build
-mv ../Secrets.sample.xcconfig ../Secrets.xcconfig
-
 # Install Dependencies
 brew install rust
 
