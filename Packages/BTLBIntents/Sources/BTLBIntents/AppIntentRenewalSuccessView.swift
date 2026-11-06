@@ -34,11 +34,11 @@ public extension Array<Result<any Loan, Error>> {
 public struct AppIntentRenewalResultView: View {
 
     public class ViewModel: ObservableObject {
-        @State var allSuccessfullyRenewed: Bool
+        let allSuccessfullyRenewed: Bool
 
         /// The number of items a user intended to renew
-        @State var selectedMediaCount: Int
-        @State var successCount: Int
+        let selectedMediaCount: Int
+        let successCount: Int
 
         public init(results: [Result<any Loan, Error>]) {
             self.allSuccessfullyRenewed = results.errorCount == 0
