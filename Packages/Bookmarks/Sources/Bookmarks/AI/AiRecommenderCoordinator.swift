@@ -51,7 +51,8 @@ class AiRecommenderViewModel: ObservableObject {
     @MainActor
     func loadRecommendations() async {
         guard !titles.isEmpty else {
-            errorMessage = "No titles to recommend from"
+            errorMessage = RecommenderError.noTitles.localizedDescription
+            isLoading = false
             return
         }
 
@@ -60,8 +61,10 @@ class AiRecommenderViewModel: ObservableObject {
 
         do {
             recommendation = try await recommender.recommendations(for: titles)
+        } catch let error as RecommenderError {
+            errorMessage = error.localizedDescription
         } catch {
-            errorMessage = "Failed to load recommendations: \(error.localizedDescription)"
+            errorMessage = RecommenderError.failed.localizedDescription
         }
 
         isLoading = false

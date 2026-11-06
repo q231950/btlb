@@ -644,7 +644,15 @@ public struct BookRecommendation: Hashable {
 }
 
 public protocol RecommenderProtocol {
+    /// Whether this device can use the recommender at all. The UI hides the feature when it
+    /// can't — e.g. without App Attest, which the server requires.
+    var isAvailable: Bool { get }
+
     @MainActor func recommendations(for titles: [String]) async throws -> Recommendation
+}
+
+public extension RecommenderProtocol {
+    var isAvailable: Bool { true }
 }
 
 public extension EnvironmentValues {

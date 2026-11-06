@@ -1,5 +1,12 @@
 ## Changelog
 
+### Unreleased
+
+• AI book recommendations come from neoneon.dev: only the titles of the selected bookmarks are sent, and the app no longer contains an API key
+• Recommendation requests are signed with App Attest; the recommender is hidden on devices without it
+• Select up to 10 bookmarks for recommendations
+• Clear, localized messages when recommendations can't be loaded
+
 ### 2.30.0
 
 • Loans and charges of every account in a single Accounts tab

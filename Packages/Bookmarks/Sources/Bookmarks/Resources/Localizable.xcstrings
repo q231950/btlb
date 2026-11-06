@@ -7,37 +7,37 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Die KI-Buchempfehlung verwendet ein Sprachmodell (Large Language Model oder auch LLM), um auf der Grundlage der ausgewählten Lesezeichen Buchempfehlungen auszugeben. Um Vorschläge machen zu können, werden der _Titel_ und _Autor_ jedes ausgewählten Lesezeichens an einen LLM-Anbieter gesendet. Wenn Du dich mit der Übermittlung von Daten an den LLM-Anbieter unwohl fühlst, kannst du die Empfehlungsfunktion in den Einstellungen der App deaktivieren oder verwende sie einfach nicht. Bitte beachte auch, dass aufgrund der Natur von LLMs die Vorschläge lustig/schräg sein und sie unerwartete Inhalte enthalten können - es können sogar Empfehlungen von Büchern erscheinen, die nicht real existieren. Bitte sei dir dessen bewusst und sende eine Rückmeldung, wenn du unerwartete Ergebnisse erhältst."
+            "value" : "Die KI-Buchempfehlung verwendet ein Sprachmodell (Large Language Model oder auch LLM), um auf der Grundlage der ausgewählten Lesezeichen Buchempfehlungen auszugeben. Dafür werden nur die _Titel_ der ausgewählten Lesezeichen an neoneon.dev gesendet, den Server hinter BTLB, der sie an den LLM-Anbieter OpenRouter weitergibt. Sonst wird nichts übermittelt, und neoneon.dev speichert die Titel nicht. Wenn du dich damit unwohl fühlst, kannst du die Empfehlungsfunktion in den Einstellungen der App deaktivieren oder sie einfach nicht verwenden. Bitte beachte auch, dass aufgrund der Natur von LLMs die Vorschläge lustig/schräg sein und unerwartete Inhalte enthalten können - es können sogar Empfehlungen von Büchern erscheinen, die nicht real existieren. Bitte sei dir dessen bewusst und sende eine Rückmeldung, wenn du unerwartete Ergebnisse erhältst."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The book recommender uses a large language model (LLM) to suggest books based on your selection of bookmarks. In order to provide suggestions the _title_ and _author_ of each selected item is sent to an LLM provider. If you feel uncomfortable with submitting data to the LLM provider you can turn off the Recommender feature in the settings section of the app or simply don't use it. Please also note that because of the nature of LLMs the suggestions might be funny/weird and may contain unexpected content – there may even be recommendations of books which do not exist in the real world. Please be aware of this and send feedback in case of unexpected results."
+            "value" : "The book recommender uses a large language model (LLM) to suggest books based on the bookmarks you select. To do so, only the _titles_ of the selected bookmarks are sent to neoneon.dev, the server behind BTLB, which passes them on to the LLM provider OpenRouter. Nothing else is sent, and neoneon.dev doesn't store the titles. If you feel uncomfortable with this, you can turn off the Recommender feature in the settings section of the app or simply don't use it. Please also note that because of the nature of LLMs the suggestions might be funny/weird and may contain unexpected content – there may even be recommendations of books which do not exist in the real world. Please be aware of this and send feedback in case of unexpected results."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "El recomendador de libros utiliza un modelo de lenguaje grande (LLM) para sugerir libros basados en tu selección de marcadores. Para proporcionar sugerencias, el _título_ y _autor_ de cada elemento seleccionado se envían a un proveedor de LLM. Si te sientes incómodo enviando datos al proveedor de LLM, puedes desactivar la función de Recomendador en la sección de configuración de la aplicación o simplemente no usarla. También ten en cuenta que debido a la naturaleza de los LLM, las sugerencias pueden ser divertidas/extrañas y pueden contener contenido inesperado – incluso puede haber recomendaciones de libros que no existen en el mundo real. Ten esto en cuenta y envía comentarios en caso de resultados inesperados."
+            "value" : "El recomendador de libros utiliza un modelo de lenguaje grande (LLM) para sugerir libros basados en los marcadores que selecciones. Para ello, solo se envían los _títulos_ de los marcadores seleccionados a neoneon.dev, el servidor de BTLB, que los transmite al proveedor de LLM OpenRouter. No se envía nada más y neoneon.dev no guarda los títulos. Si no te sientes cómodo con esto, puedes desactivar la función de Recomendador en la sección de configuración de la aplicación o simplemente no usarla. También ten en cuenta que debido a la naturaleza de los LLM, las sugerencias pueden ser divertidas/extrañas y pueden contener contenido inesperado – incluso puede haber recomendaciones de libros que no existen en el mundo real. Ten esto en cuenta y envía comentarios en caso de resultados inesperados."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Le recommandeur de livres utilise un grand modèle de langage (LLM) pour suggérer des livres basés sur votre sélection de signets. Afin de fournir des suggestions, le _titre_ et l'_auteur_ de chaque élément sélectionné sont envoyés à un fournisseur LLM. Si vous n'êtes pas à l'aise avec la soumission de données au fournisseur LLM, vous pouvez désactiver la fonction Recommandeur dans la section des paramètres de l'application ou simplement ne pas l'utiliser. Veuillez également noter qu'en raison de la nature des LLM, les suggestions peuvent être drôles/étranges et peuvent contenir du contenu inattendu – il peut même y avoir des recommandations de livres qui n'existent pas dans le monde réel. Veuillez en être conscient et envoyer des commentaires en cas de résultats inattendus."
+            "value" : "Le recommandeur de livres utilise un grand modèle de langage (LLM) pour suggérer des livres à partir des signets que vous sélectionnez. Pour cela, seuls les _titres_ des signets sélectionnés sont envoyés à neoneon.dev, le serveur de BTLB, qui les transmet au fournisseur LLM OpenRouter. Rien d'autre n'est envoyé, et neoneon.dev ne conserve pas les titres. Si cela vous met mal à l'aise, vous pouvez désactiver la fonction Recommandeur dans la section des paramètres de l'application ou simplement ne pas l'utiliser. Veuillez également noter qu'en raison de la nature des LLM, les suggestions peuvent être drôles/étranges et peuvent contenir du contenu inattendu – il peut même y avoir des recommandations de livres qui n'existent pas dans le monde réel. Veuillez en être conscient et envoyer des commentaires en cas de résultats inattendus."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kitap önericisi, seçtiğiniz yer işaretlerine dayalı olarak kitap önerileri sunmak için büyük bir dil modeli (LLM) kullanır. Öneriler sağlamak için seçilen her öğenin _başlığı_ ve _yazarı_ bir LLM sağlayıcısına gönderilir. LLM sağlayıcısına veri gönderme konusunda rahatsızlık duyuyorsanız, uygulamanın ayarlar bölümünden Öneri özelliğini kapatabilir veya kullanmayabilirsiniz. Ayrıca LLM'lerin doğası gereği önerilerin komik/garip olabileceğini ve beklenmedik içerik barındırabileceğini - hatta gerçek dünyada var olmayan kitap önerilerinin bile olabileceğini unutmayın. Lütfen bunun farkında olun ve beklenmedik sonuçlar durumunda geri bildirim gönderin."
+            "value" : "Kitap önericisi, seçtiğiniz yer işaretlerine dayalı olarak kitap önermek için büyük bir dil modeli (LLM) kullanır. Bunun için yalnızca seçilen yer işaretlerinin _başlıkları_, BTLB'nin arkasındaki sunucu olan neoneon.dev'e gönderilir; neoneon.dev bunları LLM sağlayıcısı OpenRouter'a iletir. Başka hiçbir şey gönderilmez ve neoneon.dev başlıkları saklamaz. Bundan rahatsızlık duyuyorsanız, uygulamanın ayarlar bölümünden Öneri özelliğini kapatabilir veya kullanmayabilirsiniz. Ayrıca LLM'lerin doğası gereği önerilerin komik/garip olabileceğini ve beklenmedik içerik barındırabileceğini - hatta gerçek dünyada var olmayan kitap önerilerinin bile olabileceğini unutmayın. Lütfen bunun farkında olun ve beklenmedik sonuçlar durumunda geri bildirim gönderin."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Рекомендатор книг використовує велику мовну модель (ВММ) для пропонування книг на основі вашого вибору закладок. Для надання пропозицій _назва_ та _автор_ кожного обраного елемента надсилаються провайдеру ВММ. Якщо вам некомфортно передавати дані провайдеру ВММ, ви можете вимкнути функцію Рекомендатора в налаштуваннях програми або просто не використовувати її. Також зауважте, що через природу ВММ пропозиції можуть бути кумедними/дивними та містити неочікуваний контент – навіть можуть з'явитися рекомендації книг, які не існують у реальному світі. Будьте свідомі цього та надсилайте зворотний зв'язок у випадку неочікуваних результатів."
+            "value" : "Рекомендатор книг використовує велику мовну модель (ВММ), щоб пропонувати книги на основі вибраних вами закладок. Для цього лише _назви_ вибраних закладок надсилаються на neoneon.dev, сервер BTLB, який передає їх провайдеру ВММ OpenRouter. Нічого іншого не надсилається, і neoneon.dev не зберігає назви. Якщо вам це некомфортно, ви можете вимкнути функцію Рекомендатора в налаштуваннях програми або просто не використовувати її. Також зауважте, що через природу ВММ пропозиції можуть бути кумедними/дивними та містити неочікуваний контент – навіть можуть з'явитися рекомендації книг, які не існують у реальному світі. Будьте свідомі цього та надсилайте зворотний зв'язок у випадку неочікуваних результатів."
           }
         }
       }
@@ -657,6 +657,293 @@
         }
       }
     },
+    "Recommender Error Device Clock" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte prüfe, ob Datum und Uhrzeit deines Geräts richtig eingestellt sind."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please check that your device's date and time are set correctly."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comprueba que la fecha y la hora de tu dispositivo sean correctas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez vérifier que la date et l'heure de votre appareil sont correctes."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen cihazınızın tarih ve saatinin doğru ayarlandığını kontrol edin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перевірте, чи правильно встановлено дату й час на вашому пристрої."
+          }
+        }
+      }
+    },
+    "Recommender Error Failed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim Abrufen der Empfehlungen ist etwas schiefgelaufen. Bitte versuche es noch einmal."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong while getting recommendations. Please try again."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algo salió mal al obtener las recomendaciones. Inténtalo de nuevo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une erreur est survenue lors de la récupération des recommandations. Veuillez réessayer."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öneriler alınırken bir sorun oluştu. Lütfen tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Під час отримання рекомендацій щось пішло не так. Спробуйте ще раз."
+          }
+        }
+      }
+    },
+    "Recommender Error Network" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Empfehlungsdienst ist nicht erreichbar. Bitte prüfe deine Internetverbindung."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The recommendation service couldn't be reached. Please check your internet connection."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo conectar con el servicio de recomendaciones. Comprueba tu conexión a internet."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de joindre le service de recommandations. Veuillez vérifier votre connexion internet."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öneri hizmetine ulaşılamadı. Lütfen internet bağlantınızı kontrol edin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вдалося зв'язатися зі службою рекомендацій. Перевірте підключення до інтернету."
+          }
+        }
+      }
+    },
+    "Recommender Error No Titles" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte wähle mindestens ein Lesezeichen mit Titel aus."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please select at least one bookmark with a title."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona al menos un marcador con título."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez sélectionner au moins un signet avec un titre."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen başlığı olan en az bir yer işareti seçin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть принаймні одну закладку з назвою."
+          }
+        }
+      }
+    },
+    "Recommender Error Not Supported" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buchempfehlungen sind auf diesem Gerät nicht verfügbar."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Book recommendations aren't available on this device."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las recomendaciones de libros no están disponibles en este dispositivo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les recommandations de livres ne sont pas disponibles sur cet appareil."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kitap önerileri bu cihazda kullanılamıyor."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рекомендації книг недоступні на цьому пристрої."
+          }
+        }
+      }
+    },
+    "Recommender Error Rate Limited" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast viele Empfehlungen angefragt. Bitte versuche es später noch einmal."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You've asked for a lot of recommendations. Please try again later."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Has pedido muchas recomendaciones. Vuelve a intentarlo más tarde."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous avez demandé beaucoup de recommandations. Veuillez réessayer plus tard."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çok sayıda öneri istediniz. Lütfen daha sonra tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви запросили багато рекомендацій. Спробуйте пізніше."
+          }
+        }
+      }
+    },
+    "Recommender Error Unavailable" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buchempfehlungen sind gerade nicht verfügbar. Bitte versuche es später noch einmal."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Book recommendations are unavailable right now. Please try again later."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las recomendaciones de libros no están disponibles en este momento. Vuelve a intentarlo más tarde."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les recommandations de livres sont indisponibles pour le moment. Veuillez réessayer plus tard."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kitap önerileri şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рекомендації книг зараз недоступні. Спробуйте пізніше."
+          }
+        }
+      }
+    },
     "Recommender Feedback Email Subject" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -735,6 +1022,47 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Будь ласка, оберіть закладки, для яких ви хочете отримати рекомендації"
+          }
+        }
+      }
+    },
+    "Recommender Selection Limit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kannst bis zu 10 Lesezeichen auswählen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can select up to 10 bookmarks."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puedes seleccionar hasta 10 marcadores."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez sélectionner jusqu'à 10 signets."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En fazla 10 yer işareti seçebilirsiniz."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Можна вибрати до 10 закладок."
           }
         }
       }

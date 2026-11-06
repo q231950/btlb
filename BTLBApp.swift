@@ -12,6 +12,7 @@ import SwiftUI
 
 import BTLBIntents
 import BTLBSettings
+import Bookmarks
 import LibraryCore
 import Loans
 import More
@@ -87,7 +88,7 @@ struct BTLBApp: App {
                 .environment(\.accountCredentialStore, viewModel.accountCredentialStore)
                 .environment(\.libraryProvider, viewModel.libraryProvider)
                 .environment(\.intent, RenewItemsIntent())
-                .environment(\.recommender, Recommender())
+                .environment(\.recommender, NeoneonRecommender())
                 .environment(\.coordinatorProvider, self)
                 .environment(\.settingsService, viewModel.settingsService)
         }
