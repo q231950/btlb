@@ -55,13 +55,7 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
         .toolbar {
             if bookmarks.count > 0 {
                 ToolbarItem(placement: .topBarTrailing) {
-                    let document = zoteroRDFDocument
-
-                    ShareLink(item: document, preview: SharePreview(document.fileName)) {
-                        Image(systemName: "square.and.arrow.up")
-                    }
-                    .accessibilityLabel(Text("export all zotero button", bundle: .module))
-                    .accessibilityIdentifier("export bookmarks to zotero")
+                    BibliographyExportMenu(name: Localization.Titles.bookmarks, records: bibliographicRecords)
                 }
             }
 
@@ -81,8 +75,8 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
         }
     }
 
-    /// The Zotero RDF file of the bookmarks in the list, which are the ones that match the search
-    private var zoteroRDFDocument: ZoteroRDFDocument {
+    /// The records of the bookmarks in the list, which are the ones that match the search
+    private var bibliographicRecords: [BibliographicRecord] {
         var libraryNames = [String: String]()
         for library in libraries {
             if let identifier = library.identifier, let name = library.name {
@@ -90,12 +84,9 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
             }
         }
 
-        return ZoteroRDFDocument(
-            name: Localization.Titles.bookmarks,
-            records: bookmarks.map { bookmark in
-                bookmark.bibliographicRecord(libraryName: bookmark.libraryIdentifier.flatMap { libraryNames[$0] })
-            }
-        )
+        return bookmarks.map { bookmark in
+            bookmark.bibliographicRecord(libraryName: bookmark.libraryIdentifier.flatMap { libraryNames[$0] })
+        }
     }
 
     @ViewBuilder private func bookmarkList() -> some View {

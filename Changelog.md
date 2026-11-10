@@ -2,7 +2,7 @@
 
 ### Unreleased
 
-• Export a bookmark, all bookmarks or a search result as a Zotero RDF file from the share sheet, to import it in Zotero on your Mac
+• Export a bookmark, all bookmarks or a search result: choose text, Markdown or Zotero, then share it. The Zotero file imports in Zotero on your Mac
 
 ### 2.30.0
 

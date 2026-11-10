@@ -27,18 +27,16 @@ final class SearchResultInfoViewModel: ObservableObject {
         detailsProvider.status(availabilities: details?.availability.availabilities ?? [], in: result.library)
     }
 
-    /// The Zotero RDF file of the search result, `nil` until its details are loaded
-    var zoteroRDFDocument: ZoteroRDFDocument? {
+    /// The record of the search result to export, `nil` until its details are loaded
+    var bibliographicRecord: BibliographicRecord? {
         guard let details else { return nil }
 
-        let record = BibliographicRecordMapper().record(
+        return BibliographicRecordMapper().record(
             fields: details.content.map { (label: $0.key, value: $0.value) },
             title: result.title,
             isbn: result.number,
             libraryCatalog: result.library.name
         )
-
-        return ZoteroRDFDocument(name: result.title, records: [record])
     }
 
     init(

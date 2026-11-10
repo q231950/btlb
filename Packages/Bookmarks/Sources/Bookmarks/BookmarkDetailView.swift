@@ -58,13 +58,10 @@ struct BookmarkDetailView<ViewModel: BookmarkViewModelProtocol>: View {
             }
             .toolbar {
                 ToolbarItem(placement: .automatic) {
-                    let document = viewModel.bookmark.zoteroRDFDocument
-
-                    ShareLink(item: document, preview: SharePreview(document.fileName)) {
-                        Image(systemName: "square.and.arrow.up")
-                    }
-                    .accessibilityLabel(Text("export zotero button", bundle: .module))
-                    .accessibilityIdentifier("export bookmark to zotero")
+                    BibliographyExportMenu(
+                        name: viewModel.bookmark.bookmarkTitle ?? "",
+                        records: [viewModel.bookmark.bibliographicRecord()]
+                    )
                 }
 
                 ToolbarItem(placement: .automatic) {

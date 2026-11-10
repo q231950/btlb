@@ -1,5 +1,5 @@
 //
-//  Bookmark+ZoteroRDF.swift
+//  Bookmark+BibliographicRecord.swift
 //  Bookmarks
 //
 
@@ -11,7 +11,7 @@ import Persistence
 
 extension Bookmark {
 
-    /// The bibliographic data of the bookmark for the export to Zotero
+    /// The bibliographic data of the bookmark to export it
     ///
     /// - parameter libraryName: the name of the library of the bookmark, looked up when `nil`
     func bibliographicRecord(libraryName: String? = nil) -> BibliographicRecord {
@@ -25,11 +25,6 @@ extension Bookmark {
             callNumber: item?.shelfmark,
             libraryCatalog: libraryName ?? item?.libraryName
         )
-    }
-
-    /// The Zotero RDF file of the bookmark
-    var zoteroRDFDocument: ZoteroRDFDocument {
-        ZoteroRDFDocument(name: bookmarkTitle ?? "", records: [bibliographicRecord()])
     }
 }
 
