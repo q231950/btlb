@@ -42,7 +42,7 @@ struct AvatarSelectionGridView: View {
                     scrollProxy.scrollTo(selectedAvatar, anchor: .center)
                 }
             }
-            .onChange(of: viewModel.selectedTab) { newValue in
+            .onChange(of: viewModel.selectedTab) { _, newValue in
                 if let selectedAvatar = newValue {
                     withAnimation {
                         scrollProxy.scrollTo(selectedAvatar, anchor: .center)

@@ -90,7 +90,7 @@ private struct LargeContentView: View {
             ForEach(Array(viewModel.items.enumerated()), id: \.offset) { index, item in
                 HStack {
                     VStack(alignment: .leading) {
-                        Text("\(item.dueDate.formatted(.dateTime.day().month())): ").bold() + Text("\(item.title) ")
+                        Text("\(Text("\(item.dueDate.formatted(.dateTime.day().month())): ").bold())\(item.title) ")
                         Spacer()
                             .frame(height: 5)
                     }

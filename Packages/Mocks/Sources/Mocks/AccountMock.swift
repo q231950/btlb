@@ -9,7 +9,7 @@ import Foundation
 
 import LibraryCore
 
-public final class AccountMock: LibraryCore.Account {
+public final class AccountMock: LibraryCore.Account, @unchecked Sendable {
 
     public init() {}
 

@@ -152,8 +152,6 @@ struct SignInView: View {
 }
 
 #Preview {
-    let dataStackProvider = DataStackProvider()
-
     NavigationStack {
         SignInView(viewModel: SignInViewModel(publisher: CurrentValueSubject<SignInState, Never>(.signedOut)))
     }
