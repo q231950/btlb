@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+import LibraryCore
 import LibraryUI
 import Localization
 import Persistence
@@ -18,6 +19,8 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
                           SortDescriptor(\.title, order: .forward)]
     )
     private var bookmarks: FetchedResults<EDItem>
+    @FetchRequest<Persistence.Library>(sortDescriptors: [SortDescriptor(\.name, order: .forward)])
+    private var libraries: FetchedResults<Persistence.Library>
     private let coordinator: BookmarkListCoordinator<ViewModel>
     @State private var aiRecommenderEnabled = false
     @Environment(\.settingsService) private var settingsService
@@ -50,6 +53,18 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
         }
         .navigationTitle(Localization.Titles.bookmarks)
         .toolbar {
+            if bookmarks.count > 0 {
+                ToolbarItem(placement: .topBarTrailing) {
+                    let document = zoteroRDFDocument
+
+                    ShareLink(item: document, preview: SharePreview(document.fileName)) {
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .accessibilityLabel(Text("export all zotero button", bundle: .module))
+                    .accessibilityIdentifier("export bookmarks to zotero")
+                }
+            }
+
             if aiRecommenderEnabled {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
@@ -64,6 +79,23 @@ struct BookmarkList<ViewModel: BookmarkListViewModelProtocol>: View {
             // Hidden where the recommender can't work (no App Attest), whatever the setting says.
             aiRecommenderEnabled = settingsService.aiRecommenderEnabled && recommender.isAvailable
         }
+    }
+
+    /// The Zotero RDF file of the bookmarks in the list, which are the ones that match the search
+    private var zoteroRDFDocument: ZoteroRDFDocument {
+        var libraryNames = [String: String]()
+        for library in libraries {
+            if let identifier = library.identifier, let name = library.name {
+                libraryNames[identifier] = name
+            }
+        }
+
+        return ZoteroRDFDocument(
+            name: Localization.Titles.bookmarks,
+            records: bookmarks.map { bookmark in
+                bookmark.bibliographicRecord(libraryName: bookmark.libraryIdentifier.flatMap { libraryNames[$0] })
+            }
+        )
     }
 
     @ViewBuilder private func bookmarkList() -> some View {

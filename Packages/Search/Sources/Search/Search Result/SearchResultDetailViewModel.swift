@@ -27,6 +27,20 @@ final class SearchResultInfoViewModel: ObservableObject {
         detailsProvider.status(availabilities: details?.availability.availabilities ?? [], in: result.library)
     }
 
+    /// The Zotero RDF file of the search result, `nil` until its details are loaded
+    var zoteroRDFDocument: ZoteroRDFDocument? {
+        guard let details else { return nil }
+
+        let record = BibliographicRecordMapper().record(
+            fields: details.content.map { (label: $0.key, value: $0.value) },
+            title: result.title,
+            isbn: result.number,
+            libraryCatalog: result.library.name
+        )
+
+        return ZoteroRDFDocument(name: result.title, records: [record])
+    }
+
     init(
         coordinator: SearchResultCoordinator? = nil,
         result: SearchResultListItemModel,

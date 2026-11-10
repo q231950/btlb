@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+import LibraryCore
 import LibraryUI
 import Utilities
 import Localization
@@ -56,6 +57,16 @@ struct BookmarkDetailView<ViewModel: BookmarkViewModelProtocol>: View {
                 }
             }
             .toolbar {
+                ToolbarItem(placement: .automatic) {
+                    let document = viewModel.bookmark.zoteroRDFDocument
+
+                    ShareLink(item: document, preview: SharePreview(document.fileName)) {
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .accessibilityLabel(Text("export zotero button", bundle: .module))
+                    .accessibilityIdentifier("export bookmark to zotero")
+                }
+
                 ToolbarItem(placement: .automatic) {
                     Button {
                         viewModel.showsDeleteConfirmation.toggle()

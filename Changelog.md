@@ -1,5 +1,9 @@
 ## Changelog
 
+### Unreleased
+
+• Export a bookmark, all bookmarks or a search result as a Zotero RDF file from the share sheet, to import it in Zotero on your Mac
+
 ### 2.30.0
 
 • Loans and charges of every account in a single Accounts tab

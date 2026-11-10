@@ -86,6 +86,10 @@ struct SearchResultDetailView: View {
             availabilitiesButton
         }
 
+        ToolbarItem(placement: .topBarLeading) {
+            exportButton
+        }
+
         ToolbarItem(placement: .topBarTrailing) {
             doneButton
         }
@@ -102,6 +106,12 @@ struct SearchResultDetailView: View {
 
         ToolbarItem(placement: .topBarLeading) {
             availabilitiesButton
+        }
+
+        ToolbarSpacer(.fixed)
+
+        ToolbarItem(placement: .topBarLeading) {
+            exportButton
         }
 
         ToolbarSpacer(.flexible)
@@ -137,6 +147,25 @@ struct SearchResultDetailView: View {
         }
         .disabled(viewModel.details == nil)
         .tint(availabilitiesButtonTint)
+    }
+
+    /// Shares the search result as a Zotero RDF file, once its details are loaded
+    @ViewBuilder private var exportButton: some View {
+        Group {
+            if let document = viewModel.zoteroRDFDocument {
+                ShareLink(item: document, preview: SharePreview(document.fileName)) {
+                    Image(systemName: "square.and.arrow.up")
+                }
+            } else {
+                Button {
+                } label: {
+                    Image(systemName: "square.and.arrow.up")
+                }
+                .disabled(true)
+            }
+        }
+        .accessibilityLabel(Text("export zotero button", tableName: "Search", bundle: .module))
+        .accessibilityIdentifier("export search result to zotero")
     }
 
     private var availabilitiesButtonImageName: String {
