@@ -76,21 +76,3 @@ public struct BibliographyText: Transferable, Sendable, Equatable {
         )
     }
 }
-
-/// The references of bibliographic records as Markdown text to share
-public struct BibliographyMarkdown: Transferable, Sendable, Equatable {
-
-    public let records: [BibliographicRecord]
-
-    public init(records: [BibliographicRecord]) {
-        self.records = records
-    }
-
-    public var markdown: String {
-        BibliographyFormatter().markdown(for: records)
-    }
-
-    public static var transferRepresentation: some TransferRepresentation {
-        ProxyRepresentation(exporting: \.markdown)
-    }
-}

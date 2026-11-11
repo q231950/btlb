@@ -33,7 +33,8 @@ public struct BibliographyExportMenu: View {
             }
             .accessibilityIdentifier("export as text")
 
-            ShareLink(item: BibliographyMarkdown(records: records), preview: SharePreview(name)) {
+            // a plain String, which every receiver of text takes
+            ShareLink(item: BibliographyFormatter().markdown(for: records), preview: SharePreview(name)) {
                 Label {
                     Text(verbatim: "Markdown")
                 } icon: {
