@@ -1,6 +1,6 @@
 ## Changelog
 
-### Unreleased
+### 2.31.0
 
 • Export a bookmark, all bookmarks or a search result: choose text, Markdown or Zotero, then share it. The Zotero file imports in Zotero on your Mac
 
