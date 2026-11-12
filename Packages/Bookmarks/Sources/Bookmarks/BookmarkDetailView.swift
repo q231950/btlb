@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+import LibraryCore
 import LibraryUI
 import Utilities
 import Localization
@@ -56,6 +57,13 @@ struct BookmarkDetailView<ViewModel: BookmarkViewModelProtocol>: View {
                 }
             }
             .toolbar {
+                ToolbarItem(placement: .automatic) {
+                    BibliographyExportMenu(
+                        name: viewModel.bookmark.bookmarkTitle ?? "",
+                        records: [viewModel.bookmark.bibliographicRecord()]
+                    )
+                }
+
                 ToolbarItem(placement: .automatic) {
                     Button {
                         viewModel.showsDeleteConfirmation.toggle()
