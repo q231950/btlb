@@ -2,6 +2,8 @@
 
 > synchronise your library account on your iOS device
 
+For the history of the app, from EDSync in 2010 to today, see [about.md](about.md).
+
 ## Build the App
 
 **AI recommender**
