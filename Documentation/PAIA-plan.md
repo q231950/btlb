@@ -1,6 +1,6 @@
 # Plan: PAIA patron login for GBV libraries (Staatsbibliothek zu Berlin, DE-1)
 
-Status: draft, nothing implemented yet. First real responses captured on DE-18 (see Findings from DE-18).
+Status: Step 2 implemented in paper (`API::Paia`, `src/scrapers/paia/`, BERLIN switched to `https://paia.gbv.de/DE-1`) and unit-tested with `cargo test`. Not yet done: `make apple`, the Xcode build and the manual test of Step 3 (they need macOS), and a real login, renewal and Berlin (DE-1) account. Real responses captured on DE-18 only (see Findings from DE-18).
 
 ## Why
 
@@ -127,6 +127,12 @@ Errors
 - Invalid token: HTTP 401 `{"code":401,"error":"invalid_grant","error_description":"The access token was missing, invalid or expired"}` (note the extra `code` field).
 - Wrong credentials at `auth/login` (dummy user, tested on both DE-1 and DE-18): HTTP 403 `{"error":"access_denied","error_description":"invalid patron or password"}`.
 
+Second session (2026-11-28, same read-only GETs with a supplied token)
+- DE-18 answered exactly as above: same fields, date-only `starttime`/`endtime`/`expires`, `"1.00 EUR"`, ISO 8601 fee date, `invalid_grant` body with `code`.
+- `about` years also come in brackets, e.g. `Title / Author *1974-* ([2020])`, and titles contain ` : ` before a subtitle. The mapper drops any trailing parenthesis that contains a 4-digit year.
+- The DE-18 token is rejected on DE-1: `core/{patron}`, `/items` and `/fees` all answer HTTP 401 with the same `invalid_grant` body. Tokens are bound to the ISIL they were issued by, so DE-1 needs its own login.
+- DE-1's 401 comes from the same server (`vzg-paia/2.9.0`, `X-PAIA-Version: 1.4.0`) with `WWW-Authenticate: Bearer realm="PAIA"`, the same headers as on DE-18.
+
 ## Open questions (answer with a real login)
 
 1. ~~Exact scope names~~: answered, plural `read_items`/`write_items` (see Findings from DE-18; confirm on DE-1).
@@ -137,10 +143,10 @@ Errors
 6. ~~`about` format~~: answered, `Title / Author *lifedates* (year)` (DE-18; confirm on DE-1).
 7. ~~`canrenew`, `renewals`, `queue`, `reminder` filled~~: answered, all filled (DE-18; confirm on DE-1).
 8. ~~Fee amount format and `feetype`~~: answered, `"1.00 EUR"`, German `feetype` plus `feetypeid` (DE-18; confirm on DE-1).
-9. Token lifetime (`expires_in`). Still open.
-10. What a refused renewal looks like (`error` text, status, `canrenew`). Still open.
-11. Whether reserved/ready-for-pickup items (status 1, 4) appear and how BTLB should treat them (probably skip for v1, only status 3 are loans). Still open, the DE-18 account had none.
-12. Whether DE-1 behaves the same as DE-18 for all of the above. Still open, only the wrong-credentials login error was checked on DE-1.
+9. Token lifetime (`expires_in`). Still open. paper logs in on every update and renewal, so it doesn't depend on it.
+10. What a refused renewal looks like (`error` text, status, `canrenew`). Still open (renew was not run). paper assumes the spec: a document with `error` is a refused renewal and its text becomes `PaperError::ErrorWithMessage`. The `renew/refused.json` fixture is made up from the spec.
+11. Whether reserved/ready-for-pickup items (status 1, 4) appear and how BTLB should treat them. Still open, the DE-18 account had none. paper skips everything but status 3.
+12. Whether DE-1 behaves the same as DE-18. Partly answered: DE-1 runs the same server and PAIA version and sends the same `invalid_grant` and `access_denied` errors, but a DE-18 token is not valid on DE-1 (401 `invalid_grant`), so DE-1's data formats are still unverified and need a Berlin account.
 
 ## Step 1: Gather real responses
 
@@ -209,6 +215,16 @@ Then anonymise the captures before they become fixtures: replace name, email, ad
 6. `src/model/library_list.rs`: switch `BERLIN` to `api: API::Paia { base_url: "https://paia.gbv.de/DE-1" }`, keep `search_api: K10plusSru`. Same identifier, so existing accounts carry over; old renewal tokens are replaced on the next account update.
 7. `cargo test`, then `make apple` to rebuild the Swift package.
 
+Done (branch `add-paia-plan` in paper), steps 1 to 6 and `cargo test`; `make apple` still to do on a Mac:
+- `src/scrapers/paia/`: `dto.rs` (serde), `client.rs` (`PaiaClient` per endpoint, `PaiaSession` that signs in again once on `invalid_grant`), `mapper.rs` (pure functions), `mod.rs` (`verify_credentials`, `fetch_account`, `renew`), `test_server.rs` (a local HTTP server for the session tests).
+- reqwest's `json` feature is not needed: bodies are read with `.text()` and parsed with `serde_json`.
+- Login sends `scope=read_patron read_items write_items read_fees`.
+- Loans: `about` → title and author (trailing year and life dates dropped), `label` → `details.signature`, `storage` without HTML → data entry `Standort`, `starttime` → `borrowed_at`, `queue > 0` → `locked_by_preorder`. If an item URI has no `:bar:`, `item_number` is the whole URI.
+- Fees: `feetype` → `reason` (falls back to `about`), `about` → `item`, `amount` of the response → `Balance.total` as sent (`"1.00 EUR"`). If `/fees` fails, the account is loaded without a balance.
+- `access_denied` (and `invalid_grant`) at login → `IncorrectCredentials` → `ValidationStatus::Invalid`; other PAIA errors → `ErrorWithMessage(error_description)`.
+- Search and search details of `API::Paia` are `NotImplementedError`; PAIA libraries search via `search_api`.
+- Fixtures in `src/fixtures/paia/`: `patron`, `items`, `fees` and `errors/invalid_grant` are anonymised DE-18 captures; `errors/access_denied` is the observed wrong-credentials body; `login`, `renew` and the other `errors` and `items` files are made up from the spec.
+
 ## Step 3: BTLB app
 
 1. Bump the paper submodule pointer.
@@ -216,6 +232,8 @@ Then anonymise the captures before they become fixtures: replace name, email, ad
 3. `RenewUseCase.swift`: no change expected if the item URI goes through `renewalToken`.
 4. Build in Xcode, run unit tests.
 5. Manual test with a real SBB account: sign in, loans shown with correct due dates, fees shown, renew one item, wrong password shows the invalid-credentials message, existing BERLIN account keeps working after update.
+
+Done: 1. Nothing to do for 2 and 3: paper gained no new `PaperError` cases or model fields, the Swift code doesn't switch over `Paper.Api`, and the item URI goes through `renewalToken`. Still to do: `make apple`, 4 and 5 (need macOS and a Berlin account). Until a BERLIN account is updated once, its loans keep their old OPAC renewal tokens, which PAIA will refuse.
 
 ## Later
 
