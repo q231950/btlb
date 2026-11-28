@@ -4,7 +4,7 @@
 
 • Loans and charges of every account in a single Accounts tab
 • Add, edit and delete accounts right in the Accounts tab
-• Search lives in the standard iOS 26 search tab
+• Search lives in the standard iOS search tab
 • The search history stays clear of the search field above the keyboard
 • The library button stays visible while searching
 • Refreshed buttons with a loading state, in light and dark mode
@@ -12,6 +12,9 @@
 • Deleting a bookmark asks for confirmation first
 • The library picker is titled "Libraries" in English
 • Staatsbibliothek Berlin searches its catalog via K10plus
+• Try the app with a demo account: sign in at any library with demo/demo to see made-up loans and charges
+• AI book recommendations come from neoneon.dev: only the titles of the selected bookmarks are sent, and the app no longer contains an API key
+• Select up to 10 bookmarks for recommendations, with clear, localized messages when they can't be loaded
 
 #### What's new (English)
 
@@ -19,7 +22,11 @@ Hello Staatsbibliothek zu Berlin! You can now search the Stabi catalogue right i
 
 All your accounts, one tab: the new Accounts tab shows the loans and charges of every account in one place. You can add, edit and delete accounts right there, too.
 
-Search feels at home on iOS 27: it now sits in the standard search tab. Your search history no longer hides behind the keyboard, and the library button stays in view while you search.
+Search fits perfectly into iOS: it now sits in the standard search tab. Your search history no longer hides behind the keyboard, and the library button stays in view while you search.
+
+New here? Sign in at any library with the username "demo" and the password "demo" to try BTLB with sample loans and charges.
+
+AI book recommendations have a more secure setup: only the titles of the bookmarks you select are sent, and if something goes wrong, a clear message tells you why.
 
 Plus lots of polish: refreshed buttons that show when something is loading, loan details you can open at half or full height and simply swipe away, and a quick confirmation before you delete a bookmark.
 
@@ -31,11 +38,79 @@ Hallo Staatsbibliothek zu Berlin! Den Katalog der Stabi kannst du jetzt direkt i
 
 Alle Konten in einem Tab: Im neuen Konten-Tab siehst du die Ausleihen und Gebühren all deiner Konten an einem Ort. Dort kannst du Konten auch direkt hinzufügen, bearbeiten und löschen.
 
-Die Suche fühlt sich unter iOS 27 wie zu Hause an: Sie sitzt jetzt im Standard-Such-Tab. Dein Suchverlauf verschwindet nicht mehr hinter der Tastatur, und der Bibliotheks-Button bleibt beim Suchen sichtbar.
+Die Suche fügt sich perfekt in iOS ein: Sie sitzt jetzt im Standard-Such-Tab. Dein Suchverlauf verschwindet nicht mehr hinter der Tastatur, und der Bibliotheks-Button bleibt beim Suchen sichtbar.
+
+Neu hier? Melde dich bei einer beliebigen Bibliothek mit dem Benutzernamen „demo“ und dem Passwort „demo“ an und probiere BTLB mit Beispiel-Ausleihen und -Gebühren aus.
+
+Die KI-Buchempfehlungen sind jetzt sicherer aufgestellt: Es werden nur die Titel der Lesezeichen übertragen, die du auswählst, und wenn etwas schiefgeht, sagt dir eine klare Meldung, woran es liegt.
 
 Dazu jede Menge Feinschliff: neu gestaltete Buttons, die anzeigen, wenn etwas lädt, Ausleihdetails, die du halb oder ganz aufziehen und einfach wegwischen kannst, und eine kurze Rückfrage, bevor du ein Lesezeichen löschst.
 
 Danke, dass du BTLB nutzt, und viel Erfolg im Studium!
+
+#### Novedades (Español)
+
+¡Hola, Staatsbibliothek zu Berlin! Ahora puedes buscar en el catálogo de la Stabi directamente en BTLB.
+
+Todas tus cuentas en una pestaña: la nueva pestaña Cuentas muestra los préstamos y los cargos de todas tus cuentas en un solo lugar. Ahí mismo también puedes añadir, editar y eliminar cuentas.
+
+La búsqueda se integra a la perfección en iOS: ahora está en la pestaña de búsqueda estándar. Tu historial de búsqueda ya no se esconde detrás del teclado y el botón de la biblioteca sigue a la vista mientras buscas.
+
+¿Eres nuevo? Inicia sesión en cualquier biblioteca con el usuario «demo» y la contraseña «demo» para probar BTLB con préstamos y cargos de ejemplo.
+
+Las recomendaciones de libros con IA ahora son más seguras: solo se envían los títulos de los marcadores que seleccionas y, si algo falla, un mensaje claro te explica por qué.
+
+Y muchos detalles pulidos: botones renovados que muestran cuándo algo se está cargando, detalles del préstamo que puedes abrir a media altura o a pantalla completa y cerrar con un simple gesto, y una confirmación rápida antes de eliminar un marcador.
+
+¡Gracias por usar BTLB y mucha suerte con tus estudios!
+
+#### Nouveautés (Français)
+
+Bonjour la Staatsbibliothek zu Berlin ! Vous pouvez désormais rechercher dans le catalogue de la Stabi directement depuis BTLB.
+
+Tous vos comptes dans un seul onglet : le nouvel onglet Comptes affiche les emprunts et les frais de tous vos comptes au même endroit. Vous pouvez aussi y ajouter, modifier et supprimer des comptes.
+
+La recherche s'intègre parfaitement à iOS : elle se trouve désormais dans l'onglet de recherche standard. Votre historique de recherche ne se cache plus derrière le clavier, et le bouton de la bibliothèque reste visible pendant que vous cherchez.
+
+Nouveau ici ? Connectez-vous à n'importe quelle bibliothèque avec l'identifiant « demo » et le mot de passe « demo » pour essayer BTLB avec des emprunts et des frais fictifs.
+
+Les recommandations de livres par IA sont désormais plus sûres : seuls les titres des signets que vous sélectionnez sont envoyés, et en cas de problème, un message clair vous en explique la raison.
+
+Et de nombreuses finitions : des boutons repensés qui indiquent quand un chargement est en cours, des détails d'emprunt que vous pouvez ouvrir à mi-hauteur ou en plein écran et fermer d'un simple geste, et une petite confirmation avant de supprimer un signet.
+
+Merci d'utiliser BTLB, et bonne réussite dans vos études !
+
+#### Yenilikler (Türkçe)
+
+Merhaba Staatsbibliothek zu Berlin! Artık Stabi kataloğunda doğrudan BTLB içinden arama yapabilirsiniz.
+
+Tüm hesaplarınız tek bir sekmede: Yeni Hesaplar sekmesi, tüm hesaplarınızdaki ödünç alınanları ve ücretleri tek bir yerde gösterir. Hesapları da doğrudan burada ekleyebilir, düzenleyebilir ve silebilirsiniz.
+
+Arama iOS'a kusursuz şekilde uyum sağlıyor: Artık standart arama sekmesinde yer alıyor. Arama geçmişiniz artık klavyenin arkasında kalmıyor ve kütüphane düğmesi arama yaparken görünür kalıyor.
+
+Yeni misiniz? Herhangi bir kütüphanede kullanıcı adı "demo" ve şifre "demo" ile giriş yaparak BTLB'yi örnek ödünç alınanlar ve ücretlerle deneyin.
+
+Yapay zekâ kitap önerileri artık daha güvenli: Yalnızca seçtiğiniz yer işaretlerinin başlıkları gönderilir ve bir sorun olursa, açık bir mesaj nedenini size söyler.
+
+Ayrıca pek çok iyileştirme: Bir şey yüklenirken bunu gösteren yenilenmiş düğmeler, yarım ya da tam yükseklikte açıp kolayca kaydırarak kapatabileceğiniz ödünç ayrıntıları ve bir yer işaretini silmeden önce kısa bir onay.
+
+BTLB'yi kullandığınız için teşekkürler, derslerinizde başarılar!
+
+#### Що нового (Українська)
+
+Привіт, Staatsbibliothek zu Berlin! Тепер ви можете шукати в каталозі Stabi прямо в BTLB.
+
+Усі облікові записи в одній вкладці: нова вкладка «Облікові записи» показує позики та збори всіх ваших облікових записів в одному місці. Там же можна додавати, редагувати й видаляти облікові записи.
+
+Пошук ідеально вписується в iOS: тепер він у стандартній вкладці пошуку. Історія пошуку більше не ховається за клавіатурою, а кнопка бібліотеки залишається на виду, поки ви шукаєте.
+
+Ви тут уперше? Увійдіть у будь-якій бібліотеці з іменем користувача «demo» і паролем «demo», щоб спробувати BTLB із прикладами позик і зборів.
+
+ШІ-рекомендації книг тепер надійніше захищені: надсилаються лише назви вибраних вами закладок, а якщо щось піде не так, зрозуміле повідомлення пояснить чому.
+
+А ще багато дрібних покращень: оновлені кнопки, які показують, коли щось завантажується, деталі позики, які можна відкрити на пів екрана або на весь екран і просто змахнути, та коротке підтвердження перед видаленням закладки.
+
+Дякуємо, що користуєтеся BTLB, і успіхів у навчанні!
 
 ### 2.29.0
 
