@@ -1,5 +1,9 @@
 ## Changelog
 
+### 2.31.0
+
+• Export a bookmark, all bookmarks or a search result: choose text, Markdown or Zotero, then share it. The Zotero file imports in Zotero on your Mac
+
 ### 2.30.0
 
 • Loans and charges of every account in a single Accounts tab

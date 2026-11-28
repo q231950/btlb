@@ -86,6 +86,10 @@ struct SearchResultDetailView: View {
             availabilitiesButton
         }
 
+        ToolbarItem(placement: .topBarLeading) {
+            exportButton
+        }
+
         ToolbarItem(placement: .topBarTrailing) {
             doneButton
         }
@@ -102,6 +106,12 @@ struct SearchResultDetailView: View {
 
         ToolbarItem(placement: .topBarLeading) {
             availabilitiesButton
+        }
+
+        ToolbarSpacer(.fixed)
+
+        ToolbarItem(placement: .topBarLeading) {
+            exportButton
         }
 
         ToolbarSpacer(.flexible)
@@ -137,6 +147,14 @@ struct SearchResultDetailView: View {
         }
         .disabled(viewModel.details == nil)
         .tint(availabilitiesButtonTint)
+    }
+
+    /// Exports the search result in a format to choose, once its details are loaded
+    @ViewBuilder private var exportButton: some View {
+        BibliographyExportMenu(
+            name: viewModel.result.title,
+            records: viewModel.bibliographicRecord.map { [$0] } ?? []
+        )
     }
 
     private var availabilitiesButtonImageName: String {
