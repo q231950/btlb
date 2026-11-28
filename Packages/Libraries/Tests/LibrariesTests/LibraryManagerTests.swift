@@ -87,20 +87,51 @@ final class LibraryManagerTests: XCTestCase {
         XCTAssertEqual(sut.searchLibrary, berlin.objectID)
     }
 
-    func test_searchesTheDefaultLibrary_whenTheSearchLibraryWasRemoved() {
+    func test_searchesTheDefaultLibrary_whenTheSearchLibraryWasRemoved() throws {
         userDefaults.set("REMOVED", forKey: searchLibraryKey)
 
         sut.loadOrUpdateLibraries(in: context, libraryProvider: LibraryModelProviderStub(libraries: [.berlin, .hamburg]))
 
         XCTAssertNil(userDefaults.string(forKey: searchLibraryKey))
+        let berlin = try XCTUnwrap(storedLibrary(identifier: "BERLIN"))
+        XCTAssertEqual(sut.searchLibrary, berlin.objectID)
     }
 
-    func test_keepsTheSearchLibrary_whenItIsStillProvided() {
+    func test_keepsTheSearchLibrary_whenItIsStillProvided() throws {
         userDefaults.set("HAMBURG", forKey: searchLibraryKey)
 
         sut.loadOrUpdateLibraries(in: context, libraryProvider: LibraryModelProviderStub(libraries: [.berlin, .hamburg]))
 
         XCTAssertEqual(userDefaults.string(forKey: searchLibraryKey), "HAMBURG")
+        let hamburg = try XCTUnwrap(storedLibrary(identifier: "HAMBURG"))
+        XCTAssertEqual(sut.searchLibrary, hamburg.objectID)
+    }
+
+    func test_searchesBerlin_whenNoSearchLibraryWasSelected() throws {
+        sut.loadOrUpdateLibraries(in: context, libraryProvider: LibraryModelProviderStub(libraries: [.berlin, .hamburg, .hamburgPublic]))
+
+        let berlin = try XCTUnwrap(storedLibrary(identifier: "BERLIN"))
+        XCTAssertEqual(sut.searchLibrary, berlin.objectID)
+    }
+
+    func test_doesNotStoreTheDefaultSearchLibrary() {
+        sut.loadOrUpdateLibraries(in: context, libraryProvider: LibraryModelProviderStub(libraries: [.berlin, .hamburg]))
+
+        _ = sut.searchLibrary
+
+        // a stored default would be kept like a selection of the user when the default changes
+        XCTAssertNil(userDefaults.string(forKey: searchLibraryKey))
+    }
+
+    func test_keepsHamburgPublic_whenItIsTheStoredSearchLibrary() throws {
+        // stored by earlier versions, either as the former default or selected by the user
+        userDefaults.set("HAMBURGPUBLIC", forKey: searchLibraryKey)
+
+        sut.loadOrUpdateLibraries(in: context, libraryProvider: LibraryModelProviderStub(libraries: [.berlin, .hamburgPublic]))
+
+        XCTAssertEqual(userDefaults.string(forKey: searchLibraryKey), "HAMBURGPUBLIC")
+        let hamburgPublic = try XCTUnwrap(storedLibrary(identifier: "HAMBURGPUBLIC"))
+        XCTAssertEqual(sut.searchLibrary, hamburgPublic.objectID)
     }
 
     // MARK: Helpers
@@ -149,4 +180,5 @@ private extension LibraryModel {
     static let berlin = LibraryModel(name: "Berlin", subtitle: "Staatsbibliothek Preußischer Kulturbesitz", identifier: "BERLIN")
     static let stabikat = LibraryModel(name: "Berlin", subtitle: "StabiKat – Staatsbibliothek zu Berlin", identifier: "STABIKAT", enabledForLogin: false)
     static let hamburg = LibraryModel(name: "Hamburg", subtitle: "Staats und Universitätsbibliothek Hamburg", identifier: "HAMBURG")
+    static let hamburgPublic = LibraryModel(name: "Hamburg", subtitle: "Stiftung Hamburger Öffentliche Bücherhallen", identifier: "HAMBURGPUBLIC", enabledForSearch: false, enabledForLogin: false)
 }

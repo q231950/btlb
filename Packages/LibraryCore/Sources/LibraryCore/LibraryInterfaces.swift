@@ -623,7 +623,7 @@ public protocol Library: Identifiable, Hashable {
     var enabledForLogin: Bool { get }
 }
 
-var kDefaultSearchLibraryIdentifier: String { "HAMBURGPUBLIC" }
+var kDefaultSearchLibraryIdentifier: String { "BERLIN" }
 
 public struct Recommendation: Hashable {
     public let recommendations: [BookRecommendation]
