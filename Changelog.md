@@ -3,6 +3,7 @@
 ### 2.31.0
 
 • Export a bookmark, all bookmarks or a search result: choose text, Markdown or Zotero, then share it. The Zotero file imports in Zotero on your Mac
+• Search starts with the Staatsbibliothek zu Berlin until you choose another library
 
 #### What's new (English)
 
@@ -11,6 +12,8 @@ New in BTLB: export your bookmarks and search results.
 Tap the share button on a bookmark, in your list of bookmarks or on a search result and choose a format: text, Markdown or Zotero. Then share it with another app, in a message or via AirDrop to your Mac.
 
 The Zotero file imports straight into Zotero on your Mac, so your sources are ready for your next paper.
+
+New to BTLB? Search now starts with the Staatsbibliothek zu Berlin. Tap the library button to choose another library.
 
 Thanks for using BTLB, and good luck with your studies!
 
@@ -22,6 +25,8 @@ Tippe bei einem Lesezeichen, in deiner Lesezeichenliste oder bei einem Suchergeb
 
 Die Zotero-Datei importierst du direkt in Zotero auf deinem Mac, so sind deine Quellen bereit für die nächste Hausarbeit.
 
+Neu bei BTLB? Die Suche startet jetzt mit der Staatsbibliothek zu Berlin. Tippe auf den Bibliotheks-Button, um eine andere Bibliothek zu wählen.
+
 Danke, dass du BTLB nutzt, und viel Erfolg im Studium!
 
 #### Novedades (Español)
@@ -31,6 +36,8 @@ Novedad en BTLB: exporta tus marcadores y resultados de búsqueda.
 Toca el botón de compartir en un marcador, en tu lista de marcadores o en un resultado de búsqueda y elige un formato: texto, Markdown o Zotero. Después compártelo con otra app, en un mensaje o por AirDrop con tu Mac.
 
 El archivo de Zotero se importa directamente en Zotero en tu Mac, así tus fuentes están listas para tu próximo trabajo.
+
+¿Eres nuevo en BTLB? La búsqueda empieza ahora con la Staatsbibliothek zu Berlin. Toca el botón de la biblioteca para elegir otra biblioteca.
 
 ¡Gracias por usar BTLB y mucha suerte con tus estudios!
 
@@ -42,6 +49,8 @@ Touchez le bouton de partage sur un signet, dans votre liste de signets ou sur u
 
 Le fichier Zotero s'importe directement dans Zotero sur votre Mac : vos sources sont prêtes pour votre prochain travail.
 
+Nouveau sur BTLB ? La recherche commence désormais avec la Staatsbibliothek zu Berlin. Touchez le bouton de la bibliothèque pour en choisir une autre.
+
 Merci d'utiliser BTLB, et bonne réussite dans vos études !
 
 #### Yenilikler (Türkçe)
@@ -52,6 +61,8 @@ Bir yer işaretinde, yer işaretleri listenizde veya bir arama sonucunda paylaş
 
 Zotero dosyası doğrudan Mac'inizdeki Zotero'ya aktarılabilir; böylece kaynaklarınız bir sonraki ödeviniz için hazır olur.
 
+BTLB'de yeni misiniz? Arama artık Staatsbibliothek zu Berlin ile başlıyor. Başka bir kütüphane seçmek için kütüphane düğmesine dokunun.
+
 BTLB'yi kullandığınız için teşekkürler, derslerinizde başarılar!
 
 #### Що нового (Українська)
@@ -61,6 +72,8 @@ BTLB'yi kullandığınız için teşekkürler, derslerinizde başarılar!
 Торкніться кнопки «Поділитися» в закладці, у списку закладок або в результаті пошуку та виберіть формат: текст, Markdown або Zotero. Потім поділіться ним з іншою програмою, у повідомленні або через AirDrop зі своїм Mac.
 
 Файл Zotero можна одразу імпортувати в Zotero на вашому Mac, тож ваші джерела будуть готові до наступної роботи.
+
+Вперше в BTLB? Пошук тепер починається зі Staatsbibliothek zu Berlin. Торкніться кнопки бібліотеки, щоб вибрати іншу бібліотеку.
 
 Дякуємо, що користуєтеся BTLB, і успіхів у навчанні!
 

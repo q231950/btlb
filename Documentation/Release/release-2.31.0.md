@@ -54,6 +54,7 @@ User-facing, as listed in `Changelog.md` 2.31.0:
 | Change | PR |
 |---|---|
 | Export a bookmark, all bookmarks or a search result as text, Markdown or Zotero RDF, via the share sheet | #40 (open) |
+| Search starts with "Berlin – Staatsbibliothek Preußischer Kulturbesitz" until the user chooses another library (was "Hamburg – Bücherhallen") | default-search-library-berlin |
 
 Not user-facing:
 
@@ -82,8 +83,8 @@ Not user-facing:
 
 ## 2. App Store "What's New" texts
 
-Copied verbatim from `Changelog.md` → 2.31.0. They are only about the export, the only
-user-facing change. All are far below the 4000-character limit.
+Copied verbatim from `Changelog.md` → 2.31.0. They are about the export and, in one line for new
+users, the Berlin default search library. All are far below the 4000-character limit.
 
 PR #40 also adds a `### 2.31.0` section to `Changelog.md` with the same bullet, word for word.
 Whichever of the two PRs is merged second gets a trivial conflict in `Changelog.md`: keep this
@@ -100,6 +101,8 @@ Tap the share button on a bookmark, in your list of bookmarks or on a search res
 
 The Zotero file imports straight into Zotero on your Mac, so your sources are ready for your next paper.
 
+New to BTLB? Search now starts with the Staatsbibliothek zu Berlin. Tap the library button to choose another library.
+
 Thanks for using BTLB, and good luck with your studies!
 ```
 
@@ -111,6 +114,8 @@ Neu in BTLB: Exportiere deine Lesezeichen und Suchergebnisse.
 Tippe bei einem Lesezeichen, in deiner Lesezeichenliste oder bei einem Suchergebnis auf den Teilen-Button und wähle ein Format: Text, Markdown oder Zotero. Dann teilst du es mit einer anderen App, in einer Nachricht oder per AirDrop mit deinem Mac.
 
 Die Zotero-Datei importierst du direkt in Zotero auf deinem Mac, so sind deine Quellen bereit für die nächste Hausarbeit.
+
+Neu bei BTLB? Die Suche startet jetzt mit der Staatsbibliothek zu Berlin. Tippe auf den Bibliotheks-Button, um eine andere Bibliothek zu wählen.
 
 Danke, dass du BTLB nutzt, und viel Erfolg im Studium!
 ```
@@ -124,6 +129,8 @@ Toca el botón de compartir en un marcador, en tu lista de marcadores o en un re
 
 El archivo de Zotero se importa directamente en Zotero en tu Mac, así tus fuentes están listas para tu próximo trabajo.
 
+¿Eres nuevo en BTLB? La búsqueda empieza ahora con la Staatsbibliothek zu Berlin. Toca el botón de la biblioteca para elegir otra biblioteca.
+
 ¡Gracias por usar BTLB y mucha suerte con tus estudios!
 ```
 
@@ -135,6 +142,8 @@ Nouveau dans BTLB : exportez vos signets et vos résultats de recherche.
 Touchez le bouton de partage sur un signet, dans votre liste de signets ou sur un résultat de recherche, puis choisissez un format : texte, Markdown ou Zotero. Partagez-le ensuite avec une autre app, dans un message ou par AirDrop vers votre Mac.
 
 Le fichier Zotero s'importe directement dans Zotero sur votre Mac : vos sources sont prêtes pour votre prochain travail.
+
+Nouveau sur BTLB ? La recherche commence désormais avec la Staatsbibliothek zu Berlin. Touchez le bouton de la bibliothèque pour en choisir une autre.
 
 Merci d'utiliser BTLB, et bonne réussite dans vos études !
 ```
@@ -148,6 +157,8 @@ Bir yer işaretinde, yer işaretleri listenizde veya bir arama sonucunda paylaş
 
 Zotero dosyası doğrudan Mac'inizdeki Zotero'ya aktarılabilir; böylece kaynaklarınız bir sonraki ödeviniz için hazır olur.
 
+BTLB'de yeni misiniz? Arama artık Staatsbibliothek zu Berlin ile başlıyor. Başka bir kütüphane seçmek için kütüphane düğmesine dokunun.
+
 BTLB'yi kullandığınız için teşekkürler, derslerinizde başarılar!
 ```
 
@@ -159,6 +170,8 @@ BTLB'yi kullandığınız için teşekkürler, derslerinizde başarılar!
 Торкніться кнопки «Поділитися» в закладці, у списку закладок або в результаті пошуку та виберіть формат: текст, Markdown або Zotero. Потім поділіться ним з іншою програмою, у повідомленні або через AirDrop зі своїм Mac.
 
 Файл Zotero можна одразу імпортувати в Zotero на вашому Mac, тож ваші джерела будуть готові до наступної роботи.
+
+Вперше в BTLB? Пошук тепер починається зі Staatsbibliothek zu Berlin. Торкніться кнопки бібліотеки, щоб вибрати іншу бібліотеку.
 
 Дякуємо, що користуєтеся BTLB, і успіхів у навчанні!
 ```
@@ -229,7 +242,7 @@ NEW IN 2.31.0: EXPORT
 Bookmarks and search results can be exported as text, Markdown or a Zotero file (Zotero is a free reference manager for researchers). Export happens entirely on the device: the app sends nothing anywhere. The iOS share sheet opens and you choose where the export goes.
 
 How to try it:
-1. Search tab (magnifying glass): tap the library button and select "Berlin – Staatsbibliothek Preußischer Kulturbesitz", then search e.g. "Kafka" and open a result.
+1. Search tab (magnifying glass): search e.g. "Kafka" in "Berlin – Staatsbibliothek Preußischer Kulturbesitz", the library search starts with (the library button shows it), and open a result.
 2. Wait until the details have loaded, then tap the share icon at the top (next to the bookmark and availability buttons). Choose "Text", "Markdown" or "Zotero". The share sheet opens; e.g. tap "Copy", "Notes" or "Save to Files".
 3. Tap the bookmark button to bookmark the result. You can also bookmark a loan of the demo account (see below).
 4. Bookmarks tab: the share icon at the top right exports all bookmarks shown in the list. Open a bookmark: the share icon next to the trash button exports that bookmark.
@@ -405,6 +418,8 @@ the existing `Localization.Titles.bookmarks`. No missing translations.
 - [ ] Archive 2.31.0 with Xcode Cloud from `main`; check the version is 2.31.0 and note the build number
 - [ ] Tag the release (e.g. `v2.31.0`)
 - [ ] Run #40's LibraryCore tests (`BibliographicRecordMapperTests`, `BibliographyFormatterTests`, `ZoteroRDFWriterTests`) in Xcode
+- [ ] Run `LibraryManagerTests` (Libraries package) in Xcode for the Berlin default search library
+- [ ] Fresh install: the search tab starts with "Berlin – Staatsbibliothek Preußischer Kulturbesitz"; an update from 2.30.0 keeps the search library it had
 - [ ] TestFlight on a real iOS 26 device: export from bookmark list, bookmark detail and a search result in all three formats; Copy, Notes, Mail, Save to Files, AirDrop to a Mac; import the `.rdf` in Zotero on a Mac
 - [ ] TestFlight: demo sign-in, renew, refresh, search (Berlin), bookmark, AI recommendations, widget, Siri renewal (#39 touched the renewal intent view and widget)
 - [ ] Revoke / rotate the **old OpenRouter API key** that shipped inside 2.28.0 / 2.29.0 (#37), if not done yet
@@ -447,11 +462,13 @@ the existing `Localization.Titles.bookmarks`. No missing translations.
 
 ### Carried over from 2.30.0
 
-8. **Default search library is "Hamburg – Bücherhallen", which is disabled for search.**
-   `LibraryManager` uses `HAMBURGPUBLIC` as `defaultSearchLibraryIdentifier` until the user picks
-   another library. On a fresh install a reviewer who searches without choosing a library may get
-   errors or no results, and then can't try the search result export. The review notes say to
-   choose Berlin first. Consider changing the default to `BERLIN`.
+8. **Default search library is now `BERLIN`** (was `HAMBURGPUBLIC`, which is disabled for
+   search), so a reviewer on a fresh install searches Berlin without choosing a library.
+   `LibraryManager` no longer stores the default in `search_Library`, only a library the user
+   selects. **Existing users keep their search library:** earlier versions stored the default as
+   soon as the search was set up, so a stored `HAMBURGPUBLIC` can't be told apart from a choice and
+   is kept. Only users without a stored search library (new installs, or a removed library) get
+   Berlin. Moving stored `HAMBURGPUBLIC` to `BERLIN` too would be a separate decision.
 9. **Login library selection text mentions the Bücherhallen,** although Bücherhallen sign-in is
    disabled (`LibrarySelectionView.swift`). The German version starts with "Derzeit unterstützt
    die Suche …", which talks about search, not login.

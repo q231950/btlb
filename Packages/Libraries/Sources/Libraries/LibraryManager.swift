@@ -9,7 +9,8 @@ import Persistence
 private enum Constants {
     static let settingsSearchLibrary = "search_Library"
     static let versionKey = "version"
-    static let defaultSearchLibraryIdentifier = "HAMBURGPUBLIC"
+    /// The search library of users who haven't selected one, the Staatsbibliothek zu Berlin
+    static let defaultSearchLibraryIdentifier = "BERLIN"
     static let librariesKey = "Libraries"
     static let baseUrlKey = "base_url"
     static let catalogUrlKey = "catalog_url"
@@ -33,13 +34,12 @@ public final class LibraryManager: LibraryProvider {
         return searchLibrary
     }
 
+    /// The library the user selected for search, or the default search library.
+    /// The default isn't stored, so that only a selection of the user is kept and users who haven't
+    /// selected a library get a changed default.
     public var searchLibrary: NSManagedObjectID? {
         let libraryIdentifier = userDefaults.string(forKey: Constants.settingsSearchLibrary)
         ?? Constants.defaultSearchLibraryIdentifier
-
-        if userDefaults.string(forKey: Constants.settingsSearchLibrary) == nil {
-            userDefaults.set(libraryIdentifier, forKey: Constants.settingsSearchLibrary)
-        }
 
         return library(forIdentifier: libraryIdentifier,
                        in: persistentContainer.newBackgroundContext())
