@@ -22,7 +22,9 @@ vendor
 !default.perspectivev3
 xcuserdata
 .DS_Store
-Screenshots
+# fastlane snapshot output stays ignored, the versioned screenshots in Screenshots/<version> are stored in Git LFS
+Screenshots/*
+!Screenshots/[0-9]*/
 
 ## Other
 *.xccheckout

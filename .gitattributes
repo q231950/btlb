@@ -1,0 +1,1 @@
+Screenshots/[0-9]*/**/*.png filter=lfs diff=lfs merge=lfs -text
