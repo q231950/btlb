@@ -4,6 +4,66 @@
 
 • Export a bookmark, all bookmarks or a search result: choose text, Markdown or Zotero, then share it. The Zotero file imports in Zotero on your Mac
 
+#### What's new (English)
+
+New in BTLB: export your bookmarks and search results.
+
+Tap the share button on a bookmark, in your list of bookmarks or on a search result and choose a format: text, Markdown or Zotero. Then share it with another app, in a message or via AirDrop to your Mac.
+
+The Zotero file imports straight into Zotero on your Mac, so your sources are ready for your next paper.
+
+Thanks for using BTLB, and good luck with your studies!
+
+#### Neu in dieser Version (Deutsch)
+
+Neu in BTLB: Exportiere deine Lesezeichen und Suchergebnisse.
+
+Tippe bei einem Lesezeichen, in deiner Lesezeichenliste oder bei einem Suchergebnis auf den Teilen-Button und wähle ein Format: Text, Markdown oder Zotero. Dann teilst du es mit einer anderen App, in einer Nachricht oder per AirDrop mit deinem Mac.
+
+Die Zotero-Datei importierst du direkt in Zotero auf deinem Mac, so sind deine Quellen bereit für die nächste Hausarbeit.
+
+Danke, dass du BTLB nutzt, und viel Erfolg im Studium!
+
+#### Novedades (Español)
+
+Novedad en BTLB: exporta tus marcadores y resultados de búsqueda.
+
+Toca el botón de compartir en un marcador, en tu lista de marcadores o en un resultado de búsqueda y elige un formato: texto, Markdown o Zotero. Después compártelo con otra app, en un mensaje o por AirDrop con tu Mac.
+
+El archivo de Zotero se importa directamente en Zotero en tu Mac, así tus fuentes están listas para tu próximo trabajo.
+
+¡Gracias por usar BTLB y mucha suerte con tus estudios!
+
+#### Nouveautés (Français)
+
+Nouveau dans BTLB : exportez vos signets et vos résultats de recherche.
+
+Touchez le bouton de partage sur un signet, dans votre liste de signets ou sur un résultat de recherche, puis choisissez un format : texte, Markdown ou Zotero. Partagez-le ensuite avec une autre app, dans un message ou par AirDrop vers votre Mac.
+
+Le fichier Zotero s'importe directement dans Zotero sur votre Mac : vos sources sont prêtes pour votre prochain travail.
+
+Merci d'utiliser BTLB, et bonne réussite dans vos études !
+
+#### Yenilikler (Türkçe)
+
+BTLB'de yeni: Yer işaretlerinizi ve arama sonuçlarınızı dışa aktarın.
+
+Bir yer işaretinde, yer işaretleri listenizde veya bir arama sonucunda paylaş düğmesine dokunun ve bir biçim seçin: metin, Markdown veya Zotero. Ardından başka bir uygulamayla, bir mesajla ya da AirDrop ile Mac'inizle paylaşın.
+
+Zotero dosyası doğrudan Mac'inizdeki Zotero'ya aktarılabilir; böylece kaynaklarınız bir sonraki ödeviniz için hazır olur.
+
+BTLB'yi kullandığınız için teşekkürler, derslerinizde başarılar!
+
+#### Що нового (Українська)
+
+Нове в BTLB: експортуйте закладки та результати пошуку.
+
+Торкніться кнопки «Поділитися» в закладці, у списку закладок або в результаті пошуку та виберіть формат: текст, Markdown або Zotero. Потім поділіться ним з іншою програмою, у повідомленні або через AirDrop зі своїм Mac.
+
+Файл Zotero можна одразу імпортувати в Zotero на вашому Mac, тож ваші джерела будуть готові до наступної роботи.
+
+Дякуємо, що користуєтеся BTLB, і успіхів у навчанні!
+
 ### 2.30.0
 
 • Loans and charges of every account in a single Accounts tab
