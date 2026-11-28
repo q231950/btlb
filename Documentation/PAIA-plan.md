@@ -1,6 +1,6 @@
 # Plan: PAIA patron login for GBV libraries (Staatsbibliothek zu Berlin, DE-1)
 
-Status: draft, nothing implemented yet.
+Status: draft, nothing implemented yet. First real responses captured on DE-18 (see Findings from DE-18).
 
 ## Why
 
@@ -56,19 +56,91 @@ JSON `{ error, code?, error_description?, error_uri? }`:
 - 403 `insufficient_scope` / `access_denied`
 - 404 `not_found`, 422/400 `invalid_request`, 5xx `internal_error`, `service_unavailable`, ...
 
+## Findings from DE-18
+
+A real session against Staatsbibliothek Hamburg (ISIL DE-18, `https://paia.gbv.de/DE-18`). It runs the same software as DE-1 (`vzg-paia/2.9.0`, `X-PAIA-Version: 1.4.0`), so these are a strong hint for Berlin, but each point is observed on DE-18 only: confirm on DE-1.
+
+Only read-only GETs with a Bearer token were run (`core/{patron}`, `/items`, `/fees`). Login itself was not run (the token was supplied), and renew and logout were not tried. Personal data below is replaced by placeholders.
+
+Scopes
+- `X-OAuth-Scopes: update_patron_email read_availability write_items read_items read_fees read_patron`: plural `read_items`/`write_items`.
+- Responses also send `X-Accepted-OAuth-Scopes` (`read_patron`, `read_items`, `read_fees` for the respective endpoint).
+
+Patron id
+- 11-digit card number, e.g. `0018XXXXXXX`. Only digits, so no escaping needed.
+
+GET `core/{patron}`
+
+```json
+{ "address": "<address>", "email": "<email>", "expires": "2027-11-30", "name": "<name>", "status": 0, "type": ["de-18:user-type:20"] }
+```
+
+- `expires` is date-only.
+
+GET `core/{patron}/items`
+
+```json
+{ "doc": [ {
+  "about": "Metaanalyse / Eisend, Martin *1968-* (2020)",
+  "cancancel": false,
+  "canrenew": true,
+  "edition": "http://uri.gbv.de/document/opac-de-18:ppn:1686775911",
+  "endtime": "2027-01-04",
+  "item": "http://uri.gbv.de/document/opac-de-18:bar:XXXXXXXXX",
+  "label": "SUB-SB:A 2020/4402",
+  "queue": 0,
+  "reminder": 0,
+  "renewals": 0,
+  "starttime": "2026-11-28",
+  "status": 3,
+  "storage": "<b>Ausleihzentrum</b> Staats- und Universitätsbibliothek",
+  "storageid": "http://uri.gbv.de/organization/isil/DE-18@counter-1"
+} ] }
+```
+
+- `starttime`/`endtime` are date-only, no time or timezone.
+- `about` is `Title / Author *lifedates* (year)` in one string: split on ` / ` and handle the trailing `(year)`.
+- `item` URI ends in `:bar:<barcode>`, so the barcode (`loanBarcode`) is the part after `:bar:`.
+- `edition` URI carries the PPN after `:ppn:`.
+- `canrenew`, `renewals`, `queue`, `reminder` are all filled.
+- `storage` contains HTML tags (`<b>`) that must be stripped.
+- Only status 3 seen (2 loans); the account had no reservations.
+
+GET `core/{patron}/fees`
+
+```json
+{ "amount": "1.00 EUR", "fee": [ {
+  "about": "<same format as items about>",
+  "amount": "1.00 EUR",
+  "date": "2025-05-01T00:44:10+02:00",
+  "feetype": "Mahngebuehr",
+  "feetypeid": "de-18:fee-type:3",
+  "item": "http://uri.gbv.de/document/opac-de-18:bar:XXXXXXXXX"
+} ] }
+```
+
+- `amount` is a string `"<decimal> EUR"`.
+- `fee.date` is full ISO 8601 with offset, unlike the date-only loan dates.
+- `feetype` is German text without umlauts; there is also a `feetypeid` URI.
+
+Errors
+- Invalid token: HTTP 401 `{"code":401,"error":"invalid_grant","error_description":"The access token was missing, invalid or expired"}` (note the extra `code` field).
+- Wrong credentials at `auth/login` (dummy user, tested on both DE-1 and DE-18): HTTP 403 `{"error":"access_denied","error_description":"invalid patron or password"}`.
+
 ## Open questions (answer with a real login)
 
-1. Exact scope names: spec says both `read_items`/`write_items` and `read_item`/`write_item`. DE-1 test client lists `read_patron read_fees read_items write_items read_availability change_password reset_password update_patron update_patron_email`.
-2. Username format: library card number? With or without prefix? Does the OPAC password work?
-3. Patron id format returned by login (needed for URL escaping).
-4. Real date formats of `starttime`/`endtime`/`expires`/`fee.date` (timezone? date only?).
-5. What `item` URIs look like, and whether they contain the barcode BTLB uses as `loanBarcode`.
-6. Whether `about` holds title and author together, and in what format.
-7. Whether `canrenew`, `renewals`, `queue`, `reminder` are actually filled.
-8. Fee amount format and `feetype` values.
-9. Token lifetime (`expires_in`).
-10. What a refused renewal looks like (`error` text, status, `canrenew`).
-11. Whether reserved/ready-for-pickup items (status 1, 4) appear and how BTLB should treat them (probably skip for v1, only status 3 are loans).
+1. ~~Exact scope names~~: answered, plural `read_items`/`write_items` (see Findings from DE-18; confirm on DE-1).
+2. Username format: library card number? With or without prefix? Does the OPAC password work? Still open (login was not run).
+3. ~~Patron id format~~: answered, 11-digit card number, no escaping needed (DE-18; confirm on DE-1).
+4. ~~Date formats~~: answered, `starttime`/`endtime`/`expires` date-only, `fee.date` ISO 8601 with offset (DE-18; confirm on DE-1).
+5. ~~`item` URIs and barcode~~: answered, `...:bar:<barcode>`, barcode after `:bar:` (DE-18; confirm on DE-1).
+6. ~~`about` format~~: answered, `Title / Author *lifedates* (year)` (DE-18; confirm on DE-1).
+7. ~~`canrenew`, `renewals`, `queue`, `reminder` filled~~: answered, all filled (DE-18; confirm on DE-1).
+8. ~~Fee amount format and `feetype`~~: answered, `"1.00 EUR"`, German `feetype` plus `feetypeid` (DE-18; confirm on DE-1).
+9. Token lifetime (`expires_in`). Still open.
+10. What a refused renewal looks like (`error` text, status, `canrenew`). Still open.
+11. Whether reserved/ready-for-pickup items (status 1, 4) appear and how BTLB should treat them (probably skip for v1, only status 3 are loans). Still open, the DE-18 account had none.
+12. Whether DE-1 behaves the same as DE-18 for all of the above. Still open, only the wrong-credentials login error was checked on DE-1.
 
 ## Step 1: Gather real responses
 
@@ -127,7 +199,7 @@ Then anonymise the captures before they become fixtures: replace name, email, ad
    - `mapper.rs`: pure functions DTO → `Account`, `Loan`, `Balance`, `Charge`:
      - only `status == 3` docs become loans (v1)
      - `endtime` → `date_due` as `dd.MM.yyyy`
-     - `item` URI → `renewal_token`; barcode → `item_number` (from item URI or label, per Step 1 findings)
+     - `item` URI → `renewal_token`; barcode → `item_number` (part of the item URI after `:bar:`, per Findings from DE-18)
      - `about` → title/author, `label` → signature, `canrenew` → `can_renew`, `renewals` → `renewals_count`
      - fees: parse `"2.00 EUR"` → `f64`, `date` → epoch seconds, `about`/`feetype` → reason
      - renew response doc → `Loan`; doc `error` → renewal failure
